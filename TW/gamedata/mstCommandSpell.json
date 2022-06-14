@@ -1,0 +1,166 @@
+[
+  {
+    "consume": 1,
+    "createdAt": "0",
+    "detail": "1騎從者的HP全恢復",
+    "funcId": [
+      452
+    ],
+    "id": 1,
+    "motion": 201,
+    "name": "靈基修復",
+    "priority": 150,
+    "script": "",
+    "vals": [
+      "[1000,1000,Unaffected:1]"
+    ],
+    "type": 1,
+    "updatedAt": "0"
+  },
+  {
+    "consume": 3,
+    "createdAt": "0",
+    "detail": "讓全滅的隊伍全員復活",
+    "funcId": [
+      1
+    ],
+    "id": 2,
+    "motion": 202,
+    "name": "靈基復原",
+    "priority": 100,
+    "script": "",
+    "vals": [
+      "[1,0]"
+    ],
+    "type": 2,
+    "updatedAt": "0"
+  },
+  {
+    "consume": 1,
+    "createdAt": "0",
+    "detail": "讓出擊中的全體從者的NP+100％",
+    "funcId": [
+      1
+    ],
+    "id": 3,
+    "motion": 201,
+    "name": "寶具填充",
+    "priority": 100,
+    "script": "",
+    "vals": [
+      "[1,0]"
+    ],
+    "type": 0,
+    "updatedAt": "0"
+  },
+  {
+    "consume": 1,
+    "createdAt": "0",
+    "detail": "讓出擊中的全體從者的技能變為可使用的狀態",
+    "funcId": [
+      1
+    ],
+    "id": 4,
+    "motion": 201,
+    "name": "技能填充",
+    "priority": 100,
+    "script": "",
+    "vals": [
+      "[1,0]"
+    ],
+    "type": 0,
+    "updatedAt": "0"
+  },
+  {
+    "consume": 1,
+    "createdAt": "0",
+    "detail": "下一次分配的指令卡全部為Quick指令卡",
+    "funcId": [
+      1
+    ],
+    "id": 5,
+    "motion": 201,
+    "name": "全迅指令",
+    "priority": 100,
+    "script": "",
+    "vals": [
+      "[1,0]"
+    ],
+    "type": 0,
+    "updatedAt": "0"
+  },
+  {
+    "consume": 1,
+    "createdAt": "0",
+    "detail": "下一次分配的指令卡全部為Arts指令卡",
+    "funcId": [
+      1
+    ],
+    "id": 6,
+    "motion": 201,
+    "name": "全技指令",
+    "priority": 100,
+    "script": "",
+    "vals": [
+      "[1,0]"
+    ],
+    "type": 0,
+    "updatedAt": "0"
+  },
+  {
+    "consume": 1,
+    "createdAt": "0",
+    "detail": "下一次分配的指令卡全部為Buster指令卡",
+    "funcId": [
+      1
+    ],
+    "id": 7,
+    "motion": 201,
+    "name": "全力指令",
+    "priority": 100,
+    "script": "",
+    "vals": [
+      "[1,0]"
+    ],
+    "type": 0,
+    "updatedAt": "0"
+  },
+  {
+    "consume": 1,
+    "createdAt": "0",
+    "detail": "強制讓出擊中的從者和替補成員交換",
+    "funcId": [
+      1
+    ],
+    "id": 8,
+    "motion": 201,
+    "name": "隊員交換",
+    "priority": 100,
+    "script": "",
+    "vals": [
+      "[1,0]"
+    ],
+    "type": 0,
+    "updatedAt": "0"
+  },
+  {
+    "consume": 1,
+    "createdAt": "0",
+    "detail": "1騎從者的NP+100%",
+    "funcId": [
+      464
+    ],
+    "id": 9,
+    "motion": 201,
+    "name": "寶具解放",
+    "priority": 200,
+    "script": {
+      "checkUseTreasure": 1
+    },
+    "vals": [
+      "[3000,10000,Unaffected:1]"
+    ],
+    "type": 1,
+    "updatedAt": "0"
+  }
+]
