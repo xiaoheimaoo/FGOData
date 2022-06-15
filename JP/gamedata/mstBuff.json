@@ -62160,6 +62160,110 @@
   {
     "vals": [
       3004,
+      3006,
+      3028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4360,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "パーティ効果：威力アップ",
+    "detail": "与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3014,
+      3047,
+      3045,
+      3077
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "AppId": 9941020
+    },
+    "id": 4371,
+    "buffGroup": 502,
+    "type": 32,
+    "name": "豚化",
+    "detail": "姿が豚になり行動不能になる",
+    "iconId": 548,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      3077
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3077
+    ],
+    "script": {},
+    "id": 4372,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "豚化無効",
+    "detail": "豚化を受けなくなる",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4004
+    ],
+    "ckSelfIndv": [
+      4004
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4373,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Extra Attack時追加効果",
+    "detail": "Extra Attack時に味方全体のNPを少し増やす",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2386
+    },
+    "id": 4376,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "宝具威力アップ〔増殖〕",
+    "detail": "自身の〔増殖〕が多いほど宝具で与えるダメージをアップ",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
       3006
     ],
     "tvals": [
