@@ -62178,6 +62178,43 @@
   },
   {
     "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4361,
+    "buffGroup": 0,
+    "type": 95,
+    "name": "登場時スター獲得",
+    "detail": "フィールドに登場した時、スター獲得効果が発生する",
+    "iconId": 325,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3025
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 4366,
+    "buffGroup": 800,
+    "type": 33,
+    "name": "スキル封印",
+    "detail": "スキルを使用できなくなる＜スキルや概念礼装による無効化はできない＞",
+    "iconId": 511,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3005,
       3014,
       3047,
