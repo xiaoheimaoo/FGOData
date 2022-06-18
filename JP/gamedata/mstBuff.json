@@ -62195,6 +62195,40 @@
   },
   {
     "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4362,
+    "buffGroup": 0,
+    "type": 151,
+    "name": "パーティ効果：被クリティカル発生耐性アップ",
+    "detail": "クリティカル攻撃を受ける確率を減らす",
+    "iconId": 363,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4363,
+    "buffGroup": 0,
+    "type": 153,
+    "name": "パーティ効果：被スター発生耐性アップ",
+    "detail": "スターが発生する確率を減らす",
+    "iconId": 364,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3005,
       3025
     ],
@@ -62208,8 +62242,42 @@
     "buffGroup": 800,
     "type": 33,
     "name": "スキル封印",
-    "detail": "スキルを使用できなくなる＜スキルや概念礼装による無効化はできない＞",
+    "detail": "スキルを使用できなくなる<スキルや概念礼装による無効化はできない>",
     "iconId": 511,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4367,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動(クリティカル発生率アップ)",
+    "detail": "攻撃を受けると自身のクリティカル発生率をアップ",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4368,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "トラッシュ＆クラッシュ",
+    "detail": "ENEMY側のパッションリップと戦闘時、味方全体のHPを3000減らす<ENEMY側のパッションリップには無効>【デメリット】",
+    "iconId": 520,
     "maxRate": 0,
     "effectId": 0
   },
