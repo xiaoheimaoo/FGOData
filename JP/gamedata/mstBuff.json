@@ -62229,6 +62229,36 @@
   },
   {
     "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3004,
+      3006,
+      3007,
+      3027,
+      3058,
+      3031,
+      3021,
+      3018,
+      3024,
+      3030,
+      3032,
+      3019
+    ],
+    "script": {},
+    "id": 4364,
+    "buffGroup": 0,
+    "type": 100,
+    "name": "パーティ効果：強化解除耐性アップ",
+    "detail": "強化解除耐性をアップ",
+    "iconId": 348,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3005,
       3025
     ],
@@ -62279,6 +62309,44 @@
     "detail": "ENEMY側のパッションリップと戦闘時、味方全体のHPを3000減らす<ENEMY側のパッションリップには無効>【デメリット】",
     "iconId": 520,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4369,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "オールドレイン",
+    "detail": "攻撃時に中確率で敵単体の強化状態を1つ解除＋解除成功時、自身の攻撃力をアップ＆防御力をダウン【デメリット】",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 0
+    },
+    "id": 4370,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "防御力ダウン",
+    "detail": "防御力をダウン<スキルや概念礼装による無効化はできない>",
+    "iconId": 504,
+    "maxRate": 5000,
     "effectId": 0
   },
   {
@@ -62364,6 +62432,28 @@
     "detail": "自身の〔増殖〕が多いほど宝具で与えるダメージをアップ",
     "iconId": 310,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4004
+    ],
+    "ckSelfIndv": [
+      4004
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4379,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Extra Attack時追加効果",
+    "detail": "Extra Attack時にスターを獲得する",
+    "iconId": 333,
+    "maxRate": 0,
     "effectId": 0
   },
   {
