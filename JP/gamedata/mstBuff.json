@@ -62259,6 +62259,27 @@
   },
   {
     "vals": [
+      3004
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {},
+    "id": 4365,
+    "buffGroup": 0,
+    "type": 29,
+    "name": "パーティ効果：弱体耐性アップ",
+    "detail": "弱体耐性をアップ",
+    "iconId": 306,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3005,
       3025
     ],
@@ -62416,6 +62437,42 @@
   {
     "vals": [
       3004,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4374,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "サードアイ",
+    "detail": "攻撃時に中確率でスキル封印・宝具封印・コマンドカード封印のいずれかを付与(1ターン)",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3015
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4375,
+    "buffGroup": 0,
+    "type": 8,
+    "name": "やけど",
+    "detail": "ターン終了時にHPが減る<スキルや概念礼装による無効化はできない>",
+    "iconId": 513,
+    "maxRate": 0,
+    "effectId": 17122
+  },
+  {
+    "vals": [
+      3004,
       3006,
       3030
     ],
@@ -62432,6 +62489,21 @@
     "detail": "自身の〔増殖〕が多いほど宝具で与えるダメージをアップ",
     "iconId": 310,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4377,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "黄金の豚の杯",
+    "detail": "グレートイビルなＢＢちゃんと戦闘時、豚化(1ターン)される<一部の特別な敵には無効>【デメリット】",
+    "iconId": 520,
+    "maxRate": 0,
     "effectId": 0
   },
   {
@@ -62470,6 +62542,29 @@
     "name": "Extra Attack時追加効果",
     "detail": "Extra Attack時にスターを獲得する",
     "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3014,
+      3047,
+      3045
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "AppId": 9941020,
+      "ProgressSelfTurn": 1
+    },
+    "id": 4396,
+    "buffGroup": 502,
+    "type": 32,
+    "name": "豚化",
+    "detail": "姿が豚になり行動不能になる",
+    "iconId": 548,
     "maxRate": 0,
     "effectId": 0
   },
