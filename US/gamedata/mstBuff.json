@@ -5871,7 +5871,7 @@
     "buffGroup": 0,
     "type": 43,
     "name": "SG \"Hypersensitivity\"",
-    "detail": "Decrease DEF & increase Charge by one at the end of each turn for yourself",
+    "detail": "Decrease DEF [Demerit] & increase Charge by one at the end of each turn for yourself",
     "iconId": 504,
     "maxRate": 5000,
     "effectId": 0
@@ -5914,15 +5914,19 @@
     "vals": [
       2084
     ],
-    "tvals": [],
+    "tvals": [
+      3005
+    ],
     "ckSelfIndv": [],
-    "ckOpIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
     "script": {},
     "id": 413,
     "buffGroup": 0,
     "type": 29,
     "name": "SG \"Masochistic Nature\"",
-    "detail": "Increase resistance against all debuffs",
+    "detail": "Increase debuff resistance",
     "iconId": 306,
     "maxRate": 5000,
     "effectId": 0
@@ -5939,7 +5943,7 @@
     "buffGroup": 0,
     "type": 89,
     "name": "SG \"Sloppiness\"",
-    "detail": "Target receives Death with normal attacks",
+    "detail": "Chance to inflict Death to a single enemy with normal attacks",
     "iconId": 333,
     "maxRate": 0,
     "effectId": 0
@@ -5999,12 +6003,16 @@
     "vals": [],
     "tvals": [
       3014,
-      3012
+      3012,
+      3013,
+      3045
     ],
     "ckSelfIndv": [],
     "ckOpIndv": [
       3014,
-      3012
+      3012,
+      3013,
+      3045
     ],
     "script": {},
     "id": 418,
@@ -6143,7 +6151,7 @@
     "buffGroup": 0,
     "type": 72,
     "name": "Unbreakable Iron Will",
-    "detail": "Apply Ignore Invincible & increase NP Strength for yourself [Unremovable]",
+    "detail": "Apply Ignore Invincible & increase NP Strength for yourself",
     "iconId": 329,
     "maxRate": 0,
     "effectId": 0
@@ -6318,13 +6326,15 @@
     "tvals": [
       3014,
       3012,
-      3013
+      3013,
+      3045
     ],
     "ckSelfIndv": [],
     "ckOpIndv": [
       3014,
       3012,
-      3013
+      3013,
+      3045
     ],
     "script": {},
     "id": 436,
@@ -6576,7 +6586,7 @@
     "buffGroup": 0,
     "type": 114,
     "name": "Mikotto Summer Tiiime!",
-    "detail": "Increase Charge by 2 each turn [Unremovable]",
+    "detail": "Increase Charge by 1 each turn",
     "iconId": 319,
     "maxRate": 0,
     "effectId": 0
@@ -6591,7 +6601,7 @@
     "buffGroup": 600,
     "type": 37,
     "name": "I Am Having Fun",
-    "detail": "When HP reaches 0, recover HP and survive [Unremovable]",
+    "detail": "When HP reaches 0, recover HP and survive",
     "iconId": 304,
     "maxRate": 0,
     "effectId": 0
@@ -22000,7 +22010,7 @@
     "id": 1527,
     "buffGroup": 0,
     "type": 85,
-    "name": "Triggers Each Turn (Charge Gauge)",
+    "name": "Charge Plus Each Turn",
     "detail": "Set Charge to maximum each turn",
     "iconId": 343,
     "maxRate": 0,
@@ -30611,7 +30621,7 @@
     "buffGroup": 0,
     "type": 144,
     "name": "BGO Tie Tamper",
-    "detail": "Apply weakness to Alter Ego attacks",
+    "detail": "DEF disadvantage against [Alter Ego] class [Demerit]",
     "iconId": 520,
     "maxRate": 0,
     "effectId": 0
@@ -36725,6 +36735,127 @@
     "detail": "Increase ATK",
     "iconId": 300,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2916,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Activate when Attacking (Skill Seal)",
+    "detail": "Very low chance to inflict Skill Seal with normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2917,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "SG \"Servile Nature\"",
+    "detail": "Increase ATK",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [
+      4008
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2918,
+    "buffGroup": 0,
+    "type": 148,
+    "name": "Pre-ATK Damage Bonus Effect (Critical STR Up)",
+    "detail": "Before inflicting damage from normal attacks, increase Critical Strength for yourself",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058,
+      2664,
+      2665
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 2919,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "NP Res. Up [Growth]",
+    "detail": "Increase NP resistance (subject to remove [Growth])",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      2387,
+      2386,
+      3043
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2920,
+    "buffGroup": 0,
+    "type": 81,
+    "name": "Growth",
+    "detail": "Increase Max HP",
+    "iconId": 330,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      2387
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2922,
+    "buffGroup": 2922,
+    "type": 85,
+    "name": "Infinite Growth",
+    "detail": "Apply [Growth] at the end of turn & apply increase NP attack resistance ・Growth (subject to remove [Growth])",
+    "iconId": 343,
+    "maxRate": 0,
     "effectId": 0
   },
   {
