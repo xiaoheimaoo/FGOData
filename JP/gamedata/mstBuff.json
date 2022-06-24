@@ -62547,6 +62547,298 @@
   },
   {
     "vals": [
+      3004,
+      3006,
+      3027,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4380,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "踊り続ける呪い",
+    "detail": "赤い靴がフィールドに存在している間、味方全体の攻撃力をアップ＆最大HPを増やす",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3043,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4381,
+    "buffGroup": 0,
+    "type": 81,
+    "name": "最大HP加算",
+    "detail": "",
+    "iconId": 330,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4382,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "声なき想い",
+    "detail": "人魚姫がフィールドに存在している間、味方全体に毎ターン宝具チャージが1増える状態を付与＆クリティカル威力をアップ＆クリティカル発生率をアップ",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031,
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4383,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "クリティカル威力アップ",
+    "detail": "",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032,
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 4384,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "クリティカル発生アップ",
+    "detail": "",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4385,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "ゼンマイを巻き戻す",
+    "detail": "宝具攻撃時、自身にスタン状態を付与",
+    "iconId": 549,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4386,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "貪欲の念",
+    "detail": "HPが0になった時、控えの青鬼の最大HPがアップ",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4387,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "掉挙の念",
+    "detail": "HPが0になった時、控えの青鬼に「通常攻撃時に敵単体の防御力をダウン」を付与",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6029
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4388,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "惛沈の念",
+    "detail": "HPが0になった時、控えの青鬼に「通常攻撃時に敵単体の攻撃力をダウン」を付与",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4389,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "疑の念",
+    "detail": "HPが0になった時、控えの青鬼の宝具威力をアップ",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4390,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "瞋恚の念",
+    "detail": "HPが0になった時、控えの青鬼の攻撃力をアップ",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4391,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "惛沈の念",
+    "detail": "自身の通常攻撃時に敵単体に攻撃力をダウンを付与する",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4392,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "掉挙の念",
+    "detail": "自身の通常攻撃時に敵単体に防御力をダウンを付与する",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4393,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "攻撃力をアップ",
+    "detail": "味方全体のオールドギアの攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4394,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "遅延発動(チャージを1進める＆最大HPをアップ)",
+    "detail": "1ターン経過後に自身のチャージを1増やす＆最大HPがアップ",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4395,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "遅延発動(スタン状態付与＆Quickカード性能ダウン)",
+    "detail": "1ターン経過後に自身にスタン状態を付与＆Quickカードの性能をダウン",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3005,
       3014,
       3047,
@@ -62566,6 +62858,82 @@
     "detail": "姿が豚になり行動不能になる",
     "iconId": 548,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4397,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "声なき想い",
+    "detail": "白紙の人魚姫2がフィールドに存在している間、味方全体に毎ターン宝具チャージが1増える状態を付与＆クリティカル威力をアップ＆クリティカル発生率をアップ",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031,
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4398,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "クリティカル威力アップ",
+    "detail": "",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032,
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 4399,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "クリティカル発生アップ",
+    "detail": "",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3023
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4400,
+    "buffGroup": 700,
+    "type": 38,
+    "name": "機械仕掛けの護り",
+    "detail": "ターゲットを固定する",
+    "iconId": 323,
+    "maxRate": 50000,
     "effectId": 0
   },
   {
