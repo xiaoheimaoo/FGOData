@@ -62075,6 +62075,21 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4355,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "忠魂義胆の真髄",
+    "detail": "『南溟弓張八犬伝』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004,
       3007,
@@ -62934,6 +62949,47 @@
     "detail": "ターゲットを固定する",
     "iconId": 323,
     "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4405,
+    "buffGroup": 0,
+    "type": 2,
+    "name": "スター集中アップ",
+    "detail": "スターの集まりやすさをアップ",
+    "iconId": 325,
+    "maxRate": 500000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4406,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Arts攻撃時追加効果",
+    "detail": "Artsカードで攻撃時、味方全体の攻撃力をアップ",
+    "iconId": 333,
+    "maxRate": 0,
     "effectId": 0
   },
   {
