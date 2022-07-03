@@ -62987,6 +62987,40 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4403,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "攻撃時追加効果(NP減少)",
+    "detail": "自身の通常攻撃時に敵単体のNPを減少",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4404,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "攻撃時追加効果(チャージ増加)",
+    "detail": "自身の通常攻撃時にチャージを増やす",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004
     ],
@@ -63025,6 +63059,63 @@
     "detail": "Artsカードで攻撃時、味方全体の攻撃力をアップ",
     "iconId": 333,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4407,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "ガッツ時発動(宝具威力アップ＆弱体解除)",
+    "detail": "ガッツ発動時、宝具威力をアップ＆弱体状態を解除",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4408,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動(宝具威力アップ)",
+    "detail": "毎ターン終了時、自身の宝具威力をアップ",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4409,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Busterアップ",
+    "detail": "〔水辺〕のあるフィールドにおいてのみ、Busterカードの性能をアップ",
+    "iconId": 314,
+    "maxRate": 5000,
     "effectId": 0
   },
   {
