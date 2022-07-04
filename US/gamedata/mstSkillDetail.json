@@ -141,8 +141,8 @@
   },
   {
     "id": 15551,
-    "detail": "Increase ATK [{0}] (3 turns) & apply a state that \"increases your Critical Strength before receiving normal attack damage (3 turns)\" (3 turns) [g][o]▲[/o][/g] & decrease DEF (3 turns) [Demerit] for yourself",
-    "detailShort": "Increase ATK [{0}] (3 turns) & apply a state that \"increases your Critical Strength before receiving normal attack damage (3 turns)\" (3 turns) [g][o]▲[/o][/g] & decrease DEF (3 turns) [Demerit] for yourself"
+    "detail": "Increase ATK [\\{0}] (3 turns) & apply a state that \"increases your Critical Strength before dealing normal attack damage (3 turns)\" (3 turns) [g][o]▲[/o][/g] & decrease DEF (3 turns) [Demerit] for yourself",
+    "detailShort": "Increase ATK [\\{0}] (3 turns) & apply a state that \"increases your Critical Strength before dealing normal attack damage (3 turns)\" (3 turns) [g][o]▲[/o][/g] & decrease DEF (3 turns) [Demerit] for yourself"
   },
   {
     "id": 16450,
@@ -1700,6 +1700,11 @@
     "detailShort": "Increase NP Gauge & restore HP per turn [{0}] (5 turns) & gain C. Stars per turn [{0}] (5 turns) for yourself"
   },
   {
+    "id": 147551,
+    "detail": "Increase NP Gauge & restore HP each turn [{0}] (5 turns) & gain C. Stars each turn [{0}] (5 turns) & increase NP Gauge each turn (5 turns) [g][o]▲[/o][/g] for yourself",
+    "detailShort": "Increase NP Gauge & restore HP each turn [{0}] (5 turns) & gain C. Stars each turn [{0}] (5 turns) & increase NP Gauge each turn (5 turns) [g][o]▲[/o][/g] for yourself"
+  },
+  {
     "id": 148550,
     "detail": "Decrease Debuff Resist [{0}] (1 turn) & inflict NP Seal (1 turn) for one enemy",
     "detailShort": "Decrease Debuff Resist [{0}] (1 turn) & inflict NP Seal (1 turn) for one enemy"
@@ -2906,8 +2911,8 @@
   },
   {
     "id": 351550,
-    "detail": "Apply attack advantage against [Ruler] Class for yourself",
-    "detailShort": "Apply attack advantage against [Ruler] Class for yourself"
+    "detail": "Apply Special Attack against [Ruler] Class for yourself",
+    "detailShort": "Apply Special Attack against [Ruler] Class for yourself"
   },
   {
     "id": 352550,
@@ -4973,6 +4978,31 @@
     "id": 753451,
     "detail": "Increase Debuff Resist & Debuff Resist against [Undead] for yourself",
     "detailShort": "Increase Debuff Resist & Debuff Resist against [Undead] for yourself"
+  },
+  {
+    "id": 757451,
+    "detail": "Chance to inflict Charm [{0}] (1 turn) to a single enemy [g][o]▲[/o][/g] & remove Buffs [g][o]▲[/o][/g] for a single enemy",
+    "detailShort": "Chance to inflict Charm [{0}] (1 turn) to a single enemy [g][o]▲[/o][/g] & remove Buffs [g][o]▲[/o][/g] for a single enemy"
+  },
+  {
+    "id": 761450,
+    "detail": "Increase ATK [{0}] (3 turns) & increase NP Gauge [{0}] for all allies",
+    "detailShort": "Increase ATK [{0}] (3 turns) & increase NP Gauge [{0}] for all allies"
+  },
+  {
+    "id": 762550,
+    "detail": "Increase NP Gauge [{0}] for a single ally + Increase NP Gain [{0}] (3 turns) for all allies",
+    "detailShort": "Increase NP Gauge [{0}] for a single ally + Increase NP Gain [{0}] (3 turns) for all allies"
+  },
+  {
+    "id": 763650,
+    "detail": "Increase Arts Card effectiveness [{0}] (3 turns) & apply Special Attack [Threat to Humanity] [{0}] (3 turns) & apply Invincible (1 turn) for a single ally",
+    "detailShort": "Increase Arts Card effectiveness [{0}] (3 turns) & apply Special Attack [Threat to Humanity] [{0}] (3 turns) & apply Invincible (1 turn) for a single ally"
+  },
+  {
+    "id": 764450,
+    "detail": "Increase Arts Card Critical Strength for yourself",
+    "detailShort": "Increase Arts Card Critical Strength for yourself"
   },
   {
     "id": 940001,
@@ -16813,6 +16843,56 @@
     "id": 992239,
     "detail": "Increase your ATK Strength by 200% in \"Revival: All In! Las Vegas Championship Match - Seven Duels of Swordbeauties! - Lite\" [MAX] [Event Only]",
     "detailShort": "Increase your ATK Strength by 200% in \"Revival: All In! Las Vegas Championship Match - Seven Duels of Swordbeauties! - Lite\" [MAX] [Event Only]"
+  },
+  {
+    "id": 992270,
+    "detail": "Increase NP Gain by 5% to the engraved Card ",
+    "detailShort": "Increase NP Gain by 5% to the engraved Card "
+  },
+  {
+    "id": 992271,
+    "detail": "Increase Quick Card effectiveness by 8% & Buster Card effectiveness by 8% & begin battle with NP charged at 50% for yourself",
+    "detailShort": "Increase Quick Card effectiveness by 8% & Buster Card effectiveness by 8% & begin battle with NP charged at 50% for yourself"
+  },
+  {
+    "id": 992272,
+    "detail": "Increase Quick Card effectiveness by 10% & Buster Card effectiveness by 10% & begin battle with NP charged at 60% for yourself [MAX]",
+    "detailShort": "Increase Quick Card effectiveness by 10% & Buster Card effectiveness by 10% & begin battle with NP charged at 60% for yourself [MAX]"
+  },
+  {
+    "id": 992273,
+    "detail": "Increase NP Strength by 15% & increase NP Charge by 1 level when using NP (1 time) for yourself",
+    "detailShort": "Increase NP Strength by 15% & increase NP Charge by 1 level when using NP (1 time) for yourself"
+  },
+  {
+    "id": 992274,
+    "detail": "Increase NP Strength by 20% & increase NP Charge by 1 level when using NP (1 time) for yourself [MAX]",
+    "detailShort": "Increase NP Strength by 20% & increase NP Charge by 1 level when using NP (1 time) for yourself [MAX]"
+  },
+  {
+    "id": 992275,
+    "detail": "Restore 50 HP each turn & apply Damage Cut 100 for yourself",
+    "detailShort": "Restore 50 HP each turn & apply Damage Cut 100 for yourself"
+  },
+  {
+    "id": 992276,
+    "detail": "Restore 100 HP each turn & apply Damage Cut 200 for yourself [MAX]",
+    "detailShort": "Restore 100 HP each turn & apply Damage Cut 200 for yourself [MAX]"
+  },
+  {
+    "id": 992277,
+    "detail": "Increase Master EXP gained when completing quests by 1% & Mystic Code EXP gained by 1%",
+    "detailShort": "Increase Master EXP gained when completing quests by 1% & Mystic Code EXP gained by 1%"
+  },
+  {
+    "id": 992278,
+    "detail": "Increase Master EXP gained when completing quests by 5% & Mystic Code EXP gained by 5% [MAX]",
+    "detailShort": "Increase Master EXP gained when completing quests by 5% & Mystic Code EXP gained by 5% [MAX]"
+  },
+  {
+    "id": 992279,
+    "detail": "Increase ATK by 10% & NP Gain by 10% for all allies only if [servantName 504500](Caster) is equipped with this Craft Essence when she is on the field.",
+    "detailShort": "Increase ATK by 10% & NP Gain by 10% for all allies only if [servantName 504500](Caster) is equipped with this Craft Essence when she is on the field."
   },
   {
     "id": 992280,

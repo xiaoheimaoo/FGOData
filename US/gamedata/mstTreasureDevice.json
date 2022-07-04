@@ -7038,6 +7038,22 @@
   },
   {
     "individuality": [
+      3000,
+      4007
+    ],
+    "script": {},
+    "id": 734,
+    "seqId": 9943160,
+    "name": "Dazzling Success",
+    "ruby": "-",
+    "rank": "None",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
       3002,
       4002,
       4007,
@@ -7951,7 +7967,15 @@
       4007,
       4101
     ],
-    "script": {},
+    "script": {
+      "tdTypeChangeIDs": [
+        200198,
+        200101
+      ],
+      "excludeTdChangeTypes": [
+        3
+      ]
+    },
     "id": 200101,
     "seqId": 200100,
     "name": "Unlimited Blade Works",
@@ -7969,8 +7993,68 @@
       4007,
       4101
     ],
-    "script": {},
+    "script": {
+      "tdTypeChangeIDs": [
+        200197,
+        200102
+      ],
+      "excludeTdChangeTypes": [
+        3
+      ]
+    },
     "id": 200102,
+    "seqId": 200100,
+    "name": "Unlimited Blade Works",
+    "ruby": " ",
+    "rank": "E～A",
+    "maxLv": 5,
+    "typeText": "????",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3001,
+      4001,
+      4007,
+      4101
+    ],
+    "script": {
+      "tdTypeChangeIDs": [
+        200197,
+        200102
+      ],
+      "excludeTdChangeTypes": [
+        3
+      ]
+    },
+    "id": 200197,
+    "seqId": 200100,
+    "name": "Unlimited Blade Works",
+    "ruby": " ",
+    "rank": "E～A",
+    "maxLv": 5,
+    "typeText": "????",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3001,
+      4001,
+      4007,
+      4101
+    ],
+    "script": {
+      "tdTypeChangeIDs": [
+        200198,
+        200101
+      ],
+      "excludeTdChangeTypes": [
+        3
+      ]
+    },
+    "id": 200198,
     "seqId": 200100,
     "name": "Unlimited Blade Works",
     "ruby": " ",
@@ -12102,6 +12186,28 @@
   },
   {
     "individuality": [
+      3002,
+      4001,
+      4007
+    ],
+    "script": {
+      "limitSeqId_1": 504500,
+      "limitSeqId_3": 504520,
+      "limitSeqId_4": 504520,
+      "limitSeqId_2": 504500
+    },
+    "id": 504501,
+    "seqId": 504500,
+    "name": "Around Caliburn",
+    "ruby": " ",
+    "rank": "A",
+    "maxLv": 5,
+    "typeText": "Anti-Army",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
       3000,
       4003,
       4007
@@ -13004,6 +13110,7 @@
       4007
     ],
     "script": {
+      "limitSeqId_11": 603310,
       "limitSeqId_1": 603301,
       "limitSeqId_3": 603300,
       "limitSeqId_4": 603300,
@@ -13818,7 +13925,13 @@
       4007,
       4101
     ],
-    "script": {},
+    "script": {
+      "limitSeqId_11": 702801,
+      "limitSeqId_1": 702800,
+      "limitSeqId_3": 702800,
+      "limitSeqId_4": 702800,
+      "limitSeqId_2": 702800
+    },
     "id": 702801,
     "seqId": 702800,
     "name": "Marvelous Exploits",

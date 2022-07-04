@@ -3945,7 +3945,7 @@
     "id": 305,
     "buffGroup": 0,
     "type": 18,
-    "name": "Critical Up",
+    "name": "Critical Hit Rate Up",
     "detail": "Increase Critical damage [Unremovable]",
     "iconId": 324,
     "maxRate": 5000,
@@ -36859,6 +36859,192 @@
     "effectId": 0
   },
   {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2923,
+    "buffGroup": 1400,
+    "type": 156,
+    "name": "Command Card Type Change",
+    "detail": "Change Command Card type",
+    "iconId": 366,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "EffectId": 2019
+    },
+    "id": 2924,
+    "buffGroup": 0,
+    "type": 3,
+    "name": "Under the Same Sky",
+    "detail": "Increase C. Star drop rate",
+    "iconId": 321,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2925,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "Activate when Guts is Triggered (Buster Up)",
+    "detail": "Increase Buster Card effectiveness when Guts is activated",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3064,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2926,
+    "buffGroup": 250,
+    "type": 157,
+    "name": "Anti-Enforcement DEF",
+    "detail": "Disregard [Ignore Invincible] and reduce ATK damage received to 0",
+    "iconId": 368,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 200100
+    },
+    "id": 2927,
+    "buffGroup": 0,
+    "type": 143,
+    "name": "NP Type Change",
+    "detail": "Change NP Type",
+    "iconId": 361,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 200100
+    },
+    "id": 2928,
+    "buffGroup": 0,
+    "type": 145,
+    "name": "NP Type Change: Arts",
+    "detail": "Change NP Type to Arts",
+    "iconId": 361,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 200100
+    },
+    "id": 2929,
+    "buffGroup": 0,
+    "type": 146,
+    "name": "NP Type Change: Buster",
+    "detail": "Change NP Type to Buster",
+    "iconId": 361,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 200100
+    },
+    "id": 2930,
+    "buffGroup": 0,
+    "type": 147,
+    "name": "NP Type Change: Quick",
+    "detail": "Change NP Type to Quick",
+    "iconId": 361,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [
+      4008
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2931,
+    "buffGroup": 0,
+    "type": 17,
+    "name": "NP Gain Up",
+    "detail": "Increase NP Gain of the engraved Command Card",
+    "iconId": 303,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2932,
+    "buffGroup": 601,
+    "type": 37,
+    "name": "Guts",
+    "detail": "When HP reaches 0, recover HP and survive (stackable with other Guts)",
+    "iconId": 304,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
     "vals": [],
     "tvals": [],
     "ckSelfIndv": [],
@@ -36867,8 +37053,44 @@
     "id": 2933,
     "buffGroup": 0,
     "type": 11,
-    "name": "Defender of Humanity",
-    "detail": "Increase ATK by 50%",
+    "name": "Station Guard for Humanity",
+    "detail": "Increase ATK strength by 50%",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2934,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "ATK Up",
+    "detail": "As HP gets lower, ATK increases",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "EffectId": 2019
+    },
+    "id": 2943,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "",
+    "detail": "",
     "iconId": 302,
     "maxRate": 10000,
     "effectId": 0
