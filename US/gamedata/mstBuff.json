@@ -4112,7 +4112,8 @@
       3018,
       3024,
       3030,
-      3032
+      3032,
+      3019
     ],
     "script": {},
     "id": 314,
@@ -10871,7 +10872,8 @@
       3018,
       3024,
       3030,
-      3032
+      3032,
+      3019
     ],
     "script": {},
     "id": 887,
@@ -14122,7 +14124,8 @@
       3018,
       3024,
       3030,
-      3032
+      3032,
+      3019
     ],
     "script": {},
     "id": 1076,
@@ -36738,6 +36741,36 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2914,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Servant Camper",
+    "detail": "Increase damage dealt during \"Servant Summer Camp! - Chaldea's Thriller Night\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2915,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Strength Up",
+    "detail": "Increase damage dealt during \"Servant Summer Camp! - Chaldea's Thriller Night\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004
     ],
@@ -37079,6 +37112,161 @@
     "effectId": 0
   },
   {
+    "vals": [
+      3005,
+      3045,
+      3010,
+      3066
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ReleaseText": "Remove Sleep",
+      "DamageRelease": 1
+    },
+    "id": 2935,
+    "buffGroup": 503,
+    "type": 32,
+    "name": "Sleep",
+    "detail": "Become incapacitated (Removed when sustaining attack)",
+    "iconId": 557,
+    "maxRate": 0,
+    "effectId": 2001001
+  },
+  {
+    "vals": [
+      3005,
+      3045,
+      3010,
+      3066
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ReleaseText": "Remove Sleep",
+      "DamageRelease": 1
+    },
+    "id": 2936,
+    "buffGroup": 503,
+    "type": 32,
+    "name": "Sleep",
+    "detail": "Become incapacitated (Removed when sustaining attack)",
+    "iconId": 557,
+    "maxRate": 0,
+    "effectId": 2001002
+  },
+  {
+    "vals": [
+      3004,
+      3065
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2937,
+    "buffGroup": 0,
+    "type": 154,
+    "name": "Skill Rank Up",
+    "detail": "Increase skill's rank",
+    "iconId": 367,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3010,
+      3038
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "missText": "Critical MISS"
+    },
+    "id": 2938,
+    "buffGroup": 0,
+    "type": 71,
+    "name": "Enchant",
+    "detail": "Decrease Critical Hit Rate (Treated as Mental Debuff)",
+    "iconId": 520,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3010
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2939,
+    "buffGroup": 0,
+    "type": 4,
+    "name": "Enchant",
+    "detail": "Decrease C. Star drop rate (Treated as Mental Debuff)",
+    "iconId": 520,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2940,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "Staying Up Late",
+    "detail": "Apply Stun (1 turn) to yourself after 3 turns",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2941,
+    "buffGroup": 0,
+    "type": 17,
+    "name": "NP Gain Up: Near Water",
+    "detail": "Increase NP Gain only on fields [Near Water]",
+    "iconId": 303,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2942,
+    "buffGroup": 0,
+    "type": 17,
+    "name": "NP Gain Up: Sunlight",
+    "detail": "Increase NP Gain only on fields with [Sunlight]",
+    "iconId": 303,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
     "vals": [],
     "tvals": [],
     "ckSelfIndv": [],
@@ -37093,6 +37281,764 @@
     "detail": "",
     "iconId": 302,
     "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      3015
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3015
+    ],
+    "script": {},
+    "id": 2945,
+    "buffGroup": 0,
+    "type": 112,
+    "name": "STR Up (Burn)",
+    "detail": "Increase damage dealt against [Burned] enemies",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2946,
+    "buffGroup": 0,
+    "type": 104,
+    "name": "Guts",
+    "detail": "When HP reaches 0, recover HP and survive (stackable with other Guts)",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2669
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2947,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Killer of Pleasure",
+    "detail": "Gain resistance to all attacks & decrease damage taken ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2669
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2948,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "Damage Cut",
+    "detail": "Decrease damage taken",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      2701
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2701
+    ],
+    "script": {},
+    "id": 2949,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "ATK Down",
+    "detail": "Decrease ATK against [Illya (Archer)]",
+    "iconId": 503,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      2701
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2701
+    ],
+    "script": {},
+    "id": 2950,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "DEF Down",
+    "detail": "Decrease DEF against [Illya (Archer)]",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2670
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2951,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Killer's Principle",
+    "detail": "Gain resistance to all attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2670
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2952,
+    "buffGroup": 600,
+    "type": 104,
+    "name": "Killer's Principle",
+    "detail": "When HP reaches 0, recover HP and survive",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2702
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2953,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Grudge",
+    "detail": "Gain resistance to all attacks & decrease damage taken ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2702
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2954,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "Damage Cut",
+    "detail": "Decrease damage taken",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2955,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Apply Trait [Anchin]",
+    "detail": "Apply [Anchin] trait",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      2703
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2703
+    ],
+    "script": {},
+    "id": 2956,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "STR Up [Anchin]",
+    "detail": "Increase damage dealt against [Anchin]",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2957,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "",
+    "detail": "",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      2705
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2705
+    ],
+    "script": {},
+    "id": 2958,
+    "buffGroup": 0,
+    "type": 112,
+    "name": "STR Up [Ghost]",
+    "detail": "Increase damage dealt against [Undead]",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [
+      2705
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2705
+    ],
+    "script": {},
+    "id": 2959,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "DEF Up [Ghost]",
+    "detail": "Increase DEF against [Undead] trait",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2708,
+      3018,
+      3021
+    ],
+    "tvals": [
+      304400
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2960,
+    "buffGroup": 0,
+    "type": 24,
+    "name": "Evade",
+    "detail": "Reduce ATK damage taken to 0",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2707
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2961,
+    "buffGroup": 0,
+    "type": 37,
+    "name": "Guts",
+    "detail": "When HP reaches 0, recover HP and survive (stackable with other Guts)",
+    "iconId": 304,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2962,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Mermaid's Nourishment",
+    "detail": "Apply [Skill Rank Up] every turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2963,
+    "buffGroup": 0,
+    "type": 4,
+    "name": "???",
+    "detail": "Decrease C. Star drop rate",
+    "iconId": 510,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3066
+    },
+    "id": 2964,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "DEF Down (Sleep)",
+    "detail": "Decrease DEF when in [Sleep] state",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2710
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2965,
+    "buffGroup": 0,
+    "type": 104,
+    "name": "Guts",
+    "detail": "When HP reaches 0, recover HP and survive",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4101
+    ],
+    "script": {
+      "avoidanceText": "It's not hitting"
+    },
+    "id": 2966,
+    "buffGroup": 410,
+    "type": 155,
+    "name": "Shen's Dress",
+    "detail": "As long it's within attack range...",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2967,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "Delayed Effect (Buff)",
+    "detail": "After 2 turns, apply a state where \"Death will be applied to your ATK\"",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      103600
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      103600
+    ],
+    "script": {},
+    "id": 2968,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "STR Up (Dark Lan)",
+    "detail": "Increase damage dealt against [Dark Lan]",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [
+      103600
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      103600
+    ],
+    "script": {},
+    "id": 2969,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "DEF Up (Dark Lan)",
+    "detail": "Increase DEF against [Dark Lan]",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2711
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2970,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "Maiden of Madness",
+    "detail": "Increase DEF",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2971,
+    "buffGroup": 0,
+    "type": 37,
+    "name": "Really Persistent Zombie",
+    "detail": "When HP reaches 0, recover HP and survive",
+    "iconId": 304,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2972,
+    "buffGroup": 700,
+    "type": 38,
+    "name": "Sense of Existence",
+    "detail": "Set Target to yourself",
+    "iconId": 323,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2973,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect on Attack (Death)",
+    "detail": "Apply Death to a single enemy during attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2974,
+    "buffGroup": 0,
+    "type": 104,
+    "name": "Those Who Peek in the Abyss",
+    "detail": "When HP reaches 0, recover HP and survive",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2975,
+    "buffGroup": 0,
+    "type": 130,
+    "name": "",
+    "detail": "",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2712
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2976,
+    "buffGroup": 0,
+    "type": 37,
+    "name": "Infinite Energy (Kids)",
+    "detail": "When HP reaches 0, recover HP and survive",
+    "iconId": 304,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2977,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Time Lapse",
+    "detail": "When HP reaches 0, remove the Rowdy Kids' \"Infinite Energy (Kids)\" count by 2",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2978,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Time Lapse",
+    "detail": "When HP reaches 0, remove the Rowdy Kids' \"Infinite Energy (Kids)\" count by 5",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2713
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2979,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Cosmo Deflector",
+    "detail": "Gain resistance to all attacks & decrease resistance against Critical Attacks [Demerit]",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3037
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2980,
+    "buffGroup": 0,
+    "type": 19,
+    "name": "Santa-fying",
+    "detail": "Decrease Critical Strength that becomes more effective each turn & decrease ATK that becomes more effective each turn",
+    "iconId": 514,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3033
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2981,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "",
+    "detail": "",
+    "iconId": 503,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3010,
+      3049,
+      3063
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2982,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Terror",
+    "detail": "Chance to inflict Stun each turn",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2984,
+    "buffGroup": 0,
+    "type": 37,
+    "name": "Guts",
+    "detail": "When HP reaches 0, recover HP and survive",
+    "iconId": 304,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2985,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "Charge Plus Each Turn",
+    "detail": "Set Charge to maximum each turn",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2713
+    ],
+    "tvals": [
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4100
+    ],
+    "script": {},
+    "id": 2986,
+    "buffGroup": 0,
+    "type": 92,
+    "name": "",
+    "detail": "",
+    "iconId": 529,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2987,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Charge Plus Each Turn",
+    "detail": "Set Charge to maximum each turn",
+    "iconId": 343,
+    "maxRate": 0,
     "effectId": 0
   },
   {

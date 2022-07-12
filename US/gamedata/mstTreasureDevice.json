@@ -7042,6 +7042,54 @@
       4007
     ],
     "script": {},
+    "id": 667,
+    "seqId": 9942560,
+    "name": "Forced Mining",
+    "ruby": "-",
+    "rank": "None",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3000,
+      4007
+    ],
+    "script": {},
+    "id": 668,
+    "seqId": 9942610,
+    "name": "Surprise Attack",
+    "ruby": "-",
+    "rank": "None",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
+      4007
+    ],
+    "script": {},
+    "id": 669,
+    "seqId": 9942620,
+    "name": "Death's Journey",
+    "ruby": "-",
+    "rank": "None",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3000,
+      4007
+    ],
+    "script": {},
     "id": 734,
     "seqId": 9943160,
     "name": "Dazzling Success",
@@ -7778,12 +7826,36 @@
       4007
     ],
     "script": {
+      "limitSeqId_11": 103301,
       "limitSeqId_1": 103300,
       "limitSeqId_3": 103301,
       "limitSeqId_4": 103301,
       "limitSeqId_2": 103300
     },
     "id": 103301,
+    "seqId": 103300,
+    "name": "Bölverkr Gram",
+    "ruby": " ",
+    "rank": "A+",
+    "maxLv": 5,
+    "typeText": "Anti-Fortress",
+    "attackAttri": 1,
+    "effectFlag": 2
+  },
+  {
+    "individuality": [
+      3000,
+      4002,
+      4007
+    ],
+    "script": {
+      "limitSeqId_11": 103301,
+      "limitSeqId_1": 103300,
+      "limitSeqId_3": 103301,
+      "limitSeqId_4": 103301,
+      "limitSeqId_2": 103300
+    },
+    "id": 103302,
     "seqId": 103300,
     "name": "Bölverkr Gram",
     "ruby": " ",
@@ -7838,7 +7910,56 @@
       4001,
       4007
     ],
-    "script": {},
+    "script": {
+      "randomSeqIds_1": [
+        103600,
+        103600
+      ],
+      "randomSeqIds": [
+        103600,
+        103600
+      ],
+      "randomSeqIds_3": [
+        103600,
+        103600
+      ],
+      "randomSeqIds_2": [
+        103600,
+        103600
+      ],
+      "randomWeights_3": [
+        60,
+        40
+      ],
+      "randomSeqIds_11": [
+        103610,
+        103611
+      ],
+      "randomWeights_1": [
+        60,
+        40
+      ],
+      "randomWeights_2": [
+        60,
+        40
+      ],
+      "randomWeights": [
+        60,
+        40
+      ],
+      "randomWeights_4": [
+        60,
+        40
+      ],
+      "randomSeqIds_4": [
+        103600,
+        103600
+      ],
+      "randomWeights_11": [
+        60,
+        40
+      ]
+    },
     "id": 103601,
     "seqId": 103600,
     "name": "Prince of Lan Ling in Battle",
@@ -7976,6 +8097,29 @@
     "typeText": "Anti-Personnel",
     "attackAttri": 1,
     "effectFlag": 2
+  },
+  {
+    "individuality": [
+      3002,
+      4001,
+      4007,
+      4101
+    ],
+    "script": {
+      "limitSeqId_1": 104501,
+      "limitSeqId_3": 104502,
+      "limitSeqId_4": 104502,
+      "limitSeqId_2": 104501
+    },
+    "id": 104501,
+    "seqId": 104500,
+    "name": "VR Shinkageryu Hidden Technique: Tomoe-ga-Fuchi Taiyo-ken",
+    "ruby": " ",
+    "rank": "B",
+    "maxLv": 5,
+    "typeText": "Anti-Army",
+    "attackAttri": 1,
+    "effectFlag": 1
   },
   {
     "individuality": [
@@ -9142,6 +9286,24 @@
   },
   {
     "individuality": [
+      3002,
+      4003,
+      4007,
+      4101
+    ],
+    "script": {},
+    "id": 204201,
+    "seqId": 204200,
+    "name": "Prisma☆Splash Rainbow!",
+    "ruby": " ",
+    "rank": "A",
+    "maxLv": 5,
+    "typeText": "Anti-Army",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
       3000,
       4003,
       4007
@@ -10110,6 +10272,25 @@
     "individuality": [
       3002,
       4003,
+      4007
+    ],
+    "script": {
+      "delayEnd": 1
+    },
+    "id": 304401,
+    "seqId": 304400,
+    "name": "Anti-Fling Rondo",
+    "ruby": " ",
+    "rank": "A",
+    "maxLv": 5,
+    "typeText": "Anti-Army",
+    "attackAttri": 1,
+    "effectFlag": 2
+  },
+  {
+    "individuality": [
+      3002,
+      4003,
       4007,
       4101
     ],
@@ -11047,6 +11228,23 @@
       4007
     ],
     "script": {},
+    "id": 404101,
+    "seqId": 404100,
+    "name": "Sotohrihime, Spider's Conduct",
+    "ruby": " ",
+    "rank": "B",
+    "maxLv": 5,
+    "typeText": "Anti-Personnel",
+    "attackAttri": 1,
+    "effectFlag": 2
+  },
+  {
+    "individuality": [
+      3002,
+      4001,
+      4007
+    ],
+    "script": {},
     "id": 500101,
     "seqId": 500100,
     "name": "Rule Breaker",
@@ -11242,7 +11440,12 @@
       4001,
       4007
     ],
-    "script": {},
+    "script": {
+      "limitSeqId_1": 500500,
+      "limitSeqId_3": 500502,
+      "limitSeqId_4": 500502,
+      "limitSeqId_2": 500500
+    },
     "id": 500501,
     "seqId": 500500,
     "name": "Märchen Meines Lebens",
@@ -11259,7 +11462,12 @@
       4001,
       4007
     ],
-    "script": {},
+    "script": {
+      "limitSeqId_1": 500500,
+      "limitSeqId_3": 500502,
+      "limitSeqId_4": 500502,
+      "limitSeqId_2": 500500
+    },
     "id": 500502,
     "seqId": 500500,
     "name": "Märchen Meines Lebens",
@@ -14271,6 +14479,65 @@
   },
   {
     "individuality": [
+      3000,
+      4002,
+      4007,
+      4101
+    ],
+    "script": {
+      "randomSeqIds_1": [
+        703800,
+        703801
+      ],
+      "randomSeqIds": [
+        703800,
+        703801
+      ],
+      "randomSeqIds_3": [
+        703800,
+        703801
+      ],
+      "randomSeqIds_2": [
+        703800,
+        703801
+      ],
+      "randomWeights_3": [
+        60,
+        40
+      ],
+      "randomWeights_1": [
+        60,
+        40
+      ],
+      "randomWeights_2": [
+        60,
+        40
+      ],
+      "randomWeights": [
+        60,
+        40
+      ],
+      "randomWeights_4": [
+        60,
+        40
+      ],
+      "randomSeqIds_4": [
+        703800,
+        703801
+      ]
+    },
+    "id": 703801,
+    "seqId": 703800,
+    "name": "Brynhild Sigurtein",
+    "ruby": " ",
+    "rank": "B",
+    "maxLv": 5,
+    "typeText": "Anti-Personnel/Anti-Army",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
       3002,
       4001,
       4007
@@ -15391,6 +15658,94 @@
   },
   {
     "individuality": [
+      3002,
+      4001,
+      4007,
+      4101
+    ],
+    "script": {
+      "randomWeights_1": [
+        34,
+        33,
+        33
+      ],
+      "randomWeights_2": [
+        34,
+        33,
+        33
+      ],
+      "randomWeights": [
+        34,
+        33,
+        33
+      ],
+      "randomSeqIds_4": [
+        2300420,
+        2300421
+      ],
+      "randomSeqIds": [
+        2300400,
+        2300401,
+        2300402
+      ],
+      "randomSeqIds_2": [
+        2300410,
+        2300411,
+        2300412
+      ],
+      "randomSeqIds_1": [
+        2300410,
+        2300411,
+        2300412
+      ],
+      "groupSeqIDs": [
+        2300400,
+        2300400,
+        2300400
+      ],
+      "randomSeqIds_3": [
+        2300420,
+        2300421
+      ],
+      "randomWeights_3": [
+        50,
+        50
+      ],
+      "groupSeqIDs_4": [
+        2300420,
+        2300420
+      ],
+      "groupSeqIDs_1": [
+        2300410,
+        2300410,
+        2300410
+      ],
+      "groupSeqIDs_3": [
+        2300420,
+        2300420
+      ],
+      "groupSeqIDs_2": [
+        2300410,
+        2300410,
+        2300410
+      ],
+      "randomWeights_4": [
+        50,
+        50
+      ]
+    },
+    "id": 2300401,
+    "seqId": 2300400,
+    "name": "Nirmāṇarati Heaven's Foam",
+    "ruby": " ",
+    "rank": "A",
+    "maxLv": 5,
+    "typeText": "Anti-World",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
       3000,
       4002,
       4007
@@ -15493,6 +15848,194 @@
     "rank": "B",
     "maxLv": 5,
     "typeText": "Anti-Planet",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3002,
+      4002,
+      4007,
+      4101
+    ],
+    "script": {
+      "randomWeights_1": [
+        34,
+        33,
+        33
+      ],
+      "randomWeights_2": [
+        34,
+        33,
+        33
+      ],
+      "randomWeights": [
+        34,
+        33,
+        33
+      ],
+      "randomSeqIds_4": [
+        2500720,
+        2500721,
+        2500722
+      ],
+      "randomSeqIds": [
+        2500700,
+        2500701,
+        2500702
+      ],
+      "randomSeqIds_2": [
+        2500710,
+        2500711,
+        2500712
+      ],
+      "randomSeqIds_1": [
+        2500710,
+        2500711,
+        2500712
+      ],
+      "groupSeqIDs": [
+        2500700,
+        2500700,
+        2500700
+      ],
+      "randomSeqIds_3": [
+        2500720,
+        2500721,
+        2500722
+      ],
+      "randomWeights_3": [
+        34,
+        33,
+        33
+      ],
+      "groupSeqIDs_4": [
+        2500720,
+        2500720,
+        2500720
+      ],
+      "groupSeqIDs_1": [
+        2500710,
+        2500710,
+        2500710
+      ],
+      "groupSeqIDs_3": [
+        2500720,
+        2500720,
+        2500720
+      ],
+      "groupSeqIDs_2": [
+        2500710,
+        2500710,
+        2500710
+      ],
+      "randomWeights_4": [
+        34,
+        33,
+        33
+      ]
+    },
+    "id": 2500701,
+    "seqId": 2500700,
+    "name": "Dreamlands",
+    "ruby": " ",
+    "rank": "A",
+    "maxLv": 5,
+    "typeText": "Anti-Personnel",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3002,
+      4002,
+      4007,
+      4101
+    ],
+    "script": {
+      "randomWeights_1": [
+        34,
+        33,
+        33
+      ],
+      "randomWeights_2": [
+        34,
+        33,
+        33
+      ],
+      "randomWeights": [
+        34,
+        33,
+        33
+      ],
+      "randomSeqIds_4": [
+        2500720,
+        2500721,
+        2500722
+      ],
+      "randomSeqIds": [
+        2500700,
+        2500701,
+        2500702
+      ],
+      "randomSeqIds_2": [
+        2500710,
+        2500711,
+        2500712
+      ],
+      "randomSeqIds_1": [
+        2500710,
+        2500711,
+        2500712
+      ],
+      "groupSeqIDs": [
+        2500700,
+        2500700,
+        2500700
+      ],
+      "randomSeqIds_3": [
+        2500720,
+        2500721,
+        2500722
+      ],
+      "randomWeights_3": [
+        34,
+        33,
+        33
+      ],
+      "groupSeqIDs_4": [
+        2500720,
+        2500720,
+        2500720
+      ],
+      "groupSeqIDs_1": [
+        2500710,
+        2500710,
+        2500710
+      ],
+      "groupSeqIDs_3": [
+        2500720,
+        2500720,
+        2500720
+      ],
+      "groupSeqIDs_2": [
+        2500710,
+        2500710,
+        2500710
+      ],
+      "randomWeights_4": [
+        34,
+        33,
+        33
+      ]
+    },
+    "id": 2500799,
+    "seqId": 2500700,
+    "name": "Dreamlands",
+    "ruby": " ",
+    "rank": "",
+    "maxLv": 5,
+    "typeText": "",
     "attackAttri": 1,
     "effectFlag": 1
   },
