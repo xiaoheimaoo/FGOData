@@ -749,7 +749,8 @@
     "vals": [
       3004,
       3006,
-      3028
+      3028,
+      2803
     ],
     "effectId": 0
   },
@@ -853,7 +854,8 @@
     "vals": [
       3004,
       3006,
-      3028
+      3028,
+      2802
     ],
     "effectId": 0
   },
@@ -889,7 +891,7 @@
     "iconId": 302,
     "id": 136,
     "maxRate": 0,
-    "name": "伤害加成",
+    "name": "伤害附加",
     "script": "",
     "tvals": [],
     "type": 13,
@@ -4975,7 +4977,7 @@
     "ckOpIndv": [],
     "ckSelfIndv": [],
     "createdAt": "0",
-    "detail": "大幅降低宝具攻击的威力",
+    "detail": "大幅降低宝具攻击的威力【解除强化无效】",
     "effectList": [],
     "iconId": 508,
     "id": 331,
@@ -6411,7 +6413,7 @@
     "ckOpIndv": [],
     "ckSelfIndv": [],
     "createdAt": "0",
-    "detail": "回合结束时减少敌军暴击星＋付与自身回避状态（1次·1回合）",
+    "detail": "回合结束时减少敌军暴击星+付与自身回避状态（1次·1回合）",
     "effectList": [],
     "iconId": 343,
     "id": 403,
@@ -6743,7 +6745,7 @@
     "ckOpIndv": [],
     "ckSelfIndv": [],
     "createdAt": "0",
-    "detail": "付与自身效果逐渐提升的攻击力提升效果＋每回合结束时付与敌方单体目标集中状态（1回合）",
+    "detail": "付与自身效果逐渐提升的攻击力提升效果+每回合结束时付与敌方单体目标集中状态（1回合）",
     "effectList": [],
     "iconId": 300,
     "id": 420,
@@ -9506,7 +9508,7 @@
     ],
     "ckSelfIndv": [],
     "createdAt": "0",
-    "detail": "付与弱化无效状态＆对〔神性〕的攻击威力提升＆受到普通攻击时付与强化效果",
+    "detail": "付与弱化无效状态＆对〔神性〕的攻击威力提升＆受到普通攻击时付与反击效果",
     "effectList": [],
     "iconId": 322,
     "id": 557,
@@ -13450,7 +13452,7 @@
     "effectId": 0
   },
   {
-    "buffGroup": 601,
+    "buffGroup": 0,
     "ckOpIndv": [],
     "ckSelfIndv": [],
     "createdAt": "0",
@@ -13923,7 +13925,7 @@
     "ckOpIndv": [],
     "ckSelfIndv": [],
     "createdAt": "0",
-    "detail": "减少最大生命值",
+    "detail": "最大生命值减少",
     "effectList": [],
     "iconId": 522,
     "id": 972,
@@ -17847,7 +17849,7 @@
     "ckOpIndv": [],
     "ckSelfIndv": [],
     "createdAt": "0",
-    "detail": "减少最大生命值",
+    "detail": "最大生命值减少",
     "effectList": [],
     "iconId": 522,
     "id": 1159,
@@ -22351,7 +22353,8 @@
     "vals": [
       3004,
       3006,
-      3031
+      3031,
+      2802
     ],
     "effectId": 0
   },
@@ -28618,7 +28621,10 @@
     "id": 1731,
     "maxRate": 0,
     "name": "",
-    "script": "",
+    "script": {
+      "TargetIndiv": -3072,
+      "IncludeIgnoreIndividuality": 1
+    },
     "tvals": [],
     "type": 139,
     "updatedAt": "0",
@@ -36824,7 +36830,8 @@
     "vals": [
       3004,
       3006,
-      3028
+      3028,
+      2803
     ],
     "effectId": 0
   },
@@ -38777,7 +38784,7 @@
     "effectId": 0
   },
   {
-    "buffGroup": 601,
+    "buffGroup": 0,
     "ckOpIndv": [],
     "ckSelfIndv": [],
     "createdAt": "0",
@@ -42676,7 +42683,7 @@
     "effectId": 0
   },
   {
-    "buffGroup": 601,
+    "buffGroup": 0,
     "ckOpIndv": [],
     "ckSelfIndv": [],
     "createdAt": "0",
@@ -44108,7 +44115,7 @@
     "effectId": 0
   },
   {
-    "buffGroup": 601,
+    "buffGroup": 0,
     "ckOpIndv": [],
     "ckSelfIndv": [],
     "createdAt": "0",
@@ -47123,7 +47130,7 @@
     "effectId": 0
   },
   {
-    "buffGroup": 601,
+    "buffGroup": 0,
     "ckOpIndv": [],
     "ckSelfIndv": [],
     "createdAt": "0",
@@ -49713,7 +49720,8 @@
     "vals": [
       3004,
       3006,
-      3031
+      3031,
+      2802
     ],
     "effectId": 0
   },
@@ -50698,7 +50706,7 @@
     "effectId": 0
   },
   {
-    "buffGroup": 601,
+    "buffGroup": 0,
     "ckOpIndv": [],
     "ckSelfIndv": [],
     "createdAt": "0",
@@ -53788,7 +53796,7 @@
     "effectId": 0
   },
   {
-    "buffGroup": 601,
+    "buffGroup": 0,
     "ckOpIndv": [],
     "ckSelfIndv": [],
     "createdAt": "0",
@@ -53853,7 +53861,7 @@
     "ckOpIndv": [],
     "ckSelfIndv": [],
     "createdAt": "0",
-    "detail": "减少最大生命值",
+    "detail": "最大生命值减少",
     "effectList": [],
     "iconId": 522,
     "id": 3485,
@@ -55507,7 +55515,7 @@
     "ckOpIndv": [],
     "ckSelfIndv": [],
     "createdAt": "0",
-    "detail": "回合结束时获得暴击星",
+    "detail": "会合结束时获得暴击星",
     "effectList": [],
     "iconId": 320,
     "id": 3566,
@@ -56817,6 +56825,26 @@
   },
   {
     "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "回合结束时，付与即死状态<视为强化>【负面效果】",
+    "effectList": [],
+    "iconId": 525,
+    "id": 3631,
+    "maxRate": 0,
+    "name": "延迟发动(即死)",
+    "script": "",
+    "tvals": [],
+    "type": 76,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
     "ckOpIndv": [
       2795,
       1177
@@ -57245,7 +57273,7 @@
     "ckOpIndv": [],
     "ckSelfIndv": [],
     "createdAt": "0",
-    "detail": "打消对〔暗匿者〕职阶相性不利的状态",
+    "detail": "对〔暗匿者〕职阶的相性变得有利",
     "effectList": [],
     "iconId": 520,
     "id": 3651,
@@ -57302,6 +57330,42 @@
     "vals": [
       3004
     ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "『カルデア・サマーアドベンチャー！』において与えるダメージをアップ",
+    "effectList": [],
+    "iconId": 302,
+    "id": 3654,
+    "maxRate": 10000,
+    "name": "トレジャーハンター",
+    "script": "",
+    "tvals": [],
+    "type": 11,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "『カルデア・サマーアドベンチャー！』において与えるダメージをアップ",
+    "effectList": [],
+    "iconId": 302,
+    "id": 3655,
+    "maxRate": 10000,
+    "name": "威力アップ",
+    "script": "",
+    "tvals": [],
+    "type": 11,
+    "updatedAt": "0",
+    "vals": [],
     "effectId": 0
   },
   {
@@ -57793,7 +57857,7 @@
       4002
     ],
     "createdAt": "0",
-    "detail": "力攻击时，敌方单体对力攻击的耐性下降＋自身力指令卡的性能提升",
+    "detail": "力攻击时，对敌方单体力攻击的耐性下降＋自身力指令卡的性能提升",
     "effectList": [],
     "iconId": 528,
     "id": 3678,
@@ -57948,7 +58012,7 @@
     "ckOpIndv": [],
     "ckSelfIndv": [],
     "createdAt": "0",
-    "detail": "当自身在场地上时，每3回合发动〔渴望的魅力〕＋打消职阶相性的防御不利＋自身回合开始时，付与解除2个弱化状态的状态",
+    "detail": "当自身在场地上时，每3回合发动〔希望的魅力〕＋打消职阶相性的防御不利＋自身会合开始时，付与解除2个弱化状态的状态",
     "effectList": [],
     "iconId": 331,
     "id": 3685,
@@ -58472,6 +58536,70 @@
     "ckOpIndv": [],
     "ckSelfIndv": [],
     "createdAt": "0",
+    "detail": "5回合后付与即死",
+    "effectList": [],
+    "iconId": 525,
+    "id": 3710,
+    "maxRate": 0,
+    "name": "延迟发动(即死)",
+    "script": "",
+    "tvals": [],
+    "type": 76,
+    "updatedAt": "0",
+    "vals": [
+      3005
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 370,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "宝具威力提升状态的效果量短暂增大<不可重复>",
+    "effectList": [],
+    "iconId": 370,
+    "id": 3711,
+    "maxRate": 5000,
+    "name": "宝具威力提升促进",
+    "script": {
+      "UpBuffRateBuffIndiv": "3030"
+    },
+    "tvals": [],
+    "type": 162,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3071
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "回合结束时，解除自身的强化状态＆付与〔永久睡眠〕状态<耐性无效、无法解除、无法选择活祭、无法Order Change>＆付与目标集中状态(耐性无效、无法解除)",
+    "effectList": [],
+    "iconId": 525,
+    "id": 3712,
+    "maxRate": 0,
+    "name": "梦之终结",
+    "script": "",
+    "tvals": [],
+    "type": 85,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
     "detail": "获得对所有攻击的耐性",
     "effectList": [],
     "iconId": 334,
@@ -58735,6 +58863,8166 @@
     "name": "人域的极限者",
     "script": "",
     "tvals": [],
+    "type": 9,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "受击时付与「解除1个自身的〔咒层〕状态＆恢复自身的生命值＋付与敌方单体〔咒层污染〕状态(3回合)＆防御力下降(3回合)＋付与敌方全体诅咒状态(5回合)」的状态",
+    "effectList": [],
+    "iconId": 521,
+    "id": 3726,
+    "maxRate": 0,
+    "name": "咒层",
+    "script": "",
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [
+      3005,
+      6035
+    ],
+    "effectId": 17123
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "受击时自身的攻击力提升或防御力提升或暴击率提升",
+    "effectList": [],
+    "iconId": 331,
+    "id": 3727,
+    "maxRate": 0,
+    "name": "龙之搏动",
+    "script": "",
+    "tvals": [],
+    "type": 86,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "受击时自身的最大生命值提升",
+    "effectList": [],
+    "iconId": 331,
+    "id": 3728,
+    "maxRate": 0,
+    "name": "预兆",
+    "script": "",
+    "tvals": [],
+    "type": 86,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "打倒敌人时，自身的攻击力提升＆宝具值增加",
+    "effectList": [],
+    "iconId": 342,
+    "id": 3729,
+    "maxRate": 0,
+    "name": "兽之诅咒",
+    "script": "",
+    "tvals": [
+      5000
+    ],
+    "type": 90,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 331,
+    "id": 3730,
+    "maxRate": 0,
+    "name": "",
+    "script": "",
+    "tvals": [],
+    "type": 95,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 343,
+    "id": 3731,
+    "maxRate": 0,
+    "name": "",
+    "script": "",
+    "tvals": [],
+    "type": 85,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "毎回合结束时，付与自身〔龙气〕状态＆根据〔龙气〕状态的数量提升攻击力＆根据〔龙气〕状态的数量提升宝具威力＆根据〔龙气〕状态的数量减少受伤害",
+    "effectList": [],
+    "iconId": 343,
+    "id": 3732,
+    "maxRate": 0,
+    "name": "龙炎激发",
+    "script": "",
+    "tvals": [],
+    "type": 85,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "打倒敌人时，自身的攻击力提升＆充能增加1格",
+    "effectList": [],
+    "iconId": 342,
+    "id": 3733,
+    "maxRate": 0,
+    "name": "兽之诅咒",
+    "script": "",
+    "tvals": [
+      5000
+    ],
+    "type": 90,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      6034
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "当自身在场地上时，付与己方全军免疫〔魔力吞噬〕的状态＆免疫敌方发动的降低最大生命值的效果＆防御力提升+己方全军〔圆桌骑士〕的防御力提升",
+    "effectList": [],
+    "iconId": 322,
+    "id": 3734,
+    "maxRate": 0,
+    "name": "白垩的守护",
+    "script": "",
+    "tvals": [
+      6034
+    ],
+    "type": 31,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3061
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "当自身在场地上时，己方全军〔圆桌骑士〕的攻击力提升＆力指令卡性能提升+回合结束时，获得暴击星",
+    "effectList": [],
+    "iconId": 300,
+    "id": 3735,
+    "maxRate": 5000,
+    "name": "太阳之骑士",
+    "script": "",
+    "tvals": [],
+    "type": 9,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "当自身在场地上时，己方全军〔圆桌骑士〕的宝具值获得量提升＆技指令卡性能提升+回合结束时，己方全体的宝具值增加",
+    "effectList": [],
+    "iconId": 303,
+    "id": 3736,
+    "maxRate": 5000,
+    "name": "湖之骑士",
+    "script": "",
+    "tvals": [],
+    "type": 17,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [
+      3026
+    ],
+    "createdAt": "0",
+    "detail": "诅咒的效果量提升",
+    "effectList": [],
+    "iconId": 547,
+    "id": 3737,
+    "maxRate": 5000,
+    "name": "摩耳斯的诅咒",
+    "script": "",
+    "tvals": [],
+    "type": 126,
+    "updatedAt": "0",
+    "vals": [
+      3005,
+      3048
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "获得对所有攻击的耐性＜根据〔咒层〕状态的数量提升效果量＞＆根据弱化状态的数量提升自身的攻击力＆免疫无法行动＆付与弱化解除无效状态",
+    "effectList": [],
+    "iconId": 334,
+    "id": 3738,
+    "maxRate": 5000,
+    "name": "咒腐肉层",
+    "script": "",
+    "tvals": [],
+    "type": 91,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 331,
+    "id": 3739,
+    "maxRate": 0,
+    "name": "",
+    "script": {
+      "INDIVIDUALITIE": 6035
+    },
+    "tvals": [],
+    "type": 86,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "毎回合结束时，减少自身的生命值",
+    "effectList": [],
+    "iconId": 537,
+    "id": 3740,
+    "maxRate": 0,
+    "name": "咒层污染",
+    "script": "",
+    "tvals": [],
+    "type": 85,
+    "updatedAt": "0",
+    "vals": [
+      3005
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "毎回合结束时，付与自身〔咒层〕状态",
+    "effectList": [],
+    "iconId": 343,
+    "id": 3741,
+    "maxRate": 0,
+    "name": "每回合发动(付与咒层)",
+    "script": "",
+    "tvals": [],
+    "type": 85,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "攻击时，中概率付与自身〔咒层〕状态",
+    "effectList": [],
+    "iconId": 333,
+    "id": 3742,
+    "maxRate": 0,
+    "name": "攻击时发动(付与咒层)",
+    "script": "",
+    "tvals": [],
+    "type": 137,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 348,
+    "id": 3743,
+    "maxRate": 5000,
+    "name": "",
+    "script": "",
+    "tvals": [],
+    "type": 100,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "攻击时，解除敌方单体的1个强化状态＆解除成功时，攻击力下降",
+    "effectList": [],
+    "iconId": 528,
+    "id": 3744,
+    "maxRate": 0,
+    "name": "攻击时发动(强化解除)",
+    "script": "",
+    "tvals": [],
+    "type": 137,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "毎回合结束时，减少己方全体的生命值+敌方单体的充能增加1格＜睡眠状态解除时效果解除＞",
+    "effectList": [],
+    "iconId": 537,
+    "id": 3745,
+    "maxRate": 0,
+    "name": "每回合发动(生命值减少+充能增加)",
+    "script": "",
+    "tvals": [],
+    "type": 85,
+    "updatedAt": "0",
+    "vals": [
+      3005
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "攻击力提升＆回合结束时，宝具值增加",
+    "effectList": [],
+    "iconId": 300,
+    "id": 3746,
+    "maxRate": 5000,
+    "name": "圣剑的光辉",
+    "script": "",
+    "tvals": [],
+    "type": 9,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "攻击时，自身的防御力下降或暴击星掉落率下降或宝具值获得量下降",
+    "effectList": [],
+    "iconId": 549,
+    "id": 3747,
+    "maxRate": 0,
+    "name": "攻击时发动(弱体)",
+    "script": "",
+    "tvals": [],
+    "type": 137,
+    "updatedAt": "0",
+    "vals": [
+      3005
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "最大生命值减少",
+    "effectList": [],
+    "iconId": 522,
+    "id": 3748,
+    "maxRate": 5000,
+    "name": "最大生命值下降",
+    "script": "",
+    "tvals": [],
+    "type": 80,
+    "updatedAt": "0",
+    "vals": [
+      6034
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "最大生命值减少",
+    "effectList": [],
+    "iconId": 522,
+    "id": 3749,
+    "maxRate": 50000,
+    "name": "最大生命值降值",
+    "script": "",
+    "tvals": [],
+    "type": 82,
+    "updatedAt": "0",
+    "vals": [
+      6034
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [
+      4002
+    ],
+    "createdAt": "0",
+    "detail": "力指令卡普通攻击时，自身的宝具值增加",
+    "effectList": [],
+    "iconId": 333,
+    "id": 3750,
+    "maxRate": 0,
+    "name": "力普通攻击时追加效果",
+    "script": "",
+    "tvals": [
+      5000,
+      4002
+    ],
+    "type": 89,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 333,
+    "id": 3751,
+    "maxRate": 0,
+    "name": "",
+    "script": "",
+    "tvals": [],
+    "type": 89,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "付与〔龙气〕状态<视为强化>",
+    "effectList": [],
+    "iconId": 520,
+    "id": 3752,
+    "maxRate": 0,
+    "name": "龙气",
+    "script": "",
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      6033
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 9993,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 343,
+    "id": 3753,
+    "maxRate": 0,
+    "name": "",
+    "script": {
+      "INDIVIDUALITIE": 6028
+    },
+    "tvals": [],
+    "type": 85,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "受击时自身的攻击力提升",
+    "effectList": [],
+    "iconId": 331,
+    "id": 3754,
+    "maxRate": 0,
+    "name": "受击时发动(攻击力提升)",
+    "script": "",
+    "tvals": [
+      5000
+    ],
+    "type": 86,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "回合结束时，付与自身充能减少的状态(1次)<视为强化>【负面效果】",
+    "effectList": [],
+    "iconId": 525,
+    "id": 3756,
+    "maxRate": 0,
+    "name": "晨之云雀",
+    "script": "",
+    "tvals": [],
+    "type": 85,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 505,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "无法行动(耐性无效、无法解除、无法选择活祭、无法Order Change)",
+    "effectList": [],
+    "iconId": 558,
+    "id": 3757,
+    "maxRate": 0,
+    "name": "永久睡眠",
+    "script": {
+      "DamageRelease": -1
+    },
+    "tvals": [],
+    "type": 32,
+    "updatedAt": "0",
+    "vals": [
+      3005,
+      3045,
+      3010,
+      3066,
+      3072
+    ],
+    "effectId": 2001001
+  },
+  {
+    "buffGroup": 505,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "无法行动(耐性无效、无法解除、无法选择活祭、无法Order Change)",
+    "effectList": [],
+    "iconId": 558,
+    "id": 3758,
+    "maxRate": 0,
+    "name": "永久睡眠",
+    "script": {
+      "DamageRelease": -1
+    },
+    "tvals": [],
+    "type": 32,
+    "updatedAt": "0",
+    "vals": [
+      3005,
+      3045,
+      3010,
+      3066,
+      3072
+    ],
+    "effectId": 2001002
+  },
+  {
+    "buffGroup": 800,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "无法使用技能",
+    "effectList": [],
+    "iconId": 511,
+    "id": 3759,
+    "maxRate": 0,
+    "name": "技能封印",
+    "script": "",
+    "tvals": [],
+    "type": 33,
+    "updatedAt": "0",
+    "vals": [
+      3025
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 554,
+    "id": 3760,
+    "maxRate": 0,
+    "name": "",
+    "script": "",
+    "tvals": [],
+    "type": 141,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "生命值为0时，回复一定生命值避免死亡(可与其他毅力状态重复)",
+    "effectList": [],
+    "iconId": 304,
+    "id": 3761,
+    "maxRate": 0,
+    "name": "毅力",
+    "script": "",
+    "tvals": [],
+    "type": 37,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3024
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "毅力发动时，己方全体的攻击力提升",
+    "effectList": [],
+    "iconId": 365,
+    "id": 3762,
+    "maxRate": 0,
+    "name": "毅力时发动(攻击力提升)",
+    "script": "",
+    "tvals": [],
+    "type": 149,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "攻击力提升＆宝具值获得量提升",
+    "effectList": [],
+    "iconId": 300,
+    "id": 3763,
+    "maxRate": 5000,
+    "name": "妖精骑士加拉哈德",
+    "script": "",
+    "tvals": [],
+    "type": 9,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "攻击力下降",
+    "effectList": [],
+    "iconId": 503,
+    "id": 3764,
+    "maxRate": 5000,
+    "name": "攻击力下降",
+    "script": "",
+    "tvals": [],
+    "type": 10,
+    "updatedAt": "0",
+    "vals": [
+      6034
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "防御力下降",
+    "effectList": [],
+    "iconId": 504,
+    "id": 3765,
+    "maxRate": 5000,
+    "name": "防御力下降",
+    "script": "",
+    "tvals": [],
+    "type": 43,
+    "updatedAt": "0",
+    "vals": [
+      6034
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 900,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "无法使用宝具",
+    "effectList": [],
+    "iconId": 512,
+    "id": 3766,
+    "maxRate": 0,
+    "name": "宝具封印",
+    "script": "",
+    "tvals": [],
+    "type": 34,
+    "updatedAt": "0",
+    "vals": [
+      6034
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "伪装自身被付与的状态效果中的一部分＆自身技能造成的负面效果无效",
+    "effectList": [],
+    "iconId": 520,
+    "id": 3768,
+    "maxRate": 0,
+    "name": "大骗子奥伯龙",
+    "script": "",
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "毎回合结束时，自身「付与■■■提升状态＆暴击星掉落率■■」或是「攻击力■■＆防御力■■」又或是「宝具值获得量■■＆技指令卡性能■■」",
+    "effectList": [],
+    "iconId": 537,
+    "id": 3769,
+    "maxRate": 0,
+    "name": "妖精王的甜言蜜语",
+    "script": "",
+    "tvals": [],
+    "type": 85,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "毎回合结束时，付与自身随机指令卡耐性",
+    "effectList": [],
+    "iconId": 343,
+    "id": 3770,
+    "maxRate": 0,
+    "name": "诱惑的翅声",
+    "script": "",
+    "tvals": [],
+    "type": 85,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [
+      4008
+    ],
+    "createdAt": "0",
+    "detail": "■■■■的■■■■■",
+    "effectList": [],
+    "iconId": 520,
+    "id": 3771,
+    "maxRate": 10,
+    "name": "■■■提升",
+    "script": "",
+    "tvals": [],
+    "type": 116,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "暴击星掉落■■",
+    "effectList": [],
+    "iconId": 510,
+    "id": 3772,
+    "maxRate": 5000,
+    "name": "暴击星掉落■■",
+    "script": "",
+    "tvals": [],
+    "type": 3,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "攻击力■■",
+    "effectList": [],
+    "iconId": 300,
+    "id": 3773,
+    "maxRate": 5000,
+    "name": "攻击力■■",
+    "script": "",
+    "tvals": [],
+    "type": 10,
+    "updatedAt": "0",
+    "vals": [
+      3005,
+      3008,
+      3033
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "防御力■■",
+    "effectList": [],
+    "iconId": 504,
+    "id": 3774,
+    "maxRate": 5000,
+    "name": "防御力■■",
+    "script": "",
+    "tvals": [],
+    "type": 42,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "宝具值获得量■■",
+    "effectList": [],
+    "iconId": 303,
+    "id": 3775,
+    "maxRate": 5000,
+    "name": "宝具值获得■■",
+    "script": "",
+    "tvals": [],
+    "type": 63,
+    "updatedAt": "0",
+    "vals": [
+      3005
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [
+      4001
+    ],
+    "createdAt": "0",
+    "detail": "技指令卡的性能■■",
+    "effectList": [],
+    "iconId": 516,
+    "id": 3776,
+    "maxRate": 5000,
+    "name": "技■■",
+    "script": "",
+    "tvals": [
+      5000,
+      4001
+    ],
+    "type": 52,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 200,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "无视■■，■■造成的■■为■",
+    "effectList": [],
+    "iconId": 309,
+    "id": 3777,
+    "maxRate": 0,
+    "name": "■■",
+    "script": "",
+    "tvals": [],
+    "type": 24,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      4003
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "迅指令卡的攻击造成的伤害、受击宝具值发生量、受击暴击星掉落率■■",
+    "effectList": [],
+    "iconId": 345,
+    "id": 3778,
+    "maxRate": 5000,
+    "name": "迅指令卡耐性",
+    "script": "",
+    "tvals": [
+      5000,
+      4003
+    ],
+    "type": 105,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      4001
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "技指令卡的攻击造成的伤害、受击宝具值发生量、受击暴击星掉落率■■",
+    "effectList": [],
+    "iconId": 346,
+    "id": 3779,
+    "maxRate": 5000,
+    "name": "技指令卡耐性",
+    "script": "",
+    "tvals": [
+      5000,
+      4001
+    ],
+    "type": 105,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      4002
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "力指令卡的攻击造成的伤害、受击宝具值发生量、受击暴击星掉落率■■",
+    "effectList": [],
+    "iconId": 347,
+    "id": 3780,
+    "maxRate": 5000,
+    "name": "力指令卡耐性",
+    "script": "",
+    "tvals": [
+      5000,
+      4002
+    ],
+    "type": 105,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      4003
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "迅指令卡的攻击造成的伤害、受击宝具值发生量、受击暴击星掉落率■■",
+    "effectList": [],
+    "iconId": 345,
+    "id": 3781,
+    "maxRate": 5000,
+    "name": "迅指令卡耐性",
+    "script": "",
+    "tvals": [
+      5000,
+      4003
+    ],
+    "type": 106,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      4001
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "技指令卡的攻击造成的伤害、受击宝具值发生量、受击暴击星掉落率■■",
+    "effectList": [],
+    "iconId": 346,
+    "id": 3782,
+    "maxRate": 5000,
+    "name": "技指令卡耐性",
+    "script": "",
+    "tvals": [
+      5000,
+      4001
+    ],
+    "type": 106,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      4002
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "力指令卡的攻击造成的伤害、受击宝具值发生量、受击暴击星掉落率■■",
+    "effectList": [],
+    "iconId": 347,
+    "id": 3783,
+    "maxRate": 5000,
+    "name": "力指令卡耐性",
+    "script": "",
+    "tvals": [
+      5000,
+      4002
+    ],
+    "type": 106,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "回合结束时「己方全体的宝具值增加＆生命值回复＆攻击力提升＋获得暴击星」的效果发动",
+    "effectList": [],
+    "iconId": 343,
+    "id": 3784,
+    "maxRate": 0,
+    "name": "朔月的加护",
+    "script": "",
+    "tvals": [],
+    "type": 85,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "回合结束时「己方全体的充能一定概率增加1格＆生命值回复＆攻击力提升＆暴击率提升」的效果发动",
+    "effectList": [],
+    "iconId": 343,
+    "id": 3785,
+    "maxRate": 0,
+    "name": "朔月的加护",
+    "script": "",
+    "tvals": [],
+    "type": 85,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "2ターン経過後に自身のNPが増える＆迅指令卡を使用できなくする＆技指令卡を使用できなくする",
+    "effectList": [],
+    "iconId": 331,
+    "id": 3786,
+    "maxRate": 0,
+    "name": "延迟发动(NP増加＆クイック封印＆アーツ封印)",
+    "script": "",
+    "tvals": [],
+    "type": 76,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "自身の攻撃時に敵単体からHP吸収",
+    "effectList": [],
+    "iconId": 528,
+    "id": 3787,
+    "maxRate": 0,
+    "name": "攻击时发动(HP吸収)",
+    "script": "",
+    "tvals": [],
+    "type": 137,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      4007
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 331,
+    "id": 3788,
+    "maxRate": 0,
+    "name": "",
+    "script": "",
+    "tvals": [
+      5000,
+      4007
+    ],
+    "type": 86,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "打倒敌人时，自身のHPが回復する",
+    "effectList": [],
+    "iconId": 342,
+    "id": 3789,
+    "maxRate": 0,
+    "name": "撃破時追加効果(HP回復)",
+    "script": "",
+    "tvals": [
+      5000
+    ],
+    "type": 90,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "HPが0になった時、味方の葛飾北斎の充能增加1格＆HPを回復する",
+    "effectList": [],
+    "iconId": 350,
+    "id": 3790,
+    "maxRate": 0,
+    "name": "死亡時発動(宝具チャージ＆HP回復)",
+    "script": "",
+    "tvals": [],
+    "type": 78,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "攻击力下降",
+    "effectList": [],
+    "iconId": 503,
+    "id": 3791,
+    "maxRate": 5000,
+    "name": "熱烈アプローチ",
+    "script": "",
+    "tvals": [],
+    "type": 10,
+    "updatedAt": "0",
+    "vals": [
+      2800
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "攻撃時にスタンを付与する",
+    "effectList": [],
+    "iconId": 528,
+    "id": 3792,
+    "maxRate": 0,
+    "name": "？？？",
+    "script": "",
+    "tvals": [],
+    "type": 137,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "回合结束时，にHPが減る",
+    "effectList": [],
+    "iconId": 513,
+    "id": 3793,
+    "maxRate": 0,
+    "name": "担々麺ウマーイ",
+    "script": "",
+    "tvals": [],
+    "type": 8,
+    "updatedAt": "0",
+    "vals": [
+      3005,
+      3015
+    ],
+    "effectId": 17122
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [
+      4007
+    ],
+    "createdAt": "0",
+    "detail": "宝具攻撃時に敵単体の毅力状態を解除する",
+    "effectList": [],
+    "iconId": 528,
+    "id": 3794,
+    "maxRate": 0,
+    "name": "宝具攻撃時追加効果(毅力解除)",
+    "script": "",
+    "tvals": [
+      5000,
+      4007
+    ],
+    "type": 137,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [
+      4007,
+      4004
+    ],
+    "createdAt": "0",
+    "detail": "チャージ攻撃時に敵全体に高確率で即死を付与する＋自身に即死を付与する【负面效果】",
+    "effectList": [],
+    "iconId": 528,
+    "id": 3795,
+    "maxRate": 0,
+    "name": "自爆準備",
+    "script": "",
+    "tvals": [
+      5000,
+      4007,
+      4004
+    ],
+    "type": 137,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "攻撃時に低確率で魅了を付与する",
+    "effectList": [],
+    "iconId": 528,
+    "id": 3796,
+    "maxRate": 0,
+    "name": "攻撃時追加効果(魅了付与)",
+    "script": "",
+    "tvals": [],
+    "type": 137,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 700,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "自身にターゲットを固定する",
+    "effectList": [],
+    "iconId": 323,
+    "id": 3797,
+    "maxRate": 50000,
+    "name": "バカ笑い",
+    "script": "",
+    "tvals": [],
+    "type": 38,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3023
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "防御力をアップ",
+    "effectList": [],
+    "iconId": 301,
+    "id": 3798,
+    "maxRate": 5000,
+    "name": "玄武の守護 (偽)",
+    "script": "",
+    "tvals": [],
+    "type": 42,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "受击时敵単体にやけど状態(3ターン)を付与する",
+    "effectList": [],
+    "iconId": 331,
+    "id": 3799,
+    "maxRate": 0,
+    "name": "炎の翼 (偽)",
+    "script": "",
+    "tvals": [
+      5000
+    ],
+    "type": 86,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "攻撃時にやけど状態(3ターン)を付与する",
+    "effectList": [],
+    "iconId": 528,
+    "id": 3800,
+    "maxRate": 0,
+    "name": "炎の翼 (偽)",
+    "script": "",
+    "tvals": [],
+    "type": 137,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [
+      4007,
+      4004
+    ],
+    "createdAt": "0",
+    "detail": "チャージ攻撃時に自身に即死を付与する【负面效果】",
+    "effectList": [],
+    "iconId": 549,
+    "id": 3801,
+    "maxRate": 0,
+    "name": "炎の翼 (偽)",
+    "script": "",
+    "tvals": [
+      5000,
+      4007,
+      4004
+    ],
+    "type": 137,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "攻击力提升＜呪いの数だけ効果量アップ＞",
+    "effectList": [],
+    "iconId": 300,
+    "id": 3802,
+    "maxRate": 5000,
+    "name": "攻击力提升",
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "tvals": [],
+    "type": 9,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "水陸両用バギーがフィールドにいる間、防御力をアップ",
+    "effectList": [],
+    "iconId": 301,
+    "id": 3803,
+    "maxRate": 5000,
+    "name": "防御フィールド",
+    "script": "",
+    "tvals": [],
+    "type": 42,
+    "updatedAt": "0",
+    "vals": [
+      6026
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 600,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "クリスタルの秘宝がフィールドにいる間、生命值为0时，回复一定生命值避免死亡",
+    "effectList": [],
+    "iconId": 304,
+    "id": 3804,
+    "maxRate": 0,
+    "name": "毅力",
+    "script": "",
+    "tvals": [],
+    "type": 37,
+    "updatedAt": "0",
+    "vals": [
+      6036
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "攻撃時に巨大なオクトパスのHPを減らす",
+    "effectList": [],
+    "iconId": 528,
+    "id": 3805,
+    "maxRate": 0,
+    "name": "鮫VS蛸",
+    "script": "",
+    "tvals": [],
+    "type": 137,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "攻撃時に巨大なシャークのHPを減らす",
+    "effectList": [],
+    "iconId": 528,
+    "id": 3806,
+    "maxRate": 0,
+    "name": "蛸VS鮫",
+    "script": "",
+    "tvals": [],
+    "type": 137,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "攻撃時に自身以外の味方全体のHPを回復する",
+    "effectList": [],
+    "iconId": 528,
+    "id": 3807,
+    "maxRate": 0,
+    "name": "イルカマスター",
+    "script": "",
+    "tvals": [],
+    "type": 137,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "毎回合结束时，に自身以外の味方単体に即死を付与する＆自身の最大HPを増やす",
+    "effectList": [],
+    "iconId": 343,
+    "id": 3808,
+    "maxRate": 0,
+    "name": "禁断の呪い",
+    "script": {
+      "INDIVIDUALITIE": 6026
+    },
+    "tvals": [],
+    "type": 85,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "通常攻撃時に〔愛炎〕状態を付与する",
+    "effectList": [],
+    "iconId": 528,
+    "id": 3809,
+    "maxRate": 0,
+    "name": "攻撃時追加効果(愛炎状態付与)",
+    "script": "",
+    "tvals": [],
+    "type": 89,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "愛炎を帯びた状態(弱体扱い)",
+    "effectList": [],
+    "iconId": 520,
+    "id": 3810,
+    "maxRate": 0,
+    "name": "愛炎",
+    "script": "",
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [
+      3005
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      2801
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔愛炎状態〕の敵に与えるダメージをアップ<対象の〔愛炎状態〕が多いほど特攻威力アップ(最大10個)>",
+    "effectList": [],
+    "iconId": 302,
+    "id": 3811,
+    "maxRate": 10000,
+    "name": "威力アップ〔愛炎状態〕",
+    "script": "",
+    "tvals": [
+      2801
+    ],
+    "type": 11,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      300,
+      1000
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔秩序のサーヴァント〕に与えるダメージをアップ",
+    "effectList": [],
+    "iconId": 302,
+    "id": 3812,
+    "maxRate": 10000,
+    "name": "威力アップ〔秩序のサーヴァント〕",
+    "script": {
+      "checkIndvType": 1
+    },
+    "tvals": [
+      300,
+      1000
+    ],
+    "type": 11,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "无法行动",
+    "effectList": [],
+    "iconId": 502,
+    "id": 3813,
+    "maxRate": 0,
+    "name": "トキメキ",
+    "script": "",
+    "tvals": [],
+    "type": 32,
+    "updatedAt": "0",
+    "vals": [
+      3005,
+      3010,
+      3045
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "防御力下降",
+    "effectList": [],
+    "iconId": 504,
+    "id": 3814,
+    "maxRate": 5000,
+    "name": "易い",
+    "script": {
+      "ProgressSelfTurn": 0
+    },
+    "tvals": [],
+    "type": 43,
+    "updatedAt": "0",
+    "vals": [
+      3005,
+      3009
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "全ての攻撃に対する耐性を得る",
+    "effectList": [],
+    "iconId": 334,
+    "id": 3815,
+    "maxRate": 5000,
+    "name": "難い",
+    "script": "",
+    "tvals": [],
+    "type": 91,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3016
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "攻击力下降",
+    "effectList": [],
+    "iconId": 503,
+    "id": 3816,
+    "maxRate": 5000,
+    "name": "？？？",
+    "script": "",
+    "tvals": [],
+    "type": 10,
+    "updatedAt": "0",
+    "vals": [
+      3005,
+      3008,
+      3033
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 900,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "无法使用宝具",
+    "effectList": [],
+    "iconId": 512,
+    "id": 3817,
+    "maxRate": 0,
+    "name": "？？？",
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "tvals": [],
+    "type": 34,
+    "updatedAt": "0",
+    "vals": [
+      3005,
+      3020
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      3025
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔技能封印〕状態の敵に与えるダメージをアップ",
+    "effectList": [],
+    "iconId": 302,
+    "id": 3818,
+    "maxRate": 10000,
+    "name": "威力アップ〔技能封印〕",
+    "script": "",
+    "tvals": [
+      3025
+    ],
+    "type": 112,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "個性追加",
+    "effectList": [],
+    "iconId": 520,
+    "id": 3819,
+    "maxRate": 0,
+    "name": "個性追加",
+    "script": "",
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [
+      6021
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "『カルデア・サマーアドベンチャー！』において与えるダメージをアップ",
+    "effectList": [],
+    "iconId": 302,
+    "id": 3820,
+    "maxRate": 10000,
+    "name": "夢見る冒険少女",
+    "script": "",
+    "tvals": [],
+    "type": 11,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "『カルデア・サマーアドベンチャー！』において宝具で与えるダメージをアップ",
+    "effectList": [],
+    "iconId": 310,
+    "id": 3821,
+    "maxRate": 5000,
+    "name": "夢見る冒険少女",
+    "script": "",
+    "tvals": [],
+    "type": 15,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔水辺〕のあるフィールドにおいてのみ、スターの集まりやすさをアップ",
+    "effectList": [],
+    "iconId": 325,
+    "id": 3822,
+    "maxRate": 500000,
+    "name": "スター集中アップ",
+    "script": "",
+    "tvals": [],
+    "type": 2,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔水辺〕のあるフィールドにおいてのみ、回合结束时，にスターを獲得する",
+    "effectList": [],
+    "iconId": 320,
+    "id": 3823,
+    "maxRate": 0,
+    "name": "毎ターンスター獲得",
+    "script": "",
+    "tvals": [],
+    "type": 6,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔水辺〕のあるフィールドにおいてのみ、クリティカルの発生率をアップ",
+    "effectList": [],
+    "iconId": 327,
+    "id": 3824,
+    "maxRate": 5000,
+    "name": "クリティカル発生アップ",
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "tvals": [],
+    "type": 70,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "防御力をアップ",
+    "effectList": [],
+    "iconId": 301,
+    "id": 3826,
+    "maxRate": 5000,
+    "name": "潜伏中",
+    "script": "",
+    "tvals": [],
+    "type": 42,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "防御力をアップ",
+    "effectList": [],
+    "iconId": 301,
+    "id": 3827,
+    "maxRate": 5000,
+    "name": "蓄財",
+    "script": "",
+    "tvals": [],
+    "type": 42,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "被ダメージを減らす",
+    "effectList": [],
+    "iconId": 301,
+    "id": 3828,
+    "maxRate": 0,
+    "name": "貯蓄",
+    "script": "",
+    "tvals": [],
+    "type": 23,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 365,
+    "id": 3829,
+    "maxRate": 0,
+    "name": "",
+    "script": "",
+    "tvals": [],
+    "type": 149,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      304
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔悪〕特性に与えるダメージをアップ",
+    "effectList": [],
+    "iconId": 302,
+    "id": 3830,
+    "maxRate": 10000,
+    "name": "神の祝福",
+    "script": "",
+    "tvals": [
+      304
+    ],
+    "type": 11,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      -2805
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔竜〕特性特攻攻撃以外に対する耐性を得る",
+    "effectList": [],
+    "iconId": 334,
+    "id": 3831,
+    "maxRate": 5000,
+    "name": "青龍の鱗 (偽)",
+    "script": {
+      "checkIndvType": 2
+    },
+    "tvals": [
+      -2805
+    ],
+    "type": 91,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3016
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      -2805
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔猛獣〕特性特攻攻撃以外に対する耐性を得る",
+    "effectList": [],
+    "iconId": 334,
+    "id": 3832,
+    "maxRate": 5000,
+    "name": "白虎の毛皮 (偽)",
+    "script": {
+      "checkIndvType": 2
+    },
+    "tvals": [
+      -2805
+    ],
+    "type": 91,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3016
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      5000,
+      4008,
+      2667
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔子供のサーヴァント〕特性のサーヴァントの通常攻撃に対する防御力を大アップ＆攻击力下降【负面效果】",
+    "effectList": [],
+    "iconId": 301,
+    "id": 3833,
+    "maxRate": 5000,
+    "name": "親心 EX",
+    "script": {
+      "checkIndvType": 1
+    },
+    "tvals": [
+      5000,
+      4008,
+      2667
+    ],
+    "type": 42,
+    "updatedAt": "0",
+    "vals": [
+      3007,
+      3040,
+      3058
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      2667
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 503,
+    "id": 3834,
+    "maxRate": 5000,
+    "name": "",
+    "script": "",
+    "tvals": [
+      2667
+    ],
+    "type": 10,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "打倒敌人时，自身のHPが回復する＆チャージを2増やす",
+    "effectList": [],
+    "iconId": 342,
+    "id": 3835,
+    "maxRate": 0,
+    "name": "暴君竜",
+    "script": "",
+    "tvals": [
+      5000
+    ],
+    "type": 90,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 342,
+    "id": 3836,
+    "maxRate": 0,
+    "name": "",
+    "script": "",
+    "tvals": [
+      5000
+    ],
+    "type": 90,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      2804
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔子供のサーヴァント〕特性以外に与えるダメージをアップ",
+    "effectList": [],
+    "iconId": 302,
+    "id": 3837,
+    "maxRate": 10000,
+    "name": "威力アップ〔子供のサーヴァント以外〕",
+    "script": "",
+    "tvals": [
+      2804
+    ],
+    "type": 11,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 520,
+    "id": 3838,
+    "maxRate": 0,
+    "name": "",
+    "script": {
+      "INDIVIDUALITIE": 2802
+    },
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [
+      2805
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 370,
+    "id": 3839,
+    "maxRate": 5000,
+    "name": "",
+    "script": {
+      "UpBuffRateBuffIndiv": "2802"
+    },
+    "tvals": [],
+    "type": 162,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3071
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 370,
+    "id": 3840,
+    "maxRate": 5000,
+    "name": "",
+    "script": {
+      "UpBuffRateBuffIndiv": "2803"
+    },
+    "tvals": [],
+    "type": 162,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3071
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 520,
+    "id": 3841,
+    "maxRate": 0,
+    "name": "",
+    "script": {
+      "INDIVIDUALITIE": 2803
+    },
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [
+      2805
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      -2802
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 334,
+    "id": 3842,
+    "maxRate": 5000,
+    "name": "",
+    "script": {
+      "checkIndvType": 2
+    },
+    "tvals": [
+      -2802
+    ],
+    "type": 91,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3016
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      -2803
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 334,
+    "id": 3843,
+    "maxRate": 5000,
+    "name": "",
+    "script": {
+      "checkIndvType": 2
+    },
+    "tvals": [
+      -2803
+    ],
+    "type": 91,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3016
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "『ハロウィン・ライジング！』において与えるダメージをアップ",
+    "effectList": [],
+    "iconId": 302,
+    "id": 3844,
+    "maxRate": 10000,
+    "name": "メルヘンドリーマー",
+    "script": "",
+    "tvals": [],
+    "type": 11,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "『復刻:超古代新選組列伝 ぐだぐだ邪馬台国2020』において与えるダメージをアップ",
+    "effectList": [],
+    "iconId": 302,
+    "id": 3845,
+    "maxRate": 10000,
+    "name": "邪馬台パワー！",
+    "script": "",
+    "tvals": [],
+    "type": 11,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "『復刻:超古代新選組列伝 ぐだぐだ邪馬台国2020』において与えるダメージをアップ",
+    "effectList": [],
+    "iconId": 302,
+    "id": 3846,
+    "maxRate": 10000,
+    "name": "威力アップ",
+    "script": "",
+    "tvals": [],
+    "type": 11,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "HPが0になった時、敵単体のHPを回復する【负面效果】",
+    "effectList": [],
+    "iconId": 543,
+    "id": 3847,
+    "maxRate": 0,
+    "name": "ドロップ：レッドポーション",
+    "script": "",
+    "tvals": [],
+    "type": 78,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "HPが0になった時、敵単体のNPを増やす【负面效果】",
+    "effectList": [],
+    "iconId": 543,
+    "id": 3848,
+    "maxRate": 0,
+    "name": "ドロップ：ブルーポーション",
+    "script": "",
+    "tvals": [],
+    "type": 78,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "HPが0になった時、敵単体にスター獲得効果を付与する【负面效果】",
+    "effectList": [],
+    "iconId": 543,
+    "id": 3849,
+    "maxRate": 0,
+    "name": "ドロップ：イエローポーション",
+    "script": "",
+    "tvals": [],
+    "type": 78,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "HPが0になった時、敵単体の宝具耐性をアップ【负面效果】",
+    "effectList": [],
+    "iconId": 543,
+    "id": 3850,
+    "maxRate": 0,
+    "name": "ドロップ：エリートポーション",
+    "script": "",
+    "tvals": [],
+    "type": 78,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "毅力発動時、自身のNPが増える＆攻击力提升＆与えるダメージをアップ＆宝具威力をアップ",
+    "effectList": [],
+    "iconId": 365,
+    "id": 3851,
+    "maxRate": 0,
+    "name": "毅力时发动(强化)",
+    "script": "",
+    "tvals": [],
+    "type": 149,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 700,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "敵からの狙われやすさをアップ",
+    "effectList": [],
+    "iconId": 323,
+    "id": 3852,
+    "maxRate": 50000,
+    "name": "タゲ集中アップ",
+    "script": "",
+    "tvals": [],
+    "type": 38,
+    "updatedAt": "0",
+    "vals": [
+      3023
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "攻撃によるダメージを0にする",
+    "effectList": [],
+    "iconId": 305,
+    "id": 3853,
+    "maxRate": 0,
+    "name": "回避",
+    "script": {
+      "INDIVIDUALITIE": 2798
+    },
+    "tvals": [],
+    "type": 163,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "攻撃によるダメージを0にする",
+    "effectList": [],
+    "iconId": 305,
+    "id": 3854,
+    "maxRate": 0,
+    "name": "回避",
+    "script": "",
+    "tvals": [],
+    "type": 24,
+    "updatedAt": "0",
+    "vals": [
+      2798
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "『ぐだぐだ龍馬危機一髪！』において与えるダメージをアップ",
+    "effectList": [],
+    "iconId": 302,
+    "id": 3855,
+    "maxRate": 10000,
+    "name": "SAITAMAパワー",
+    "script": "",
+    "tvals": [],
+    "type": 11,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "『ぐだぐだ龍馬危機一髪！』において与えるダメージをアップ",
+    "effectList": [],
+    "iconId": 302,
+    "id": 3856,
+    "maxRate": 10000,
+    "name": "威力アップ",
+    "script": "",
+    "tvals": [],
+    "type": 11,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "『ハロウィン・ライジング！』において与えるダメージをアップ",
+    "effectList": [],
+    "iconId": 302,
+    "id": 3857,
+    "maxRate": 10000,
+    "name": "威力アップ",
+    "script": "",
+    "tvals": [],
+    "type": 11,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [
+      4005,
+      4006
+    ],
+    "createdAt": "0",
+    "detail": "通常攻撃時ダメージ前に、敵単体の防御强化状態を中確率で解除＆解除成功時に防御力下降",
+    "effectList": [],
+    "iconId": 528,
+    "id": 3858,
+    "maxRate": 0,
+    "name": "セーフティーブレイカー",
+    "script": "",
+    "tvals": [
+      5000,
+      4005,
+      4006
+    ],
+    "type": 148,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      2809
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔メルヘンライク〕状態の敵からの攻撃のダメージに対する耐性を得る＆必中を無視して、攻撃によるダメージを0にする＆毎回合结束时，、自身の弱体状態を解除＆毎ターン充能增加1格",
+    "effectList": [],
+    "iconId": 334,
+    "id": 3859,
+    "maxRate": 5000,
+    "name": "エバー・アフター",
+    "script": "",
+    "tvals": [
+      2809
+    ],
+    "type": 91,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 400,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 311,
+    "id": 3860,
+    "maxRate": 0,
+    "name": "",
+    "script": "",
+    "tvals": [],
+    "type": 26,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3018,
+      3022,
+      3007
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 343,
+    "id": 3861,
+    "maxRate": 0,
+    "name": "",
+    "script": "",
+    "tvals": [],
+    "type": 85,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "自身がフィールドに居る間、味方全体の攻击力提升＆宝具で与えるダメージをアップ<控え含む>",
+    "effectList": [],
+    "iconId": 300,
+    "id": 3862,
+    "maxRate": 0,
+    "name": "あるがままの女王",
+    "script": "",
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "HPの回復効果量をアップ",
+    "effectList": [],
+    "iconId": 328,
+    "id": 3863,
+    "maxRate": 0,
+    "name": "メルヘンライク",
+    "script": "",
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [
+      2809
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 328,
+    "id": 3864,
+    "maxRate": 50000,
+    "name": "",
+    "script": "",
+    "tvals": [],
+    "type": 64,
+    "updatedAt": "0",
+    "vals": [
+      2809
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "2ターン経過後に自身にスタンを付与する＆敵からの狙われやすさがアップ(弱体扱い)",
+    "effectList": [],
+    "iconId": 525,
+    "id": 3865,
+    "maxRate": 0,
+    "name": "延迟发动(スタン付与＆タゲ集中アップ)",
+    "script": "",
+    "tvals": [],
+    "type": 76,
+    "updatedAt": "0",
+    "vals": [
+      3005
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "攻击力下降",
+    "effectList": [],
+    "iconId": 503,
+    "id": 3866,
+    "maxRate": 5000,
+    "name": "攻击力下降",
+    "script": "",
+    "tvals": [],
+    "type": 10,
+    "updatedAt": "0",
+    "vals": [
+      6028
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 900,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "无法使用宝具",
+    "effectList": [],
+    "iconId": 512,
+    "id": 3867,
+    "maxRate": 0,
+    "name": "宝具封印",
+    "script": "",
+    "tvals": [],
+    "type": 34,
+    "updatedAt": "0",
+    "vals": [
+      6028
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "攻撃力をすこしアップ",
+    "effectList": [],
+    "iconId": 300,
+    "id": 3868,
+    "maxRate": 5000,
+    "name": "攻击力提升",
+    "script": "",
+    "tvals": [],
+    "type": 9,
+    "updatedAt": "0",
+    "vals": [
+      6027
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 500,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "无法行动",
+    "effectList": [],
+    "iconId": 501,
+    "id": 3869,
+    "maxRate": 0,
+    "name": "銅のノブ",
+    "script": "",
+    "tvals": [],
+    "type": 32,
+    "updatedAt": "0",
+    "vals": [
+      6026
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 600,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "生命值为0时，回复一定生命值避免死亡",
+    "effectList": [],
+    "iconId": 304,
+    "id": 3870,
+    "maxRate": 1000,
+    "name": "銅のノブ",
+    "script": "",
+    "tvals": [],
+    "type": 104,
+    "updatedAt": "0",
+    "vals": [
+      6026
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "攻撃力をそこそこアップ",
+    "effectList": [],
+    "iconId": 300,
+    "id": 3871,
+    "maxRate": 5000,
+    "name": "攻击力提升",
+    "script": "",
+    "tvals": [],
+    "type": 9,
+    "updatedAt": "0",
+    "vals": [
+      6027
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 500,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "无法行动",
+    "effectList": [],
+    "iconId": 501,
+    "id": 3872,
+    "maxRate": 0,
+    "name": "銀のノブ",
+    "script": "",
+    "tvals": [],
+    "type": 32,
+    "updatedAt": "0",
+    "vals": [
+      6026
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 600,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "生命值为0时，回复一定生命值避免死亡",
+    "effectList": [],
+    "iconId": 304,
+    "id": 3873,
+    "maxRate": 1000,
+    "name": "銀のノブ",
+    "script": "",
+    "tvals": [],
+    "type": 104,
+    "updatedAt": "0",
+    "vals": [
+      6026
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "攻撃力をかなりアップ",
+    "effectList": [],
+    "iconId": 300,
+    "id": 3874,
+    "maxRate": 5000,
+    "name": "攻击力提升",
+    "script": "",
+    "tvals": [],
+    "type": 9,
+    "updatedAt": "0",
+    "vals": [
+      6027
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 500,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "无法行动",
+    "effectList": [],
+    "iconId": 501,
+    "id": 3875,
+    "maxRate": 0,
+    "name": "金のノブ",
+    "script": "",
+    "tvals": [],
+    "type": 32,
+    "updatedAt": "0",
+    "vals": [
+      6026
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 600,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "生命值为0时，回复一定生命值避免死亡",
+    "effectList": [],
+    "iconId": 304,
+    "id": 3876,
+    "maxRate": 1000,
+    "name": "金のノブ",
+    "script": "",
+    "tvals": [],
+    "type": 104,
+    "updatedAt": "0",
+    "vals": [
+      6026
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "受击时敵単体のNPを10%増やす【负面效果】",
+    "effectList": [],
+    "iconId": 331,
+    "id": 3877,
+    "maxRate": 0,
+    "name": "銅のノブ",
+    "script": "",
+    "tvals": [
+      5000
+    ],
+    "type": 86,
+    "updatedAt": "0",
+    "vals": [
+      6026,
+      6021
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "受击时敵単体のNPを50%増やす【负面效果】",
+    "effectList": [],
+    "iconId": 331,
+    "id": 3878,
+    "maxRate": 0,
+    "name": "銀のノブ",
+    "script": "",
+    "tvals": [
+      5000
+    ],
+    "type": 86,
+    "updatedAt": "0",
+    "vals": [
+      6026,
+      6022
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "受击时敵単体のNPを100%増やす【负面效果】",
+    "effectList": [],
+    "iconId": 331,
+    "id": 3879,
+    "maxRate": 0,
+    "name": "金のノブ",
+    "script": "",
+    "tvals": [
+      5000
+    ],
+    "type": 86,
+    "updatedAt": "0",
+    "vals": [
+      6026,
+      6022
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "毎回合结束时，、低確率で自身にスタンを付与",
+    "effectList": [],
+    "iconId": 537,
+    "id": 3880,
+    "maxRate": 0,
+    "name": "每回合发动(スタン付与)",
+    "script": "",
+    "tvals": [],
+    "type": 85,
+    "updatedAt": "0",
+    "vals": [
+      3005,
+      3063
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 800,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "无法使用技能",
+    "effectList": [],
+    "iconId": 511,
+    "id": 3881,
+    "maxRate": 0,
+    "name": "技能封印",
+    "script": "",
+    "tvals": [],
+    "type": 33,
+    "updatedAt": "0",
+    "vals": [
+      6026,
+      3025
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "攻击力提升",
+    "effectList": [],
+    "iconId": 300,
+    "id": 3882,
+    "maxRate": 5000,
+    "name": "攻击力提升",
+    "script": "",
+    "tvals": [],
+    "type": 9,
+    "updatedAt": "0",
+    "vals": [
+      6026
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "防御力をアップ",
+    "effectList": [],
+    "iconId": 301,
+    "id": 3883,
+    "maxRate": 5000,
+    "name": "防御力アップ",
+    "script": "",
+    "tvals": [],
+    "type": 42,
+    "updatedAt": "0",
+    "vals": [
+      6026
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "被ダメージを減らす",
+    "effectList": [],
+    "iconId": 301,
+    "id": 3884,
+    "maxRate": 0,
+    "name": "ダメージカット",
+    "script": "",
+    "tvals": [],
+    "type": 23,
+    "updatedAt": "0",
+    "vals": [
+      6026
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "通常攻撃時に低確率で即死を付与する",
+    "effectList": [],
+    "iconId": 528,
+    "id": 3885,
+    "maxRate": 0,
+    "name": "攻击时发动(即死付与)",
+    "script": "",
+    "tvals": [],
+    "type": 89,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "攻撃時に敵単体のNP獲得量をダウン又はスター発生率をダウン",
+    "effectList": [],
+    "iconId": 528,
+    "id": 3886,
+    "maxRate": 0,
+    "name": "攻击时发动(弱体)",
+    "script": "",
+    "tvals": [],
+    "type": 137,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "防御力をアップ＆宝具攻撃時に味方全体の睡眠状態を解除",
+    "effectList": [],
+    "iconId": 301,
+    "id": 3887,
+    "maxRate": 5000,
+    "name": "スロースターター",
+    "script": "",
+    "tvals": [],
+    "type": 42,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [
+      4007,
+      4004
+    ],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 333,
+    "id": 3888,
+    "maxRate": 0,
+    "name": "",
+    "script": "",
+    "tvals": [
+      5000,
+      4007,
+      4004
+    ],
+    "type": 137,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "通常攻撃時に自身の充能增加1格＆宝具攻撃時に自身に睡眠状態を付与【负面效果】＆即死付与率をダウン【负面效果】",
+    "effectList": [],
+    "iconId": 333,
+    "id": 3889,
+    "maxRate": 0,
+    "name": "スタートダッシュ",
+    "script": "",
+    "tvals": [],
+    "type": 89,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [
+      4007,
+      4004
+    ],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 333,
+    "id": 3890,
+    "maxRate": 0,
+    "name": "",
+    "script": "",
+    "tvals": [
+      5000,
+      4007,
+      4004
+    ],
+    "type": 137,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 503,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "无法行动(受击时解除)",
+    "effectList": [],
+    "iconId": 557,
+    "id": 3891,
+    "maxRate": 0,
+    "name": "睡眠",
+    "script": {
+      "DamageRelease": 1,
+      "ReleaseText": "睡眠解除"
+    },
+    "tvals": [],
+    "type": 32,
+    "updatedAt": "0",
+    "vals": [
+      6026,
+      3045,
+      3010,
+      3066
+    ],
+    "effectId": 2001002
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "毅力発動時、自身のNPが増える",
+    "effectList": [],
+    "iconId": 365,
+    "id": 3892,
+    "maxRate": 0,
+    "name": "毅力时发动(NP増加)",
+    "script": "",
+    "tvals": [],
+    "type": 149,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "HPが0になった時、味方の〔眠れる巨人〕を即死させる",
+    "effectList": [],
+    "iconId": 543,
+    "id": 3893,
+    "maxRate": 0,
+    "name": "少年の活路",
+    "script": "",
+    "tvals": [],
+    "type": 78,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      4002
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "力指令卡の攻撃による被ダメージ、被NP発生量、被スター発生率が減少する",
+    "effectList": [],
+    "iconId": 347,
+    "id": 3894,
+    "maxRate": 5000,
+    "name": "「『火鼠の裘』が欲しーいっ」",
+    "script": "",
+    "tvals": [
+      5000,
+      4002
+    ],
+    "type": 105,
+    "updatedAt": "0",
+    "vals": [
+      6026
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      4001
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "技指令卡の攻撃による被ダメージ、被NP発生量、被スター発生率が減少する",
+    "effectList": [],
+    "iconId": 346,
+    "id": 3895,
+    "maxRate": 5000,
+    "name": "「『龍の首の珠』が欲しーいっ」",
+    "script": "",
+    "tvals": [
+      5000,
+      4001
+    ],
+    "type": 105,
+    "updatedAt": "0",
+    "vals": [
+      6026
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      4003
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "迅指令卡の攻撃による被ダメージ、被NP発生量、被スター発生率が減少する",
+    "effectList": [],
+    "iconId": 345,
+    "id": 3896,
+    "maxRate": 5000,
+    "name": "「『燕の子安貝』が欲しーいっ」",
+    "script": "",
+    "tvals": [
+      5000,
+      4003
+    ],
+    "type": 105,
+    "updatedAt": "0",
+    "vals": [
+      6026
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      4100
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "クリティカル攻撃への耐性を得る",
+    "effectList": [],
+    "iconId": 334,
+    "id": 3897,
+    "maxRate": 5000,
+    "name": "「『仏の御石の鉢』が欲しーいっ」",
+    "script": "",
+    "tvals": [
+      4100
+    ],
+    "type": 91,
+    "updatedAt": "0",
+    "vals": [
+      6026
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      4007
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "宝具のダメージに対する耐性を得る",
+    "effectList": [],
+    "iconId": 334,
+    "id": 3898,
+    "maxRate": 5000,
+    "name": "「『蓬莱の玉の枝』が欲しーいっ」",
+    "script": "",
+    "tvals": [],
+    "type": 91,
+    "updatedAt": "0",
+    "vals": [
+      6026
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "被ダメージを減らす",
+    "effectList": [],
+    "iconId": 301,
+    "id": 3899,
+    "maxRate": 0,
+    "name": "人魚の住む海域",
+    "script": "",
+    "tvals": [],
+    "type": 23,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "受击时敵単体にやけど状態を付与",
+    "effectList": [],
+    "iconId": 331,
+    "id": 3900,
+    "maxRate": 0,
+    "name": "灯の少女",
+    "script": "",
+    "tvals": [
+      5000
+    ],
+    "type": 86,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      3015
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔やけど〕状態の敵に与えるダメージをアップ",
+    "effectList": [],
+    "iconId": 302,
+    "id": 3901,
+    "maxRate": 10000,
+    "name": "灯のマッチョ",
+    "script": "",
+    "tvals": [
+      3015
+    ],
+    "type": 112,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      3020
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "宝具封印を受けなくなる＆行動不能状態を受けなくなる＆宝具で与えるダメージをダウン【负面效果】",
+    "effectList": [],
+    "iconId": 322,
+    "id": 3902,
+    "maxRate": 0,
+    "name": "思い出の灰",
+    "script": "",
+    "tvals": [
+      3020
+    ],
+    "type": 31,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3061
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "防御力をアップ",
+    "effectList": [],
+    "iconId": 301,
+    "id": 3903,
+    "maxRate": 5000,
+    "name": "ありがたい笠",
+    "script": "",
+    "tvals": [],
+    "type": 42,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "当自身在场地上时，味方全体の攻击力提升",
+    "effectList": [],
+    "iconId": 300,
+    "id": 3904,
+    "maxRate": 0,
+    "name": "罪なきウルフ",
+    "script": "",
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "当自身在场地上时，味方全体に必中状態を付与",
+    "effectList": [],
+    "iconId": 309,
+    "id": 3905,
+    "maxRate": 0,
+    "name": "見せ場なきハンター",
+    "script": "",
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "当自身在场地上时，敵全体の攻击力下降",
+    "effectList": [],
+    "iconId": 520,
+    "id": 3906,
+    "maxRate": 0,
+    "name": "事なきグランマ",
+    "script": "",
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "毎回合结束时，、敵全体にやけど状態を付与＋味方全体にやけど状態を付与【负面效果】",
+    "effectList": [],
+    "iconId": 537,
+    "id": 3907,
+    "maxRate": 0,
+    "name": "每回合发动(やけど付与)",
+    "script": "",
+    "tvals": [],
+    "type": 85,
+    "updatedAt": "0",
+    "vals": [
+      3005,
+      3063
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "『メイキング・クリスマス・パーティー！』において与えるダメージをアップ",
+    "effectList": [],
+    "iconId": 302,
+    "id": 3908,
+    "maxRate": 10000,
+    "name": "クリスマスクッキング",
+    "script": "",
+    "tvals": [],
+    "type": 11,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 200,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "自身が行動不能状態の時、攻撃によるダメージを0にする＆毎ターン充能增加1格",
+    "effectList": [],
+    "iconId": 305,
+    "id": 3909,
+    "maxRate": 0,
+    "name": "二度と囚われぬ",
+    "script": {
+      "INDIVIDUALITIE": 3045
+    },
+    "tvals": [],
+    "type": 24,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 319,
+    "id": 3910,
+    "maxRate": 0,
+    "name": "",
+    "script": {
+      "INDIVIDUALITIE": 3045
+    },
+    "tvals": [],
+    "type": 114,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      3066
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "睡眠を受けなくなる",
+    "effectList": [],
+    "iconId": 322,
+    "id": 3911,
+    "maxRate": 0,
+    "name": "戦場にて眠らず",
+    "script": "",
+    "tvals": [
+      3066
+    ],
+    "type": 31,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3061
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [
+      4008
+    ],
+    "createdAt": "0",
+    "detail": "通常攻撃時ダメージ前に、敵単体の防御强化状態を解除",
+    "effectList": [],
+    "iconId": 528,
+    "id": 3912,
+    "maxRate": 0,
+    "name": "通常攻撃ダメージ前追加効果(防御强化状態解除)",
+    "script": "",
+    "tvals": [
+      5000,
+      4008
+    ],
+    "type": 148,
+    "updatedAt": "0",
+    "vals": [
+      6030
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      3011,
+      3026,
+      3015
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "毒と呪いとやけどを受けなくなる",
+    "effectList": [],
+    "iconId": 322,
+    "id": 3913,
+    "maxRate": 0,
+    "name": "毒＆呪い＆やけど無効",
+    "script": "",
+    "tvals": [
+      3011,
+      3026,
+      3015
+    ],
+    "type": 31,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3061
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      4007
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "宝具攻撃を受けた時、自身の特殊耐性の効果量をダウン(最大10個)＆効果量ダウン付与成功時に〔遅効の略：宝具攻撃〕状態を付与",
+    "effectList": [],
+    "iconId": 525,
+    "id": 3914,
+    "maxRate": 0,
+    "name": "〔守りの隙：宝具攻撃〕(Break時に解除)",
+    "script": "",
+    "tvals": [
+      5000,
+      4007
+    ],
+    "type": 86,
+    "updatedAt": "0",
+    "vals": [
+      6026,
+      3063
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      4100
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "クリティカル攻撃を受けた時、自身の特殊耐性の効果量をダウン(最大10個)＆効果量ダウン付与成功時に〔遅効の略：クリティカル攻撃〕状態を付与",
+    "effectList": [],
+    "iconId": 525,
+    "id": 3915,
+    "maxRate": 0,
+    "name": "〔守りの隙：クリティカル攻撃〕(Break時に解除)",
+    "script": "",
+    "tvals": [
+      5000,
+      4100
+    ],
+    "type": 86,
+    "updatedAt": "0",
+    "vals": [
+      6026,
+      3063
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      4002
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "力攻撃を受けた時、自身の特殊耐性の効果量をダウン(最大10個)＆効果量ダウン付与成功時に〔遅効の略：力攻撃〕状態を付与",
+    "effectList": [],
+    "iconId": 525,
+    "id": 3916,
+    "maxRate": 0,
+    "name": "〔守りの隙：力攻撃〕(Break時に解除)",
+    "script": "",
+    "tvals": [
+      5000,
+      4002
+    ],
+    "type": 86,
+    "updatedAt": "0",
+    "vals": [
+      6026,
+      3063
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      4001
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "Arts攻撃を受けた時、自身の特殊耐性の効果量をダウン(最大10個)＆効果量ダウン付与成功時に〔遅効の略：Arts攻撃〕状態を付与",
+    "effectList": [],
+    "iconId": 525,
+    "id": 3917,
+    "maxRate": 0,
+    "name": "〔守りの隙：Arts攻撃〕(Break時に解除)",
+    "script": "",
+    "tvals": [
+      5000,
+      4001
+    ],
+    "type": 86,
+    "updatedAt": "0",
+    "vals": [
+      6026,
+      3063
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      4003
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "Quick攻撃を受けた時、自身の特殊耐性の効果量をダウン(最大10個)＆効果量ダウン付与成功時に〔遅効の略：Quick攻撃〕状態を付与",
+    "effectList": [],
+    "iconId": 525,
+    "id": 3918,
+    "maxRate": 0,
+    "name": "〔守りの隙：Quick攻撃〕(Break時に解除)",
+    "script": "",
+    "tvals": [
+      5000,
+      4003
+    ],
+    "type": 86,
+    "updatedAt": "0",
+    "vals": [
+      6026,
+      3063
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      4004
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "Extra Attackを受けた時、自身の特殊耐性の効果量をダウン(最大10個)＆効果量ダウン付与成功時に〔遅効の略：追撃〕状態を付与",
+    "effectList": [],
+    "iconId": 525,
+    "id": 3919,
+    "maxRate": 0,
+    "name": "〔守りの隙：追撃〕(Break時に解除)",
+    "script": "",
+    "tvals": [
+      5000,
+      4004
+    ],
+    "type": 86,
+    "updatedAt": "0",
+    "vals": [
+      6026,
+      3063
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "3ターン後に自身に〔守りの隙：宝具攻撃〕状態を付与",
+    "effectList": [],
+    "iconId": 525,
+    "id": 3920,
+    "maxRate": 0,
+    "name": "〔遅効の略：宝具攻撃〕(Break時に解除)",
+    "script": "",
+    "tvals": [],
+    "type": 76,
+    "updatedAt": "0",
+    "vals": [
+      6027,
+      3063
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "3ターン後に自身に〔守りの隙：クリティカル攻撃〕状態を付与",
+    "effectList": [],
+    "iconId": 525,
+    "id": 3921,
+    "maxRate": 0,
+    "name": "〔遅効の略：クリティカル攻撃〕(Break時に解除)",
+    "script": "",
+    "tvals": [],
+    "type": 76,
+    "updatedAt": "0",
+    "vals": [
+      6027,
+      3063
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "3ターン後に自身に〔守りの隙：力攻撃〕状態を付与",
+    "effectList": [],
+    "iconId": 525,
+    "id": 3922,
+    "maxRate": 0,
+    "name": "〔遅効の略：力攻撃〕(Break時に解除)",
+    "script": "",
+    "tvals": [],
+    "type": 76,
+    "updatedAt": "0",
+    "vals": [
+      6027,
+      3063
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "3ターン後に自身に〔守りの隙：Arts攻撃〕状態を付与",
+    "effectList": [],
+    "iconId": 525,
+    "id": 3923,
+    "maxRate": 0,
+    "name": "〔遅効の略：Arts攻撃〕(Break時に解除)",
+    "script": "",
+    "tvals": [],
+    "type": 76,
+    "updatedAt": "0",
+    "vals": [
+      6027,
+      3063
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "3ターン後に自身に〔守りの隙：Quick攻撃〕状態を付与",
+    "effectList": [],
+    "iconId": 525,
+    "id": 3924,
+    "maxRate": 0,
+    "name": "〔遅効の略：Quick攻撃〕(Break時に解除)",
+    "script": "",
+    "tvals": [],
+    "type": 76,
+    "updatedAt": "0",
+    "vals": [
+      6027,
+      3063
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "3ターン後に自身に〔守りの隙：追撃〕状態を付与",
+    "effectList": [],
+    "iconId": 525,
+    "id": 3925,
+    "maxRate": 0,
+    "name": "〔遅効の略：追撃〕(Break時に解除)",
+    "script": "",
+    "tvals": [],
+    "type": 76,
+    "updatedAt": "0",
+    "vals": [
+      6027,
+      3063
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "自身の特殊耐性の効果量をダウン(最大10個)",
+    "effectList": [],
+    "iconId": 529,
+    "id": 3926,
+    "maxRate": 5000,
+    "name": "特殊耐性効果量ダウン",
+    "script": "",
+    "tvals": [],
+    "type": 92,
+    "updatedAt": "0",
+    "vals": [
+      3005,
+      3017
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 300,
+    "id": 3927,
+    "maxRate": 0,
+    "name": "",
+    "script": "",
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [
+      6035
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "毎回合结束时，、敵全体にバリスタによる支援射撃が発動する",
+    "effectList": [],
+    "iconId": 343,
+    "id": 3928,
+    "maxRate": 0,
+    "name": "每回合发动(支援射撃)",
+    "script": "",
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 700,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "敵からの狙われやすさをアップ",
+    "effectList": [],
+    "iconId": 323,
+    "id": 3929,
+    "maxRate": 50000,
+    "name": "タゲ集中アップ",
+    "script": "",
+    "tvals": [],
+    "type": 38,
+    "updatedAt": "0",
+    "vals": [
+      3005,
+      3023
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 348,
+    "id": 3930,
+    "maxRate": 5000,
+    "name": "",
+    "script": "",
+    "tvals": [],
+    "type": 100,
+    "updatedAt": "0",
+    "vals": [
+      6030
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "被ダメージを減らす",
+    "effectList": [],
+    "iconId": 301,
+    "id": 3931,
+    "maxRate": 0,
+    "name": "ダメージカット",
+    "script": "",
+    "tvals": [],
+    "type": 23,
+    "updatedAt": "0",
+    "vals": [
+      6026
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      3004
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 506,
+    "id": 3932,
+    "maxRate": 5000,
+    "name": "",
+    "script": {
+      "INDIVIDUALITIE": 6026
+    },
+    "tvals": [
+      3004
+    ],
+    "type": 29,
+    "updatedAt": "0",
+    "vals": [
+      6029
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔私のおばあさん〕がフィールドにいる間、フィールド全体の〔女性〕に対する强化成功率をダウン",
+    "effectList": [],
+    "iconId": 520,
+    "id": 3933,
+    "maxRate": 0,
+    "name": "罪なきウルフ",
+    "script": {
+      "INDIVIDUALITIE": 6026
+    },
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 600,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔私の狼〕がフィールドにいる間、生命值为0时，回复一定生命值避免死亡",
+    "effectList": [],
+    "iconId": 304,
+    "id": 3934,
+    "maxRate": 1000,
+    "name": "見せ場なきハンター",
+    "script": {
+      "INDIVIDUALITIE": 6027
+    },
+    "tvals": [],
+    "type": 104,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3024
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 400,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔私の猟師〕がフィールドにいる間、必中を無視して、攻撃によるダメージを0にする",
+    "effectList": [],
+    "iconId": 311,
+    "id": 3935,
+    "maxRate": 0,
+    "name": "事なきグランマ",
+    "script": {
+      "INDIVIDUALITIE": 6028
+    },
+    "tvals": [],
+    "type": 26,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3018,
+      3022,
+      3007
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 520,
+    "id": 3936,
+    "maxRate": 0,
+    "name": "",
+    "script": "",
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 506,
+    "id": 3937,
+    "maxRate": 0,
+    "name": "",
+    "script": "",
+    "tvals": [],
+    "type": 78,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "毎ターンHPが減少する",
+    "effectList": [],
+    "iconId": 537,
+    "id": 3939,
+    "maxRate": 0,
+    "name": "人参不足",
+    "script": "",
+    "tvals": [],
+    "type": 85,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "防御力をアップ",
+    "effectList": [],
+    "iconId": 301,
+    "id": 3940,
+    "maxRate": 5000,
+    "name": "奇神障壁",
+    "script": "",
+    "tvals": [],
+    "type": 42,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "防御力をアップ",
+    "effectList": [],
+    "iconId": 301,
+    "id": 3941,
+    "maxRate": 5000,
+    "name": "奇神障壁・剛",
+    "script": "",
+    "tvals": [],
+    "type": 42,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "防御力をアップ",
+    "effectList": [],
+    "iconId": 301,
+    "id": 3942,
+    "maxRate": 5000,
+    "name": "春日山装甲",
+    "script": "",
+    "tvals": [],
+    "type": 42,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "全ての攻撃に対する耐性を得る",
+    "effectList": [],
+    "iconId": 334,
+    "id": 3943,
+    "maxRate": 5000,
+    "name": "奇神障壁・殻",
+    "script": "",
+    "tvals": [],
+    "type": 91,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "自身の通常攻撃時に確率でスタン状態(1ターン)を付与する",
+    "effectList": [],
+    "iconId": 528,
+    "id": 3944,
+    "maxRate": 0,
+    "name": "攻击时发动(スタン付与)",
+    "script": "",
+    "tvals": [],
+    "type": 89,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "受击时自身的攻击力提升",
+    "effectList": [],
+    "iconId": 331,
+    "id": 3945,
+    "maxRate": 0,
+    "name": "受击时发动(攻击力提升)",
+    "script": "",
+    "tvals": [],
+    "type": 86,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "HPが0になった時にちびノブ系にダメージカット状態を付与＆与えるダメージを増やす",
+    "effectList": [],
+    "iconId": 350,
+    "id": 3946,
+    "maxRate": 0,
+    "name": "「ちびノブ死すともちびノブ死せず」",
+    "script": "",
+    "tvals": [],
+    "type": 78,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [
+      4002
+    ],
+    "createdAt": "0",
+    "detail": "力指令卡で攻撃時、敵単体に〔お見事！〕状態を付与する",
+    "effectList": [],
+    "iconId": 528,
+    "id": 3947,
+    "maxRate": 0,
+    "name": "攻击时发动(お見事！付与)",
+    "script": "",
+    "tvals": [
+      5000,
+      4002
+    ],
+    "type": 137,
+    "updatedAt": "0",
+    "vals": [
+      6026
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [
+      4001
+    ],
+    "createdAt": "0",
+    "detail": "技指令卡で攻撃時、敵単体に〔お見事！〕状態を付与する",
+    "effectList": [],
+    "iconId": 528,
+    "id": 3948,
+    "maxRate": 0,
+    "name": "攻击时发动(お見事！付与)",
+    "script": "",
+    "tvals": [
+      5000,
+      4001
+    ],
+    "type": 137,
+    "updatedAt": "0",
+    "vals": [
+      6026
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [
+      4003
+    ],
+    "createdAt": "0",
+    "detail": "迅指令卡で攻撃時、敵単体に〔お見事！〕状態を付与する",
+    "effectList": [],
+    "iconId": 528,
+    "id": 3949,
+    "maxRate": 0,
+    "name": "攻击时发动(お見事！付与)",
+    "script": "",
+    "tvals": [
+      5000,
+      4003
+    ],
+    "type": 137,
+    "updatedAt": "0",
+    "vals": [
+      6026
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "毅力発動時、自身のNPが増える＆攻击力提升",
+    "effectList": [],
+    "iconId": 365,
+    "id": 3950,
+    "maxRate": 0,
+    "name": "毅力时发动(强化)",
+    "script": "",
+    "tvals": [],
+    "type": 149,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "クリティカルの発生率をアップ",
+    "effectList": [],
+    "iconId": 327,
+    "id": 3951,
+    "maxRate": 5000,
+    "name": "クリティカル発生アップ",
+    "script": "",
+    "tvals": [],
+    "type": 70,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "回避と無敵を無視してダメージを与える",
+    "effectList": [],
+    "iconId": 329,
+    "id": 3952,
+    "maxRate": 0,
+    "name": "無敵貫通",
+    "script": "",
+    "tvals": [],
+    "type": 72,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3059,
+      3006
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "クリティカルの発生率をアップ",
+    "effectList": [],
+    "iconId": 327,
+    "id": 3953,
+    "maxRate": 5000,
+    "name": "クリティカル発生アップ",
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "tvals": [],
+    "type": 70,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "クリティカル時のダメージをアップ",
+    "effectList": [],
+    "iconId": 324,
+    "id": 3954,
+    "maxRate": 5000,
+    "name": "クリティカル威力アップ",
+    "script": "",
+    "tvals": [],
+    "type": 18,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "個性追加",
+    "effectList": [],
+    "iconId": 520,
+    "id": 3955,
+    "maxRate": 0,
+    "name": "個性追加",
+    "script": "",
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [
+      6021
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "個性追加",
+    "effectList": [],
+    "iconId": 520,
+    "id": 3956,
+    "maxRate": 0,
+    "name": "個性追加",
+    "script": "",
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [
+      6022
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "個性追加",
+    "effectList": [],
+    "iconId": 520,
+    "id": 3957,
+    "maxRate": 0,
+    "name": "個性追加",
+    "script": "",
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [
+      6023
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      3014,
+      3012,
+      3013,
+      3045
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "行動不能を受けなくなる＆宝具で与えるダメージをアップ",
+    "effectList": [],
+    "iconId": 322,
+    "id": 3958,
+    "maxRate": 0,
+    "name": "心踊る舞踏",
+    "script": "",
+    "tvals": [
+      3014,
+      3012,
+      3013,
+      3045
+    ],
+    "type": 31,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [
+      4100
+    ],
+    "createdAt": "0",
+    "detail": "自身のクリティカル攻撃時に敵単体の防御力下降",
+    "effectList": [],
+    "iconId": 528,
+    "id": 3959,
+    "maxRate": 0,
+    "name": "クリティカル攻击时发动(防御力下降)",
+    "script": "",
+    "tvals": [
+      5000,
+      4100
+    ],
+    "type": 89,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "毎回合结束时，、敵単体に技能封印状態を付与",
+    "effectList": [],
+    "iconId": 343,
+    "id": 3960,
+    "maxRate": 0,
+    "name": "每回合发动(技能封印)",
+    "script": "",
+    "tvals": [],
+    "type": 85,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [
+      4002
+    ],
+    "createdAt": "0",
+    "detail": "〔炎上〕しているフィールドで力指令卡の性能提升",
+    "effectList": [],
+    "iconId": 314,
+    "id": 3961,
+    "maxRate": 5000,
+    "name": "力アップ",
+    "script": "",
+    "tvals": [
+      5000,
+      4002
+    ],
+    "type": 52,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "7個以上溜まると自身に魅了状態(1ターン)を付与＆〔お見事！〕状態を全て解除する",
+    "effectList": [],
+    "iconId": 520,
+    "id": 3962,
+    "maxRate": 0,
+    "name": "お見事！",
+    "script": "",
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [
+      2811
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "個性追加",
+    "effectList": [],
+    "iconId": 520,
+    "id": 3963,
+    "maxRate": 0,
+    "name": "個性追加",
+    "script": "",
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [
+      6015
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "『復刻版:レディ･ライネスの事件簿 -Plus Episode-』において与えるダメージをアップ",
+    "effectList": [],
+    "iconId": 302,
+    "id": 3964,
+    "maxRate": 10000,
+    "name": "ロンド・メモリア",
+    "script": "",
+    "tvals": [],
+    "type": 11,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      2816
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔食材〕特性に与えるダメージをアップ",
+    "effectList": [],
+    "iconId": 302,
+    "id": 3965,
+    "maxRate": 10000,
+    "name": "食材特攻",
+    "script": "",
+    "tvals": [
+      2816
+    ],
+    "type": 11,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "防御力をアップ＆受击时敵単体のHPを回復する【负面效果】",
+    "effectList": [],
+    "iconId": 301,
+    "id": 3966,
+    "maxRate": 5000,
+    "name": "スウィートボディ",
+    "script": "",
+    "tvals": [],
+    "type": 42,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 331,
+    "id": 3967,
+    "maxRate": 0,
+    "name": "",
+    "script": "",
+    "tvals": [],
+    "type": 86,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 200,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "攻撃によるダメージを0にする",
+    "effectList": [],
+    "iconId": 305,
+    "id": 3968,
+    "maxRate": 0,
+    "name": "空腹状態",
+    "script": "",
+    "tvals": [],
+    "type": 24,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "攻撃時に対象の防御力下降(3ターン)もしくは、攻击力下降(3ターン)もしくは、やけど状態を付与(3ターン)もしくは、HPを回復【负面效果】",
+    "effectList": [],
+    "iconId": 528,
+    "id": 3969,
+    "maxRate": 0,
+    "name": "忌憚なき意見",
+    "script": "",
+    "tvals": [],
+    "type": 137,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "防御力をアップ＆毎回合结束时，に防御力下降【负面效果】",
+    "effectList": [],
+    "iconId": 301,
+    "id": 3970,
+    "maxRate": 5000,
+    "name": "新鮮なおさかな",
+    "script": "",
+    "tvals": [],
+    "type": 42,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      4003
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "迅指令卡の攻撃による被ダメージ、被NP発生量、被スター発生率がダウン",
+    "effectList": [],
+    "iconId": 345,
+    "id": 3971,
+    "maxRate": 5000,
+    "name": "料理は政治",
+    "script": "",
+    "tvals": [
+      5000,
+      4003
+    ],
+    "type": 105,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      4001
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "技指令卡の攻撃による被ダメージ、被NP発生量、被スター発生率がダウン",
+    "effectList": [],
+    "iconId": 346,
+    "id": 3972,
+    "maxRate": 5000,
+    "name": "料理は物理",
+    "script": "",
+    "tvals": [
+      5000,
+      4001
+    ],
+    "type": 105,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      4002
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "力指令卡の攻撃による被ダメージ、被NP発生量、被スター発生率がダウン",
+    "effectList": [],
+    "iconId": 347,
+    "id": 3973,
+    "maxRate": 5000,
+    "name": "料理は努力",
+    "script": "",
+    "tvals": [
+      5000,
+      4002
+    ],
+    "type": 105,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [
+      4003
+    ],
+    "createdAt": "0",
+    "detail": "迅指令卡の性能提升",
+    "effectList": [],
+    "iconId": 312,
+    "id": 3974,
+    "maxRate": 5000,
+    "name": "捌きの極意",
+    "script": "",
+    "tvals": [
+      5000,
+      4003
+    ],
+    "type": 52,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [
+      4001
+    ],
+    "createdAt": "0",
+    "detail": "技指令卡の性能提升",
+    "effectList": [],
+    "iconId": 313,
+    "id": 3975,
+    "maxRate": 5000,
+    "name": "盛りの極意",
+    "script": "",
+    "tvals": [
+      5000,
+      4001
+    ],
+    "type": 52,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [
+      4002
+    ],
+    "createdAt": "0",
+    "detail": "力指令卡の性能提升",
+    "effectList": [],
+    "iconId": 314,
+    "id": 3976,
+    "maxRate": 5000,
+    "name": "焼きの極意",
+    "script": "",
+    "tvals": [
+      5000,
+      4002
+    ],
+    "type": 52,
+    "updatedAt": "0",
+    "vals": [
+      2817
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      6026
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "調理用食材への通常攻撃時、敵単体に〔焼き〕特性を付与",
+    "effectList": [],
+    "iconId": 528,
+    "id": 3977,
+    "maxRate": 0,
+    "name": "焼きの修行",
+    "script": "",
+    "tvals": [],
+    "type": 89,
+    "updatedAt": "0",
+    "vals": [
+      2818
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "調理用食材への通常攻撃時、敵単体の防御力下降",
+    "effectList": [],
+    "iconId": 528,
+    "id": 3978,
+    "maxRate": 0,
+    "name": "捌きの修行",
+    "script": "",
+    "tvals": [],
+    "type": 89,
+    "updatedAt": "0",
+    "vals": [
+      2819
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "全ての攻撃に対する耐性を得る（〔焼き〕特性が一定数付与されると解除）",
+    "effectList": [],
+    "iconId": 334,
+    "id": 3979,
+    "maxRate": 5000,
+    "name": "特殊耐性アップ",
+    "script": "",
+    "tvals": [],
+    "type": 91,
+    "updatedAt": "0",
+    "vals": [
+      6036
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "全ての攻撃に対する耐性を得る",
+    "effectList": [],
+    "iconId": 334,
+    "id": 3980,
+    "maxRate": 5000,
+    "name": "特殊耐性アップ",
+    "script": "",
+    "tvals": [],
+    "type": 91,
+    "updatedAt": "0",
+    "vals": [
+      6037
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔焼き〕特性を付与する",
+    "effectList": [],
+    "iconId": 520,
+    "id": 3981,
+    "maxRate": 0,
+    "name": "焼き",
+    "script": "",
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "受击时、敵単体に〔悪い子〕特性を付与する",
+    "effectList": [],
+    "iconId": 331,
+    "id": 3982,
+    "maxRate": 0,
+    "name": "クリスマスの来訪者",
+    "script": "",
+    "tvals": [],
+    "type": 86,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "受击时、敵単体に〔悪い子〕特性を付与する",
+    "effectList": [],
+    "iconId": 331,
+    "id": 3983,
+    "maxRate": 0,
+    "name": "お手伝い妖精",
+    "script": "",
+    "tvals": [],
+    "type": 86,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      304
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔悪〕特性に与えるダメージをアップ",
+    "effectList": [],
+    "iconId": 302,
+    "id": 3984,
+    "maxRate": 10000,
+    "name": "悪い子へのお仕置き",
+    "script": "",
+    "tvals": [
+      304
+    ],
+    "type": 11,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      2820
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔悪い子〕特性に与えるダメージをアップ",
+    "effectList": [],
+    "iconId": 302,
+    "id": 3985,
+    "maxRate": 10000,
+    "name": "威力アップ〔悪い子〕",
+    "script": "",
+    "tvals": [
+      2820
+    ],
+    "type": 11,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      1132
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "ヨールプッキ（鬼）に与えるダメージをアップ(弱体扱い)",
+    "effectList": [],
+    "iconId": 302,
+    "id": 3986,
+    "maxRate": 10000,
+    "name": "悪い子",
+    "script": "",
+    "tvals": [
+      1132
+    ],
+    "type": 11,
+    "updatedAt": "0",
+    "vals": [
+      2820,
+      3005
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      2820
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔悪い子〕からの攻撃に耐性を得る",
+    "effectList": [],
+    "iconId": 334,
+    "id": 3987,
+    "maxRate": 5000,
+    "name": "特殊耐性アップ〔悪い子〕",
+    "script": "",
+    "tvals": [
+      2820
+    ],
+    "type": 91,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "毎回合结束时，に自身以外の宝具充能增加1格",
+    "effectList": [],
+    "iconId": 343,
+    "id": 3988,
+    "maxRate": 0,
+    "name": "每回合发动(チャージ増加)",
+    "script": "",
+    "tvals": [],
+    "type": 85,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      2631
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔ヒト科のサーヴァント〕特性に与えるダメージをアップ",
+    "effectList": [],
+    "iconId": 302,
+    "id": 3989,
+    "maxRate": 10000,
+    "name": "威力アップ〔ヒト科のサーヴァント〕",
+    "script": "",
+    "tvals": [
+      2631
+    ],
+    "type": 11,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      2632
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔魔獣型のサーヴァント〕に対する防御力下降",
+    "effectList": [],
+    "iconId": 504,
+    "id": 3990,
+    "maxRate": 5000,
+    "name": "防御力下降〔魔獣型のサーヴァント〕",
+    "script": "",
+    "tvals": [
+      2632
+    ],
+    "type": 43,
+    "updatedAt": "0",
+    "vals": [
+      3005,
+      3009
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      2631
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔ヒト科のサーヴァント〕特性に与えるダメージをアップ＆〔魔獣型のサーヴァント〕に対する防御力下降【负面效果】",
+    "effectList": [],
+    "iconId": 302,
+    "id": 3991,
+    "maxRate": 10000,
+    "name": "ネガ・ウェポン（小）",
+    "script": "",
+    "tvals": [
+      2631
+    ],
+    "type": 11,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "『ツングースカ・サンクチュアリ』において与えるダメージをアップ",
+    "effectList": [],
+    "iconId": 302,
+    "id": 3992,
+    "maxRate": 10000,
+    "name": "生存権",
+    "script": "",
+    "tvals": [],
+    "type": 11,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [
+      4003
+    ],
+    "createdAt": "0",
+    "detail": "迅指令卡の宝具值获得量提升",
+    "effectList": [],
+    "iconId": 303,
+    "id": 3993,
+    "maxRate": 5000,
+    "name": "NP獲得アップ：Quick",
+    "script": "",
+    "tvals": [],
+    "type": 17,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [
+      4001
+    ],
+    "createdAt": "0",
+    "detail": "技指令卡の宝具值获得量提升",
+    "effectList": [],
+    "iconId": 303,
+    "id": 3994,
+    "maxRate": 5000,
+    "name": "NP獲得アップ：Arts",
+    "script": "",
+    "tvals": [],
+    "type": 17,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [
+      4002
+    ],
+    "createdAt": "0",
+    "detail": "力指令卡の宝具值获得量提升",
+    "effectList": [],
+    "iconId": 303,
+    "id": 3995,
+    "maxRate": 5000,
+    "name": "NP獲得アップ：力",
+    "script": "",
+    "tvals": [],
+    "type": 17,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      4007
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "必中を無視して、宝具攻撃によるダメージを0にする",
+    "effectList": [],
+    "iconId": 311,
+    "id": 3996,
+    "maxRate": 0,
+    "name": "無敵〔宝具〕",
+    "script": "",
+    "tvals": [
+      5000,
+      4007
+    ],
+    "type": 26,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3018,
+      3022,
+      3007
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "通常攻撃時に敵全体にやけど状態を付与＆宝具攻撃時に敵単体に延焼状態を付与",
+    "effectList": [],
+    "iconId": 528,
+    "id": 3997,
+    "maxRate": 0,
+    "name": "ブランドシュティフター",
+    "script": "",
+    "tvals": [],
+    "type": 89,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [
+      4007,
+      4004
+    ],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 528,
+    "id": 3998,
+    "maxRate": 0,
+    "name": "",
+    "script": "",
+    "tvals": [
+      5000,
+      4007,
+      4004
+    ],
+    "type": 137,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      4007
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 334,
+    "id": 3999,
+    "maxRate": 5000,
+    "name": "ファーストタンク",
+    "script": "",
+    "tvals": [
+      4007
+    ],
+    "type": 91,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3016
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "通常攻撃時に敵全体の防御力下降＆宝具攻撃時に敵単体の攻击力下降",
+    "effectList": [],
+    "iconId": 528,
+    "id": 4000,
+    "maxRate": 0,
+    "name": "シュトラーフェ",
+    "script": "",
+    "tvals": [],
+    "type": 89,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "宝具值获得量提升＋当自身在场地上时，味方全体の攻击力提升",
+    "effectList": [],
+    "iconId": 303,
+    "id": 4001,
+    "maxRate": 5000,
+    "name": "土遁の術",
+    "script": "",
+    "tvals": [],
+    "type": 17,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "宝具で与えるダメージをアップ＆打倒敌人时，自身のNPを50%増やす＋当自身在场地上时，味方全体の防御力をアップ",
+    "effectList": [],
+    "iconId": 310,
+    "id": 4002,
+    "maxRate": 5000,
+    "name": "偉大なる勇士",
+    "script": "",
+    "tvals": [],
+    "type": 15,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "オーダーチェンジを使用できなくなる",
+    "effectList": [],
+    "iconId": 554,
+    "id": 4003,
+    "maxRate": 0,
+    "name": "无法Order Change",
+    "script": "",
+    "tvals": [],
+    "type": 141,
+    "updatedAt": "0",
+    "vals": [
+      3005
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "受击时敵単体の防御力下降",
+    "effectList": [],
+    "iconId": 331,
+    "id": 4004,
+    "maxRate": 0,
+    "name": "受击时发动(防御力下降)",
+    "script": "",
+    "tvals": [],
+    "type": 86,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "攻撃時に低確率で敵単体の强化状態を解除",
+    "effectList": [],
+    "iconId": 528,
+    "id": 4005,
+    "maxRate": 0,
+    "name": "攻撃時追加効果(强化解除)",
+    "script": "",
+    "tvals": [],
+    "type": 137,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "攻撃時に自身の防御力をアップ",
+    "effectList": [],
+    "iconId": 333,
+    "id": 4006,
+    "maxRate": 0,
+    "name": "攻撃時追加効果(防御力アップ)",
+    "script": "",
+    "tvals": [],
+    "type": 137,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 200,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "攻撃によるダメージを中確率で0にする",
+    "effectList": [],
+    "iconId": 305,
+    "id": 4007,
+    "maxRate": 0,
+    "name": "確率で回避",
+    "script": "",
+    "tvals": [],
+    "type": 24,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [
+      4007,
+      4004
+    ],
+    "createdAt": "0",
+    "detail": "宝具攻撃時に敵全体の强化状態を解除＆特殊耐性をダウン＆攻撃の威力をダウン",
+    "effectList": [],
+    "iconId": 528,
+    "id": 4008,
+    "maxRate": 0,
+    "name": "宝具攻撃時追加効果(强化解除＆特殊耐性ダウン＆威力ダウン)",
+    "script": "",
+    "tvals": [
+      5000,
+      4007,
+      4004
+    ],
+    "type": 137,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "『ツングースカ・サンクチュアリ』のメインクエストおよびレイドクエストにおいて与えるダメージをアップ",
+    "effectList": [],
+    "iconId": 302,
+    "id": 4009,
+    "maxRate": 10000,
+    "name": "威力アップ",
+    "script": "",
+    "tvals": [],
+    "type": 11,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "打倒敌人时，自身的攻击力提升",
+    "effectList": [],
+    "iconId": 342,
+    "id": 4010,
+    "maxRate": 0,
+    "name": "撃破時追加効果(攻击力提升)",
+    "script": "",
+    "tvals": [
+      5000
+    ],
+    "type": 90,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "防御力をアップ＆宝具受击时敵単体の强化状態を3つ解除",
+    "effectList": [],
+    "iconId": 301,
+    "id": 4011,
+    "maxRate": 5000,
+    "name": "暴虐の化身",
+    "script": "",
+    "tvals": [],
+    "type": 42,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "領域を生きる〔魔性〕の形",
+    "effectList": [],
+    "iconId": 520,
+    "id": 4012,
+    "maxRate": 0,
+    "name": "異聞眷属",
+    "script": "",
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "領域を生きる〔魔性〕の形",
+    "effectList": [],
+    "iconId": 520,
+    "id": 4013,
+    "maxRate": 0,
+    "name": "異聞兵器",
+    "script": "",
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      121,
+      119
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔金色白面〕特性に与えるダメージをアップ",
+    "effectList": [],
+    "iconId": 302,
+    "id": 4014,
+    "maxRate": 10000,
+    "name": "威力アップ〔金色白面〕",
+    "script": "",
+    "tvals": [
+      121,
+      119
+    ],
+    "type": 11,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "攻撃時に敵全体の最大HPを比率で減らす",
+    "effectList": [],
+    "iconId": 528,
+    "id": 4015,
+    "maxRate": 0,
+    "name": "殺戮生存御石",
+    "script": "",
+    "tvals": [],
+    "type": 137,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "HPが0になった時、ロストベルト：ビーストⅣの最大HPを増やす",
+    "effectList": [],
+    "iconId": 350,
+    "id": 4016,
+    "maxRate": 0,
+    "name": "殺戮生存御石",
+    "script": "",
+    "tvals": [],
+    "type": 78,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "HPが0になった時、敵全体の攻击力提升＆HPを回復",
+    "effectList": [],
+    "iconId": 543,
+    "id": 4017,
+    "maxRate": 0,
+    "name": "殺戮生存御石",
+    "script": "",
+    "tvals": [],
+    "type": 78,
+    "updatedAt": "0",
+    "vals": [
+      3005
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "宝具值获得量提升",
+    "effectList": [],
+    "iconId": 303,
+    "id": 4018,
+    "maxRate": 5000,
+    "name": "大妖昇華・封神演義",
+    "script": "",
+    "tvals": [],
+    "type": 17,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 520,
+    "id": 4019,
+    "maxRate": 0,
+    "name": "",
+    "script": {
+      "relationId": 120
+    },
+    "tvals": [],
+    "type": 144,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3007
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 300,
+    "id": 4020,
+    "maxRate": 5000,
+    "name": "",
+    "script": "",
+    "tvals": [],
+    "type": 9,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [
+      3004
+    ],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 307,
+    "id": 4021,
+    "maxRate": 5000,
+    "name": "",
+    "script": "",
+    "tvals": [
+      3004
+    ],
+    "type": 27,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "当自身在场地上时，味方全体のクラス相性の防御不利を打ち消す",
+    "effectList": [],
+    "iconId": 520,
+    "id": 4022,
+    "maxRate": 0,
+    "name": "大妖昇華・封神演義",
+    "script": "",
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3007
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "当自身在场地上时，味方全体の攻击力提升",
+    "effectList": [],
+    "iconId": 300,
+    "id": 4023,
+    "maxRate": 0,
+    "name": "大妖昇華・封神演義",
+    "script": "",
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "当自身在场地上时，味方全体の强化付与率を30%アップ",
+    "effectList": [],
+    "iconId": 307,
+    "id": 4024,
+    "maxRate": 0,
+    "name": "大妖昇華・封神演義",
+    "script": "",
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "当自身在场地上时，敵全体の攻撃强化成功率を40%ダウン＆防御强化成功率を40%ダウン＋味方全体の〔異聞眷属〕の强化成功率をダウン【负面效果】",
+    "effectList": [],
+    "iconId": 520,
+    "id": 4025,
+    "maxRate": 0,
+    "name": "ネガ・セルフ C",
+    "script": "",
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      3006
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 506,
+    "id": 4026,
+    "maxRate": 5000,
+    "name": "",
+    "script": "",
+    "tvals": [
+      3006
+    ],
+    "type": 29,
+    "updatedAt": "0",
+    "vals": [
+      3005
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      3007
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 506,
+    "id": 4027,
+    "maxRate": 5000,
+    "name": "",
+    "script": "",
+    "tvals": [
+      3007
+    ],
+    "type": 29,
+    "updatedAt": "0",
+    "vals": [
+      3005
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "回合结束时，にHPが減る＆防御力下降",
+    "effectList": [],
+    "iconId": 521,
+    "id": 4028,
+    "maxRate": 0,
+    "name": "祭神の呪詛",
+    "script": "",
+    "tvals": [],
+    "type": 8,
+    "updatedAt": "0",
+    "vals": [
+      3005,
+      3026
+    ],
+    "effectId": 17123
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "当自身在场地上时，敵全体のNP獲得量をダウン＆技指令卡性能をダウン",
+    "effectList": [],
+    "iconId": 520,
+    "id": 4029,
+    "maxRate": 0,
+    "name": "MS：i",
+    "script": "",
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "毎ターン敵全体のスターを減少する＋当自身在场地上时，敵全体の迅指令卡性能をダウン",
+    "effectList": [],
+    "iconId": 343,
+    "id": 4030,
+    "maxRate": 0,
+    "name": "MS：MG",
+    "script": "",
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "当自身在场地上时，敵全体のスター発生率をダウン＆クリティカル威力をダウン",
+    "effectList": [],
+    "iconId": 520,
+    "id": 4031,
+    "maxRate": 0,
+    "name": "MS：biA",
+    "script": "",
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "毎ターン自身を除く味方全体に無敵状態を付与＋当自身在场地上时，自身を除く味方全体の宝具攻撃耐性をアップ",
+    "effectList": [],
+    "iconId": 343,
+    "id": 4032,
+    "maxRate": 0,
+    "name": "MS：H",
+    "script": "",
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "攻撃時に敵単体のスキル充能增加1格＋当自身在场地上时，敵全体の攻击力下降",
+    "effectList": [],
+    "iconId": 528,
+    "id": 4033,
+    "maxRate": 0,
+    "name": "MS：P",
+    "script": "",
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "毎ターン敵全体のHPを減らす＆呪厄状態を付与＋HPが0になった時、敵全体に呪い状態を付与",
+    "effectList": [],
+    "iconId": 343,
+    "id": 4034,
+    "maxRate": 0,
+    "name": "MS：G",
+    "script": "",
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "毎ターン敵全体の强化状態を1～3つ解除＋当自身在场地上时，ロストベルト：ビーストⅣの特殊耐性をアップ",
+    "effectList": [],
+    "iconId": 343,
+    "id": 4035,
+    "maxRate": 0,
+    "name": "MS：TK",
+    "script": "",
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "自身の防御力をアップ＋当自身在场地上时，自身を除く味方全体に「被ダメージ時、敵全体に即死付与」する状態を付与",
+    "effectList": [],
+    "iconId": 301,
+    "id": 4036,
+    "maxRate": 0,
+    "name": "MS：HMG",
+    "script": "",
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "NP獲得時に増加する量をダウン",
+    "effectList": [],
+    "iconId": 509,
+    "id": 4037,
+    "maxRate": 1000,
+    "name": "NP増加効果量ダウン",
+    "script": "",
+    "tvals": [],
+    "type": 125,
+    "updatedAt": "0",
+    "vals": [
+      3005
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "低確率で回避と無敵を無視してダメージを与える",
+    "effectList": [],
+    "iconId": 329,
+    "id": 4038,
+    "maxRate": 0,
+    "name": "確率で無敵貫通",
+    "script": "",
+    "tvals": [],
+    "type": 72,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3059,
+      3006
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "当自身在场地上时，味方全体に宝具攻撃耐性を付与＆防御無視状態を付与",
+    "effectList": [],
+    "iconId": 334,
+    "id": 4039,
+    "maxRate": 0,
+    "name": "ファーストタンク",
+    "script": "",
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "回合结束时，にHPが減る",
+    "effectList": [],
+    "iconId": 521,
+    "id": 4040,
+    "maxRate": 0,
+    "name": "呪い",
+    "script": "",
+    "tvals": [],
+    "type": 8,
+    "updatedAt": "0",
+    "vals": [
+      3026,
+      2729
+    ],
+    "effectId": 17123
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [
+      3015
+    ],
+    "createdAt": "0",
+    "detail": "〔水辺〕のあるフィールドにおいてのみ、やけど状態付与率を大ダウン",
+    "effectList": [],
+    "iconId": 507,
+    "id": 4041,
+    "maxRate": 5000,
+    "name": "やけど状態付与ダウン〔水辺〕",
+    "script": {
+      "INDIVIDUALITIE": 2039
+    },
+    "tvals": [
+      3015
+    ],
+    "type": 28,
+    "updatedAt": "0",
+    "vals": [
+      3005
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "生命值为0时，回复一定生命值避免死亡",
+    "effectList": [],
+    "iconId": 304,
+    "id": 4042,
+    "maxRate": 1000,
+    "name": "毅力",
+    "script": "",
+    "tvals": [],
+    "type": 104,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3024,
+      6035
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "毅力発動時、自身のNPを増やす＋敵全体のクリティカル発生率をダウン＋『玉虚体現・封神執行』による毅力発動時、自身に延迟发动(毅力)を付与",
+    "effectList": [],
+    "iconId": 365,
+    "id": 4043,
+    "maxRate": 0,
+    "name": "毅力时发动(强化)",
+    "script": "",
+    "tvals": [],
+    "type": 149,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "5ターン後に、自身に『玉虚体現・封神執行』による毅力状態を付与",
+    "effectList": [],
+    "iconId": 331,
+    "id": 4044,
+    "maxRate": 0,
+    "name": "延迟发动(毅力)",
+    "script": "",
+    "tvals": [],
+    "type": 76,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      6035
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 520,
+    "id": 4045,
+    "maxRate": 0,
+    "name": "",
+    "script": {
+      "INDIVIDUALITIE": 6035
+    },
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      4007
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 525,
+    "id": 4048,
+    "maxRate": 0,
+    "name": "",
+    "script": "",
+    "tvals": [
+      5000,
+      4007
+    ],
+    "type": 86,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      6035
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔無敵〕状態の敵に与えるダメージをダウン【负面效果】",
+    "effectList": [],
+    "iconId": 505,
+    "id": 4049,
+    "maxRate": 10000,
+    "name": "威力ダウン〔無敵〕",
+    "script": "",
+    "tvals": [
+      6035
+    ],
+    "type": 12,
+    "updatedAt": "0",
+    "vals": [
+      3005,
+      3008,
+      3034
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 520,
+    "id": 4050,
+    "maxRate": 0,
+    "name": "",
+    "script": {
+      "INDIVIDUALITIE": 3022
+    },
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "被强化成功率をダウン",
+    "effectList": [],
+    "iconId": 506,
+    "id": 4051,
+    "maxRate": 5000,
+    "name": "被强化成功率ダウン",
+    "script": "",
+    "tvals": [
+      3005
+    ],
+    "type": 29,
+    "updatedAt": "0",
+    "vals": [
+      3005
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [
+      4002
+    ],
+    "createdAt": "0",
+    "detail": "力指令卡で通常攻撃時にスターを獲得する",
+    "effectList": [],
+    "iconId": 333,
+    "id": 4052,
+    "maxRate": 0,
+    "name": "力攻撃時追加効果(スター獲得)",
+    "script": "",
+    "tvals": [
+      5000,
+      4002
+    ],
+    "type": 89,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [
+      4002
+    ],
+    "createdAt": "0",
+    "detail": "力指令卡で通常攻撃時にクリティカル発生率をアップする",
+    "effectList": [],
+    "iconId": 333,
+    "id": 4053,
+    "maxRate": 0,
+    "name": "力攻撃時追加効果(クリティカル発生アップ)",
+    "script": "",
+    "tvals": [
+      5000,
+      4002
+    ],
+    "type": 89,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "攻撃時に対象に毒・呪い・やけど状態を付与",
+    "effectList": [],
+    "iconId": 528,
+    "id": 4054,
+    "maxRate": 0,
+    "name": "攻撃時追加効果(毒＆呪い＆やけど)",
+    "script": "",
+    "tvals": [
+      5000
+    ],
+    "type": 137,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "攻撃時、対象に弱体効果が発生する",
+    "effectList": [],
+    "iconId": 528,
+    "id": 4055,
+    "maxRate": 0,
+    "name": "追加効果(弱体)",
+    "script": "",
+    "tvals": [],
+    "type": 137,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 900,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "无法使用宝具",
+    "effectList": [],
+    "iconId": 512,
+    "id": 4056,
+    "maxRate": 0,
+    "name": "車内による宝具封印",
+    "script": "",
+    "tvals": [],
+    "type": 34,
+    "updatedAt": "0",
+    "vals": [
+      3005,
+      3020
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 520,
+    "id": 4057,
+    "maxRate": 0,
+    "name": "",
+    "script": "",
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [
+      6021
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "自身のHPが減る【负面效果】＆毎ターン自身的攻击力提升＆NPを獲得",
+    "effectList": [],
+    "iconId": 343,
+    "id": 4058,
+    "maxRate": 0,
+    "name": "霊基を燃やす",
+    "script": "",
+    "tvals": [],
+    "type": 85,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〈王の軍勢〉召喚による宝具封印状態を無効にする",
+    "effectList": [],
+    "iconId": 322,
+    "id": 4059,
+    "maxRate": 0,
+    "name": "指揮権一部付与",
+    "script": "",
+    "tvals": [],
+    "type": 141,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 900,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "无法使用宝具",
+    "effectList": [],
+    "iconId": 512,
+    "id": 4060,
+    "maxRate": 0,
+    "name": "〈王の軍勢〉召喚による宝具封印",
+    "script": {
+      "INDIVIDUALITIE": 6034
+    },
+    "tvals": [],
+    "type": 34,
+    "updatedAt": "0",
+    "vals": [
+      3005,
+      3020
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔魔术师〕クラスに対して相性有利になる",
+    "effectList": [],
+    "iconId": 520,
+    "id": 4061,
+    "maxRate": 0,
+    "name": "クラス相性変更",
+    "script": {
+      "relationId": 135
+    },
+    "tvals": [],
+    "type": 144,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "『復刻版:レディ･ライネスの事件簿 -Plus Episode-』において宝具で与えるダメージをアップ",
+    "effectList": [],
+    "iconId": 310,
+    "id": 4062,
+    "maxRate": 5000,
+    "name": "ロンド・メモリア",
+    "script": "",
+    "tvals": [],
+    "type": 15,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 520,
+    "id": 4063,
+    "maxRate": 0,
+    "name": "",
+    "script": "",
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [
+      6022
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 520,
+    "id": 4064,
+    "maxRate": 0,
+    "name": "",
+    "script": "",
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [
+      6023
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "毎回合结束时，に自身的攻击力提升",
+    "effectList": [],
+    "iconId": 343,
+    "id": 4065,
+    "maxRate": 0,
+    "name": "每回合发动(攻击力提升)",
+    "script": "",
+    "tvals": [],
+    "type": 85,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 520,
+    "id": 4066,
+    "maxRate": 0,
+    "name": "",
+    "script": "",
+    "tvals": [],
+    "type": 40,
+    "updatedAt": "0",
+    "vals": [
+      6034
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [
+      4007
+    ],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 333,
+    "id": 4067,
+    "maxRate": 0,
+    "name": "",
+    "script": "",
+    "tvals": [
+      5000,
+      4007
+    ],
+    "type": 137,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔弓兵〕〔枪兵〕クラス間のクラス相性がより大きくなる",
+    "effectList": [],
+    "iconId": 520,
+    "id": 4070,
+    "maxRate": 0,
+    "name": "クラス相性変更",
+    "script": {
+      "relationId": 136
+    },
+    "tvals": [],
+    "type": 144,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔セイバー〕〔弓兵〕クラス間のクラス相性がより大きくなる",
+    "effectList": [],
+    "iconId": 520,
+    "id": 4071,
+    "maxRate": 0,
+    "name": "クラス相性変更",
+    "script": {
+      "relationId": 137
+    },
+    "tvals": [],
+    "type": 144,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔セイバー〕〔枪兵〕クラス間のクラス相性がより大きくなる",
+    "effectList": [],
+    "iconId": 520,
+    "id": 4072,
+    "maxRate": 0,
+    "name": "クラス相性変更",
+    "script": {
+      "relationId": 138
+    },
+    "tvals": [],
+    "type": 144,
+    "updatedAt": "0",
+    "vals": [],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "HPが0になった時、味方全体の攻击力提升",
+    "effectList": [],
+    "iconId": 350,
+    "id": 4073,
+    "maxRate": 0,
+    "name": "PWR_UP",
+    "script": "",
+    "tvals": [],
+    "type": 78,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "HPが0になった時、味方全体のクリティカル発生率をアップ",
+    "effectList": [],
+    "iconId": 350,
+    "id": 4074,
+    "maxRate": 0,
+    "name": "SPD_UP",
+    "script": "",
+    "tvals": [],
+    "type": 78,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "HPが0になった時、味方全体のクリティカル威力をアップ",
+    "effectList": [],
+    "iconId": 350,
+    "id": 4075,
+    "maxRate": 0,
+    "name": "AIM_UP",
+    "script": "",
+    "tvals": [],
+    "type": 78,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [
+      4004
+    ],
+    "createdAt": "0",
+    "detail": "额外攻击指令卡性能提升",
+    "effectList": [],
+    "iconId": 302,
+    "id": 30001,
+    "maxRate": 5000,
+    "name": "额外攻击提升",
+    "script": "",
+    "tvals": [
+      5000,
+      4004
+    ],
+    "type": 52,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      100
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "对〔剑士〕职阶的攻击力提升",
+    "effectList": [],
+    "iconId": 300,
+    "id": 30002,
+    "maxRate": 5000,
+    "name": "攻击力提升〔对剑士〕",
+    "script": "",
+    "tvals": [
+      100
+    ],
+    "type": 9,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      100
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "对〔剑士〕职阶的攻击力提升",
+    "effectList": [],
+    "iconId": 300,
+    "id": 30003,
+    "maxRate": 5000,
+    "name": "攻击力提升〔对剑士〕",
+    "script": {
+      "INDIVIDUALITIE": 600700
+    },
+    "tvals": [
+      100
+    ],
+    "type": 9,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      102
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "对〔弓兵〕职阶的攻击力提升",
+    "effectList": [],
+    "iconId": 300,
+    "id": 30004,
+    "maxRate": 5000,
+    "name": "攻击力提升〔对弓兵〕",
+    "script": "",
+    "tvals": [
+      102
+    ],
+    "type": 9,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      101
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "对〔枪兵〕职阶的攻击力提升",
+    "effectList": [],
+    "iconId": 300,
+    "id": 30005,
+    "maxRate": 5000,
+    "name": "攻击力提升〔对枪兵〕",
+    "script": "",
+    "tvals": [
+      101
+    ],
+    "type": 9,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      103
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "对〔骑兵〕职阶的攻击力提升",
+    "effectList": [],
+    "iconId": 300,
+    "id": 30006,
+    "maxRate": 5000,
+    "name": "攻击力提升〔对骑兵〕",
+    "script": "",
+    "tvals": [
+      103
+    ],
+    "type": 9,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      103
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "对〔骑兵〕职阶的攻击力提升",
+    "effectList": [],
+    "iconId": 300,
+    "id": 30007,
+    "maxRate": 5000,
+    "name": "攻击力提升〔对骑兵〕",
+    "script": {
+      "INDIVIDUALITIE": 600710
+    },
+    "tvals": [
+      103
+    ],
+    "type": 9,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      104
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "对〔魔术师〕职阶的攻击力提升",
+    "effectList": [],
+    "iconId": 300,
+    "id": 30008,
+    "maxRate": 5000,
+    "name": "攻击力提升〔对魔术师〕",
+    "script": "",
+    "tvals": [
+      104
+    ],
+    "type": 9,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      105
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "对〔暗匿者〕职阶的攻击力提升",
+    "effectList": [],
+    "iconId": 300,
+    "id": 30009,
+    "maxRate": 5000,
+    "name": "攻击力提升〔对暗匿者〕",
+    "script": "",
+    "tvals": [
+      105
+    ],
+    "type": 9,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      106
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "对〔狂战士〕职阶的攻击力提升",
+    "effectList": [],
+    "iconId": 300,
+    "id": 30010,
+    "maxRate": 5000,
+    "name": "攻击力提升〔对狂战士〕",
+    "script": "",
+    "tvals": [
+      106
+    ],
+    "type": 9,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      108
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "对〔裁定者〕职阶的攻击力提升",
+    "effectList": [],
+    "iconId": 300,
+    "id": 30011,
+    "maxRate": 5000,
+    "name": "攻击力提升〔对裁定者〕",
+    "script": "",
+    "tvals": [
+      108
+    ],
+    "type": 9,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      110
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "对〔复仇者〕职阶的攻击力提升",
+    "effectList": [],
+    "iconId": 300,
+    "id": 30012,
+    "maxRate": 5000,
+    "name": "攻击力提升〔对复仇者〕",
+    "script": "",
+    "tvals": [
+      110
+    ],
+    "type": 9,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      115
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "对〔月之癌〕职阶的攻击力提升",
+    "effectList": [],
+    "iconId": 300,
+    "id": 30013,
+    "maxRate": 5000,
+    "name": "攻击力提升〔对月之癌〕",
+    "script": "",
+    "tvals": [
+      115
+    ],
+    "type": 9,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      109
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "对〔他人格〕职阶的攻击力提升",
+    "effectList": [],
+    "iconId": 300,
+    "id": 30014,
+    "maxRate": 5000,
+    "name": "攻击力提升〔对他人格〕",
+    "script": "",
+    "tvals": [
+      109
+    ],
+    "type": 9,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      117
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "对〔降临者〕职阶的攻击力提升",
+    "effectList": [],
+    "iconId": 300,
+    "id": 30015,
+    "maxRate": 5000,
+    "name": "攻击力提升〔对降临者〕",
+    "script": "",
+    "tvals": [
+      117
+    ],
+    "type": 9,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      107,
+      108,
+      110,
+      115,
+      109,
+      117,
+      120,
+      111,
+      113,
+      114,
+      116,
+      118,
+      119
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "对〔额外职阶〕に対する攻击力提升",
+    "effectList": [],
+    "iconId": 300,
+    "id": 30016,
+    "maxRate": 5000,
+    "name": "攻击力提升〔对额外职阶〕",
+    "script": "",
+    "tvals": [
+      107,
+      108,
+      110,
+      115,
+      109,
+      117,
+      120,
+      111,
+      113,
+      114,
+      116,
+      118,
+      119
+    ],
+    "type": 9,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      100
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔剑士〕职阶对自身的暴击发生概率减少",
+    "effectList": [],
+    "iconId": 363,
+    "id": 30017,
+    "maxRate": 5000,
+    "name": "被暴击发生耐性提升〔对剑士〕",
+    "script": "",
+    "tvals": [
+      100
+    ],
+    "type": 151,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      102
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔弓兵〕职阶对自身的暴击发生概率减少",
+    "effectList": [],
+    "iconId": 363,
+    "id": 30018,
+    "maxRate": 5000,
+    "name": "被暴击发生耐性提升〔对弓兵〕",
+    "script": "",
+    "tvals": [
+      102
+    ],
+    "type": 151,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      101
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔枪兵〕职阶对自身的暴击发生概率减少",
+    "effectList": [],
+    "iconId": 363,
+    "id": 30019,
+    "maxRate": 5000,
+    "name": "被暴击发生耐性提升〔对枪兵〕",
+    "script": "",
+    "tvals": [
+      101
+    ],
+    "type": 151,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      103
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔骑兵〕职阶对自身的暴击发生概率减少",
+    "effectList": [],
+    "iconId": 363,
+    "id": 30020,
+    "maxRate": 5000,
+    "name": "被暴击发生耐性提升〔对骑兵〕",
+    "script": "",
+    "tvals": [
+      103
+    ],
+    "type": 151,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      104
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔魔术师〕职阶对自身的暴击发生概率减少",
+    "effectList": [],
+    "iconId": 363,
+    "id": 30021,
+    "maxRate": 5000,
+    "name": "被暴击发生耐性提升〔对魔术师〕",
+    "script": "",
+    "tvals": [
+      104
+    ],
+    "type": 151,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      105
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔暗匿者〕职阶对自身的暴击发生概率减少",
+    "effectList": [],
+    "iconId": 363,
+    "id": 30022,
+    "maxRate": 5000,
+    "name": "被暴击发生耐性提升〔对暗匿者〕",
+    "script": "",
+    "tvals": [
+      105
+    ],
+    "type": 151,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      106
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔狂战士〕职阶对自身的暴击发生概率减少",
+    "effectList": [],
+    "iconId": 363,
+    "id": 30023,
+    "maxRate": 5000,
+    "name": "被暴击发生耐性提升〔对狂战士〕",
+    "script": "",
+    "tvals": [
+      106
+    ],
+    "type": 151,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      108
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔裁定者〕职阶对自身的暴击发生概率减少",
+    "effectList": [],
+    "iconId": 363,
+    "id": 30024,
+    "maxRate": 5000,
+    "name": "被暴击发生耐性提升〔对裁定者〕",
+    "script": "",
+    "tvals": [
+      108
+    ],
+    "type": 151,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      110
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔复仇者〕职阶对自身的暴击发生概率减少",
+    "effectList": [],
+    "iconId": 363,
+    "id": 30025,
+    "maxRate": 5000,
+    "name": "被暴击发生耐性提升〔对复仇者〕",
+    "script": "",
+    "tvals": [
+      110
+    ],
+    "type": 151,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      115
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔月之癌〕职阶对自身的暴击发生概率减少",
+    "effectList": [],
+    "iconId": 363,
+    "id": 30026,
+    "maxRate": 5000,
+    "name": "被暴击发生耐性提升〔对月之癌〕",
+    "script": "",
+    "tvals": [
+      115
+    ],
+    "type": 151,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      109
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔他人格〕职阶对自身的暴击发生概率减少",
+    "effectList": [],
+    "iconId": 363,
+    "id": 30027,
+    "maxRate": 5000,
+    "name": "被暴击发生耐性提升〔对他人格〕",
+    "script": "",
+    "tvals": [
+      109
+    ],
+    "type": 151,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      117
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔降临者〕职阶对自身的暴击发生概率减少",
+    "effectList": [],
+    "iconId": 363,
+    "id": 30028,
+    "maxRate": 5000,
+    "name": "被暴击发生耐性提升〔对降临者〕",
+    "script": "",
+    "tvals": [
+      117
+    ],
+    "type": 151,
+    "updatedAt": "0",
+    "vals": [
+      3004
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [
+      120
+    ],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "〔身披角色者〕职阶的攻击力提升",
+    "effectList": [],
+    "iconId": 300,
+    "id": 30029,
+    "maxRate": 5000,
+    "name": "攻击力提升〔对身披角色者〕",
+    "script": "",
+    "tvals": [
+      120
+    ],
     "type": 9,
     "updatedAt": "0",
     "vals": [
