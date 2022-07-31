@@ -63376,6 +63376,24 @@
   },
   {
     "vals": [
+      3079,
+      2829
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4423,
+    "buffGroup": 0,
+    "type": 10001,
+    "name": "フィールド変化〔千年城〕",
+    "detail": "フィールドを〔千年城〕状態にする",
+    "iconId": 700,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3006
     ],
@@ -63989,6 +64007,108 @@
   },
   {
     "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2829
+    },
+    "id": 4458,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Quickアップ",
+    "detail": "〔千年城〕のあるフィールドにおいてのみ、Quickカードの性能をアップ",
+    "iconId": 312,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2829
+    },
+    "id": 4459,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Artsアップ",
+    "detail": "〔千年城〕のあるフィールドにおいてのみ、Artsカードの性能をアップ",
+    "iconId": 313,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2829
+    },
+    "id": 4460,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Busterアップ",
+    "detail": "〔千年城〕のあるフィールドにおいてのみ、Busterカードの性能をアップ",
+    "iconId": 314,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3033
+    ],
+    "tvals": [
+      2833,
+      603500,
+      304400
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2833,
+      603500,
+      304400
+    ],
+    "script": {},
+    "id": 4461,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "攻撃力ダウン〔虞美人〕",
+    "detail": "〔虞美人〕に対する攻撃力をダウン",
+    "iconId": 503,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004
     ],
     "tvals": [],
@@ -64476,6 +64596,23 @@
   },
   {
     "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4492,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "ガッツ時発動(スター獲得)",
+    "detail": "ガッツ発動時、スターを獲得する",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3005
     ],
     "tvals": [
@@ -64493,6 +64630,25 @@
     "detail": "〔魔眼〕による弱体付与成功率をダウン",
     "iconId": 507,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4494,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "攻撃を受けると敵単体の防御力をダウン",
+    "iconId": 331,
+    "maxRate": 0,
     "effectId": 0
   },
   {
@@ -64563,6 +64719,27 @@
     "detail": "毒と呪いとやけどと豚化を受けなくなる",
     "iconId": 322,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2829
+    },
+    "id": 4499,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "宝具威力アップ",
+    "detail": "宝具で与えるダメージをアップ",
+    "iconId": 310,
+    "maxRate": 5000,
     "effectId": 0
   },
   {
