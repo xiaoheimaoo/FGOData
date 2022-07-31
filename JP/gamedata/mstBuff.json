@@ -2523,7 +2523,8 @@
     "vals": [
       3004,
       3006,
-      3028
+      3028,
+      3078
     ],
     "tvals": [
       2001
@@ -35142,7 +35143,8 @@
     "vals": [
       3004,
       3006,
-      3028
+      3028,
+      3078
     ],
     "tvals": [
       2001
@@ -63805,6 +63807,221 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 146
+    },
+    "id": 4445,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "スキル・宝具による相性変化と〔バーサーカー〕を除く全てのクラス間のクラス相性がより大きくなる",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 147
+    },
+    "id": 4446,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "スキル・宝具による相性変化を除く全てのクラス間のクラス相性がより大きくなる",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 148
+    },
+    "id": 4447,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "スキル・宝具による相性変化と〔バーサーカー〕を除く全てのクラス間のクラス相性がより大きくなる",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4448,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "CHG_UP",
+    "detail": "HPが0になった時、味方全体に「ターン終了時に自身のチャージを1増やす状態」を付与",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4449,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "UN_LUK_UP",
+    "detail": "HPが0になった時、味方全体のクリティカル発生率をダウン【デメリット】 ＋ 敵全体のスター発生率をダウン",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4450,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "FORCED_TRAP",
+    "detail": "HPが0になった時、敵全体に宝具封印状態を付与",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      100,
+      2830
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      100,
+      2830
+    ],
+    "script": {},
+    "id": 4451,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "『セイバー・死スベシ』",
+    "detail": "〔セイバークラスのサーヴァント〕に与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4452,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "『罪・アリキ』",
+    "detail": "〔セイバークラスのサーヴァント〕特性を付与する",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3078
+    ],
+    "script": {},
+    "id": 4453,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "芸術審美",
+    "detail": "〔人型〕特攻効果が付与された敵から攻撃を受けた時、確率で魅了状態になる",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3063
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4454,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "リバウンド",
+    "detail": "ターン経過後に自身の強化状態を解除＆攻撃力をダウン＆毒状態を付与",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4462,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "ターン終了時、自身のチャージを1増やす",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4463,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "魔力炉暴走",
+    "detail": "ターン終了時、自身のチャージを最大まで増やす",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
     "vals": [
       3005,
       3017
@@ -64012,6 +64229,253 @@
   },
   {
     "vals": [
+      3005,
+      6026
+    ],
+    "tvals": [
+      3004
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3004
+    ],
+    "script": {},
+    "id": 4480,
+    "buffGroup": 0,
+    "type": 29,
+    "name": "被強化成功率ダウン",
+    "detail": "被強化成功率をダウン",
+    "iconId": 506,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6026
+    ],
+    "tvals": [
+      3004
+    ],
+    "ckSelfIndv": [
+      3004
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4481,
+    "buffGroup": 0,
+    "type": 28,
+    "name": "強化成功率ダウン",
+    "detail": "強化付与成功率をダウン",
+    "iconId": 507,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4482,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "触手の壁",
+    "detail": "被ダメージを減らす",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4483,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "精神汚染",
+    "detail": "毎ターンチャージを増やす",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3060
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4484,
+    "buffGroup": 0,
+    "type": 7,
+    "name": "自己修復",
+    "detail": "ターン終了時、自身のHPが回復する",
+    "iconId": 318,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6036
+    ],
+    "tvals": [
+      6026
+    ],
+    "ckSelfIndv": [
+      6026
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4485,
+    "buffGroup": 0,
+    "type": 27,
+    "name": "",
+    "detail": "",
+    "iconId": 307,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6036
+    ],
+    "tvals": [
+      6027
+    ],
+    "ckSelfIndv": [
+      6027
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4486,
+    "buffGroup": 0,
+    "type": 27,
+    "name": "",
+    "detail": "",
+    "iconId": 307,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6036
+    ],
+    "tvals": [
+      6028
+    ],
+    "ckSelfIndv": [
+      6028
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4487,
+    "buffGroup": 0,
+    "type": 27,
+    "name": "",
+    "detail": "",
+    "iconId": 307,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6026
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003
+    ],
+    "script": {},
+    "id": 4488,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "Quick耐性アップ",
+    "detail": "Quick攻撃による被ダメージ、被NP発生量、被スター発生率が減少する",
+    "iconId": 345,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6027
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001
+    ],
+    "script": {},
+    "id": 4489,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "Arts耐性アップ",
+    "detail": "Arts攻撃による被ダメージ、被NP発生量、被スター発生率が減少する",
+    "iconId": 346,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6028
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {},
+    "id": 4490,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "Buster耐性アップ",
+    "detail": "Buster攻撃による被ダメージ、被NP発生量、被スター発生率が減少する",
+    "iconId": 347,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4491,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "対英霊戦情報",
+    "detail": "HPが0になった時、〔管制統合ユニット〕に自身が最後に受けたQuick・Arts・Buster攻撃のいずれかに対する耐性を付与",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3005
     ],
     "tvals": [
@@ -64029,6 +64493,48 @@
     "detail": "〔魔眼〕による弱体付与成功率をダウン",
     "iconId": 507,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 4496,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "対宝具特化装甲",
+    "detail": "宝具攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3022,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4497,
+    "buffGroup": 400,
+    "type": 26,
+    "name": "対魔力反応装甲",
+    "detail": "必中を無視して、攻撃によるダメージを0にする",
+    "iconId": 311,
+    "maxRate": 0,
     "effectId": 0
   },
   {
@@ -64056,6 +64562,100 @@
     "name": "毒＆呪い＆やけど＆豚化無効",
     "detail": "毒と呪いとやけどと豚化を受けなくなる",
     "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4500,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "『罪・アリキ』",
+    "detail": "HPが0になった時、敵全体の〔セイバークラスのサーヴァント〕のNPを増やす",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4501,
+    "buffGroup": 0,
+    "type": 141,
+    "name": "オーダーチェンジ不能",
+    "detail": "オーダーチェンジを使用できなくなる",
+    "iconId": 554,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003
+    ],
+    "script": {},
+    "id": 4502,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001
+    ],
+    "script": {},
+    "id": 4503,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {},
+    "id": 4504,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
     "maxRate": 0,
     "effectId": 0
   },
