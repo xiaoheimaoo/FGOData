@@ -22408,8 +22408,8 @@
     "id": 1554,
     "buffGroup": 1554,
     "type": 76,
-    "name": "NP Loss (?) Preparation",
-    "detail": "Activate Banquet Preparation, NP Loss (?) after 1 turn",
+    "name": "Banquet Preparation, NP Loss (?) ",
+    "detail": "Activate NP Loss (?) after 1 turn",
     "iconId": 331,
     "maxRate": 0,
     "effectId": 0
@@ -22425,8 +22425,8 @@
     "id": 1555,
     "buffGroup": 1555,
     "type": 76,
-    "name": "NP Strength Up (?) Preparation",
-    "detail": "Activate Banquet Preparation, NP Strength Up (?) after 1 turn",
+    "name": "Banquet Preparation, NP Strength Up (?)",
+    "detail": "Activate NP Strength Up (?) after 1 turn",
     "iconId": 331,
     "maxRate": 0,
     "effectId": 0
@@ -22442,8 +22442,8 @@
     "id": 1556,
     "buffGroup": 1556,
     "type": 76,
-    "name": "HP Recovery Down (?) Preparation",
-    "detail": "Activate Banquet Preparation, HP Recovery Down (?) after 1 turn",
+    "name": "Banquet Preparation, HP Recovery Down (?)",
+    "detail": "Activate HP Recovery Down (?) after 1 turn",
     "iconId": 331,
     "maxRate": 0,
     "effectId": 0
@@ -22466,7 +22466,7 @@
     "buffGroup": 0,
     "type": 112,
     "name": "Strength Up (Charm)",
-    "detail": "Increase damage dealt against [Charmed] enemies",
+    "detail": "Increase damage dealt to [Charmed] enemies",
     "iconId": 302,
     "maxRate": 10000,
     "effectId": 0
@@ -22749,7 +22749,7 @@
     "buffGroup": 0,
     "type": 85,
     "name": "Nega-Desire",
-    "detail": "Decrease all enemy's NP each turn",
+    "detail": "Decrease all enemies' NP each turn",
     "iconId": 331,
     "maxRate": 0,
     "effectId": 0
@@ -22824,7 +22824,7 @@
     "buffGroup": 1578,
     "type": 89,
     "name": "Inexhaustible Love",
-    "detail": "During normal attacks, restore HP by 500 & decrease Arts Card effectiveness (3 turns) & decrease Quick Card effectiveness (3 turns) & decrease Buster Card effectiveness (3 turns) & decrease DEF (3 turns) & decrease Debuff Resist (3 turns) for yourself",
+    "detail": "During normal attacks, restore HP by 500 & decrease Quick Card effectiveness (3 turns) & decrease Arts Card effectiveness (3 turns) & Buster Card effectiveness (3 turns) & decrease DEF (3 turns) & decrease Debuff Resist (3 turns) for yourself",
     "iconId": 333,
     "maxRate": 0,
     "effectId": 0
@@ -22839,7 +22839,7 @@
     "buffGroup": 1579,
     "type": 89,
     "name": "Eternal Love",
-    "detail": "During normal attacks, restore HP by 1000 & nullify Buff (1 time, 2 turns) & decrease Arts Card effectiveness (3 turns) & decrease Quick Card effectiveness (3 turns) & decrease Buster Card effectiveness (3 turns) & decrease DEF (3 turns) & decrease Debuff Resist (3 turns) for yourself",
+    "detail": "During normal attacks, restore HP by 1000 & nullify Buff (1 time, 2 turns) & decrease Quick Card effectiveness (3 turns) & Arts Card effectiveness (3 turns) & decrease Buster Card effectiveness (3 turns) & decrease DEF (3 turns) & decrease Debuff Resist (3 turns) for yourself",
     "iconId": 333,
     "maxRate": 0,
     "effectId": 0
@@ -23014,10 +23014,10 @@
     "script": {},
     "id": 1589,
     "buffGroup": 0,
-    "type": 1,
+    "type": 52,
     "name": "Card Effectiveness Up",
-    "detail": "Increase ATK Strength of Quick, Arts and Buster Cards",
-    "iconId": 302,
+    "detail": "Increase Quick, Arts, Buster Card effectiveness",
+    "iconId": 312,
     "maxRate": 5000,
     "effectId": 0
   },
@@ -36130,6 +36130,21 @@
   },
   {
     "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2878,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Labyrinth Strut",
+    "detail": "Increase damage dealt during \"Revival: Tokugawa Restoration Labyrinth, Ooku\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
     "tvals": [
       5000,
       4003
@@ -36871,6 +36886,21 @@
     "detail": "Increase Max HP",
     "iconId": 330,
     "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2921,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Apply Trait (Demonic)",
+    "detail": "Add [Demonic] trait to target",
+    "iconId": 520,
+    "maxRate": 0,
     "effectId": 0
   },
   {
