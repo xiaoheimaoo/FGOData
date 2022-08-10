@@ -19965,7 +19965,7 @@
     "ckOpIndv": [],
     "script": {},
     "id": 1432,
-    "buffGroup": 0,
+    "buffGroup": 1900,
     "type": 115,
     "name": "",
     "detail": "",
@@ -23939,7 +23939,7 @@
     "ckOpIndv": [],
     "script": {},
     "id": 1693,
-    "buffGroup": 0,
+    "buffGroup": 1900,
     "type": 115,
     "name": "毎ターンチャージマイナス",
     "detail": "毎ターンチャージが1減る【デメリット】",
@@ -64142,6 +64142,21 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4468,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "サマー・キャスト",
+    "detail": "『アークティック・サマーワールド！』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3005,
       3017
@@ -64834,6 +64849,254 @@
     "detail": "",
     "iconId": 331,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4505,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "水の加護",
+    "detail": "防御力をアップ＆Artsカードの攻撃による被ダメージ、被NP発生量、被スター発生率が減少する",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 4506,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "農園栽培員（日照担当）",
+    "detail": "自身がフィールドにいる間、味方全体のクリティカル発生率をアップ",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4507,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "農園栽培員（肥料担当）",
+    "detail": "毎ターン終了時に味方全体のチャージを低確率で1増やす",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4508,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "農園栽培員（水撒き担当）",
+    "detail": "毎ターン終了時に味方全体のHPが回復する",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4509,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "農園栽培員（出荷担当）",
+    "detail": "毎ターン終了時に味方全体に被ダメージカット状態を付与",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4510,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "農園栽培員（リーダー）",
+    "detail": "自身がフィールドにいる間、味方全体の攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4536,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ",
+    "detail": "『アークティック・サマーワールド！』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4539,
+    "buffGroup": 1900,
+    "type": 115,
+    "name": "ターンチャージマイナス",
+    "detail": "ターン毎のチャージ量を1減らす",
+    "iconId": 519,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2836
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4540,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4541,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "通常攻撃時追加効果(やけど)",
+    "detail": "通常攻撃時に対象にやけど状態を付与",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4542,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "攻撃力アップ",
+    "detail": "〔陽射し〕のあるフィールドにおいてのみ、攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2038
+    },
+    "id": 4545,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Busterアップ",
+    "detail": "〔陽射し〕のあるフィールドにおいてのみ、Busterカードの性能をアップ",
+    "iconId": 314,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2038
+    },
+    "id": 4546,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "クリティカル威力アップ",
+    "detail": "〔陽射し〕のあるフィールドにおいてのみ、クリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 5000,
     "effectId": 0
   },
   {
