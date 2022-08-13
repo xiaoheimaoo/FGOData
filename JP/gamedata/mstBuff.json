@@ -65071,6 +65071,128 @@
     ],
     "tvals": [
       5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4516,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "戦闘同期",
+    "detail": "自身がフィールドにいる間、自身を除く味方全体のQuickカードの性能をアップ",
+    "iconId": 312,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3033
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4517,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "衰弱",
+    "detail": "攻撃力をダウン＆宝具を使用できなくなる＆スキルを使用できなくなる",
+    "iconId": 503,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 4518,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "高機動戦闘",
+    "detail": "クリティカル発生率をアップ",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      103300
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      103300
+    ],
+    "script": {},
+    "id": 4519,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "愛の痛撃",
+    "detail": "シグルドに与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3029
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4520,
+    "buffGroup": 0,
+    "type": 13,
+    "name": "悪キューレ軍団",
+    "detail": "自身がフィールドにいる間、味方全体の与えるダメージを増やす",
+    "iconId": 302,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4521,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "解き放たれた魔人",
+    "detail": "攻撃時、敵単体の防御力をダウン",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
       4002
     ],
     "ckSelfIndv": [
