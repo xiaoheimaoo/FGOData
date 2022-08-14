@@ -3643,11 +3643,17 @@
       3028
     ],
     "tvals": [
-      2040
+      2040,
+      2000,
+      1002,
+      1119
     ],
     "ckSelfIndv": [],
     "ckOpIndv": [
-      2040
+      2040,
+      2000,
+      1002,
+      1119
     ],
     "script": {},
     "id": 295,
@@ -3943,11 +3949,15 @@
       3028
     ],
     "tvals": [
-      2018
+      2018,
+      1002,
+      1119
     ],
     "ckSelfIndv": [],
     "ckOpIndv": [
-      2018
+      2018,
+      1002,
+      1119
     ],
     "script": {},
     "id": 312,
@@ -65297,6 +65307,80 @@
   },
   {
     "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4527,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃時追加効果(呪い付与)",
+    "detail": "自身の攻撃時に敵単体に呪い状態(3ターン)を付与する",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {},
+    "id": 4528,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "赤い騎士",
+    "detail": "Busterカードの攻撃による被ダメージ、被NP発生量、被スター発生率が減少する＆攻撃力をアップ",
+    "iconId": 347,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4529,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "肝を冷やす",
+    "detail": "自身の攻撃時に敵単体に低確率で恐怖状態を付与(1回・3ターン)を付与する",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4530,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃時発動(恐怖)",
+    "detail": "自身の攻撃時に敵単体に低確率で恐怖状態を付与(1回・3ターン)を付与する",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3005,
       3014,
       3045
@@ -65488,6 +65572,21 @@
     "detail": "〔陽射し〕のあるフィールドにおいてのみ、クリティカル時のダメージをアップ",
     "iconId": 324,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4547,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "特性付与〔死霊〕",
+    "detail": "〔死霊〕特性を付与する",
+    "iconId": 520,
+    "maxRate": 0,
     "effectId": 0
   },
   {
