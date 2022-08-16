@@ -64152,6 +64152,76 @@
     "effectId": 0
   },
   {
+    "vals": [
+      3023
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4464,
+    "buffGroup": 700,
+    "type": 38,
+    "name": "流れへの反逆",
+    "detail": "ターゲットを固定する",
+    "iconId": 323,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4465,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "ガッツ時発動(チャージ増加)",
+    "detail": "ガッツ発動時、自身のチャージを1増やす",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4466,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "遅延発動(チャージを最大にする)",
+    "detail": "1ターン経過後に自身のチャージを最大にする",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2354
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 149
+    },
+    "id": 4467,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔キャスター〕クラスに対して相性有利になる",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
     "vals": [],
     "tvals": [],
     "ckSelfIndv": [],
@@ -65401,6 +65471,44 @@
   },
   {
     "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4532,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "真夏の加護",
+    "detail": "攻撃力をアップ＆クリティカル発生率をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4533,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "伊吹童子の言祝ぎ",
+    "detail": "攻撃力をアップ＆攻撃時に自身のHPを回復＆NP獲得量をアップ＆Artsカードの性能をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3005,
       3014,
       3045
@@ -65451,6 +65559,25 @@
     "detail": "『アークティック・サマーワールド！』において与えるダメージをアップ",
     "iconId": 302,
     "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4537,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動(HP減少)",
+    "detail": "攻撃を受けると自身のHPを減少する",
+    "iconId": 525,
+    "maxRate": 0,
     "effectId": 0
   },
   {
@@ -65646,6 +65773,41 @@
     "name": "『これでいいのか？』",
     "detail": "敵全体の宝具威力をダウン＆Arts性能をダウン",
     "iconId": 508,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4557,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4558,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "真夏の加護",
+    "detail": "防御力をアップ＆Artsカードの攻撃による被ダメージ、被NP発生量、被スター発生率が減少する",
+    "iconId": 301,
     "maxRate": 5000,
     "effectId": 0
   },
