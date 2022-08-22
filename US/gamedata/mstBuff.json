@@ -73,7 +73,9 @@
       4002
     ],
     "ckOpIndv": [],
-    "script": {},
+    "script": {
+      "ProgressSelfTurn": 1
+    },
     "id": 102,
     "buffGroup": 0,
     "type": 52,
@@ -400,7 +402,9 @@
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
-    "script": {},
+    "script": {
+      "ProgressSelfTurn": 1
+    },
     "id": 117,
     "buffGroup": 0,
     "type": 3,
@@ -559,7 +563,9 @@
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
-    "script": {},
+    "script": {
+      "ProgressSelfTurn": 1
+    },
     "id": 126,
     "buffGroup": 0,
     "type": 9,
@@ -918,7 +924,9 @@
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
-    "script": {},
+    "script": {
+      "ProgressSelfTurn": 1
+    },
     "id": 144,
     "buffGroup": 0,
     "type": 70,
@@ -999,7 +1007,9 @@
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
-    "script": {},
+    "script": {
+      "ProgressSelfTurn": 0
+    },
     "id": 148,
     "buffGroup": 0,
     "type": 43,
@@ -1119,7 +1129,9 @@
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
-    "script": {},
+    "script": {
+      "ProgressSelfTurn": 1
+    },
     "id": 154,
     "buffGroup": 0,
     "type": 25,
@@ -1677,7 +1689,9 @@
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
-    "script": {},
+    "script": {
+      "ProgressSelfTurn": 1
+    },
     "id": 182,
     "buffGroup": 800,
     "type": 33,
@@ -1695,7 +1709,9 @@
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
-    "script": {},
+    "script": {
+      "ProgressSelfTurn": 1
+    },
     "id": 183,
     "buffGroup": 900,
     "type": 34,
@@ -1795,7 +1811,9 @@
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
-    "script": {},
+    "script": {
+      "ProgressSelfTurn": 1
+    },
     "id": 188,
     "buffGroup": 0,
     "type": 64,
@@ -2656,7 +2674,9 @@
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
-    "script": {},
+    "script": {
+      "ProgressSelfTurn": 1
+    },
     "id": 231,
     "buffGroup": 0,
     "type": 87,
@@ -33385,7 +33405,8 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "INDIVIDUALITIE": 3024
+      "INDIVIDUALITIE": 3024,
+      "ProgressSelfTurn": 1
     },
     "id": 2724,
     "buffGroup": 0,
@@ -38073,6 +38094,21 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2988,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Special Training Support",
+    "detail": "Increase damage dealt during \"Land of Shadows Battleground Blitz - A Cat, a Bunny, and a Holy Grail War\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004
     ],
@@ -38209,6 +38245,44 @@
     "name": "Triggers each Turn (Cooldown Reduced)",
     "detail": "Increase Charge for yourself by 1 each turn",
     "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3059,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2999,
+    "buffGroup": 0,
+    "type": 72,
+    "name": "Wardrobe Effect: Ignore Invincible",
+    "detail": "Ignore Evade and Invincible to deal damage",
+    "iconId": 329,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3019,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3000,
+    "buffGroup": 0,
+    "type": 25,
+    "name": "Wardrobe Effect: Sure Hit",
+    "detail": "Ignore Evade and deal ATK damage",
+    "iconId": 309,
     "maxRate": 0,
     "effectId": 0
   },
