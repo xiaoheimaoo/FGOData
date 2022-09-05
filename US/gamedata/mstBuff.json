@@ -38251,6 +38251,29 @@
   {
     "vals": [
       3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [
+      4008
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 2998,
+    "buffGroup": 0,
+    "type": 148,
+    "name": "Pre-ATK Damage Bonus Effect (ATK Up)",
+    "detail": "Before inflicting damage with normal attacks, increase your ATK",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
       3059,
       3006
     ],
@@ -38283,6 +38306,24 @@
     "name": "Wardrobe Effect: Sure Hit",
     "detail": "Ignore Evade and deal ATK damage",
     "iconId": 309,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3002,
+    "buffGroup": 601,
+    "type": 37,
+    "name": "Guts",
+    "detail": "When HP reaches 0, recover HP and survive (stackable with other Guts)",
+    "iconId": 304,
     "maxRate": 0,
     "effectId": 0
   },
