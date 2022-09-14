@@ -38031,6 +38031,21 @@
     "ckSelfIndv": [],
     "ckOpIndv": [],
     "script": {},
+    "id": 2983,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Strength Up",
+    "detail": "Increase damage dealt during \"Super Ancient Shinsengumi History - GUDAGUDA Yamataikoku 2022\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
     "id": 2984,
     "buffGroup": 0,
     "type": 37,
@@ -38266,7 +38281,7 @@
     "buffGroup": 0,
     "type": 148,
     "name": "Pre-ATK Damage Bonus Effect (ATK Up)",
-    "detail": "Before inflicting damage with normal attacks, increase your ATK",
+    "detail": "Before inflicting damage from normal attacks, increase your ATK ",
     "iconId": 333,
     "maxRate": 0,
     "effectId": 0
@@ -38310,6 +38325,21 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3001,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Yamatai Power!",
+    "detail": "Increase damage dealt during \"Super Ancient Shinsengumi History - GUDAGUDA Yamataikoku 2022\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004,
       3024
@@ -38324,6 +38354,224 @@
     "name": "Guts",
     "detail": "When HP reaches 0, recover HP and survive (stackable with other Guts)",
     "iconId": 304,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3003,
+    "buffGroup": 0,
+    "type": 95,
+    "name": "Goes Into Effect Upon Entering",
+    "detail": "Effects activated upon entering the field",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3007,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "Grudge of Ancient Gods",
+    "detail": "Increase Charge by 1 each turn",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3008,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "Rock Solid Rice",
+    "detail": "Increase DEF & decrease DEF if Burned [Demerit]",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3015
+    },
+    "id": 3009,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "",
+    "detail": "",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2521,
+      2513
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3010,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "Delayed Effect (ATK Down & DEF Down)",
+    "detail": "After 2 turns, decrease ATK [Demerit] & decrease DEF [Demerit] for yourself ",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3011,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "Delayed Effect (ATK Up & Increase Charge)",
+    "detail": "After 1 turn, increase your ATK & increase Charge by 2",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2354
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3012,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Insufficient Vitamins",
+    "detail": "Decrease HP each turn",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2719
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3014,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "\"I am Oda Nobunaga, the Demon King of the Sixth Heaven!\"",
+    "detail": "Increase DEF",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2121
+    },
+    "id": 3015,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "Critical STR Up",
+    "detail": "Increase Critical Hit damage on fields that are [Burning]",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3016,
+    "buffGroup": 602,
+    "type": 78,
+    "name": "Activate on Defeat (Adabana of War)",
+    "detail": "Recover all allies' HP on defeat",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3011,
+      3026
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3011,
+      3026
+    ],
+    "script": {},
+    "id": 3017,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "Poison & Curse Immune",
+    "detail": "Immune to Poison and Curse",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2722
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3018,
+    "buffGroup": 900,
+    "type": 34,
+    "name": "\"Where there's Sister, Nobukatsu's there too!\"",
+    "detail": "Unable to use Noble Phantasms",
+    "iconId": 512,
     "maxRate": 0,
     "effectId": 0
   },
