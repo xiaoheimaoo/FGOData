@@ -7908,7 +7908,7 @@
     "id": 539,
     "buffGroup": 0,
     "type": 40,
-    "name": "特性変化：猛獣",
+    "name": "特性付与〔猛獣〕",
     "detail": "〔猛獣〕特性を付与する",
     "iconId": 520,
     "maxRate": 0,
@@ -66037,6 +66037,21 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4561,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "ぶっちぎり茶の湯パワー",
+    "detail": "『ぐだぐだ新邪馬台国』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3005
     ],
@@ -66486,6 +66501,97 @@
   {
     "vals": [
       3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 4588,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "黒き狗身",
+    "detail": "クリティカル発生率をアップ",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4589,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "黒き泥",
+    "detail": "攻撃時、低確率で対象のスター発生率をダウン",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4590,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "洞の常闇",
+    "detail": "毎ターン終了時、敵単体のNPを吸収",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4591,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "遅延発動",
+    "detail": "ターン経過後、高確率で自身に即死を付与",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4597,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、対象のHPを吸収",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
       3007,
       3040,
       3058
@@ -66576,6 +66682,54 @@
   },
   {
     "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4638,
+    "buffGroup": 0,
+    "type": 138,
+    "name": "コマンドコード攻撃時追加効果",
+    "detail": "コマンドコードが刻印されたカードで攻撃時、追加効果を発動する",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3025,
+      3020,
+      3056
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3025,
+      3020,
+      3056
+    ],
+    "script": {},
+    "id": 4639,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "封印無効",
+    "detail": "スキル封印・宝具封印・カード封印を受けなくなる",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3005
     ],
     "tvals": [],
@@ -66589,6 +66743,92 @@
     "detail": "毎ターンHPが減少する",
     "iconId": 537,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4667,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "Quick攻撃ダメージ前追加効果",
+    "detail": "Quick攻撃時、ダメージ前に対象の防御力をダウン",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3011,
+      3015
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3011,
+      3015
+    ],
+    "script": {},
+    "id": 4668,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "毒＆やけど無効",
+    "detail": "毒・やけどを受けなくなる",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4005
+    ],
+    "ckSelfIndv": [
+      4005
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4669,
+    "buffGroup": 0,
+    "type": 60,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4006
+    ],
+    "ckSelfIndv": [
+      4006
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4670,
+    "buffGroup": 0,
+    "type": 60,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 5000,
     "effectId": 0
   },
   {

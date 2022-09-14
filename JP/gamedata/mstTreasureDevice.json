@@ -8994,6 +8994,22 @@
       4007
     ],
     "script": {},
+    "id": 800,
+    "seqId": 9943910,
+    "name": "獣の剣",
+    "ruby": "-",
+    "rank": "なし",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3000,
+      4007
+    ],
+    "script": {},
     "id": 801,
     "seqId": 9943530,
     "name": "赤色魔剣、限定解除",
@@ -9045,6 +9061,22 @@
     "id": 805,
     "seqId": 9936720,
     "name": "賢者の狂撃",
+    "ruby": "-",
+    "rank": "なし",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3000,
+      4007
+    ],
+    "script": {},
+    "id": 821,
+    "seqId": 9944200,
+    "name": "獣の剣",
     "ruby": "-",
     "rank": "なし",
     "maxLv": 5,
@@ -10417,6 +10449,28 @@
     "typeText": "対人宝具／対軍宝具",
     "attackAttri": 1,
     "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3002,
+      4001,
+      4007
+    ],
+    "script": {
+      "limitSeqId_1": 105510,
+      "limitSeqId_3": 105500,
+      "limitSeqId_4": 105500,
+      "limitSeqId_2": 105510
+    },
+    "id": 105501,
+    "seqId": 105500,
+    "name": "山桜",
+    "ruby": "やまざくら",
+    "rank": "D",
+    "maxLv": 5,
+    "typeText": "対軍宝具",
+    "attackAttri": 1,
+    "effectFlag": 0
   },
   {
     "individuality": [
@@ -18857,6 +18911,65 @@
   {
     "individuality": [
       3002,
+      4003,
+      4007,
+      4101
+    ],
+    "script": {
+      "randomSeqIds_1": [
+        704410,
+        704410
+      ],
+      "randomSeqIds": [
+        704400,
+        704400
+      ],
+      "randomSeqIds_3": [
+        704420,
+        704421
+      ],
+      "randomSeqIds_2": [
+        704410,
+        704410
+      ],
+      "randomWeights_3": [
+        67,
+        33
+      ],
+      "randomWeights_1": [
+        67,
+        33
+      ],
+      "randomWeights_2": [
+        67,
+        33
+      ],
+      "randomWeights": [
+        67,
+        33
+      ],
+      "randomWeights_4": [
+        67,
+        33
+      ],
+      "randomSeqIds_4": [
+        704420,
+        704421
+      ]
+    },
+    "id": 704401,
+    "seqId": 704400,
+    "name": "一期一会",
+    "ruby": "いちごいちえ",
+    "rank": "C",
+    "maxLv": 5,
+    "typeText": "結界宝具",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3002,
       4001,
       4007
     ],
@@ -19525,6 +19638,30 @@
     "rank": "A",
     "maxLv": 5,
     "typeText": "対夏宝具",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3002,
+      4001,
+      4007,
+      4101
+    ],
+    "script": {
+      "limitSeqId_11": 901530,
+      "limitSeqId_1": 901500,
+      "limitSeqId_3": 901500,
+      "limitSeqId_4": 901500,
+      "limitSeqId_2": 901500
+    },
+    "id": 901501,
+    "seqId": 901500,
+    "name": "宵闇翳る月御珠",
+    "ruby": "よいやみかげるつきのみたま",
+    "rank": "C",
+    "maxLv": 5,
+    "typeText": "対軍宝具",
     "attackAttri": 1,
     "effectFlag": 1
   },
