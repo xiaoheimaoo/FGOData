@@ -66572,6 +66572,68 @@
   },
   {
     "vals": [
+      3004,
+      3006,
+      3027,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4592,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "狗奴の呪法（颶）",
+    "detail": "攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4593,
+    "buffGroup": 200,
+    "type": 24,
+    "name": "狗奴の呪法（颶）",
+    "detail": "攻撃によるダメージを0にする",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4594,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Buster通常攻撃時追加効果",
+    "detail": "Busterカードによる通常攻撃時、自身のNPを増やす",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004
     ],
     "tvals": [
@@ -66829,6 +66891,26 @@
     "detail": "",
     "iconId": 0,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 152
+    },
+    "id": 4671,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "攻撃相性変更",
+    "detail": "クラス相性の攻撃不利を打ち消す",
+    "iconId": 520,
+    "maxRate": 0,
     "effectId": 0
   },
   {
