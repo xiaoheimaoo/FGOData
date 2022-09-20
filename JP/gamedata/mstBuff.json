@@ -66634,6 +66634,41 @@
   },
   {
     "vals": [
+      3004,
+      3060
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4595,
+    "buffGroup": 0,
+    "type": 7,
+    "name": "這い出ずる黒血",
+    "detail": "ターン終了時にHPが回復する",
+    "iconId": 318,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4596,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "這い出ずる黒血",
+    "detail": "毎ターン終了時、自身に防御弱体無効状態を付与",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004
     ],
     "tvals": [
@@ -66648,6 +66683,125 @@
     "name": "攻撃時追加効果",
     "detail": "攻撃時、対象のHPを吸収",
     "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4598,
+    "buffGroup": 0,
+    "type": 65,
+    "name": "茶の湯中和作用",
+    "detail": "ターン毎に効果量が大きくなるHP回復量ダウン",
+    "iconId": 527,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4599,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "茶の湯中和作用",
+    "detail": "",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4600,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "死番・草攻剣",
+    "detail": "毎ターン終了時、自身に攻撃力ダウン・チャージ減少・スタン付与のいずれかが発動",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4601,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "攻撃を受けると敵単体のNP獲得量をダウン",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3033
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4602,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "攻撃力ダウン",
+    "detail": "HPが少ないほど攻撃力がダウン",
+    "iconId": 503,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4603,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "死亡時発動",
+    "detail": "HPが0になった時、〔祖獣〕のHPを回復する",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4604,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "死亡時発動",
+    "detail": "HPが0になった時、〔祖獣〕のHPを回復する",
+    "iconId": 525,
     "maxRate": 0,
     "effectId": 0
   },
