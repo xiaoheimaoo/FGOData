@@ -66807,6 +66807,25 @@
   },
   {
     "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4605,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、対象に毒状態を付与",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3007,
       3040,
@@ -66900,6 +66919,550 @@
     "vals": [
       3004
     ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4612,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "タクアン・ザ・ワンダフル",
+    "detail": "自身がフィールドにいる間、味方全体に防御無視状態を付与",
+    "iconId": 351,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4613,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "たくあんの祈り",
+    "detail": "HPが0になった時、味方の〔土方歳三〕に重複可能なガッツ状態を付与",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3023
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4614,
+    "buffGroup": 700,
+    "type": 38,
+    "name": "たくあんの祈り",
+    "detail": "敵からの狙われやすさをアップ",
+    "iconId": 323,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4615,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、自身のチャージを1増やす",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      4008
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4616,
+    "buffGroup": 0,
+    "type": 116,
+    "name": "ヒット数アップ",
+    "detail": "通常攻撃のヒット数が3倍になるがヒットあたりの威力ダウン",
+    "iconId": 349,
+    "maxRate": 10,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [
+      4008
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4617,
+    "buffGroup": 0,
+    "type": 148,
+    "name": "通常攻撃ダメージ前追加効果",
+    "detail": "通常攻撃時、ダメージ前に対象のNP獲得量をアップ【デメリット】＆状態付与成功時に宝具威力をダウン",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {},
+    "id": 4618,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "旨い茶",
+    "detail": "弱体を受けなくなる＆防御力をアップ",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      105500
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      105500
+    ],
+    "script": {},
+    "id": 4619,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "もうやめさせる剣（小道具）",
+    "detail": "〔山南敬助〕に与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4620,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、自身のHPが減少する",
+    "iconId": 549,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4621,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時、自身のチャージを1増やす",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3033
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4622,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "攻撃力ダウン",
+    "detail": "ターン毎に効果量が大きくなる攻撃力ダウン",
+    "iconId": 503,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 4623,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "たまるか密売茶サワー",
+    "detail": "攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3033
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4624,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "たまるか密売茶サワー",
+    "detail": "ターン毎に効果量が大きくなる攻撃力ダウン",
+    "iconId": 503,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4625,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "たまるか密売茶サワー",
+    "detail": "毎ターン終了時、中確率で自身にスキル封印状態を付与",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 4626,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "密売茶",
+    "detail": "攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003
+    ],
+    "script": {},
+    "id": 4627,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "抹茶ＤＲＩＶＥ",
+    "detail": "Quick攻撃を受けると自身のHPを回復",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      3007
+    ],
+    "tvals": [
+      4101
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4101
+    ],
+    "script": {},
+    "id": 4628,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "「うるさいぞ」",
+    "detail": "全体宝具のダメージに対する耐性を得る",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      3007
+    ],
+    "tvals": [
+      4101
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4101
+    ],
+    "script": {},
+    "id": 4629,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "「おでん食べたい」",
+    "detail": "全体宝具のダメージに対する耐性を得る",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      3007
+    ],
+    "tvals": [
+      4101
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4101
+    ],
+    "script": {},
+    "id": 4630,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "「眠い…、眠み」",
+    "detail": "全体宝具のダメージに対する耐性を得る",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      3007
+    ],
+    "tvals": [
+      4101
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4101
+    ],
+    "script": {},
+    "id": 4631,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "「うーん……、忘れた！」",
+    "detail": "全体宝具のダメージに対する耐性を得る",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      3007
+    ],
+    "tvals": [
+      4101
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4101
+    ],
+    "script": {},
+    "id": 4632,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "「すごいビーーーム！」",
+    "detail": "全体宝具のダメージに対する耐性を得る",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      3007
+    ],
+    "tvals": [
+      4101
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4101
+    ],
+    "script": {},
+    "id": 4633,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "「マスター？」",
+    "detail": "全体宝具のダメージに対する耐性を得る",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4634,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "アンチ・抹茶ラテフィールド",
+    "detail": "Quickカードの性能をアップ",
+    "iconId": 312,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4100
+    ],
+    "script": {},
+    "id": 4635,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "アンチ・抹茶ラテフィールド",
+    "detail": "クリティカル攻撃を受けると対象のスター発生率・スター集中度をダウン",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      3007
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001
+    ],
+    "script": {},
+    "id": 4636,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "特殊耐性アップ〔Arts〕",
+    "detail": "Arts攻撃のダメージに対する耐性を得る",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      3007
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {},
+    "id": 4637,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "特殊耐性アップ〔Buster〕",
+    "detail": "Buster攻撃のダメージに対する耐性を得る",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
     "tvals": [
       5000,
       4003
@@ -66958,6 +67521,532 @@
     "name": "毎ターン発動(HP減少)",
     "detail": "毎ターンHPが減少する",
     "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6034
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4641,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "運気",
+    "detail": "運気上昇☆",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6035
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6027
+    },
+    "id": 4642,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "運気上昇☆",
+    "detail": "攻撃時または攻撃を受けると自身に〔運気〕を付与",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6035
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6027
+    },
+    "id": 4643,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058,
+      6035
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6027
+    },
+    "id": 4644,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "争い事：これは勝ち確です！",
+    "detail": "防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      3007,
+      6035
+    ],
+    "tvals": [
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {
+      "INDIVIDUALITIE": 6027
+    },
+    "id": 4645,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "商い：今が買い時！",
+    "detail": "宝具のダメージに対する耐性を得る",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      3007,
+      6035
+    ],
+    "tvals": [
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4100
+    ],
+    "script": {
+      "INDIVIDUALITIE": 6027
+    },
+    "id": 4646,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "失くし物：ポッケにありました！",
+    "detail": "クリティカル攻撃のダメージに対する耐性を得る",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3016,
+      3007,
+      6035
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003
+    ],
+    "script": {
+      "INDIVIDUALITIE": 6027
+    },
+    "id": 4647,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "喜び事：イェイ、イェーイ！",
+    "detail": "Quick攻撃による被ダメージ・被NP発生量・被スター発生率が減少する",
+    "iconId": 345,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3016,
+      3007,
+      6035
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001
+    ],
+    "script": {
+      "INDIVIDUALITIE": 6027
+    },
+    "id": 4648,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "待ち人：来てくださいね～♪",
+    "detail": "Arts攻撃による被ダメージ・被NP発生量・被スター発生率が減少する",
+    "iconId": 346,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3016,
+      3007,
+      6035
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {
+      "INDIVIDUALITIE": 6027
+    },
+    "id": 4649,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "方角：全方位にOK！",
+    "detail": "Buster攻撃による被ダメージ・被NP発生量・被スター発生率が減少する",
+    "iconId": 347,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6027
+    },
+    "id": 4650,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "ご縁：良い出会いに恵まれます！",
+    "detail": "毎ターン終了時、味方全体のHPを回復",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6035
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6027
+    },
+    "id": 4651,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "病気：全快まちがいなしです！",
+    "detail": "毎ターン終了時、味方全体の弱体状態を解除",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4652,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "特殊耐性アップ",
+    "detail": "全ての攻撃に対する耐性を得る＆被NP発生量が減少する",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4653,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、敵全体の防御強化状態を1つ解除＆解除した防御強化状態を吸収する",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4654,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "攻撃を受けると敵全体の攻撃強化状態を1つ解除＆解除した攻撃強化状態を吸収する",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4655,
+    "buffGroup": 0,
+    "type": 41,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4656,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時、敵全体のHPを減らす",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      3007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3007
+    ],
+    "script": {},
+    "id": 4657,
+    "buffGroup": 0,
+    "type": 29,
+    "name": "防御強化成功率ダウン",
+    "detail": "防御強化成功率をダウン",
+    "iconId": 506,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4658,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "只々抗う",
+    "detail": "毎ターン終了時、自身のHPが減少する",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4659,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "只々抗う",
+    "detail": "自身の弱体状態が多いほど自身の攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 4660,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "只々抗う",
+    "detail": "自身のクリティカル威力ダウン状態が多いほど自身のクリティカル発生率をアップ",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3036
+    },
+    "id": 4661,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "只々抗う",
+    "detail": "自身が宝具威力ダウン状態の時、毎ターンチャージを1増やす",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3070
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3070
+    ],
+    "script": {},
+    "id": 4662,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "只々抗う",
+    "detail": "強化無効を受けなくなる",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4663,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "只々願う",
+    "detail": "毎ターン終了時、自身のHPが減少する",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4664,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "只々願う",
+    "detail": "HPが0になった時、敵味方全体の弱体状態を1つ解除＆宝具威力をダウン",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4665,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "只々嘆く",
+    "detail": "毎ターン終了時、自身のHPが減少する",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4666,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "只々嘆く",
+    "detail": "HPが0になった時、敵味方全体の強化状態を1つ解除＆クリティカル威力をダウン",
+    "iconId": 331,
     "maxRate": 0,
     "effectId": 0
   },
@@ -67064,6 +68153,43 @@
     "name": "攻撃相性変更",
     "detail": "クラス相性の攻撃不利を打ち消す",
     "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3033
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4672,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "密売茶",
+    "detail": "ターン毎に効果量が大きくなる攻撃力ダウン",
+    "iconId": 503,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3063
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4673,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "二日酔い",
+    "detail": "毎ターン低確率で自身に宝具封印状態を付与",
+    "iconId": 525,
     "maxRate": 0,
     "effectId": 0
   },
