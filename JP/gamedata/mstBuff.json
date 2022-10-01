@@ -68195,6 +68195,361 @@
   },
   {
     "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4674,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "王より毒を賜れり",
+    "detail": "攻撃時、対象に毒状態を付与",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4675,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "王より毒を賜れり",
+    "detail": "〔王〕特性を付与する",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -3011
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 4676,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "王は無毒を許さぬ",
+    "detail": "毒状態ではない相手の攻撃を受けた時、自身のチャージを1増やす",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -3011
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 4677,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "王は無毒を好まぬ",
+    "detail": "毒状態ではない相手の攻撃でHPが0になった時、敵全体のHPを減らす",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4678,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "仮面は毒を纏う",
+    "detail": "〔毒〕特性を付与する",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4679,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "女帝は毒を統べる",
+    "detail": "〔毒〕特性を付与する",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3011
+    ],
+    "script": {},
+    "id": 4680,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "王は無毒を許さぬ",
+    "detail": "毒状態の相手の攻撃に対する防御力をダウン",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4681,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "絶対の死と追放",
+    "detail": "ガッツ発動時、自身のHPを減らす",
+    "iconId": 556,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001
+    ],
+    "script": {},
+    "id": 4682,
+    "buffGroup": 0,
+    "type": 106,
+    "name": "蛇の楔",
+    "detail": "ターン毎に効果量が大きくなるArts攻撃耐性ダウン",
+    "iconId": 540,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6026,
+      "avoidanceText": "攻撃が届かない"
+    },
+    "id": 4683,
+    "buffGroup": 0,
+    "type": 155,
+    "name": "箱庭の番",
+    "detail": "フィールドに〔竜牙兵〕がいる間、必中・無敵貫通を無視して攻撃によるダメージを0にする",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4684,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4686,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {
+      "INDIVIDUALITIE": 6026
+    },
+    "id": 4687,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "箱庭の番",
+    "detail": "フィールドに〔竜牙兵〕がいる間、弱体を受けなくなる",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4688,
+    "buffGroup": 0,
+    "type": 37,
+    "name": "”萌芽”",
+    "detail": "HPが0になった時、HPを回復して耐える",
+    "iconId": 304,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4689,
+    "buffGroup": 0,
+    "type": 38,
+    "name": "",
+    "detail": "",
+    "iconId": 323,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4690,
+    "buffGroup": 0,
+    "type": 73,
+    "name": "",
+    "detail": "",
+    "iconId": 340,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4691,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3023
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4692,
+    "buffGroup": 0,
+    "type": 38,
+    "name": "タゲ集中アップ",
+    "detail": "敵からの狙われやすさをアップ",
+    "iconId": 323,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3033
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6026
+    },
+    "id": 4694,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "箱庭の番",
+    "detail": "フィールドに〔竜牙兵〕がいる間、攻撃力がダウン",
+    "iconId": 503,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3006
     ],
