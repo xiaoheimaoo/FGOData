@@ -2744,7 +2744,7 @@
     "condNum": 1,
     "priority": 0,
     "isClosedDisp": true,
-    "closedMessage": "Cannot be exchanged (quest already cleared).",
+    "closedMessage": "Must clear Singularity F to exchange.",
     "closedItemName": ""
   },
   {
@@ -4684,6 +4684,30 @@
       2300100
     ],
     "shopId": 9000021,
+    "condType": 93,
+    "condNum": 1,
+    "priority": 0,
+    "isClosedDisp": false,
+    "closedMessage": "Unable to exchange, requirements not met",
+    "closedItemName": ""
+  },
+  {
+    "condValues": [
+      94043008
+    ],
+    "shopId": 9000022,
+    "condType": 2,
+    "condNum": 1,
+    "priority": 1,
+    "isClosedDisp": false,
+    "closedMessage": "Unable to exchange, requirements not met",
+    "closedItemName": ""
+  },
+  {
+    "condValues": [
+      203900
+    ],
+    "shopId": 9000022,
     "condType": 93,
     "condNum": 1,
     "priority": 0,
@@ -33645,6 +33669,138 @@
     "priority": 0,
     "isClosedDisp": true,
     "closedMessage": "Exchangeable after completing the Main Quest",
+    "closedItemName": ""
+  },
+  {
+    "condValues": [
+      94052707
+    ],
+    "shopId": 80303002,
+    "condType": 1,
+    "condNum": 1,
+    "priority": 0,
+    "isClosedDisp": true,
+    "closedMessage": "Exchangeable after completing the Main Quest",
+    "closedItemName": ""
+  },
+  {
+    "condValues": [
+      80264003
+    ],
+    "shopId": 80303003,
+    "condType": 37,
+    "condNum": 1,
+    "priority": 0,
+    "isClosedDisp": true,
+    "closedMessage": "Already exchanged during \"Christmas 2021: Nightingale's Christmas Carol\"",
+    "closedItemName": ""
+  },
+  {
+    "condValues": [
+      94052707
+    ],
+    "shopId": 80303012,
+    "condType": 1,
+    "condNum": 1,
+    "priority": 0,
+    "isClosedDisp": true,
+    "closedMessage": "Exchangeable after completing the Main Quest",
+    "closedItemName": ""
+  },
+  {
+    "condValues": [
+      80264013
+    ],
+    "shopId": 80303013,
+    "condType": 37,
+    "condNum": 1,
+    "priority": 0,
+    "isClosedDisp": true,
+    "closedMessage": "Already exchanged during \"Christmas 2021: Nightingale's Christmas Carol\"",
+    "closedItemName": ""
+  },
+  {
+    "condValues": [
+      94052707
+    ],
+    "shopId": 80303021,
+    "condType": 1,
+    "condNum": 1,
+    "priority": 0,
+    "isClosedDisp": true,
+    "closedMessage": "Exchangeable after completing the Main Quest",
+    "closedItemName": ""
+  },
+  {
+    "condValues": [
+      80264022
+    ],
+    "shopId": 80303022,
+    "condType": 37,
+    "condNum": 1,
+    "priority": 0,
+    "isClosedDisp": true,
+    "closedMessage": "Already exchanged during \"Christmas 2021: Nightingale's Christmas Carol\"",
+    "closedItemName": ""
+  },
+  {
+    "condValues": [
+      80303033
+    ],
+    "shopId": 80303028,
+    "condType": 14,
+    "condNum": 1,
+    "priority": 0,
+    "isClosedDisp": true,
+    "closedMessage": "Exchangeable up to 4 times after Florence Nightingale (Santa) officially joins the party.",
+    "closedItemName": ""
+  },
+  {
+    "condValues": [
+      94052707
+    ],
+    "shopId": 80303033,
+    "condType": 1,
+    "condNum": 1,
+    "priority": 0,
+    "isClosedDisp": true,
+    "closedMessage": "Exchangeable after completing the Main Quest",
+    "closedItemName": ""
+  },
+  {
+    "condValues": [
+      94052707
+    ],
+    "shopId": 80303037,
+    "condType": 1,
+    "condNum": 1,
+    "priority": 0,
+    "isClosedDisp": true,
+    "closedMessage": "Exchangeable after completing the Main Quest",
+    "closedItemName": ""
+  },
+  {
+    "condValues": [
+      20052701
+    ],
+    "shopId": 80303038,
+    "condType": 113,
+    "condNum": 1,
+    "priority": 0,
+    "isClosedDisp": true,
+    "closedMessage": "Exchangeable after obtaining Angel's Exchange Ticket",
+    "closedItemName": ""
+  },
+  {
+    "condValues": [
+      20052701
+    ],
+    "shopId": 80303039,
+    "condType": 113,
+    "condNum": 1,
+    "priority": 0,
+    "isClosedDisp": true,
+    "closedMessage": "Exchangeable after obtaining Angel's Exchange Ticket",
     "closedItemName": ""
   }
 ]
