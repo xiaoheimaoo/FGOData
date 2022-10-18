@@ -68678,6 +68678,25 @@
     "ckSelfIndv": [],
     "ckOpIndv": [],
     "script": {},
+    "id": 4700,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "尽きぬ財宝",
+    "detail": "HPが0になった時、〔財宝の番人〕の宝具チャージを2増やす",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
     "id": 4701,
     "buffGroup": 0,
     "type": 89,
@@ -68720,6 +68739,260 @@
     "name": "宝具耐性アップ",
     "detail": "宝具のダメージに対する耐性を得る",
     "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6026
+    },
+    "id": 4704,
+    "buffGroup": 600,
+    "type": 37,
+    "name": "ガッツ",
+    "detail": "〔如意宝核〕がフィールドにいる間、HPが0になった時、HPを回復して耐える",
+    "iconId": 304,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3022,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6026
+    },
+    "id": 4705,
+    "buffGroup": 400,
+    "type": 26,
+    "name": "無敵",
+    "detail": "〔如意宝核〕がフィールドにいる間、必中を無視して、攻撃によるダメージを0にする",
+    "iconId": 311,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      5000
+    ],
+    "script": {},
+    "id": 4706,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "",
+    "detail": "",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061,
+      6021
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {},
+    "id": 4708,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "天微星",
+    "detail": "弱体を受けなくなる",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6021
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4709,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "天威星",
+    "detail": "通常攻撃時、敵単体の防御力をダウンする状態を付与",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031,
+      6021
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4710,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "天巧星",
+    "detail": "クリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4711,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、対象の攻撃強化状態を1つ解除する",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4712,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、対象の防御強化状態を1つ解除する",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3017,
+      6016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4713,
+    "buffGroup": 0,
+    "type": 92,
+    "name": "メンタルブレイク",
+    "detail": "全ての攻撃に対する耐性をダウン",
+    "iconId": 529,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6035
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4714,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "メンタル",
+    "detail": "〔メンタル〕特性を付与する",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {},
+    "id": 4715,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "天微極星",
+    "detail": "弱体を受けなくなる",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4716,
+    "buffGroup": 0,
+    "type": 148,
+    "name": "天威極星",
+    "detail": "通常攻撃時、攻撃前に敵単体の防御力をダウン",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4717,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "天巧極星",
+    "detail": "クリティカル時のダメージをアップ",
+    "iconId": 324,
     "maxRate": 5000,
     "effectId": 0
   },
@@ -68837,6 +69110,63 @@
   },
   {
     "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4724,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "特殊耐性アップ〔メンタル〕",
+    "detail": "全ての攻撃に対する耐性を得る＜〔メンタル〕の数だけ効果量アップ＞",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 4725,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "攻撃力アップ〔メンタル〕",
+    "detail": "攻撃力をアップ＜〔メンタル〕の数だけ効果量アップ＞",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3023
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4726,
+    "buffGroup": 700,
+    "type": 38,
+    "name": "タゲ集中アップ",
+    "detail": "自身にターゲットを固定する",
+    "iconId": 323,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004
     ],
     "tvals": [
@@ -68854,6 +69184,27 @@
     "name": "Quick攻撃ダメージ前追加効果",
     "detail": "Quick攻撃時、ダメージ前に自身のクリティカル発生率をアップ",
     "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [
+      5000
+    ],
+    "script": {},
+    "id": 4729,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 528,
     "maxRate": 0,
     "effectId": 0
   },
