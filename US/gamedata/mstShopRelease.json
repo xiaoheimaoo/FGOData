@@ -2732,7 +2732,7 @@
     "condNum": 1,
     "priority": 100,
     "isClosedDisp": true,
-    "closedMessage": "Must clear Singularity F to exchange.",
+    "closedMessage": "Cannot be exchanged (quest already cleared).",
     "closedItemName": ""
   },
   {
@@ -2744,7 +2744,7 @@
     "condNum": 1,
     "priority": 0,
     "isClosedDisp": true,
-    "closedMessage": "Must clear Singularity F to exchange.",
+    "closedMessage": "Cannot be exchanged (quest already cleared).",
     "closedItemName": ""
   },
   {
@@ -2754,6 +2754,30 @@
     "shopId": 6000447,
     "condType": 37,
     "condNum": 5,
+    "priority": 0,
+    "isClosedDisp": true,
+    "closedMessage": "Cannot be exchanged (already claimed).",
+    "closedItemName": ""
+  },
+  {
+    "condValues": [
+      1000011
+    ],
+    "shopId": 6000471,
+    "condType": 1,
+    "condNum": 1,
+    "priority": 100,
+    "isClosedDisp": true,
+    "closedMessage": "Cannot be exchanged (already claimed).",
+    "closedItemName": ""
+  },
+  {
+    "condValues": [
+      94051402
+    ],
+    "shopId": 6000471,
+    "condType": 36,
+    "condNum": 1,
     "priority": 0,
     "isClosedDisp": true,
     "closedMessage": "Cannot be exchanged (already claimed).",
@@ -33801,6 +33825,42 @@
     "priority": 0,
     "isClosedDisp": true,
     "closedMessage": "Exchangeable after obtaining Angel's Exchange Ticket",
+    "closedItemName": ""
+  },
+  {
+    "condValues": [
+      0
+    ],
+    "shopId": 80305035,
+    "condType": 12,
+    "condNum": 1668052800,
+    "priority": 0,
+    "isClosedDisp": true,
+    "closedMessage": "Exchangeable after the event ends (11/9 19:59 PST)",
+    "closedItemName": ""
+  },
+  {
+    "condValues": [
+      0
+    ],
+    "shopId": 80305036,
+    "condType": 12,
+    "condNum": 1668052800,
+    "priority": 0,
+    "isClosedDisp": true,
+    "closedMessage": "Exchangeable after the event ends (11/9 19:59 PST)",
+    "closedItemName": ""
+  },
+  {
+    "condValues": [
+      0
+    ],
+    "shopId": 80305037,
+    "condType": 12,
+    "condNum": 1668052800,
+    "priority": 0,
+    "isClosedDisp": true,
+    "closedMessage": "Exchangeable after the event ends (11/9 19:59 PST)",
     "closedItemName": ""
   }
 ]

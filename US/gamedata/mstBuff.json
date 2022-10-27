@@ -539,7 +539,8 @@
   {
     "vals": [
       3005,
-      3026
+      3026,
+      2729
     ],
     "tvals": [],
     "ckSelfIndv": [],
@@ -2939,7 +2940,7 @@
     "type": 95,
     "name": "Buster Up Upon Entry",
     "detail": "Increase Buster Card effectiveness upon entering the field",
-    "iconId": 314,
+    "iconId": 331,
     "maxRate": 0,
     "effectId": 0
   },
@@ -11841,7 +11842,9 @@
     "effectId": 0
   },
   {
-    "vals": [],
+    "vals": [
+      2729
+    ],
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
@@ -26166,7 +26169,9 @@
     "effectId": 0
   },
   {
-    "vals": [],
+    "vals": [
+      2729
+    ],
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
@@ -38480,6 +38485,21 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3013,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Strength Up",
+    "detail": "Increase damage dealt during \"Great Void Sea Battle, Imaginary Scramble - To the Surface, Nautilus!\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
     "vals": [
       2719
     ],
@@ -38588,6 +38608,1901 @@
     "detail": "Increase damage dealt during \"Revival: Christmas 2021: Nightingale's Christmas Carol - Lite\"",
     "iconId": 302,
     "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3020,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3021,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect with Noble Phantasm",
+    "detail": "Reduce target enemy's Quick Attack Resistance when attacking with Noble Phantasm (3 turns)",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3022,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "Capture Target",
+    "detail": "Set Charge to maximum each turn & increase NP ATK & decrease DEF [Demerit] & recover target's HP when attacking with Noble Phantasm [Demerit]",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3023,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Wandering Regret",
+    "detail": "Apply Guts to yourself at end of each turn (stackable) & increase ATK when Guts is activated (5 turns)",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3024,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "",
+    "detail": "",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6001
+    },
+    "id": 3025,
+    "buffGroup": 0,
+    "type": 37,
+    "name": "Guts",
+    "detail": "When HP reaches 0, recover HP and survive (stackable)",
+    "iconId": 304,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      3066
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3066
+    ],
+    "script": {},
+    "id": 3026,
+    "buffGroup": 0,
+    "type": 112,
+    "name": "Innocent Madness",
+    "detail": "Increase damage dealt against the [Sleeping] & apply a state where you have a low chance to inflict Fear when damaged (3 turns)",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3027,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3028,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Door to Madness",
+    "detail": "When HP reaches 0, inflict Fear (3 turns) & remove DEF Buffs & apply Skill Seal (1 turn) for all enemies",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3029,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Gate of Extremes",
+    "detail": "When HP reaches 0, inflict Sleep (1 turn) & remove DEF Buffs & decrease DEF (3 turns) for all enemies",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3030,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Mad Old Painter's Caprice",
+    "detail": "Decrease target's Arts Attack Resistance (3 turns) during your normal attacks + Increase Arts Card effectiveness (3 turns) & low chance to add 1 Charge for yourself",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3031,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Living Hellfire",
+    "detail": "Inflict Burn (3 turns) to a single enemy during your normal attacks & inflict Burn (3 turns) to a single enemy when sustaining an attack",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3032,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3033,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn (ATK Up & Critical Hit Rate Up)",
+    "detail": "Increase ATK & Critical Hit Rate for yourself at the end of each turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3034,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate when Damaged (ATK Up & Critical Hit Rate Up)",
+    "detail": "Increase ATK & Critical Hit Rate for yourself when sustaining an attack",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3035,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate when Damaged (ATK Up & Critical Strength Up)",
+    "detail": "Increase ATK & Critical Strength for yourself when sustaining an attack",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      117
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      117
+    ],
+    "script": {},
+    "id": 3036,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Strength Up (Foreigner)",
+    "detail": "Increase damage dealt against [Foreigners]",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3037,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Advancing Bill",
+    "detail": "Chance to inflict Stun every turn while the Approaching Card Payment is on the field",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3038,
+    "buffGroup": 0,
+    "type": 7,
+    "name": "Peerless Solace",
+    "detail": "Recover HP at end of turn while New Dog Owner is on the field",
+    "iconId": 318,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3039,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Resentment of Death",
+    "detail": "When HP reaches 0, apply a state where the target gets inflicted with Death after 4 turns",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3040,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "Delayed Effect (Death)",
+    "detail": "Inflict Death after 4 turns",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3041,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate when Damaged (Buff + Apply Sleep)",
+    "detail": "Increase ATK & increase Critical Hit Rate to yourself when sustaining an attack + Apply a state where the target gets inflicted with Sleep after 2 turns",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3042,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "Delayed Effect (Sleep)",
+    "detail": "Apply Sleep to yourself after 2 turns",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3043,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Foreigner Determined",
+    "detail": "Apply Special Attack [Foreigner]",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3044,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "Detecting Sound?",
+    "detail": "Apply Sure Hit after 3 turns",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3045,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Beginning of Worry",
+    "detail": "Decrease ATK & DEF & NP Gain & C. Star Drop Rate for yourself after end of each turn",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3046,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Imaginary Diver",
+    "detail": "Increase damage dealt during \"Great Void Sea Battle, Imaginary Scramble - To the Surface, Nautilus!\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3047,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Imaginary Explorer",
+    "detail": "Increase damage dealt during \"Great Void Sea Battle, Imaginary Scramble - To the Surface, Nautilus!\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [
+      3015
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3015
+    ],
+    "script": {},
+    "id": 3048,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "Critical Strength Up (Burn)",
+    "detail": "Increase Critical Strength against [Burn] enemies",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2729
+    ],
+    "script": {},
+    "id": 3049,
+    "buffGroup": 0,
+    "type": 158,
+    "name": "",
+    "detail": "",
+    "iconId": 306,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3050,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Arts Up",
+    "detail": "Increase Arts card effectiveness only when on [Near Water] or [Void Space] field",
+    "iconId": 313,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      2732
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3051,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "Damage Cut",
+    "detail": "Decrease damage taken only when on [Near Water] or [Void Space] field",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3052,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "NP Strength Up",
+    "detail": "Increase NP damage only when on [Near Water] or [Void Space] field",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3019,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3053,
+    "buffGroup": 0,
+    "type": 25,
+    "name": "Sure Hit",
+    "detail": "Ignore Evade and inflict damage only when on [Near Water] or [Void Space] field",
+    "iconId": 309,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3054,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "Activate when Guts is Triggered (NP Gain)",
+    "detail": "Gain NP when Guts is activated",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2723
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3055,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Imaginary Number α",
+    "detail": "Apply [Imaginary Number α] trait & increase Special Resist",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2724
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3056,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Imaginary Number β",
+    "detail": "Apply [Imaginary Number β] trait & increase Special Resist",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2725
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3057,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Imaginary Number γ",
+    "detail": "Apply [Imaginary Number γ] trait & increase Special Resist",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2726
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3058,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Imaginary Number δ",
+    "detail": "Apply [Imaginary Number δ] trait & increase Special Resist",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2727
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3059,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Imaginary Number ε",
+    "detail": "Apply [Imaginary Number ε] trait & increase Special Resist",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2728
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3060,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Imaginary Number ζ",
+    "detail": "Apply [Imaginary Number ζ] trait & increase Special Resist",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2725
+    },
+    "id": 3061,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Neurotoxin",
+    "detail": "Inflict Stun (1 turn) & Poison to a single enemy during your normal attacks only when Imaginary Number γ is applied",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2723
+    },
+    "id": 3062,
+    "buffGroup": 0,
+    "type": 7,
+    "name": "Super Fast Repair",
+    "detail": "Recover HP at the end of turn only when Imaginary Number α is applied",
+    "iconId": 318,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2726
+    },
+    "id": 3063,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "Accelerate Loading",
+    "detail": "Set Charge to maximum at end of turn & increase NP Strength only when Imaginary Number δ is applied",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2726
+    },
+    "id": 3064,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "",
+    "detail": "",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2727
+    },
+    "id": 3065,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Predation",
+    "detail": "Absorb HP from all enemies & increase HP recovery amount during your normal attacks only when Imaginary Number ε is applied",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2724
+    },
+    "id": 3066,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Stun Eye",
+    "detail": "Inflict Stun (1 turn) to all enemies at end of each turn only when Imaginary Number β is applied",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2723
+    },
+    "id": 3067,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "Raging Fire",
+    "detail": "Increase Critical Hit Rate & Special Resistance only when Imaginary Number α is applied",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2723
+    },
+    "id": 3068,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "",
+    "detail": "",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2728
+    },
+    "id": 3069,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Suppression",
+    "detail": "Absorb NP from all enemies & increase ATK during your normal attacks only when Imaginary Number ζ is applied",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003
+    ],
+    "script": {
+      "INDIVIDUALITIE": 2727
+    },
+    "id": 3070,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "Single Jet Line Formation, Quick",
+    "detail": "Increase resistance against Quick attacks only when Imaginary Number ε is applied to the Enemy Small Fleet Epsilon",
+    "iconId": 345,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001
+    ],
+    "script": {
+      "INDIVIDUALITIE": 2725
+    },
+    "id": 3071,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "Single Jet Line Formation, Arts",
+    "detail": "Increase resistance against Arts attacks only when Imaginary Number γ is applied to the Enemy Small Fleet Gamma",
+    "iconId": 346,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {
+      "INDIVIDUALITIE": 2724
+    },
+    "id": 3072,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "Single Jet Line Formation, Buster",
+    "detail": "Increase resistance against Buster attacks only when Imaginary Number β is applied to the Enemy Small Fleet Beta",
+    "iconId": 347,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2725
+    },
+    "id": 3073,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Decoy",
+    "detail": "Apply Guts at end of each turn only when Imaginary Number γ is applied",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2726
+    },
+    "id": 3074,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Ambushing Fire",
+    "detail": "Apply a state where Death gets applied after 1 turn when sustaining attack only when Imaginary Number δ is applied",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2728
+    },
+    "id": 3075,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Court's Dancing Flame",
+    "detail": "Apply a state where the Flaming Maidservant gets summoned & inflict Burn to all enemies at end of each turn only when Imaginary Number ζ is applied",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2726
+    },
+    "id": 3076,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Sign of Zhurong",
+    "detail": "Inflict Burn to a single enemy & increase DEF during your normal attacks only when Imaginary Number δ is applied",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3077,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Crabs Galore",
+    "detail": "When HP reaches 0, recover a single enemy's HP [Demerit]",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2723
+    },
+    "id": 3078,
+    "buffGroup": 200,
+    "type": 24,
+    "name": "Black Wing",
+    "detail": "Reduce damage taken to 0 & increase Critical Strength & increase Critical Hit Rate for yourself only when Imaginary Number α is applied",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2723
+    },
+    "id": 3079,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "",
+    "detail": "",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2723
+    },
+    "id": 3080,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "",
+    "detail": "",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2726
+    },
+    "id": 3081,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "",
+    "detail": "",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3082,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "Delayed Effect (Death)",
+    "detail": "Death is activated after 1 turn",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3083,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn",
+    "detail": "Set Charge to maximum each turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3084,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "Activate when Guts is Triggered (ATK Up)",
+    "detail": "Increase ATK when Guts is activated",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3085,
+    "buffGroup": 0,
+    "type": 140,
+    "name": "Command Card Unselectable",
+    "detail": "Cannot select Command Cards",
+    "iconId": 555,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3086,
+    "buffGroup": 0,
+    "type": 24,
+    "name": "Chance to Evade",
+    "detail": "Chance to reduce damage taken to 0",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3087,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "Charge Plus Each Turn",
+    "detail": "Increase Charge by 3 each turn",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3088,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "ATK Up",
+    "detail": "Increase ATK only when on [Near Water] or [Void Space] field",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3089,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Activate on Defeat (ATK Up)",
+    "detail": "When HP reaches 0, increase ATK for all allies",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3090,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Activate on Defeat (Arts Up)",
+    "detail": "When HP reaches 0, increase Arts Card effectiveness for all allies",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3091,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Activate on Defeat (Increase Charge)",
+    "detail": "When HP reaches 0, increase Charge by 3  for all allies",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3092,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Activate on Defeat (HP Recovery)",
+    "detail": "When HP reaches 0, recover HP for all allies",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3093,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Activate on Defeat (Debuff Removal)",
+    "detail": "When HP reaches 0, remove 1 Debuff for all allies ",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3094,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Arts Up",
+    "detail": "As HP gets lower, the more Arts Card effectiveness increases",
+    "iconId": 313,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "gutsText": "",
+      "HP_LOWER": 0
+    },
+    "id": 3095,
+    "buffGroup": 0,
+    "type": 37,
+    "name": "",
+    "detail": "",
+    "iconId": 304,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {},
+    "id": 3096,
+    "buffGroup": 0,
+    "type": 29,
+    "name": "Debuff Resist Up",
+    "detail": "Increase debuff resistance",
+    "iconId": 306,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2623
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3097,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2624
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3098,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2625
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3099,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003
+    ],
+    "script": {
+      "INDIVIDUALITIE": 2623
+    },
+    "id": 3100,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "Single Jet Line Formation, Quick",
+    "detail": "Increase resistance against Quick attacks only when Imaginary Number ε is applied to the Enemy Small Fleet Epsilon",
+    "iconId": 345,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001
+    ],
+    "script": {
+      "INDIVIDUALITIE": 2624
+    },
+    "id": 3101,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "Single Jet Line Formation, Arts",
+    "detail": "Increase resistance against Arts attacks only when Imaginary Number γ is applied to the Enemy Small Fleet Gamma",
+    "iconId": 346,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {
+      "INDIVIDUALITIE": 2625
+    },
+    "id": 3102,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "Single Jet Line Formation, Buster",
+    "detail": "Increase resistance against Buster attacks only when Imaginary Number β is applied to the Enemy Small Fleet Beta",
+    "iconId": 347,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3103,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect with Quick (Remove Curse)",
+    "detail": "Remove 1 Curse when attacking with Quick Card, and increase your ATK if removal is successful",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3104,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2039
+    },
+    "id": 3105,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2730
+    },
+    "id": 3106,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3020
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3107,
+    "buffGroup": 900,
+    "type": 34,
+    "name": "Price of Shame",
+    "detail": "Unable to use Noble Phantasms",
+    "iconId": 512,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3020
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3108,
+    "buffGroup": 900,
+    "type": 34,
+    "name": "Hesitant To Use NP",
+    "detail": "Unable to use Noble Phantasms",
+    "iconId": 512,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001,
+      2732
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 1
+    },
+    "id": 3109,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Arts Up",
+    "detail": "Increase Arts Card effectiveness only when on [Near Water] or [Void Space] field",
+    "iconId": 313,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2723
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3110,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "",
+    "detail": "",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2724
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3111,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "",
+    "detail": "",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2725
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3112,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "",
+    "detail": "",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2726
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3113,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "",
+    "detail": "",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2727
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3114,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "",
+    "detail": "",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2728
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3115,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "",
+    "detail": "",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3116,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "???",
+    "detail": "Remove Change and \"???\" when sustaining attack & increase Special Resistance",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6011
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3117,
+    "buffGroup": 500,
+    "type": 32,
+    "name": "Stun",
+    "detail": "Unable to act",
+    "iconId": 501,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3118,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Activate on Defeat (ATK Up)",
+    "detail": "When HP reaches 0, Gilles's ATK increases",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3119,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Activate on Defeat (NP Gain Down)",
+    "detail": "When HP reaches 0, decrease amount of NP gained for all enemies",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3120,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Activate on Defeat (ATK Down)",
+    "detail": "When HP reaches 0, decrease ATK for all enemies",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3121,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Activate on Defeat (C. Star Drop Down + Critical Strength Up)",
+    "detail": "When HP reaches 0, decrease C. Star drop rate for all enemies + Increase Critical Strength for all allies",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3122,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Activate on Defeat (Inflict Curse & Cooldown Reduced)",
+    "detail": "When HP reaches 0, inflict 3 Curses & progress skill turn by 2 [Demerit] for all enemies",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3123,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Activate on Defeat (Increase Charge)",
+    "detail": "When HP reaches 0, set NP Charge to MAX for all allies",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3023
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3124,
+    "buffGroup": 700,
+    "type": 38,
+    "name": "Target Focused",
+    "detail": "Set Target to yourself",
+    "iconId": 323,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3214,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "Critical Hit Rate Up: Arts",
+    "detail": "Increase the Arts Cards' Critical Rate",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4266,
+    "buffGroup": 0,
+    "type": 95,
+    "name": "Evade Upon Entry",
+    "detail": "Apply Evade upon entering the field",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4267,
+    "buffGroup": 0,
+    "type": 95,
+    "name": "Invincible Upon Entry",
+    "detail": "Apply Invincible upon entering the field",
+    "iconId": 331,
+    "maxRate": 0,
     "effectId": 0
   },
   {

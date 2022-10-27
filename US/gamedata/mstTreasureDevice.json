@@ -7234,6 +7234,54 @@
       4007
     ],
     "script": {},
+    "id": 679,
+    "seqId": 9942570,
+    "name": "Sneak Attack (Undetected)",
+    "ruby": "-",
+    "rank": "None",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3000,
+      4007
+    ],
+    "script": {},
+    "id": 680,
+    "seqId": 9942580,
+    "name": "Maelstrom",
+    "ruby": "-",
+    "rank": "None",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
+      4007
+    ],
+    "script": {},
+    "id": 681,
+    "seqId": 9942500,
+    "name": "Flower's Whisper",
+    "ruby": "-",
+    "rank": "None",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3000,
+      4007
+    ],
+    "script": {},
     "id": 682,
     "seqId": 9942540,
     "name": "Fresh Cooked Punch",
@@ -7253,6 +7301,38 @@
     "id": 683,
     "seqId": 9942470,
     "name": "Delicious Rice Particle Cannon",
+    "ruby": "-",
+    "rank": "None",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
+      4007
+    ],
+    "script": {},
+    "id": 698,
+    "seqId": 9942500,
+    "name": "Those Who Go into Slumber",
+    "ruby": "-",
+    "rank": "None",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
+      4007
+    ],
+    "script": {},
+    "id": 699,
+    "seqId": 9935800,
+    "name": "Trigger Torpedo Attack ",
     "ruby": "-",
     "rank": "None",
     "maxLv": 5,
@@ -7787,7 +7867,9 @@
       4001,
       4007
     ],
-    "script": {},
+    "script": {
+      "delayEnd": 1
+    },
     "id": 102001,
     "seqId": 102000,
     "name": "Arondight Overload",
@@ -8282,10 +8364,11 @@
       4007
     ],
     "script": {
-      "limitSeqId_1": 104401,
       "limitSeqId_3": 104402,
       "delayEnd": 1,
+      "limitSeqId_11": 104430,
       "limitSeqId_4": 104402,
+      "limitSeqId_1": 104401,
       "limitSeqId_2": 104401
     },
     "id": 104401,
@@ -8564,7 +8647,9 @@
       4003,
       4007
     ],
-    "script": {},
+    "script": {
+      "delayEnd": 1
+    },
     "id": 200801,
     "seqId": 200800,
     "name": "Failnaught",
@@ -9491,10 +9576,11 @@
       4007
     ],
     "script": {
-      "limitSeqId_1": 204101,
       "limitSeqId_3": 204102,
       "delayEnd": 1,
+      "limitSeqId_11": 204130,
       "limitSeqId_4": 204102,
+      "limitSeqId_1": 204101,
       "limitSeqId_2": 204101
     },
     "id": 204101,
@@ -9618,11 +9704,12 @@
       4101
     ],
     "script": {
-      "limitSeqId_11": 300410,
-      "limitSeqId_1": 300400,
       "limitSeqId_3": 300400,
+      "limitSeqId_11": 300410,
       "limitSeqId_4": 300400,
-      "limitSeqId_2": 300400
+      "limitSeqId_1": 300400,
+      "limitSeqId_2": 300400,
+      "limitSeqId_12": 300400
     },
     "id": 300401,
     "seqId": 300400,
@@ -9642,11 +9729,12 @@
       4101
     ],
     "script": {
-      "limitSeqId_11": 300410,
-      "limitSeqId_1": 300400,
       "limitSeqId_3": 300400,
+      "limitSeqId_11": 300410,
       "limitSeqId_4": 300400,
-      "limitSeqId_2": 300400
+      "limitSeqId_1": 300400,
+      "limitSeqId_2": 300400,
+      "limitSeqId_12": 300400
     },
     "id": 300402,
     "seqId": 300400,
@@ -10077,7 +10165,12 @@
       4007,
       4101
     ],
-    "script": {},
+    "script": {
+      "limitSeqId_1": 302010,
+      "limitSeqId_3": 302020,
+      "limitSeqId_4": 302020,
+      "limitSeqId_2": 302010
+    },
     "id": 302001,
     "seqId": 302000,
     "name": "Rhongomyniad",
@@ -10678,7 +10771,13 @@
       4007,
       4101
     ],
-    "script": {},
+    "script": {
+      "limitSeqId_11": 400830,
+      "limitSeqId_1": 400800,
+      "limitSeqId_3": 400800,
+      "limitSeqId_4": 400800,
+      "limitSeqId_2": 400800
+    },
     "id": 400801,
     "seqId": 400800,
     "name": "Queen Anne's Revenge",
@@ -10696,7 +10795,13 @@
       4007,
       4101
     ],
-    "script": {},
+    "script": {
+      "limitSeqId_11": 400830,
+      "limitSeqId_1": 400800,
+      "limitSeqId_3": 400800,
+      "limitSeqId_4": 400800,
+      "limitSeqId_2": 400800
+    },
     "id": 400802,
     "seqId": 400800,
     "name": "Queen Anne's Revenge",
@@ -11390,6 +11495,96 @@
     "typeText": "Anti-Personnel - Anti-Army",
     "attackAttri": 1,
     "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3000,
+      4001,
+      4007
+    ],
+    "script": {
+      "randomSeqIds_11": [
+        403730,
+        403731
+      ],
+      "randomWeights_1": [
+        70,
+        30
+      ],
+      "randomWeights_2": [
+        70,
+        30
+      ],
+      "randomWeights": [
+        70,
+        30
+      ],
+      "randomSeqIds_4": [
+        403720,
+        403721
+      ],
+      "randomSeqIds": [
+        403700,
+        403701
+      ],
+      "randomSeqIds_2": [
+        403710,
+        403711
+      ],
+      "randomWeights_11": [
+        70,
+        30
+      ],
+      "randomSeqIds_1": [
+        403710,
+        403711
+      ],
+      "groupSeqIDs": [
+        403700,
+        403701
+      ],
+      "randomSeqIds_3": [
+        403720,
+        403721
+      ],
+      "groupSeqIDs_11": [
+        403700,
+        403701
+      ],
+      "randomWeights_3": [
+        70,
+        30
+      ],
+      "groupSeqIDs_4": [
+        403700,
+        403701
+      ],
+      "groupSeqIDs_1": [
+        403700,
+        403701
+      ],
+      "groupSeqIDs_3": [
+        403700,
+        403701
+      ],
+      "groupSeqIDs_2": [
+        403700,
+        403701
+      ],
+      "randomWeights_4": [
+        70,
+        30
+      ]
+    },
+    "id": 403701,
+    "seqId": 403700,
+    "name": "Great Ram, Nautilus",
+    "ruby": " ",
+    "rank": "A",
+    "maxLv": 5,
+    "typeText": "Anti-Sea",
+    "attackAttri": 1,
+    "effectFlag": 2
   },
   {
     "individuality": [
@@ -14575,10 +14770,12 @@
       4101
     ],
     "script": {
-      "limitSeqId_1": 703300,
       "limitSeqId_3": 703301,
+      "limitSeqId_11": 703330,
       "limitSeqId_4": 703301,
-      "limitSeqId_2": 703300
+      "limitSeqId_1": 703300,
+      "limitSeqId_2": 703300,
+      "limitSeqId_12": 703340
     },
     "id": 703301,
     "seqId": 703300,
@@ -14905,7 +15102,9 @@
       4007,
       4101
     ],
-    "script": {},
+    "script": {
+      "delayEnd": 1
+    },
     "id": 900201,
     "seqId": 900200,
     "name": "Twin Arm - Big Crunch",
@@ -14923,7 +15122,9 @@
       4007,
       4101
     ],
-    "script": {},
+    "script": {
+      "delayEnd": 1
+    },
     "id": 900202,
     "seqId": 900200,
     "name": "Twin Arm - Big Crunch",
@@ -15923,12 +16124,81 @@
       4101
     ],
     "script": {
-      "limitSeqId_3": 2300212,
-      "limitSeqId_11": 2300201,
-      "limitSeqId_4": 2300212,
-      "limitSeqId_1": 2300211,
-      "limitSeqId_2": 2300211,
-      "limitSeqId_12": 2300202
+      "randomSeqIds_11": [
+        2300230,
+        2300231,
+        2300232
+      ],
+      "randomWeights_1": [
+        34,
+        33,
+        33
+      ],
+      "randomWeights_2": [
+        34,
+        33,
+        33
+      ],
+      "randomWeights": [
+        34,
+        33,
+        33
+      ],
+      "randomSeqIds_12": [
+        2300240,
+        2300241,
+        2300242
+      ],
+      "randomSeqIds_2": [
+        2300210,
+        2300211,
+        2300212
+      ],
+      "randomWeights_3": [
+        34,
+        33,
+        33
+      ],
+      "randomWeights_11": [
+        34,
+        33,
+        33
+      ],
+      "randomSeqIds_1": [
+        2300210,
+        2300211,
+        2300212
+      ],
+      "groupSeqIDs": [
+        2300240,
+        2300240,
+        2300240
+      ],
+      "randomSeqIds_3": [
+        2300220,
+        2300221,
+        2300222
+      ],
+      "randomSeqIds_4": [
+        2300220,
+        2300221,
+        2300222
+      ],
+      "randomWeights_12": [
+        34,
+        33,
+        33
+      ],
+      "randomSeqIds": [
+        2300200,
+        2300201,
+        2300202
+      ],
+      "randomWeights_4": [
+        34,
+        33,
+        33
+      ]
     },
     "id": 2300201,
     "seqId": 2300200,
@@ -16209,6 +16479,29 @@
     "typeText": "Anti-Planet",
     "attackAttri": 1,
     "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3002,
+      4001,
+      4007
+    ],
+    "script": {
+      "limitSeqId_1": 2500601,
+      "limitSeqId_3": 2500602,
+      "delayEnd": 1,
+      "limitSeqId_4": 2500602,
+      "limitSeqId_2": 2500601
+    },
+    "id": 2500601,
+    "seqId": 2500600,
+    "name": "De Sterrennacht",
+    "ruby": " ",
+    "rank": "EX",
+    "maxLv": 5,
+    "typeText": "Anti-Personnel",
+    "attackAttri": 1,
+    "effectFlag": 0
   },
   {
     "individuality": [
@@ -17604,10 +17897,12 @@
       4101
     ],
     "script": {
-      "limitSeqId_1": 703300,
       "limitSeqId_3": 703301,
+      "limitSeqId_11": 703330,
       "limitSeqId_4": 703301,
-      "limitSeqId_2": 703300
+      "limitSeqId_1": 703300,
+      "limitSeqId_2": 703300,
+      "limitSeqId_12": 703340
     },
     "id": 9942081,
     "seqId": 9942080,
@@ -17921,5 +18216,294 @@
     "typeText": "N/A",
     "attackAttri": 1,
     "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3000,
+      4001,
+      4007
+    ],
+    "script": {
+      "randomSeqIds_11": [
+        403730,
+        403731
+      ],
+      "randomWeights_1": [
+        70,
+        30
+      ],
+      "randomWeights_2": [
+        70,
+        30
+      ],
+      "randomWeights": [
+        70,
+        30
+      ],
+      "randomSeqIds_4": [
+        403720,
+        403721
+      ],
+      "randomSeqIds": [
+        403700,
+        403701
+      ],
+      "randomSeqIds_2": [
+        403710,
+        403711
+      ],
+      "randomWeights_11": [
+        70,
+        30
+      ],
+      "randomSeqIds_1": [
+        403710,
+        403711
+      ],
+      "groupSeqIDs": [
+        403700,
+        403701
+      ],
+      "randomSeqIds_3": [
+        403720,
+        403721
+      ],
+      "groupSeqIDs_11": [
+        403700,
+        403701
+      ],
+      "randomWeights_3": [
+        70,
+        30
+      ],
+      "groupSeqIDs_4": [
+        403700,
+        403701
+      ],
+      "groupSeqIDs_1": [
+        403700,
+        403701
+      ],
+      "groupSeqIDs_3": [
+        403700,
+        403701
+      ],
+      "groupSeqIDs_2": [
+        403700,
+        403701
+      ],
+      "randomWeights_4": [
+        70,
+        30
+      ]
+    },
+    "id": 9942721,
+    "seqId": 403700,
+    "name": "Great Ram, Nautilus",
+    "ruby": " ",
+    "rank": "A",
+    "maxLv": 5,
+    "typeText": "Anti-Sea",
+    "attackAttri": 1,
+    "effectFlag": 2
+  },
+  {
+    "individuality": [
+      3000,
+      4001,
+      4007
+    ],
+    "script": {
+      "randomSeqIds_11": [
+        403730,
+        403731
+      ],
+      "randomWeights_1": [
+        70,
+        30
+      ],
+      "randomWeights_2": [
+        70,
+        30
+      ],
+      "randomWeights": [
+        70,
+        30
+      ],
+      "randomSeqIds_4": [
+        403720,
+        403721
+      ],
+      "randomSeqIds": [
+        403700,
+        403701
+      ],
+      "randomSeqIds_2": [
+        403710,
+        403711
+      ],
+      "randomWeights_11": [
+        70,
+        30
+      ],
+      "randomSeqIds_1": [
+        403710,
+        403711
+      ],
+      "groupSeqIDs": [
+        403700,
+        403701
+      ],
+      "randomSeqIds_3": [
+        403720,
+        403721
+      ],
+      "groupSeqIDs_11": [
+        403700,
+        403701
+      ],
+      "randomWeights_3": [
+        70,
+        30
+      ],
+      "groupSeqIDs_4": [
+        403700,
+        403701
+      ],
+      "groupSeqIDs_1": [
+        403700,
+        403701
+      ],
+      "groupSeqIDs_3": [
+        403700,
+        403701
+      ],
+      "groupSeqIDs_2": [
+        403700,
+        403701
+      ],
+      "randomWeights_4": [
+        70,
+        30
+      ]
+    },
+    "id": 9942731,
+    "seqId": 403710,
+    "name": "Great Ram, Nautilus",
+    "ruby": " ",
+    "rank": "A",
+    "maxLv": 5,
+    "typeText": "Anti-Sea",
+    "attackAttri": 1,
+    "effectFlag": 2
+  },
+  {
+    "individuality": [
+      3000,
+      4001,
+      4007
+    ],
+    "script": {
+      "randomSeqIds_11": [
+        403730,
+        403731
+      ],
+      "randomWeights_1": [
+        70,
+        30
+      ],
+      "randomWeights_2": [
+        70,
+        30
+      ],
+      "randomWeights": [
+        70,
+        30
+      ],
+      "randomSeqIds_4": [
+        403720,
+        403721
+      ],
+      "randomSeqIds": [
+        403700,
+        403701
+      ],
+      "randomSeqIds_2": [
+        403710,
+        403711
+      ],
+      "randomWeights_11": [
+        70,
+        30
+      ],
+      "randomSeqIds_1": [
+        403710,
+        403711
+      ],
+      "groupSeqIDs": [
+        403700,
+        403701
+      ],
+      "randomSeqIds_3": [
+        403720,
+        403721
+      ],
+      "groupSeqIDs_11": [
+        403700,
+        403701
+      ],
+      "randomWeights_3": [
+        70,
+        30
+      ],
+      "groupSeqIDs_4": [
+        403700,
+        403701
+      ],
+      "groupSeqIDs_1": [
+        403700,
+        403701
+      ],
+      "groupSeqIDs_3": [
+        403700,
+        403701
+      ],
+      "groupSeqIDs_2": [
+        403700,
+        403701
+      ],
+      "randomWeights_4": [
+        70,
+        30
+      ]
+    },
+    "id": 9942741,
+    "seqId": 403720,
+    "name": "Great Ram, Nautilus",
+    "ruby": " ",
+    "rank": "A",
+    "maxLv": 5,
+    "typeText": "Anti-Sea",
+    "attackAttri": 1,
+    "effectFlag": 2
+  },
+  {
+    "individuality": [
+      3002,
+      4001,
+      4007
+    ],
+    "script": {
+      "limitSeqId_12": 800140
+    },
+    "id": 9942771,
+    "seqId": 9942770,
+    "name": "Mold Camelot",
+    "ruby": " ",
+    "rank": "D",
+    "maxLv": 5,
+    "typeText": "Anti-Personnel",
+    "attackAttri": 1,
+    "effectFlag": 0
   }
 ]
