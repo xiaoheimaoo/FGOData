@@ -68413,6 +68413,21 @@
     "ckSelfIndv": [],
     "ckOpIndv": [],
     "script": {},
+    "id": 4685,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ",
+    "detail": "『カルデア妖精騎士杯』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
     "id": 4686,
     "buffGroup": 0,
     "type": 40,
@@ -69614,6 +69629,217 @@
     "detail": "自身の攻撃時に敵単体の強化状態を解除する状態を付与",
     "iconId": 528,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [
+      4008
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4751,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時に自身のQuickカードの性能をアップ",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      2009
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2009
+    ],
+    "script": {},
+    "id": 4753,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ〔騎乗スキル〕",
+    "detail": "〔騎乗スキル〕を持つ敵に与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4800,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "気",
+    "detail": "ターン開始時に自身の〔気〕状態を1つ解除＆さまざまな強化効果を付与する",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      5000
+    ],
+    "script": {},
+    "id": 4801,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "撃破時追加効果",
+    "detail": "敵を倒したときに自身のHPが回復する＆〔気〕を2つ付与する",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4802,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "遅延発動",
+    "detail": "2ターン経過後に自身に〔気〕を3つ付与する",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4803,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "遅延発動",
+    "detail": "2ターン経過後に自身に〔気〕を5つ付与する",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4804,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "遅延発動",
+    "detail": "2ターン経過後に自身に〔気〕を7つ付与する",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4805,
+    "buffGroup": 0,
+    "type": 37,
+    "name": "ガッツ",
+    "detail": "HPが0になった時、HPを回復して耐える(他のガッツ状態と重複可能)",
+    "iconId": 304,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4806,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃時発動",
+    "detail": "攻撃時、自身の攻撃力をアップ",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4807,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "練功妨害",
+    "detail": "宝具攻撃時に敵単体の〔気〕状態を2つ解除",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      6017
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4808,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "特殊耐性アップ",
+    "detail": "全ての攻撃に対する耐性を得る",
+    "iconId": 334,
+    "maxRate": 5000,
     "effectId": 0
   },
   {
