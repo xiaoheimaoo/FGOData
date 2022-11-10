@@ -69844,6 +69844,660 @@
   },
   {
     "vals": [
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4850,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Sトレジャーハンターのターゲット",
+    "detail": "ターン終了時に、Sトレジャーハンターに即死を付与される",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6029
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4851,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "ミストレスＣの予告状",
+    "detail": "ターン終了時に、ミストレスＣに即死を付与される",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3017
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6016
+    },
+    "id": 4852,
+    "buffGroup": 0,
+    "type": 92,
+    "name": "お宝に夢中",
+    "detail": "〔お宝〕と〔レアお宝〕状態が多いほど、全ての攻撃に対する耐性をダウン【デメリット】",
+    "iconId": 529,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4853,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "お宝：Quickアップ",
+    "detail": "HPが0になった時に、倒した相手のQuickカード性能をアップ",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4854,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "お宝：Artsアップ",
+    "detail": "HPが0になった時に、倒した相手のArtsカード性能をアップ",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4855,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "お宝：Busterアップ",
+    "detail": "HPが0になった時に、倒した相手のBusterカード性能をアップ",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4856,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "お宝：攻撃力アップ",
+    "detail": "HPが0になった時に、倒した相手の攻撃力をアップ",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4857,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "お宝：クリティカル威力アップ",
+    "detail": "HPが0になった時に、倒した相手のクリティカル時のダメージをアップ",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4858,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "お宝：防御力アップ",
+    "detail": "HPが0になった時に、倒した相手の防御力をアップ",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4859,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "お宝：弱体耐性アップ",
+    "detail": "HPが0になった時に、倒した相手の弱体耐性をアップ",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4860,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "レアお宝：無敵貫通＆宝具威力アップ",
+    "detail": "HPが0になった時に、倒した相手に「回避と無敵を無視してダメージを与える」状態を付与＆宝具で与えるダメージをアップ",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4861,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "レアお宝：無敵",
+    "detail": "HPが0になった時に、倒した相手に「必中を無視して、攻撃によるダメージを0にする」状態を付与",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4862,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "レアお宝：攻撃時追加効果",
+    "detail": "HPが0になった時に、倒した相手に「攻撃時に敵単体の強化状態を1つ解除する」状態を付与",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      6016
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4863,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "お宝：Quickアップ",
+    "detail": "Quickカードの性能をアップ",
+    "iconId": 312,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      6016
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4864,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "お宝：Artsアップ",
+    "detail": "Artsカードの性能をアップ",
+    "iconId": 313,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      6016
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4865,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "お宝：Busterアップ",
+    "detail": "Busterカードの性能をアップ",
+    "iconId": 314,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      6016,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4866,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "お宝：攻撃力アップ",
+    "detail": "攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      6016,
+      3031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4867,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "お宝：クリティカル威力アップ",
+    "detail": "クリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      6016,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4868,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "お宝：防御力アップ",
+    "detail": "防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6016
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {},
+    "id": 4869,
+    "buffGroup": 0,
+    "type": 29,
+    "name": "お宝：弱体耐性アップ",
+    "detail": "弱体耐性をアップ",
+    "iconId": 306,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3059,
+      3006,
+      6016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4870,
+    "buffGroup": 0,
+    "type": 72,
+    "name": "レアお宝：無敵貫通＆宝具威力アップ",
+    "detail": "回避と無敵を無視してダメージを与える＆宝具で与えるダメージをアップ",
+    "iconId": 329,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4871,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "",
+    "detail": "",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3022,
+      3007,
+      6016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4872,
+    "buffGroup": 0,
+    "type": 26,
+    "name": "レアお宝：無敵",
+    "detail": "必中を無視して、攻撃によるダメージを0にする",
+    "iconId": 311,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      6016
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4873,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "レアお宝：攻撃時追加効果",
+    "detail": "攻撃時に敵単体の強化状態を1つ解除する",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3016
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003
+    ],
+    "script": {},
+    "id": 4874,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "赤鍵の宝箱",
+    "detail": "Quickカード・Artsカードの攻撃による被ダメージ、被NP発生量、被スター発生率が減少する",
+    "iconId": 345,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3016
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001
+    ],
+    "script": {},
+    "id": 4875,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "",
+    "detail": "",
+    "iconId": 346,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3016
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003
+    ],
+    "script": {},
+    "id": 4876,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "青鍵の宝箱",
+    "detail": "Quickカード・Busterカードの攻撃による被ダメージ、被NP発生量、被スター発生率が減少する",
+    "iconId": 345,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3016
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {},
+    "id": 4877,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "",
+    "detail": "",
+    "iconId": 347,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3016
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001
+    ],
+    "script": {},
+    "id": 4878,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "緑鍵の宝箱",
+    "detail": "Artsカード・Busterカードの攻撃による被ダメージ、被NP発生量、被スター発生率が減少する",
+    "iconId": 346,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3016
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {},
+    "id": 4879,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "",
+    "detail": "",
+    "iconId": 347,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4880,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時、敵単体の〔お宝〕と〔レアお宝〕状態を解除＆解除した〔お宝〕と〔レアお宝〕状態を吸収する",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4881,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時、自身のクリティカルの発生率をアップ",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4882,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3006
     ],
