@@ -70498,6 +70498,380 @@
   },
   {
     "vals": [
+      3005,
+      3010
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4900,
+    "buffGroup": 9999,
+    "type": 85,
+    "name": "ダンス",
+    "detail": "ターン終了時に「自身の防御強化状態を1つ解除」する状態を付与",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4901,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Shall We Dance?",
+    "detail": "自身の攻撃時、敵単体に〔ダンス〕状態を付与",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3020,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6021
+    },
+    "id": 4902,
+    "buffGroup": 900,
+    "type": 34,
+    "name": "狂乱の舞",
+    "detail": "自身がヴェールに覆われている間、宝具封印状態を付与【デメリット】＆精神異常無効状態を付与",
+    "iconId": 512,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6026
+    ],
+    "tvals": [
+      3010
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3010
+    ],
+    "script": {
+      "INDIVIDUALITIE": 6021
+    },
+    "id": 4903,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3022,
+      3007,
+      6021
+    ],
+    "tvals": [
+      4101
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4101
+    ],
+    "script": {},
+    "id": 4904,
+    "buffGroup": 400,
+    "type": 26,
+    "name": "1枚目のヴェール",
+    "detail": "必中を無視して、全体宝具によるダメージを0にする",
+    "iconId": 311,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3016,
+      6021
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003
+    ],
+    "script": {},
+    "id": 4905,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "2枚目のヴェール",
+    "detail": "Quickカードの攻撃による被ダメージ、被NP発生量、被スター発生率が減少する",
+    "iconId": 345,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3016,
+      6021
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001
+    ],
+    "script": {},
+    "id": 4906,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "3枚目のヴェール",
+    "detail": "Artsカードの攻撃による被ダメージ、被NP発生量、被スター発生率が減少する",
+    "iconId": 346,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3016,
+      6021
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {},
+    "id": 4907,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "4枚目のヴェール",
+    "detail": "Busterカードの攻撃による被ダメージ、被NP発生量、被スター発生率が減少する",
+    "iconId": 347,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6021
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4100
+    ],
+    "script": {},
+    "id": 4908,
+    "buffGroup": 200,
+    "type": 24,
+    "name": "5枚目のヴェール",
+    "detail": "クリティカルによるダメージを0にする",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      6021
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4909,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "6枚目のヴェール",
+    "detail": "防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      6021
+    ],
+    "tvals": [
+      4102
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4102
+    ],
+    "script": {},
+    "id": 4910,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "7枚目のヴェール",
+    "detail": "単体宝具に対する耐性を得る",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4911,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動(弱体)",
+    "detail": "毎ターン自身のヴェールを1枚解除する状態を付与",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4912,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "遅延発動(強化)",
+    "detail": "7ターン経過後に毎ターン宝具チャージをMAXにする状態(3ターン)を付与",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4913,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "遅延発動(強化)",
+    "detail": "7ターン経過後に攻撃力をアップ",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4914,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "遅延発動(強化)",
+    "detail": "7ターン経過後にクリティカルの発生率をアップ",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4915,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "毎ターン発動(強化)",
+    "detail": "エネミーターン開始時、自身のチャージを最大まで増やす",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6027
+    ],
+    "tvals": [
+      6027
+    ],
+    "ckSelfIndv": [
+      6027
+    ],
+    "ckOpIndv": [
+      6027
+    ],
+    "script": {},
+    "id": 4916,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6028
+    ],
+    "tvals": [
+      6028
+    ],
+    "ckSelfIndv": [
+      6028
+    ],
+    "ckOpIndv": [
+      6028
+    ],
+    "script": {},
+    "id": 4917,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3006
     ],
