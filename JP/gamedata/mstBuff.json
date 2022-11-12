@@ -70873,6 +70873,615 @@
   {
     "vals": [
       3004,
+      3016
+    ],
+    "tvals": [
+      -6036
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -6036
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 4950,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "音楽の先生",
+    "detail": "チェイン攻撃以外の攻撃に対する耐性を得る＆〔課題未提出者〕からの攻撃に対する耐性を得る",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      6037
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      6037
+    ],
+    "script": {},
+    "id": 4951,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "",
+    "detail": "",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4952,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "蜂の毒",
+    "detail": "攻撃時、敵単体に宝具封印状態を付与する",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4953,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "おもてなし",
+    "detail": "毎ターン味方全体の宝具チャージを1増加する",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3023
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4954,
+    "buffGroup": 700,
+    "type": 38,
+    "name": "正義の騎士",
+    "detail": "自身にターゲットを固定する",
+    "iconId": 323,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4955,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "大金持ちのカマーチョ",
+    "detail": "毎ターン味方全体の宝具チャージを2増加する",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6036
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6026
+    },
+    "id": 4956,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Quickのリズム",
+    "detail": "Quickチェインによる攻撃時、自身にスター発生率アップを付与",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6036
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6027
+    },
+    "id": 4957,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Artsのメロディー",
+    "detail": "Artsチェインによる攻撃時、自身にNP獲得量アップを付与",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6036
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6028
+    },
+    "id": 4958,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Busterのハーモニー",
+    "detail": "Busterチェインによる攻撃時、自身にアタックプラスを付与",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6036
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6029
+    },
+    "id": 4959,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Braveのダイナミクス",
+    "detail": "Braveチェインによる攻撃時、自身のNPを増やす",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6036
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6030
+    },
+    "id": 4960,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Mightyの調性",
+    "detail": "Mightyチェインによる攻撃時、自身のHPを回復する",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4961,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "Quickチェインを成功させよ",
+    "detail": "3ターン経過後に〔課題未提出者〕状態が付与される",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4962,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "Artsチェインを成功させよ",
+    "detail": "3ターン経過後に〔課題未提出者〕状態が付与される",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4963,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "Busterチェインを成功させよ",
+    "detail": "3ターン経過後に〔課題未提出者〕状態が付与される",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4964,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "Braveチェインを成功させよ",
+    "detail": "3ターン経過後に〔課題未提出者〕状態が付与される",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6039
+    },
+    "id": 4965,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "Quickチェインを早期に成功させよ",
+    "detail": "Quickチェインによる攻撃のダメージ前に、自身に必中状態を付与",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6040
+    },
+    "id": 4966,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "Artsチェインを早期に成功させよ",
+    "detail": "Artsチェインによる攻撃のダメージ前に、自身に必中状態を付与",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6041
+    },
+    "id": 4967,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "Busterチェインを早期に成功させよ",
+    "detail": "Busterチェインによる攻撃のダメージ前に、自身に必中状態を付与",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6042
+    },
+    "id": 4968,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "Braveチェインを早期に成功させよ",
+    "detail": "Braveチェインによる攻撃のダメージ前に、自身に必中状態を付与",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6037
+    ],
+    "tvals": [
+      3004
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3004
+    ],
+    "script": {},
+    "id": 4969,
+    "buffGroup": 1000,
+    "type": 31,
+    "name": "課題未提出者",
+    "detail": "強化を受けなくなる＆防御力をダウン",
+    "iconId": 531,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3019,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 4970,
+    "buffGroup": 9999,
+    "type": 25,
+    "name": "二重丸",
+    "detail": "回避を無視して、攻撃によるダメージを与える",
+    "iconId": 309,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      6039
+    ],
+    "script": {},
+    "id": 4971,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "課題受付",
+    "detail": "Quickチェインによる攻撃を受けると、敵単体の〔Quickチェインを成功させよ〕状態を解除【デメリット】",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      6040
+    ],
+    "script": {},
+    "id": 4972,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "課題受付",
+    "detail": "Artsチェインによる攻撃を受けると、敵単体の〔Artsチェインを成功させよ〕状態を解除【デメリット】",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      6041
+    ],
+    "script": {},
+    "id": 4973,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "課題受付",
+    "detail": "Busterチェインによる攻撃を受けると、敵単体の〔Busterチェインを成功させよ〕状態を解除【デメリット】",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      6042
+    ],
+    "script": {},
+    "id": 4974,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "課題受付",
+    "detail": "Braveチェインによる攻撃を受けると、敵単体の〔Braveチェインを成功させよ〕状態を解除【デメリット】",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 0
+    },
+    "id": 4975,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "",
+    "detail": "",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6039
+    },
+    "id": 4976,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "",
+    "detail": "",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6040
+    },
+    "id": 4977,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "",
+    "detail": "",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6041
+    },
+    "id": 4978,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "",
+    "detail": "",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6042
+    },
+    "id": 4979,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "",
+    "detail": "",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6043
+    },
+    "id": 4980,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "",
+    "detail": "",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
       3006
     ],
     "tvals": [
