@@ -71481,6 +71481,302 @@
   },
   {
     "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -6021
+    },
+    "id": 5000,
+    "buffGroup": 0,
+    "type": 167,
+    "name": "燃え上がる憤炎",
+    "detail": "〔やけど〕状態によるダメージをHP回復効果に変換する＆攻撃時、自身にやけど(7ターン)を付与＆被ダメージ時、敵単体にやけど(7ターン)を付与",
+    "iconId": 374,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -6021
+    },
+    "id": 5001,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -6021
+    },
+    "id": 5002,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3015,
+      "INDIVIDUALITIE_COUNT_ABOVE": 3
+    },
+    "id": 5003,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "怒気",
+    "detail": "〔やけど〕状態が3個以上の時にクリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      3015
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3015
+    ],
+    "script": {
+      "INDIVIDUALITIE": 3015,
+      "INDIVIDUALITIE_COUNT_ABOVE": 5
+    },
+    "id": 5004,
+    "buffGroup": 0,
+    "type": 112,
+    "name": "赫怒",
+    "detail": "〔やけど〕状態が5個以上の時に〔やけど〕状態の敵に与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3015,
+      "INDIVIDUALITIE_COUNT_ABOVE": 8
+    },
+    "id": 5005,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "憤怒",
+    "detail": "〔やけど〕状態が8個以上の時にクリティカルの発生率をアップ",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3015,
+      "INDIVIDUALITIE_COUNT_ABOVE": 10
+    },
+    "id": 5006,
+    "buffGroup": 0,
+    "type": 121,
+    "name": "激憤",
+    "detail": "〔やけど〕状態が10個以上の時に防御力アップを無視してダメージを与える",
+    "iconId": 351,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3059,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3015,
+      "INDIVIDUALITIE_COUNT_ABOVE": 15
+    },
+    "id": 5007,
+    "buffGroup": 0,
+    "type": 72,
+    "name": "憤然",
+    "detail": "〔やけど〕状態が15個以上の時に回避と無敵を無視してダメージを与える",
+    "iconId": 329,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3015,
+      "INDIVIDUALITIE_COUNT_ABOVE": 20
+    },
+    "id": 5008,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "怒髪衝天",
+    "detail": "〔やけど〕状態が20個以上の時に攻撃力を超アップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6021
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3015,
+      "INDIVIDUALITIE_COUNT_ABOVE": 30
+    },
+    "id": 5009,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "超絶熱暴走",
+    "detail": "〔やけど〕状態が30個以上の時に毎ターンチャージを2増やす＆宝具攻撃後、やけど状態を解除＆スタンを付与【デメリット】＆〔燃え上がる憤炎〕状態が無効となる【デメリット】",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3015,
+      "INDIVIDUALITIE_COUNT_ABOVE": 30
+    },
+    "id": 5010,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3033
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5011,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "攻撃力ダウン",
+    "detail": "〔やけど〕の数に応じて攻撃力がダウン",
+    "iconId": 503,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6039
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "HP_LOWER": 0
+    },
+    "id": 5012,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3015
+    ],
+    "script": {
+      "INDIVIDUALITIE": 6039
+    },
+    "id": 5013,
+    "buffGroup": 0,
+    "type": 100,
+    "name": "",
+    "detail": "",
+    "iconId": 348,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3006
     ],
