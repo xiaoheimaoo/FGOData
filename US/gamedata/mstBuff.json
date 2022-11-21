@@ -29411,7 +29411,7 @@
     "id": 2410,
     "buffGroup": 0,
     "type": 142,
-    "name": "Double Charge",
+    "name": "Overcharge x2",
     "detail": "",
     "iconId": 343,
     "maxRate": 0,
@@ -40452,6 +40452,1200 @@
   },
   {
     "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3150,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "Oni's Pride",
+    "detail": "Increase ATK when Guts is triggered",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3151,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Oni Kind's Caprice",
+    "detail": "Inflict Poison (5 turns) during attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [
+      4100
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3152,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Oni Kind's Caprice",
+    "detail": "Inflict various Debuffs at random during your Critical attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3153,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate when Damaged (ATK Down)",
+    "detail": "Decrease a single enemy's ATK when sustaining attacks",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3154,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Vow to Yasutuna",
+    "detail": "Increase Critical Hit Rate or apply Damage Cut to yourself during attacks",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3155,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Activate when Attacking (Inflict Burn)",
+    "detail": "Inflict Burn (3 turns) during attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3156,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "Oni's Big Laugh",
+    "detail": "Increase ATK when Guts is triggered",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3157,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "Seimei's Shikigami",
+    "detail": "Inflict Curse to a single enemy when Guts is triggered",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3158,
+    "buffGroup": 0,
+    "type": 37,
+    "name": "Oni's Pride",
+    "detail": "When HP reaches 0, recover HP and survive (stackable with other Guts)",
+    "iconId": 304,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3159,
+    "buffGroup": 600,
+    "type": 37,
+    "name": "Oni's Big Laugh",
+    "detail": "When HP reaches 0, recover HP and survive",
+    "iconId": 304,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3160,
+    "buffGroup": 600,
+    "type": 37,
+    "name": "Seimei's Shikigami",
+    "detail": "When HP reaches 0, recover HP and survive",
+    "iconId": 304,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3161,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Army of Dreams",
+    "detail": "When HP reaches 0, increase Babbage's ATK",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3162,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Oni's Local Sake",
+    "detail": "Inflict Poison (3 turns) to a single enemy when attacked",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3163,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Oni's Local Sake",
+    "detail": "Inflict ATK Down to a single enemy during your attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [
+      3005
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3164,
+    "buffGroup": 0,
+    "type": 27,
+    "name": "Oni's Local Sake",
+    "detail": "Increase debuff chance rate",
+    "iconId": 307,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3165,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "Activate when Guts Is Triggered (Evade)",
+    "detail": "Apply Evade when Guts is triggered",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3166,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "Activate when Guts Is Triggered (Increase NP Charge)",
+    "detail": "Increase NP Charge to MAX  when Guts is triggered",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3167,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Enrapture",
+    "detail": "Decrease ATK & decrease NP Charge to a single enemy during attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6021
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3168,
+    "buffGroup": 900,
+    "type": 34,
+    "name": "NP Seal",
+    "detail": "Unable to use Noble Phantasms [Demerit]",
+    "iconId": 512,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3169,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Slight Gap",
+    "detail": "Gain resistance to all attacks & apply a state where your Special Resist is significantly decreased when attacking with a Noble Phantasm [Demerit]",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3170,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3171,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn (Critical Hit Rate Up)",
+    "detail": "Increase your Critical Hit Rate at end of each turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      2735
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2735
+    ],
+    "script": {},
+    "id": 3172,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Strength Up (Genji)",
+    "detail": "Increase damage dealt against [Genji] ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      2735
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2735
+    ],
+    "script": {},
+    "id": 3173,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "DEF Down (Genji)",
+    "detail": "Decrease DEF against [Genji] [Demerit]",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6023
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3174,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "Kagekiyo's Genji Poison",
+    "detail": "Decrease ATK",
+    "iconId": 503,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6023
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3175,
+    "buffGroup": 900,
+    "type": 34,
+    "name": "Kagekiyo's Genji Poison",
+    "detail": "Unable to use Noble Phantasms",
+    "iconId": 512,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      1119
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      1119
+    ],
+    "script": {},
+    "id": 3176,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Strength Up (Devil)",
+    "detail": "Increase damage dealt against [Devil]",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      5000
+    ],
+    "script": {},
+    "id": 3177,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "Bonus Effect After Defeat (Recovery)",
+    "detail": "Recover your HP when defeating an enemy",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3178,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Apply Trait (Genji)",
+    "detail": "Apply [Genji] trait",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009
+    ],
+    "tvals": [
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 3179,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "DEF Down (NP)",
+    "detail": "Decrease DEF against NP attacks [Demerit]",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3180,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "Distraught",
+    "detail": "Increase ATK & decrease DEF [Demerit]",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6021
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3181,
+    "buffGroup": 900,
+    "type": 34,
+    "name": "Make Me Draw This Sword.",
+    "detail": "Unable to use Noble Phantasms [Demerit]",
+    "iconId": 512,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6025
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3182,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "I'll Allow You To Resist.",
+    "detail": "Apply a state of going all-out if the HP gauge is broken twice within 5 turns",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3183,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Great Miasma String",
+    "detail": "Chance to inflict Stun to all enemies during attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6021
+    ],
+    "tvals": [
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 3184,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Iron Mountain's Outer Armor",
+    "detail": "Gain resistance to NP attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6022
+    ],
+    "tvals": [
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4100
+    ],
+    "script": {},
+    "id": 3185,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Samkhya's Great Wind",
+    "detail": "Gain resistance to Critical attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      1132
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      1132
+    ],
+    "script": {},
+    "id": 3186,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Strength Up (Oni)",
+    "detail": "Increase damage dealt against [Oni] enemies",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3187,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate When Damaged (Inflict Poison)",
+    "detail": "Inflict Poison (3 turns) to a single enemy when attacked",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6022
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003
+    ],
+    "script": {},
+    "id": 3188,
+    "buffGroup": 0,
+    "type": 26,
+    "name": "Serpent God's Jade Scales (Quick)",
+    "detail": "Ignore Sure Hit and reduce Quick ATK damage taken to 0",
+    "iconId": 311,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6022
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001
+    ],
+    "script": {},
+    "id": 3189,
+    "buffGroup": 0,
+    "type": 26,
+    "name": "Serpent God's Indigo Scales (Arts)",
+    "detail": "Ignore Sure Hit and reduce Arts ATK damage taken to 0",
+    "iconId": 311,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6022
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {},
+    "id": 3190,
+    "buffGroup": 0,
+    "type": 26,
+    "name": "Serpent God's Scarlet Scales (Buster)",
+    "detail": "Ignore Sure Hit and reduce Buster ATK damage taken to 0",
+    "iconId": 311,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6022
+    ],
+    "tvals": [
+      5000,
+      4007,
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007,
+      4100
+    ],
+    "script": {},
+    "id": 3191,
+    "buffGroup": 0,
+    "type": 26,
+    "name": "Serpent God's Dazzling Scales (Critical & NP)",
+    "detail": "Ignore Sure Hit and reduce Critical attack and NP attack damage taken to 0 ",
+    "iconId": 311,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3192,
+    "buffGroup": 0,
+    "type": 81,
+    "name": "Serpent God's Metamorphosis (All-Out)",
+    "detail": "Increase HP based on the number of \"Serpent God's Scale\" removed",
+    "iconId": 330,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3193,
+    "buffGroup": 0,
+    "type": 81,
+    "name": "Serpent God's Metamorphosis",
+    "detail": "Increase HP based on the number of \"Serpent God's Scale\" removed",
+    "iconId": 330,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      2743,
+      2773
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "CardEffectId": 2001004
+    },
+    "id": 3194,
+    "buffGroup": 0,
+    "type": 159,
+    "name": "Card Burning",
+    "detail": "Burn 1 Command Card and decrease your HP when attacking with the burned card",
+    "iconId": 549,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      2743,
+      2773
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "CardEffectId": 2001004
+    },
+    "id": 3195,
+    "buffGroup": 0,
+    "type": 159,
+    "name": "Card Burning",
+    "detail": "Burn 1 Command Card and decrease your HP when attacking with the burned card",
+    "iconId": 549,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      2743,
+      2773
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "CardEffectId": 2001004
+    },
+    "id": 3196,
+    "buffGroup": 0,
+    "type": 159,
+    "name": "Card Burning",
+    "detail": "Burn 1 Command Card and decrease your HP when attacking with the burned card",
+    "iconId": 549,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2310
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3197,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "Charge Plus Each Turn",
+    "detail": "Set NP Charge to MAX at the end of each turn",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3198,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "Delayed Effect (Death)",
+    "detail": "Apply Death after 3 turns",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3199,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Skull Guardian",
+    "detail": "Apply Special Resist based on the number of enemies summoned onto the field",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3200,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "",
+    "detail": "",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6022
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3201,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6022
+    },
+    "id": 3202,
+    "buffGroup": 0,
+    "type": 142,
+    "name": "Overcharge x2",
+    "detail": "",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3203,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6023
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3204,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2736
+    ],
+    "tvals": [
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 3205,
+    "buffGroup": 1557,
+    "type": 91,
+    "name": "Killing Curse Talisman",
+    "detail": "When sustaining \"Tour of Eight Hells,\" Death is triggered for yourself",
+    "iconId": 520,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3206,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      2744,
+      2773
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "CardEffectId": 2001004
+    },
+    "id": 3207,
+    "buffGroup": 0,
+    "type": 159,
+    "name": "Card Burning",
+    "detail": "Burn 1 Command Card and decrease your HP when attacking with the burned card",
+    "iconId": 549,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      2744,
+      2773
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "CardEffectId": 2001004
+    },
+    "id": 3208,
+    "buffGroup": 0,
+    "type": 159,
+    "name": "Card Burning",
+    "detail": "Burn 1 Command Card and decrease your HP when attacking with the burned card",
+    "iconId": 549,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      2744,
+      2773
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "CardEffectId": 2001004
+    },
+    "id": 3209,
+    "buffGroup": 0,
+    "type": 159,
+    "name": "Card Burning",
+    "detail": "Burn 1 Command Card and decrease your HP when attacking with the burned card",
+    "iconId": 549,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      2745,
+      2773
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "CardEffectId": 2001004
+    },
+    "id": 3210,
+    "buffGroup": 0,
+    "type": 159,
+    "name": "Card Burning",
+    "detail": "Burn 1 Command Card and decrease your HP when attacking with the burned card",
+    "iconId": 549,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      2745,
+      2773
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "CardEffectId": 2001004
+    },
+    "id": 3211,
+    "buffGroup": 0,
+    "type": 159,
+    "name": "Card Burning",
+    "detail": "Burn 1 Command Card and decrease your HP when attacking with the burned card",
+    "iconId": 549,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      2745,
+      2773
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "CardEffectId": 2001004
+    },
+    "id": 3212,
+    "buffGroup": 0,
+    "type": 159,
+    "name": "Card Burning",
+    "detail": "Burn 1 Command Card and decrease your HP when attacking with the burned card",
+    "iconId": 549,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6025
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3213,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3006,
       3032
@@ -40466,8 +41660,370 @@
     "buffGroup": 0,
     "type": 70,
     "name": "Critical Hit Rate Up: Arts",
-    "detail": "Increase the Arts Cards' Critical Rate",
+    "detail": "Increase Arts Card Critical Hit Rate",
     "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3215,
+    "buffGroup": 0,
+    "type": 37,
+    "name": "Guts",
+    "detail": "When HP reaches 0, recover HP and survive (stackable with other Guts)",
+    "iconId": 304,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3063
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3216,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "Electrify",
+    "detail": "Chance to inflict Stun to all allies except yourself at the end of the turn",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3017
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3217,
+    "buffGroup": 0,
+    "type": 92,
+    "name": "Special Resist Down",
+    "detail": "Decrease resistance to all attacks ",
+    "iconId": 529,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3218,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "",
+    "detail": "",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6021
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3219,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "ATK Down",
+    "detail": "Decrease ATK",
+    "iconId": 503,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3043
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3220,
+    "buffGroup": 0,
+    "type": 81,
+    "name": "Child of the Red Dragon",
+    "detail": "Increase Max HP",
+    "iconId": 330,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      3014
+    ],
+    "ckSelfIndv": [
+      3014
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3221,
+    "buffGroup": 0,
+    "type": 27,
+    "name": "Child of the Red Dragon",
+    "detail": "Increase Stun chance rate",
+    "iconId": 307,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3222,
+    "buffGroup": 0,
+    "type": 5,
+    "name": "Higekiri Yasutuna",
+    "detail": "Gain NP at the end of each turn",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3223,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "Higekiri Yasutuna",
+    "detail": "Increase NP damage",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3224,
+    "buffGroup": 0,
+    "type": 6,
+    "name": "Child of Lightning",
+    "detail": "Gain C. Stars at the end of each turn",
+    "iconId": 320,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3225,
+    "buffGroup": 0,
+    "type": 3,
+    "name": "Child of Lightning",
+    "detail": "Increase C. Star drop rate",
+    "iconId": 321,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3226,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Attack Statute",
+    "detail": "When summoned, increase ATK & remove any applied statuses upon defeat [Demerit] for all allies",
+    "iconId": 300,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6021,
+      6024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3227,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "ATK Up",
+    "detail": "Increase ATK",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3228,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Kill Statute",
+    "detail": "When summoned, increase Critical Hit Rate & remove any applied statuses upon defeat [Demerit] for all allies",
+    "iconId": 327,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6022,
+      6024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3229,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "Critical Hit Rate Up",
+    "detail": "Increase Critical Hit rate",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3230,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Perish Statute (Ignore DEF)",
+    "detail": "When summoned, apply DEF-Ignore & remove any applied statuses upon defeat [Demerit] for all allies",
+    "iconId": 351,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6023
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3231,
+    "buffGroup": 450,
+    "type": 121,
+    "name": "Ignore DEF",
+    "detail": "Ignore DEF Up and deal damage",
+    "iconId": 351,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6023,
+      6024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3232,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "NP Strength Up",
+    "detail": "Increase NP damage",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3233,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Skull Hell Formation",
+    "detail": "When there are more than 6 [Card Burning], apply [Killing Curse Talisman]",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6021,
+      6024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3234,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Retaliating Curse",
+    "detail": "Whan HP reaches 0, apply NP Seal (1 turn) to Ashiya Douman [Demerit]",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6022,
+      6024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3235,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "Perish Statute (NP Strength Up)",
+    "detail": "When summoned, increase NP Strength & remove any applied statuses upon defeat [Demerit] for all allies",
+    "iconId": 310,
     "maxRate": 5000,
     "effectId": 0
   },
