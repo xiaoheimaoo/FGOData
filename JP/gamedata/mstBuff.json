@@ -69678,6 +69678,429 @@
   },
   {
     "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      303
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      303
+    ],
+    "script": {},
+    "id": 4754,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "善性の排除",
+    "detail": "〔善〕特性に与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -3012
+    },
+    "id": 4755,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "部族の誉れ",
+    "detail": "全ての攻撃に対する耐性を得る＆即死耐性アップ ＜〔魅了〕状態の時、効果が無効になる＞",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      2
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2
+    ],
+    "script": {},
+    "id": 4756,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "愛の狩人",
+    "detail": "〔女性〕に与えるダメージをアップ＆魅了耐性アップ＆〔女性〕を倒したときに自身のチャージがMAXになる",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      2
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2
+    ],
+    "script": {},
+    "id": 4757,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "",
+    "detail": "",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4758,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "遅延発動(弱体)",
+    "detail": "ターン終了時に自身のNPを減らす状態＆ターン終了時に宝具威力ダウンを付与",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4759,
+    "buffGroup": 0,
+    "type": 107,
+    "name": "理不尽な契約",
+    "detail": "クラス相性を〔アサシン〕に変更する（弱体扱い）",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4760,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "死の契約",
+    "detail": "3ターン経過すると……",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3036,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4761,
+    "buffGroup": 0,
+    "type": 16,
+    "name": "宝具威力ダウン",
+    "detail": "宝具で与えるダメージをダウン",
+    "iconId": 508,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4762,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "特性付与〔善〕",
+    "detail": "〔善〕特性を付与する（弱体扱い）",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6039
+    },
+    "id": 4763,
+    "buffGroup": 9999,
+    "type": 62,
+    "name": "枯れた大地",
+    "detail": "フィールドが荒野の時、ターン終了時にNPが減る",
+    "iconId": 519,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      3006
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3006
+    ],
+    "script": {
+      "INDIVIDUALITIE": 6040
+    },
+    "id": 4764,
+    "buffGroup": 9998,
+    "type": 31,
+    "name": "仄暗き水底",
+    "detail": "フィールドが海底の時、攻撃強化を受けなくなる",
+    "iconId": 531,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6041
+    },
+    "id": 4765,
+    "buffGroup": 9997,
+    "type": 8,
+    "name": "火砕弾",
+    "detail": "フィールドが溶岩の時、毎ターン終了時に自身のHPが減少する",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3020
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6042
+    },
+    "id": 4766,
+    "buffGroup": 9996,
+    "type": 34,
+    "name": "天の福音",
+    "detail": "フィールドが天上の時、宝具を使用できなくなる",
+    "iconId": 512,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6039
+    },
+    "id": 4767,
+    "buffGroup": 9995,
+    "type": 9,
+    "name": "戦場の極意・荒野",
+    "detail": "フィールドが荒野の時、攻撃力アップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6040
+    },
+    "id": 4768,
+    "buffGroup": 9994,
+    "type": 24,
+    "name": "戦場の極意・海底",
+    "detail": "フィールドが海底の時、攻撃によるダメージを確率で0にする",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6041
+    },
+    "id": 4769,
+    "buffGroup": 9993,
+    "type": 89,
+    "name": "戦場の極意・溶岩",
+    "detail": "フィールドが溶岩の時、自身の通常攻撃時に敵単体にやけど状態を付与する",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3060
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6042
+    },
+    "id": 4770,
+    "buffGroup": 9992,
+    "type": 7,
+    "name": "戦場の極意・極天",
+    "detail": "フィールドが天上の時、ターン終了時にHPが回復する",
+    "iconId": 318,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030,
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4771,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "宝具威力アップ",
+    "detail": "宝具で与えるダメージをアップ",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -3012
+    },
+    "id": 4772,
+    "buffGroup": 0,
+    "type": 74,
+    "name": "",
+    "detail": "",
+    "iconId": 306,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2,
+      2356
+    ],
+    "script": {},
+    "id": 4773,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3012
+    },
+    "id": 4774,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4775,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "毎ターンチャージプラス",
+    "detail": "毎ターンチャージを2増やす",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004
     ],
     "tvals": [],
