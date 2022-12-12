@@ -12115,9 +12115,7 @@
     "effectId": 0
   },
   {
-    "vals": [
-      3024
-    ],
+    "vals": [],
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
@@ -36738,7 +36736,9 @@
     "effectId": 0
   },
   {
-    "vals": [],
+    "vals": [
+      3067
+    ],
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
@@ -42359,6 +42359,57 @@
   },
   {
     "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3236,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Activate when Attacking (Quick Card Effectiveness Down)",
+    "detail": "Decrease Quick Card effectiveness for a single enemy during your normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3237,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Activate when Attacking (Buster Card Effectiveness Down)",
+    "detail": "Decrease Buster Card effectiveness for a single enemy during your normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3238,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Activate when Attacking (Arts Card Effectiveness Down)",
+    "detail": "Decrease Arts Card effectiveness for a single enemy during your normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3024
     ],
@@ -42538,6 +42589,189 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {},
+    "id": 3251,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "Core of Obstruction",
+    "detail": "Immune to all debuffs",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3252,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Core of Obstruction",
+    "detail": "Increase DEF for yourself at the end of each turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3253,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "Core of Obstruction (On Loan)",
+    "detail": "Decrease damage taken",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {},
+    "id": 3254,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "Core of Obstruction",
+    "detail": "Decrease damage taken, NP generation, and C. Star drop rate upon attacks from Buster Cards",
+    "iconId": 347,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4100
+    ],
+    "script": {},
+    "id": 3255,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Core of Obstruction",
+    "detail": "Gain resistance to Critical attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3256,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "???",
+    "detail": "Gain resistance to all attacks <effect increases when sustaining attacks> & apply Debuff Immune",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3257,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3258,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "",
+    "detail": "",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6022
+    },
+    "id": 3259,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Legendary Defense",
+    "detail": "Gain resistance to all attacks <effect increases when sustaining attacks> & apply Debuff Immune",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3260,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Apply Trait (Foam)",
+    "detail": "Apply [Foam] trait",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004,
       3006,
@@ -42558,6 +42792,286 @@
   },
   {
     "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3262,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Activate on Attack (Inflict Charm)",
+    "detail": "Chance to inflict Charm (1 turn) to a single enemy during normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6021
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3263,
+    "buffGroup": 504,
+    "type": 32,
+    "name": "Charm",
+    "detail": "Become incapacitated [Demerit]",
+    "iconId": 502,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3033
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3264,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "ATK Down",
+    "detail": "Decrease ATK [Demerit]",
+    "iconId": 503,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3265,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "Undivided Glimmer",
+    "detail": "Increase Critical Hit rate",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3266,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Swift Tracking",
+    "detail": "Chance to decrease DEF for a single enemy (3 turns) when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3267,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Stout Blocking",
+    "detail": "Apply Damage Cut to yourself each turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3268,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "Dual In-Fighting",
+    "detail": "Increase ATK",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3269,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "Dual In-Fighting",
+    "detail": "Decrease DEF [Demerit]",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4100
+    ],
+    "script": {},
+    "id": 3270,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Free-Thought Slipping Away",
+    "detail": "Gain resistance to Critical attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3271,
+    "buffGroup": 700,
+    "type": 38,
+    "name": "Enforced Sparring",
+    "detail": "Set Target to yourself",
+    "iconId": 323,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3272,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Yan Qing-ken",
+    "detail": "Increase Quick Card effectiveness",
+    "iconId": 312,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3273,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Bajiquan",
+    "detail": "Increase Arts Card effectiveness",
+    "iconId": 313,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3274,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Transformative Martial Arts",
+    "detail": "Increase Quick Card effectiveness or Arts Card effectiveness or Buster Card effectiveness for yourself each turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3275,
+    "buffGroup": 0,
+    "type": 148,
+    "name": "Strong Arm Straight",
+    "detail": "Increase your Critical Hit Rate before dealing damage with Buster Cards",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3276,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Treacherous Counter",
+    "detail": "Your ATK increases when attacked",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3277,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "Activate when Guts is Triggered (Critical Hit Rate Up)",
+    "detail": "Increase all allies' Critical Hit Rate when Guts is triggered",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3278,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Sparring Carol",
+    "detail": "Increase damage dealt during \"The Glorious Path to Santa Claus - The Sealed Christmas Present\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
     "tvals": [
       5000,
       4001
@@ -42574,6 +43088,338 @@
     "detail": "Decrease damage taken, NP generate, and C. Star drop rate upon damage from Arts Card",
     "iconId": 346,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [
+      5000,
+      4002,
+      2002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [
+      2002
+    ],
+    "script": {},
+    "id": 3280,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "Critical Strength Up [Dragon]",
+    "detail": "Increase damage dealt against [Dragons] through Critical Buster Card attacks",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      2666
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2666
+    ],
+    "script": {},
+    "id": 3281,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Strength Up [Giant]",
+    "detail": "Increase damage dealt against [Giants]",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2746
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3282,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Swarmer",
+    "detail": "Increase ATK & Critical Hit Rate for yourself during your normal attacks",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2746
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3283,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "",
+    "detail": "",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2747
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3284,
+    "buffGroup": 0,
+    "type": 24,
+    "name": "Out-Boxer",
+    "detail": "Chance to reduce ATK damage taken to 0 & increase DEF",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2747
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3285,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "",
+    "detail": "",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3286,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Slugger",
+    "detail": "Chance to increase NP Charge by 1 for yourself when receiving attacks",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3287,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "",
+    "detail": "",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3023
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3288,
+    "buffGroup": 0,
+    "type": 38,
+    "name": "Athlete",
+    "detail": "Increase chance of being targeted by enemies & nullify Card hand lock ",
+    "iconId": 323,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3289,
+    "buffGroup": 0,
+    "type": 34,
+    "name": "Cornerman",
+    "detail": "Unable to use Noble Phantasms",
+    "iconId": 512,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3290,
+    "buffGroup": 0,
+    "type": 140,
+    "name": "",
+    "detail": "",
+    "iconId": 555,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3291,
+    "buffGroup": 0,
+    "type": 34,
+    "name": "Cornerman",
+    "detail": "Unable to use Noble Phantasms & unable to select Command Cards & increase Skill Charge for yourself by 1 each turn",
+    "iconId": 512,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3292,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "",
+    "detail": "",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2748
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3293,
+    "buffGroup": 900,
+    "type": 34,
+    "name": "NP Seal",
+    "detail": "Unable to use Noble Phantasms",
+    "iconId": 512,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3023
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3304,
+    "buffGroup": 0,
+    "type": 38,
+    "name": "Athlete",
+    "detail": "Set Target to yourself",
+    "iconId": 323,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3067
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3305,
+    "buffGroup": 0,
+    "type": 140,
+    "name": "",
+    "detail": "",
+    "iconId": 555,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      3055
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3055
+    ],
+    "script": {},
+    "id": 3306,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "",
+    "detail": "",
+    "iconId": 531,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3307,
+    "buffGroup": 451,
+    "type": 121,
+    "name": "Ignore DEF",
+    "detail": "Ignore DEF Up and deal damage",
+    "iconId": 351,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      3067
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3067
+    ],
+    "script": {},
+    "id": 3309,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "",
+    "detail": "",
+    "iconId": 531,
+    "maxRate": 0,
     "effectId": 0
   },
   {
