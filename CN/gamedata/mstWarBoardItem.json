@@ -290,5 +290,37 @@
     "updatedAt": 0,
     "createdAt": 0,
     "iconId": 351
+  },
+  {
+    "id": 94071401,
+    "name": "ダメージカット",
+    "effectName": "獲得したサーヴァントにダメージを1000カットする状態を付与(1ターン)",
+    "funcId": [
+      274
+    ],
+    "svals": [
+      "[1000,1,-1,1000]"
+    ],
+    "evalValue": 500,
+    "timing": 0,
+    "updatedAt": 0,
+    "createdAt": 0,
+    "iconId": 301
+  },
+  {
+    "id": 94071402,
+    "name": "ＢＢスロット",
+    "effectName": "獲得したサーヴァントに「登場時に、自身の攻撃力・クリティカル威力・宝具威力のいずれかを50%アップ(3ターン)」する状態を付与(1回)",
+    "funcId": [
+      8812
+    ],
+    "svals": [
+      "[1000,-1,1,967956,Value2:1,ShowState:1,ForceAddState:1]"
+    ],
+    "evalValue": 500,
+    "timing": 0,
+    "updatedAt": 0,
+    "createdAt": 0,
+    "iconId": 1000001
   }
 ]
