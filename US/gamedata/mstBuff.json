@@ -43424,6 +43424,80 @@
   },
   {
     "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [
+      3021,
+      3022,
+      3018
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3021,
+      3022,
+      3018
+    ],
+    "script": {
+      "CheckOpponentBuffTypes": "24,26,155"
+    },
+    "id": 3313,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "Critical Up",
+    "detail": "Increase Critical Hit damage against Evade or Invincible",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [
+      4008
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3314,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Flame",
+    "detail": "Increase NP Gauge for yourself during normal attacks",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      2113
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2113
+    ],
+    "script": {},
+    "id": 3316,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Strength Up [King]",
+    "detail": "Increase damage dealt against [Kings]",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004
     ],
     "tvals": [],
