@@ -26814,7 +26814,7 @@
     "id": 1893,
     "buffGroup": 0,
     "type": 105,
-    "name": "Buster Card Resist",
+    "name": "Feather of Solar Prominence",
     "detail": "Increase resistance against Buster attacks for yourself while the Sun Gibier is on the field",
     "iconId": 347,
     "maxRate": 5000,
@@ -30249,7 +30249,7 @@
     "buffGroup": 0,
     "type": 86,
     "name": "Saber Badge",
-    "detail": "Change your class to Saber (removed when receiving DEF Debuff)",
+    "detail": "Change your class to Saber (removed if DEF Debuff state at the start of the enemy turn)",
     "iconId": 520,
     "maxRate": 0,
     "effectId": 0
@@ -30313,7 +30313,7 @@
     "buffGroup": 0,
     "type": 76,
     "name": "Delayed Effect (Regeneration of an Icon)",
-    "detail": "After 3 turns, One resurrects",
+    "detail": "After 3 turns, One is ready for resurrection",
     "iconId": 331,
     "maxRate": 0,
     "effectId": 0
@@ -30328,7 +30328,7 @@
     "buffGroup": 0,
     "type": 76,
     "name": "Delayed Effect (Regeneration of an Icon)",
-    "detail": "After 5 turns, One resurrects",
+    "detail": "After 5 turns, One is ready for resurrection",
     "iconId": 331,
     "maxRate": 0,
     "effectId": 0
@@ -30343,7 +30343,7 @@
     "buffGroup": 0,
     "type": 76,
     "name": "Delayed Effect (Regeneration of a Hero)",
-    "detail": "After 3 turns, Two resurrects",
+    "detail": "After 3 turns, Two is ready for resurrection",
     "iconId": 331,
     "maxRate": 0,
     "effectId": 0
@@ -30358,7 +30358,7 @@
     "buffGroup": 0,
     "type": 76,
     "name": "Delayed Effect (Regeneration of a Hero)",
-    "detail": "After 5 turns, Two resurrects",
+    "detail": "After 5 turns, Two is ready for resurrection",
     "iconId": 331,
     "maxRate": 0,
     "effectId": 0
@@ -30373,7 +30373,7 @@
     "buffGroup": 0,
     "type": 76,
     "name": "Delayed Effect (Regeneration of a Witch)",
-    "detail": "After 3 turns, Three resurrects",
+    "detail": "After 3 turns, Three is ready for resurrection",
     "iconId": 331,
     "maxRate": 0,
     "effectId": 0
@@ -30388,7 +30388,7 @@
     "buffGroup": 0,
     "type": 76,
     "name": "Delayed Effect (Regeneration of a Witch)",
-    "detail": "After 5 turns, Three resurrects",
+    "detail": "After 5 turns, Three is ready for resurrection",
     "iconId": 331,
     "maxRate": 0,
     "effectId": 0
@@ -30479,7 +30479,7 @@
     "script": {},
     "id": 2564,
     "buffGroup": 0,
-    "type": 11,
+    "type": 112,
     "name": "Strength Up (Curse)",
     "detail": "Increase damage to [Cursed] enemies",
     "iconId": 302,
@@ -42486,6 +42486,36 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3243,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Space Hunter",
+    "detail": "Increase damage dealt during \"Revival: SABER WARS 2 - To the Beginning of Space - Lite\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3244,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Strength Up",
+    "detail": "Increase damage dealt during \"Revival: SABER WARS 2 - To the Beginning of Space - Lite\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004,
       3061
@@ -43334,6 +43364,186 @@
   },
   {
     "vals": [
+      2583,
+      2588
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3294,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2585,
+      2588
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3295,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2587,
+      2588
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3296,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2584,
+      2588
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3297,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2586,
+      2588
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3298,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2583,
+      2588
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3299,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2585,
+      2588
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3300,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2587,
+      2588
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3301,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2584,
+      2588
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3302,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2586,
+      2588
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3303,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3023
     ],
     "tvals": [],
@@ -43419,6 +43629,57 @@
     "name": "",
     "detail": "",
     "iconId": 531,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2564
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3310,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "One Prepares Resurrection",
+    "detail": "One resurrects in the next action",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2564
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3311,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Two Prepares Resurrection",
+    "detail": "Two resurrects in the next action",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2564
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3312,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Three Prepares Resurrection",
+    "detail": "Three resurrects in the next action",
+    "iconId": 520,
     "maxRate": 0,
     "effectId": 0
   },
