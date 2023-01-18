@@ -18492,7 +18492,7 @@
     "applyTarget": 3,
     "popupIconId": 507,
     "popupText": "状態付与ダウン：強化",
-    "categoryId": 0
+    "categoryId": 70223
   },
   {
     "vals": [
@@ -19869,12 +19869,12 @@
     "popupTextColor": 3,
     "id": 1127,
     "cond": 0,
-    "funcType": 16,
+    "funcType": 1,
     "targetType": 6,
     "applyTarget": 3,
     "popupIconId": 506,
-    "popupText": "強化成功率ダウン",
-    "categoryId": 70223
+    "popupText": "被強化成功率ダウン",
+    "categoryId": 70224
   },
   {
     "vals": [
@@ -19888,12 +19888,12 @@
     "popupTextColor": 3,
     "id": 1128,
     "cond": 0,
-    "funcType": 16,
+    "funcType": 1,
     "targetType": 6,
     "applyTarget": 3,
     "popupIconId": 506,
-    "popupText": "強化成功率ダウン",
-    "categoryId": 70223
+    "popupText": "被強化成功率ダウン",
+    "categoryId": 70224
   },
   {
     "vals": [
@@ -19907,12 +19907,12 @@
     "popupTextColor": 3,
     "id": 1129,
     "cond": 0,
-    "funcType": 16,
+    "funcType": 1,
     "targetType": 6,
     "applyTarget": 3,
     "popupIconId": 506,
-    "popupText": "強化成功率ダウン",
-    "categoryId": 70223
+    "popupText": "被強化成功率ダウン",
+    "categoryId": 70224
   },
   {
     "vals": [
@@ -174981,6 +174981,164 @@
     "popupIconId": 336,
     "popupText": "オーバーチャージ段階UP",
     "categoryId": 10605
+  },
+  {
+    "vals": [
+      4165
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      328
+    ],
+    "popupTextColor": 1,
+    "id": 20766,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 3,
+    "applyTarget": 3,
+    "popupIconId": 520,
+    "popupText": "善特性付与",
+    "categoryId": 80202
+  },
+  {
+    "vals": [
+      151
+    ],
+    "tvals": [
+      303
+    ],
+    "questTvals": [],
+    "effectList": [
+      334
+    ],
+    "popupTextColor": 2,
+    "id": 20767,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 3,
+    "applyTarget": 3,
+    "popupIconId": 305,
+    "popupText": "回避",
+    "categoryId": 20203
+  },
+  {
+    "vals": [
+      171
+    ],
+    "tvals": [
+      303
+    ],
+    "questTvals": [],
+    "effectList": [
+      335
+    ],
+    "popupTextColor": 2,
+    "id": 20768,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 3,
+    "applyTarget": 3,
+    "popupIconId": 322,
+    "popupText": "弱体無効",
+    "categoryId": 30202
+  },
+  {
+    "vals": [
+      341
+    ],
+    "tvals": [
+      303
+    ],
+    "questTvals": [],
+    "effectList": [
+      328
+    ],
+    "popupTextColor": 2,
+    "id": 20769,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 3,
+    "applyTarget": 3,
+    "popupIconId": 340,
+    "popupText": "即死無効",
+    "categoryId": 30403
+  },
+  {
+    "vals": [],
+    "tvals": [
+      304
+    ],
+    "questTvals": [],
+    "effectList": [
+      345
+    ],
+    "popupTextColor": 1,
+    "id": 20770,
+    "cond": 0,
+    "funcType": 13,
+    "targetType": 6,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "即死",
+    "categoryId": 70401
+  },
+  {
+    "vals": [
+      950
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      333
+    ],
+    "popupTextColor": 2,
+    "id": 20781,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 3,
+    "applyTarget": 3,
+    "popupIconId": 306,
+    "popupText": "被強化成功率アップ",
+    "categoryId": 30204
+  },
+  {
+    "vals": [
+      950
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      334
+    ],
+    "popupTextColor": 2,
+    "id": 20782,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 3,
+    "applyTarget": 3,
+    "popupIconId": 306,
+    "popupText": "被強化成功率アップ",
+    "categoryId": 30204
+  },
+  {
+    "vals": [
+      950
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      335
+    ],
+    "popupTextColor": 2,
+    "id": 20783,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 3,
+    "applyTarget": 3,
+    "popupIconId": 306,
+    "popupText": "被強化成功率アップ",
+    "categoryId": 30204
   },
   {
     "vals": [
