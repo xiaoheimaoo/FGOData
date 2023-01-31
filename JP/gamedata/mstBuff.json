@@ -70420,6 +70420,7 @@
     "vals": [
       3004,
       3016,
+      6035,
       6026
     ],
     "tvals": [],
@@ -74917,7 +74918,7 @@
     "id": 5244,
     "buffGroup": 0,
     "type": 18,
-    "name": "クリティカル威力アップ",
+    "name": "クリティカル威力アップ〔水辺〕",
     "detail": "〔水辺〕のあるフィールドにおいてのみ、クリティカル時のダメージをアップ",
     "iconId": 324,
     "maxRate": 5000,
@@ -75670,6 +75671,280 @@
     "name": "攻撃力アップ〔対プリテンダー〕",
     "detail": "〔プリテンダー〕クラスに対する攻撃力をアップ",
     "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      2067
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082201,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "桶狭間の記憶",
+    "detail": "ターン終了時に自身のクリティカル発生率をアップする",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082202,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "姉川の記憶",
+    "detail": "被ダメージを減らす",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082203,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "長篠の記憶",
+    "detail": "毎ターンチャージを1増やす",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082204,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "天下布武",
+    "detail": "宝具攻撃時、自身の攻撃力をアップする",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082207,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3022
+    },
+    "id": 94082209,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "与呪",
+    "detail": "無敵状態で攻撃を受けた時、敵単体の攻撃力をダウン ＋ 敵全体に呪い状態を付与",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3022
+    },
+    "id": 94082210,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "与呪悔恨",
+    "detail": "無敵状態で攻撃を受けた時、敵単体の防御力をダウン ＋ 敵全体に呪い状態を付与",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3022
+    },
+    "id": 94082211,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "与呪大怨",
+    "detail": "無敵状態で攻撃を受けた時、敵単体にスタン状態を付与 ＋ 敵全体に呪い状態を付与",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3022
+    },
+    "id": 94082212,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "与呪怨嗟",
+    "detail": "無敵状態で攻撃を受けた時、敵単体に呪厄状態を付与 ＋ 敵全体に呪い状態を付与",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082213,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "怨呪の伝播",
+    "detail": "HPが0になった時、敵全体に呪い状態を付与 ＋ 味方単体の攻撃力をアップ",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      3007
+    ],
+    "tvals": [
+      4101
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4101
+    ],
+    "script": {},
+    "id": 94082214,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "先駆け、護りし者の務め",
+    "detail": "自身がフィールドにいる間、味方全体に全体宝具のダメージに対する耐性を付与",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082215,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "冷静な見極め",
+    "detail": "自身の通常攻撃時に敵単体の強化状態を1つ解除",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082216,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "ターン終了時に自身の攻撃力をアップする",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082217,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "先駆け、護りし者の務め",
+    "detail": "自身がフィールドにいる間、味方全体に全体宝具のダメージに対する耐性を付与",
+    "iconId": 334,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082218,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "後方射撃",
+    "detail": "クリティカルの発生率をアップ",
+    "iconId": 327,
     "maxRate": 5000,
     "effectId": 0
   }
