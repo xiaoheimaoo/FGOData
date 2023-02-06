@@ -43872,6 +43872,45 @@
     "ckSelfIndv": [],
     "ckOpIndv": [],
     "script": {},
+    "id": 3325,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Activate on Defeat (DEF Down & Remove Buff)",
+    "detail": "When HP reaches 0, decrease a single enemy's DEF & remove one Buff",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [
+      4008
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3326,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Activate when Attacking (Remove DEF Buff)",
+    "detail": "Remove one DEF Buff for a single enemy during your normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
     "id": 3327,
     "buffGroup": 0,
     "type": 149,

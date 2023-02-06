@@ -14767,7 +14767,9 @@
       94055799,
       94054990,
       94055580,
-      94055581
+      94055581,
+      94055982,
+      94055983
     ],
     "missionId": 10015,
     "missionProgressType": 4,
@@ -14963,7 +14965,9 @@
       94055799,
       94054990,
       94055580,
-      94055581
+      94055581,
+      94055982,
+      94055983
     ],
     "missionId": 10016,
     "missionProgressType": 4,
@@ -15159,7 +15163,9 @@
       94055799,
       94054990,
       94055580,
-      94055581
+      94055581,
+      94055982,
+      94055983
     ],
     "missionId": 10017,
     "missionProgressType": 4,
@@ -15355,7 +15361,9 @@
       94055799,
       94054990,
       94055580,
-      94055581
+      94055581,
+      94055982,
+      94055983
     ],
     "missionId": 10018,
     "missionProgressType": 4,
@@ -15551,7 +15559,9 @@
       94055799,
       94054990,
       94055580,
-      94055581
+      94055581,
+      94055982,
+      94055983
     ],
     "missionId": 10019,
     "missionProgressType": 4,
@@ -15747,7 +15757,9 @@
       94055799,
       94054990,
       94055580,
-      94055581
+      94055581,
+      94055982,
+      94055983
     ],
     "missionId": 10020,
     "missionProgressType": 4,
@@ -15943,7 +15955,9 @@
       94055799,
       94054990,
       94055580,
-      94055581
+      94055581,
+      94055982,
+      94055983
     ],
     "missionId": 10021,
     "missionProgressType": 4,
@@ -16139,7 +16153,9 @@
       94055799,
       94054990,
       94055580,
-      94055581
+      94055581,
+      94055982,
+      94055983
     ],
     "missionId": 10022,
     "missionProgressType": 4,
@@ -26631,7 +26647,9 @@
       94055799,
       94054990,
       94055580,
-      94055581
+      94055581,
+      94055982,
+      94055983
     ],
     "missionId": 10067,
     "missionProgressType": 4,
@@ -26827,7 +26845,9 @@
       94055799,
       94054990,
       94055580,
-      94055581
+      94055581,
+      94055982,
+      94055983
     ],
     "missionId": 10068,
     "missionProgressType": 4,
@@ -27023,7 +27043,9 @@
       94055799,
       94054990,
       94055580,
-      94055581
+      94055581,
+      94055982,
+      94055983
     ],
     "missionId": 10069,
     "missionProgressType": 4,
@@ -27219,7 +27241,9 @@
       94055799,
       94054990,
       94055580,
-      94055581
+      94055581,
+      94055982,
+      94055983
     ],
     "missionId": 10070,
     "missionProgressType": 4,
@@ -27415,7 +27439,9 @@
       94055799,
       94054990,
       94055580,
-      94055581
+      94055581,
+      94055982,
+      94055983
     ],
     "missionId": 10071,
     "missionProgressType": 4,
@@ -27611,7 +27637,9 @@
       94055799,
       94054990,
       94055580,
-      94055581
+      94055581,
+      94055982,
+      94055983
     ],
     "missionId": 10072,
     "missionProgressType": 4,
@@ -76403,6 +76431,86 @@
     "priority": 0,
     "id": 3000015,
     "missionTargetId": 300003,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 3,
+    "conditionMessage": "Complete 3 Quests",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      3000011
+    ],
+    "missionId": 30000019,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 3000031,
+    "missionTargetId": 300007,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 1,
+    "conditionMessage": "Complete 1 Quest",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      30000019
+    ],
+    "missionId": 30000020,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 3000032,
+    "missionTargetId": 300007,
+    "condGroup": 1,
+    "condType": 23,
+    "targetNum": 1,
+    "conditionMessage": "Complete 2 Quests",
+    "closedMessage": "",
+    "flag": 64
+  },
+  {
+    "targetIds": [
+      3000011
+    ],
+    "missionId": 30000020,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 3000033,
+    "missionTargetId": 300007,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 2,
+    "conditionMessage": "Complete 2 Quests",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      30000020
+    ],
+    "missionId": 30000021,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 3000034,
+    "missionTargetId": 300007,
+    "condGroup": 1,
+    "condType": 23,
+    "targetNum": 1,
+    "conditionMessage": "Complete 3 Quests",
+    "closedMessage": "",
+    "flag": 64
+  },
+  {
+    "targetIds": [
+      3000011
+    ],
+    "missionId": 30000021,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 3000035,
+    "missionTargetId": 300007,
     "condGroup": 1,
     "condType": 22,
     "targetNum": 3,
