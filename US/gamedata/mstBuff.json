@@ -25050,7 +25050,10 @@
       3068
     ],
     "ckOpIndv": [],
-    "script": {},
+    "script": {
+      "IncludeIgnoreIndividuality": 1,
+      "TargetIndiv": -3072
+    },
     "id": 1731,
     "buffGroup": 0,
     "type": 139,
@@ -40609,7 +40612,10 @@
     "effectId": 0
   },
   {
-    "vals": [],
+    "vals": [
+      3005,
+      3009
+    ],
     "tvals": [
       4007
     ],
@@ -43865,6 +43871,36 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3323,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Mark of Malice",
+    "detail": "Increase damage dealt during \"Chaldea Bitter Valentine's 2023\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3324,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Sniped Heart",
+    "detail": "Increase damage dealt during \"Chaldea Bitter Valentine's 2023\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004
     ],
@@ -44306,6 +44342,544 @@
     "name": "",
     "detail": "",
     "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3352,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "The Triple Goddess",
+    "detail": "Increase NP damage & apply immunity to Mental Debuffs for all allies when you are on the field",
+    "iconId": 310,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3353,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "The Triple Goddess",
+    "detail": "Increase DEF for all allies when you are on the field",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3354,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "The Triple Goddess",
+    "detail": "Increase Critical Damage for all allies when you are on the field",
+    "iconId": 324,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      2760
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2760
+    ],
+    "script": {},
+    "id": 3355,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "Valentine's Incarnate",
+    "detail": "Increase DEF & immune to Mental Debuffs against enemies in (Selfless Love) state",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4008
+    ],
+    "script": {},
+    "id": 3356,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Smooth God-Like Skin",
+    "detail": "Decrease damage received & immune to Mental Debuffs from normal attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3357,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Strength Up",
+    "detail": "Increase damage dealt",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      2760
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3358,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Selfless Love",
+    "detail": "Apply (Selfless Love) (treated as Debuff)",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      2761
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3359,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Selfless Love (True)",
+    "detail": "Apply (Selfless Love (True)) (treated as Debuff)",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      2762
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3360,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Infinite Love (True)",
+    "detail": "Apply (Infinite Love (True)) (treated as Debuff)",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      2760
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2760
+    ],
+    "script": {},
+    "id": 3361,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "STR Up (Selfless Love)",
+    "detail": "Increase damage dealt to enemies in (Selfless Love) state",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      2761
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2761
+    ],
+    "script": {},
+    "id": 3362,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "STR Up (Selfless Love (True))",
+    "detail": "Increase damage dealt to enemies in (Selfless Love (True)) state",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      2762
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2762
+    ],
+    "script": {},
+    "id": 3363,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "STR Up (Infinite Love (True))",
+    "detail": "Increase damage dealt to enemies in (Infinite Love (True)) state",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3364,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Activate when Attacking (Infinite Love (True))",
+    "detail": "Apply (Infinite Love (True)) to a single enemy when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3365,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Attack Effect (ATK Down)",
+    "detail": "Decrease ATK for a single enemy during normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3367,
+    "buffGroup": 0,
+    "type": 5,
+    "name": "Mana Diversion",
+    "detail": "Gain NP at the end of the turn",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      2067
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3368,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn (ATK Up)",
+    "detail": "Increase your ATK at end of each turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3369,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Orion's Desire",
+    "detail": "When HP reaches 0, increase ally Orion's Critical Hit Rate & Critical Strength",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6021
+    ],
+    "tvals": [
+      2
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2
+    ],
+    "script": {},
+    "id": 3370,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "True Love",
+    "detail": "Increase Special Resistance against (Females)",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "tvals": [
+      1
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      1
+    ],
+    "script": {},
+    "id": 3371,
+    "buffGroup": 410,
+    "type": 24,
+    "name": "Evade (Male)",
+    "detail": "Reduce ATK damage taken from (Males) to 0",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3372,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn (NP Absorb)",
+    "detail": "Absorb NP from all allies excluding yourself at the end of each turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {},
+    "id": 3373,
+    "buffGroup": 0,
+    "type": 30,
+    "name": "Debuff Resist Down",
+    "detail": "Decrease Debuff Resist (treated as Buff)",
+    "iconId": 506,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3374,
+    "buffGroup": 0,
+    "type": 148,
+    "name": "Command Code Bonus Attack Effect",
+    "detail": "An additional effect is granted when attacking with the engraved Command Card.",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3005
+    },
+    "id": 3375,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "ATK Up",
+    "detail": "Increase ATK",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3033
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3376,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "ATK Down",
+    "detail": "Decrease ATK",
+    "iconId": 503,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3049
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3049
+    ],
+    "script": {},
+    "id": 3377,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "Terror Immune",
+    "detail": "Nullify Terror",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6021
+    ],
+    "tvals": [
+      3012
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3012
+    ],
+    "script": {},
+    "id": 3378,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "True Love",
+    "detail": "Nullify Charm",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3379,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn (Charge Absorb)",
+    "detail": "Chance to absorb NP Charge from all allies excluding yourself at the end of each turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3022,
+      3007
+    ],
+    "tvals": [
+      2000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2000
+    ],
+    "script": {},
+    "id": 3380,
+    "buffGroup": 400,
+    "type": 26,
+    "name": "Invincible (Divine)",
+    "detail": "Reduce ATK damage taken from (Divine) to 0",
+    "iconId": 311,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3381,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Activate when Attacking (ATK Up)",
+    "detail": "Increase your ATK when attacking",
+    "iconId": 333,
     "maxRate": 0,
     "effectId": 0
   },
