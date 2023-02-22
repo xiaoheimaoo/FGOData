@@ -77584,6 +77584,29 @@
   },
   {
     "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      3012
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3012
+    ],
+    "script": {},
+    "id": 94080009,
+    "buffGroup": 0,
+    "type": 112,
+    "name": "聖バレンチノ（偽）",
+    "detail": "〔魅了〕状態の敵に与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004
     ],
     "tvals": [],
@@ -77595,6 +77618,40 @@
     "type": 76,
     "name": "遅延発動",
     "detail": "1ターン経過後に自身に毎ターンHP回復状態を付与",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94080011,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時に自身に確率で魅了状態を付与",
+    "iconId": 549,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94080012,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "遅延発動",
+    "detail": "1ターン経過後に自身に無敵貫通状態を付与",
     "iconId": 331,
     "maxRate": 0,
     "effectId": 0
@@ -77619,6 +77676,26 @@
   {
     "vals": [
       3004,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 128
+    },
+    "id": 94080014,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "攻撃相性変更",
+    "detail": "〔ルーラー〕クラスに対して攻撃不利を打ち消す",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
       3060,
       6026
     ],
@@ -77632,6 +77709,25 @@
     "name": "毎ターンHP回復",
     "detail": "ターン終了時にHPが回復する",
     "iconId": 318,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94080016,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時に自身の防御力をアップ",
+    "iconId": 333,
     "maxRate": 0,
     "effectId": 0
   },
@@ -77792,6 +77888,40 @@
     "vals": [
       3004
     ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94080026,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "しっとりビターチョコ",
+    "detail": "HPが0になった時、敵単体のHPを回復する",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94080027,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "食あたりの原因",
+    "detail": "HPが0になった時、敵単体に毒状態を付与",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
     "tvals": [
       5000,
       4003
@@ -77857,6 +77987,43 @@
   {
     "vals": [
       3004,
+      3006,
+      3031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94080031,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "これ以上ない出来",
+    "detail": "クリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3060
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94080032,
+    "buffGroup": 0,
+    "type": 7,
+    "name": "おかわり無制限",
+    "detail": "ターン終了時にHPが回復する",
+    "iconId": 318,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
       3016
     ],
     "tvals": [],
@@ -77869,6 +78036,533 @@
     "name": "仁義を切る",
     "detail": "全ての攻撃に対する耐性を得る",
     "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94080034,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "ハードな食感",
+    "detail": "HPが0になった時、敵単体の防御力をアップ",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94080035,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "生の食感",
+    "detail": "HPが0になった時、敵単体のHPが減少する",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94080036,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "悪性への自覚",
+    "detail": "攻撃を受けると敵単体に確率で〔悪〕特性を付与する（弱体扱い）",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94080037,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "特性付与〔悪〕",
+    "detail": "〔悪〕特性を付与する（弱体扱い）",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6039
+    },
+    "id": 94080038,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "アクマの怠惰",
+    "detail": "テンシがフィールドにいない時、自身にだんだん効果が高くなる攻撃力ダウンと防御力ダウンを付与",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94080039,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6029
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94080040,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94080041,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "善性への目覚め",
+    "detail": "攻撃を受けると敵単体に確率で〔善〕特性を付与する（弱体扱い）",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94080042,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "特性付与〔善〕",
+    "detail": "〔善〕特性を付与する（弱体扱い）",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [
+      303
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      303
+    ],
+    "script": {},
+    "id": 94080043,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "防御力アップ〔善〕",
+    "detail": "〔善〕特性に対する防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94080044,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "特性付与〔混沌〕",
+    "detail": "〔混沌〕特性を付与する（弱体扱い）",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 304
+    },
+    "id": 94080045,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "宝具威力アップ",
+    "detail": "自身が〔悪〕特性の時、宝具で与えるダメージをアップ",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3020
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 303
+    },
+    "id": 94080046,
+    "buffGroup": 900,
+    "type": 34,
+    "name": "宝具封印",
+    "detail": "自身が〔善〕特性の時、宝具を使用できなくなる",
+    "iconId": 512,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94080047,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 304
+    },
+    "id": 94080048,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "攻撃時発動",
+    "detail": "自身が〔悪〕特性の時、通常攻撃時に敵単体に呪い状態を付与する",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 303
+    },
+    "id": 94080049,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "自身が〔善〕特性の時、毎ターン自身に呪い状態を付与する",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 304
+    },
+    "id": 94080050,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "攻撃力アップ",
+    "detail": "自身が〔悪〕特性の時、攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3033
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 303
+    },
+    "id": 94080051,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "攻撃力ダウン",
+    "detail": "自身が〔善〕特性の時、攻撃力をダウン",
+    "iconId": 503,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3060
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 303
+    },
+    "id": 94080052,
+    "buffGroup": 0,
+    "type": 7,
+    "name": "毎ターンHP回復",
+    "detail": "自身が〔善〕特性の時、ターン終了時にHPが回復する",
+    "iconId": 318,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 304
+    },
+    "id": 94080053,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "攻撃時発動",
+    "detail": "自身が〔悪〕特性の時、通常攻撃時に自身の攻撃強化状態を1つ解除する",
+    "iconId": 549,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 303
+    },
+    "id": 94080054,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "クリティカル威力アップ",
+    "detail": "自身が〔善〕特性の時、クリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 304
+    },
+    "id": 94080055,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "自身が〔悪〕特性の時、毎ターン自身に確率で魅了状態を付与する",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {
+      "INDIVIDUALITIE": 303
+    },
+    "id": 94080056,
+    "buffGroup": 0,
+    "type": 29,
+    "name": "弱体耐性アップ",
+    "detail": "自身が〔善〕特性の時、弱体耐性をアップ",
+    "iconId": 306,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 304
+    },
+    "id": 94080057,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "攻撃時発動",
+    "detail": "自身が〔悪〕特性の時、通常攻撃時に自身の防御強化状態を1つ解除する",
+    "iconId": 549,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6039
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94080058,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3033
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94080059,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "サボり",
+    "detail": "だんだん効果が高くなる攻撃力ダウン＆だんだん効果が高くなる防御力ダウン",
+    "iconId": 503,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94080060,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "",
+    "detail": "",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [
+      304
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      304
+    ],
+    "script": {},
+    "id": 94080061,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "防御力アップ〔悪〕",
+    "detail": "〔悪〕特性に対する防御力をアップ",
+    "iconId": 301,
     "maxRate": 5000,
     "effectId": 0
   },
