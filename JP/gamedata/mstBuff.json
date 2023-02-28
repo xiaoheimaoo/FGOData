@@ -80106,5 +80106,884 @@
     "iconId": 327,
     "maxRate": 5000,
     "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083101,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "PWR_UP",
+    "detail": "毎ターン終了時、味方全体の攻撃力をアップ",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083102,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "SPD_UP",
+    "detail": "毎ターン終了時、味方全体のクリティカル発生率をアップ",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083103,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "AIM_ UP",
+    "detail": "毎ターン終了時、味方全体のクリティカル威力をアップ",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083104,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "DEF_UP",
+    "detail": "毎ターン終了時、味方全体の防御力をアップ",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083105,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "INT_UP",
+    "detail": "毎ターン終了時、味方全体に防御無視状態を付与",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083106,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "STAN_TRAP",
+    "detail": "毎ターン終了時、敵全体に確率でスタン状態を付与",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083107,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "CHG_UP",
+    "detail": "毎ターン終了時、味方全体のチャージを1増やす",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083108,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "UN_LUK_UP",
+    "detail": "毎ターン終了時、敵全体のスター発生率をダウン ＋ 味方全体のクリティカル発生率をダウン【デメリット】",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083109,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "FORCED_TRAP",
+    "detail": "毎ターン終了時、敵全体に確率でスキル封印状態を付与",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083110,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "AGI_UP",
+    "detail": "毎ターン終了時、味方全体に回避状態を付与 ＋ 自身に重複可能な回避状態（3回・3ターン）を付与",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083111,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6035
+    },
+    "id": 94083112,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "嘆きの魂",
+    "detail": "HPが0になった時、敵全体の防御力ダウンまたはNP獲得量ダウンまたは呪い状態を付与",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083113,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083114,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 334,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6039
+    },
+    "id": 94083115,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "攻撃力アップ",
+    "detail": "〔海辺のメイヴさま〕がフィールドにいる間、自身の攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6039
+    },
+    "id": 94083116,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "毎ターンチャージプラス",
+    "detail": "〔海辺のメイヴさま〕がフィールドにいる間、毎ターンチャージを1増やす",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      3007
+    ],
+    "tvals": [
+      4101,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007,
+      4101
+    ],
+    "script": {},
+    "id": 94083117,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "",
+    "detail": "自身がフィールドにいる間、〔海辺のメイヴさま〕の宝具攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      3007
+    ],
+    "tvals": [
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4100
+    ],
+    "script": {},
+    "id": 94083118,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "",
+    "detail": "自身がフィールドにいる間、〔海辺のメイヴさま〕のクリティカル攻撃のダメージに対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083119,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "宝具耐性アップ",
+    "detail": "自身がフィールドにいる間、〔海辺のメイヴさま〕の宝具攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083120,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "クリティカル耐性アップ",
+    "detail": "自身がフィールドにいる間、〔海辺のメイヴさま〕のクリティカル攻撃のダメージに対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083121,
+    "buffGroup": 0,
+    "type": 24,
+    "name": "回避",
+    "detail": "攻撃によるダメージを0にする(他の回避状態と重複可能)",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083122,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 334,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083123,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "ＢＢファイアウォール",
+    "detail": "自身に全ての攻撃に対する耐性を付与",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083124,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "通常攻撃時追加効果",
+    "detail": "自身の通常攻撃時に敵単体の強化状態を1つ解除",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083125,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "満たされる魂",
+    "detail": "ターン開始時〔彷徨う亡霊〕を吸収する＆〔彷徨う亡霊〕を2体吸収する毎に自身を強化する",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94083126,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動〔宝具〕",
+    "detail": "宝具攻撃を受けた時、アルトリア・ペンドラゴン〔リリィ〕に変身",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94083127,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動〔宝具〕",
+    "detail": "宝具攻撃を受けた時、クー・フーリン〔プロトタイプ〕に変身",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94083128,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動〔宝具〕",
+    "detail": "宝具攻撃を受けた時、ロビンフッドに変身",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94083129,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動〔宝具〕",
+    "detail": "宝具攻撃を受けた時、ブーディカに変身",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94083130,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動〔宝具〕",
+    "detail": "宝具攻撃を受けた時、ジェロニモに変身",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94083131,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動〔宝具〕",
+    "detail": "宝具攻撃を受けた時、ジキルに変身",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94083132,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動〔宝具〕",
+    "detail": "宝具攻撃を受けた時、謎のヒロインXXに変身",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94083133,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動〔宝具〕",
+    "detail": "宝具攻撃を受けた時、ヘファイスティオンに変身",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94083134,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動〔宝具〕",
+    "detail": "宝具攻撃を受けた時、卑弥呼に変身",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94083135,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動〔宝具〕",
+    "detail": "宝具攻撃を受けた時、アントニオ・サリエリに変身",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94083136,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動〔宝具〕",
+    "detail": "宝具攻撃を受けた時、ＢＢに変身",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94083137,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "脆弱性",
+    "detail": "変身する度に自身の〔ＢＢファイアウォール〕の効果量をダウン",
+    "iconId": 529,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3041
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083138,
+    "buffGroup": 0,
+    "type": 79,
+    "name": "VIT_UP",
+    "detail": "最大HPを比率で増やす",
+    "iconId": 330,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94083139,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動〔宝具〕",
+    "detail": "宝具攻撃を受けた時、ハイドに変身",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [
+      6016
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083140,
+    "buffGroup": 0,
+    "type": 165,
+    "name": "被ダメージ時発動〔宝具〕",
+    "detail": "宝具攻撃を受けた時、ＢＢに変身",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94083141,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動〔宝具〕",
+    "detail": "宝具攻撃を受けた時、重複可能なガッツ状態を付与＆ガッツ発動時、HPを回復する",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083142,
+    "buffGroup": 0,
+    "type": 104,
+    "name": "ガッツ",
+    "detail": "HPが0になった時、HPを回復して耐える(他のガッツ状態と重複可能)",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083143,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083144,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "ガッツ時発動(HP回復)",
+    "detail": "ガッツ発動時、HPを回復する",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083145,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "脆弱性",
+    "detail": "変身する度に自身の〔ＢＢファイアウォール〕の効果量をダウン",
+    "iconId": 529,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083146,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
   }
 ]
