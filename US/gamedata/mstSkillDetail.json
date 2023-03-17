@@ -1825,6 +1825,11 @@
     "detailShort": "Restore HP [{0}] & increase DEF [{0}] (3 turns) for one ally"
   },
   {
+    "id": 160650,
+    "detail": "Restore HP [{0}] & increase DEF [{0}] (3 turns) & apply Special Attack against enemies with the [Heaven Attribute] [{0}] (3 turns) [g][o]▲[/o][/g] for one ally",
+    "detailShort": "Restore HP [{0}] & increase DEF [{0}] (3 turns) & apply Special Attack against enemies with the [Heaven Attribute] [{0}] (3 turns) [g][o]▲[/o][/g] for one ally"
+  },
+  {
     "id": 161150,
     "detail": "Slightly increase Critical Strength & increase Death Resist & Mental Debuff Resist for yourself",
     "detailShort": "Slightly increase Critical Strength & increase Death Resist & Mental Debuff Resist for yourself"
@@ -5321,8 +5326,8 @@
   },
   {
     "id": 804650,
-    "detail": "Increase ATK [{0}] (3 turns) & increase C. Star Gather Rate [{0}] (3 turns) for a single ally + Apply a state that \"removes 1 Curse when attacking with Quick Card & slightly increase ATK (3 turns) for yourself when removal is succesful\" for yourself + Absorb Curse from all enemies and allies excluding yourself [Demerit]",
-    "detailShort": "Increase ATK [{0}] (3 turns) & increase C. Star Gather Rate [{0}] (3 turns) for a single ally + Apply a state that \"removes 1 Curse when attacking with Quick Card & slightly increase ATK (3 turns) for yourself when removal is succesful\" for yourself + Absorb Curse from all enemies and allies excluding yourself [Demerit]"
+    "detail": "Increase ATK [{0}] (3 turns) & increase C. Star Gather Rate [{0}] (3 turns) for a single ally + Apply a state that \"removes 1 Curse when attacking with Quick Card & slightly increase ATK (3 turns) for yourself when removal is succesful\" (3 turns) for yourself + Absorb Curse from all enemies and allies excluding yourself [Demerit]",
+    "detailShort": "Increase ATK [{0}] (3 turns) & increase C. Star Gather Rate [{0}] (3 turns) for a single ally + Apply a state that \"removes 1 Curse when attacking with Quick Card & slightly increase ATK (3 turns) for yourself when removal is succesful\" (3 turns) for yourself + Absorb Curse from all enemies and allies excluding yourself [Demerit]"
   },
   {
     "id": 805450,
@@ -5573,6 +5578,21 @@
     "id": 853451,
     "detail": "Apply Special Attack [King] [{0}] (3 turns) [g][o]▲[/o][/g] & apply the state \"Decrease DEF (3 turns) for a single enemy when attacking with a Quick Card\" (5 times, 3 turns) [g][o]▲[/o][/g] & increase C. Star Drop Rate [g][o]▲[/o][/g] [{0}] (3 turns) for yourself",
     "detailShort": "Apply Special Attack [King] [{0}] (3 turns) [g][o]▲[/o][/g] & apply the state \"Decrease DEF (3 turns) for a single enemy when attacking with a Quick Card\" (5 times, 3 turns) [g][o]▲[/o][/g] & increase C. Star Drop Rate [g][o]▲[/o][/g] [{0}] (3 turns) for yourself"
+  },
+  {
+    "id": 854650,
+    "detail": "Increase Arts Card effectiveness [{0}] (3 turns) & Buster Card effectiveness [{0}] (3 turns) & Buff Removal Resist [{0}] (1 time, 3 turns) & increase NP Gauge for yourself",
+    "detailShort": "Increase Arts Card effectiveness [{0}] (3 turns) & Buster Card effectiveness [{0}] (3 turns) & Buff Removal Resist [{0}] (1 time, 3 turns) & increase NP Gauge for yourself"
+  },
+  {
+    "id": 855550,
+    "detail": "Apply Guts (1 time, 3 turns, stackable with other Guts) [{0}] & greatly increase DEF [{0}] (2 times, 3 turns) for yourself",
+    "detailShort": "Apply Guts (1 time, 3 turns, stackable with other Guts) [{0}] & greatly increase DEF [{0}] (2 times, 3 turns) for yourself"
+  },
+  {
+    "id": 856650,
+    "detail": "Apply \"Restore HP [{0}] & remove Debuffs each turn for all allies\" (3 turns) for yourself",
+    "detailShort": "Apply \"Restore HP [{0}] & remove Debuffs each turn for all allies\" (3 turns) for yourself"
   },
   {
     "id": 940001,
@@ -6543,6 +6563,11 @@
     "id": 940199,
     "detail": "Increase ATK Strength by 30% for yourself in \"Holy Grail Phantom Thief Amakusa Shirou and the Slapstick Museum\" [Event Only]",
     "detailShort": "Increase ATK Strength by 30% for yourself in \"Holy Grail Phantom Thief Amakusa Shirou and the Slapstick Museum\" [Event Only]"
+  },
+  {
+    "id": 940200,
+    "detail": "Increase ATK Strength by 100% in \"Akihabara Explosion!\" & increase Bond gained when completing quests by 50% & increase recovery speed of \"Exhaustion\" by 200% for yourself [Event Only]",
+    "detailShort": "Increase ATK Strength by 100% in \"Akihabara Explosion!\" & increase Bond gained when completing quests by 50% & increase recovery speed of \"Exhaustion\" by 200% for yourself [Event Only]"
   },
   {
     "id": 960502,
@@ -19600,6 +19625,86 @@
     "detailShort": "Remove one DEF Debuff for yourself & recover 200 HP for yourself when attacking with the engraved Card"
   },
   {
+    "id": 992611,
+    "detail": "Apply Ignore DEF & increase Arts Card effectiveness by 8% & Buster Card effectiveness by 8% for yourself",
+    "detailShort": "Apply Ignore DEF & increase Arts Card effectiveness by 8% & Buster Card effectiveness by 8% for yourself"
+  },
+  {
+    "id": 992612,
+    "detail": "Apply Ignore DEF & increase Arts Card effectiveness by 10% & Buster Card effectiveness by 10% for yourself [MAX]",
+    "detailShort": "Apply Ignore DEF & increase Arts Card effectiveness by 10% & Buster Card effectiveness by 10% for yourself [MAX]"
+  },
+  {
+    "id": 992613,
+    "detail": "Increase ATK Strength by 50% in \"Akihabara Explosion!\" for yourself only when equipped on Servants ★5(SSR) or under [Event Only]",
+    "detailShort": "Increase ATK Strength by 50% in \"Akihabara Explosion!\" for yourself only when equipped on Servants ★5(SSR) or under [Event Only]"
+  },
+  {
+    "id": 992614,
+    "detail": "Increase ATK Strength by 100% in \"Akihabara Explosion!\" for yourself only when equipped on Servants ★5 (SSR) or under [MAX] [Event Only]",
+    "detailShort": "Increase ATK Strength by 100% in \"Akihabara Explosion!\" for yourself only when equipped on Servants ★5 (SSR) or under [MAX] [Event Only]"
+  },
+  {
+    "id": 992615,
+    "detail": "Increase NP Gauge by 3% each turn & Buster Card effectiveness by 3% & NP Strength by 10% for yourself",
+    "detailShort": "Increase NP Gauge by 3% each turn & Buster Card effectiveness by 3% & NP Strength by 10% for yourself"
+  },
+  {
+    "id": 992616,
+    "detail": "Increase NP Gauge by 4% each turn & Buster Card effectiveness by 5% & NP Strength by 15% for yourself [MAX]",
+    "detailShort": "Increase NP Gauge by 4% each turn & Buster Card effectiveness by 5% & NP Strength by 15% for yourself [MAX]"
+  },
+  {
+    "id": 992617,
+    "detail": "Increase ATK Strength by 40% in \"Akihabara Explosion!\" for yourself only when equipped on Servants ★4 (SR) or under [Event Only]",
+    "detailShort": "Increase ATK Strength by 40% in \"Akihabara Explosion!\" for yourself only when equipped on Servants ★4 (SR) or under [Event Only]"
+  },
+  {
+    "id": 992618,
+    "detail": "Increase ATK Strength by 80% in \"Akihabara Explosion!\" for yourself only when equipped on Servants ★4 (SR) or under [MAX] [Event Only]",
+    "detailShort": "Increase ATK Strength by 80% in \"Akihabara Explosion!\" for yourself only when equipped on Servants ★4 (SR) or under [MAX] [Event Only]"
+  },
+  {
+    "id": 992619,
+    "detail": "Increase Buster Card effectiveness by 3% & begin battle with NP charged at 10% for yourself",
+    "detailShort": "Increase Buster Card effectiveness by 3% & begin battle with NP charged at 10% for yourself"
+  },
+  {
+    "id": 992620,
+    "detail": "Increase Buster Card effectiveness by 5% & begin battle with NP charged at 20% for yourself [MAX]",
+    "detailShort": "Increase Buster Card effectiveness by 5% & begin battle with NP charged at 20% for yourself [MAX]"
+  },
+  {
+    "id": 992621,
+    "detail": "Increase ATK Strength by 30% in \"Akihabara Explosion!\" for yourself only when equipped on Servants ★3 (R) or under or Mash [Event Only]",
+    "detailShort": "Increase ATK Strength by 30% in \"Akihabara Explosion!\" for yourself only when equipped on Servants ★3 (R) or under or Mash [Event Only]"
+  },
+  {
+    "id": 992622,
+    "detail": "Increase ATK Strength by 60% in \"Akihabara Explosion!\" for yourself only when equipped on Servants ★3 (R) or under or Mash [MAX] [Event Only]",
+    "detailShort": "Increase ATK Strength by 60% in \"Akihabara Explosion!\" for yourself only when equipped on Servants ★3 (R) or under or Mash [MAX] [Event Only]"
+  },
+  {
+    "id": 992623,
+    "detail": "Increase Buster Card effectiveness by 10% & Critical Strength by 10% for yourself + Gain 15 C. Stars when entering the battle (1 time)",
+    "detailShort": "Increase Buster Card effectiveness by 10% & Critical Strength by 10% for yourself + Gain 15 C. Stars when entering the battle (1 time)"
+  },
+  {
+    "id": 992624,
+    "detail": "Increase Buster Card effectiveness by 15% & Critical Strength by 15% for yourself + Gain 20 C. Stars when entering the battle (1 time) [MAX]",
+    "detailShort": "Increase Buster Card effectiveness by 15% & Critical Strength by 15% for yourself + Gain 20 C. Stars when entering the battle (1 time) [MAX]"
+  },
+  {
+    "id": 992626,
+    "detail": "Increase Bond gained when completing quests in \"Akihabara Explosion!\" by 100% for yourself (No effect when Support) [Event Only]",
+    "detailShort": "Increase Bond gained when completing quests in \"Akihabara Explosion!\" by 100% for yourself (No effect when Support) [Event Only]"
+  },
+  {
+    "id": 992627,
+    "detail": "Increase Bond gained when completing quests in \"Akihabara Explosion!\" by 200% for yourself (No effect when Support) [MAX] [Event Only]",
+    "detailShort": "Increase Bond gained when completing quests in \"Akihabara Explosion!\" by 200% for yourself (No effect when Support) [MAX] [Event Only]"
+  },
+  {
     "id": 992628,
     "detail": "Gain +5 Friend Points when used as Support (Stackable) & increase Mystic Code EXP gained when completing a quest by 1%",
     "detailShort": "Gain +5 Friend Points when used as Support (Stackable) & increase Mystic Code EXP gained when completing a quest by 1%"
@@ -19608,6 +19713,21 @@
     "id": 992629,
     "detail": "Gain +25 Friend Points when used as Support (Stackable) & increase Mystic Code EXP gained when completing a quest by 5% [MAX]",
     "detailShort": "Gain +25 Friend Points when used as Support (Stackable) & increase Mystic Code EXP gained when completing a quest by 5% [MAX]"
+  },
+  {
+    "id": 992652,
+    "detail": "Increase Bond gained when completing quests in \"Akihabara Explosion!\" by 20% for all allies <including sub-members> only when Mash Kyrielight (Shielder) is equipped with this Craft Essence (No effect when equipped as Support) [Event Only]",
+    "detailShort": "Increase Bond gained when completing quests in \"Akihabara Explosion!\" by 20% for all allies <including sub-members> only when Mash Kyrielight (Shielder) is equipped with this Craft Essence (No effect when equipped as Support) [Event Only]"
+  },
+  {
+    "id": 992653,
+    "detail": "Increase Bond gained when completing quests in \"Akihabara Explosion!\" by 40% for all allies <including sub-members> only when Mash Kyrielight (Shielder) is equipped with this Craft Essence (No effect when equipped as Support) [MAX] [Event Only]",
+    "detailShort": "Increase Bond gained when completing quests in \"Akihabara Explosion!\" by 40% for all allies <including sub-members> only when Mash Kyrielight (Shielder) is equipped with this Craft Essence (No effect when equipped as Support) [MAX] [Event Only]"
+  },
+  {
+    "id": 992654,
+    "detail": "Apply Guts (1 time, restore 20% HP) for yourself & increase NP Gauge by 20% (1 time) for all allies when Guts is activated only when [servantName 703900] (Berserker) is equipped with this Craft Essence",
+    "detailShort": "Apply Guts (1 time, restore 20% HP) for yourself & increase NP Gauge by 20% (1 time) for all allies when Guts is activated only when [servantName 703900] (Berserker) is equipped with this Craft Essence"
   },
   {
     "id": 992699,
