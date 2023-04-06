@@ -36341,7 +36341,7 @@
     "id": 2888,
     "buffGroup": 0,
     "type": 151,
-    "name": "Increase incoming Critical Resistance",
+    "name": "Critical Resistance Up",
     "detail": "Decrease chance of sustaining Critical ATK",
     "iconId": 363,
     "maxRate": 5000,
@@ -36358,7 +36358,7 @@
     "id": 2889,
     "buffGroup": 0,
     "type": 153,
-    "name": "Resistance Up when C. Star Drops",
+    "name": "C. Star Generation Resistance Up",
     "detail": "Decrease chance of C. Stars dropping",
     "iconId": 364,
     "maxRate": 5000,
@@ -47026,6 +47026,28 @@
     "detail": "When HP reaches 0, recover HP and survive",
     "iconId": 304,
     "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3507,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect with Quick Attacks (Quick Resist Down)",
+    "detail": "Reduce target enemy's Quick Card Resistance when attacking with Quick Cards",
+    "iconId": 528,
+    "maxRate": 0,
     "effectId": 0
   },
   {
