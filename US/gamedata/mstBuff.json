@@ -47029,6 +47029,66 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3504,
+    "buffGroup": 0,
+    "type": 135,
+    "name": "Quick ATK Strength Up",
+    "detail": "Increase Quick ATK Strength",
+    "iconId": 356,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3505,
+    "buffGroup": 0,
+    "type": 135,
+    "name": "Arts ATK Strength Up",
+    "detail": "Increase Arts ATK Strength",
+    "iconId": 357,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3506,
+    "buffGroup": 0,
+    "type": 135,
+    "name": "Buster ATK Strength Up",
+    "detail": "Increase Buster ATK Strength",
+    "iconId": 358,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004
     ],
@@ -47047,6 +47107,1178 @@
     "name": "Bonus Effect with Quick Attacks (Quick Resist Down)",
     "detail": "Reduce target enemy's Quick Card Resistance when attacking with Quick Cards",
     "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3508,
+    "buffGroup": 0,
+    "type": 95,
+    "name": "Goes Into Effect Upon Entering",
+    "detail": "Effect activates upon entering the field",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      2773
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "CardEffectId": 2001004
+    },
+    "id": 3509,
+    "buffGroup": 0,
+    "type": 159,
+    "name": "Card Burning",
+    "detail": "Burn 1 Command Card and decrease your HP when attacking with the burned card",
+    "iconId": 549,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      3011
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3011
+    ],
+    "script": {},
+    "id": 3510,
+    "buffGroup": 0,
+    "type": 112,
+    "name": "Strength Up (Poison)",
+    "detail": "Increase damage dealt to [Poisoned] enemies",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      3066
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3066
+    ],
+    "script": {},
+    "id": 3511,
+    "buffGroup": 0,
+    "type": 112,
+    "name": "Strength Up (Sleep)",
+    "detail": "Increase damage dealt to [Sleeping] enemies",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3512,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Activate when Attacking (Inflict Sleep)",
+    "detail": "Low chance to inflict Sleep to a single enemy when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3513,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn (Inflict Debuff)",
+    "detail": "Inflict random Debuffs to all enemies at the end of each turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      6026
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      6026
+    ],
+    "script": {},
+    "id": 3514,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "DEF Up (Debuff)",
+    "detail": "Increase DEF against Debuffed enemies",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3515,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Activate when Attacking (Remove Buff)",
+    "detail": "Remove one Buff from a single enemy when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3516,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn (Buff)",
+    "detail": "Apply random effect on yourself at the end of each turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 3517,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "NP Resist Up",
+    "detail": "Gain resistance to NP Damage",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3518,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Downer Death Voice",
+    "detail": "Decrease ATK for all enemies when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3519,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Cursed Bass Riff",
+    "detail": "Decrease DEF for a single enemy when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3520,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Grudge Blast Beat",
+    "detail": "Decrease C. Star drop rate for a single enemy when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3521,
+    "buffGroup": 0,
+    "type": 95,
+    "name": "\"Offer everyone the protection of Mahatma...!\"",
+    "detail": "Recover HP & increase Maximum HP for all allies excluding yourself upon entering the field",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3522,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Activate when Attacking (Spreading Fire)",
+    "detail": "Inflict Spreading Fire to a single enemy when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3523,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Active SHOW-nen",
+    "detail": "Increase ATK for all allies at the end of each turn + Decrease damage taken ",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3524,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Cool SHOW-nen",
+    "detail": "Increase Quick Card effectiveness for all allies at the end of each turn + Increase Quick Attack Resistance",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3525,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Pure SHOW-nen",
+    "detail": "Increase Critical Hit Rate for all allies at the end of each turn + Gain resistance to Critical attacks",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3526,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Mysterious SHOW-nen",
+    "detail": "Inflict random Debuffs to all enemies at the end of each turn + Low chance to reduce damage taken to 0",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      6026
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      6026
+    ],
+    "script": {},
+    "id": 3527,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "",
+    "detail": "",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4100
+    ],
+    "script": {},
+    "id": 3528,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Critical Resistance Up",
+    "detail": "Gain resistance to Critical attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3529,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate when Damaged (Burn)",
+    "detail": "Apply a state where you inflict Burn to a single enemy when attacked",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3530,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Activate when Attacking with Buster (Remove Buff)",
+    "detail": "Remove Buff from a single enemy when attacking with your Buster Card & inflict Burn if removal is successful",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3531,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn (HP Recovery)",
+    "detail": "Recover HP for all allies at the end of each turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      6026
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      6026
+    ],
+    "script": {},
+    "id": 3532,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "",
+    "detail": "",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3533,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect with ATK (ATK Down)",
+    "detail": "Decrease ATK for a single enemy when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3534,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect with ATK (Nullify Buff)",
+    "detail": "Inflict Nullify Buff to a single enemy during your attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3535,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Activate when Attacking with Buster (Critical Rate Up)",
+    "detail": "Increase Critical Hit Rate for yourself during normal attacks with your Buster Card",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3069
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3536,
+    "buffGroup": 0,
+    "type": 2,
+    "name": "C. Star Gather Up",
+    "detail": "Increase C. Star gather rate",
+    "iconId": 325,
+    "maxRate": 500000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3069
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3537,
+    "buffGroup": 0,
+    "type": 95,
+    "name": "C. Star Gain Upon Entry",
+    "detail": "Gain C. Stars upon entering the field",
+    "iconId": 325,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3538,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "DEF Up",
+    "detail": "Increase DEF for all allies when you are on the field",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2774
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3539,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Quick Up",
+    "detail": "Increase Quick Card effectiveness",
+    "iconId": 312,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2775
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 3540,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Buster Up",
+    "detail": "Increase Buster Card effectiveness",
+    "iconId": 314,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3541,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "???",
+    "detail": "Decrease HP for yourself at the end of each turn",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2779
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3542,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Activate when Attacking with Arts (NP Gain)",
+    "detail": "Increase NP Gauge for yourself during normal attacks with your Arts Card",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3543,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Activate when Attacking with Arts (Increase Charge)",
+    "detail": "Increase NP Charge by 1 for yourself during normal attacks with your Arts Card",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3544,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "\"Pour plenty for my cup of parting.\"",
+    "detail": "",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3545,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "\"This is love. Don't forget.\"",
+    "detail": "",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3546,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "\"Bloom gloriously, my lovely roses!\"",
+    "detail": "",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3547,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect when Attacking (Inflict Charm)",
+    "detail": "Low chance to inflict Charm to a single enemy during normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2776
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3548,
+    "buffGroup": 0,
+    "type": 104,
+    "name": "Eternal Cycle",
+    "detail": "When HP reaches 0, recover HP and survive (removed when Cycle of Suffering, Eternal Returning Oni is defeated) & decrease Special Resist for Cycle of Suffering, Eternal Returning Oni when Guts is triggered [Demerit]",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2777
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3549,
+    "buffGroup": 0,
+    "type": 34,
+    "name": "NP Seal",
+    "detail": "Unable to use Noble Phantasms",
+    "iconId": 512,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3550,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Eternal Returning Oni",
+    "detail": "Gain resistance to all attacks & immunity to all debuffs",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2784
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3552,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Together We Reach High!",
+    "detail": "Increase NP Gauge for all enemies & increase NP Charge by 1 for all allies when Gauge gets broken ",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3553,
+    "buffGroup": 0,
+    "type": 95,
+    "name": "Together We Reach High!",
+    "detail": "Increase NP Gauge for all enemies & increase NP Charge by 1 for all allies when Gauge gets broken ",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2778
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3554,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "Critical Up",
+    "detail": "Increase Critical Hit damage",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3555,
+    "buffGroup": 0,
+    "type": 95,
+    "name": "\"I dedicate this to my love...\"",
+    "detail": "Set NP Charge to maximum for yourself upon entering the field",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      2781
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2781
+    ],
+    "script": {},
+    "id": 3556,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "STR Up (Machine)",
+    "detail": "Increase damage dealt against [Machines]",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3557,
+    "buffGroup": 0,
+    "type": 84,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3558,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "Summer's Shimmer",
+    "detail": "Decrease damage taken",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3559,
+    "buffGroup": 600,
+    "type": 37,
+    "name": "Passing Summer",
+    "detail": "When HP reaches 0, recover HP and survive",
+    "iconId": 304,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      303
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      303
+    ],
+    "script": {},
+    "id": 3560,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "STR Up (Good)",
+    "detail": "Increase damage dealt against [Good]",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3069
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3561,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "Critical Up",
+    "detail": "Increase Critical Hit damage",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 3562,
+    "buffGroup": 0,
+    "type": 3,
+    "name": "C. Star Drop Rate Up: Arts",
+    "detail": "Increase C. Star Drop Rate during Arts attack",
+    "iconId": 321,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3563,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Activate when Attacking with Arts",
+    "detail": "Inflict Poison state to target when attacking with Arts Cards",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3564,
+    "buffGroup": 200,
+    "type": 24,
+    "name": "Chance to Evade",
+    "detail": "Low chance to reduce damage taken to 0",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3069
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3566,
+    "buffGroup": 0,
+    "type": 6,
+    "name": "C. Star Gain Per Turn",
+    "detail": "Gain C. Stars at end of each turn",
+    "iconId": 320,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3005
+    },
+    "id": 3567,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2782
+    },
+    "id": 3568,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      2782
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      3015
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3569,
+    "buffGroup": 0,
+    "type": 126,
+    "name": "Spreading Fire",
+    "detail": "Increase Burn effectiveness",
+    "iconId": 546,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2776
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3570,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "",
+    "detail": "",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3571,
+    "buffGroup": 0,
+    "type": 92,
+    "name": "Special Resist Down",
+    "detail": "Decrease resistance to all attacks ",
+    "iconId": 529,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2783
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3572,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Special Resist Up",
+    "detail": "Gain resistance to all attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3573,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2784
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3574,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Valkyrie Chorus",
+    "detail": "Decrease damage taken, other than from [Loved Ones], for all allies when you are on the field + Increase DEF for Songstress Brynhild when you are on the field",
+    "iconId": 334,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3575,
+    "buffGroup": 0,
+    "type": 13,
+    "name": "Spotlight",
+    "detail": "Increase damage dealt & decrease damage taken",
+    "iconId": 302,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3576,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "DEF Up (Spreading Fire)",
+    "detail": "Increase DEF for all allies against enemies in [Spreading Fire] state when you are on the field",
+    "iconId": 301,
     "maxRate": 0,
     "effectId": 0
   },

@@ -2036,8 +2036,8 @@
   },
   {
     "id": 181550,
-    "detail": "Apply Debuff Immune (3 turns) & restore HP per turn [{0}] (3 turns) & increase NP Gauge per turn (3 turns) for yourself",
-    "detailShort": "Apply Debuff Immune (3 turns) & restore HP per turn [{0}] (3 turns) & increase NP Gauge per turn (3 turns) for yourself"
+    "detail": "Apply Debuff Immune (3 turns) & restore HP each turn [{0}] (3 turns) & increase NP Gauge each turn (3 turns) for yourself",
+    "detailShort": "Apply Debuff Immune (3 turns) & restore HP each turn [{0}] (3 turns) & increase NP Gauge each turn (3 turns) for yourself"
   },
   {
     "id": 182350,
@@ -2853,6 +2853,11 @@
     "id": 330350,
     "detail": "Decrease C. Star Gather Rate (1 turn) for one ally + increase ATK [{0}] (3 turns) for all allies",
     "detailShort": "Decrease C. Star Gather Rate (1 turn) for one ally + increase ATK [{0}] (3 turns) for all allies"
+  },
+  {
+    "id": 331450,
+    "detail": "Increase your Debuff Resist",
+    "detailShort": "Increase your Debuff Resist"
   },
   {
     "id": 331550,
@@ -5625,9 +5630,64 @@
     "detailShort": "Increase Buster Card effectiveness [{0}] (3 times, 3 turns [g][o]▲[/o][/g]) & increase NP Gauge [g][o]▲[/o][/g] for yourself"
   },
   {
+    "id": 860450,
+    "detail": "Increase Quick Card effectiveness [{0}] (3 times, 3 turns) & Buster Card effectiveness [{0}] (3 times, 3 turns) & apply Evade (1 time, 3 turns) for yourself",
+    "detailShort": "Increase Quick Card effectiveness [{0}] (3 times, 3 turns) & Buster Card effectiveness [{0}] (3 times, 3 turns) & apply Evade (1 time, 3 turns) for yourself"
+  },
+  {
+    "id": 861350,
+    "detail": "Increase Critical Strength [{0}] (1 turn) & apply Special Attack [Machine] [{0}] (3 turns) for yourself",
+    "detailShort": "Increase Critical Strength [{0}] (1 turn) & apply Special Attack [Machine] [{0}] (3 turns) for yourself"
+  },
+  {
+    "id": 862350,
+    "detail": "Increase ATK [{0}] (3 turns) & restore HP [{0}] for all allies",
+    "detailShort": "Increase ATK [{0}] (3 turns) & restore HP [{0}] for all allies"
+  },
+  {
+    "id": 863650,
+    "detail": "Apply Invincible (1 turn) & increase C. Star Drop Rate [{0}] (3 turns) for all allies excluding yourself + Gain C. Stars [{0}] according to the number of allies [who possess Spiritron Dresses] excluding yourself",
+    "detailShort": "Apply Invincible (1 turn) & increase C. Star Drop Rate [{0}] (3 turns) for all allies excluding yourself + Gain C. Stars [{0}] according to the number of allies [who possess Spiritron Dresses] excluding yourself"
+  },
+  {
+    "id": 864450,
+    "detail": "Significantly increase NP Gauge [{0}] & decrease HP by 2000 [Demerit] for yourself + Apply Target Focus (3 turns) for all allies excluding yourself",
+    "detailShort": "Significantly increase NP Gauge [{0}] & decrease HP by 2000 [Demerit] for yourself + Apply Target Focus (3 turns) for all allies excluding yourself"
+  },
+  {
+    "id": 865550,
+    "detail": "Increase C. Star Gather Rate [{0}] (3 turns) & increase Critical Strength [{0}] (3 turns) & apply Death Immune (3 turns) for a single ally + Decrease HP by 1000 [Demerit] for yourself",
+    "detailShort": "Increase C. Star Gather Rate [{0}] (3 turns) & increase Critical Strength [{0}] (3 turns) & apply Death Immune (3 turns) for a single ally + Decrease HP by 1000 [Demerit] for yourself"
+  },
+  {
     "id": 866550,
     "detail": "Greatly decrease NP Strength [{0}] (1 turn) & decrease DEF [{0}] (1 turn) [g][o]▲[/o][/g] & decrease DEF [{0}] (3 turns) [g][o]▲[/o][/g] for a single enemy [g][o]▲[/o][/g]",
     "detailShort": "Greatly decrease NP Strength [{0}] (1 turn) & decrease DEF [{0}] (1 turn) [g][o]▲[/o][/g] & decrease DEF [{0}] (3 turns) [g][o]▲[/o][/g] for a single enemy [g][o]▲[/o][/g]"
+  },
+  {
+    "id": 867551,
+    "detail": "Apply Debuff Immune (3 turns) & restore HP each turn [{0}] (3 turns) & increase NP Gauge each turn (3 turns) for yourself + Increase NP Gauge for all [Male] or [Fae] allies [{0}] [g][o]▲[/o][/g]",
+    "detailShort": "Apply Debuff Immune (3 turns) & restore HP each turn [{0}] (3 turns) & increase NP Gauge each turn (3 turns) for yourself + Increase NP Gauge for all [Male] or [Fae] allies [{0}] [g][o]▲[/o][/g]"
+  },
+  {
+    "id": 868551,
+    "detail": "Increase Death Success Rate [{0}] (3 turns) & increase Arts Card effectiveness [{0}] (3 turns) [g][o]▲[/o][/g] for yourself + Restore all allies' [g][o]▲[/o][/g] HP [{0}]",
+    "detailShort": "Increase Death Success Rate [{0}] (3 turns) & increase Arts Card effectiveness [{0}] (3 turns) [g][o]▲[/o][/g] for yourself + Restore all allies' [g][o]▲[/o][/g] HP [{0}]"
+  },
+  {
+    "id": 869550,
+    "detail": "Increase Death Success Rate [{0}] (3 turns) & Debuff Success Rate [{0}] (3 turns) & Arts Card effectiveness [{0}] (3 turns) [g][o]▲[/o][/g] & apply \"inflict Poison (5 turns) to a single enemy when attacking with Arts Card\" (3 turns) [g][o]▲[/o][/g] for yourself",
+    "detailShort": "Increase Death Success Rate [{0}] (3 turns) & Debuff Success Rate [{0}] (3 turns) & Arts Card effectiveness [{0}] (3 turns) [g][o]▲[/o][/g] & apply \"inflict Poison (5 turns) to a single enemy when attacking with Arts Card\" (3 turns) [g][o]▲[/o][/g] for yourself"
+  },
+  {
+    "id": 870351,
+    "detail": "Slightly increase Arts Card effectiveness & increase C. Star Drop Rate when attacking with Arts Card for yourself",
+    "detailShort": "Slightly increase Arts Card effectiveness & increase C. Star Drop Rate when attacking with Arts Card for yourself"
+  },
+  {
+    "id": 871550,
+    "detail": "Increase Buff Success Rate for all allies when you are on the field",
+    "detailShort": "Increase Buff Success Rate for all allies when you are on the field"
   },
   {
     "id": 940001,
@@ -6605,6 +6665,26 @@
     "detailShort": "Increase ATK Strength by 100% in \"Akihabara Explosion!\" & increase Bond gained when completing quests by 50% & increase recovery speed of \"Exhaustion\" by 200% for yourself [Event Only]"
   },
   {
+    "id": 940201,
+    "detail": "Increase Idol☆Glo Points amount per drop by 30% & increase Bond gained when completing quests by 50% [Event Only]",
+    "detailShort": "Increase Idol☆Glo Points amount per drop by 30% & increase Bond gained when completing quests by 50% [Event Only]"
+  },
+  {
+    "id": 940202,
+    "detail": "Increase Idol☆Glo Points amount per drop by 20% & increase Bond gained when completing quests by 20% [Event Only]",
+    "detailShort": "Increase Idol☆Glo Points amount per drop by 20% & increase Bond gained when completing quests by 20% [Event Only]"
+  },
+  {
+    "id": 940203,
+    "detail": "Increase Idol☆Glo Points amount per drop by 20% + Increase Bond gained for all allies <including sub-members> when completing quests in \"Bedazzled! Grail Concert! Crane Returns an Idol's Favor\" by 5% (No effect when equipped as Support) [Event Only]",
+    "detailShort": "Increase Idol☆Glo Points amount per drop by 20% + Increase Bond gained for all allies <including sub-members> when completing quests in \"Bedazzled! Grail Concert! Crane Returns an Idol's Favor\" by 5% (No effect when equipped as Support) [Event Only]"
+  },
+  {
+    "id": 940204,
+    "detail": "Increase Idol☆Glo Points amount per drop by 10% & increase Bond gained when completing quests by 20% [Event Only]",
+    "detailShort": "Increase Idol☆Glo Points amount per drop by 10% & increase Bond gained when completing quests by 20% [Event Only]"
+  },
+  {
     "id": 960502,
     "detail": "Increase your ATK Strength by 20% in \"Final Singularity: The Grand Temple of Time Solomon\"",
     "detailShort": "Increase your ATK Strength by 20% in \"Final Singularity: The Grand Temple of Time Solomon\""
@@ -7308,6 +7388,11 @@
     "id": 965627,
     "detail": "Decrease DEF (1 turn) & NP ATK Resist (1 turn) & Quick ATK Resist (1 turn) & Arts ATK Resist (1 turn) & Buster ATK Resist (1 turn) to a single enemy",
     "detailShort": "Decrease DEF (1 turn) & NP ATK Resist (1 turn) & Quick ATK Resist (1 turn) & Arts ATK Resist & Buster ATK Resist (1 turn) to a single enemy"
+  },
+  {
+    "id": 966103,
+    "detail": "Increase Critical Strength & C. Star Gather Rate & gain C. Stars each turn for yourself",
+    "detailShort": "Increase Critical Strength & C. Star Gather Rate & gain C. Stars each turn for yourself"
   },
   {
     "id": 980001,
@@ -18960,6 +19045,11 @@
     "detailShort": "Gain 3 C. Stars when attacking with the engraved Card + Recover 200 HP for yourself "
   },
   {
+    "id": 992468,
+    "detail": "When a quest is completed, increase the amount of Mystic Code EXP gained by 50",
+    "detailShort": "When a quest is completed, increase the amount of Mystic Code EXP gained by 50"
+  },
+  {
     "id": 992469,
     "detail": "Increase amount of Gold Saber Badge per drop by 1 [Event Only]",
     "detailShort": "Increase amount of Gold Saber Badge per drop by 1 [Event Only]"
@@ -19753,6 +19843,111 @@
     "id": 992629,
     "detail": "Gain +25 Friend Points when used as Support (Stackable) & increase Mystic Code EXP gained when completing a quest by 5% [MAX]",
     "detailShort": "Gain +25 Friend Points when used as Support (Stackable) & increase Mystic Code EXP gained when completing a quest by 5% [MAX]"
+  },
+  {
+    "id": 992631,
+    "detail": "Increase Arts Card effectiveness by 10% & Buster Card effectiveness by 10% & increase NP Charge by 2 levels when using NP (1 time) for yourself",
+    "detailShort": "Increase Arts Card effectiveness by 10% & Buster Card effectiveness by 10% & increase NP Charge by 2 levels when using NP (1 time) for yourself"
+  },
+  {
+    "id": 992632,
+    "detail": "Increase Arts Card effectiveness by 15% & Buster Card effectiveness by 15% & increase NP Charge by 2 levels when using NP (1 time) for yourself [MAX]",
+    "detailShort": "Increase Arts Card effectiveness by 15% & Buster Card effectiveness by 15% & increase NP Charge by 2 levels when using NP (1 time) for yourself [MAX]"
+  },
+  {
+    "id": 992633,
+    "detail": "Increase Quartz Penlight amount per drop by 1 [Event Only]",
+    "detailShort": "Increase Quartz Penlight amount per drop by 1 [Event Only]"
+  },
+  {
+    "id": 992634,
+    "detail": "Increase Quartz Penlight amount per drop by 2 [MAX] [Event Only]",
+    "detailShort": "Increase Quartz Penlight amount per drop by 2 [MAX] [Event Only]"
+  },
+  {
+    "id": 992635,
+    "detail": "Gain 10 C. Stars when entering the field for the first time (1 time) & increase Arts Card effectiveness by 3% & increase NP Gain by 5% for yourself",
+    "detailShort": "Gain 10 C. Stars when entering the field for the first time (1 time) & increase Arts Card effectiveness by 3% & increase NP Gain by 5% for yourself"
+  },
+  {
+    "id": 992636,
+    "detail": "Gain 12 C. Stars when entering the field for the first time (1 time) & increase Arts Card effectiveness by 5% & increase NP Gain by 10% for yourself [MAX]",
+    "detailShort": "Gain 12 C. Stars when entering the field for the first time (1 time) & increase Arts Card effectiveness by 5% & increase NP Gain by 10% for yourself [MAX]"
+  },
+  {
+    "id": 992637,
+    "detail": "Increase Emperor's Fan amount per drop by 1 [Event Only]",
+    "detailShort": "Increase Emperor's Fan amount per drop by 1 [Event Only]"
+  },
+  {
+    "id": 992638,
+    "detail": "Increase Emperor's Fan amount per drop by 2 [MAX] [Event Only]",
+    "detailShort": "Increase Emperor's Fan amount per drop by 2 [MAX] [Event Only]"
+  },
+  {
+    "id": 992639,
+    "detail": "Apply Damage Cut 100 & increase Buster Card effectiveness by 3% for yourself",
+    "detailShort": "Apply Damage Cut 100 & increase Buster Card effectiveness by 3% for yourself"
+  },
+  {
+    "id": 992640,
+    "detail": "Apply Damage Cut 200 & increase Buster Card effectiveness by 5% for yourself [MAX]",
+    "detailShort": "Apply Damage Cut 200 & increase Buster Card effectiveness by 5% for yourself [MAX]"
+  },
+  {
+    "id": 992641,
+    "detail": "Increase Mahatma Towel amount per drop by 1 [Event Only]",
+    "detailShort": "Increase Mahatma Towel amount per drop by 1 [Event Only]"
+  },
+  {
+    "id": 992642,
+    "detail": "Increase Mahatma Towel amount per drop by 2 [MAX] [Event Only]",
+    "detailShort": "Increase Mahatma Towel amount per drop by 2 [MAX] [Event Only]"
+  },
+  {
+    "id": 992643,
+    "detail": "Apply Sure Hit & increase Critical Strength by 10% & begin battle with NP charged at 30% for yourself ",
+    "detailShort": "Apply Sure Hit & increase Critical Strength by 10% & begin battle with NP charged at 30% for yourself "
+  },
+  {
+    "id": 992644,
+    "detail": "Apply Sure Hit & increase Critical Strength by 15% & begin battle with NP charged at 50% for yourself [MAX]",
+    "detailShort": "Apply Sure Hit & increase Critical Strength by 15% & begin battle with NP charged at 50% for yourself [MAX]"
+  },
+  {
+    "id": 992645,
+    "detail": "Increase Quick, Arts, Buster Card Attack Strength by 10-100% in \"Bedazzled! Grail Concert! Crane Returns an Idol's Favor\" <changes per Card type depending on the amount of Idol☆Glo Points> & increase Idol☆Glo Points amount per drop by 30% [Event Only]",
+    "detailShort": "Increase Quick, Arts, Buster Card Attack Strength by 10-100% in \"Bedazzled! Grail Concert! Crane Returns an Idol's Favor\" <changes per Card type depending on the amount of Idol☆Glo Points> & increase Idol☆Glo Points amount per drop by 30% [Event Only]"
+  },
+  {
+    "id": 992646,
+    "detail": "Increase Quick, Arts, Buster Card Attack Strength by 10-100% in \"Bedazzled! Grail Concert! Crane Returns an Idol's Favor\" <changes per Card type depending on the amount of Idol☆Glo Points> & increase Idol☆Glo Points amount per drop by 60% [MAX] [Event Only]",
+    "detailShort": "Increase Quick, Arts, Buster Card Attack Strength by 10-100% in \"Bedazzled! Grail Concert! Crane Returns an Idol's Favor\" <changes per Card type depending on the amount of Idol☆Glo Points> & increase Idol☆Glo Points amount per drop by 60% [MAX] [Event Only]"
+  },
+  {
+    "id": 992647,
+    "detail": "Increase NP Gain by 20% for all allies [Servants who possess Spiritron Dresses] excluding yourself + Increase NP Gain by 15% for yourself only if [servantName 504600] (Caster) is equipped with this Craft Essence when she is on the field",
+    "detailShort": "Increase NP Gain by 20% for all allies [Servants who possess Spiritron Dresses] excluding yourself + Increase NP Gain by 15% for yourself only if [servantName 504600] (Caster) is equipped with this Craft Essence when she is on the field"
+  },
+  {
+    "id": 992648,
+    "detail": "Apply 15% Special Attack [Machine] & apply 15% Special Attack [Evil] to all allies only if [servantName 2500800] (Foreigner) is equipped with this Craft Essence when she is on the field",
+    "detailShort": "Apply 15% Special Attack [Machine] & apply 15% Special Attack [Evil] to all allies only if [servantName 2500800] (Foreigner) is equipped with this Craft Essence when she is on the field"
+  },
+  {
+    "id": 992649,
+    "detail": "Remove one Critical Rate Up state for one enemy + Gain 1 C. Star when attacking with the engraved Card",
+    "detailShort": "Remove one Critical Rate Up state for one enemy + Gain 1 C. Star when attacking with the engraved Card"
+  },
+  {
+    "id": 992650,
+    "detail": "Inflict Burn (500 damage, 3 turns) to one enemy when attacking with the engraved Card + Increase C. Star Gather Rate by 50% to the engraved Card",
+    "detailShort": "Inflict Burn (500 damage, 3 turns) to one enemy when attacking with the engraved Card + Increase C. Star Gather Rate by 50% to the engraved Card"
+  },
+  {
+    "id": 992651,
+    "detail": "Apply 20% Special Attack [Saber] effect to the engraved Card",
+    "detailShort": "Apply 20% Special Attack [Saber] effect to the engraved Card"
   },
   {
     "id": 992652,
