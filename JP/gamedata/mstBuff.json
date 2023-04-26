@@ -3019,7 +3019,7 @@
     "buffGroup": 0,
     "type": 11,
     "name": "威力アップ〔天と地のサーヴァント〕",
-    "detail": "〔天と地の力を持つサーヴァント(擬似サーヴァント、デミ・サーヴァントは除く)〕に与えるダメージをアップ",
+    "detail": "〔天と地の力を持つサーヴァント(疑似サーヴァント、デミ・サーヴァントは除く)〕に与えるダメージをアップ",
     "iconId": 302,
     "maxRate": 10000,
     "effectId": 0
@@ -76790,11 +76790,214 @@
     "ckSelfIndv": [],
     "ckOpIndv": [],
     "script": {},
+    "id": 5339,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ",
+    "detail": "『螺旋証明世界 リリムハーロット』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5340,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "存在証明",
+    "detail": "『螺旋証明世界 リリムハーロット』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5341,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "攻撃を受けると敵単体に被ダメージが増える状態を付与する",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
     "id": 5342,
     "buffGroup": 0,
     "type": 11,
     "name": "巡霊の祝祭",
     "detail": "与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5344,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "毎ターン終了時、敵全体のHPを減らす",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [
+      3005
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5347,
+    "buffGroup": 0,
+    "type": 27,
+    "name": "弱体耐性無視",
+    "detail": "弱体耐性アップを無視して弱体効果を付与する",
+    "iconId": 389,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      3011
+    ],
+    "ckSelfIndv": [
+      3011
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5348,
+    "buffGroup": 0,
+    "type": 27,
+    "name": "毒付与アップ",
+    "detail": "毒付与率をアップ",
+    "iconId": 307,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5349,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "聖杯所持",
+    "detail": "〔聖杯所持〕状態を付与する",
+    "iconId": 1004,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5350,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時に対象に毒状態を付与",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5351,
+    "buffGroup": 0,
+    "type": 167,
+    "name": "〔毒〕回復化",
+    "detail": "毒によるダメージをHP回復効果に変換する",
+    "iconId": 373,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2857
+    },
+    "id": 5352,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "通常攻撃時追加効果",
+    "detail": "〔聖杯所持〕状態中の通常攻撃時に確率で自身の宝具威力をアップ",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      3011
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3011
+    ],
+    "script": {},
+    "id": 5353,
+    "buffGroup": 0,
+    "type": 110,
+    "name": "威力アップ〔毒〕",
+    "detail": "〔毒〕状態の敵に与えるダメージをアップ",
     "iconId": 302,
     "maxRate": 10000,
     "effectId": 0
@@ -77170,7 +77373,8 @@
       119,
       121,
       123,
-      122
+      122,
+      124
     ],
     "ckSelfIndv": [],
     "ckOpIndv": [
@@ -77189,7 +77393,8 @@
       119,
       121,
       123,
-      122
+      122,
+      124
     ],
     "script": {},
     "id": 30016,
@@ -77491,7 +77696,8 @@
       119,
       121,
       123,
-      122
+      122,
+      124
     ],
     "ckSelfIndv": [],
     "ckOpIndv": [
@@ -77503,7 +77709,8 @@
       119,
       121,
       123,
-      122
+      122,
+      124
     ],
     "script": {},
     "id": 30031,
@@ -77528,7 +77735,8 @@
       119,
       121,
       123,
-      122
+      122,
+      124
     ],
     "ckSelfIndv": [],
     "ckOpIndv": [
@@ -77540,7 +77748,8 @@
       119,
       121,
       123,
-      122
+      122,
+      124
     ],
     "script": {},
     "id": 30032,
@@ -80909,6 +81118,134 @@
     "detail": "クリティカルの発生率をアップ",
     "iconId": 327,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3019,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 94082501,
+    "buffGroup": 0,
+    "type": 25,
+    "name": "第一の刻印",
+    "detail": "回避を無視して、攻撃によるダメージを与える",
+    "iconId": 309,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 152
+    },
+    "id": 94082502,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "大いなる母",
+    "detail": "クラス相性の攻撃不利を打ち消す＆防御力をアップ",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082503,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "都市喰らい",
+    "detail": "攻撃力をアップ＆敵を倒した時、自身のHPを回復する",
+    "iconId": 300,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082504,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "頭痛",
+    "detail": "毎ターン終了時、自身の弱体耐性をダウンまたはスター発生率をダウンまたはNP獲得量をダウン",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082533,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "忍び寄る影",
+    "detail": "攻撃時、敵単体に低確率で即死を付与",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082534,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "食用（？）",
+    "detail": "HPが0になった時、敵単体のHPを回復【デメリット】＆毒状態を付与",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3010,
+      3049
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082552,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "恐怖",
+    "detail": "毎ターン確率でスタン状態を付与",
+    "iconId": 525,
+    "maxRate": 0,
     "effectId": 0
   },
   {
