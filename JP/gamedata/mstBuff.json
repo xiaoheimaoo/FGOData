@@ -81203,6 +81203,151 @@
     "ckSelfIndv": [],
     "ckOpIndv": [],
     "script": {},
+    "id": 94082507,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "悪夢の騎士",
+    "detail": "HPが0になった時、敵単体に呪い状態を付与",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082508,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "第七の刻印",
+    "detail": "攻撃時、対象にやけど状態を付与する",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082509,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "猟奇の住人",
+    "detail": "攻撃時、対象のHPを吸収する",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082510,
+    "buffGroup": 450,
+    "type": 121,
+    "name": "狂気の先触れ",
+    "detail": "防御力アップを無視してダメージを与える＆〔呪い〕状態の敵に与えるダメージをアップ",
+    "iconId": 351,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082511,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "不定形の澱",
+    "detail": "被ダメージを減らす＆クリティカルの発生率をアップ",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082512,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "第三の刻印",
+    "detail": "防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082513,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "フロア・ガーディアン権限",
+    "detail": "〔第三の刻印〕を無効化する",
+    "iconId": 511,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -6026
+    },
+    "id": 94082514,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "第三の刻印",
+    "detail": "防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
     "id": 94082533,
     "buffGroup": 0,
     "type": 137,
@@ -81226,6 +81371,72 @@
     "name": "食用（？）",
     "detail": "HPが0になった時、敵単体のHPを回復【デメリット】＆毒状態を付与",
     "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082535,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "毎ターン終了時、敵全体に呪い状態を付与",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082549,
+    "buffGroup": 1900,
+    "type": 115,
+    "name": "毎ターンチャージマイナス",
+    "detail": "毎ターンチャージが1減る",
+    "iconId": 519,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082550,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "百鬼夜行",
+    "detail": "攻撃時に対象の防御力をダウン",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082551,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "頭痛",
+    "detail": "毎ターン終了時、自身の弱体耐性をダウンまたはクリティカル発生率をダウンまたはチャージが減る",
+    "iconId": 537,
     "maxRate": 0,
     "effectId": 0
   },
