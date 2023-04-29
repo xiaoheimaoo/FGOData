@@ -77374,7 +77374,8 @@
       121,
       123,
       122,
-      124
+      124,
+      125
     ],
     "ckSelfIndv": [],
     "ckOpIndv": [
@@ -77394,7 +77395,8 @@
       121,
       123,
       122,
-      124
+      124,
+      125
     ],
     "script": {},
     "id": 30016,
@@ -77697,7 +77699,8 @@
       121,
       123,
       122,
-      124
+      124,
+      125
     ],
     "ckSelfIndv": [],
     "ckOpIndv": [
@@ -77710,7 +77713,8 @@
       121,
       123,
       122,
-      124
+      124,
+      125
     ],
     "script": {},
     "id": 30031,
@@ -77736,7 +77740,8 @@
       121,
       123,
       122,
-      124
+      124,
+      125
     ],
     "ckSelfIndv": [],
     "ckOpIndv": [
@@ -77749,7 +77754,8 @@
       121,
       123,
       122,
-      124
+      124,
+      125
     ],
     "script": {},
     "id": 30032,
@@ -81342,6 +81348,70 @@
   },
   {
     "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94082515,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "クリミアの天使",
+    "detail": "宝具のダメージに対する耐性を得る＆毎ターンチャージを増やす<対象の〔弱体状態〕が多いほどチャージ量アップ>",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94082516,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "天使の守護",
+    "detail": "宝具のダメージに対する耐性を得る",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082517,
+    "buffGroup": 0,
+    "type": 24,
+    "name": "第二の刻印",
+    "detail": "攻撃によるダメージを確率で0にする",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004
     ],
     "tvals": [],
@@ -81388,6 +81458,116 @@
     "name": "毎ターン発動",
     "detail": "毎ターン終了時、敵全体に呪い状態を付与",
     "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4008
+    ],
+    "script": {},
+    "id": 94082536,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "通常攻撃を受けると自身に宝具封印状態を付与",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082537,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "毎ターン終了時、敵全体に毒状態を付与",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082538,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、対象に蝕毒状態を付与",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082539,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "毎ターン終了時、自身に回避状態を付与",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 161
+    },
+    "id": 94082540,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔ビースト〕クラスに対して攻撃相性有利となる",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082541,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、自身の最大HPを増やす＆ターゲット集中状態を付与する",
+    "iconId": 365,
     "maxRate": 0,
     "effectId": 0
   },
