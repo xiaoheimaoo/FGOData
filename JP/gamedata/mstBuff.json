@@ -77009,6 +77009,29 @@
     ],
     "tvals": [
       5000,
+      4008
+    ],
+    "ckSelfIndv": [
+      4008
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5354,
+    "buffGroup": 0,
+    "type": 148,
+    "name": "通常攻撃ダメージ前追加効果",
+    "detail": "通常攻撃時ダメージ前に、敵単体に呪い状態を付与",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
       4004
     ],
     "ckSelfIndv": [
@@ -81203,6 +81226,40 @@
   },
   {
     "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082505,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "頭痛",
+    "detail": "毎ターン終了時、自身の弱体耐性をダウンまたはスター発生率をダウンまたはNP獲得量をダウンまたは中確率で攻撃力をダウン",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082506,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "頭痛",
+    "detail": "毎ターン終了時、自身の弱体耐性をダウンまたはクリティカル発生率をダウンまたはチャージが減るまたは中確率で攻撃力をダウン",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004
     ],
     "tvals": [],
@@ -81418,6 +81475,42 @@
     "ckSelfIndv": [],
     "ckOpIndv": [],
     "script": {},
+    "id": 94082518,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "第六の刻印",
+    "detail": "攻撃時、敵単体の強化状態を1つ解除",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082519,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "第四の刻印",
+    "detail": "被ダメージを減らす",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
     "id": 94082533,
     "buffGroup": 0,
     "type": 137,
@@ -81572,6 +81665,59 @@
     "effectId": 0
   },
   {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082542,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、敵単体の攻撃強化状態を解除",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082543,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、敵単体に毒状態を付与",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3033
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082548,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "攻撃力ダウン",
+    "detail": "確率で攻撃力をダウン",
+    "iconId": 503,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
     "vals": [],
     "tvals": [],
     "ckSelfIndv": [],
@@ -81636,6 +81782,23 @@
     "name": "恐怖",
     "detail": "毎ターン確率でスタン状態を付与",
     "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082557,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "頭痛",
+    "detail": "「毎ターン終了時、自身に低確率でスタン状態を付与」＆ターン終了時にHPが減る",
+    "iconId": 537,
     "maxRate": 0,
     "effectId": 0
   },
