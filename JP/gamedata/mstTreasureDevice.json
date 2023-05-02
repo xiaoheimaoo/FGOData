@@ -9762,6 +9762,22 @@
       4007
     ],
     "script": {},
+    "id": 848,
+    "seqId": 9944510,
+    "name": "螺旋否定世界 リリムハーロット",
+    "ruby": "-",
+    "rank": "なし",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3000,
+      4007
+    ],
+    "script": {},
     "id": 849,
     "seqId": 9944520,
     "name": "バビロニアンウェーブ",
@@ -9829,6 +9845,38 @@
     "id": 862,
     "seqId": 9100114,
     "name": "死界都市バルバトス",
+    "ruby": "-",
+    "rank": "なし",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
+      4007
+    ],
+    "script": {},
+    "id": 863,
+    "seqId": 9932610,
+    "name": "百年戦争 ナベリウス",
+    "ruby": "-",
+    "rank": "なし",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
+      4007
+    ],
+    "script": {},
+    "id": 864,
+    "seqId": 9932610,
+    "name": "神話侵食 ハルファス",
     "ruby": "-",
     "rank": "なし",
     "maxLv": 5,
@@ -22987,10 +23035,40 @@
       4102
     ],
     "script": {
-      "limitSeqId_1": 3300100,
-      "limitSeqId_3": 3300120,
-      "limitSeqId_4": 3300120,
-      "limitSeqId_2": 3300100
+      "randomSeqIds_1": [
+        3300100
+      ],
+      "randomSeqIds": [
+        3300100
+      ],
+      "randomSeqIds_3": [
+        3300120,
+        3300121
+      ],
+      "randomSeqIds_2": [
+        3300100
+      ],
+      "randomWeights_3": [
+        66,
+        34
+      ],
+      "randomWeights_1": [
+        100
+      ],
+      "randomWeights_2": [
+        100
+      ],
+      "randomWeights": [
+        100
+      ],
+      "randomWeights_4": [
+        66,
+        34
+      ],
+      "randomSeqIds_4": [
+        3300120,
+        3300121
+      ]
     },
     "id": 3300101,
     "seqId": 3300100,
@@ -26124,6 +26202,24 @@
     "rank": "B+",
     "maxLv": 5,
     "typeText": "対人宝具",
+    "attackAttri": 1,
+    "effectFlag": 2
+  },
+  {
+    "individuality": [
+      3002,
+      4001,
+      4007,
+      4102
+    ],
+    "script": {},
+    "id": 9944691,
+    "seqId": 9944690,
+    "name": "抱き融す黄金劇場",
+    "ruby": "ベイバロン・ドムス・アウレア",
+    "rank": "A",
+    "maxLv": 5,
+    "typeText": "対軍宝具",
     "attackAttri": 1,
     "effectFlag": 2
   }
