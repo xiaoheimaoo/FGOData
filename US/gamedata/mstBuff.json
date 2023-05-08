@@ -2649,7 +2649,8 @@
   },
   {
     "vals": [
-      3005
+      3005,
+      3070
     ],
     "tvals": [
       3004
@@ -44752,7 +44753,7 @@
     "script": {},
     "id": 3374,
     "buffGroup": 0,
-    "type": 148,
+    "type": 138,
     "name": "Command Code Bonus Attack Effect",
     "detail": "An additional effect is granted when attacking with the engraved Command Card.",
     "iconId": 333,
@@ -48279,6 +48280,23 @@
     "name": "DEF Up (Spreading Fire)",
     "detail": "Increase DEF for all allies against enemies in [Spreading Fire] state when you are on the field",
     "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3579,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "Delayed Effect",
+    "detail": "Decrease HP for yourself at the end of the turn",
+    "iconId": 525,
     "maxRate": 0,
     "effectId": 0
   },
