@@ -1,36 +1,91 @@
 [
   {
     "condIds": [
-      3000920
+      3001101
     ],
     "condType": 1,
     "condValue": 0,
     "condValue2": 0,
     "condValue3": 0,
-    "eventId": -38,
-    "flagType": 2,
+    "eventId": -40,
+    "flagType": 1,
     "imageIds": [],
     "num": 1,
-    "openType": 1,
+    "openType": 2,
     "targetIds": [
-      "[30801]"
+      "[]"
     ],
     "textJson": [
       {
         "rects": [],
         "textPos": [
           0,
-          -43
+          30
         ],
-        "dlgBgId": 20210701,
-        "textAlign": "center",
-        "text": "就這樣，冬之女王被順利地打倒了。\n辛苦了。不列顛迎來了新的時代。\n作為大結局的尾聲將在數天後於大聖堂舉辦！\n在那之前，還請各位盡情討論，暢所欲言。\n\n※5月18日維修後任務開放",
+        "dlgFontSize": 26,
+        "text": "達．文西工房中的「聖杯鑄造」開放。\n\n在聖杯鑄造中，可以使用從者幣鑄造聖杯。",
         "ptPos": [
           0,
           0
         ]
       }
     ]
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": -40,
+    "flagType": 4,
+    "imageIds": [
+      57
+    ],
+    "num": 1,
+    "openType": 73,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [
+      1000011
+    ],
+    "condType": 1,
+    "condValue": 1,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": -39,
+    "flagType": 5,
+    "imageIds": [
+      941
+    ],
+    "num": 1,
+    "openType": 2,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": -37,
+    "flagType": 8,
+    "imageIds": [
+      56
+    ],
+    "num": 1,
+    "openType": 5,
+    "targetIds": [
+      "[3001007,2]"
+    ],
+    "textJson": ""
   },
   {
     "condIds": [],
@@ -267,7 +322,8 @@
     "num": 1,
     "openType": 18,
     "targetIds": [
-      "[8359]"
+      "[8359]",
+      "[9112]"
     ],
     "textJson": ""
   },
@@ -335,7 +391,8 @@
     "num": 1,
     "openType": 5,
     "targetIds": [
-      "[3000622,3,1]"
+      "[3000622,3,1]",
+      "[94061709,1,1]"
     ],
     "textJson": ""
   },
@@ -434,7 +491,8 @@
     "eventId": -12,
     "flagType": 38,
     "imageIds": [
-      36
+      36,
+      918
     ],
     "num": 1,
     "openType": 40,
@@ -677,15 +735,110 @@
     "num": 7,
     "openType": 34,
     "targetIds": [
-      "[5001885]",
-      "[5001886]",
-      "[5001887]",
-      "[5001888]",
-      "[5001889]",
-      "[5001890]",
-      "[5001891]",
-      "[5001892]",
-      "[5001893]"
+      "[50013981]",
+      "[50013991]",
+      "[50014001]",
+      "[50014011]",
+      "[50014021]",
+      "[50014031]",
+      "[50014041]",
+      "[50014051]",
+      "[50014061]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": -6,
+    "flagType": 32,
+    "imageIds": [
+      2008
+    ],
+    "num": 8,
+    "openType": 34,
+    "targetIds": [
+      "[5002135]",
+      "[5002136]",
+      "[5002137]",
+      "[5002138]",
+      "[5002139]",
+      "[5002140]",
+      "[5002141]",
+      "[5002142]",
+      "[5002143]",
+      "[5002144]",
+      "[5002145]",
+      "[5002146]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": -6,
+    "flagType": 32,
+    "imageIds": [],
+    "num": 9,
+    "openType": 34,
+    "targetIds": [
+      "[50018021]",
+      "[50018031]",
+      "[50018041]",
+      "[50018051]",
+      "[50018061]",
+      "[50018071]"
+    ],
+    "textJson": [
+      {
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "dlgFontSize": 26,
+        "text": "[FF0000]※新年2023PICKUP召喚(每日變更)注意事項※\n\n至今為止所有的每日變更召喚中，就算召喚內容有所變化，\n也被視作連續的同一個召喚，\n但從本次起，每日變更的設置將會改成\n只要召喚內容不同，就算不同召喚池。\n\n基於以上變更，「額外召喚」與\n「1日1次限定付費聖晶石召喚」的計數\n也將根據召喚內容進行分別計算。\n請注意在召喚內容變更（當天0點）時，\n額外計數及召喚次數都會重置。[-]",
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": -6,
+    "flagType": 32,
+    "imageIds": [
+      2009
+    ],
+    "num": 10,
+    "openType": 34,
+    "targetIds": [
+      "[50018091]",
+      "[50018101]",
+      "[50018111]",
+      "[50018121]",
+      "[50018131]",
+      "[50018141]",
+      "[50018151]",
+      "[50018161]",
+      "[50018171]",
+      "[50018181]",
+      "[50018191]",
+      "[50018201]",
+      "[50018211]",
+      "[50018221]"
     ],
     "textJson": ""
   },
@@ -787,6 +940,24 @@
     "condValue2": 0,
     "condValue3": 0,
     "eventId": -1,
+    "flagType": 1,
+    "imageIds": [
+      954
+    ],
+    "num": 1,
+    "openType": 71,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": -1,
     "flagType": 16,
     "imageIds": [
       892
@@ -844,7 +1015,29 @@
       "[94054815,2,1]",
       "[94055309,2,1]",
       "[94055312,2,1]",
-      "[94059119,2,1]"
+      "[94059119,2,1]",
+      "[94060503,2,1]",
+      "[94062807,2,1]",
+      "[94062808,1,1]",
+      "[94062302,4,1]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": -1,
+    "flagType": 35,
+    "imageIds": [
+      917
+    ],
+    "num": 1,
+    "openType": 70,
+    "targetIds": [
+      "[]"
     ],
     "textJson": ""
   },
@@ -1180,7 +1373,7 @@
     "num": 1,
     "openType": 66,
     "targetIds": [
-      "[10328]"
+      "[10343]"
     ],
     "textJson": ""
   },
@@ -2270,7 +2463,7 @@
           0,
           24
         ],
-        "text": "在「復刻：鬼哭醉夢魔京羅生門短程版」的討伐戰中，\n即使戰鬥失敗，也能獲得以下獎勵。\n『傷害點數』『羈絆點數』『御主經驗』\n『魔術禮裝經驗』『友情點數』『戰利品』\n\n此外，具體獎勵內容取決於戰鬥中\n對強大敵人造成的傷害量。",
+        "text": "在「復刻:鬼哭醉夢魔京羅生門短程版」的討伐戰中，\n即使戰鬥失敗，也能獲得以下獎勵。\n『傷害點數』『羈絆點數』『御主經驗』\n『魔術禮裝經驗』『友情點數』『戰利品』\n\n此外，具體獎勵內容取決於戰鬥中\n對強大敵人造成的傷害量。",
         "ptPos": [
           0,
           0
@@ -11863,6 +12056,977 @@
     "openType": 24,
     "targetIds": [
       "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80331,
+    "flagType": 1,
+    "imageIds": [
+      919
+    ],
+    "num": 1,
+    "openType": 4,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80331,
+    "flagType": 19,
+    "imageIds": [
+      920
+    ],
+    "num": 1,
+    "openType": 21,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80331,
+    "flagType": 20,
+    "imageIds": [
+      921
+    ],
+    "num": 1,
+    "openType": 22,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80331,
+    "flagType": 21,
+    "imageIds": [
+      919
+    ],
+    "num": 1,
+    "openType": 23,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80331,
+    "flagType": 22,
+    "imageIds": [
+      920
+    ],
+    "num": 1,
+    "openType": 24,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80331,
+    "flagType": 23,
+    "imageIds": [
+      921
+    ],
+    "num": 1,
+    "openType": 25,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [
+      94062209
+    ],
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80340,
+    "flagType": 2,
+    "imageIds": [
+      922
+    ],
+    "num": 1,
+    "openType": 18,
+    "targetIds": [
+      "[9120]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [
+      94062202
+    ],
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80340,
+    "flagType": 13,
+    "imageIds": [
+      933
+    ],
+    "num": 1,
+    "openType": 18,
+    "targetIds": [
+      "[9120]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [
+      94062251
+    ],
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80340,
+    "flagType": 50,
+    "imageIds": [
+      934
+    ],
+    "num": 1,
+    "openType": 18,
+    "targetIds": [
+      "[9120]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [
+      94062252
+    ],
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80340,
+    "flagType": 50,
+    "imageIds": [
+      935
+    ],
+    "num": 2,
+    "openType": 18,
+    "targetIds": [
+      "[9120]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80341,
+    "flagType": 1,
+    "imageIds": [
+      924,
+      925,
+      926
+    ],
+    "num": 1,
+    "openType": 4,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [
+      94062302
+    ],
+    "condType": 1,
+    "condValue": 4,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80341,
+    "flagType": 2,
+    "imageIds": [
+      927
+    ],
+    "num": 1,
+    "openType": 1,
+    "targetIds": [
+      "[9124]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80341,
+    "flagType": 8,
+    "imageIds": [],
+    "num": 1,
+    "openType": 5,
+    "targetIds": [
+      "[94062501]",
+      "[94062502]",
+      "[94062503]",
+      "[94062504]",
+      "[94062505]",
+      "[94062506]",
+      "[94062507]",
+      "[94062508]",
+      "[94062509]",
+      "[94062510]",
+      "[94062511]",
+      "[94062512]",
+      "[94062513]",
+      "[94062514]",
+      "[94062515]",
+      "[94062516]",
+      "[94062517]",
+      "[94062518]",
+      "[94062519]",
+      "[94062520]",
+      "[94062521]"
+    ],
+    "textJson": [
+      {
+        "rects": [
+          {
+            "x": -622,
+            "y": 200,
+            "w": 690,
+            "h": 120
+          }
+        ],
+        "textPos": [
+          0,
+          24
+        ],
+        "text": "即使擊退凶神，只要示意條還有殘存，\n入侵就不會停止。\n\n畫面上部會顯示剩餘凶神數量與示意條，\n透過擊退就可削減示意條。\n另外，其他御主的擊退數也會隨時反應在戰鬥中。\n\n\n在示意條削減完畢前，大家齊心協力打倒凶神吧！",
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "condIds": [
+      94062401
+    ],
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80341,
+    "flagType": 13,
+    "imageIds": [
+      928
+    ],
+    "num": 1,
+    "openType": 1,
+    "targetIds": [
+      "[9124]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80341,
+    "flagType": 19,
+    "imageIds": [
+      923
+    ],
+    "num": 1,
+    "openType": 21,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80341,
+    "flagType": 21,
+    "imageIds": [
+      923
+    ],
+    "num": 1,
+    "openType": 23,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80341,
+    "flagType": 22,
+    "imageIds": [
+      923
+    ],
+    "num": 1,
+    "openType": 24,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [
+      94062501,
+      94062502,
+      94062503,
+      94062504,
+      94062505,
+      94062506,
+      94062507,
+      94062508,
+      94062509,
+      94062510,
+      94062511,
+      94062512,
+      94062513,
+      94062514,
+      94062515,
+      94062516,
+      94062517,
+      94062518,
+      94062519,
+      94062520,
+      94062521
+    ],
+    "condType": 50,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80341,
+    "flagType": 50,
+    "imageIds": [
+      929,
+      930
+    ],
+    "num": 1,
+    "openType": 1,
+    "targetIds": [
+      "[9124]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80343,
+    "flagType": 1,
+    "imageIds": [
+      931
+    ],
+    "num": 1,
+    "openType": 4,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [
+      94062808
+    ],
+    "condType": 106,
+    "condValue": 3,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80343,
+    "flagType": 2,
+    "imageIds": [
+      932
+    ],
+    "num": 1,
+    "openType": 3,
+    "targetIds": [
+      "[912507]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80343,
+    "flagType": 21,
+    "imageIds": [
+      931
+    ],
+    "num": 1,
+    "openType": 23,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80343,
+    "flagType": 22,
+    "imageIds": [
+      931
+    ],
+    "num": 1,
+    "openType": 24,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80343,
+    "flagType": 23,
+    "imageIds": [
+      931
+    ],
+    "num": 1,
+    "openType": 25,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80343,
+    "flagType": 42,
+    "imageIds": [
+      931
+    ],
+    "num": 1,
+    "openType": 44,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80346,
+    "flagType": 1,
+    "imageIds": [
+      936
+    ],
+    "num": 1,
+    "openType": 4,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80346,
+    "flagType": 18,
+    "imageIds": [
+      940
+    ],
+    "num": 1,
+    "openType": 20,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80346,
+    "flagType": 19,
+    "imageIds": [
+      937,
+      938
+    ],
+    "num": 1,
+    "openType": 21,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80346,
+    "flagType": 21,
+    "imageIds": [
+      940
+    ],
+    "num": 1,
+    "openType": 23,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80346,
+    "flagType": 22,
+    "imageIds": [
+      936
+    ],
+    "num": 1,
+    "openType": 24,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80346,
+    "flagType": 23,
+    "imageIds": [
+      936
+    ],
+    "num": 1,
+    "openType": 25,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80347,
+    "flagType": 1,
+    "imageIds": [
+      942
+    ],
+    "num": 1,
+    "openType": 4,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80347,
+    "flagType": 21,
+    "imageIds": [
+      942
+    ],
+    "num": 1,
+    "openType": 23,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80347,
+    "flagType": 22,
+    "imageIds": [
+      942
+    ],
+    "num": 1,
+    "openType": 24,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80347,
+    "flagType": 32,
+    "imageIds": [
+      943
+    ],
+    "num": 1,
+    "openType": 72,
+    "targetIds": [
+      "[803471, 10]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [
+      94065101,
+      94065102,
+      94065103,
+      94065104,
+      94065105,
+      94065106
+    ],
+    "condType": 50,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80349,
+    "flagType": 2,
+    "imageIds": [
+      944
+    ],
+    "num": 1,
+    "openType": 1,
+    "targetIds": [
+      "[9128]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80349,
+    "flagType": 8,
+    "imageIds": [],
+    "num": 1,
+    "openType": 5,
+    "targetIds": [
+      "[94065101]",
+      "[94065102]",
+      "[94065103]",
+      "[94065104]",
+      "[94065105]",
+      "[94065106]",
+      "[94065107]",
+      "[94065108]",
+      "[94065109]",
+      "[94065110]",
+      "[94065111]",
+      "[94065112]",
+      "[94065113]",
+      "[94065114]",
+      "[94065115]",
+      "[94065116]",
+      "[94065117]",
+      "[94065118]",
+      "[94065119]",
+      "[94065120]",
+      "[94065121]",
+      "[94065122]",
+      "[94065123]",
+      "[94065124]",
+      "[94065125]",
+      "[94065126]",
+      "[94065127]",
+      "[94065128]",
+      "[94065129]"
+    ],
+    "textJson": [
+      {
+        "rects": [
+          {
+            "x": -622,
+            "y": 200,
+            "w": 690,
+            "h": 120
+          }
+        ],
+        "textPos": [
+          0,
+          24
+        ],
+        "text": "即使擊退敵人，只要示意條還有殘存，\n敵人就會不斷復活。\n\n畫面上部會顯示示意條，\n透過擊退就可削減示意條。\n另外，其他御主的擊退數也會隨時反應在戰鬥中。\n\n\n在示意條削減完畢前，大家齊心協力打倒強大的敵人吧！",
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "condIds": [
+      94065107,
+      94065108,
+      94065109,
+      94065110,
+      94065111,
+      94065112,
+      94065113,
+      94065114,
+      94065115,
+      94065116,
+      94065117,
+      94065118,
+      94065119,
+      94065120,
+      94065121,
+      94065122,
+      94065123,
+      94065124,
+      94065125,
+      94065126
+    ],
+    "condType": 50,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80349,
+    "flagType": 13,
+    "imageIds": [
+      945
+    ],
+    "num": 1,
+    "openType": 1,
+    "targetIds": [
+      "[9128]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [
+      94065127,
+      94065128,
+      94065129
+    ],
+    "condType": 50,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80349,
+    "flagType": 50,
+    "imageIds": [
+      946
+    ],
+    "num": 1,
+    "openType": 1,
+    "targetIds": [
+      "[9128]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80352,
+    "flagType": 1,
+    "imageIds": [
+      948,
+      949,
+      950
+    ],
+    "num": 1,
+    "openType": 4,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [
+      94065570
+    ],
+    "condType": 50,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80352,
+    "flagType": 2,
+    "imageIds": [
+      952,
+      953
+    ],
+    "num": 1,
+    "openType": 1,
+    "targetIds": [
+      "[9130]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80352,
+    "flagType": 8,
+    "imageIds": [],
+    "num": 1,
+    "openType": 5,
+    "targetIds": [
+      "[94065570]"
+    ],
+    "textJson": [
+      {
+        "rects": [
+          {
+            "x": -512,
+            "y": 200,
+            "w": 580,
+            "h": 120
+          }
+        ],
+        "textPos": [
+          0,
+          24
+        ],
+        "text": "即使擊退管制室巴巴妥司，只要計量條還有殘留，\n管制室巴巴妥司就會反覆復活。\n\n畫面上方會顯示擊退的次數與計量條，\n透過擊退就可削減計量條。\n另外，其他御主的擊退數也會隨時反映在戰鬥中。\n\n\n在計量條削減完畢前，大家齊心協力打倒管制室巴巴妥司吧！",
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80352,
+    "flagType": 21,
+    "imageIds": [
+      948
+    ],
+    "num": 1,
+    "openType": 23,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80352,
+    "flagType": 22,
+    "imageIds": [
+      948
+    ],
+    "num": 1,
+    "openType": 24,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80352,
+    "flagType": 43,
+    "imageIds": [
+      644
+    ],
+    "num": 1,
+    "openType": 45,
+    "targetIds": [
+      "[94065610,1]"
     ],
     "textJson": ""
   }
