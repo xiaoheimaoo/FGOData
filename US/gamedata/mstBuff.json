@@ -37598,7 +37598,7 @@
     "script": {},
     "id": 2958,
     "buffGroup": 0,
-    "type": 112,
+    "type": 11,
     "name": "STR Up [Ghost]",
     "detail": "Increase damage dealt against [Undead]",
     "iconId": 302,
@@ -37939,7 +37939,7 @@
     "buffGroup": 0,
     "type": 78,
     "name": "Time Lapse",
-    "detail": "When HP reaches 0, remove the Rowdy Kids' \"Infinite Energy (Kids)\" count by 2",
+    "detail": "When HP reaches 0, remove the Rowdy Kids' \"Infinite Energy (Kids)\" count by 2 (Will not go down below 1)",
     "iconId": 543,
     "maxRate": 0,
     "effectId": 0
@@ -37956,7 +37956,7 @@
     "buffGroup": 0,
     "type": 78,
     "name": "Time Lapse",
-    "detail": "When HP reaches 0, remove the Rowdy Kids' \"Infinite Energy (Kids)\" count by 5",
+    "detail": "When HP reaches 0, remove the Rowdy Kids' \"Infinite Energy (Kids)\" count by 5 (Will not go down below 1)",
     "iconId": 543,
     "maxRate": 0,
     "effectId": 0
@@ -48284,6 +48284,36 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3577,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Servant Camper",
+    "detail": "Increase damage dealt during \"Revival: Servant Summer Camp! - Lite\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3578,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Strength Up",
+    "detail": "Increase damage dealt during \"Revival: Servant Summer Camp! - Lite\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3005
     ],
@@ -48352,6 +48382,25 @@
     "name": "Critical STR Up (Sunlight)",
     "detail": "Increase Critical Hit damage when on a [Sunlight] field",
     "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 3583,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "",
+    "detail": "",
+    "iconId": 504,
     "maxRate": 5000,
     "effectId": 0
   },
