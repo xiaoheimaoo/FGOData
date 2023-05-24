@@ -1604,6 +1604,7 @@
   {
     "vals": [
       3005,
+      3087,
       3045
     ],
     "tvals": [],
@@ -53193,7 +53194,8 @@
   },
   {
     "vals": [
-      6026
+      6026,
+      3087
     ],
     "tvals": [],
     "ckSelfIndv": [],
@@ -53244,7 +53246,8 @@
   },
   {
     "vals": [
-      6026
+      6026,
+      3087
     ],
     "tvals": [],
     "ckSelfIndv": [],
@@ -53295,7 +53298,8 @@
   },
   {
     "vals": [
-      6026
+      6026,
+      3087
     ],
     "tvals": [],
     "ckSelfIndv": [],
@@ -64453,6 +64457,7 @@
   {
     "vals": [
       3005,
+      3087,
       3045,
       6027
     ],
@@ -76849,6 +76854,21 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5343,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ",
+    "detail": "『風雲からくりイリヤ城』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004
     ],
@@ -77027,6 +77047,25 @@
   },
   {
     "vals": [
+      3005
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5356,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、自身のクリティカル発生率をダウン",
+    "iconId": 549,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3005,
       3008,
       3038,
@@ -77080,6 +77119,66 @@
     "detail": "",
     "iconId": 520,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5360,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "風雲パワー",
+    "detail": "『風雲からくりイリヤ城』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5363,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Quick通常攻撃時追加効果",
+    "detail": "Quickカードでの通常攻撃時に自身のNPを増やす",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      3087
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3087
+    ],
+    "script": {},
+    "id": 5364,
+    "buffGroup": 0,
+    "type": 110,
+    "name": "威力アップ〔拘束〕",
+    "detail": "〔拘束〕状態の敵に与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
     "effectId": 0
   },
   {
@@ -83805,6 +83904,296 @@
     "name": "",
     "detail": "",
     "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024,
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083800,
+    "buffGroup": 0,
+    "type": 104,
+    "name": "",
+    "detail": "",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4103
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94083801,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083802,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "フローティングパワー〔UFO〕",
+    "detail": "HPが0になった時、HPを回復して耐える<攻撃を受けると持続ターンが3減少>",
+    "iconId": 304,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083803,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "反動注意！",
+    "detail": "攻撃時、自身のフローティングパワー〔UFO〕の持続ターンを1減らす",
+    "iconId": 549,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083804,
+    "buffGroup": 0,
+    "type": 168,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3014,
+      6039,
+      3045
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083805,
+    "buffGroup": 0,
+    "type": 32,
+    "name": "落下",
+    "detail": "落下中につき行動不能……回収班、よろしくお願いします",
+    "iconId": 501,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083806,
+    "buffGroup": 0,
+    "type": 104,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083807,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6017
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083808,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "フローティングパワー",
+    "detail": "HPが0になった時、HPを回復して耐える<攻撃を受けると持続ターンが3減少>",
+    "iconId": 304,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6015
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083809,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083810,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "落下",
+    "detail": "英霊は落下していてもまだ戦えるのだ",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083811,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "反動注意！",
+    "detail": "攻撃時、自身のフローティングパワーの持続ターンを1減らす",
+    "iconId": 549,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083812,
+    "buffGroup": 0,
+    "type": 95,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083813,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "叩き落とす！",
+    "detail": "攻撃時、対象のフローティングパワー〔UFO〕の持続ターンを2減らす",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083841,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "",
+    "detail": "",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4103
+    ],
+    "script": {},
+    "id": 94083842,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 525,
     "maxRate": 0,
     "effectId": 0
   }
