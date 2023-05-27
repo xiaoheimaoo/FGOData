@@ -84606,6 +84606,137 @@
   {
     "vals": [
       3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083816,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "頑丈丸",
+    "detail": "攻撃に対する耐性を得る<バクダンの爆発には無効>",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisableMoveStateTurnChange": 1
+    },
+    "id": 94083817,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "バクダン",
+    "detail": "爆発寸前のバクダン。爆発前に誰かに押し付けよう",
+    "iconId": 566,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisableMoveStateTurnChange": 1
+    },
+    "id": 94083818,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "キョーアクバクダン",
+    "detail": "いつ爆発するかわからないキケンなバクダン",
+    "iconId": 568,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -6026
+    },
+    "id": 94083819,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "安全帯",
+    "detail": "バクダンを所持していない時、自身の攻撃力がアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -6026
+    },
+    "id": 94083820,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083821,
+    "buffGroup": 0,
+    "type": 95,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "gutsText": "空蝉"
+    },
+    "id": 94083822,
+    "buffGroup": 0,
+    "type": 104,
+    "name": "空蝉の術",
+    "detail": "HPが0になった時、HPを回復して耐える",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
       3007,
       3085,
       3040
@@ -84625,6 +84756,24 @@
     "detail": "",
     "iconId": 301,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94083827,
+    "buffGroup": 0,
+    "type": 104,
+    "name": "忍耐丸",
+    "detail": "HPが0になった時、HPを回復して耐える",
+    "iconId": 304,
+    "maxRate": 1000,
     "effectId": 0
   },
   {
