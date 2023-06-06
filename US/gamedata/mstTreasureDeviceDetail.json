@@ -295,6 +295,11 @@
     "detailShort": "Increase Arts Card effectiveness (3 turns) <effect increases with Overcharge> & NP Strength (3 turns) for yourself + Remove ATK buffs & deal heavy DEF-ignoring damage [{0}] to all enemies"
   },
   {
+    "id": 105001,
+    "detail": "Increase Buster Card effectiveness (1 turn) <effect increases with Overcharge> for yourself + Deal heavy damage [{0}] to all enemies + Increase Max HP (5 turns) & reduce skill cooldown by 1 for yourself",
+    "detailShort": "Increase Buster Card effectiveness (1 turn) <effect increases with Overcharge> for yourself + Deal heavy damage [{0}] to all enemies + Increase Max HP (5 turns) & reduce skill cooldown by 1 for yourself"
+  },
+  {
     "id": 200101,
     "detail": "Deal heavy DEF-ignoring damage to all enemies [{0}] & decrease ATK (3 turns) <effect increases with Overcharge> for all enemies",
     "detailShort": "Deal heavy DEF-ignoring damage to all enemies [{0}] & decrease ATK (3 turns) <effect increases with Overcharge> for all enemies"
@@ -603,6 +608,11 @@
     "id": 204201,
     "detail": "Increase Quick Card effectiveness (1 turn) <effect increases with Overcharge> & Arts Card effectiveness (1 turn) <effect increases with Overcharge> & Buster Card effectiveness (1 turn) <effect increases with Overcharge> & apply Sure Hit (1 turn) for yourself + Deal heavy damage [{0}] to all enemies",
     "detailShort": "Increase Quick Card effectiveness (1 turn) <effect increases with Overcharge> & Arts Card effectiveness (1 turn) <effect increases with Overcharge> & Buster Card effectiveness (1 turn) <effect increases with Overcharge> & apply Sure Hit (1 turn) for yourself + Deal heavy damage [{0}] to all enemies"
+  },
+  {
+    "id": 204301,
+    "detail": "Apply Sure Hit (1 turn) for yourself + Deal significant damage [{0}] & inflict Curse (5 turns) & inflict Disastrous Curse (increase Curse damage) (5 turns) <effect increases with Overcharge> for one enemy",
+    "detailShort": "Apply Sure Hit (1 turn) for yourself + Deal significant damage [{0}] & inflict Curse (5 turns) & inflict Disastrous Curse (increase Curse damage) (5 turns) <effect increases with Overcharge> for one enemy"
   },
   {
     "id": 300101,
@@ -2060,6 +2070,11 @@
     "detailShort": "Increase NP Strength (3 turns) <effect increases with Overcharge> for yourself + Deal significant damage [{0}] & decrease Charge for a single enemy"
   },
   {
+    "id": 704001,
+    "detail": "Apply Special Attack [Round Table Knights or Fae] (1 turn) for yourself + Deal heavy Special Attack damage to all enemies with [Human Attribute] [{0}] <Special Attack damage increases with Overcharge> & inflict Curse (5 turns) to all enemies + Increase NP Charge by 1 level when using NP (1 time, 3 turns) for all allies",
+    "detailShort": "Apply Special Attack [Round Table Knights or Fae] (1 turn) for yourself + Deal heavy Special Attack damage to all enemies with [Human Attribute] [{0}] <Special Attack damage increases with Overcharge> & inflict Curse (5 turns) to all enemies + Increase NP Charge by 1 level when using NP (1 time, 3 turns) for all allies"
+  },
+  {
     "id": 800100,
     "detail": "Unknown",
     "detailShort": "Unknown"
@@ -2083,6 +2098,16 @@
     "id": 800105,
     "detail": "Increase DEF (3 turns) <effect increases with Overcharge> & apply Incoming Damage Cut status [{0}] (3 times, 5 turns) for all allies",
     "detailShort": "Increase DEF (3 turns) <effect increases with Overcharge> & apply Incoming Damage Cut status [{0}] (3 times, 5 turns) for all allies"
+  },
+  {
+    "id": 800198,
+    "detail": "Increase DEF (3 turns) <effect increases with Overcharge> & apply Incoming Damage Cut status [{0}] (3 turns) for all allies + increase ATK for all allies except yourself",
+    "detailShort": "Increase DEF (3 turns) <effect increases with Overcharge> & apply Incoming Damage Cut status [{0}] (3 turns) for all allies + increase ATK for all allies except yourself"
+  },
+  {
+    "id": 800199,
+    "detail": "Increase DEF (3 turns) <effect increases with Overcharge> & apply Incoming Damage Cut status [{0}] (3 turns) for all allies + increase ATK for all allies except yourself",
+    "detailShort": "Increase DEF (3 turns) <effect increases with Overcharge> & apply Incoming Damage Cut status [{0}] (3 turns) for all allies + increase ATK for all allies except yourself"
   },
   {
     "id": 900101,
@@ -2708,5 +2733,40 @@
     "id": 9942959,
     "detail": "Deal heavy damage [{0}] & decrease Arts Card resistance (3 turns) <effect increases with Overcharge> & inflict Skill Seal (1 turn) & decrease Critical Rate (3 turns) to all enemies",
     "detailShort": "Deal heavy damage [{0}] & decrease Arts Card resistance (3 turns) <effect increases with Overcharge> & inflict Skill Seal (1 turn) & decrease Critical Rate (3 turns) to all enemies"
+  },
+  {
+    "id": 9943061,
+    "detail": "Restore HP each turn (5 turns) for all allies + Gain large amount of C. Stars <effect increases with Overcharge> + Decrease C. Star Gather Rate (3 turns) for yourself",
+    "detailShort": "Restore HP each turn (5 turns) for all allies + Gain large amount of C. Stars <effect increases with Overcharge> + Decrease C. Star Gather Rate (3 turns) for yourself"
+  },
+  {
+    "id": 9943081,
+    "detail": "Increase ATK [{0}] (3 turns) & remove Debuffs & apply an anti-Enforcement DEF state <disregard [Ignore Invincible] and reduce ATK damage received to 0> (1 time, 3 turns) <times increase with Overcharge> for all allies",
+    "detailShort": "Increase ATK [{0}] (3 turns) & remove Debuffs & apply an anti-Enforcement DEF state <disregard [Ignore Invincible] and reduce ATK damage received to 0> (1 time, 3 turns) <times increase with Overcharge> for all allies"
+  },
+  {
+    "id": 9943171,
+    "detail": "Apply Ignore Invincible (1 turn) for yourself + Deal significant damage [{0}] & decrease DEF (3 turns) <effect increases with Overcharge> for a single enemy",
+    "detailShort": "Apply Ignore Invincible (1 turn) for yourself + Deal significant damage [{0}] & decrease DEF (3 turns) <effect increases with Overcharge> for a single enemy"
+  },
+  {
+    "id": 9943181,
+    "detail": "Increase Buster Card effectiveness (1 turn) <effect increases with Overcharge> for yourself + Deal heavy damage [{0}] to all enemies + Increase Max HP (5 turns) & reduce skill cooldown by 1 for yourself",
+    "detailShort": "Increase Buster Card effectiveness (1 turn) <effect increases with Overcharge> for yourself + Deal heavy damage [{0}] to all enemies + Increase Max HP (5 turns) & reduce skill cooldown by 1 for yourself"
+  },
+  {
+    "id": 9943191,
+    "detail": "Apply Sure Hit (1 turn) for yourself + Deal significant damage [{0}] & inflict Curse (5 turns) & inflict Disastrous Curse (increase Curse damage) (5 turns) <effect increases with Overcharge> for one enemy",
+    "detailShort": "Apply Sure Hit (1 turn) for yourself + Deal significant damage [{0}] & inflict Curse (5 turns) & inflict Disastrous Curse (increase Curse damage) (5 turns) <effect increases with Overcharge> for one enemy"
+  },
+  {
+    "id": 9943201,
+    "detail": "",
+    "detailShort": ""
+  },
+  {
+    "id": 9943211,
+    "detail": "Increase Arts Card effectiveness (3 turns) <effect increases with Overcharge> & NP Strength (3 turns) for yourself + Remove ATK buffs & deal heavy DEF-ignoring damage [{0}] to all enemies",
+    "detailShort": "Increase Arts Card effectiveness (3 turns) <effect increases with Overcharge> & NP Strength (3 turns) for yourself + Remove ATK buffs & deal heavy DEF-ignoring damage [{0}] to all enemies"
   }
 ]

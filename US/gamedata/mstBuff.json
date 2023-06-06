@@ -34573,7 +34573,7 @@
     "id": 2789,
     "buffGroup": 0,
     "type": 89,
-    "name": "Bonus Effect with ATK (Burn)",
+    "name": "Bonus Effect on Attack (Burn)",
     "detail": "Inflict Burn (3 turns) to a single enemy during normal attacks",
     "iconId": 528,
     "maxRate": 0,
@@ -34653,7 +34653,7 @@
     "id": 2793,
     "buffGroup": 0,
     "type": 89,
-    "name": "Bonus Effect with ATK (ATK Up)",
+    "name": "Bonus Effect on Attack (ATK Up)",
     "detail": "Increase ATK during your attacks",
     "iconId": 333,
     "maxRate": 0,
@@ -47560,7 +47560,7 @@
     "id": 3533,
     "buffGroup": 0,
     "type": 137,
-    "name": "Bonus Effect with ATK (ATK Down)",
+    "name": "Bonus Effect on Attack (ATK Down)",
     "detail": "Decrease ATK for a single enemy when attacking",
     "iconId": 528,
     "maxRate": 0,
@@ -47577,7 +47577,7 @@
     "id": 3534,
     "buffGroup": 0,
     "type": 137,
-    "name": "Bonus Effect with ATK (Nullify Buff)",
+    "name": "Bonus Effect on Attack (Nullify Buff)",
     "detail": "Inflict Nullify Buff to a single enemy during your attacks",
     "iconId": 528,
     "maxRate": 0,
@@ -48401,6 +48401,1158 @@
     "name": "",
     "detail": "",
     "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3025
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3585,
+    "buffGroup": 800,
+    "type": 161,
+    "name": "Black Barrel Not Usable",
+    "detail": "Unable to use Black Barrel",
+    "iconId": 511,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3586,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "Power of Grudge",
+    "detail": "Increase ATK & decrease DEF [Demerit] for yourself, with each (Curse) state ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3587,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3588,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "Tainted Curse",
+    "detail": "Increase DEF & apply a state where at least 1 HP remains when sustaining Curse damage for yourself + Inflict Curse to a single enemy when taking damage & inflict Curse",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {},
+    "id": 3589,
+    "buffGroup": 0,
+    "type": 30,
+    "name": "Mental Corruption (Fae)",
+    "detail": "Decrease Debuff Resist (Fae) for all enemies",
+    "iconId": 506,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3590,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "Delayed Effect (Absorb Curse)",
+    "detail": "Absorb Curse from all allies, excluding yourself, after 1 turn",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 3591,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2786
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3592,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Knowledge of the Outer World (Evil)",
+    "detail": "Increase Nullify Buff Resist & increase damage inflicted to (Cursed) enemies at the end of each turn for yourself + Apply a state that inflicts Curse to all enemies",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2787
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3593,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Knowledge of the Outer World (Giant)",
+    "detail": "Increase Nullify Buff Resist & increase your ATK at the end of each turn & apply a state that increases damage dealt for yourself",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2788
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3594,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Knowledge of the Outer World (Water)",
+    "detail": "Increase Nullify Buff Resist & increase your Critical Hit Rate at the end of each turn for yourself + Low chance to inflict Charm (1 turn) to a single enemy during your normal attacks",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2788
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3595,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "",
+    "detail": "",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3596,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect on Attack (Inflict Curse)",
+    "detail": "Inflict Curse (3 turns) to a single enemy during your normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      1177
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      1177
+    ],
+    "script": {},
+    "id": 3597,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Strength Up (Fae)",
+    "detail": "Increase damage dealt against [Fae]",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2789
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3598,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Add Individuality",
+    "detail": "Add Individuality",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2790
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3599,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Add Individuality",
+    "detail": "Add Individuality",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2791
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3600,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Add Individuality",
+    "detail": "Add Individuality",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3601,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Foul Weather",
+    "detail": "Gain resistance to all attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3602,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "???",
+    "detail": "Increase ATK & NP Gain",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3603,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "Tam Lin",
+    "detail": "Increase ATK & NP Gain",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3604,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "",
+    "detail": "",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      2113
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2113
+    ],
+    "script": {},
+    "id": 3605,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "European Cat Mansion",
+    "detail": "Increase damage dealt against [King] & inflict Curse (3 turns) to a single enemy during normal attacks",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3606,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "",
+    "detail": "",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      1
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      1
+    ],
+    "script": {},
+    "id": 3607,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Kitty Ghost Story",
+    "detail": "Increase damage dealt against [Males] & inflict Curse (3 turns) to a single enemy during normal attacks",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 3608,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Cooling: Revolving Panel",
+    "detail": "Increase NP charge to MAX when sustaining NP attacks",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2792
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3609,
+    "buffGroup": 600,
+    "type": 104,
+    "name": "Kitty Lantern",
+    "detail": "When HP reaches 0, recover HP and survive",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3610,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "",
+    "detail": "",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3611,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn (HP Recovery)",
+    "detail": "Recover all allies' HP at the end of turn ",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3612,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect on Attack (Inflict Confusion)",
+    "detail": "Inflict Confusion (1 turn) to a single enemy during normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6021
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3613,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "ATK Up",
+    "detail": "Increase ATK",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 133
+    },
+    "id": 3614,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "Class Affinity Change When Attacking",
+    "detail": "Change Class affinity (ATK affinity to be the same as Berserker)",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      5000
+    ],
+    "script": {},
+    "id": 3615,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "Bonus Effect when Defeated (Increase ATK)",
+    "detail": "Increase your ATK when an enemy is defeated",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3616,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Triggers each Turn (Increase Target Focus)",
+    "detail": "Apply Target Focus to a single enemy at the end of each turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6021
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3617,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Special Resist Up",
+    "detail": "Gain resistance to all attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3618,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect on Attack (Inflict Stun)",
+    "detail": "Low Chance to inflict Stun (1 turn) to a single enemy during your normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3619,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn (Critical Hit Rate Up)",
+    "detail": "Increase your Critical Hit Rate at end of each turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3620,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn (Increase NP Charge & NP Strength Up)",
+    "detail": "Increase NP charge to MAX at the end of each turn & increase NP Strength",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6021
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3621,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "Damage Cut",
+    "detail": "Decrease damage taken",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3622,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn (HP Loss)",
+    "detail": "Decrease HP each turn",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3014,
+      3045
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3623,
+    "buffGroup": 500,
+    "type": 32,
+    "name": "Magecraft Tools Sold Out",
+    "detail": "Unable to act",
+    "iconId": 501,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2793
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3624,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Paper Amulet",
+    "detail": "No effect",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6021
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3625,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 0
+    },
+    "id": 3626,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "",
+    "detail": "",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      2796
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2796
+    ],
+    "script": {},
+    "id": 3627,
+    "buffGroup": 0,
+    "type": 29,
+    "name": "Curse Resist Up (Calamity of Norwich)",
+    "detail": "Increase resist against Curses from Calamity of Norwich",
+    "iconId": 306,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2794
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3628,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [
+      4008
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3630,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Strong Eater",
+    "detail": "Restore HP for yourself during normal attacks + Remove 1 Buff of a single enemy & when successfully removed, decrease DEF of a single enemy",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      2795,
+      1177
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2795,
+      1177
+    ],
+    "script": {},
+    "id": 3632,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Strength Up (Round Table Knight and Fae)",
+    "detail": "Increase damage dealt against [Round Table Knights and Fae]",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3026,
+      2796,
+      2729
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3633,
+    "buffGroup": 0,
+    "type": 8,
+    "name": "Curse",
+    "detail": "Lose HP at end of each turn",
+    "iconId": 521,
+    "maxRate": 0,
+    "effectId": 17123
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3634,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn (ATK Down & Critical Hit Rate Down)",
+    "detail": "Decrease ATK & Critical Hit Rate of all enemies at the end of each turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3635,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn (Increase NP)",
+    "detail": "Increase NP Gauge for all allies at the end of each turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      2797
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2797
+    ],
+    "script": {},
+    "id": 3636,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Strength Up (Divine Spirit)",
+    "detail": "Increase damage dealt against [Divine Spirits]",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [
+      3005
+    ],
+    "ckOpIndv": [
+      1177
+    ],
+    "script": {},
+    "id": 3637,
+    "buffGroup": 0,
+    "type": 27,
+    "name": "Mental Corruption (Fae)",
+    "detail": "Increase Debuff chance rate against [Fae]",
+    "iconId": 307,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028,
+      2786
+    ],
+    "tvals": [
+      3026
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3026
+    ],
+    "script": {},
+    "id": 3638,
+    "buffGroup": 0,
+    "type": 112,
+    "name": "Strength Up (Curse)",
+    "detail": "Increase damage to [Cursed] enemies",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027,
+      2787
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 3639,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "ATK Up",
+    "detail": "Increase ATK",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3029,
+      2787
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3640,
+    "buffGroup": 0,
+    "type": 13,
+    "name": "Damage Plus",
+    "detail": "Increase damage dealt",
+    "iconId": 302,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032,
+      2788
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 3641,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "Critical Hit Rate Up",
+    "detail": "Increase Critical Hit rate",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6021
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3642,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Add Individuality",
+    "detail": "Add Individuality",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6022
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3643,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Add Individuality",
+    "detail": "Add Individuality",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6023
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3644,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Add Individuality",
+    "detail": "Add Individuality",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3645,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Add Individuality",
+    "detail": "Add Individuality",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6025
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3646,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Add Individuality",
+    "detail": "Add Individuality",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3647,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "",
+    "detail": "",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3648,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn (ATK Down & C. Star Rate Down)",
+    "detail": "Decrease ATK & C. Star drop rate for all enemies at the end of each turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      3070
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3070
+    ],
+    "script": {},
+    "id": 3649,
+    "buffGroup": 0,
+    "type": 29,
+    "name": "",
+    "detail": "",
+    "iconId": 306,
     "maxRate": 5000,
     "effectId": 0
   },

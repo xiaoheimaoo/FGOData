@@ -2390,6 +2390,11 @@
     "detailShort": "Gain C. Stars each turn [{0}] (3 turns) & increase Critical Strength [{0}] (3 turns) for yourself"
   },
   {
+    "id": 242450,
+    "detail": "Increase ATK (3 turns) & increase Buster Card effectiveness [{0}] (3 turns) when on a [Sunlight] field for yourself",
+    "detailShort": "Increase ATK (3 turns) & increase Buster Card effectiveness [{0}] (3 turns) when on a [Sunlight] field for yourself"
+  },
+  {
     "id": 242650,
     "detail": "Increase ATK (3 turns) & increase Buster Card effectiveness [{0}] (3 turns) when on a [Sunlight] field for yourself",
     "detailShort": "Increase ATK (3 turns) & increase Buster Card effectiveness [{0}] (3 turns) when on a [Sunlight] field for yourself"
@@ -4866,8 +4871,8 @@
   },
   {
     "id": 706350,
-    "detail": "<Useable only if HP is below 50%> Increase ATK [{0}] (1 time, 1 turn) & increase Critical Strength [{0}] (1 time, 1 turn) & apply status \"Remove DEF Buffs for a single enemy when attacking + Apply Death to yourself [Demerit] (1 time) <Treated as Buff>\" to yourself",
-    "detailShort": "<Useable only if HP is below 50%> Increase ATK [{0}] (1 time, 1 turn) & increase Critical Strength [{0}] (1 time, 1 turn) & apply status \"Remove DEF Buffs for a single enemy when attacking + Apply Death to yourself [Demerit] (1 time) <Treated as Buff>\" to yourself"
+    "detail": "<Useable only if HP is below 50%> Increase ATK [{0}] (1 time, 1 turn) & increase Critical Strength [{0}] (1 time, 1 turn) & apply status \"Remove DEF Buffs for a single enemy when attacking + Apply Death to yourself [Demerit] (1 turn) <Treated as Buff>\" to yourself",
+    "detailShort": "<Useable only if HP is below 50%> Increase ATK [{0}] (1 time, 1 turn) & increase Critical Strength [{0}] (1 time, 1 turn) & apply status \"Remove DEF Buffs for a single enemy when attacking + Apply Death to yourself [Demerit] (1 turn) <Treated as Buff>\" to yourself"
   },
   {
     "id": 707550,
@@ -5145,6 +5150,11 @@
     "detailShort": "Increase ATK [{0}] (3 turns) & increase NP Gauge [{0}] for all allies"
   },
   {
+    "id": 762350,
+    "detail": "Increase NP Gauge [{0}] for a single ally + Increase NP Gain [{0}] (3 turns) for all allies",
+    "detailShort": "Increase NP Gauge [{0}] for a single ally + Increase NP Gain [{0}] (3 turns) for all allies"
+  },
+  {
     "id": 762550,
     "detail": "Increase NP Gauge [{0}] for a single ally + Increase NP Gain [{0}] (3 turns) for all allies",
     "detailShort": "Increase NP Gauge [{0}] for a single ally + Increase NP Gain [{0}] (3 turns) for all allies"
@@ -5196,8 +5206,8 @@
   },
   {
     "id": 772550,
-    "detail": "Apply Guts [{0}] (1 time, 3 turns) & increase Critical Strength [{0}] (3 turns) & apply [Staying Up Late] where \"Stun is applied after 3 turns (1 turn) [Demerit] for yourself\" <treated as a Buff> for youself [Demerit]",
-    "detailShort": "Apply Guts [{0}] (1 time, 3 turns) & increase Critical Strength [{0}] (3 turns) & apply [Staying Up Late] where \"Stun is applied after 3 turns (1 turn) [Demerit] for yourself\" <treated as a Buff> for youself [Demerit]"
+    "detail": "Apply Guts [{0}] (1 time, 3 turns) & increase Critical Strength [{0}] (3 turns) & apply [Staying Up Late] where \"Stun is applied after 3 turns (1 turn) [Demerit] for yourself\" <treated as a Buff> for yourself [Demerit]",
+    "detailShort": "Apply Guts [{0}] (1 time, 3 turns) & increase Critical Strength [{0}] (3 turns) & apply [Staying Up Late] where \"Stun is applied after 3 turns (1 turn) [Demerit] for yourself\" <treated as a Buff> for yourself [Demerit]"
   },
   {
     "id": 773451,
@@ -5713,6 +5723,56 @@
     "id": 876550,
     "detail": "Increase Quick Card effectiveness [{0}] (3 turns) for yourself [g][o]▲[/o][/g] + Remove Debuffs [g][o]▲[/o][/g] & apply Evade (1 time) & Recover HP [g][o]▲[/o][/g] [{0}] for all allies",
     "detailShort": "Increase Quick Card effectiveness [{0}] (3 turns) for yourself [g][o]▲[/o][/g] + Remove Debuffs [g][o]▲[/o][/g] & apply Evade (1 time) & Recover HP [g][o]▲[/o][/g] [{0}] for all allies"
+  },
+  {
+    "id": 877350,
+    "detail": "Increase incoming Critical Resistance for yourself",
+    "detailShort": "Increase incoming Critical Resistance for yourself"
+  },
+  {
+    "id": 877550,
+    "detail": "Increase incoming Critical Resistance for yourself",
+    "detailShort": "Increase incoming Critical Resistance for yourself"
+  },
+  {
+    "id": 879450,
+    "detail": "Increase ATK [{0}] (3 turns) for all allies + Increase NP Gauge [{0}] for yourself + Decrease DEF [{0}] (3 turns) for all enemies",
+    "detailShort": "Increase ATK [{0}] (3 turns) for all allies + Increase NP Gauge [{0}] for yourself + Decrease DEF [{0}] (3 turns) for all enemies"
+  },
+  {
+    "id": 880550,
+    "detail": "Apply Guts [{0}] (1 time, 3 turns) & increase C. Star Gather Rate [{0}] (3 turns) & increase Critical Strength [{0}] (3 turns) & apply a state that \"decreases ATK [{0}] (1 turn) & decreases Critical Rate [{0}] (1 turn) for all enemies each turn\" (3 turns) for yourself + Gain C. Stars [{0}]",
+    "detailShort": "Apply Guts [{0}] (1 time, 3 turns) & increase C. Star Gather Rate [{0}] (3 turns) & increase Critical Strength [{0}] (3 turns) & apply a state that \"decreases ATK [{0}] (1 turn) & decreases Critical Rate [{0}] (1 turn) for all enemies each turn\" (3 turns) for yourself + Gain C. Stars [{0}]"
+  },
+  {
+    "id": 881550,
+    "detail": "Increase Buster Card effectiveness [{0}] (3 turns) & apply [Strong Eater] state that \"Restores HP for yourself during normal attacks + Removes 1 Buff of a single enemy & when successfully removed, decreases DEF of a single enemy\" (3 turns)",
+    "detailShort": "Increase Buster Card effectiveness [{0}] (3 turns) & apply [Strong Eater] state that \"Restores HP for yourself during normal attacks + Removes 1 Buff of a single enemy & when successfully removed, decreases DEF of a single enemy\" (3 turns)"
+  },
+  {
+    "id": 882550,
+    "detail": "Apply Incoming Damage Cut [{0}] (3 times, 3 turns) for all allies + Apply a state that \"increases NP Gauge for all allies each turn\" for yourself [{0}] (3 turns)",
+    "detailShort": "Apply Incoming Damage Cut [{0}] (3 times, 3 turns) for all allies + Apply a state that \"increases NP Gauge for all allies each turn\" for yourself [{0}] (3 turns)"
+  },
+  {
+    "id": 883550,
+    "detail": "Increase Quick Card effectiveness [{0}] (3 turns) & apply Invincible (1 turn) for yourself + Apply Evade (1 time) for all allies + Decrease 500 HP for all allies excluding yourself [Demerit]",
+    "detailShort": "Increase Quick Card effectiveness [{0}] (3 turns) & apply Invincible (1 turn) for yourself + Apply Evade (1 time) for all allies + Decrease 500 HP for all allies excluding yourself [Demerit]"
+  },
+  {
+    "id": 884650,
+    "detail": "Inflict NP Seal (1 turn) & Skill Seal (1 turn) to all enemies + Increase NP Gauge [{0}] for yourself",
+    "detailShort": "Inflict NP Seal (1 turn) & Skill Seal (1 turn) to all enemies + Increase NP Gauge [{0}] for yourself"
+  },
+  {
+    "id": 885550,
+    "detail": "Absorb HP [{0}] & high chance to decrease Charge [{0}] of a single enemy + Increase NP Gauge [{0}] for yourself",
+    "detailShort": "Absorb HP [{0}] & high chance to decrease Charge [{0}] of a single enemy + Increase NP Gauge [{0}] for yourself"
+  },
+  {
+    "id": 892452,
+    "detail": "Apply Guts (1 time, 3 turns) [g][o]▲[/o][/g] [{0}] & increase Critical Strength [{0}] (3 turns) [g][o]▲[/o][/g] for yourself + Gain C. Stars [{0}] [g][o]▲[/o][/g]",
+    "detailShort": "Apply Guts (1 time, 3 turns) [g][o]▲[/o][/g] [{0}] & increase Critical Strength [{0}] (3 turns) [g][o]▲[/o][/g] for yourself + Gain C. Stars [{0}] [g][o]▲[/o][/g]"
   },
   {
     "id": 940001,
@@ -7438,6 +7498,51 @@
     "id": 966103,
     "detail": "Increase Critical Strength & C. Star Gather Rate & gain C. Stars each turn for yourself",
     "detailShort": "Increase Critical Strength & C. Star Gather Rate & gain C. Stars each turn for yourself"
+  },
+  {
+    "id": 966246,
+    "detail": "<Alter Ego exclusive skill> Apply [Divine Spirit] Special Attack (3 turns) & apply Ignore Invincible (3 turns) & apply DEF Ignore (3 turns) & increase NP Gauge [{0}] for yourself",
+    "detailShort": "<Alter Ego exclusive skill> Apply [Divine Spirit] Special Attack (3 turns) & apply Ignore Invincible (3 turns) & apply DEF Ignore (3 turns) & increase NP Gauge [{0}] for yourself"
+  },
+  {
+    "id": 966258,
+    "detail": "Increase Quick Card effectiveness [{0}] (3 times, 5 turns) & C. Star Drop Rate [{0}] (3 times, 5 turns) for yourself",
+    "detailShort": "Increase Quick Card effectiveness [{0}] (3 times, 5 turns) & C. Star Drop Rate [{0}] (3 times, 5 turns) for yourself"
+  },
+  {
+    "id": 966259,
+    "detail": "Chance to increase C. Star Gather Rate [{0}] (1 turn) & chance to apply Ignore Invincible [{0}] (1 turn) & apply Evade (1 turn) for yourself",
+    "detailShort": "Chance to increase C. Star Gather Rate [{0}] (1 turn) & chance to apply Ignore Invincible [{0}] (1 turn) & apply Evade (1 turn) for yourself"
+  },
+  {
+    "id": 966260,
+    "detail": "Increase Critical Strength [{0}] (3 times, 5 turns) & ATK [{0}] (3 times, 5 turns) for yourself",
+    "detailShort": "Increase Critical Strength [{0}] (3 times, 5 turns) & ATK [{0}] (3 times, 5 turns) for yourself"
+  },
+  {
+    "id": 966267,
+    "detail": "Restore HP [{0}] & apply Debuff Immune (1 turn) & increase C. Star Drop Rate [{0}] (1 turn) for a single ally",
+    "detailShort": "Restore HP [{0}] & apply Debuff Immune (1 turn) & increase C. Star Drop Rate [{0}] (1 turn) for a single ally"
+  },
+  {
+    "id": 966268,
+    "detail": "Increase Arts Card effectiveness [{0}] (3 turns) & greatly increase NP Gauge [{0}] & decrease 2000 HP [Demerit] for yourself",
+    "detailShort": "Increase Arts Card effectiveness [{0}] (3 turns) & greatly increase NP Gauge [{0}] & decrease 2000 HP [Demerit] for yourself"
+  },
+  {
+    "id": 966270,
+    "detail": "Apply Guts (1 time, 3 turns) [{0}] & increase Critical Strength [{0}] (3 turns) for yourself + Gain C. Stars [{0}]",
+    "detailShort": "Apply Guts (1 time, 3 turns) [{0}] & increase Critical Strength [{0}] (3 turns) for yourself + Gain C. Stars [{0}]"
+  },
+  {
+    "id": 966271,
+    "detail": "Increase NP Gauge [{0}] & apply \"increase your ATK when damaged [{0}] (1 time, 5 turns)\" state (3 turns) for yourself",
+    "detailShort": "Increase NP Gauge [{0}] & apply \"increase your ATK when damaged [{0}] (1 time, 5 turns)\" state (3 turns) for yourself"
+  },
+  {
+    "id": 966272,
+    "detail": "Apply Target Focus (1 turn) & greatly increase DEF [{0}] (1 turn) & increase NP Gain [{0}] (1 turn) for yourself",
+    "detailShort": "Apply Target Focus (1 turn) & greatly increase DEF [{0}] (1 turn) & increase NP Gain [{0}] (1 turn) for yourself"
   },
   {
     "id": 980001,
@@ -20028,6 +20133,71 @@
     "id": 992663,
     "detail": "When a quest is completed, increase the amount of Mystic Code EXP gained by 50",
     "detailShort": "When a quest is completed, increase the amount of Mystic Code EXP gained by 50"
+  },
+  {
+    "id": 992664,
+    "detail": "Increase Arts Card effectiveness by 15% & increase NP Charge by 2 levels when using NP (1 time) for yourself",
+    "detailShort": "Increase Arts Card effectiveness by 15% & increase NP Charge by 2 levels when using NP (1 time) for yourself"
+  },
+  {
+    "id": 992665,
+    "detail": "Increase Arts Card effectiveness by 20% & increase NP Charge by 2 levels when using NP (1 time) for yourself [MAX]",
+    "detailShort": "Increase Arts Card effectiveness by 20% & increase NP Charge by 2 levels when using NP (1 time) for yourself [MAX]"
+  },
+  {
+    "id": 992666,
+    "detail": "Increase Buster Card effectiveness by 8% & begin battle with NP charged at 30% for yourself",
+    "detailShort": "Increase Buster Card effectiveness by 8% & begin battle with NP charged at 30% for yourself"
+  },
+  {
+    "id": 992667,
+    "detail": "Increase Buster Card effectiveness by 10% & begin battle with NP charged at 50% for yourself [MAX]",
+    "detailShort": "Increase Buster Card effectiveness by 10% & begin battle with NP charged at 50% for yourself [MAX]"
+  },
+  {
+    "id": 992668,
+    "detail": "Increase Quick Card effectiveness by 8% & begin battle with NP charged at 30% for yourself",
+    "detailShort": "Increase Quick Card effectiveness by 8% & begin battle with NP charged at 30% for yourself"
+  },
+  {
+    "id": 992669,
+    "detail": "Increase Quick Card effectiveness by 10% & begin battle with NP charged at 50% for yourself [MAX]",
+    "detailShort": "Increase Quick Card effectiveness by 10% & begin battle with NP charged at 50% for yourself [MAX]"
+  },
+  {
+    "id": 992670,
+    "detail": "Increase NP Strength by 10% & begin battle with NP charged at 30% for yourself",
+    "detailShort": "Increase NP Strength by 10% & begin battle with NP charged at 30% for yourself"
+  },
+  {
+    "id": 992671,
+    "detail": "Increase NP Strength by 15% & begin battle with NP charged at 50% for yourself [MAX]",
+    "detailShort": "Increase NP Strength by 15% & begin battle with NP charged at 50% for yourself [MAX]"
+  },
+  {
+    "id": 992672,
+    "detail": "Increase Buff Removal Resist by 15% for yourself",
+    "detailShort": "Increase Buff Removal Resist by 15% for yourself"
+  },
+  {
+    "id": 992673,
+    "detail": "Increase Buff Removal Resist by 20% for yourself [MAX]",
+    "detailShort": "Increase Buff Removal Resist by 20% for yourself [MAX]"
+  },
+  {
+    "id": 992676,
+    "detail": "Apply 15% Special Attack against [Round Table Knights or Fae] & 15% Special Attack against all enemies with [Human Attribute] only if [servantName 704000] (Berserker) is equipped with this Craft Essence when she is on the field.",
+    "detailShort": "Apply 15% Special Attack against [Round Table Knights or Fae] & 15% Special Attack against all enemies with [Human Attribute] only if [servantName 704000] (Berserker) is equipped with this Craft Essence when she is on the field."
+  },
+  {
+    "id": 992679,
+    "detail": "Increase NP Strength by 30% & chance to increase Max HP by 500 (3 turns) during attacks for yourself only if [servantName 105000] (Saber) is equipped with this Craft Essence when she is on the field.",
+    "detailShort": "Increase NP Strength by 30% & chance to increase Max HP by 500 (3 turns) during attacks for yourself only if [servantName 105000] (Saber) is equipped with this Craft Essence when she is on the field."
+  },
+  {
+    "id": 992680,
+    "detail": "Increase NP Strength by 30% & chance to increase NP Gauge by 5% during attacks for yourself only if [servantName 204300] (Archer) is equipped with this Craft Essence when she is on the field.",
+    "detailShort": "Increase NP Strength by 30% & chance to increase NP Gauge by 5% during attacks for yourself only if [servantName 204300] (Archer) is equipped with this Craft Essence when she is on the field."
   },
   {
     "id": 992682,
