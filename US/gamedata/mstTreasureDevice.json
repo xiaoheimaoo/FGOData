@@ -7650,6 +7650,38 @@
       4007
     ],
     "script": {},
+    "id": 713,
+    "seqId": 9942910,
+    "name": "Embrace",
+    "ruby": "-",
+    "rank": "None",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3000,
+      4007
+    ],
+    "script": {},
+    "id": 714,
+    "seqId": 9942920,
+    "name": "Torrent",
+    "ruby": "-",
+    "rank": "None",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3000,
+      4007
+    ],
+    "script": {},
     "id": 717,
     "seqId": 9942950,
     "name": "\"Come here.\"",
@@ -7669,6 +7701,38 @@
     "id": 719,
     "seqId": 9942970,
     "name": "Rib Breaking",
+    "ruby": "-",
+    "rank": "None",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
+      4007
+    ],
+    "script": {},
+    "id": 720,
+    "seqId": 9942980,
+    "name": "Retaliation",
+    "ruby": "-",
+    "rank": "None",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3000,
+      4007
+    ],
+    "script": {},
+    "id": 721,
+    "seqId": 9942990,
+    "name": "Clinging",
     "ruby": "-",
     "rank": "None",
     "maxLv": 5,
@@ -7701,6 +7765,22 @@
     "id": 723,
     "seqId": 9939190,
     "name": "Self-Destruct",
+    "ruby": "-",
+    "rank": "None",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3000,
+      4007
+    ],
+    "script": {},
+    "id": 724,
+    "seqId": 9943070,
+    "name": "Elimination",
     "ruby": "-",
     "rank": "None",
     "maxLv": 5,
@@ -11301,6 +11381,166 @@
     "id": 304601,
     "seqId": 304600,
     "name": "Asurasreshta",
+    "ruby": " ",
+    "rank": "EX",
+    "maxLv": 5,
+    "typeText": "Anti-World",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3000,
+      4001,
+      4007,
+      4101
+    ],
+    "script": {
+      "delayEnd": 1
+    },
+    "id": 304701,
+    "seqId": 304700,
+    "name": "Longinus Count Zero",
+    "ruby": " ",
+    "rank": "C+～A+",
+    "maxLv": 5,
+    "typeText": "Anti-Fortress",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3000,
+      4001,
+      4007
+    ],
+    "script": {
+      "randomSeqIds_1": [
+        304810,
+        304810
+      ],
+      "randomSeqIds": [
+        304800,
+        304800
+      ],
+      "randomSeqIds_3": [
+        304820,
+        304821
+      ],
+      "randomSeqIds_2": [
+        304810,
+        304810
+      ],
+      "randomWeights_3": [
+        80,
+        20
+      ],
+      "randomWeights_1": [
+        80,
+        20
+      ],
+      "randomWeights_2": [
+        80,
+        20
+      ],
+      "randomWeights": [
+        80,
+        20
+      ],
+      "randomWeights_4": [
+        80,
+        20
+      ],
+      "randomSeqIds_4": [
+        304820,
+        304821
+      ],
+      "delayEnd": 1
+    },
+    "id": 304801,
+    "seqId": 304800,
+    "name": "Innocence Arondight",
+    "ruby": " ",
+    "rank": "A",
+    "maxLv": 5,
+    "typeText": "Anti-Personnel",
+    "attackAttri": 1,
+    "effectFlag": 2
+  },
+  {
+    "individuality": [
+      3002,
+      4002,
+      4007,
+      4101
+    ],
+    "script": {
+      "randomSeqIds_1": [
+        304810,
+        304810
+      ],
+      "randomSeqIds": [
+        304800,
+        304800
+      ],
+      "randomSeqIds_3": [
+        304820,
+        304821
+      ],
+      "randomSeqIds_2": [
+        304810,
+        304810
+      ],
+      "randomWeights_3": [
+        80,
+        20
+      ],
+      "randomWeights_1": [
+        80,
+        20
+      ],
+      "randomWeights_2": [
+        80,
+        20
+      ],
+      "randomWeights": [
+        80,
+        20
+      ],
+      "randomWeights_4": [
+        80,
+        20
+      ],
+      "randomSeqIds_4": [
+        304820,
+        304821
+      ],
+      "npNameFileSuffix": "304802",
+      "delayEnd": 1
+    },
+    "id": 304802,
+    "seqId": 304800,
+    "name": "Hollow Heart Albion",
+    "ruby": " ",
+    "rank": "EX",
+    "maxLv": 5,
+    "typeText": "Anti-World",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3002,
+      4002,
+      4007,
+      4101
+    ],
+    "script": {
+      "npNameFileSuffix": "304898"
+    },
+    "id": 304898,
+    "seqId": 304800,
+    "name": "???",
     "ruby": " ",
     "rank": "EX",
     "maxLv": 5,
@@ -19865,6 +20105,63 @@
   },
   {
     "individuality": [
+      3002,
+      4001,
+      4007
+    ],
+    "script": {},
+    "id": 9943091,
+    "seqId": 9943090,
+    "name": "Around Caliburn",
+    "ruby": " ",
+    "rank": "A",
+    "maxLv": 5,
+    "typeText": "Anti-Army",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
+      4002,
+      4007,
+      4101
+    ],
+    "script": {
+      "delayEnd": 1
+    },
+    "id": 9943109,
+    "seqId": 9943010,
+    "name": "Roadless Camelot",
+    "ruby": " ",
+    "rank": "EX",
+    "maxLv": 5,
+    "typeText": "Anti-Fortress",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3002,
+      4002,
+      4007,
+      4101
+    ],
+    "script": {
+      "delayEnd": 1
+    },
+    "id": 9943127,
+    "seqId": 9943030,
+    "name": "Rye Rhyme Goodfellow",
+    "ruby": " ",
+    "rank": "E",
+    "maxLv": 5,
+    "typeText": "Anti-Personnel",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
       3000,
       4002,
       4007
@@ -19951,6 +20248,161 @@
     "name": "Tsumukari Muramasa",
     "ruby": " ",
     "rank": "A+",
+    "maxLv": 5,
+    "typeText": "Anti-Personnel",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3000,
+      4001,
+      4007,
+      4101
+    ],
+    "script": {
+      "delayEnd": 1
+    },
+    "id": 9943221,
+    "seqId": 9943220,
+    "name": "Lost Longinus",
+    "ruby": " ",
+    "rank": "EX",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3002,
+      4003,
+      4007
+    ],
+    "script": {
+      "delayEnd": 1
+    },
+    "id": 9943271,
+    "seqId": 9943270,
+    "name": "Fetch Failnaught",
+    "ruby": " ",
+    "rank": "E",
+    "maxLv": 5,
+    "typeText": "Anti-Personnel",
+    "attackAttri": 1,
+    "effectFlag": 2
+  },
+  {
+    "individuality": [
+      3000,
+      4001,
+      4007,
+      4101
+    ],
+    "script": {
+      "delayEnd": 1
+    },
+    "id": 9943281,
+    "seqId": 9943280,
+    "name": "Lost Longinus",
+    "ruby": " ",
+    "rank": "EX",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3000,
+      4002,
+      4007
+    ],
+    "script": {},
+    "id": 9943311,
+    "seqId": 9943310,
+    "name": "Ira Lupus",
+    "ruby": " ",
+    "rank": "C++",
+    "maxLv": 5,
+    "typeText": "Anti-Personnel",
+    "attackAttri": 1,
+    "effectFlag": 2
+  },
+  {
+    "individuality": [
+      3000,
+      4001,
+      4007
+    ],
+    "script": {
+      "delayEnd": 1
+    },
+    "id": 9943321,
+    "seqId": 9943320,
+    "name": "Innocence Arondight",
+    "ruby": " ",
+    "rank": "A",
+    "maxLv": 5,
+    "typeText": "Anti-Personnel",
+    "attackAttri": 1,
+    "effectFlag": 2
+  },
+  {
+    "individuality": [
+      3002,
+      4002,
+      4007,
+      4101
+    ],
+    "script": {
+      "delayEnd": 1
+    },
+    "id": 9943331,
+    "seqId": 9943330,
+    "name": "Hollow Heart Albion",
+    "ruby": " ",
+    "rank": "EX",
+    "maxLv": 5,
+    "typeText": "Anti-World",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3002,
+      4002,
+      4007,
+      4101
+    ],
+    "script": {
+      "delayEnd": 1
+    },
+    "id": 9943346,
+    "seqId": 9943030,
+    "name": "Rye Rhyme Goodfellow",
+    "ruby": " ",
+    "rank": "E",
+    "maxLv": 5,
+    "typeText": "Anti-Personnel",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3002,
+      4002,
+      4007,
+      4101
+    ],
+    "script": {
+      "delayEnd": 1
+    },
+    "id": 9943355,
+    "seqId": 9943030,
+    "name": "Rye Rhyme Goodfellow",
+    "ruby": " ",
+    "rank": "E",
     "maxLv": 5,
     "typeText": "Anti-Personnel",
     "attackAttri": 1,
