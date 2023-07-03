@@ -11943,7 +11943,7 @@
     "ckOpIndv": [],
     "script": {},
     "id": 949,
-    "buffGroup": 601,
+    "buffGroup": 0,
     "type": 104,
     "name": "Guts",
     "detail": "When HP reaches 0, recover HP and survive (stackable with other Guts)",
@@ -33776,7 +33776,7 @@
     "ckOpIndv": [],
     "script": {},
     "id": 2747,
-    "buffGroup": 601,
+    "buffGroup": 0,
     "type": 37,
     "name": "Guts",
     "detail": "When HP reaches 0, recover HP and survive (stackable with other Guts)",
@@ -37132,7 +37132,7 @@
     "ckOpIndv": [],
     "script": {},
     "id": 2932,
-    "buffGroup": 601,
+    "buffGroup": 0,
     "type": 37,
     "name": "Guts",
     "detail": "When HP reaches 0, recover HP and survive (stackable with other Guts)",
@@ -38360,7 +38360,7 @@
     "ckOpIndv": [],
     "script": {},
     "id": 3002,
-    "buffGroup": 601,
+    "buffGroup": 0,
     "type": 37,
     "name": "Guts",
     "detail": "When HP reaches 0, recover HP and survive (stackable with other Guts)",
@@ -46642,7 +46642,7 @@
     "ckOpIndv": [],
     "script": {},
     "id": 3482,
-    "buffGroup": 601,
+    "buffGroup": 0,
     "type": 37,
     "name": "Guts",
     "detail": "When HP reaches 0, recover HP and survive (stackable with other Guts)",
@@ -50816,6 +50816,63 @@
     "detail": "Increase ATK & Arts Card effectiveness",
     "iconId": 300,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3750,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Additional Effect with Normal Buster Attack",
+    "detail": "Increase NP Gauge for yourself during normal Buster Card attacks",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3761,
+    "buffGroup": 0,
+    "type": 37,
+    "name": "Guts",
+    "detail": "When HP reaches 0, recover HP and survive (stackable with other Guts)",
+    "iconId": 304,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3762,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "Activate when Guts is Triggered (ATK Up)",
+    "detail": "Increase all allies' ATK when Guts is triggered",
+    "iconId": 365,
+    "maxRate": 0,
     "effectId": 0
   },
   {
