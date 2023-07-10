@@ -671,13 +671,13 @@
   },
   {
     "id": 300701,
-    "detail": "Deal significant damage to a single enemy [{0}] & decrease DEF (3 turns) <effect increases with Overcharge> & medium chance to inflict Death <chance increases with Overcharge> for a single enemy",
-    "detailShort": "Deal significant damage to a single enemy [{0}] & decrease DEF (3 turns) <effect increases with Overcharge> & medium chance to inflict Death <chance increases with Overcharge> for a single enemy"
+    "detail": "Deal significant damage [{0}] & decrease DEF (3 turns) <effect increases with Overcharge> & medium chance to inflict Death <chance increases with Overcharge> to a single enemy ",
+    "detailShort": "Deal significant damage [{0}] & decrease DEF (3 turns) <effect increases with Overcharge> & medium chance to inflict Death <chance increases with Overcharge> to a single enemy "
   },
   {
     "id": 300702,
-    "detail": "Increase Quick Card effectiveness (1 turn) for yourself [g][o]▲[/o][/g] + Deal significant DEF-ignoring damage [g][o]▲[/o][/g] [{0}] & decrease DEF (3 turns) <effect increases with Overcharge> & medium chance to inflict Death <chance increases with Overcharge> to one enemy",
-    "detailShort": "Increase Quick Card effectiveness (1 turn) for yourself [g][o]▲[/o][/g] + Deal significant DEF-ignoring damage [g][o]▲[/o][/g] [{0}] & decrease DEF (3 turns) <effect increases with Overcharge> & medium chance to inflict Death <chance increases with Overcharge> to one enemy"
+    "detail": "Increase Quick Card effectiveness (1 turn) for yourself [g][o]▲[/o][/g] + Deal significant DEF-ignoring damage [g][o]▲[/o][/g] [{0}] & decrease DEF (3 turns) <effect increases with Overcharge> & medium chance to inflict Death <chance increases with Overcharge> to a single enemy",
+    "detailShort": "Increase Quick Card effectiveness (1 turn) for yourself [g][o]▲[/o][/g] + Deal significant DEF-ignoring damage [g][o]▲[/o][/g] [{0}] & decrease DEF (3 turns) <effect increases with Overcharge> & medium chance to inflict Death <chance increases with Overcharge> to a single enemy"
   },
   {
     "id": 300801,
@@ -1193,6 +1193,11 @@
     "id": 404101,
     "detail": "Deal significant damage [{0}] & chance to decrease Charge & decrease Arts Card resistance (3 turns) <effect increases with Overcharge> for a single enemy",
     "detailShort": "Deal significant damage [{0}] & chance to decrease Charge & decrease Arts Card resistance (3 turns) <effect increases with Overcharge> for a single enemy"
+  },
+  {
+    "id": 404201,
+    "detail": "Increase NP Strength (1 turn) for yourself + Deal heavy DEF-ignoring damage [{0}] to all enemies + Gain a large amount of C. Stars <effect increases with Overcharge> + Decrease C. Star Gather Rate (3 turns) for yourself",
+    "detailShort": "Increase NP Strength (1 turn) for yourself + Deal heavy DEF-ignoring damage [{0}] to all enemies + Gain a large amount of C. Stars <effect increases with Overcharge> + Decrease C. Star Gather Rate (3 turns) for yourself"
   },
   {
     "id": 500101,
@@ -2006,8 +2011,8 @@
   },
   {
     "id": 702002,
-    "detail": "Increase ATK (1 turn) <effect increases with Overcharge> & DEF (1 turn) <effect increases with Overcharge> for yourself + Remove DEF Buffs [g][o]▲[/o][/g] & deal significant damage [g][o]▲[/o][/g] [{0}] to one enemy",
-    "detailShort": "Increase ATK (1 turn) <effect increases with Overcharge> & DEF (1 turn) <effect increases with Overcharge> for yourself + Remove DEF Buffs [g][o]▲[/o][/g] & deal significant damage [g][o]▲[/o][/g] [{0}] to one enemy"
+    "detail": "Increase ATK (1 turn) <effect increases with Overcharge> & DEF (1 turn) <effect increases with Overcharge> for yourself + Remove DEF Buffs [g][o]▲[/o][/g] & deal significant damage [g][o]▲[/o][/g] [{0}] to a single enemy",
+    "detailShort": "Increase ATK (1 turn) <effect increases with Overcharge> & DEF (1 turn) <effect increases with Overcharge> for yourself + Remove DEF Buffs [g][o]▲[/o][/g] & deal significant damage [g][o]▲[/o][/g] [{0}] to a single enemy"
   },
   {
     "id": 702201,
@@ -2316,8 +2321,8 @@
   },
   {
     "id": 1100302,
-    "detail": "Deal significant damage [g][o]▲[/o][/g] [{0}] & inflict Nullify Buff (1 time) & inflict Curse (5 turns) <effect increases with Overcharge> to one enemy + Gain a large amount of C. Stars [g][o]▲[/o][/g]",
-    "detailShort": "Deal significant damage [g][o]▲[/o][/g] [{0}] & inflict Nullify Buff (1 time) & inflict Curse (5 turns) <effect increases with Overcharge> to one enemy + Gain a large amount of C. Stars [g][o]▲[/o][/g]"
+    "detail": "Deal significant damage [g][o]▲[/o][/g] [{0}] & inflict Nullify Buff (1 time) & inflict Curse (5 turns) <effect increases with Overcharge> to a single enemy + Gain a large amount of C. Stars [g][o]▲[/o][/g]",
+    "detailShort": "Deal significant damage [g][o]▲[/o][/g] [{0}] & inflict Nullify Buff (1 time) & inflict Curse (5 turns) <effect increases with Overcharge> to a single enemy + Gain a large amount of C. Stars [g][o]▲[/o][/g]"
   },
   {
     "id": 1100401,
@@ -2815,7 +2820,22 @@
     "detailShort": "Apply Special Attack [Round Table Knights or Fae] (1 turn) for yourself + Deal heavy Special Attack damage to all enemies with [Human Attribute] [{0}] <Special Attack damage increases with Overcharge> & inflict Curse (5 turns) to all enemies + Increase NP Charge by 1 level when using NP (1 time, 3 turns) for all allies"
   },
   {
+    "id": 9943119,
+    "detail": "Apply Ignore Invincible (1 turn) & increase Buster Card effectiveness (3 turns) <effect increases with Overcharge> for yourself + Deal heavy damage [{0}] & inflict Burn (5 turns) to all enemies",
+    "detailShort": "Apply Ignore Invincible (1 turn) & increase Buster Card effectiveness (3 turns) <effect increases with Overcharge> for yourself + Deal heavy damage [{0}] & inflict Burn (5 turns) to all enemies"
+  },
+  {
     "id": 9943127,
+    "detail": "Deal heavy Special Attack damage to all [Lawful] enemies [{0}] <Special Attack damage increases with Overcharge> & remove ATK buffs & inflict Sleep (1 turn) & apply Invincible (1 turn) [Demerit] to all enemies",
+    "detailShort": "Deal heavy Special Attack damage to all [Lawful] enemies [{0}] <Special Attack damage increases with Overcharge> & remove ATK buffs & inflict Sleep (1 turn) & apply Invincible (1 turn) [Demerit] to all enemies"
+  },
+  {
+    "id": 9943138,
+    "detail": "Deal heavy Special Attack damage to all [Lawful] enemies [{0}] <Special Attack damage increases with Overcharge> & remove ATK buffs & inflict Sleep (1 turn) & apply Invincible (1 turn) [Demerit] to all enemies",
+    "detailShort": "Deal heavy Special Attack damage to all [Lawful] enemies [{0}] <Special Attack damage increases with Overcharge> & remove ATK buffs & inflict Sleep (1 turn) & apply Invincible (1 turn) [Demerit] to all enemies"
+  },
+  {
+    "id": 9943149,
     "detail": "Deal heavy Special Attack damage to all [Lawful] enemies [{0}] <Special Attack damage increases with Overcharge> & remove ATK buffs & inflict Sleep (1 turn) & apply Invincible (1 turn) [Demerit] to all enemies",
     "detailShort": "Deal heavy Special Attack damage to all [Lawful] enemies [{0}] <Special Attack damage increases with Overcharge> & remove ATK buffs & inflict Sleep (1 turn) & apply Invincible (1 turn) [Demerit] to all enemies"
   },
@@ -2828,6 +2848,11 @@
     "id": 9943181,
     "detail": "Increase Buster Card effectiveness (1 turn) <effect increases with Overcharge> for yourself + Deal heavy damage [{0}] to all enemies + Increase Max HP (5 turns) & reduce skill cooldown by 1 for yourself",
     "detailShort": "Increase Buster Card effectiveness (1 turn) <effect increases with Overcharge> for yourself + Deal heavy damage [{0}] to all enemies + Increase Max HP (5 turns) & reduce skill cooldown by 1 for yourself"
+  },
+  {
+    "id": 9943188,
+    "detail": "Increase ATK [{0}] (3 turns) & remove Debuffs & apply an anti-Enforcement DEF state <disregard [Ignore Invincible] and reduce ATK damage received to 0> (1 time, 3 turns) <times increase with Overcharge> for all allies",
+    "detailShort": "Increase ATK [{0}] (3 turns) & remove Debuffs & apply an anti-Enforcement DEF state <disregard [Ignore Invincible] and reduce ATK damage received to 0> (1 time, 3 turns) <times increase with Overcharge> for all allies"
   },
   {
     "id": 9943191,

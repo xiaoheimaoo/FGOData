@@ -49209,6 +49209,23 @@
   },
   {
     "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3631,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "Delayed Effect (Death)",
+    "detail": "Apply Death <treated as Buff> at the end of the turn [Demerit]",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3006,
       3028
@@ -50574,10 +50591,48 @@
     "id": 3709,
     "buffGroup": 0,
     "type": 85,
-    "name": "Delayed Effect (NP Loss)",
-    "detail": "At the end of the turn, apply a state where NP decreases (1 time) <treated as Buff> for yourself [Demerit]",
+    "name": "Morning Lark",
+    "detail": "Decrease NP Gauge (1 time) <treated as Buff> at the end of the turn [Demerit]",
     "iconId": 525,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3710,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "Delayed Effect (Death)",
+    "detail": "Inflict Death after 5 turns",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3071
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UpBuffRateBuffIndiv": "3030"
+    },
+    "id": 3711,
+    "buffGroup": 370,
+    "type": 162,
+    "name": "Boost NP Strength Up",
+    "detail": "Temporarily increase the effect of NP Strength Up <Unstackable>",
+    "iconId": 370,
+    "maxRate": 5000,
     "effectId": 0
   },
   {
@@ -50820,6 +50875,423 @@
   },
   {
     "vals": [
+      3005,
+      6035
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3726,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Layered Curse",
+    "detail": "Apply a state that \"Removes 1 [Layered Curse] & restore HP for yourself + Inflict [Layered Curse Corruption] (3 turns) & decrease DEF (3 turns) to a single enemy + Inflict Curse (5 turns) to all enemies\" when damaged",
+    "iconId": 521,
+    "maxRate": 0,
+    "effectId": 17123
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3727,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Dragon's Heartbeat",
+    "detail": "Increase ATK or DEF or Critical Rate for yourself when attacked",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3728,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Omen",
+    "detail": "Increase Max HP for yourself when attacked",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      5000
+    ],
+    "script": {},
+    "id": 3729,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "Beast's Curse",
+    "detail": "Increase ATK & NP Gauge for yourself when enemy is defeated",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3730,
+    "buffGroup": 0,
+    "type": 95,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3731,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "",
+    "detail": "",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3732,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Dragon's Flame Excitation",
+    "detail": "Apply [Dragon's Will] & increase ATK based on the number of [Dragon's Will] applied & increase NP Strength based on the number of [Dragon's Will] applied & decrease damage taken based on the number of [Dragon's Will] for yourself at the end of each turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      5000
+    ],
+    "script": {},
+    "id": 3733,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "Curse of the Beast",
+    "detail": "Increase ATK & NP Charge by 1 for yourself when enemy is defeated",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      6034
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      6034
+    ],
+    "script": {},
+    "id": 3734,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "Protection of White Wall",
+    "detail": "Apply a state granting immunity to [Magical Energy Devourer] & apply a state granting immunity to the effects when the enemy decreases Max HP & increase DEF for all allied troops while you are on the field + Increase (Round Table Knights) DEF for all allied troops",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3735,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "Knight of the Sun",
+    "detail": "Increase ATK & increase Buster Card effectiveness for all allied troops (Round Table Knights) while you are on the field + Gain C. Stars at the end of the turn",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3736,
+    "buffGroup": 0,
+    "type": 17,
+    "name": "Knight of the Lake",
+    "detail": "Increase NP Gain & increase Arts Card effectiveness for all allied troops (Round Table Knights) while you are on the field + Increase NP Gauge for all allies at the end of the turn",
+    "iconId": 303,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3048
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      3026
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3737,
+    "buffGroup": 0,
+    "type": 126,
+    "name": "Mors' Curse",
+    "detail": "Increase the amount of damage done by Curse",
+    "iconId": 547,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3738,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Layered Carrion Curse",
+    "detail": "Gain resistance to all attacks <effect increases based on the number of [Layered Curse] > & increase ATK for yourself based on the number of Debuffs & nullify incapcitation & apply a state to be immune to Debuff Removal",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6035
+    },
+    "id": 3739,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3740,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Layered Curse Corruption",
+    "detail": "Decrease your HP at the end of each turn",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3741,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers each Turn (Inflict Layered Curse)",
+    "detail": "Apply [Layered Curse] to yourself at the end of each turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3742,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Activate when Attacking (Inflict Layered Curse)",
+    "detail": "Medium chance to apply [Layered Curse] to yourself when attacking",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {},
+    "id": 3743,
+    "buffGroup": 0,
+    "type": 100,
+    "name": "",
+    "detail": "",
+    "iconId": 348,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3744,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Activate when Attacking (Remove Buff)",
+    "detail": "Remove 1 Buff from a single enemy when attacking & decrease ATK when removal is successful",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3745,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers each Turn (Decrease HP + Increase Charge)",
+    "detail": "Decrease HP of all allies at the end of each turn + Increase Charge by 1 for a single enemy <effect is removed when Sleep is removed> ",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3746,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "Sacred Sword's Glimmer",
+    "detail": "Increase ATK & at the end of the turn increase NP Gauge",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3747,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Activate when Attacking (Debuff)",
+    "detail": "Decrease DEF or C. Star drop rate or NP Gain for yourself when attacking",
+    "iconId": 549,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6034
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3748,
+    "buffGroup": 0,
+    "type": 80,
+    "name": "Max HP Down",
+    "detail": "Decrease Max HP",
+    "iconId": 522,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6034
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3749,
+    "buffGroup": 0,
+    "type": 82,
+    "name": "Minus Maximum HP",
+    "detail": "Decrease Max HP",
+    "iconId": 522,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004
     ],
     "tvals": [
@@ -50837,6 +51309,109 @@
     "name": "Additional Effect with Normal Buster Attack",
     "detail": "Increase NP Gauge for yourself during normal Buster Card attacks",
     "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3751,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "",
+    "detail": "",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6033
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3752,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Dragon's Will",
+    "detail": "Apply [Dragon's Will] <treated as Buff>",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6028
+    },
+    "id": 3753,
+    "buffGroup": 9993,
+    "type": 85,
+    "name": "",
+    "detail": "",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3754,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate when Damaged (ATK Up)",
+    "detail": "Your ATK increases when attacked",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3756,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Morning Lark",
+    "detail": "Apply a state that will decrease Charge (1 time) for yourself <treated as Buff> at the end of the turn [Demerit]",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3025
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3759,
+    "buffGroup": 800,
+    "type": 33,
+    "name": "Skill Seal",
+    "detail": "Unable to use skills",
+    "iconId": 511,
     "maxRate": 0,
     "effectId": 0
   },
@@ -50870,8 +51445,78 @@
     "buffGroup": 0,
     "type": 149,
     "name": "Activate when Guts is Triggered (ATK Up)",
-    "detail": "Increase all allies' ATK when Guts is triggered",
+    "detail": "Increase ATK for all allies when Guts is activated",
     "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3763,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "Tam Lin Galahad",
+    "detail": "Increase ATK & NP Gain",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6034
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3764,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "ATK Down",
+    "detail": "Decrease ATK",
+    "iconId": 503,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6034
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3765,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "DEF Down",
+    "detail": "Decrease DEF",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6034
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3766,
+    "buffGroup": 900,
+    "type": 34,
+    "name": "NP Seal",
+    "detail": "Unable to use Noble Phantasms",
+    "iconId": 512,
     "maxRate": 0,
     "effectId": 0
   },
