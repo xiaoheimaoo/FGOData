@@ -50636,6 +50636,23 @@
     "effectId": 0
   },
   {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3712,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Ending of Dreams",
+    "detail": "Remove Buffs & apply [Eternal Slumber] <nullify Resistance, unable to remove, unable to select Sacrifice, unable to Order Change> & apply Target Focus (nullify Resistance, unable to remove) for yourself at the end of turn",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
     "vals": [],
     "tvals": [],
     "ckSelfIndv": [],
@@ -51400,6 +51417,54 @@
   },
   {
     "vals": [
+      3005,
+      3045,
+      3010,
+      3066,
+      3072,
+      3076
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DamageRelease": -1
+    },
+    "id": 3757,
+    "buffGroup": 505,
+    "type": 32,
+    "name": "Eternal Slumber",
+    "detail": "Become Incapacitated (nullify Resistance, unable to remove, unable to select Sacrifice, unable to Order Change)",
+    "iconId": 558,
+    "maxRate": 0,
+    "effectId": 2001001
+  },
+  {
+    "vals": [
+      3005,
+      3045,
+      3010,
+      3066,
+      3072,
+      3076
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DamageRelease": -1
+    },
+    "id": 3758,
+    "buffGroup": 505,
+    "type": 32,
+    "name": "Eternal Slumber",
+    "detail": "Become Incapacitated (nullify Resistance, unable to remove, unable to select Sacrifice, unable to Order Change)",
+    "iconId": 558,
+    "maxRate": 0,
+    "effectId": 2001002
+  },
+  {
+    "vals": [
       3025
     ],
     "tvals": [],
@@ -51412,6 +51477,21 @@
     "name": "Skill Seal",
     "detail": "Unable to use skills",
     "iconId": 511,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3760,
+    "buffGroup": 0,
+    "type": 141,
+    "name": "",
+    "detail": "",
+    "iconId": 554,
     "maxRate": 0,
     "effectId": 0
   },
@@ -51518,6 +51598,302 @@
     "detail": "Unable to use Noble Phantasms",
     "iconId": 512,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3768,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Oberon the Great Liar",
+    "detail": "Partially disguise status effects applied to yourself & nullify demerit effects from your skills",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3769,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Faerie King's Sweet Talk",
+    "detail": "Apply \"■■■■ Up ＆C. Star Drop Rate ■■■\" or \" \"■■■ ATK & ■■■ DEF\" or \"NP Gain ■■■ & ■■■ Arts Card effectiveness\" for yourself at the end of each turn",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3770,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Befuddling Flutter",
+    "detail": "Apply a random Card Resistance to yourself at the end of each turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      4008
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3771,
+    "buffGroup": 0,
+    "type": 116,
+    "name": "■■■■ Up",
+    "detail": "■■■■'s ■■■■ will become ■■",
+    "iconId": 520,
+    "maxRate": 10,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3772,
+    "buffGroup": 0,
+    "type": 3,
+    "name": "C. Star Drop Rate ■■■",
+    "detail": "■■■ C. Star drop rate",
+    "iconId": 510,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3033
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3773,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "ATK ■■■",
+    "detail": "■■■ ATK",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3774,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "DEF ■■■",
+    "detail": "■■■ DEF",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3775,
+    "buffGroup": 0,
+    "type": 63,
+    "name": "NP Gain ■■■",
+    "detail": "■■■ NP Gain",
+    "iconId": 303,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3776,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Arts ■■■",
+    "detail": "■■■ Arts Card effectiveness",
+    "iconId": 516,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3777,
+    "buffGroup": 200,
+    "type": 24,
+    "name": "■■",
+    "detail": "Make ■■■■ to ■ by ■■",
+    "iconId": 309,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003
+    ],
+    "script": {},
+    "id": 3778,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "Quick Card Resist",
+    "detail": "■■ NP generation and C. Star drop rate upon damage from Quick Card attacks",
+    "iconId": 345,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001
+    ],
+    "script": {},
+    "id": 3779,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "Arts Card Resist",
+    "detail": "■■ NP generation and C. Star drop rate upon damage from Arts Card attacks",
+    "iconId": 346,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {},
+    "id": 3780,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "Buster Card Resist",
+    "detail": "■■ NP generation and C. Star drop rate upon damage from Buster Card attacks",
+    "iconId": 347,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003
+    ],
+    "script": {},
+    "id": 3781,
+    "buffGroup": 0,
+    "type": 106,
+    "name": "Quick Card Resist",
+    "detail": "■■ NP generation and C. Star drop rate upon damage from Quick Card attacks",
+    "iconId": 345,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001
+    ],
+    "script": {},
+    "id": 3782,
+    "buffGroup": 0,
+    "type": 106,
+    "name": "Arts Card Resist",
+    "detail": "■■ NP generation and C. Star drop rate upon damage from Arts Card attacks",
+    "iconId": 346,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {},
+    "id": 3783,
+    "buffGroup": 0,
+    "type": 106,
+    "name": "Buster Card Resist",
+    "detail": "■■ NP generation and C. Star drop rate upon damage from Buster Card attacks",
+    "iconId": 347,
+    "maxRate": 5000,
     "effectId": 0
   },
   {
