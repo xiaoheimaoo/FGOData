@@ -4168,7 +4168,8 @@
   {
     "vals": [
       3004,
-      3006
+      3006,
+      3027
     ],
     "tvals": [],
     "ckSelfIndv": [],
@@ -4266,7 +4267,7 @@
     "buffGroup": 0,
     "type": 89,
     "name": "Bonus Effect (Death)",
-    "detail": "Inflicts Death on target with normal attacks",
+    "detail": "Chance to inflict Death to target during normal attacks",
     "iconId": 528,
     "maxRate": 0,
     "effectId": 0
@@ -4303,9 +4304,9 @@
     "script": {},
     "id": 323,
     "buffGroup": 0,
-    "type": 105,
+    "type": 128,
     "name": "Quick Card Resist",
-    "detail": "Decrease damage taken, NP generation, and C. Star drop rate upon damage from Quick Cards by 90%",
+    "detail": "Decrease damage received from Quick Cards by 90%",
     "iconId": 345,
     "maxRate": 5000,
     "effectId": 0
@@ -4325,9 +4326,9 @@
     "script": {},
     "id": 324,
     "buffGroup": 0,
-    "type": 105,
+    "type": 128,
     "name": "Arts Card Resist",
-    "detail": "Decrease damage taken, NP generation, and C. Star drop rate upon damage from Arts Cards by 90%",
+    "detail": "Decrease damage received from Arts Cards by 90%",
     "iconId": 346,
     "maxRate": 5000,
     "effectId": 0
@@ -4347,9 +4348,9 @@
     "script": {},
     "id": 325,
     "buffGroup": 0,
-    "type": 105,
+    "type": 128,
     "name": "Buster Card Resist",
-    "detail": "Decrease damage taken, NP generation, and C. Star drop rate upon damage from Buster Cards by 90%",
+    "detail": "Decrease damage received from Buster Cards by 90%",
     "iconId": 347,
     "maxRate": 5000,
     "effectId": 0
@@ -8048,13 +8049,17 @@
     "vals": [],
     "tvals": [
       5000,
-      4003
+      4003,
+      4008
     ],
     "ckSelfIndv": [],
     "ckOpIndv": [
-      4003
+      4003,
+      4008
     ],
-    "script": {},
+    "script": {
+      "checkIndvType": 1
+    },
     "id": 529,
     "buffGroup": 0,
     "type": 86,
@@ -8107,7 +8112,7 @@
     "script": {},
     "id": 532,
     "buffGroup": 0,
-    "type": 105,
+    "type": 128,
     "name": "Weakness Change: Quick",
     "detail": "Decrease damage received from Arts Cards",
     "iconId": 346,
@@ -8127,7 +8132,7 @@
     "script": {},
     "id": 533,
     "buffGroup": 0,
-    "type": 105,
+    "type": 128,
     "name": "Weakness Change: Quick",
     "detail": "Decrease damage received from Buster Cards",
     "iconId": 347,
@@ -8147,7 +8152,7 @@
     "script": {},
     "id": 534,
     "buffGroup": 0,
-    "type": 105,
+    "type": 128,
     "name": "Weakness Change: Arts",
     "detail": "Decrease damage received from Quick Cards",
     "iconId": 345,
@@ -8167,7 +8172,7 @@
     "script": {},
     "id": 535,
     "buffGroup": 0,
-    "type": 105,
+    "type": 128,
     "name": "Weakness Change: Arts",
     "detail": "Decrease damage received from Buster Cards",
     "iconId": 347,
@@ -8187,7 +8192,7 @@
     "script": {},
     "id": 536,
     "buffGroup": 0,
-    "type": 105,
+    "type": 128,
     "name": "Weakness Change: Buster",
     "detail": "Decrease damage received from Quick Cards",
     "iconId": 345,
@@ -8207,7 +8212,7 @@
     "script": {},
     "id": 537,
     "buffGroup": 0,
-    "type": 105,
+    "type": 128,
     "name": "Weakness Change: Buster",
     "detail": "Decrease damage received from Arts Cards",
     "iconId": 346,
@@ -8545,7 +8550,7 @@
     "buffGroup": 0,
     "type": 31,
     "name": "Robe of Darkness",
-    "detail": "Immune to debuffs & increase ATK Strength against [Divine] & apply counterattack when receiving normal attacks",
+    "detail": "Immune to all debuffs & increase STR against (Divine) & apply Buff when receiving normal attacks",
     "iconId": 322,
     "maxRate": 0,
     "effectId": 0
@@ -8615,9 +8620,14 @@
   },
   {
     "vals": [],
-    "tvals": [],
+    "tvals": [
+      5000,
+      4008
+    ],
     "ckSelfIndv": [],
-    "ckOpIndv": [],
+    "ckOpIndv": [
+      4008
+    ],
     "script": {},
     "id": 562,
     "buffGroup": 0,
@@ -9767,7 +9777,7 @@
     "buffGroup": 600,
     "type": 37,
     "name": "I Am Having Fun",
-    "detail": "When HP reaches 0, recover HP and survive",
+    "detail": "When HP reaches 0, recover HP and survive when (Gym Clothes Are a Good Thing!) is on the field",
     "iconId": 304,
     "maxRate": 0,
     "effectId": 0
@@ -48405,6 +48415,21 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3584,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Strength Up",
+    "detail": "Increase damage dealt during \"Revival: Grand Nero Fest - Summer 2023\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3005,
       3025
@@ -49645,6 +49670,57 @@
     "detail": "Inflict Stun (1 turn) to one enemy during your normal attacks",
     "iconId": 528,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3656,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "Charge Plus Each Turn",
+    "detail": "Increase charge each turn",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3657,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "Charge Plus Each Turn",
+    "detail": "Increase charge each turn",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3658,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "Critical Hit Rate Up",
+    "detail": "Increase Critical Hit rate",
+    "iconId": 327,
+    "maxRate": 5000,
     "effectId": 0
   },
   {
