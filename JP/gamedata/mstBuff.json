@@ -78278,6 +78278,24 @@
   },
   {
     "vals": [
+      3005,
+      3088
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5429,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "マーキング",
+    "detail": "〔ウィリアム・テル〕の宝具による回避状態特攻の対象となる状態(弱体扱い)",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3006,
       3027
@@ -78295,6 +78313,26 @@
     "detail": "HPが99%以下の間、攻撃力をアップ",
     "iconId": 300,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3063
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3021
+    },
+    "id": 5436,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "回避トラップ",
+    "detail": "ターン終了時に回避状態(解除不能な状態は除く)の時、対象に〔マーキング〕状態を付与する",
+    "iconId": 537,
+    "maxRate": 0,
     "effectId": 0
   },
   {
