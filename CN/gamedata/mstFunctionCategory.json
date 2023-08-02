@@ -36,6 +36,12 @@
     "dispNo": 106
   },
   {
+    "id": 10207,
+    "groupType": 1,
+    "name": "攻击次数提升",
+    "dispNo": 107
+  },
+  {
     "id": 10401,
     "groupType": 1,
     "name": "暴击威力提升",
@@ -57,13 +63,19 @@
     "id": 10404,
     "groupType": 1,
     "name": "暴击星获得",
-    "dispNo": 204
+    "dispNo": 205
   },
   {
     "id": 10405,
     "groupType": 1,
     "name": "每回合暴击星获得",
-    "dispNo": 205
+    "dispNo": 206
+  },
+  {
+    "id": 10406,
+    "groupType": 1,
+    "name": "暴击星集中度降低",
+    "dispNo": 204
   },
   {
     "id": 10601,
@@ -87,13 +99,19 @@
     "id": 10604,
     "groupType": 1,
     "name": "宝具值获得量提升",
-    "dispNo": 304
+    "dispNo": 305
   },
   {
     "id": 10605,
     "groupType": 1,
     "name": "充能阶段提升",
-    "dispNo": 305
+    "dispNo": 306
+  },
+  {
+    "id": 10606,
+    "groupType": 1,
+    "name": "吸收宝具值",
+    "dispNo": 304
   },
   {
     "id": 10801,
@@ -114,6 +132,12 @@
     "dispNo": 403
   },
   {
+    "id": 11001,
+    "groupType": 1,
+    "name": "冷却缩短",
+    "dispNo": 501
+  },
+  {
     "id": 20201,
     "groupType": 2,
     "name": "防御力提升",
@@ -123,42 +147,54 @@
     "id": 20202,
     "groupType": 2,
     "name": "被伤害减免",
-    "dispNo": 102
+    "dispNo": 106
   },
   {
     "id": 20203,
     "groupType": 2,
     "name": "回避",
-    "dispNo": 103
+    "dispNo": 107
   },
   {
     "id": 20204,
     "groupType": 2,
     "name": "无敌",
-    "dispNo": 104
+    "dispNo": 108
   },
   {
     "id": 20205,
     "groupType": 2,
     "name": "毅力",
-    "dispNo": 105
+    "dispNo": 110
   },
   {
     "id": 20206,
     "groupType": 2,
     "name": "目标集中",
-    "dispNo": 106
+    "dispNo": 111
   },
   {
     "id": 20207,
     "groupType": 2,
     "name": "被暴击耐性提升",
-    "dispNo": 107
+    "dispNo": 112
+  },
+  {
+    "id": 20211,
+    "groupType": 2,
+    "name": "特殊耐性提升",
+    "dispNo": 105
+  },
+  {
+    "id": 20212,
+    "groupType": 2,
+    "name": "对肃正防御",
+    "dispNo": 109
   },
   {
     "id": 20400,
     "groupType": 2,
-    "name": "HP回复",
+    "name": "生命值回复",
     "dispNo": 200
   },
   {
@@ -178,6 +214,12 @@
     "groupType": 2,
     "name": "最大生命值提升",
     "dispNo": 203
+  },
+  {
+    "id": 20404,
+    "groupType": 2,
+    "name": "吸收生命值",
+    "dispNo": 204
   },
   {
     "id": 30200,
@@ -201,19 +243,25 @@
     "id": 30203,
     "groupType": 3,
     "name": "弱化成功率提升",
-    "dispNo": 103
+    "dispNo": 104
   },
   {
     "id": 30204,
     "groupType": 3,
     "name": "被强化成功率提升",
-    "dispNo": 104
+    "dispNo": 105
   },
   {
     "id": 30205,
     "groupType": 3,
     "name": "强化解除耐性提升",
-    "dispNo": 105
+    "dispNo": 106
+  },
+  {
+    "id": 30206,
+    "groupType": 3,
+    "name": "强化成功率提升",
+    "dispNo": 103
   },
   {
     "id": 30401,
@@ -285,7 +333,37 @@
     "id": 50201,
     "groupType": 5,
     "name": "暴击率降低",
-    "dispNo": 101
+    "dispNo": 201
+  },
+  {
+    "id": 50202,
+    "groupType": 5,
+    "name": "防御力降低",
+    "dispNo": 102
+  },
+  {
+    "id": 50401,
+    "groupType": 5,
+    "name": "暴击威力降低",
+    "dispNo": 200
+  },
+  {
+    "id": 50601,
+    "groupType": 5,
+    "name": "宝具威力降低",
+    "dispNo": 301
+  },
+  {
+    "id": 50602,
+    "groupType": 5,
+    "name": "宝具充能减少",
+    "dispNo": 302
+  },
+  {
+    "id": 50604,
+    "groupType": 5,
+    "name": "回合充能减少",
+    "dispNo": 304
   },
   {
     "id": 59801,
@@ -300,6 +378,18 @@
     "dispNo": 101
   },
   {
+    "id": 60202,
+    "groupType": 6,
+    "name": "伤害提升",
+    "dispNo": 102
+  },
+  {
+    "id": 60402,
+    "groupType": 6,
+    "name": "生命值回复量降低",
+    "dispNo": 202
+  },
+  {
     "id": 70201,
     "groupType": 7,
     "name": "强化解除",
@@ -309,18 +399,156 @@
     "id": 70202,
     "groupType": 7,
     "name": "付与毒",
-    "dispNo": 102
+    "dispNo": 400
   },
   {
     "id": 70203,
     "groupType": 7,
     "name": "付与灼烧",
-    "dispNo": 103
+    "dispNo": 402
   },
   {
     "id": 70204,
     "groupType": 7,
     "name": "付与诅咒",
+    "dispNo": 401
+  },
+  {
+    "id": 70206,
+    "groupType": 7,
+    "name": "弱化耐性降低",
+    "dispNo": 100
+  },
+  {
+    "id": 70207,
+    "groupType": 7,
+    "name": "强化无效",
+    "dispNo": 102
+  },
+  {
+    "id": 70208,
+    "groupType": 7,
+    "name": "即死耐性降低",
     "dispNo": 104
+  },
+  {
+    "id": 70209,
+    "groupType": 7,
+    "name": "迅耐性降低",
+    "dispNo": 105
+  },
+  {
+    "id": 70210,
+    "groupType": 7,
+    "name": "技耐性降低",
+    "dispNo": 106
+  },
+  {
+    "id": 70211,
+    "groupType": 7,
+    "name": "力耐性降低",
+    "dispNo": 107
+  },
+  {
+    "id": 70212,
+    "groupType": 7,
+    "name": "技能封印",
+    "dispNo": 200
+  },
+  {
+    "id": 70213,
+    "groupType": 7,
+    "name": "宝具封印",
+    "dispNo": 201
+  },
+  {
+    "id": 70214,
+    "groupType": 7,
+    "name": "魅惑",
+    "dispNo": 202
+  },
+  {
+    "id": 70215,
+    "groupType": 7,
+    "name": "眩晕",
+    "dispNo": 203
+  },
+  {
+    "id": 70216,
+    "groupType": 7,
+    "name": "睡眠",
+    "dispNo": 204
+  },
+  {
+    "id": 70217,
+    "groupType": 7,
+    "name": "恐怖",
+    "dispNo": 500
+  },
+  {
+    "id": 70218,
+    "groupType": 7,
+    "name": "混乱",
+    "dispNo": 501
+  },
+  {
+    "id": 70219,
+    "groupType": 7,
+    "name": "蚀毒",
+    "dispNo": 502
+  },
+  {
+    "id": 70220,
+    "groupType": 7,
+    "name": "咒厄",
+    "dispNo": 503
+  },
+  {
+    "id": 70221,
+    "groupType": 7,
+    "name": "延烧",
+    "dispNo": 504
+  },
+  {
+    "id": 70222,
+    "groupType": 7,
+    "name": "其他无法行动",
+    "dispNo": 205
+  },
+  {
+    "id": 70223,
+    "groupType": 7,
+    "name": "强化成功率降低",
+    "dispNo": 103
+  },
+  {
+    "id": 70401,
+    "groupType": 7,
+    "name": "即死",
+    "dispNo": 300
+  },
+  {
+    "id": 80201,
+    "groupType": 8,
+    "name": "特定时刻发动",
+    "dispNo": 101
+  },
+  {
+    "id": 80202,
+    "groupType": 8,
+    "name": "付与特性",
+    "dispNo": 102
+  },
+  {
+    "id": 80203,
+    "groupType": 8,
+    "name": "职阶相性变更",
+    "dispNo": 104
+  },
+  {
+    "id": 80204,
+    "groupType": 8,
+    "name": "付与场地特性",
+    "dispNo": 103
   }
 ]
