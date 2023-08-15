@@ -9576,7 +9576,8 @@
   },
   {
     "vals": [
-      3005
+      3005,
+      3089
     ],
     "tvals": [],
     "ckSelfIndv": [
@@ -11167,7 +11168,9 @@
     "effectId": 0
   },
   {
-    "vals": [],
+    "vals": [
+      3089
+    ],
     "tvals": [],
     "ckSelfIndv": [
       3015
@@ -47760,7 +47763,8 @@
   {
     "vals": [
       3005,
-      2782
+      2782,
+      3089
     ],
     "tvals": [],
     "ckSelfIndv": [
@@ -78715,13 +78719,138 @@
     ],
     "ckSelfIndv": [],
     "ckOpIndv": [],
-    "script": {},
+    "script": {
+      "INDIVIDUALITIE": 2879
+    },
     "id": 5455,
-    "buffGroup": 0,
+    "buffGroup": 5455,
     "type": 86,
     "name": "被ダメージ時発動(強化)",
     "detail": "攻撃を受けると自身に〔祭神の怒り〕状態を付与",
     "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [
+      202
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      202
+    ],
+    "script": {},
+    "id": 5456,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "クリティカル威力アップ〔人の力〕",
+    "detail": "〔人の力を持つ敵〕に与えるクリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3080
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2121
+    },
+    "id": 5457,
+    "buffGroup": 0,
+    "type": 5,
+    "name": "毎ターンNP獲得〔炎上〕",
+    "detail": "〔炎上〕しているフィールドにおいてのみ、ターン終了時にNPが増える",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3015,
+      3089
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3015,
+      3089
+    ],
+    "script": {
+      "INDIVIDUALITIE": 2121
+    },
+    "id": 5458,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "やけど＆延焼無効",
+    "detail": "〔炎上〕しているフィールドにおいてのみ、やけど・延焼を受けなくなる",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5459,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "弱肉保護",
+    "detail": "通常攻撃時、味方全体のHPを回復する",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 204900,
+      "DisplayCardBottomImageName": "icon_treasure_device_change"
+    },
+    "id": 5460,
+    "buffGroup": 0,
+    "type": 145,
+    "name": "宝具チェンジ",
+    "detail": "宝具を全体攻撃宝具から単体攻撃宝具に変更する",
+    "iconId": 393,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5461,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "特性付与〔超巨大〕",
+    "detail": "〔超巨大〕特性を付与する",
+    "iconId": 520,
     "maxRate": 0,
     "effectId": 0
   },
@@ -78740,6 +78869,77 @@
     "detail": "フィールドに登場した時、味方全体に〔原稿完成〕状態を付与する",
     "iconId": 331,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE_OR": "2039,2878"
+    },
+    "id": 5463,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "クリティカル威力アップ",
+    "detail": "〔水辺〕または〔空中〕のフィールドにおいてのみ、クリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2121
+    },
+    "id": 5464,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Artsアップ",
+    "detail": "〔炎上〕しているフィールドにおいてのみ、Artsカードの性能をアップ",
+    "iconId": 313,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2874
+    },
+    "id": 5465,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Busterアップ",
+    "detail": "〔祭神の怒り〕状態の間、Busterカードの性能をアップ",
+    "iconId": 314,
+    "maxRate": 5000,
     "effectId": 0
   },
   {
@@ -78779,6 +78979,68 @@
     "detail": "",
     "iconId": 331,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3084
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 301
+    },
+    "id": 5468,
+    "buffGroup": 0,
+    "type": 17,
+    "name": "NP獲得アップ",
+    "detail": "NP獲得量をアップ",
+    "iconId": 303,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3084
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 303
+    },
+    "id": 5469,
+    "buffGroup": 0,
+    "type": 17,
+    "name": "NP獲得アップ",
+    "detail": "NP獲得量をアップ",
+    "iconId": 303,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE_OR": "2039,2878",
+      "ProgressSelfTurn": 1
+    },
+    "id": 5470,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "クリティカル発生アップ",
+    "detail": "〔水辺〕または〔空中〕のフィールドにおいてのみ、クリティカルの発生率をアップ",
+    "iconId": 327,
+    "maxRate": 5000,
     "effectId": 0
   },
   {
@@ -94488,6 +94750,303 @@
     "name": "毎ターン発動",
     "detail": "毎ターン終了時、自身のチャージを最大にする",
     "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087950,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "千年巻貝",
+    "detail": "防御力をアップ＆被ダメージを減らす",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087951,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "万年巻貝",
+    "detail": "防御力をアップ＆被ダメージを減らす",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087952,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "魔妃貝",
+    "detail": "防御力をアップ＆被ダメージを減らす",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087953,
+    "buffGroup": 600,
+    "type": 104,
+    "name": "魔妃貝",
+    "detail": "HPが0になった時、HPを回復して耐える",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087954,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "魔妃貝",
+    "detail": "毎ターン終了時、自身のチャージを1増やす＋敵全体の防御力をダウン",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087955,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "クイックオイル",
+    "detail": "Quickカードの性能をアップ",
+    "iconId": 312,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087956,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "アーツニトロ",
+    "detail": "Artsカードの性能をアップ",
+    "iconId": 313,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087957,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "バスターガソリン",
+    "detail": "Busterカードの性能をアップ",
+    "iconId": 314,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087958,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "アーツソーダ",
+    "detail": "Artsカードの性能をアップ",
+    "iconId": 313,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087959,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "バスターキャロット",
+    "detail": "Busterカードの性能をアップ",
+    "iconId": 314,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087960,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "天候災害",
+    "detail": "全ての攻撃に対する耐性を得る<〔嵐層〕状態の数だけ効果量アップ>",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087961,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "天候災害",
+    "detail": "毎ターン終了時、自身に〔嵐層〕状態を付与",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087962,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "天候災害",
+    "detail": "攻撃時に自身に低確率で〔嵐層〕状態を付与",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087963,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "天候災害",
+    "detail": "攻撃を受けた時、自身の〔嵐層〕状態を1つ解除＆解除成功時、自身のHPを回復＋敵単体のHPを吸収＆防御力をダウン",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087964,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "嵐層",
+    "detail": "攻撃を受けた時、自身の〔嵐層〕状態を1つ解除＆解除成功時、自身のHPを回復＋敵単体のHPを吸収＆防御力をダウン",
+    "iconId": 520,
     "maxRate": 0,
     "effectId": 0
   },
