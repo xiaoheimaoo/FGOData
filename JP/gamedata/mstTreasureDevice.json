@@ -10036,7 +10036,7 @@
     "script": {},
     "id": 866,
     "seqId": 9944640,
-    "name": "“■■■■■”",
+    "name": "“喧嘩はダメ”",
     "ruby": "-",
     "rank": "なし",
     "maxLv": 5,
@@ -10052,7 +10052,23 @@
     "script": {},
     "id": 867,
     "seqId": 9944650,
-    "name": "“■■■■■■”",
+    "name": "“みんな仲良く”",
+    "ruby": "-",
+    "rank": "なし",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
+      4007
+    ],
+    "script": {},
+    "id": 868,
+    "seqId": 9944660,
+    "name": "“争いはヤメテ”",
     "ruby": "-",
     "rank": "なし",
     "maxLv": 5,
@@ -10086,6 +10102,22 @@
     "seqId": 859,
     "name": "蛸殴り",
     "ruby": "-",
+    "rank": "なし",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3000,
+      4007
+    ],
+    "script": {},
+    "id": 871,
+    "seqId": 9944700,
+    "name": "",
+    "ruby": "",
     "rank": "なし",
     "maxLv": 5,
     "typeText": "",
@@ -23712,6 +23744,65 @@
   {
     "individuality": [
       3002,
+      4001,
+      4007,
+      4101
+    ],
+    "script": {
+      "randomSeqIds_1": [
+        2501200,
+        2501201
+      ],
+      "randomSeqIds": [
+        2501200,
+        2501201
+      ],
+      "randomSeqIds_3": [
+        2501200,
+        2501201
+      ],
+      "randomSeqIds_2": [
+        2501200,
+        2501201
+      ],
+      "randomWeights_3": [
+        80,
+        20
+      ],
+      "randomWeights_1": [
+        80,
+        20
+      ],
+      "randomWeights_2": [
+        80,
+        20
+      ],
+      "randomWeights": [
+        80,
+        20
+      ],
+      "randomWeights_4": [
+        80,
+        20
+      ],
+      "randomSeqIds_4": [
+        2501200,
+        2501201
+      ]
+    },
+    "id": 2501202,
+    "seqId": 2501200,
+    "name": "永久機関・妖精帝国",
+    "ruby": "クイーンズ・メルティハート",
+    "rank": "EX",
+    "maxLv": 5,
+    "typeText": "対軍宝具",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3002,
       4002,
       4007,
       4101
@@ -23732,6 +23823,10 @@
       "randomWeights": [
         50,
         50
+      ],
+      "randomSeqIds_12": [
+        2800140,
+        2800141
       ],
       "randomSeqIds_2": [
         2800110,
@@ -23756,6 +23851,10 @@
       "randomSeqIds_4": [
         2800120,
         2800121
+      ],
+      "randomWeights_12": [
+        50,
+        50
       ],
       "randomSeqIds": [
         2800100,
@@ -27415,6 +27514,24 @@
     "rank": "EX",
     "maxLv": 5,
     "typeText": "対軍宝具",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3002,
+      4002,
+      4007,
+      4101
+    ],
+    "script": {},
+    "id": 9945171,
+    "seqId": 9945170,
+    "name": "彼方にかざす夢の噺",
+    "ruby": "ライ・ライム・グッドフェロー",
+    "rank": "E",
+    "maxLv": 5,
+    "typeText": "対人宝具",
     "attackAttri": 1,
     "effectFlag": 1
   }
