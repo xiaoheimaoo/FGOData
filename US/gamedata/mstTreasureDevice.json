@@ -7842,6 +7842,38 @@
       4007
     ],
     "script": {},
+    "id": 728,
+    "seqId": 9943130,
+    "name": "Taste Columbus's Egg",
+    "ruby": "-",
+    "rank": "None",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3000,
+      4007
+    ],
+    "script": {},
+    "id": 729,
+    "seqId": 9943140,
+    "name": "Shark-Shark Pump",
+    "ruby": "-",
+    "rank": "None",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3000,
+      4007
+    ],
+    "script": {},
     "id": 730,
     "seqId": 9940740,
     "name": "Faerie Devouring",
@@ -8145,7 +8177,8 @@
       3002,
       4002,
       4007,
-      4101
+      4101,
+      2802
     ],
     "script": {},
     "id": 100801,
@@ -8163,7 +8196,8 @@
       3002,
       4002,
       4007,
-      4101
+      4101,
+      2802
     ],
     "script": {},
     "id": 100802,
@@ -8675,7 +8709,9 @@
     "individuality": [
       3000,
       4002,
-      4007
+      4007,
+      4102,
+      2802
     ],
     "script": {
       "limitSeqId_11": 103301,
@@ -8698,7 +8734,9 @@
     "individuality": [
       3000,
       4002,
-      4007
+      4007,
+      4102,
+      2802
     ],
     "script": {
       "limitSeqId_11": 103301,
@@ -9164,6 +9202,29 @@
     "rank": "A",
     "maxLv": 5,
     "typeText": "Anti-Army",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3000,
+      4003,
+      4007,
+      4101
+    ],
+    "script": {
+      "limitSeqId_1": 105110,
+      "limitSeqId_3": 105120,
+      "limitSeqId_4": 105120,
+      "limitSeqId_2": 105110
+    },
+    "id": 105101,
+    "seqId": 105100,
+    "name": "Zekken, Mukyuissen",
+    "ruby": " ",
+    "rank": "A+",
+    "maxLv": 5,
+    "typeText": "Anti-World",
     "attackAttri": 1,
     "effectFlag": 1
   },
@@ -10414,6 +10475,29 @@
     "name": "Fetch Failnaught",
     "ruby": " ",
     "rank": "E",
+    "maxLv": 5,
+    "typeText": "Anti-Personnel",
+    "attackAttri": 1,
+    "effectFlag": 2
+  },
+  {
+    "individuality": [
+      3002,
+      4001,
+      4007,
+      4102
+    ],
+    "script": {
+      "limitSeqId_1": 204400,
+      "limitSeqId_3": 204420,
+      "limitSeqId_4": 204420,
+      "limitSeqId_2": 204400
+    },
+    "id": 204401,
+    "seqId": 204400,
+    "name": "Snegleto Snegurochka",
+    "ruby": " ",
+    "rank": "B",
     "maxLv": 5,
     "typeText": "Anti-Personnel",
     "attackAttri": 1,
@@ -12362,6 +12446,22 @@
   },
   {
     "individuality": [
+      4007,
+      4004
+    ],
+    "script": {},
+    "id": 402597,
+    "seqId": 402500,
+    "name": "\"Haha! Self-Destruct!\"",
+    "ruby": "",
+    "rank": "None",
+    "maxLv": 5,
+    "typeText": "N/A",
+    "attackAttri": 1,
+    "effectFlag": 2
+  },
+  {
+    "individuality": [
       3000,
       4002,
       4007,
@@ -12456,7 +12556,13 @@
       4007,
       4101
     ],
-    "script": {},
+    "script": {
+      "limitSeqId_11": 402930,
+      "limitSeqId_1": 402900,
+      "limitSeqId_3": 402900,
+      "limitSeqId_4": 402900,
+      "limitSeqId_2": 402900
+    },
     "id": 402901,
     "seqId": 402900,
     "name": "Troias Tragōidia",
@@ -12719,7 +12825,13 @@
       4001,
       4007
     ],
-    "script": {},
+    "script": {
+      "limitSeqId_11": 403930,
+      "limitSeqId_1": 403900,
+      "limitSeqId_3": 403900,
+      "limitSeqId_4": 403900,
+      "limitSeqId_2": 403900
+    },
     "id": 403901,
     "seqId": 403900,
     "name": "Serment de Durendal",
@@ -14170,6 +14282,26 @@
     "typeText": "Anti-Personnel",
     "attackAttri": 1,
     "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
+      4001,
+      4007,
+      4102
+    ],
+    "script": {
+      "delayEnd": 1
+    },
+    "id": 504801,
+    "seqId": 504800,
+    "name": "La Féerie d'une Nuit",
+    "ruby": " ",
+    "rank": "C++",
+    "maxLv": 5,
+    "typeText": "Anti-Personnel",
+    "attackAttri": 1,
+    "effectFlag": 2
   },
   {
     "individuality": [
@@ -17019,6 +17151,44 @@
     "typeText": "Anti-Personnel",
     "attackAttri": 1,
     "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3002,
+      4002,
+      4007,
+      4102
+    ],
+    "script": {
+      "delayEnd": 1,
+      "randomSeqIds_actSet2": [
+        901201
+      ],
+      "randomSeqIds_actSet3": [
+        901200
+      ],
+      "randomSeqIds_actSet1": [
+        901202
+      ],
+      "randomWeights_actSet1": [
+        100
+      ],
+      "randomWeights_actSet2": [
+        100
+      ],
+      "randomWeights_actSet3": [
+        100
+      ]
+    },
+    "id": 901201,
+    "seqId": 901200,
+    "name": "Dinosaur Summer Goodbye",
+    "ruby": " ",
+    "rank": "A",
+    "maxLv": 5,
+    "typeText": "Anti-Personnel",
+    "attackAttri": 1,
+    "effectFlag": 2
   },
   {
     "individuality": [
@@ -20596,6 +20766,36 @@
   },
   {
     "individuality": [
+      3002,
+      4001,
+      4007,
+      4101
+    ],
+    "script": {
+      "delayEnd": 1,
+      "randomSeqIds": [
+        9943150,
+        9943151,
+        9943152
+      ],
+      "randomWeights": [
+        40,
+        40,
+        20
+      ]
+    },
+    "id": 9943151,
+    "seqId": 9943150,
+    "name": "Mara Śūnyatā",
+    "ruby": " ",
+    "rank": "B",
+    "maxLv": 5,
+    "typeText": "Anti-Personnel",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
       3000,
       4002,
       4007
@@ -20854,6 +21054,124 @@
     "name": "Rye Rhyme Goodfellow",
     "ruby": " ",
     "rank": "E",
+    "maxLv": 5,
+    "typeText": "Anti-Personnel",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3002,
+      4003,
+      4007,
+      4102
+    ],
+    "script": {
+      "delayEnd": 1
+    },
+    "id": 9943381,
+    "seqId": 9943380,
+    "name": "Emotional Engine, Vivid Full Sensation",
+    "ruby": " ",
+    "rank": "D++",
+    "maxLv": 5,
+    "typeText": "Anti-Personnel",
+    "attackAttri": 1,
+    "effectFlag": 2
+  },
+  {
+    "individuality": [
+      3002,
+      4002,
+      4007,
+      4102
+    ],
+    "script": {},
+    "id": 9943391,
+    "seqId": 9943390,
+    "name": "Sea Serpent, Storm Blue",
+    "ruby": " ",
+    "rank": "B+",
+    "maxLv": 5,
+    "typeText": "Anti-Personnel",
+    "attackAttri": 1,
+    "effectFlag": 2
+  },
+  {
+    "individuality": [
+      3002,
+      4001,
+      4007,
+      4101
+    ],
+    "script": {
+      "delayEnd": 1,
+      "randomSeqIds": [
+        9943400,
+        9943400,
+        9943401
+      ],
+      "randomWeights": [
+        34,
+        34,
+        33
+      ]
+    },
+    "id": 9943401,
+    "seqId": 9943400,
+    "name": "Kama Rūpāstra",
+    "ruby": " ",
+    "rank": "B",
+    "maxLv": 5,
+    "typeText": "Anti-Personnel",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3002,
+      4001,
+      4007,
+      4101
+    ],
+    "script": {
+      "delayEnd": 1
+    },
+    "id": 9943411,
+    "seqId": 9943410,
+    "name": "Kama Rūpāstra",
+    "ruby": " ",
+    "rank": "B",
+    "maxLv": 5,
+    "typeText": "Anti-Personnel",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3002,
+      4001,
+      4007,
+      4101
+    ],
+    "script": {
+      "delayEnd": 1,
+      "randomSeqIds": [
+        9943420,
+        9943421,
+        9943422
+      ],
+      "randomWeights": [
+        40,
+        40,
+        20
+      ]
+    },
+    "id": 9943421,
+    "seqId": 9943420,
+    "name": "Mara Śūnyatā",
+    "ruby": " ",
+    "rank": "B",
     "maxLv": 5,
     "typeText": "Anti-Personnel",
     "attackAttri": 1,

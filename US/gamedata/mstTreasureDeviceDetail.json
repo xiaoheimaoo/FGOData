@@ -300,6 +300,11 @@
     "detailShort": "Increase Buster Card effectiveness (1 turn) <effect increases with Overcharge> for yourself + Deal heavy damage [{0}] to all enemies + Increase Max HP (5 turns) & reduce skill cooldown by 1 for yourself"
   },
   {
+    "id": 105101,
+    "detail": "Increase Quick Card effectiveness (1 turn) <effect increases with Overcharge> for yourself + Remove DEF Buffs & deal heavy damage [{0}] to all enemies",
+    "detailShort": "Increase Quick Card effectiveness (1 turn) <effect increases with Overcharge> for yourself + Remove DEF Buffs & deal heavy damage [{0}] to all enemies"
+  },
+  {
     "id": 200101,
     "detail": "Deal heavy DEF-ignoring damage to all enemies [{0}] & decrease ATK (3 turns) <effect increases with Overcharge> for all enemies",
     "detailShort": "Deal heavy DEF-ignoring damage to all enemies [{0}] & decrease ATK (3 turns) <effect increases with Overcharge> for all enemies"
@@ -613,6 +618,11 @@
     "id": 204301,
     "detail": "Apply Sure Hit (1 turn) for yourself + Deal significant damage [{0}] & inflict Curse (5 turns) & inflict Disastrous Curse (increase Curse damage) (5 turns) <effect increases with Overcharge> for one enemy",
     "detailShort": "Apply Sure Hit (1 turn) for yourself + Deal significant damage [{0}] & inflict Curse (5 turns) & inflict Disastrous Curse (increase Curse damage) (5 turns) <effect increases with Overcharge> for one enemy"
+  },
+  {
+    "id": 204401,
+    "detail": "Decrease Arts Card resistance (1 turn) <effect increases with Overcharge> & deal significant damage [{0}] & inflict Skill Seal (1 turn) to a single enemy",
+    "detailShort": "Decrease Arts Card resistance (1 turn) <effect increases with Overcharge> & deal significant damage [{0}] & inflict Skill Seal (1 turn) to a single enemy"
   },
   {
     "id": 300101,
@@ -1530,6 +1540,11 @@
     "detailShort": "<Usable only when there are more than 20 C. Stars> Increase the ATK [{0}] (3 turns) & NP Strength (3 turns) & NP Gauge <effect increases with Overcharge> of the front-most single ally, excluding yourself + Retreat to the sub-member slot <cannot retreat if there is only 1 allied Servant on the field>"
   },
   {
+    "id": 504801,
+    "detail": "Deal significant [Skill Seal] Special Attack damage to a single enemy [{0}] <Special Attack damage increases with Overcharge> + Gain C. Stars",
+    "detailShort": "Deal significant [Skill Seal] Special Attack damage to a single enemy [{0}] <Special Attack damage increases with Overcharge> + Gain C. Stars"
+  },
+  {
     "id": 600101,
     "detail": "Deal significant damage to a single enemy [{0}] + gain large amount of C. Stars <effect increases with Overcharge>",
     "detailShort": "Deal significant damage to a single enemy [{0}] + gain large amount of C. Stars <effect increases with Overcharge>"
@@ -1541,8 +1556,8 @@
   },
   {
     "id": 600201,
-    "detail": "Deal significant damage [{0}] & high chance to inflict Death <chance increases with Overcharge> to a single enemy.",
-    "detailShort": "Deal significant damage [{0}] & high chance to inflict Death <chance increases with Overcharge> to a single enemy."
+    "detail": "Deal significant damage [{0}] & high chance to inflict Death <chance increases with Overcharge> to a single enemy",
+    "detailShort": "Deal significant damage [{0}] & high chance to inflict Death <chance increases with Overcharge> to a single enemy"
   },
   {
     "id": 600202,
@@ -2250,6 +2265,11 @@
     "detailShort": "Increase NP Strength (1 turn) <effect increases with Overcharge> for yourself + Deal heavy damage [{0}] & decrease Quick Attack Resistance (3 turns) & inflict Nullify Buff (1 time, 3 turns) for all enemies"
   },
   {
+    "id": 901201,
+    "detail": "Increase NP Strength (1 turn) <effect increases with Overcharge> for yourself + Deal significant damage [{0}] to a single enemy + Different effects will be activated depending on the random bullet color <[Green] Gain a large amount of C. Stars, [Blue] Increase NP Gauge for all allies, [Red] Increase ATK (3 turns) for all allies>",
+    "detailShort": "Increase NP Strength (1 turn) <effect increases with Overcharge> for yourself + Deal significant damage [{0}] to a single enemy + Different effects will be activated depending on the random bullet color <[Green] Gain a large amount of C. Stars, [Blue] Increase NP Gauge for all allies, [Red] Increase ATK (3 turns) for all allies>"
+  },
+  {
     "id": 1000101,
     "detail": "Deal heavy damage to all enemies [{0}] & restore HP <effect increases with Overcharge> for all allies",
     "detailShort": "Deal heavy damage to all enemies [{0}] & restore HP <effect increases with Overcharge> for all allies"
@@ -2850,6 +2870,11 @@
     "detailShort": "Deal heavy Special Attack damage to all [Lawful] enemies [{0}] <Special Attack damage increases with Overcharge> & remove ATK buffs & inflict Sleep (1 turn) & apply Invincible (1 turn) [Demerit] to all enemies"
   },
   {
+    "id": 9943151,
+    "detail": "Deal heavy [Charm] Special Attack damage [{0}] <Special Attack damage increases with Overcharge> & decrease DEF (3 turns) for all enemies",
+    "detailShort": "Deal heavy [Charm] Special Attack damage [{0}] <Special Attack damage increases with Overcharge> & decrease DEF (3 turns) for all enemies"
+  },
+  {
     "id": 9943171,
     "detail": "Apply Ignore Invincible (1 turn) for yourself + Deal significant damage [{0}] & decrease DEF (3 turns) <effect increases with Overcharge> for a single enemy",
     "detailShort": "Apply Ignore Invincible (1 turn) for yourself + Deal significant damage [{0}] & decrease DEF (3 turns) <effect increases with Overcharge> for a single enemy"
@@ -2918,5 +2943,30 @@
     "id": 9943355,
     "detail": "Deal heavy Special Attack damage to all [Lawful] enemies [{0}] <Special Attack damage increases with Overcharge> & remove ATK buffs & inflict Sleep (1 turn) & apply Invincible (1 turn) [Demerit] to all enemies",
     "detailShort": "Deal heavy Special Attack damage to all [Lawful] enemies [{0}] <Special Attack damage increases with Overcharge> & remove ATK buffs & inflict Sleep (1 turn) & apply Invincible (1 turn) [Demerit] to all enemies"
+  },
+  {
+    "id": 9943381,
+    "detail": "Apply Special Attack against enemies with [Human Attribute] (1 turn) <effect increases with Overcharge> & Special Attack against [Lawful] Servant enemies (1 turn) & Special Attack against [Shadow Servants] (1 turn) to yourself + Deal significant damage to a single enemy [{0}] ",
+    "detailShort": "Apply Special Attack against enemies with [Human Attribute] (1 turn) <effect increases with Overcharge> & Special Attack against [Lawful] Servant enemies (1 turn) & Special Attack against [Shadow Servants] (1 turn) to yourself + Deal significant damage to a single enemy [{0}] "
+  },
+  {
+    "id": 9943391,
+    "detail": "Increase NP Strength (3 turns) & Critical Strength (3 turns) <effect increases with Overcharge> & increase ATK (1 turn) only on [Near Water] field for yourself + Deal significant damage [{0}] to a single enemy ",
+    "detailShort": "Increase NP Strength (3 turns) & Critical Strength (3 turns) <effect increases with Overcharge> & increase ATK (1 turn) only on [Near Water] field for yourself + Deal significant damage [{0}] to a single enemy "
+  },
+  {
+    "id": 9943401,
+    "detail": "Deal heavy [Charm] Special Attack damage [{0}] <Special Attack damage increases with Overcharge> & decrease DEF (3 turns) for all enemies",
+    "detailShort": "Deal heavy [Charm] Special Attack damage [{0}] <Special Attack damage increases with Overcharge> & decrease DEF (3 turns) for all enemies"
+  },
+  {
+    "id": 9943411,
+    "detail": "Deal heavy [Charm] Special Attack damage [{0}] <Special Attack damage increases with Overcharge> & decrease DEF (3 turns) for all enemies",
+    "detailShort": "Deal heavy [Charm] Special Attack damage [{0}] <Special Attack damage increases with Overcharge> & decrease DEF (3 turns) for all enemies"
+  },
+  {
+    "id": 9943421,
+    "detail": "Deal heavy [Charm] Special Attack damage [{0}] <Special Attack damage increases with Overcharge> & decrease DEF (3 turns) for all enemies",
+    "detailShort": "Deal heavy [Charm] Special Attack damage [{0}] <Special Attack damage increases with Overcharge> & decrease DEF (3 turns) for all enemies"
   }
 ]
