@@ -78189,6 +78189,25 @@
   },
   {
     "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 5422,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "太陽黒点",
+    "detail": "宝具攻撃を受けた時、スタン状態になる",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3006,
       3027
@@ -79417,7 +79436,8 @@
       122,
       124,
       125,
-      126
+      126,
+      127
     ],
     "ckSelfIndv": [],
     "ckOpIndv": [
@@ -79439,7 +79459,8 @@
       122,
       124,
       125,
-      126
+      126,
+      127
     ],
     "script": {},
     "id": 30016,
@@ -94015,6 +94036,261 @@
     "detail": "クリティカルの発生率をアップ＜残りの兵士の数だけ効果量アップ＞",
     "iconId": 327,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE_OR": "-2826,-3010,-3011,-3015,-3020,-3025,-3026,-3045"
+    },
+    "id": 94087501,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "紅鬼",
+    "detail": "クリティカルの発生率をアップ<毒・呪い・やけど・スキル封印・宝具封印・精神異常・行動不能・帯電状態の時、効果が無効になる>",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE_OR": "-2826,-3010,-3011,-3015,-3020,-3025,-3026,-3045"
+    },
+    "id": 94087502,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "炎舞",
+    "detail": "クリティカルの発生率をアップ<毒・呪い・やけど・スキル封印・宝具封印・精神異常・行動不能・帯電状態の時、効果が無効になる>",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087503,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "烈火の猛攻",
+    "detail": "HPが少ないほど攻撃力アップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087504,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "シンフォニック・ライズ",
+    "detail": "ターン終了時に自身のみが生存している場合、〔デュアル・サン〕を復活させる",
+    "iconId": 304,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 164
+    },
+    "id": 94087505,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "劫火の逆鱗",
+    "detail": "スキル・宝具による相性変化と〔バーサーカー〕を除く全てのクラス間のクラス相性がより大きくなる",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087506,
+    "buffGroup": 200,
+    "type": 24,
+    "name": "陽炎",
+    "detail": "攻撃によるダメージを0にする",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087507,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "降る星屑",
+    "detail": "プレイヤーのターン開始時とスキル使用時、スターの数に応じてさまざまな効果を付与する",
+    "iconId": 320,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087508,
+    "buffGroup": 0,
+    "type": 167,
+    "name": "太陽核",
+    "detail": "やけどによるダメージをHP回復効果に変換する",
+    "iconId": 374,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3015
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087509,
+    "buffGroup": 0,
+    "type": 8,
+    "name": "やけど",
+    "detail": "ターン終了時にHPが減る(強化扱い)",
+    "iconId": 513,
+    "maxRate": 0,
+    "effectId": 17122
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -3015
+    },
+    "id": 94087510,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "4000K",
+    "detail": "全ての攻撃に対する耐性を得る<やけど状態の時、効果が無効になる>",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087511,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "5772K",
+    "detail": "クリティカルの発生率をアップ<やけど状態の数だけ効果量アップ>",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4100
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94087512,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "特殊耐性アップ",
+    "detail": "クリティカル以外のダメージに対する耐性を得る",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      3015
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3015
+    ],
+    "script": {},
+    "id": 94087513,
+    "buffGroup": 0,
+    "type": 110,
+    "name": "2000K",
+    "detail": "〔やけど〕状態の敵に与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
     "effectId": 0
   },
   {

@@ -611,6 +611,80 @@
   },
   {
     "targetIds": [
+      "[94086401]",
+      "[94086402]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      73
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": -65,
+    "flagType": 43,
+    "num": 1,
+    "priority": 0,
+    "openType": 45,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      4000100
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "異常重力圏が確認されました。",
+        "dlgFontSize": 30,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {
+      "beforeActionSetup": [
+        "110",
+        "1040106"
+      ],
+      "beforeActionVals": [
+        "300",
+        "1040106,15,1000",
+        "114",
+        "1040106,2",
+        "104",
+        "1040106,1",
+        "104",
+        "1040106,3",
+        "112",
+        "1040106"
+      ]
+    },
+    "eventId": -62,
+    "flagType": 3,
+    "num": 2,
+    "priority": 0,
+    "openType": 83,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
       "[94071407]"
     ],
     "condIds": [],
