@@ -78414,6 +78414,7 @@
     "ckSelfIndv": [],
     "ckOpIndv": [],
     "script": {
+      "ExcludeUnSubStateIndiv": 1,
       "INDIVIDUALITIE": 3021
     },
     "id": 5436,
@@ -78423,6 +78424,36 @@
     "detail": "ターン終了時に回避状態(解除不能な状態は除く)の時、対象に〔マーキング〕状態を付与する",
     "iconId": 537,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5437,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "ワールド・トラベラー",
+    "detail": "『ワンジナ・ワールドツアー！』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5438,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ",
+    "detail": "『ワンジナ・ワールドツアー！』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
     "effectId": 0
   },
   {
@@ -79059,6 +79090,101 @@
     "name": "クリティカル発生アップ",
     "detail": "〔水辺〕または〔空中〕のフィールドにおいてのみ、クリティカルの発生率をアップ",
     "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5471,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時、自身に〔精霊の怒り〕状態を付与",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5472,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "攻撃を受けると味方全体の〔ワンジナ〕に〔精霊の怒り〕状態を付与",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5473,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "精霊の怒り",
+    "detail": "精霊の怒りが募るほど自身の宝具威力がアップする",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2878
+    },
+    "id": 5474,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "宝具威力アップ〔空中〕",
+    "detail": "フィールドが〔空中〕の時、宝具で与えるダメージをアップ",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 202
+    },
+    "id": 5475,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "宝具威力アップ",
+    "detail": "宝具で与えるダメージをアップ",
+    "iconId": 310,
     "maxRate": 5000,
     "effectId": 0
   },
