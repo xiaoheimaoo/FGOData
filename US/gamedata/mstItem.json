@@ -3398,6 +3398,27 @@
   },
   {
     "individuality": [],
+    "script": {},
+    "eventId": 0,
+    "eventGroupId": 0,
+    "isPresent": false,
+    "id": 10050,
+    "name": "Exchange Ticket (OCT 2023)",
+    "detail": "Can be exchanged for one Soundless Bell, Refined Magatama, or Fool's Chain.",
+    "imageId": 10000,
+    "bgImageId": 2,
+    "type": 24,
+    "unit": "",
+    "value": 0,
+    "sellQp": -1,
+    "isSell": false,
+    "priority": 200,
+    "dropPriority": 9001,
+    "startedAt": 1443657600,
+    "endedAt": 1706745599
+  },
+  {
+    "individuality": [],
     "script": {
       "GLOBAL_THANKSGIVING": 1
     },
@@ -9697,13 +9718,15 @@
     "individuality": [
       10009
     ],
-    "script": {},
+    "script": {
+      "effectId": 1
+    },
     "eventId": 0,
     "eventGroupId": 0,
     "isPresent": false,
     "id": 94000505,
     "name": "Twinkle Candy",
-    "detail": "\"Event Item/Ascension Material\"\nCute candy perfect for pop idol stars,\nobtained during \"The Adventure of Singing Pumpkin Castle.\"",
+    "detail": "\"Ascension Material\"\nCute candy perfect for pop idol stars,\nobtained during \"The Adventure of Singing Pumpkin Castle.\"",
     "imageId": 94000505,
     "bgImageId": 3,
     "type": 15,
@@ -11923,17 +11946,19 @@
     "individuality": [
       10104
     ],
-    "script": {},
+    "script": {
+      "effectId": 1
+    },
     "eventId": 0,
     "eventGroupId": 0,
     "isPresent": false,
     "id": 94007704,
     "name": "Dragon Orb",
-    "detail": "\"Event Item/Ascension Material\"\nA orb with the power of a dragon obtained during \"Halloween Comeback! Super☆Ghouls 'n Pumpkins - The Seeds of Adventure.\"\n\nIt resonates with courage, and brings out the hidden power of the hero Elidrum.\nElisabeth still doesn't know that Elidrum is her registered adventurer name.",
+    "detail": "\"Ascension Material\"\nA orb with the power of a dragon obtained during \"Halloween Comeback! Super☆Ghouls 'n Pumpkins - The Seeds of Adventure.\"\n\nIt resonates with courage, and brings out the hidden power of the hero Elidrum.\nElisabeth still doesn't know that Elidrum is her registered adventurer name.",
     "imageId": 94007704,
     "bgImageId": 3,
     "type": 15,
-    "unit": " ",
+    "unit": "​",
     "value": 0,
     "sellQp": -1,
     "isSell": false,
@@ -15348,7 +15373,9 @@
     "individuality": [
       10242
     ],
-    "script": {},
+    "script": {
+      "effectId": 1
+    },
     "eventId": 0,
     "eventGroupId": 0,
     "isPresent": false,
