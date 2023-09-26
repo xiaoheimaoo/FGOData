@@ -97230,5 +97230,225 @@
     "iconId": 543,
     "maxRate": 0,
     "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088839,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088840,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088841,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "死亡時発動",
+    "detail": "HPが0になった時、敵味方全体に強化効果が発生する",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088842,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "死亡時発動",
+    "detail": "HPが0になった時、敵味方全体に強化効果……？が発生する",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088843,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "攻撃を受けた時、敵単体に呪い状態を2つ付与",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      3026
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3026
+    ],
+    "script": {},
+    "id": 94088844,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ〔呪い〕",
+    "detail": "〔呪い〕状態の敵に与えるダメージをアップ<対象の〔呪い〕状態が多いほど特攻威力アップ(最大10個)>",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [
+      3026
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3026
+    ],
+    "script": {},
+    "id": 94088845,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "防御力アップ〔呪い〕",
+    "detail": "〔呪い〕状態の敵に対する防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3019,
+      3006
+    ],
+    "tvals": [
+      3026
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3026
+    ],
+    "script": {},
+    "id": 94088846,
+    "buffGroup": 0,
+    "type": 25,
+    "name": "必中〔呪い〕",
+    "detail": "〔呪い〕状態の敵に回避を無視して、攻撃によるダメージを与える",
+    "iconId": 309,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088847,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "攻撃力アップ",
+    "detail": "フィールドにいる味方が少ないほど、自身の攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088848,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088849,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "防御力アップ",
+    "detail": "フィールドにいる味方が多いほど、自身の防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088850,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "クリティカル発生アップ",
+    "detail": "自身がフィールドにいる間、味方全体のクリティカルの発生率をアップ",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
   }
 ]
