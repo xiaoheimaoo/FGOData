@@ -1446,8 +1446,8 @@
   },
   {
     "id": 107550,
-    "detail": "Apply Guts (1 time · 5 turns) + gain C. Stars for yourself",
-    "detailShort": "Apply Guts (1 time · 5 turns) + gain C. Stars for yourself"
+    "detail": "Apply Guts [{0}] (1 time, 5 turns) + Gain C. Stars for yourself",
+    "detailShort": "Apply Guts [{0}] (1 time, 5 turns) + Gain C. Stars for yourself"
   },
   {
     "id": 108650,
@@ -2726,8 +2726,8 @@
   },
   {
     "id": 299650,
-    "detail": "[Usable only when NP gauge is 100% or higher] Reduce your NP gauge by 100% [Demerit] + increase your Buster Card effectiveness [{0}] (3 turns) or apply Invincible for all allies (1 turn) or restore HP for all allies [{0}] or increase ATK for all allies [{0}] (1 turn) or gain a large amount of C. Stars [{0}]",
-    "detailShort": "[Usable only when NP gauge is 100% or higher] Reduce your NP gauge by 100% [Demerit] + increase your Buster Card effectiveness [{0}] (3 turns) or apply Invincible for all allies (1 turn) or restore HP for all allies [{0}] or increase ATK for all allies [{0}] (1 turn) or gain a large amount of C. Stars [{0}]"
+    "detail": "[Usable only when NP gauge is 100% or higher] Reduce your NP gauge by 100% [Demerit] + Increase Buster Card effectiveness for yourself [{0}] (3 turns) or apply Invincible for all allies (1 turn) or restore HP for all allies [{0}] or increase ATK for all allies [{0}] (1 turn) or gain a large amount of C. Stars [{0}]",
+    "detailShort": "[Usable only when NP gauge is 100% or higher] Reduce your NP gauge by 100% [Demerit] + Increase Buster Card effectiveness for yourself [{0}] (3 turns) or apply Invincible for all allies (1 turn) or restore HP for all allies [{0}] or increase ATK for all allies [{0}] (1 turn) or gain a large amount of C. Stars [{0}]"
   },
   {
     "id": 300450,
@@ -3428,6 +3428,11 @@
     "id": 426350,
     "detail": "Increase NP Gauge [{0}] & decrease HP [Demerit] for yourself",
     "detailShort": "Increase NP Gauge [{0}] & decrease HP [Demerit] for yourself"
+  },
+  {
+    "id": 426351,
+    "detail": "Increase NP Gauge [{0}] & decrease HP [Demerit] for yourself + Gain a large amount of C. Stars [{0}] [g][o]▲[/o][/g] ",
+    "detailShort": "Increase NP Gauge [{0}] & decrease HP [Demerit] for yourself + Gain a large amount of C. Stars [{0}] [g][o]▲[/o][/g] "
   },
   {
     "id": 427350,
@@ -7138,6 +7143,21 @@
     "id": 942550,
     "detail": "Greatly increase C. Star Gather Rate [{0}] (1 turn) & increase Critical Strength [{0}] (1 turn) [g][o]▲[/o][/g] & NP Gauge [{0}] [g][o]▲[/o][/g] for yourself",
     "detailShort": "Greatly increase C. Star Gather Rate [{0}] (1 turn) & increase Critical Strength [{0}] (1 turn) [g][o]▲[/o][/g] & NP Gauge [{0}] [g][o]▲[/o][/g] for yourself"
+  },
+  {
+    "id": 943450,
+    "detail": "Decrease DEF [{0}] (3 turns) & remove 1 Buff [g][o]▲[/o][/g] & inflict Skill Seal (1 turn) [g][o]▲[/o][/g] for all enemies [g][o]▲[/o][/g]",
+    "detailShort": "Decrease DEF [{0}] (3 turns) & remove 1 Buff [g][o]▲[/o][/g] & inflict Skill Seal (1 turn) [g][o]▲[/o][/g] for all enemies [g][o]▲[/o][/g]"
+  },
+  {
+    "id": 944550,
+    "detail": "Apply Guts (1 time, 5 turns) [{0}] & Increase NP Gauge [{0}] [g][o]▲[/o][/g] for yourself + Gain C. Stars + Inflict Spreading Fire (increase Burn damage) [{0}] (5 turns) [g][o]▲[/o][/g] to all enemies",
+    "detailShort": "Apply Guts (1 time, 5 turns) [{0}] & Increase NP Gauge [{0}] [g][o]▲[/o][/g] for yourself + Gain C. Stars + Inflict Spreading Fire (increase Burn damage) [{0}] (5 turns) [g][o]▲[/o][/g] to all enemies"
+  },
+  {
+    "id": 945650,
+    "detail": "[Usable only when NP gauge is 50% [g][o]▲[/o][/g] or higher] Reduce your NP gauge by 50% [g][o]▲[/o][/g] [Demerit] + Increase Buster Card effectiveness for yourself [{0}] (3 turns) or apply Invincible for all allies (1 turn) or restore HP for all allies [{0}] or increase ATK for all allies [{0}] (1 turn) or gain a large amount of C. Stars [{0}]",
+    "detailShort": "[Usable only when NP gauge is 50% [g][o]▲[/o][/g] or higher] Reduce your NP gauge by 50% [g][o]▲[/o][/g] [Demerit] + Increase Buster Card effectiveness for yourself [{0}] (3 turns) or apply Invincible for all allies (1 turn) or restore HP for all allies [{0}] or increase ATK for all allies [{0}] (1 turn) or gain a large amount of C. Stars [{0}]"
   },
   {
     "id": 960502,
@@ -21218,6 +21238,21 @@
     "id": 992851,
     "detail": "When a quest is completed, increase the amount of Mystic Code EXP gained by 50",
     "detailShort": "When a quest is completed, increase the amount of Mystic Code EXP gained by 50"
+  },
+  {
+    "id": 992852,
+    "detail": "When a quest is completed, increase the amount of Mystic Code EXP gained by 50",
+    "detailShort": "When a quest is completed, increase the amount of Mystic Code EXP gained by 50"
+  },
+  {
+    "id": 992853,
+    "detail": "Begin battle with your NP charged at 60%",
+    "detailShort": "Begin battle with your NP charged at 60%"
+  },
+  {
+    "id": 992854,
+    "detail": "Begin battle with your NP charged at 75% [MAX]",
+    "detailShort": "Begin battle with your NP charged at 75% [MAX]"
   },
   {
     "id": 993322,
