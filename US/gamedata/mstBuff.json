@@ -53165,6 +53165,21 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3844,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Märchen Dreamer",
+    "detail": "Increase damage dealt during \"Halloween Rising!\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004
     ],
@@ -53264,6 +53279,1556 @@
     "detail": "Increase chance of being targeted by enemies",
     "iconId": 323,
     "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2798
+    },
+    "id": 3853,
+    "buffGroup": 0,
+    "type": 163,
+    "name": "Evade",
+    "detail": "Reduce ATK damage taken to 0",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2798
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3854,
+    "buffGroup": 0,
+    "type": 24,
+    "name": "Evade",
+    "detail": "Reduce ATK damage taken to 0",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3857,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Strength Up",
+    "detail": "Increase damage dealt during \"Halloween Rising!\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4005,
+      4006
+    ],
+    "ckSelfIndv": [
+      4005,
+      4006
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3858,
+    "buffGroup": 0,
+    "type": 148,
+    "name": "Safety Breaker",
+    "detail": "Medium chance to remove DEF Buffs for a single enemy before inflicting damage through normal attacks & when removal is successful, decrease DEF",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      2809
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2809
+    ],
+    "script": {},
+    "id": 3859,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Ever After",
+    "detail": "Gain resistance to damage from [Märchenesque] enemy attacks & ignore Sure Hit and reduce ATK damage taken to 0 & remove debuffs for yourself at the end of each turn & increase Charge by 1 each turn",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3022,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3860,
+    "buffGroup": 400,
+    "type": 26,
+    "name": "",
+    "detail": "",
+    "iconId": 311,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3861,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "",
+    "detail": "",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3862,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Unadorned Queen",
+    "detail": "Increase all allies' ATK & increase NP damage <including sub-members> when you are on the field",
+    "iconId": 300,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2809
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3863,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Märchenesque",
+    "detail": "Increase amount of HP recovered",
+    "iconId": 328,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2809
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3864,
+    "buffGroup": 0,
+    "type": 64,
+    "name": "",
+    "detail": "",
+    "iconId": 328,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3865,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "Delayed Effect (Apply Stun & Target Focused)",
+    "detail": "Inflict Stun to yourself after 2 turns & increase chance of being targeted by enemies (treated as Debuff)",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3866,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "ATK Down",
+    "detail": "Decrease ATK",
+    "iconId": 503,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3867,
+    "buffGroup": 900,
+    "type": 34,
+    "name": "NP Seal",
+    "detail": "Unable to use Noble Phantasms",
+    "iconId": 512,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3868,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "ATK Up",
+    "detail": "Slightly increase ATK",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3869,
+    "buffGroup": 500,
+    "type": 32,
+    "name": "Bronze Nobu",
+    "detail": "Unable to act",
+    "iconId": 501,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3870,
+    "buffGroup": 600,
+    "type": 104,
+    "name": "Bronze Nobu",
+    "detail": "When HP reaches 0, recover HP and survive",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3871,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "ATK Up",
+    "detail": "Moderately increase ATK",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3872,
+    "buffGroup": 500,
+    "type": 32,
+    "name": "Silver Nobu",
+    "detail": "Unable to act",
+    "iconId": 501,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3873,
+    "buffGroup": 600,
+    "type": 104,
+    "name": "Silver Nobu",
+    "detail": "When HP reaches 0, recover HP and survive",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3874,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "ATK Up",
+    "detail": "Significantly increase ATK",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3875,
+    "buffGroup": 500,
+    "type": 32,
+    "name": "Gold Nobu",
+    "detail": "Unable to act",
+    "iconId": 501,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3876,
+    "buffGroup": 600,
+    "type": 104,
+    "name": "Gold Nobu",
+    "detail": "When HP reaches 0, recover HP and survive",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026,
+      6021
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3877,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Bronze Nobu",
+    "detail": "Increase NP Gauge for a single enemy by 10% when attacked [Demerit]",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026,
+      6022
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3878,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Silver Nobu",
+    "detail": "Increase NP Gauge for a single enemy by 50% when attacked [Demerit]",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026,
+      6022
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3879,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Gold Nobu",
+    "detail": "Increase NP Gauge for a single enemy by 100% when attacked [Demerit]",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3063
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3880,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn (Inflict Stun)",
+    "detail": "Low chance to inflict Stun to yourself at the end of each turn",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026,
+      3025
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3881,
+    "buffGroup": 800,
+    "type": 33,
+    "name": "Skill Seal",
+    "detail": "Unable to use skills",
+    "iconId": 511,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3882,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "ATK Up",
+    "detail": "Increase ATK",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3883,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "DEF Up",
+    "detail": "Increase DEF",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3884,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "Damage Cut",
+    "detail": "Decrease damage taken",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3885,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Activate when Attacking (Inflict Death)",
+    "detail": "Low chance to inflict Death during normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3886,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Activate when Attacking (Debuff)",
+    "detail": "Decrease NP Gain or decrease C. Star Drop Rate for a single enemy when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3887,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "Slow Starter",
+    "detail": "Increase DEF & remove Sleep from all allies when attacking with Noble Phantasm",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4007,
+      4004
+    ],
+    "ckSelfIndv": [
+      4007,
+      4004
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3888,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3889,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Start Dash",
+    "detail": "Increase Charge by 1 for yourself during normal attacks & inflict Sleep to yourself when attacking with Noble Phantasm [Demerit] & decrease Death chance rate [Demerit]",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4007,
+      4004
+    ],
+    "ckSelfIndv": [
+      4007,
+      4004
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3890,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026,
+      3045,
+      3010,
+      3066
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ReleaseText": "Remove Sleep",
+      "DamageRelease": 1
+    },
+    "id": 3891,
+    "buffGroup": 503,
+    "type": 32,
+    "name": "Sleep",
+    "detail": "Become incapacitated (Removed when sustaining attack)",
+    "iconId": 557,
+    "maxRate": 0,
+    "effectId": 2001002
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3892,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "Activate when Guts is Triggered (NP Gain)",
+    "detail": "Increase NP Gauge for yourself when Guts is activated",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3893,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Boy's Way Out",
+    "detail": "When HP reaches 0, inflict Death on ally [Sleeping Giant]",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {},
+    "id": 3894,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "\"I want a fire-rat robe!\"",
+    "detail": "Decrease damage taken, NP generation, and C. Star drop rate from Buster Card attacks",
+    "iconId": 347,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001
+    ],
+    "script": {},
+    "id": 3895,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "\"I want gems from a dragon's head!\"",
+    "detail": "Decrease damage taken, NP generation, and C. Star drop rate from Arts Card attacks",
+    "iconId": 346,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003
+    ],
+    "script": {},
+    "id": 3896,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "\"I want a swallow's cowry shell!\"",
+    "detail": "Decrease damage taken, NP generation, and C. Star drop rate from Quick Card attacks",
+    "iconId": 345,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4100
+    ],
+    "script": {},
+    "id": 3897,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "\"I want the Buddha's stone begging bowl!\"",
+    "detail": "Gain resistance to Critical attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 3898,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "\"I want a jeweled fruit branch from Mt. Hourai!\"",
+    "detail": "Gain resistance to NP Damage",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3899,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "Mermaid Waters",
+    "detail": "Decrease damage taken",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3900,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Lamp Girl",
+    "detail": "Inflict Burn to a single enemy when attacked",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      3015
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3015
+    ],
+    "script": {},
+    "id": 3901,
+    "buffGroup": 0,
+    "type": 112,
+    "name": "Lamp Bodybuilder",
+    "detail": "Increase damage dealt against [Burned] enemies",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3020
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3020
+    ],
+    "script": {},
+    "id": 3902,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "Ash Memories",
+    "detail": "Immune to NP Seal & immune to Incapacitate & decrease NP damage [Demerit]",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3903,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "Grateful Hat",
+    "detail": "Increase DEF",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3904,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Innocent Wolf",
+    "detail": "Increase all allies' ATK when you are on the field",
+    "iconId": 300,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3905,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Useless Hunter",
+    "detail": "Apply Sure Hit to all allies when you are on the field",
+    "iconId": 309,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3906,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Unremarkable Grandma",
+    "detail": "Decrease all enemies' ATK when you are on the field",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3063
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3907,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn (Inflict Burn)",
+    "detail": "Inflict Burn to all enemies at the end of each turn + Inflict burn to all allies [Demerit]",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3045
+    },
+    "id": 3909,
+    "buffGroup": 200,
+    "type": 24,
+    "name": "Never Captured Again",
+    "detail": "Reduce ATK damage taken to 0 when you are Incapacitated & increase Charge by 1 each turn",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3045
+    },
+    "id": 3910,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "",
+    "detail": "",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3066
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3066
+    ],
+    "script": {},
+    "id": 3911,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "No Rest on the Battlefield",
+    "detail": "Immune to Sleep",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6030
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [
+      4008
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3912,
+    "buffGroup": 0,
+    "type": 148,
+    "name": "Pre-ATK Damage Bonus Effect (Remove DEF Buffs)",
+    "detail": "Remove DEF Buffs for a single enemy before inflicting damage through normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3011,
+      3026,
+      3015
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3011,
+      3026,
+      3015
+    ],
+    "script": {},
+    "id": 3913,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "Poison & Curse & Burn Immune",
+    "detail": "Immune to Poison and Curse and Burn",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026,
+      3063
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 3914,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "[Defensive Opening: NP Attack] (Removed during Break)",
+    "detail": "Decrease Special Resist effect amount (up to 10 max) for yourself when sustaining NP Attacks & apply [Delayed Effect Strategy: NP Attack] when decrease is successful",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026,
+      3063
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4100
+    ],
+    "script": {},
+    "id": 3915,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "[Defensive Opening: Critical Attack] (Removed during Break)",
+    "detail": "Decrease Special Resist effect amount (up to 10 max) for yourself when sustaining Critical Attacks & apply [Delayed Effect Strategy: Critical Attack] when decrease is successful",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026,
+      3063
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {},
+    "id": 3916,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "[Defensive Opening: Buster Attack] (Removed during Break)",
+    "detail": "Decrease Special Resist effect amount (up to 10 max) for yourself when sustaining Buster Attacks & apply [Delayed Effect Strategy: Buster Attack] when decrease is successful",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026,
+      3063
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001
+    ],
+    "script": {},
+    "id": 3917,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "[Defensive Opening: Arts Attack] (Removed during Break)",
+    "detail": "Decrease Special Resist effect amount (up to 10 max) for yourself when sustaining Arts Attacks & apply [Delayed Effect Strategy: Arts Attack] when decrease is successful",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026,
+      3063
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003
+    ],
+    "script": {},
+    "id": 3918,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "[Defensive Opening: Quick Attacks] (Removed during Break)",
+    "detail": "Decrease Special Resist effect amount (up to 10 max) for yourself when sustaining Quick Attacks & apply [Delayed Effect Strategy: Quick Attack] when decrease is successful",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026,
+      3063
+    ],
+    "tvals": [
+      5000,
+      4004
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4004
+    ],
+    "script": {},
+    "id": 3919,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "[Defensive Opening: Extra Attack] (Removed during Break)",
+    "detail": "Decrease Special Resist effect amount (up to 10 max) for yourself when sustaining Extra Attacks & apply [Delayed Effect Strategy: Extra Attack] when decrease is successful",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6027,
+      3063
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3920,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "[Delayed Effect Strategy: NP Attack] (Removed during Break)",
+    "detail": "After 3 turns apply [Defensive Opening: NP Attack] to yourself",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6027,
+      3063
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3921,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "[Delayed Effect Strategy: Critical Attack] (Removed during Break)",
+    "detail": "After 3 turns apply [Defensive Opening: Critical Attack] to yourself",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6027,
+      3063
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3922,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "[Delayed Effect Strategy: Buster Attack] (Removed during Break)",
+    "detail": "After 3 turns apply [Defensive Opening: Buster Attack] to yourself",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6027,
+      3063
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3923,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "[Delayed Effect Strategy: Arts Attack] (Removed during Break)",
+    "detail": "After 3 turns apply [Defensive Opening: Arts Attack] to yourself",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6027,
+      3063
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3924,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "[Delayed Effect Strategy: Quick Attack] (Removed during Break)",
+    "detail": "After 3 turns apply [Defensive Opening: Quick Attack] to yourself",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6027,
+      3063
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3925,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "[Delayed Effect Strategy: Extra Attack] (Removed during Break)",
+    "detail": "After 3 turns apply [Defensive Opening: Extra Attack] to yourself",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3017
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3926,
+    "buffGroup": 0,
+    "type": 92,
+    "name": "Decrease Special Resist effect",
+    "detail": "Decrease Special Resist effect amount (up to 10 max) for yourself",
+    "iconId": 529,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6035
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3927,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 300,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3928,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Triggers Each Turn (Cover Fire)",
+    "detail": "Triggers ballista Cover Fire at all enemies at the end of each turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3023
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3929,
+    "buffGroup": 700,
+    "type": 38,
+    "name": "Target Focused",
+    "detail": "Increase chance of being targeted by enemies",
+    "iconId": 323,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3930,
+    "buffGroup": 0,
+    "type": 100,
+    "name": "",
+    "detail": "",
+    "iconId": 348,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3931,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "Damage Cut",
+    "detail": "Decrease damage taken",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6029
+    ],
+    "tvals": [
+      3004
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3004
+    ],
+    "script": {
+      "INDIVIDUALITIE": 6026
+    },
+    "id": 3932,
+    "buffGroup": 0,
+    "type": 29,
+    "name": "",
+    "detail": "",
+    "iconId": 506,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6026
+    },
+    "id": 3933,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Innocent Wolf",
+    "detail": "Decrease Buff Success Rate for all [Female] enemies and allies on the field when [My Grandmother] is on the field",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6027
+    },
+    "id": 3934,
+    "buffGroup": 600,
+    "type": 104,
+    "name": "Useless Hunter",
+    "detail": "When HP reaches 0, recover HP and survive when [My Wolf] is on the field",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3022,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6028
+    },
+    "id": 3935,
+    "buffGroup": 400,
+    "type": 26,
+    "name": "Unremarkable Grandma",
+    "detail": "Ignore Sure Hit and reduce attack damage taken to 0 when [My Hunter] is on the field",
+    "iconId": 311,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3936,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3937,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 506,
+    "maxRate": 0,
     "effectId": 0
   },
   {

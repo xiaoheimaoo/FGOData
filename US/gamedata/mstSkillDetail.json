@@ -705,6 +705,11 @@
     "detailShort": "Gain Critical Stars each turn [{0}] (3 turns) & restore HP [{0}] for yourself"
   },
   {
+    "id": 53800,
+    "detail": "Gain C. Stars each turn [{0}] (3 turns) & increase Quick Card effectiveness [{0}] (3 turns) & Apply [Curse] Special Attack for yourself [{0}] (3 turns)",
+    "detailShort": "Gain C. Stars each turn [{0}] (3 turns) & increase Quick Card effectiveness [{0}] (3 turns) & Apply [Curse] Special Attack for yourself [{0}] (3 turns)"
+  },
+  {
     "id": 53900,
     "detail": "Gain C. Stars each turn [{0}] (3 turns) & increase Critical Strength [{0}] (3 times, 5 turns) for yourself",
     "detailShort": "Gain C. Stars each turn [{0}] (3 turns) & increase Critical Strength [{0}] (3 times, 5 turns) for yourself"
@@ -2726,8 +2731,8 @@
   },
   {
     "id": 299650,
-    "detail": "[Usable only when NP gauge is 100% or higher] Reduce your NP gauge by 100% [Demerit] + Increase Buster Card effectiveness for yourself [{0}] (3 turns) or apply Invincible for all allies (1 turn) or restore HP for all allies [{0}] or increase ATK for all allies [{0}] (1 turn) or gain a large amount of C. Stars [{0}]",
-    "detailShort": "[Usable only when NP gauge is 100% or higher] Reduce your NP gauge by 100% [Demerit] + Increase Buster Card effectiveness for yourself [{0}] (3 turns) or apply Invincible for all allies (1 turn) or restore HP for all allies [{0}] or increase ATK for all allies [{0}] (1 turn) or gain a large amount of C. Stars [{0}]"
+    "detail": "[Usable only when NP gauge is 100% or higher] Reduce your NP gauge by 100% [Demerit] + increase your Buster Card effectiveness [{0}] (3 turns) or apply Invincible for all allies (1 turn) or restore HP for all allies [{0}] or increase ATK for all allies [{0}] (1 turn) or gain a large amount of C. Stars [{0}]",
+    "detailShort": "[Usable only when NP gauge is 100% or higher] Reduce your NP gauge by 100% [Demerit] + increase your Buster Card effectiveness [{0}] (3 turns) or apply Invincible for all allies (1 turn) or restore HP for all allies [{0}] or increase ATK for all allies [{0}] (1 turn) or gain a large amount of C. Stars [{0}]"
   },
   {
     "id": 300450,
@@ -7130,6 +7135,21 @@
     "detailShort": "Increase your ATK Strength by 100% in \"Chaldea Summer Adventure!\" & increase NP Strength by 50% & increase Bond gained when completing quests by 50% [Event Only]"
   },
   {
+    "id": 940214,
+    "detail": "Increase your ATK Strength by 100% in \"Halloween Rising!\" & increase Bond gained when completing quests by 50% [Event Only]",
+    "detailShort": "Increase your ATK Strength by 100% in \"Halloween Rising!\" & increase Bond gained when completing quests by 50% [Event Only]"
+  },
+  {
+    "id": 940215,
+    "detail": "Increase your ATK Strength by 50% in \"Halloween Rising!\" & increase Bond gained when completing quests by 20% [Event Only]",
+    "detailShort": "Increase your ATK Strength by 50% in \"Halloween Rising!\" & increase Bond gained when completing quests by 20% [Event Only]"
+  },
+  {
+    "id": 940216,
+    "detail": "Increase your ATK Strength by 30% in \"Halloween Rising!\" & increase Bond gained when completing quests by 20% [Event Only]",
+    "detailShort": "Increase your ATK Strength by 30% in \"Halloween Rising!\" & increase Bond gained when completing quests by 20% [Event Only]"
+  },
+  {
     "id": 940450,
     "detail": "Increase NP Gauge [{0}] & NP Gain [{0}] (3 turns) for one ally",
     "detailShort": "Increase NP Gauge [{0}] & NP Gain [{0}] (3 turns) for one ally"
@@ -7158,6 +7178,46 @@
     "id": 945650,
     "detail": "[Usable only when NP gauge is 50% [g][o]▲[/o][/g] or higher] Reduce your NP gauge by 50% [g][o]▲[/o][/g] [Demerit] + Increase Buster Card effectiveness for yourself [{0}] (3 turns) or apply Invincible for all allies (1 turn) or restore HP for all allies [{0}] or increase ATK for all allies [{0}] (1 turn) or gain a large amount of C. Stars [{0}]",
     "detailShort": "[Usable only when NP gauge is 50% [g][o]▲[/o][/g] or higher] Reduce your NP gauge by 50% [g][o]▲[/o][/g] [Demerit] + Increase Buster Card effectiveness for yourself [{0}] (3 turns) or apply Invincible for all allies (1 turn) or restore HP for all allies [{0}] or increase ATK for all allies [{0}] (1 turn) or gain a large amount of C. Stars [{0}]"
+  },
+  {
+    "id": 946550,
+    "detail": "Increase ATK [{0}] (3 turns) & increase Critical Strength [{0}] (3 turns) & increase NP Gauge [{0}] for all allies + Apply [Evil] to all allies excluding yourself (3 turns)",
+    "detailShort": "Increase ATK [{0}] (3 turns) & increase Critical Strength [{0}] (3 turns) & increase NP Gauge [{0}] for all allies + Apply [Evil] to all allies excluding yourself (3 turns)"
+  },
+  {
+    "id": 947450,
+    "detail": "Apply Invincible (1 turn) & increase NP Gauge [{0}] for yourself + Apply Invincible to all [Evil] allies excluding yourself (1 time, 1 turn)",
+    "detailShort": "Apply Invincible (1 turn) & increase NP Gauge [{0}] for yourself + Apply Invincible to all [Evil] allies excluding yourself (1 time, 1 turn)"
+  },
+  {
+    "id": 948450,
+    "detail": "Increase Arts Card effectiveness [{0}] (3 turns) & increase NP Gauge each turn (3 turns) & gain C. Stars each turn [{0}] (3 turns) for yourself",
+    "detailShort": "Increase Arts Card effectiveness [{0}] (3 turns) & increase NP Gauge each turn (3 turns) & gain C. Stars each turn [{0}] (3 turns) for yourself"
+  },
+  {
+    "id": 949550,
+    "detail": "Apply Guts [{0}] (1 time, 3 turns) & increase C. Star Gather Rate [{0}] (1 turn) for yourself + Gain C. Stars [{0}]",
+    "detailShort": "Apply Guts [{0}] (1 time, 3 turns) & increase C. Star Gather Rate [{0}] (1 turn) for yourself + Gain C. Stars [{0}]"
+  },
+  {
+    "id": 950550,
+    "detail": "Increase ATK [{0}] (3 turns) & Critical Resistance [{0}] (3 turns) for all allies",
+    "detailShort": "Increase ATK [{0}] (3 turns) & Critical Resistance [{0}] (3 turns) for all allies"
+  },
+  {
+    "id": 951450,
+    "detail": "Apply Invincible (3 times, 3 turns) & increase NP Gain [{0}] (3 turns) & apply Poison (3 turns) [Demerit] to yourself",
+    "detailShort": "Apply Invincible (3 times, 3 turns) & increase NP Gain [{0}] (3 turns) & apply Poison (3 turns) [Demerit] to yourself"
+  },
+  {
+    "id": 952550,
+    "detail": "Increase Buster Card effectiveness [{0}] (3 turns) for yourself & apply Special Attack [Wild Beast] [{0}] (3 turns) & decrease DEF (3 turns) [Demerit] for yourself",
+    "detailShort": "Increase Buster Card effectiveness [{0}] (3 turns) for yourself & apply Special Attack [Wild Beast] [{0}] (3 turns) & decrease DEF (3 turns) [Demerit] for yourself"
+  },
+  {
+    "id": 953650,
+    "detail": "Gain a large amount of C. Stars [{0}] + Increase NP Gauge [{0}] & apply Skill Seal (1 turn) [Demerit] to yourself",
+    "detailShort": "Gain a large amount of C. Stars [{0}] + Increase NP Gauge [{0}] & apply Skill Seal (1 turn) [Demerit] to yourself"
   },
   {
     "id": 960502,
@@ -8283,6 +8343,21 @@
     "id": 980069,
     "detail": "Remove Poison, Curse, Burn & increase NP Gauge for a single ally",
     "detailShort": "Remove Poison, Curse, Burn & increase NP Gauge for a single ally"
+  },
+  {
+    "id": 980070,
+    "detail": "Increase Buster Card effectiveness [{0}] (1 turn) & NP Strength [{0}] (1 turn) for a single ally",
+    "detailShort": "Increase Buster Card effectiveness [{0}] (1 turn) & NP Strength [{0}] (1 turn) for a single ally"
+  },
+  {
+    "id": 980071,
+    "detail": "Apply Invincible to one ally (2 times, 1 turn)",
+    "detailShort": "Apply Invincible to one ally (2 times, 1 turn)"
+  },
+  {
+    "id": 980072,
+    "detail": "Remove Incapacitate/Seal & increase NP Gauge for a single ally",
+    "detailShort": "Remove Incapacitate/Seal & increase NP Gauge for a single ally"
   },
   {
     "id": 990001,
@@ -20471,8 +20546,8 @@
   },
   {
     "id": 992647,
-    "detail": "Increase NP Gain by 20% for all allies [Servants who possess Spiritron Dresses] excluding yourself + Increase NP Gain by 15% for yourself only if [servantName 504600] (Caster) is equipped with this Craft Essence when she is on the field",
-    "detailShort": "Increase NP Gain by 20% for all allies [Servants who possess Spiritron Dresses] excluding yourself + Increase NP Gain by 15% for yourself only if [servantName 504600] (Caster) is equipped with this Craft Essence when she is on the field"
+    "detail": "Increase NP Gain by 20% for all allies [who possess Spiritron Dresses] excluding yourself + Increase NP Gain by 15% for yourself only if [servantName 504600] (Caster) is equipped with this Craft Essence when she is on the field",
+    "detailShort": "Increase NP Gain by 20% for all allies [who possess Spiritron Dresses] excluding yourself + Increase NP Gain by 15% for yourself only if [servantName 504600] (Caster) is equipped with this Craft Essence when she is on the field"
   },
   {
     "id": 992648,
@@ -21233,6 +21308,156 @@
     "id": 992811,
     "detail": "Inflict Curse (300 damage, 3 turns) to a single enemy + Gain 1 C. Star when attacking with the engraved Card",
     "detailShort": "Inflict Curse (300 damage, 3 turns) to a single enemy + Gain 1 C. Star when attacking with the engraved Card"
+  },
+  {
+    "id": 992813,
+    "detail": "Increase Buster Card effectiveness by 8% & NP Strength by 10% & increase NP Charge by 2 levels when using NP (1 time) for yourself",
+    "detailShort": "Increase Buster Card effectiveness by 8% & NP Strength by 10% & increase NP Charge by 2 levels when using NP (1 time) for yourself"
+  },
+  {
+    "id": 992814,
+    "detail": "Increase Buster Card effectiveness by 10% & NP Strength by 15% & increase NP Charge by 2 levels when using NP (1 time) for yourself [MAX]",
+    "detailShort": "Increase Buster Card effectiveness by 10% & NP Strength by 15% & increase NP Charge by 2 levels when using NP (1 time) for yourself [MAX]"
+  },
+  {
+    "id": 992815,
+    "detail": "Increase Quick Card effectiveness by 8% & Critical Strength by 8% & NP Gain by 8% for yourself",
+    "detailShort": "Increase Quick Card effectiveness by 8% & Critical Strength by 8% & NP Gain by 8% for yourself"
+  },
+  {
+    "id": 992816,
+    "detail": "Increase Quick Card effectiveness by 10% & Critical Strength by 10% & NP Gain by 10% for yourself [MAX]",
+    "detailShort": "Increase Quick Card effectiveness by 10% & Critical Strength by 10% & NP Gain by 10% for yourself [MAX]"
+  },
+  {
+    "id": 992817,
+    "detail": "Gain 1 C. Star each turn & increase NP Gain by 5% for yourself",
+    "detailShort": "Gain 1 C. Star each turn & increase NP Gain by 5% for yourself"
+  },
+  {
+    "id": 992818,
+    "detail": "Gain 2 C. Stars each turn & increase NP Gain by 10% for yourself [MAX]",
+    "detailShort": "Gain 2 C. Stars each turn & increase NP Gain by 10% for yourself [MAX]"
+  },
+  {
+    "id": 992819,
+    "detail": "Increase Buster Card effectiveness by 8% & NP Gain by 8% & gain 3 C. Stars each turn for yourself",
+    "detailShort": "Increase Buster Card effectiveness by 8% & NP Gain by 8% & gain 3 C. Stars each turn for yourself"
+  },
+  {
+    "id": 992820,
+    "detail": "Increase Buster Card effectiveness by 10% & NP Gain by 10% & gain 4 C. Stars each turn for yourself [MAX]",
+    "detailShort": "Increase Buster Card effectiveness by 10% & NP Gain by 10% & gain 4 C. Stars each turn for yourself [MAX]"
+  },
+  {
+    "id": 992821,
+    "detail": "Apply Debuff Immune (1 time) & increase NP Strength by 10% & begin battle with NP charged at 30% for yourself",
+    "detailShort": "Apply Debuff Immune (1 time) & increase NP Strength by 10% & begin battle with NP charged at 30% for yourself"
+  },
+  {
+    "id": 992822,
+    "detail": "Apply Debuff Immune (1 time) & increase NP Strength by 15% & begin battle with NP charged at 50% for yourself [MAX]",
+    "detailShort": "Apply Debuff Immune (1 time) & increase NP Strength by 15% & begin battle with NP charged at 50% for yourself [MAX]"
+  },
+  {
+    "id": 992823,
+    "detail": "Apply Guts (1 time, restore 1 HP) & increase Buster Card Critical Strength by 25% for yourself",
+    "detailShort": "Apply Guts (1 time, restore 1 HP) & increase Buster Card Critical Strength by 25% for yourself"
+  },
+  {
+    "id": 992824,
+    "detail": "Apply Guts (1 time, restore 1 HP) & increase Buster Card Critical Strength by 30% for yourself [MAX]",
+    "detailShort": "Apply Guts (1 time, restore 1 HP) & increase Buster Card Critical Strength by 30% for yourself [MAX]"
+  },
+  {
+    "id": 992825,
+    "detail": "Apply 20% Special Attack [Curse] to all allies only if [servantName 2501000] (Foreigner) is equipped with this Craft Essence when she is on the field",
+    "detailShort": "Apply 20% Special Attack [Curse] to all allies only if [servantName 2501000] (Foreigner) is equipped with this Craft Essence when she is on the field"
+  },
+  {
+    "id": 992826,
+    "detail": "Increase NP Strength by 30% & increase NP Gauge when Guts is activated for herself only if [servantName 204500] (Archer) is equipped with this Craft Essence",
+    "detailShort": "Increase NP Strength by 30% & increase NP Gauge when Guts is activated for herself only if [servantName 204500] (Archer) is equipped with this Craft Essence"
+  },
+  {
+    "id": 992827,
+    "detail": "Increase all [Fairy Tale Servants] allies' Critical Strength by 30% only if [servantName 404600] (Rider) is equipped with this Craft Essence when she is on the field",
+    "detailShort": "Increase all [Fairy Tale Servants] allies' Critical Strength by 30% only if [servantName 404600] (Rider) is equipped with this Craft Essence when she is on the field"
+  },
+  {
+    "id": 992828,
+    "detail": "Increase Poison Apples amount per drop by 1 [Event Only]",
+    "detailShort": "Increase Poison Apples amount per drop by 1 [Event Only]"
+  },
+  {
+    "id": 992829,
+    "detail": "Increase Poison Apples amount per drop by 2 [MAX] [Event Only]",
+    "detailShort": "Increase Poison Apples amount per drop by 2 [MAX] [Event Only]"
+  },
+  {
+    "id": 992830,
+    "detail": "Increase Gingerbread Houses amount per drop by 1 [Event Only]",
+    "detailShort": "Increase Gingerbread Houses amount per drop by 1 [Event Only]"
+  },
+  {
+    "id": 992831,
+    "detail": "Increase Gingerbread Houses amount per drop by 2 [MAX] [Event Only]",
+    "detailShort": "Increase Gingerbread Houses amount per drop by 2 [MAX] [Event Only]"
+  },
+  {
+    "id": 992832,
+    "detail": "Increase Magic Sesame Seeds amount per drop by 1 [Event Only]",
+    "detailShort": "Increase Magic Sesame Seeds amount per drop by 1 [Event Only]"
+  },
+  {
+    "id": 992833,
+    "detail": "Increase Magic Sesame Seeds amount per drop by 2 [MAX] [Event Only]",
+    "detailShort": "Increase Magic Sesame Seeds amount per drop by 2 [MAX] [Event Only]"
+  },
+  {
+    "id": 992834,
+    "detail": "Increase your ATK Strength by 100% in \"Halloween Rising!\" + Increase appearance rate of [Oni] [Tin] [Pumpkin] enemies by 25% in Free Quests [Event Only]",
+    "detailShort": "Increase your ATK Strength by 100% in \"Halloween Rising!\" + Increase appearance rate of [Oni] [Tin] [Pumpkin] enemies by 25% in Free Quests [Event Only]"
+  },
+  {
+    "id": 992835,
+    "detail": "Increase your ATK Strength by 200% in \"Halloween Rising!\" + Increase appearance rate of [Oni] [Tin] [Pumpkin] enemies by 100% in Free Quests [MAX] [Event Only]",
+    "detailShort": "Increase your ATK Strength by 200% in \"Halloween Rising!\" + Increase appearance rate of [Oni] [Tin] [Pumpkin] enemies by 100% in Free Quests [MAX] [Event Only]"
+  },
+  {
+    "id": 992836,
+    "detail": "Increase your ATK Strength by 100% in \"Halloween Rising!\" + Increase appearance rate of [Scarecrow] [Toy] [Ghost] enemies by 25% in Free Quests [Event Only]",
+    "detailShort": "Increase your ATK Strength by 100% in \"Halloween Rising!\" + Increase appearance rate of [Scarecrow] [Toy] [Ghost] enemies by 25% in Free Quests [Event Only]"
+  },
+  {
+    "id": 992837,
+    "detail": "Increase your ATK Strength by 200% in \"Halloween Rising!\" + Increase appearance rate of [Scarecrow] [Toy] [Ghost] enemies by 100% in Free Quests [MAX] [Event Only]",
+    "detailShort": "Increase your ATK Strength by 200% in \"Halloween Rising!\" + Increase appearance rate of [Scarecrow] [Toy] [Ghost] enemies by 100% in Free Quests [MAX] [Event Only]"
+  },
+  {
+    "id": 992838,
+    "detail": "Increase your ATK Strength by 100% in \"Halloween Rising!\" + Increase appearance rate of [Monkey] [Snake] [Märchen] enemies by 25% in Free Quests [Event Only]",
+    "detailShort": "Increase your ATK Strength by 100% in \"Halloween Rising!\" + Increase appearance rate of [Monkey] [Snake] [Märchen] enemies by 25% in Free Quests [Event Only]"
+  },
+  {
+    "id": 992839,
+    "detail": "Increase your ATK Strength by 200% in \"Halloween Rising!\" + Increase appearance rate of [Monkey] [Snake] [Märchen] enemies by 100% in Free Quests [MAX] [Event Only]",
+    "detailShort": "Increase your ATK Strength by 200% in \"Halloween Rising!\" + Increase appearance rate of [Monkey] [Snake] [Märchen] enemies by 100% in Free Quests [MAX] [Event Only]"
+  },
+  {
+    "id": 992840,
+    "detail": "Gain 3 C. Stars when attacking with the engraved Card + Remove 1 ATK Up buff on a single enemy",
+    "detailShort": "Gain 3 C. Stars when attacking with the engraved Card + Remove 1 ATK Up buff on a single enemy"
+  },
+  {
+    "id": 992841,
+    "detail": "Apply 15% Special Attack [Female] effect to the engraved Card",
+    "detailShort": "Apply 15% Special Attack [Female] effect to the engraved Card"
+  },
+  {
+    "id": 992842,
+    "detail": "Remove one DEF Debuff for yourself & recover 100 HP for yourself when attacking with the engraved Card",
+    "detailShort": "Remove one DEF Debuff for yourself & recover 100 HP for yourself when attacking with the engraved Card"
   },
   {
     "id": 992851,
