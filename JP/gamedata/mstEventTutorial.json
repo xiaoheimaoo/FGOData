@@ -1,6 +1,101 @@
 [
   {
     "targetIds": [
+      "[94087002]",
+      "[94087053]",
+      "[94087054]",
+      "[94087055]"
+    ],
+    "condIds": [],
+    "imageIds": [],
+    "textJson": [
+      {
+        "scrDlgTitle": "パーティ効果について",
+        "rects": [],
+        "text": "\nバトルに参加するパーティメンバーが２騎以上だと発生し、\n参加数が増えるごとに効果が強力になります。\n一部の効果はプレイヤー側だけでなく、\nバトルに参加するエネミーが２体以上であれば\nエネミー側にも発生します。\n効果の種類は戦線によって変化する場合があります。\n\n■この戦線のパーティ効果(1)\nパーティ全体の攻撃の威力をアップ\n・2騎…20%\n・3騎…20%×2(計40%)\n・4騎…20%×3(計60%)\n・5騎…20%×4(計80%)\n・6騎…20%×5(計100%)\n\n■この戦線のパーティ効果(2)【プレイヤー側にのみ適用】\nパーティ全体の防御力をアップ\n・2騎以上…15％\n\n■この戦線のパーティ効果(3)【プレイヤー側にのみ適用】\nパーティ全体のHP回復量をアップ\n・2騎以上…50％\n",
+        "textPos": [
+          0,
+          30
+        ],
+        "dlgFontSize": 26,
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": -99,
+    "flagType": 1,
+    "num": 1,
+    "priority": 0,
+    "openType": 77,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[94087001]",
+      "[94087003]",
+      "[94087004]",
+      "[94087005]"
+    ],
+    "condIds": [],
+    "imageIds": [],
+    "textJson": [
+      {
+        "scrDlgTitle": "パーティ効果について",
+        "rects": [],
+        "text": "\nバトルに参加するパーティメンバーが２騎以上だと発生し、\n参加数が増えるごとに効果が強力になります。\n一部の効果はプレイヤー側だけでなく、\nバトルに参加するエネミーが２体以上であれば\nエネミー側にも発生します。\n効果の種類は戦線によって変化する場合があります。\n\n■この戦線のパーティ効果(1)\nパーティ全体の攻撃の威力をアップ\n・2騎…20%\n・3騎…20%×2(計40%)\n・4騎…20%×3(計60%)\n・5騎…20%×4(計80%)\n・6騎…20%×5(計100%)\n\n■この戦線のパーティ効果(2)【プレイヤー側にのみ適用】\nパーティ全体のスター発生率をアップ\n・2騎以上…100％\n",
+        "textPos": [
+          0,
+          30
+        ],
+        "dlgFontSize": 26,
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": -98,
+    "flagType": 1,
+    "num": 1,
+    "priority": 0,
+    "openType": 77,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      1079
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": -97,
+    "flagType": 60,
+    "num": 1,
+    "priority": 1,
+    "openType": 63,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
       "[]"
     ],
     "condIds": [
@@ -957,14 +1052,7 @@
   },
   {
     "targetIds": [
-      "[94071440]",
-      "[94071401]",
-      "[94071402]",
-      "[94071403]",
-      "[94071404]",
-      "[94071405]",
-      "[94071406]",
-      "[94071407]"
+      "[8043905]"
     ],
     "condIds": [],
     "imageIds": [
@@ -976,7 +1064,7 @@
     "flagType": 61,
     "num": 4,
     "priority": 0,
-    "openType": 64,
+    "openType": 84,
     "condType": 0,
     "condValue": 0,
     "condValue2": 0,
@@ -1080,11 +1168,9 @@
   },
   {
     "targetIds": [
-      "[9134]"
+      "[8043904]"
     ],
-    "condIds": [
-      94071421
-    ],
+    "condIds": [],
     "imageIds": [
       985
     ],
@@ -1094,8 +1180,8 @@
     "flagType": 2,
     "num": 1,
     "priority": 0,
-    "openType": 18,
-    "condType": 1,
+    "openType": 84,
+    "condType": 0,
     "condValue": 0,
     "condValue2": 0,
     "condValue3": 0,
@@ -1554,28 +1640,7 @@
     "eventId": -32,
     "flagType": 61,
     "num": 3,
-    "priority": 0,
-    "openType": 64,
-    "condType": 0,
-    "condValue": 0,
-    "condValue2": 0,
-    "condValue3": 0,
-    "flag": 0
-  },
-  {
-    "targetIds": [
-      "[]"
-    ],
-    "condIds": [],
-    "imageIds": [
-      914
-    ],
-    "textJson": [],
-    "script": {},
-    "eventId": -31,
-    "flagType": 61,
-    "num": 2,
-    "priority": 0,
+    "priority": 2,
     "openType": 64,
     "condType": 0,
     "condValue": 0,
@@ -1597,7 +1662,7 @@
     "eventId": -30,
     "flagType": 61,
     "num": 1,
-    "priority": 0,
+    "priority": 3,
     "openType": 64,
     "condType": 0,
     "condValue": 0,
@@ -1618,7 +1683,7 @@
     "eventId": -29,
     "flagType": 60,
     "num": 1,
-    "priority": 0,
+    "priority": 2,
     "openType": 63,
     "condType": 0,
     "condValue": 0,
@@ -1628,7 +1693,7 @@
   },
   {
     "targetIds": [
-      "[]"
+      "[8043903]"
     ],
     "condIds": [],
     "imageIds": [
@@ -1640,7 +1705,7 @@
     "flagType": 59,
     "num": 1,
     "priority": 0,
-    "openType": 62,
+    "openType": 84,
     "condType": 0,
     "condValue": 0,
     "condValue2": 0,
@@ -1649,30 +1714,10 @@
   },
   {
     "targetIds": [
-      "[]"
-    ],
-    "condIds": [],
-    "imageIds": [
-      876
-    ],
-    "textJson": [],
-    "script": {},
-    "eventId": -27,
-    "flagType": 62,
-    "num": 1,
-    "priority": 0,
-    "openType": 65,
-    "condType": 0,
-    "condValue": 0,
-    "condValue2": 0,
-    "condValue3": 0,
-    "flag": 0
-  },
-  {
-    "targetIds": [
-      "[8359]",
-      "[9112]",
-      "[9134]"
+      "[9152]",
+      "[9153]",
+      "[9154]",
+      "[9155]"
     ],
     "condIds": [
       94055901,
@@ -1695,7 +1740,9 @@
       94071404,
       94071405,
       94071406,
-      94071407
+      94071407,
+      94086907,
+      94086957
     ],
     "imageIds": [
       881
@@ -1706,7 +1753,7 @@
     "flagType": 4,
     "num": 1,
     "priority": 0,
-    "openType": 18,
+    "openType": 1,
     "condType": 1,
     "condValue": 0,
     "condValue2": 0,
@@ -20099,6 +20146,131 @@
     "condValue2": 0,
     "condValue3": 0,
     "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      1078
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80439,
+    "flagType": 4,
+    "num": 1,
+    "priority": 0,
+    "openType": 20,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9152]",
+      "[9153]",
+      "[9154]",
+      "[9155]"
+    ],
+    "condIds": [
+      94086903
+    ],
+    "imageIds": [
+      1083
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80439,
+    "flagType": 8,
+    "num": 1,
+    "priority": 0,
+    "openType": 1,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[914701]",
+      "[914702]",
+      "[914703]",
+      "[914705]",
+      "[914706]",
+      "[914707]",
+      "[914708]",
+      "[914709]",
+      "[914710]",
+      "[914720]",
+      "[914721]",
+      "[914722]",
+      "[914723]",
+      "[914724]"
+    ],
+    "condIds": [
+      94086905
+    ],
+    "imageIds": [
+      1081
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80439,
+    "flagType": 13,
+    "num": 1,
+    "priority": 0,
+    "openType": 3,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      1078
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80439,
+    "flagType": 21,
+    "num": 1,
+    "priority": 0,
+    "openType": 23,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[8043901]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      1082
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80439,
+    "flagType": 62,
+    "num": 1,
+    "priority": 0,
+    "openType": 84,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 2
   },
   {
     "targetIds": [

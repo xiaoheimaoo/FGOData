@@ -820,7 +820,9 @@
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
-    "script": {},
+    "script": {
+      "ProgressSelfTurn": 1
+    },
     "id": 138,
     "buffGroup": 0,
     "type": 15,
@@ -1232,7 +1234,8 @@
   },
   {
     "vals": [
-      3004
+      3004,
+      3090
     ],
     "tvals": [
       3004
@@ -7503,7 +7506,8 @@
   },
   {
     "vals": [
-      3004
+      3004,
+      3090
     ],
     "tvals": [
       3004,
@@ -43561,7 +43565,9 @@
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
-    "script": {},
+    "script": {
+      "ProgressSelfTurn": 1
+    },
     "id": 3328,
     "buffGroup": 0,
     "type": 40,
@@ -56065,7 +56071,8 @@
   },
   {
     "vals": [
-      3004
+      3004,
+      3090
     ],
     "tvals": [
       3004
@@ -60192,7 +60199,8 @@
   },
   {
     "vals": [
-      3004
+      3004,
+      3090
     ],
     "tvals": [
       3004
@@ -60590,7 +60598,9 @@
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
-    "script": {},
+    "script": {
+      "ProgressSelfTurn": 1
+    },
     "id": 4264,
     "buffGroup": 0,
     "type": 40,
@@ -78167,6 +78177,36 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5418,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "過日の夢想",
+    "detail": "『聖杯戦線 ～白天の城、黒夜の城～』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5419,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ",
+    "detail": "『聖杯戦線 ～白天の城、黒夜の城～』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004,
       3006,
@@ -78337,7 +78377,9 @@
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
-    "script": {},
+    "script": {
+      "ProgressSelfTurn": 1
+    },
     "id": 5429,
     "buffGroup": 0,
     "type": 40,
@@ -78681,7 +78723,9 @@
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
-    "script": {},
+    "script": {
+      "ProgressSelfTurn": 1
+    },
     "id": 5451,
     "buffGroup": 0,
     "type": 18,
@@ -79136,7 +79180,9 @@
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
-    "script": {},
+    "script": {
+      "ProgressSelfTurn": 1
+    },
     "id": 5473,
     "buffGroup": 0,
     "type": 40,
@@ -79201,6 +79247,137 @@
     "detail": "『リリース3000日突破キャンペーン』開催期間中において与えるダメージをアップ",
     "iconId": 302,
     "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5477,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "過日の夢想",
+    "detail": "『聖杯戦線 ～白天の城、黒夜の城～』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5478,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ",
+    "detail": "『聖杯戦線 ～白天の城、黒夜の城～』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5484,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "毎ターン終了時、自身のクリティカル威力をアップ",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5485,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "毎ターン終了時、自身の強化付与率をアップ",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3021
+    },
+    "id": 5486,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "クリティカル威力アップ",
+    "detail": "クリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3043
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 2
+    },
+    "id": 5487,
+    "buffGroup": 0,
+    "type": 81,
+    "name": "最大HPプラス",
+    "detail": "最大HPを増やす",
+    "iconId": 330,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 2,
+      "ProgressSelfTurn": 1
+    },
+    "id": 5488,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Busterアップ",
+    "detail": "Busterカードの性能をアップ",
+    "iconId": 314,
+    "maxRate": 5000,
     "effectId": 0
   },
   {
@@ -94176,6 +94353,111 @@
     "name": "クリティカル発生アップ",
     "detail": "クリティカルの発生率をアップ＜残りの兵士の数だけ効果量アップ＞",
     "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087002,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087008,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "パーティ効果：防御力アップ",
+    "detail": "防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087009,
+    "buffGroup": 0,
+    "type": 3,
+    "name": "パーティ効果：スター発生アップ",
+    "detail": "スター発生率をアップ",
+    "iconId": 321,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087010,
+    "buffGroup": 0,
+    "type": 64,
+    "name": "パーティ効果：HP回復量アップ",
+    "detail": "HPの回復効果量をアップ",
+    "iconId": 328,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087012,
+    "buffGroup": 0,
+    "type": 171,
+    "name": "行動回数ダウン",
+    "detail": "バトル中の行動回数を減らす",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {},
+    "id": 94087016,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "Buster攻撃耐性アップ",
+    "detail": "Buster攻撃による被ダメージ、被NP発生量、被スター発生率が減少する",
+    "iconId": 347,
     "maxRate": 5000,
     "effectId": 0
   },

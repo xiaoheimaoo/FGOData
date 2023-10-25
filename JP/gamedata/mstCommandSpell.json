@@ -33,102 +33,6 @@
   },
   {
     "funcId": [
-      1
-    ],
-    "svals": [
-      "[1,0]"
-    ],
-    "script": {},
-    "id": 3,
-    "name": "宝具充填",
-    "type": 0,
-    "consume": 1,
-    "detail": "出撃中のサーヴァント全員の宝具ゲージを+100％する",
-    "motion": 201,
-    "priority": 100
-  },
-  {
-    "funcId": [
-      1
-    ],
-    "svals": [
-      "[1,0]"
-    ],
-    "script": {},
-    "id": 4,
-    "name": "スキル充填",
-    "type": 0,
-    "consume": 1,
-    "detail": "出撃中のサーヴァント全員のスキルを使用可能状態にする",
-    "motion": 201,
-    "priority": 100
-  },
-  {
-    "funcId": [
-      1
-    ],
-    "svals": [
-      "[1,0]"
-    ],
-    "script": {},
-    "id": 5,
-    "name": "ALL　Quick",
-    "type": 0,
-    "consume": 1,
-    "detail": "次に配られるコマンドカードが全てクイックになる",
-    "motion": 201,
-    "priority": 100
-  },
-  {
-    "funcId": [
-      1
-    ],
-    "svals": [
-      "[1,0]"
-    ],
-    "script": {},
-    "id": 6,
-    "name": "ALL　Arts",
-    "type": 0,
-    "consume": 1,
-    "detail": "次に配られるコマンドカードが全てアーツになる",
-    "motion": 201,
-    "priority": 100
-  },
-  {
-    "funcId": [
-      1
-    ],
-    "svals": [
-      "[1,0]"
-    ],
-    "script": {},
-    "id": 7,
-    "name": "ALL　Buster",
-    "type": 0,
-    "consume": 1,
-    "detail": "次に配られるコマンドカードが全てバスターになる",
-    "motion": 201,
-    "priority": 100
-  },
-  {
-    "funcId": [
-      1
-    ],
-    "svals": [
-      "[1,0]"
-    ],
-    "script": {},
-    "id": 8,
-    "name": "メンバーチェンジ",
-    "type": 0,
-    "consume": 1,
-    "detail": "出撃中のサーヴァントと控えメンバーとを強制的入替える",
-    "motion": 201,
-    "priority": 100
-  },
-  {
-    "funcId": [
       464
     ],
     "svals": [
@@ -144,5 +48,23 @@
     "detail": "サーヴァント1騎のNPを100％増加させる",
     "motion": 201,
     "priority": 200
+  },
+  {
+    "funcId": [
+      1
+    ],
+    "svals": [
+      "[1,0]"
+    ],
+    "script": {
+      "HideInDetailWindow": 1
+    },
+    "id": 20,
+    "name": "",
+    "type": 6,
+    "consume": 3,
+    "detail": "",
+    "motion": 201,
+    "priority": 0
   }
 ]
