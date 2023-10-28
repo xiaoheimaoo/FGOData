@@ -21588,7 +21588,9 @@
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
-    "script": {},
+    "script": {
+      "UnSubStateWhenContinue": 2
+    },
     "id": 1531,
     "buffGroup": 0,
     "type": 81,
@@ -36463,7 +36465,9 @@
     "ckOpIndv": [
       4007
     ],
-    "script": {},
+    "script": {
+      "UnSubStateWhenContinue": 2
+    },
     "id": 2919,
     "buffGroup": 0,
     "type": 91,
@@ -36483,7 +36487,9 @@
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
-    "script": {},
+    "script": {
+      "UnSubStateWhenContinue": 2
+    },
     "id": 2920,
     "buffGroup": 0,
     "type": 81,
@@ -79281,6 +79287,29 @@
   },
   {
     "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      2632
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2632
+    ],
+    "script": {},
+    "id": 5483,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ〔魔獣型のサーヴァント〕",
+    "detail": "〔魔獣型のサーヴァント〕に与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004
     ],
     "tvals": [],
@@ -94442,6 +94471,23 @@
     "effectId": 0
   },
   {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087011,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "？？？",
+    "detail": "ターン終了時、自身のHPが減少する",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
     "vals": [],
     "tvals": [
       5000
@@ -94455,6 +94501,60 @@
     "name": "行動回数ダウン",
     "detail": "バトル中の行動回数を減らす",
     "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087013,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "？？？",
+    "detail": "防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087014,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "？？？",
+    "detail": "防御力をダウン",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087015,
+    "buffGroup": 0,
+    "type": 7,
+    "name": "？？？",
+    "detail": "ターン終了時にHPが回復する",
+    "iconId": 318,
     "maxRate": 0,
     "effectId": 0
   },
@@ -94475,6 +94575,27 @@
     "name": "Buster攻撃耐性アップ",
     "detail": "Buster攻撃による被ダメージ、被NP発生量、被スター発生率が減少する",
     "iconId": 347,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3036
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94087017,
+    "buffGroup": 0,
+    "type": 16,
+    "name": "宝具威力ダウン",
+    "detail": "宝具で与えるダメージをダウン",
+    "iconId": 508,
     "maxRate": 5000,
     "effectId": 0
   },
