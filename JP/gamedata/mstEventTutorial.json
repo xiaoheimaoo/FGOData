@@ -40,7 +40,8 @@
       "[94087054]",
       "[94087055]",
       "[94087056]",
-      "[94087057]"
+      "[94087057]",
+      "[94087059]"
     ],
     "condIds": [],
     "imageIds": [],
@@ -79,7 +80,8 @@
       "[94087004]",
       "[94087005]",
       "[94087006]",
-      "[94087007]"
+      "[94087007]",
+      "[94087009]"
     ],
     "condIds": [],
     "imageIds": [],
@@ -20187,6 +20189,39 @@
   },
   {
     "targetIds": [
+      "[8043902]"
+    ],
+    "condIds": [],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "『不死殺しの円環』の攻撃でHPが0になり\nバトルが終了した場合、\nブレイクポイントが残っていても\nサーヴァントは[00FFFF]撤退・退去[-]します。",
+        "dlgFontSize": 30,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80439,
+    "flagType": 2,
+    "num": 1,
+    "priority": 0,
+    "openType": 84,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 2
+  },
+  {
+    "targetIds": [
       "[]"
     ],
     "condIds": [],
@@ -20205,6 +20240,39 @@
     "condValue2": 0,
     "condValue3": 0,
     "flag": 0
+  },
+  {
+    "targetIds": [
+      "[8043907]"
+    ],
+    "condIds": [],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "『テュフォン・エフェメロス』は\n一定ターン毎に広範囲のブレス攻撃を行います。\n\nブレス攻撃の範囲はマップ上で予告され、\nブレス攻撃が行われると範囲にいるすべての対象がダメージを受けます。\nブレス攻撃の範囲を避けつつ戦いましょう。\n\n※ブレス攻撃は「回避」「無敵」で防ぐことはできません。\n※ブレス攻撃によりガッツが発動、または死亡した場合、\n「ガッツ時発動効果」「死亡時発動効果」は発動しません。",
+        "dlgFontSize": 30,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80439,
+    "flagType": 6,
+    "num": 1,
+    "priority": 0,
+    "openType": 84,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 2
   },
   {
     "targetIds": [
@@ -20288,6 +20356,27 @@
     "condValue2": 0,
     "condValue3": 0,
     "flag": 0
+  },
+  {
+    "targetIds": [
+      "[8043906]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      1080
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80439,
+    "flagType": 59,
+    "num": 1,
+    "priority": 0,
+    "openType": 84,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 2
   },
   {
     "targetIds": [

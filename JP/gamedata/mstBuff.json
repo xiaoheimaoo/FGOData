@@ -79287,6 +79287,44 @@
   },
   {
     "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5479,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "特性付与〔悪〕",
+    "detail": "〔悪〕特性を付与する(弱体扱い)",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      3004
+    ],
+    "ckSelfIndv": [
+      3004
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5480,
+    "buffGroup": 0,
+    "type": 99,
+    "name": "強化解除成功率ダウン",
+    "detail": "強化解除成功率をダウン",
+    "iconId": 507,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3006,
       3028
@@ -94403,6 +94441,42 @@
     "effectId": 0
   },
   {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94086901,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時、自身の攻撃力をアップ",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6039
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "buffStateNoticeName": "[FFFF00]竜殻閉鎖(攻撃不可)[-]"
+    },
+    "id": 94087001,
+    "buffGroup": 0,
+    "type": 183,
+    "name": "竜殻閉鎖",
+    "detail": "一定ターンの間、戦線マップ上で攻撃の対象にならなくなる",
+    "iconId": 334,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
     "vals": [],
     "tvals": [],
     "ckSelfIndv": [],
@@ -94414,6 +94488,94 @@
     "name": "",
     "detail": "",
     "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087003,
+    "buffGroup": 0,
+    "type": 184,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087004,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "権能：不死殺し",
+    "detail": "自身の攻撃によるダメージで対象のHPを0にした時、対象のブレイクポイントが残っていても戦線離脱させる",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 94087001
+    },
+    "id": 94087005,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "聖杯弾の侵食",
+    "detail": "全てのクラスに対して防御劣位となる",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3022,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087006,
+    "buffGroup": 400,
+    "type": 26,
+    "name": "大図書館の叡智",
+    "detail": "必中を無視して、攻撃によるダメージを0にする",
+    "iconId": 311,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087007,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 543,
     "maxRate": 0,
     "effectId": 0
   },
