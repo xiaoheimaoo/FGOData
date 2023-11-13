@@ -53351,6 +53351,36 @@
     "ckSelfIndv": [],
     "ckOpIndv": [],
     "script": {},
+    "id": 3855,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "SAITAMA Power",
+    "detail": "Increase damage dealt during \"GUDAGUDA Ryouma's Narrow Escape!\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3856,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Strength Up",
+    "detail": "Increase damage dealt during \"GUDAGUDA Ryouma's Narrow Escape!\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
     "id": 3857,
     "buffGroup": 0,
     "type": 11,
@@ -54878,6 +54908,393 @@
   },
   {
     "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3940,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "Kishin Barrier",
+    "detail": "Increase DEF",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3941,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "Kishin Barrier - Reinforced",
+    "detail": "Increase DEF",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3942,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "Kasugayama Armor",
+    "detail": "Increase DEF",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3943,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Kishin Barrier - Shell",
+    "detail": "Gain resistance to all attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3944,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Activate when Attacking (Inflict Stun)",
+    "detail": "Chance to inflict Stun (1 turn) during normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3945,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate when Damaged (ATK Up)",
+    "detail": "Your ATK increases when attacked",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3946,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "\"Though one Mini Nobu dies, other Mini Nobus will live on\"",
+    "detail": "When HP reaches 0, apply Damage Cut to Mini Nobu types & increase damage dealt",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3947,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Activate when Attacking (Inflict Bravo!)",
+    "detail": "Inflict [Bravo!] state to a single enemy when attacking with Buster Cards",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3948,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Activate when Attacking (Inflict Bravo!)",
+    "detail": "Inflict [Bravo!] state to a single enemy when attacking with Arts Cards",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3949,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Activate when Attacking (Inflict Bravo!)",
+    "detail": "Inflict [Bravo!] state to a single enemy when attacking with Quick Cards",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3951,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "Critical Hit Rate Up",
+    "detail": "Increase Critical Hit rate",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3059,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3952,
+    "buffGroup": 0,
+    "type": 72,
+    "name": "Ignore Invincible",
+    "detail": "Ignore Evade and Invincible to deal damage",
+    "iconId": 329,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 3953,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "Critical Hit Rate Up",
+    "detail": "Increase Critical Hit rate",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3954,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "Critical Up",
+    "detail": "Increase Critical Hit damage",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      3014,
+      3012,
+      3013,
+      3045
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3014,
+      3012,
+      3013,
+      3045
+    ],
+    "script": {},
+    "id": 3958,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "Thrilling Dance",
+    "detail": "Immune to Incapacitate & increase NP damage",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [
+      4100
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3959,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Activate during Critical Attack (DEF Down)",
+    "detail": "Decrease DEF for a single enemy during your Critical attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3960,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn (Inflict Skill Seal)",
+    "detail": "Inflict Skill Seal to a single enemy at the end of each turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3961,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Buster Up",
+    "detail": "Increase your Buster Card effectiveness when on a [Burning] field",
+    "iconId": 314,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2811
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3962,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Bravo!",
+    "detail": "Once 7 are collected, apply Charm to yourself (1 turn) & remove all [Bravo!] states",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6015
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 3963,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Add Individuality",
+    "detail": "Add Individuality",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004
     ],
     "tvals": [],
@@ -55294,6 +55711,7 @@
       115,
       109,
       117,
+      120,
       111,
       113,
       114,
@@ -55309,6 +55727,7 @@
       115,
       109,
       117,
+      120,
       111,
       113,
       114,
@@ -55575,6 +55994,29 @@
     "name": "Critical Resistance Up (Anti-Foreigner)",
     "detail": "Decrease chance to sustain Critical Hits from [Foreigner] class",
     "iconId": 363,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [
+      120
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      120
+    ],
+    "script": {},
+    "id": 30029,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "ATK Up (against Pretenders)",
+    "detail": "Increase ATK against [Pretender] class",
+    "iconId": 300,
     "maxRate": 5000,
     "effectId": 0
   }
