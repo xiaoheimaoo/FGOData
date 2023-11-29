@@ -79328,6 +79328,21 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5481,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "ぐだぐだ激走パワー",
+    "detail": "『ぐだぐだ超五稜郭』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004,
       3006,
@@ -79465,6 +79480,57 @@
     "name": "",
     "detail": "",
     "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5505,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "攻撃を受けると自身の攻撃力をアップ",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5507,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "攻撃を受けるとスターを獲得する",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5508,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "攻撃を受けると自身のクリティカル発生率をアップ",
+    "iconId": 331,
     "maxRate": 0,
     "effectId": 0
   },
@@ -98163,6 +98229,42 @@
     "name": "宝具攻撃時追加効果",
     "detail": "宝具攻撃時、対象に呪い状態を付与",
     "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94090001,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "今魔川衆",
+    "detail": "クリティカルの発生率をアップ＆防御力をアップ",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94090002,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "手負いの軍神",
+    "detail": "宝具を使用できなくなる＆ターン終了時、自身のHPが減少する",
+    "iconId": 537,
     "maxRate": 0,
     "effectId": 0
   },
