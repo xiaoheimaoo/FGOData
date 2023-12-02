@@ -113499,7 +113499,9 @@
       94090036,
       0
     ],
-    "script": {},
+    "script": {
+      "forcedSkillSpeed": 1
+    },
     "id": 94090035,
     "idx": 1,
     "actNum": -1,
@@ -113557,6 +113559,40 @@
     "idx": 1,
     "actNum": -1,
     "timing": 2,
+    "priority": 1,
+    "probability": 100,
+    "cond": 0,
+    "aiActId": 1,
+    "infoText": ""
+  },
+  {
+    "vals": [],
+    "avals": [
+      94090426,
+      0
+    ],
+    "script": {},
+    "id": 94090425,
+    "idx": 1,
+    "actNum": -1,
+    "timing": 1,
+    "priority": 1,
+    "probability": 100,
+    "cond": 0,
+    "aiActId": 94090326,
+    "infoText": ""
+  },
+  {
+    "vals": [],
+    "avals": [
+      0,
+      0
+    ],
+    "script": {},
+    "id": 94090426,
+    "idx": 1,
+    "actNum": -1,
+    "timing": 1,
     "priority": 1,
     "probability": 100,
     "cond": 0,
