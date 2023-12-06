@@ -98361,6 +98361,81 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94090008,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "防御力アップ",
+    "detail": "自身がフィールドにいる間、味方全体のクリティカル攻撃以外への防御力をアップ",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [
+      -4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4100
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94090009,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "",
+    "detail": "",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94090010,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "クリティカル発生アップ",
+    "detail": "自身がフィールドにいる間、味方全体のクリティカルの発生率をアップ",
+    "iconId": 327,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94090011,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "",
+    "detail": "",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3005,
       3020
@@ -98373,6 +98448,24 @@
     "buffGroup": 900,
     "type": 34,
     "name": "戦の裁定者",
+    "detail": "宝具を使用できなくなる",
+    "iconId": 512,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3020
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94090013,
+    "buffGroup": 900,
+    "type": 34,
+    "name": "なんじゃなんじゃ！？",
     "detail": "宝具を使用できなくなる",
     "iconId": 512,
     "maxRate": 0,
@@ -98410,6 +98503,57 @@
     "name": "遅延発動(弱体)",
     "detail": "1ターン経過後に自身に宝具封印状態を付与",
     "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94090016,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "道連れ",
+    "detail": "HPが0になった時、高確率で敵単体に即死を付与",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94090017,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "死亡時発動",
+    "detail": "HPが0になった時、味方全体のチャージを1増やす",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94090018,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時に確率で敵単体に即死を付与",
+    "iconId": 528,
     "maxRate": 0,
     "effectId": 0
   },
@@ -98579,6 +98723,275 @@
   },
   {
     "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94090029,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "毘沙門天の加護",
+    "detail": "「毘天の護り」系の効果を有効にする",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3085,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6026
+    },
+    "id": 94090030,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "毘天のすごい護り",
+    "detail": "被ダメージを減らす＆精神異常を受けなくなる<〔毘沙門天の加護〕が無い時、効果が無効になる>",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3010
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3010
+    ],
+    "script": {
+      "INDIVIDUALITIE": 6026
+    },
+    "id": 94090031,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "",
+    "detail": "",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94090032,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "毘天のすごい護り",
+    "detail": "宝具攻撃を受けた時、自身の〔毘沙門天の加護〕を1つ解除",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94090033,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94090034,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94090035,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "宝具被ダメージ時発動",
+    "detail": "宝具攻撃を受けた時、自身のチャージを1増やす",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6026
+    },
+    "id": 94090036,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "毘天の護り(ソルト)",
+    "detail": "攻撃力をアップ＆防御力をアップ<〔毘沙門天の加護〕が無い時、効果が無効になる>",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6026
+    },
+    "id": 94090037,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "",
+    "detail": "",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6026
+    },
+    "id": 94090038,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "毘天の超すごい護り(軍神)",
+    "detail": "防御力をアップ＆回避と無敵を無視してダメージを与える<〔毘沙門天の加護〕が無い時、効果が無効になる>",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3059,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6026
+    },
+    "id": 94090039,
+    "buffGroup": 0,
+    "type": 72,
+    "name": "",
+    "detail": "",
+    "iconId": 329,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6026
+    },
+    "id": 94090040,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "毘天の超すごい護り(軍神)",
+    "detail": "通常攻撃時、自身のチャージを1増やす<〔毘沙門天の加護〕が無い時、効果が無効になる>",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6026
+    },
+    "id": 94090041,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "毘天の超すごい護り(軍神)",
+    "detail": "宝具攻撃時、対象に中確率で恐怖状態(1回・3ターン)を付与する<〔毘沙門天の加護〕が無い時、効果が無効になる>",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004
     ],
     "tvals": [],
@@ -98586,6 +98999,23 @@
     "ckOpIndv": [],
     "script": {},
     "id": 94090042,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "遅延発動(強化)",
+    "detail": "ターン終了時、自身のチャージを最大にする",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94090043,
     "buffGroup": 0,
     "type": 76,
     "name": "遅延発動(強化)",
