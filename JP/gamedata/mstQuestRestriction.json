@@ -16760,15 +16760,6 @@
   {
     "questId": 94090002,
     "phase": 1,
-    "restrictionId": 94090001,
-    "frequencyType": 1,
-    "dialogMessage": "このクエストでは\n所持サーヴァントから4騎まで\n編成できます。",
-    "noticeMessage": "NPC固定出撃",
-    "title": ""
-  },
-  {
-    "questId": 94090002,
-    "phase": 1,
     "restrictionId": 94090002,
     "frequencyType": 0,
     "dialogMessage": "",
@@ -16779,18 +16770,27 @@
     "questId": 94090002,
     "phase": 1,
     "restrictionId": 94090003,
+    "frequencyType": 1,
+    "dialogMessage": "このクエストでは\n所持サーヴァントから4騎まで\n編成できます。",
+    "noticeMessage": "",
+    "title": ""
+  },
+  {
+    "questId": 94090002,
+    "phase": 1,
+    "restrictionId": 94090017,
     "frequencyType": 0,
     "dialogMessage": "",
-    "noticeMessage": "長尾景虎をスターティングメンバーに設定してください。",
+    "noticeMessage": "",
     "title": "長尾景虎"
   },
   {
     "questId": 94090003,
     "phase": 1,
     "restrictionId": 94090004,
-    "frequencyType": 1,
-    "dialogMessage": "このクエストでは\n所持サーヴァントから2騎まで\n編成できます。",
-    "noticeMessage": "NPC固定出撃",
+    "frequencyType": 0,
+    "dialogMessage": "沖田総司と斎藤一を\nスターティングメンバーに設定してください。",
+    "noticeMessage": "",
     "title": ""
   },
   {
@@ -16799,7 +16799,7 @@
     "restrictionId": 94090006,
     "frequencyType": 0,
     "dialogMessage": "",
-    "noticeMessage": "沖田総司をスターティングメンバーに設定してください。",
+    "noticeMessage": "",
     "title": "沖田総司"
   },
   {
@@ -16808,35 +16808,26 @@
     "restrictionId": 94090007,
     "frequencyType": 0,
     "dialogMessage": "",
-    "noticeMessage": "斎藤一をスターティングメンバーに設定してください。",
+    "noticeMessage": "",
     "title": "斎藤一"
   },
   {
     "questId": 94090006,
     "phase": 1,
     "restrictionId": 94090008,
-    "frequencyType": 1,
-    "dialogMessage": "このクエストを開始するには\nスターティングメンバーに\n1騎のサーヴァントが必要です。",
-    "noticeMessage": "1騎のみ出撃可能",
+    "frequencyType": 0,
+    "dialogMessage": "長尾景虎を\nスターティングメンバーに設定してください。",
+    "noticeMessage": "",
     "title": ""
   },
   {
     "questId": 94090006,
     "phase": 1,
     "restrictionId": 94090009,
-    "frequencyType": 1,
+    "frequencyType": 0,
     "dialogMessage": "長尾景虎を\nスターティングメンバーに設定してください。",
-    "noticeMessage": "長尾景虎をスターティングメンバーに設定してください。",
-    "title": "長尾景虎"
-  },
-  {
-    "questId": 94090007,
-    "phase": 2,
-    "restrictionId": 94090001,
-    "frequencyType": 1,
-    "dialogMessage": "このクエストでは\n所持サーヴァントから4騎まで\n編成できます。",
     "noticeMessage": "",
-    "title": ""
+    "title": "長尾景虎"
   },
   {
     "questId": 94090007,
@@ -16851,6 +16842,15 @@
     "questId": 94090007,
     "phase": 2,
     "restrictionId": 94090011,
+    "frequencyType": 0,
+    "dialogMessage": "このクエストでは\n所持サーヴァントから4騎まで\n編成できます。",
+    "noticeMessage": "",
+    "title": ""
+  },
+  {
+    "questId": 94090007,
+    "phase": 2,
+    "restrictionId": 94090018,
     "frequencyType": 1,
     "dialogMessage": "雑賀孫一を\nスターティングメンバーに設定してください。",
     "noticeMessage": "雑賀孫一をスターティングメンバーに設定してください。",
@@ -16861,25 +16861,16 @@
     "phase": 1,
     "restrictionId": 94090005,
     "frequencyType": 0,
-    "dialogMessage": "",
-    "noticeMessage": "斎藤一と沖田総司をスターティングメンバーに設定してください。",
+    "dialogMessage": "斎藤一と沖田総司を\nスターティングメンバーに設定してください。",
+    "noticeMessage": "",
     "title": ""
   },
   {
     "questId": 94090011,
     "phase": 1,
-    "restrictionId": 94090007,
+    "restrictionId": 94090013,
     "frequencyType": 0,
     "dialogMessage": "",
-    "noticeMessage": "斎藤一と沖田総司をスターティングメンバーに設定してください。",
-    "title": "斎藤一"
-  },
-  {
-    "questId": 94090011,
-    "phase": 1,
-    "restrictionId": 94090013,
-    "frequencyType": 1,
-    "dialogMessage": "以下のサーヴァントから3騎\nスターティングメンバーに編成してください。\n\n永倉新八(NPC)、斎藤一(所持/NPC)、沖田総司(所持/NPC)",
     "noticeMessage": "",
     "title": ""
   },
@@ -16889,7 +16880,16 @@
     "restrictionId": 94090014,
     "frequencyType": 0,
     "dialogMessage": "",
-    "noticeMessage": "斎藤一と沖田総司をスターティングメンバーに設定してください。",
+    "noticeMessage": "",
+    "title": "斎藤一"
+  },
+  {
+    "questId": 94090011,
+    "phase": 1,
+    "restrictionId": 94090019,
+    "frequencyType": 0,
+    "dialogMessage": "",
+    "noticeMessage": "",
     "title": "沖田総司"
   },
   {
