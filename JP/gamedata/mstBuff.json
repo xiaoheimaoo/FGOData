@@ -95102,6 +95102,550 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -2038
+    },
+    "id": 94087600,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "嵐の気配",
+    "detail": "〔陽射し〕がなくなると、嵐が来る",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [
+      4100
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087601,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "クリティカル攻撃時追加効果",
+    "detail": "クリティカル攻撃時、敵全体の防御力をダウン",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003
+    ],
+    "script": {},
+    "id": 94087602,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "輝く王冠",
+    "detail": "Quick攻撃を受けると自身のクリティカル発生率をアップ",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001
+    ],
+    "script": {},
+    "id": 94087603,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "輝く王冠",
+    "detail": "Arts攻撃を受けると自身のチャージを増やす<1ターンに1回だけ発動>",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {},
+    "id": 94087604,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "輝く王冠",
+    "detail": "Buster攻撃を受けると自身の攻撃力をアップ",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4004
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4004
+    ],
+    "script": {},
+    "id": 94087605,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "輝く王冠",
+    "detail": "Extra Attackを受けると自身の行動回数を増やす",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087606,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、対象の強化状態を1つ奪うか、自身の強化状態を1つ奪われる",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003
+    ],
+    "script": {},
+    "id": 94087607,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "特殊耐性アップ〔Quick〕",
+    "detail": "Quick攻撃のダメージに対する耐性をアップ",
+    "iconId": 345,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001
+    ],
+    "script": {},
+    "id": 94087608,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "特殊耐性アップ〔Arts〕",
+    "detail": "Arts攻撃のダメージに対する耐性をアップ",
+    "iconId": 346,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {},
+    "id": 94087609,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "特殊耐性アップ〔Buster〕",
+    "detail": "Buster攻撃のダメージに対する耐性をアップ",
+    "iconId": 347,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4100
+    ],
+    "script": {},
+    "id": 94087610,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "特殊耐性アップ〔クリティカル〕",
+    "detail": "クリティカル攻撃のダメージに対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94087611,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "特殊耐性アップ〔宝具〕",
+    "detail": "宝具攻撃のダメージに対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6039
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087612,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "遅延発動",
+    "detail": "ターン経過後、敵全体の強化状態を解除",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087613,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "神の智慧",
+    "detail": "敵に特定の強化状態が付与されている時、敵の攻撃開始前に自身に強化状態を1つ付与",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3022
+    },
+    "id": 94087614,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "攻撃力アップ：無敵",
+    "detail": "自身が〔無敵〕状態の時、攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6036
+    ],
+    "tvals": [
+      3010
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3010
+    ],
+    "script": {},
+    "id": 94087615,
+    "buffGroup": 0,
+    "type": 29,
+    "name": "精神異常耐性アップ",
+    "detail": "精神異常耐性をアップ",
+    "iconId": 306,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 165
+    },
+    "id": 94087616,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔セイバー〕に対するクラス相性が攻撃優位になる",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [
+      4008
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087617,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時、対象のHPを減らす",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3085,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087618,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "ダメージカット",
+    "detail": "被ダメージを減らす<自身の〔無敵〕状態の数だけ効果量アップ>",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000,
+      4003,
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003,
+      4100
+    ],
+    "script": {},
+    "id": 94087619,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "ダメージに耐性のある攻撃を受けると自身の即死付与成功率が40%ダウン",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000,
+      4001,
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001,
+      4100
+    ],
+    "script": {},
+    "id": 94087620,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "ダメージに耐性のある攻撃を受けると自身の即死付与成功率が40%ダウン",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000,
+      4002,
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002,
+      4100
+    ],
+    "script": {},
+    "id": 94087621,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "ダメージに耐性のある攻撃を受けると自身の即死付与成功率が40%ダウン",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000,
+      4003,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003,
+      4007
+    ],
+    "script": {},
+    "id": 94087622,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "ダメージに耐性のある攻撃を受けると自身の即死付与成功率が40%ダウン",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000,
+      4001,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001,
+      4007
+    ],
+    "script": {},
+    "id": 94087623,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "ダメージに耐性のある攻撃を受けると自身の即死付与成功率が40%ダウン",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000,
+      4002,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002,
+      4007
+    ],
+    "script": {},
+    "id": 94087624,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "ダメージに耐性のある攻撃を受けると自身の即死付与成功率が40%ダウン",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004,
       3006,
