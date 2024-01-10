@@ -10191,7 +10191,8 @@
   },
   {
     "relateQuestIds": [
-      91403201
+      91403201,
+      94065801
     ],
     "individuality": [
       5000,
@@ -16430,7 +16431,9 @@
     "flag": 0
   },
   {
-    "relateQuestIds": [],
+    "relateQuestIds": [
+      94065802
+    ],
     "individuality": [
       5000,
       603900,
@@ -22531,6 +22534,72 @@
     "illustratorId": 414,
     "cvId": 151,
     "collectionNo": 316,
+    "materialStoryPriority": 1000,
+    "flag": 0
+  },
+  {
+    "relateQuestIds": [],
+    "individuality": [
+      5000,
+      2800200,
+      2,
+      120,
+      201,
+      302,
+      305,
+      1000,
+      2001,
+      2008,
+      2011,
+      2037,
+      2012,
+      2631
+    ],
+    "classPassive": [
+      2025000,
+      2026450,
+      83650,
+      2027000
+    ],
+    "cardIds": [
+      3,
+      1,
+      1,
+      2,
+      2
+    ],
+    "script": {
+      "cameraActionId": 478
+    },
+    "id": 2800200,
+    "baseSvtId": 2800200,
+    "name": "Hephaistíon",
+    "ruby": "Hephaistíon",
+    "battleName": "Hephaistíon",
+    "classId": 28,
+    "type": 1,
+    "limitMax": 4,
+    "rewardLv": 80,
+    "friendshipId": 1036,
+    "maxFriendshipRank": 10,
+    "genderType": 2,
+    "attri": 3,
+    "combineSkillId": 2800200,
+    "combineLimitId": 2800200,
+    "sellQp": 2000,
+    "sellMana": 6,
+    "sellRarePri": 1,
+    "expType": 4,
+    "combineMaterialId": 4,
+    "cost": 12,
+    "battleSize": 3,
+    "hpGaugeY": -250,
+    "starRate": 198,
+    "deathRate": 172,
+    "attackAttri": 3,
+    "illustratorId": 15,
+    "cvId": 158,
+    "collectionNo": 335,
     "materialStoryPriority": 1000,
     "flag": 0
   },
@@ -56082,6 +56151,50 @@
     "illustratorId": 345,
     "cvId": 0,
     "collectionNo": 1523,
+    "materialStoryPriority": 1000,
+    "flag": 4
+  },
+  {
+    "relateQuestIds": [],
+    "individuality": [],
+    "classPassive": [],
+    "cardIds": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "script": {},
+    "id": 9306320,
+    "baseSvtId": 9306320,
+    "name": "What She's Held in Trust",
+    "ruby": "What She's Held in Trust",
+    "battleName": "-",
+    "classId": 1001,
+    "type": 6,
+    "limitMax": 4,
+    "rewardLv": 0,
+    "friendshipId": 1000,
+    "maxFriendshipRank": 0,
+    "genderType": 3,
+    "attri": 2,
+    "combineSkillId": 0,
+    "combineLimitId": 0,
+    "sellQp": 1000,
+    "sellMana": 3,
+    "sellRarePri": 0,
+    "expType": 19,
+    "combineMaterialId": 39,
+    "cost": 9,
+    "battleSize": 2,
+    "hpGaugeY": 0,
+    "starRate": 0,
+    "deathRate": 0,
+    "attackAttri": 1,
+    "illustratorId": 260,
+    "cvId": 0,
+    "collectionNo": 1526,
     "materialStoryPriority": 1000,
     "flag": 4
   },
@@ -123678,7 +123791,9 @@
       1,
       2
     ],
-    "script": {},
+    "script": {
+      "cameraActionId": 423
+    },
     "id": 9942030,
     "baseSvtId": 9942030,
     "name": "Musashibou Benkei",

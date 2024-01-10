@@ -14821,6 +14821,8 @@
       94063605,
       94064180,
       94064601,
+      94065801,
+      94065802,
       94081201
     ],
     "missionId": 10015,
@@ -15071,6 +15073,8 @@
       94063605,
       94064180,
       94064601,
+      94065801,
+      94065802,
       94081201
     ],
     "missionId": 10016,
@@ -15321,6 +15325,8 @@
       94063605,
       94064180,
       94064601,
+      94065801,
+      94065802,
       94081201
     ],
     "missionId": 10017,
@@ -15571,6 +15577,8 @@
       94063605,
       94064180,
       94064601,
+      94065801,
+      94065802,
       94081201
     ],
     "missionId": 10018,
@@ -15821,6 +15829,8 @@
       94063605,
       94064180,
       94064601,
+      94065801,
+      94065802,
       94081201
     ],
     "missionId": 10019,
@@ -16071,6 +16081,8 @@
       94063605,
       94064180,
       94064601,
+      94065801,
+      94065802,
       94081201
     ],
     "missionId": 10020,
@@ -16321,6 +16333,8 @@
       94063605,
       94064180,
       94064601,
+      94065801,
+      94065802,
       94081201
     ],
     "missionId": 10021,
@@ -16571,6 +16585,8 @@
       94063605,
       94064180,
       94064601,
+      94065801,
+      94065802,
       94081201
     ],
     "missionId": 10022,
@@ -27798,6 +27814,8 @@
       94063605,
       94064180,
       94064601,
+      94065801,
+      94065802,
       94081201
     ],
     "missionId": 10067,
@@ -28048,6 +28066,8 @@
       94063605,
       94064180,
       94064601,
+      94065801,
+      94065802,
       94081201
     ],
     "missionId": 10068,
@@ -28298,6 +28318,8 @@
       94063605,
       94064180,
       94064601,
+      94065801,
+      94065802,
       94081201
     ],
     "missionId": 10069,
@@ -28548,6 +28570,8 @@
       94063605,
       94064180,
       94064601,
+      94065801,
+      94065802,
       94081201
     ],
     "missionId": 10070,
@@ -28798,6 +28822,8 @@
       94063605,
       94064180,
       94064601,
+      94065801,
+      94065802,
       94081201
     ],
     "missionId": 10071,
@@ -29048,6 +29074,8 @@
       94063605,
       94064180,
       94064601,
+      94065801,
+      94065802,
       94081201
     ],
     "missionId": 10072,
@@ -33149,6 +33177,8 @@
       94063605,
       94064180,
       94064601,
+      94065801,
+      94065802,
       94081201
     ],
     "missionId": 10134,
@@ -33399,6 +33429,8 @@
       94063605,
       94064180,
       94064601,
+      94065801,
+      94065802,
       94081201
     ],
     "missionId": 10135,
@@ -33649,6 +33681,8 @@
       94063605,
       94064180,
       94064601,
+      94065801,
+      94065802,
       94081201
     ],
     "missionId": 10136,
@@ -33899,6 +33933,8 @@
       94063605,
       94064180,
       94064601,
+      94065801,
+      94065802,
       94081201
     ],
     "missionId": 10137,
@@ -34149,6 +34185,8 @@
       94063605,
       94064180,
       94064601,
+      94065801,
+      94065802,
       94081201
     ],
     "missionId": 10138,
@@ -34399,6 +34437,8 @@
       94063605,
       94064180,
       94064601,
+      94065801,
+      94065802,
       94081201
     ],
     "missionId": 10139,
@@ -137030,7 +137070,7 @@
     "condGroup": 1,
     "condType": 22,
     "targetNum": 15,
-    "conditionMessage": "Defeat 15 Assassin-class Servants\n",
+    "conditionMessage": "Defeat 15 Assassin-class Servants",
     "closedMessage": "",
     "flag": 0
   },
@@ -137542,7 +137582,7 @@
     "condGroup": 1,
     "condType": 22,
     "targetNum": 20,
-    "conditionMessage": "Defeat 20 Servants with MP A or Higher\n",
+    "conditionMessage": "Defeat 20 Servants with MP A or Higher",
     "closedMessage": "",
     "flag": 0
   },
@@ -185119,7 +185159,7 @@
     "condGroup": 1,
     "condType": 22,
     "targetNum": 15,
-    "conditionMessage": "Defeat 15 Assassin-class Servants\n",
+    "conditionMessage": "Defeat 15 Assassin-class Servants",
     "closedMessage": "",
     "flag": 0
   },
@@ -187689,6 +187729,4138 @@
     "priority": 0,
     "id": 80346787,
     "missionTargetId": 80346,
+    "condGroup": 1,
+    "condType": 23,
+    "targetNum": 99,
+    "conditionMessage": "Complete all missions",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065501
+    ],
+    "missionId": 80352001,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352001,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "Complete \"Section 1: The Mage's Apprentice\" [Completing this mission unlocks Quest \"Section 2\"]",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352001
+    ],
+    "missionId": 80352002,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352002,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.1",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065502
+    ],
+    "missionId": 80352002,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352003,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "Complete Section 2: Finding Someone in Wonderland",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065503
+    ],
+    "missionId": 80352003,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352004,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065504
+    ],
+    "missionId": 80352003,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352005,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "Complete Section 4: Invitation for Judgment ",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352095
+    ],
+    "missionId": 80352004,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352006,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.95",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065507
+    ],
+    "missionId": 80352004,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352007,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "Complete Section 7: The King's Memory",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065510
+    ],
+    "missionId": 80352005,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352008,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065530,
+      94065531,
+      94065532,
+      94065533
+    ],
+    "missionId": 80352005,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352009,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 4,
+    "conditionMessage": "Complete the \"Stormy Sea,\" \"Spacecraft,\" \"White Wall,\" and \"Red Bridge\" scrap quests\n[Completing this mission will unlock the Dark Sea scrap]",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      0
+    ],
+    "missionId": 80352006,
+    "missionProgressType": 2,
+    "priority": 0,
+    "id": 80352010,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 12,
+    "targetNum": 1705377600,
+    "conditionMessage": "???\n*Unlocks when certain conditions are met and after 1/15 20:00 PST",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065511
+    ],
+    "missionId": 80352006,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352011,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065512
+    ],
+    "missionId": 80352006,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352012,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "Complete Section 10: The False Sacred Lance (3/3)",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      0
+    ],
+    "missionId": 80352007,
+    "missionProgressType": 2,
+    "priority": 0,
+    "id": 80352013,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 12,
+    "targetNum": 1705377600,
+    "conditionMessage": "???\n*Unlocks when certain conditions are met and after 1/15 20:00 PST",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065512
+    ],
+    "missionId": 80352007,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352014,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065513
+    ],
+    "missionId": 80352007,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352015,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "Complete Section 11: Beyond Memory and Record",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065506
+    ],
+    "missionId": 80352008,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352016,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352001
+    ],
+    "missionId": 80352008,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352017,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 30,
+    "conditionMessage": "Defeat 30 Machine-type enemies\n[Completing this mission will unlock the Secluded Inn scrap]\n[Unlocks Free Quest]",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065507
+    ],
+    "missionId": 80352009,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352018,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352001
+    ],
+    "missionId": 80352009,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352019,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 60,
+    "conditionMessage": "Defeat 60 Machine-type enemies\n[Completing this mission will unlock the Rome scrap]",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352009
+    ],
+    "missionId": 80352010,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352020,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.9",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352001
+    ],
+    "missionId": 80352010,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352021,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 90,
+    "conditionMessage": "Defeat 90 Machine-type enemies",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      0
+    ],
+    "missionId": 80352011,
+    "missionProgressType": 2,
+    "priority": 0,
+    "id": 80352022,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 12,
+    "targetNum": 1705377600,
+    "conditionMessage": "???\n*Unlocks when certain conditions are met and after 1/15 20:00 PST",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065514
+    ],
+    "missionId": 80352011,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352023,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352001
+    ],
+    "missionId": 80352011,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352024,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 120,
+    "conditionMessage": "Defeat 120 Machine-type enemies",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065506
+    ],
+    "missionId": 80352012,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352025,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352002
+    ],
+    "missionId": 80352012,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352026,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 20,
+    "conditionMessage": "Defeat 20 Ghost-type enemies",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352068
+    ],
+    "missionId": 80352013,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352027,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.68",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352002
+    ],
+    "missionId": 80352013,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352028,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 40,
+    "conditionMessage": "Defeat 40 Ghost-type enemies",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      0
+    ],
+    "missionId": 80352014,
+    "missionProgressType": 2,
+    "priority": 0,
+    "id": 80352029,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 12,
+    "targetNum": 1705377600,
+    "conditionMessage": "???\n*Unlocks when certain conditions are met and after 1/15 20:00 PST",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065514
+    ],
+    "missionId": 80352014,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352030,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352002
+    ],
+    "missionId": 80352014,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352031,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 60,
+    "conditionMessage": "Defeat 60 Ghost-type enemies",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065502
+    ],
+    "missionId": 80352015,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352032,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352003
+    ],
+    "missionId": 80352015,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352033,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 7,
+    "conditionMessage": "Defeat 7 Antique Automata\n[Completing this mission will unlock Section 3]",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352015
+    ],
+    "missionId": 80352016,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352034,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.15",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352003
+    ],
+    "missionId": 80352016,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352035,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 15,
+    "conditionMessage": "Defeat 15 Antique Automata",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065504
+    ],
+    "missionId": 80352017,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352036,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352004
+    ],
+    "missionId": 80352017,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352037,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 7,
+    "conditionMessage": "Defeat 7 Masked Ghosts",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352017
+    ],
+    "missionId": 80352018,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352038,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.17 ",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352004
+    ],
+    "missionId": 80352018,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352039,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 15,
+    "conditionMessage": "Defeat 15 Masked Ghosts",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352018
+    ],
+    "missionId": 80352019,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352040,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.18",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352004
+    ],
+    "missionId": 80352019,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352041,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 25,
+    "conditionMessage": "Defeat 25 Masked Ghosts",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065504
+    ],
+    "missionId": 80352020,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352042,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352005
+    ],
+    "missionId": 80352020,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352043,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 10,
+    "conditionMessage": "Defeat 10 Masked Automatas",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352020
+    ],
+    "missionId": 80352021,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352044,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.20",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352005
+    ],
+    "missionId": 80352021,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352045,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 20,
+    "conditionMessage": "Defeat 20 Masked Automatas",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065507
+    ],
+    "missionId": 80352022,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352046,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352006
+    ],
+    "missionId": 80352022,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352047,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 10,
+    "conditionMessage": "Defeat 10 Steam Ghosts\n[Completing this mission will unlock the House of Sweets scrap]\n[Unlocks Free Quest]",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065508
+    ],
+    "missionId": 80352023,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352048,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352006
+    ],
+    "missionId": 80352023,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352049,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 20,
+    "conditionMessage": "Defeat 20 Steam Ghosts\n[Completing this mission will unlock the Amusement Park scrap]\n[Unlocks Free Quest]",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352023
+    ],
+    "missionId": 80352024,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352050,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.23",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352006
+    ],
+    "missionId": 80352024,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352051,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 30,
+    "conditionMessage": "Defeat 30 Steam Ghosts",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065506
+    ],
+    "missionId": 80352025,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352052,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352013
+    ],
+    "missionId": 80352025,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352053,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 2,
+    "conditionMessage": "Defeat 2 Rare Enemies",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352025
+    ],
+    "missionId": 80352026,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352054,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.25",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352013
+    ],
+    "missionId": 80352026,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352055,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 5,
+    "conditionMessage": "Defeat 5 Rare Enemies",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352078
+    ],
+    "missionId": 80352027,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352056,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.78",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352013
+    ],
+    "missionId": 80352027,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352057,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 10,
+    "conditionMessage": "Defeat 10 Rare Enemies",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      0
+    ],
+    "missionId": 80352028,
+    "missionProgressType": 2,
+    "priority": 0,
+    "id": 80352058,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 12,
+    "targetNum": 1705377600,
+    "conditionMessage": "???\n*Unlocks when certain conditions are met and after 1/15 20:00 PST",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065514
+    ],
+    "missionId": 80352028,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352059,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352013
+    ],
+    "missionId": 80352028,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352060,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 20,
+    "conditionMessage": "Defeat 20 Rare Enemies",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352015
+    ],
+    "missionId": 80352029,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352061,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.15",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352014
+    ],
+    "missionId": 80352029,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352062,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 3,
+    "conditionMessage": "Defeat 3 (Rare) Antique Automata",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352017
+    ],
+    "missionId": 80352030,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352063,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.17 ",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352015
+    ],
+    "missionId": 80352030,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352064,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 3,
+    "conditionMessage": "Defeat 3 (Rare) Masked Ghosts",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065507
+    ],
+    "missionId": 80352031,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352065,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352016
+    ],
+    "missionId": 80352031,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352066,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 3,
+    "conditionMessage": "Defeat 3 (Rare) Steam Ghosts",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352098
+    ],
+    "missionId": 80352032,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352067,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.98 ",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352007
+    ],
+    "missionId": 80352032,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352068,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 20,
+    "conditionMessage": "Defeat 20 Bone-type enemies",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352046
+    ],
+    "missionId": 80352033,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352069,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.46",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352007
+    ],
+    "missionId": 80352033,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352070,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 40,
+    "conditionMessage": "Defeat 40 Bone-type enemies",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      0
+    ],
+    "missionId": 80352034,
+    "missionProgressType": 2,
+    "priority": 0,
+    "id": 80352071,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 12,
+    "targetNum": 1705377600,
+    "conditionMessage": "???\n*Unlocks when certain conditions are met and after 1/15 20:00 PST",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065514
+    ],
+    "missionId": 80352034,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352072,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352007
+    ],
+    "missionId": 80352034,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352073,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 60,
+    "conditionMessage": "Defeat 60 Bone-type enemies",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352022
+    ],
+    "missionId": 80352035,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352075,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n[Completing this mission will unlock Section 8]\n*Unlocks after completing mission No.22 \"Defeat 10 Steam Ghosts\"",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352008
+    ],
+    "missionId": 80352035,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352076,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 20,
+    "conditionMessage": "Defeat 20 Golem-type enemies\n[Completing this mission will unlock Section 8]",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352066
+    ],
+    "missionId": 80352036,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352077,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.66",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352008
+    ],
+    "missionId": 80352036,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352078,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 40,
+    "conditionMessage": "Defeat 40 Golem-type enemies\n[Completing this mission will unlock the Western scrap]",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      0
+    ],
+    "missionId": 80352037,
+    "missionProgressType": 2,
+    "priority": 0,
+    "id": 80352079,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 12,
+    "targetNum": 1705377600,
+    "conditionMessage": "???\n*Unlocks when certain conditions are met and after 1/15 20:00 PST",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065514
+    ],
+    "missionId": 80352037,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352080,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352008
+    ],
+    "missionId": 80352037,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352081,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 60,
+    "conditionMessage": "Defeat 60 Golem-type enemies",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352073
+    ],
+    "missionId": 80352038,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352082,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.73",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352009
+    ],
+    "missionId": 80352038,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352083,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 20,
+    "conditionMessage": "Defeat 20 Spell Book-type enemies",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352038
+    ],
+    "missionId": 80352039,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352084,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.38",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352009
+    ],
+    "missionId": 80352039,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352085,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 40,
+    "conditionMessage": "Defeat 40 Spell Book-type enemies",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      0
+    ],
+    "missionId": 80352040,
+    "missionProgressType": 2,
+    "priority": 0,
+    "id": 80352086,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 12,
+    "targetNum": 1705377600,
+    "conditionMessage": "???\n*Unlocks when certain conditions are met and after 1/15 20:00 PST",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065514
+    ],
+    "missionId": 80352040,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352087,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352009
+    ],
+    "missionId": 80352040,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352088,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 60,
+    "conditionMessage": "Defeat 60 Spell Book-type enemies",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352070
+    ],
+    "missionId": 80352041,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352089,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.70",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352010
+    ],
+    "missionId": 80352041,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352090,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 20,
+    "conditionMessage": "Defeat 20 Bladed Wing Insect-type enemies",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352041
+    ],
+    "missionId": 80352042,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352091,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.41",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352010
+    ],
+    "missionId": 80352042,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352092,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 40,
+    "conditionMessage": "Defeat 40 Bladed Wing Insect-type enemies",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      0
+    ],
+    "missionId": 80352043,
+    "missionProgressType": 2,
+    "priority": 0,
+    "id": 80352093,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 12,
+    "targetNum": 1705377600,
+    "conditionMessage": "???\n*Unlocks when certain conditions are met and after 1/15 20:00 PST",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065514
+    ],
+    "missionId": 80352043,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352094,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352010
+    ],
+    "missionId": 80352043,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352095,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 60,
+    "conditionMessage": "Defeat 60 Bladed Wing Insect-type enemies",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065506
+    ],
+    "missionId": 80352044,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352096,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352011
+    ],
+    "missionId": 80352044,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352097,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 30,
+    "conditionMessage": "Defeat 30 \"Demonic\" enemies\n[Completing this mission will unlock the Desert Island scrap]\n[Unlocks Free Quest]",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065543
+    ],
+    "missionId": 80352045,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352098,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352011
+    ],
+    "missionId": 80352045,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352099,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 60,
+    "conditionMessage": "Defeat 60 \"Demonic\" enemies\n[Completing this mission will unlock the Ring scrap]",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352097
+    ],
+    "missionId": 80352046,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352100,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.97",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352011
+    ],
+    "missionId": 80352046,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352101,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 90,
+    "conditionMessage": "Defeat 90 \"Demonic\" enemies\n[Completing this mission will unlock the High Tower scrap]",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      0
+    ],
+    "missionId": 80352047,
+    "missionProgressType": 2,
+    "priority": 0,
+    "id": 80352102,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 12,
+    "targetNum": 1705377600,
+    "conditionMessage": "???\n*Unlocks when certain conditions are met and after 1/15 20:00 PST",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065514
+    ],
+    "missionId": 80352047,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352103,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352011
+    ],
+    "missionId": 80352047,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352104,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 120,
+    "conditionMessage": "Defeat 120 \"Demonic\" enemies",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065545
+    ],
+    "missionId": 80352048,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352105,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352012
+    ],
+    "missionId": 80352048,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352106,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 20,
+    "conditionMessage": "Defeat 20 \"Wild Beast\" enemies\n[Completing this mission will unlock the Castle Gate scrap]",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065508
+    ],
+    "missionId": 80352049,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352107,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352012
+    ],
+    "missionId": 80352049,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352108,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 40,
+    "conditionMessage": "Defeat 40 \"Wild Beast\" enemies\n[Completing this mission will unlock the Oni Gate scrap]",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352049
+    ],
+    "missionId": 80352050,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352109,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.49",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352012
+    ],
+    "missionId": 80352050,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352110,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 60,
+    "conditionMessage": "Defeat 60 \"Wild Beast\" enemies",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352022
+    ],
+    "missionId": 80352051,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352111,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.22",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352017
+    ],
+    "missionId": 80352051,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352112,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 5,
+    "conditionMessage": "Defeat 5 Saber-class Servants",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352060
+    ],
+    "missionId": 80352052,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352113,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.60",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352017
+    ],
+    "missionId": 80352052,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352114,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 10,
+    "conditionMessage": "Defeat 10 Saber-class Servants",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352052
+    ],
+    "missionId": 80352053,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352115,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.52",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352017
+    ],
+    "missionId": 80352053,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352116,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 15,
+    "conditionMessage": "Defeat 15 Saber-class Servants",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352008
+    ],
+    "missionId": 80352054,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352117,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.8",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352018
+    ],
+    "missionId": 80352054,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352118,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 5,
+    "conditionMessage": "Defeat 5 Assassin-class Servants",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352098
+    ],
+    "missionId": 80352055,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352119,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.98 ",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352018
+    ],
+    "missionId": 80352055,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352120,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 10,
+    "conditionMessage": "Defeat 10 Assassin-class Servants\n[Completing this mission will unlock the Beach scrap]",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352055
+    ],
+    "missionId": 80352056,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352121,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.55",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352018
+    ],
+    "missionId": 80352056,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352122,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 15,
+    "conditionMessage": "Defeat 15 Assassin-class Servants",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065510
+    ],
+    "missionId": 80352057,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352123,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352019
+    ],
+    "missionId": 80352057,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352124,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 10,
+    "conditionMessage": "Defeat 10 Berserker-class Servants\n[Completing this mission will unlock the Big Hill scrap]",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352057
+    ],
+    "missionId": 80352058,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352125,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.57",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352019
+    ],
+    "missionId": 80352058,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352126,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 15,
+    "conditionMessage": "Defeat 15 Berserker-class Servants",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352068
+    ],
+    "missionId": 80352059,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352127,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.68",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352019
+    ],
+    "missionId": 80352059,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352128,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 20,
+    "conditionMessage": "Defeat 20 Berserker-class Servants",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065510
+    ],
+    "missionId": 80352060,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352129,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352020
+    ],
+    "missionId": 80352060,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352130,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 10,
+    "conditionMessage": "Defeat 10 \"Lawful\" Servants\n[Completing this mission will unlock the End of the Century scrap]",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352060
+    ],
+    "missionId": 80352061,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352131,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.60",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352020
+    ],
+    "missionId": 80352061,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352132,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 15,
+    "conditionMessage": "Defeat 15 \"Lawful\" Servants\n[Completing this mission will unlock the Stormy Sea scrap]",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352061
+    ],
+    "missionId": 80352062,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352133,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.61 ",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352020
+    ],
+    "missionId": 80352062,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352134,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 20,
+    "conditionMessage": "Defeat 20 \"Lawful\" Servants",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065510
+    ],
+    "missionId": 80352063,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352135,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352021
+    ],
+    "missionId": 80352063,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352136,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 10,
+    "conditionMessage": "Defeat 10 \"Chaotic\" Servants",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352063
+    ],
+    "missionId": 80352064,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352137,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.63",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352021
+    ],
+    "missionId": 80352064,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352138,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 15,
+    "conditionMessage": "Defeat 15 \"Chaotic\" Servants",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352064
+    ],
+    "missionId": 80352065,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352139,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.64",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352021
+    ],
+    "missionId": 80352065,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352140,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 20,
+    "conditionMessage": "Defeat 20 \"Chaotic\" Servants",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352057
+    ],
+    "missionId": 80352066,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352141,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.57",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352022
+    ],
+    "missionId": 80352066,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352142,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 10,
+    "conditionMessage": "Defeat 10 \"Balanced\" Servants\n[Completing this mission will unlock the Museum scrap]\n[Unlocks Free Quest]",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352066
+    ],
+    "missionId": 80352067,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352143,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.66",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352022
+    ],
+    "missionId": 80352067,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352144,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 15,
+    "conditionMessage": "Defeat 15 \"Balanced\" Servants",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352036
+    ],
+    "missionId": 80352068,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352145,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.36",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352022
+    ],
+    "missionId": 80352068,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352146,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 20,
+    "conditionMessage": "Defeat 20 \"Balanced\" Servants\n[Completing this mission will unlock the Tree scrap]",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352070
+    ],
+    "missionId": 80352069,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352147,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.70",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352023
+    ],
+    "missionId": 80352069,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352148,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 7,
+    "conditionMessage": "Defeat 7 \"Dragon\" Servants",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352079
+    ],
+    "missionId": 80352070,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352149,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.79",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352024
+    ],
+    "missionId": 80352070,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352150,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 10,
+    "conditionMessage": "Defeat 10 Servants with MP A or Higher\n[Completing this mission will unlock the Cemetery scrap]\n[Unlocks Free Quest]",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352070
+    ],
+    "missionId": 80352071,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352151,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.70",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352024
+    ],
+    "missionId": 80352071,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352152,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 15,
+    "conditionMessage": "Defeat 15 Servants with MP A or Higher\n[Completing this mission will unlock the White Wall scrap]",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352071
+    ],
+    "missionId": 80352072,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352153,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.71",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352024
+    ],
+    "missionId": 80352072,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352154,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 20,
+    "conditionMessage": "Defeat 20 Servants with MP A or Higher",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352078
+    ],
+    "missionId": 80352073,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352155,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.78",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352025
+    ],
+    "missionId": 80352073,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352156,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 10,
+    "conditionMessage": "Defeat 10 Servants with LUK A or Higher\n[Completing this mission will unlock the Underworld scrap]\n[Unlocks Free Quest]",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352073
+    ],
+    "missionId": 80352074,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352157,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.73",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352025
+    ],
+    "missionId": 80352074,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352158,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 15,
+    "conditionMessage": "Defeat 15 Servants with LUK A or Higher\n[Completing this mission will unlock the Spaceship scrap]",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352074
+    ],
+    "missionId": 80352075,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352159,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.74",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352025
+    ],
+    "missionId": 80352075,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352160,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 20,
+    "conditionMessage": "Defeat 20 Servants with LUK A or Higher",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065507
+    ],
+    "missionId": 80352076,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352161,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352026
+    ],
+    "missionId": 80352076,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352162,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 20,
+    "conditionMessage": "Complete a total of 20 Memory Reenactment quests",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065508
+    ],
+    "missionId": 80352077,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352163,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352027
+    ],
+    "missionId": 80352077,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352164,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 3,
+    "conditionMessage": "Complete 3 types of Reminiscence quests\n[Completing this mission will unlock Section 9]",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352057
+    ],
+    "missionId": 80352078,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352165,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.57",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352027
+    ],
+    "missionId": 80352078,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352166,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 5,
+    "conditionMessage": "Complete 5 types of Reminiscence quests\n[Completing this mission will unlock the Castle scrap]",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352078
+    ],
+    "missionId": 80352079,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352167,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.78",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352027
+    ],
+    "missionId": 80352079,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352168,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 7,
+    "conditionMessage": "Complete 7 types of Reminiscence quests\n[Completing this mission will unlock the Tunnel scrap]",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352079
+    ],
+    "missionId": 80352080,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352169,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.79",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065601,
+      94065602,
+      94065603,
+      94065604,
+      94065605,
+      94065606,
+      94065607,
+      94065608,
+      94065609,
+      94065610,
+      94065611
+    ],
+    "missionId": 80352080,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352170,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 11,
+    "conditionMessage": "Complete all Reminiscence quests",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      0
+    ],
+    "missionId": 80352081,
+    "missionProgressType": 2,
+    "priority": 0,
+    "id": 80352171,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 12,
+    "targetNum": 1705377600,
+    "conditionMessage": "???\n*Unlocks when certain conditions are met and after 1/15 20:00 PST",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065514
+    ],
+    "missionId": 80352081,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352172,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065501,
+      94065502,
+      94065503,
+      94065504,
+      94065505,
+      94065506,
+      94065507,
+      94065508,
+      94065509,
+      94065510,
+      94065511,
+      94065512,
+      94065513,
+      94065514,
+      94065530,
+      94065531,
+      94065532,
+      94065533,
+      94065534,
+      94065601,
+      94065602,
+      94065603,
+      94065604,
+      94065605,
+      94065606,
+      94065607,
+      94065608,
+      94065609,
+      94065610,
+      94065611,
+      94065540,
+      94065541,
+      94065542,
+      94065543,
+      94065544,
+      94065545,
+      94065546,
+      94065547,
+      94065548,
+      94065549,
+      94065550,
+      94065551
+    ],
+    "missionId": 80352081,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352173,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 42,
+    "conditionMessage": "Complete all Quests (excluding High Difficulty Quests and newly added Revival Quests)",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065502
+    ],
+    "missionId": 80352082,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352174,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 46,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352028
+    ],
+    "missionId": 80352082,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352175,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 200,
+    "conditionMessage": "Acquire 200 Formal Leaves as battle drops",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352082
+    ],
+    "missionId": 80352083,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352176,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.82",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352028
+    ],
+    "missionId": 80352083,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352177,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 400,
+    "conditionMessage": "Acquire 400 Formal Leaves as battle drops",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065502
+    ],
+    "missionId": 80352084,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352178,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 46,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352029
+    ],
+    "missionId": 80352084,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352179,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 200,
+    "conditionMessage": "Acquire 200 Dandy Rabbits as battle drops",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352084
+    ],
+    "missionId": 80352085,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352180,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.84",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352029
+    ],
+    "missionId": 80352085,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352181,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 400,
+    "conditionMessage": "Acquire 400 Dandy Rabbits as battle drops",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065503
+    ],
+    "missionId": 80352086,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352182,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352030
+    ],
+    "missionId": 80352086,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352183,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 200,
+    "conditionMessage": "Acquire 200 Noble Timepieces as battle drops",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352086
+    ],
+    "missionId": 80352087,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352184,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.86",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352030
+    ],
+    "missionId": 80352087,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352185,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 400,
+    "conditionMessage": "Acquire 400 Noble Timepieces as battle drops",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065506
+    ],
+    "missionId": 80352088,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352186,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      603900
+    ],
+    "missionId": 80352088,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352187,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 7,
+    "targetNum": 1,
+    "conditionMessage": "Ascend Gray to 1st Stage Ascension",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065510
+    ],
+    "missionId": 80352089,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352188,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      603900
+    ],
+    "missionId": 80352089,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352189,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 7,
+    "targetNum": 3,
+    "conditionMessage": "Ascend Gray to 3rd Stage Ascension",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065506
+    ],
+    "missionId": 80352090,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352190,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      603900
+    ],
+    "missionId": 80352090,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352191,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 9,
+    "targetNum": 3,
+    "conditionMessage": "Raise Gray to Bond Level 3",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065506
+    ],
+    "missionId": 80352091,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352192,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352031
+    ],
+    "missionId": 80352091,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352193,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 10,
+    "conditionMessage": "Put Gray in your Party and complete Quests 10 times",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352091
+    ],
+    "missionId": 80352092,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352194,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.91",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352031
+    ],
+    "missionId": 80352092,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352195,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 15,
+    "conditionMessage": "Put Gray in your Party and complete Quests 15 times",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352092
+    ],
+    "missionId": 80352093,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352196,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.92",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352031
+    ],
+    "missionId": 80352093,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352197,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 22,
+    "targetNum": 20,
+    "conditionMessage": "Put Gray in your Party and complete Quests 20 times",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065504
+    ],
+    "missionId": 80352094,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352198,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352001,
+      80352002,
+      80352003,
+      80352004,
+      80352005,
+      80352006,
+      80352007,
+      80352008,
+      80352009,
+      80352010,
+      80352011,
+      80352012,
+      80352013,
+      80352014,
+      80352015,
+      80352016,
+      80352017,
+      80352018,
+      80352019,
+      80352020,
+      80352021,
+      80352022,
+      80352023,
+      80352024,
+      80352025,
+      80352026,
+      80352027,
+      80352028,
+      80352029,
+      80352030,
+      80352031,
+      80352032,
+      80352033,
+      80352034,
+      80352035,
+      80352036,
+      80352037,
+      80352038,
+      80352039,
+      80352040,
+      80352041,
+      80352042,
+      80352043,
+      80352044,
+      80352045,
+      80352046,
+      80352047,
+      80352048,
+      80352049,
+      80352050,
+      80352051,
+      80352052,
+      80352053,
+      80352054,
+      80352055,
+      80352056,
+      80352057,
+      80352058,
+      80352059,
+      80352060,
+      80352061,
+      80352062,
+      80352063,
+      80352064,
+      80352065,
+      80352066,
+      80352067,
+      80352068,
+      80352069,
+      80352070,
+      80352071,
+      80352072,
+      80352073,
+      80352074,
+      80352075,
+      80352076,
+      80352077,
+      80352078,
+      80352079,
+      80352080,
+      80352081,
+      80352082,
+      80352083,
+      80352084,
+      80352085,
+      80352086,
+      80352087,
+      80352088,
+      80352089,
+      80352090,
+      80352091,
+      80352092,
+      80352093,
+      80352094,
+      80352095,
+      80352096,
+      80352097,
+      80352098,
+      80352099
+    ],
+    "missionId": 80352094,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352199,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 23,
+    "targetNum": 10,
+    "conditionMessage": "Complete 10 missions\n[Completing this mission will unlock Section 5]",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065506
+    ],
+    "missionId": 80352095,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352200,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352001,
+      80352002,
+      80352003,
+      80352004,
+      80352005,
+      80352006,
+      80352007,
+      80352008,
+      80352009,
+      80352010,
+      80352011,
+      80352012,
+      80352013,
+      80352014,
+      80352015,
+      80352016,
+      80352017,
+      80352018,
+      80352019,
+      80352020,
+      80352021,
+      80352022,
+      80352023,
+      80352024,
+      80352025,
+      80352026,
+      80352027,
+      80352028,
+      80352029,
+      80352030,
+      80352031,
+      80352032,
+      80352033,
+      80352034,
+      80352035,
+      80352036,
+      80352037,
+      80352038,
+      80352039,
+      80352040,
+      80352041,
+      80352042,
+      80352043,
+      80352044,
+      80352045,
+      80352046,
+      80352047,
+      80352048,
+      80352049,
+      80352050,
+      80352051,
+      80352052,
+      80352053,
+      80352054,
+      80352055,
+      80352056,
+      80352057,
+      80352058,
+      80352059,
+      80352060,
+      80352061,
+      80352062,
+      80352063,
+      80352064,
+      80352065,
+      80352066,
+      80352067,
+      80352068,
+      80352069,
+      80352070,
+      80352071,
+      80352072,
+      80352073,
+      80352074,
+      80352075,
+      80352076,
+      80352077,
+      80352078,
+      80352079,
+      80352080,
+      80352081,
+      80352082,
+      80352083,
+      80352084,
+      80352085,
+      80352086,
+      80352087,
+      80352088,
+      80352089,
+      80352090,
+      80352091,
+      80352092,
+      80352093,
+      80352094,
+      80352095,
+      80352096,
+      80352097,
+      80352098,
+      80352099
+    ],
+    "missionId": 80352095,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352201,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 23,
+    "targetNum": 20,
+    "conditionMessage": "Complete 20 missions\n[Completing this mission will unlock Section 7]",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352095
+    ],
+    "missionId": 80352096,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352202,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.95",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352001,
+      80352002,
+      80352003,
+      80352004,
+      80352005,
+      80352006,
+      80352007,
+      80352008,
+      80352009,
+      80352010,
+      80352011,
+      80352012,
+      80352013,
+      80352014,
+      80352015,
+      80352016,
+      80352017,
+      80352018,
+      80352019,
+      80352020,
+      80352021,
+      80352022,
+      80352023,
+      80352024,
+      80352025,
+      80352026,
+      80352027,
+      80352028,
+      80352029,
+      80352030,
+      80352031,
+      80352032,
+      80352033,
+      80352034,
+      80352035,
+      80352036,
+      80352037,
+      80352038,
+      80352039,
+      80352040,
+      80352041,
+      80352042,
+      80352043,
+      80352044,
+      80352045,
+      80352046,
+      80352047,
+      80352048,
+      80352049,
+      80352050,
+      80352051,
+      80352052,
+      80352053,
+      80352054,
+      80352055,
+      80352056,
+      80352057,
+      80352058,
+      80352059,
+      80352060,
+      80352061,
+      80352062,
+      80352063,
+      80352064,
+      80352065,
+      80352066,
+      80352067,
+      80352068,
+      80352069,
+      80352070,
+      80352071,
+      80352072,
+      80352073,
+      80352074,
+      80352075,
+      80352076,
+      80352077,
+      80352078,
+      80352079,
+      80352080,
+      80352081,
+      80352082,
+      80352083,
+      80352084,
+      80352085,
+      80352086,
+      80352087,
+      80352088,
+      80352089,
+      80352090,
+      80352091,
+      80352092,
+      80352093,
+      80352094,
+      80352095,
+      80352096,
+      80352097,
+      80352098,
+      80352099
+    ],
+    "missionId": 80352096,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352203,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 23,
+    "targetNum": 30,
+    "conditionMessage": "Complete 30 missions",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352079
+    ],
+    "missionId": 80352097,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352204,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.79",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352001,
+      80352002,
+      80352003,
+      80352004,
+      80352005,
+      80352006,
+      80352007,
+      80352008,
+      80352009,
+      80352010,
+      80352011,
+      80352012,
+      80352013,
+      80352014,
+      80352015,
+      80352016,
+      80352017,
+      80352018,
+      80352019,
+      80352020,
+      80352021,
+      80352022,
+      80352023,
+      80352024,
+      80352025,
+      80352026,
+      80352027,
+      80352028,
+      80352029,
+      80352030,
+      80352031,
+      80352032,
+      80352033,
+      80352034,
+      80352035,
+      80352036,
+      80352037,
+      80352038,
+      80352039,
+      80352040,
+      80352041,
+      80352042,
+      80352043,
+      80352044,
+      80352045,
+      80352046,
+      80352047,
+      80352048,
+      80352049,
+      80352050,
+      80352051,
+      80352052,
+      80352053,
+      80352054,
+      80352055,
+      80352056,
+      80352057,
+      80352058,
+      80352059,
+      80352060,
+      80352061,
+      80352062,
+      80352063,
+      80352064,
+      80352065,
+      80352066,
+      80352067,
+      80352068,
+      80352069,
+      80352070,
+      80352071,
+      80352072,
+      80352073,
+      80352074,
+      80352075,
+      80352076,
+      80352077,
+      80352078,
+      80352079,
+      80352080,
+      80352081,
+      80352082,
+      80352083,
+      80352084,
+      80352085,
+      80352086,
+      80352087,
+      80352088,
+      80352089,
+      80352090,
+      80352091,
+      80352092,
+      80352093,
+      80352094,
+      80352095,
+      80352096,
+      80352097,
+      80352098,
+      80352099
+    ],
+    "missionId": 80352097,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352205,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 23,
+    "targetNum": 50,
+    "conditionMessage": "Complete 50 missions\n[Completing this mission will unlock the Red Bridge scrap]",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352097
+    ],
+    "missionId": 80352098,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352206,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.97",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352001,
+      80352002,
+      80352003,
+      80352004,
+      80352005,
+      80352006,
+      80352007,
+      80352008,
+      80352009,
+      80352010,
+      80352011,
+      80352012,
+      80352013,
+      80352014,
+      80352015,
+      80352016,
+      80352017,
+      80352018,
+      80352019,
+      80352020,
+      80352021,
+      80352022,
+      80352023,
+      80352024,
+      80352025,
+      80352026,
+      80352027,
+      80352028,
+      80352029,
+      80352030,
+      80352031,
+      80352032,
+      80352033,
+      80352034,
+      80352035,
+      80352036,
+      80352037,
+      80352038,
+      80352039,
+      80352040,
+      80352041,
+      80352042,
+      80352043,
+      80352044,
+      80352045,
+      80352046,
+      80352047,
+      80352048,
+      80352049,
+      80352050,
+      80352051,
+      80352052,
+      80352053,
+      80352054,
+      80352055,
+      80352056,
+      80352057,
+      80352058,
+      80352059,
+      80352060,
+      80352061,
+      80352062,
+      80352063,
+      80352064,
+      80352065,
+      80352066,
+      80352067,
+      80352068,
+      80352069,
+      80352070,
+      80352071,
+      80352072,
+      80352073,
+      80352074,
+      80352075,
+      80352076,
+      80352077,
+      80352078,
+      80352079,
+      80352080,
+      80352081,
+      80352082,
+      80352083,
+      80352084,
+      80352085,
+      80352086,
+      80352087,
+      80352088,
+      80352089,
+      80352090,
+      80352091,
+      80352092,
+      80352093,
+      80352094,
+      80352095,
+      80352096,
+      80352097,
+      80352098,
+      80352099
+    ],
+    "missionId": 80352098,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352207,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 23,
+    "targetNum": 70,
+    "conditionMessage": "Complete 70 missions\n[Completing this mission will unlock the Garden scrap]\n[Unlocks Free Quest]",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      0
+    ],
+    "missionId": 80352099,
+    "missionProgressType": 2,
+    "priority": 0,
+    "id": 80352208,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 12,
+    "targetNum": 1705377600,
+    "conditionMessage": "???\n*Unlocks when certain conditions are met and after 1/15 20:00 PST",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      94065514
+    ],
+    "missionId": 80352099,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352209,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 1,
+    "targetNum": 1,
+    "conditionMessage": "???\nUnlocks when a certain Quest is cleared",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352001,
+      80352002,
+      80352003,
+      80352004,
+      80352005,
+      80352006,
+      80352007,
+      80352008,
+      80352009,
+      80352010,
+      80352011,
+      80352012,
+      80352013,
+      80352014,
+      80352015,
+      80352016,
+      80352017,
+      80352018,
+      80352019,
+      80352020,
+      80352021,
+      80352022,
+      80352023,
+      80352024,
+      80352025,
+      80352026,
+      80352027,
+      80352028,
+      80352029,
+      80352030,
+      80352031,
+      80352032,
+      80352033,
+      80352034,
+      80352035,
+      80352036,
+      80352037,
+      80352038,
+      80352039,
+      80352040,
+      80352041,
+      80352042,
+      80352043,
+      80352044,
+      80352045,
+      80352046,
+      80352047,
+      80352048,
+      80352049,
+      80352050,
+      80352051,
+      80352052,
+      80352053,
+      80352054,
+      80352055,
+      80352056,
+      80352057,
+      80352058,
+      80352059,
+      80352060,
+      80352061,
+      80352062,
+      80352063,
+      80352064,
+      80352065,
+      80352066,
+      80352067,
+      80352068,
+      80352069,
+      80352070,
+      80352071,
+      80352072,
+      80352073,
+      80352074,
+      80352075,
+      80352076,
+      80352077,
+      80352078,
+      80352079,
+      80352080,
+      80352081,
+      80352082,
+      80352083,
+      80352084,
+      80352085,
+      80352086,
+      80352087,
+      80352088,
+      80352089,
+      80352090,
+      80352091,
+      80352092,
+      80352093,
+      80352094,
+      80352095,
+      80352096,
+      80352097,
+      80352098,
+      80352099
+    ],
+    "missionId": 80352099,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352210,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 23,
+    "targetNum": 90,
+    "conditionMessage": "Complete 90 missions",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      0
+    ],
+    "missionId": 80352100,
+    "missionProgressType": 2,
+    "priority": 0,
+    "id": 80352211,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 12,
+    "targetNum": 1705377600,
+    "conditionMessage": "???\n*Unlocks when certain conditions are met and after 1/15 20:00 PST",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352099
+    ],
+    "missionId": 80352100,
+    "missionProgressType": 3,
+    "priority": 0,
+    "id": 80352212,
+    "missionTargetId": 80352,
+    "condGroup": 1,
+    "condType": 24,
+    "targetNum": 1,
+    "conditionMessage": "???\n*Unlocks after completing Mission No.99",
+    "closedMessage": "",
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      80352001,
+      80352002,
+      80352003,
+      80352004,
+      80352005,
+      80352006,
+      80352007,
+      80352008,
+      80352009,
+      80352010,
+      80352011,
+      80352012,
+      80352013,
+      80352014,
+      80352015,
+      80352016,
+      80352017,
+      80352018,
+      80352019,
+      80352020,
+      80352021,
+      80352022,
+      80352023,
+      80352024,
+      80352025,
+      80352026,
+      80352027,
+      80352028,
+      80352029,
+      80352030,
+      80352031,
+      80352032,
+      80352033,
+      80352034,
+      80352035,
+      80352036,
+      80352037,
+      80352038,
+      80352039,
+      80352040,
+      80352041,
+      80352042,
+      80352043,
+      80352044,
+      80352045,
+      80352046,
+      80352047,
+      80352048,
+      80352049,
+      80352050,
+      80352051,
+      80352052,
+      80352053,
+      80352054,
+      80352055,
+      80352056,
+      80352057,
+      80352058,
+      80352059,
+      80352060,
+      80352061,
+      80352062,
+      80352063,
+      80352064,
+      80352065,
+      80352066,
+      80352067,
+      80352068,
+      80352069,
+      80352070,
+      80352071,
+      80352072,
+      80352073,
+      80352074,
+      80352075,
+      80352076,
+      80352077,
+      80352078,
+      80352079,
+      80352080,
+      80352081,
+      80352082,
+      80352083,
+      80352084,
+      80352085,
+      80352086,
+      80352087,
+      80352088,
+      80352089,
+      80352090,
+      80352091,
+      80352092,
+      80352093,
+      80352094,
+      80352095,
+      80352096,
+      80352097,
+      80352098,
+      80352099
+    ],
+    "missionId": 80352100,
+    "missionProgressType": 4,
+    "priority": 0,
+    "id": 80352213,
+    "missionTargetId": 80352,
     "condGroup": 1,
     "condType": 23,
     "targetNum": 99,
