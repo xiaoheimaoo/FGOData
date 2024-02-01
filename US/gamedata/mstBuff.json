@@ -56902,6 +56902,36 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4046,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Cacao Harvester",
+    "detail": "Increase damage dealt during \"Manannan's Souvenir Valentines\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4047,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "",
+    "detail": "Increase damage dealt during \"Manannan's Souvenir Valentines\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004
     ],
@@ -57376,6 +57406,471 @@
     "name": "AIM_UP",
     "detail": "When HP reaches 0, increase all allies' Critical Strength",
     "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4076,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Absorb ???",
+    "detail": "Decrease Max HP & remove Guts from a single enemy when damaged + Apply Attack Plus to yourself",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4077,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Absorb Motivation",
+    "detail": "Decrease Max HP & remove Guts from a single enemy when damaged + Apply Attack Plus to yourself",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3020
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4078,
+    "buffGroup": 900,
+    "type": 34,
+    "name": "Slump",
+    "detail": "Unable to use Noble Phantasms",
+    "iconId": 512,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3057,
+      2073
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4079,
+    "buffGroup": 0,
+    "type": 133,
+    "name": "Field Set [Forest]",
+    "detail": "Change the field to [Forest]",
+    "iconId": 355,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4080,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "Sea God's Vessel",
+    "detail": "Increase ATK & DEF & ignore Evade and deal ATK damage",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2822
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "CounterMessage": "Fragarach Activated"
+    },
+    "id": 4081,
+    "buffGroup": 506,
+    "type": 165,
+    "name": "Fragarach Counter",
+    "detail": "Counterattack with Fragarach after the enemy has targeted you and taken a standard action",
+    "iconId": 371,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4085,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Activate when Attacking (Remove Buff)",
+    "detail": "Remove one Buff from a single enemy when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4086,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Activate when Attacking (Inflict Burn)",
+    "detail": "Inflict Burn to a single enemy during your attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4087,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Activate when Attacking (Inflict Charm)",
+    "detail": "Chance to inflict Charm to a single enemy during your attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4088,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Desiccation",
+    "detail": "Apply Damage Cut to yourself at the end of each turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3015
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4089,
+    "buffGroup": 0,
+    "type": 8,
+    "name": "Expiration Date",
+    "detail": "Lose HP at the end of each turn",
+    "iconId": 513,
+    "maxRate": 0,
+    "effectId": 17122
+  },
+  {
+    "vals": [
+      3004,
+      3060
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4090,
+    "buffGroup": 0,
+    "type": 7,
+    "name": "Nutrient-Rich",
+    "detail": "Recover HP at the end of each turn & immune to all debuffs",
+    "iconId": 318,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {},
+    "id": 4091,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "Nutrient-Rich",
+    "detail": "Immune to all debuffs",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4092,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Shattered Garment",
+    "detail": "Increase your Critical Hit Rate when damaged",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4093,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Oil-Drenched",
+    "detail": "Apply Evade to yourself when damaged",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4094,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Rugged Skin",
+    "detail": "Decrease HP for a single enemy when damaged",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4095,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Buddy Rank EX++",
+    "detail": "Increase damage dealt during \"Manannan's Souvenir Valentines\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4096,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Buddy Rank EX+",
+    "detail": "Increase damage dealt during \"Manannan's Souvenir Valentines\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4097,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Buddy Rank EX",
+    "detail": "Increase damage dealt during \"Manannan's Souvenir Valentines\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4098,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Buddy Rank A",
+    "detail": "Increase damage dealt during \"Manannan's Souvenir Valentines\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4099,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Buddy Rank B",
+    "detail": "Increase damage dealt during \"Manannan's Souvenir Valentines\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4100,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Buddy Rank C",
+    "detail": "Increase damage dealt during \"Manannan's Souvenir Valentines\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4101,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Buddy Rank D",
+    "detail": "Increase damage dealt during \"Manannan's Souvenir Valentines\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4102,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Buddy Rank E",
+    "detail": "Increase damage dealt during \"Manannan's Souvenir Valentines\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3023
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6036
+    },
+    "id": 4103,
+    "buffGroup": 700,
+    "type": 38,
+    "name": "Target Focused",
+    "detail": "Set Target to yourself",
+    "iconId": 323,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6036
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4104,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6036
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4105,
+    "buffGroup": 0,
+    "type": 24,
+    "name": "Chance to Evade",
+    "detail": "Chance to reduce damage taken to 0",
+    "iconId": 305,
     "maxRate": 0,
     "effectId": 0
   },
