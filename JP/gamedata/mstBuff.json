@@ -5932,6 +5932,7 @@
   },
   {
     "vals": [
+      3005,
       2091
     ],
     "tvals": [],
@@ -7177,7 +7178,10 @@
     "effectId": 0
   },
   {
-    "vals": [],
+    "vals": [
+      3005,
+      3044
+    ],
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
@@ -7252,6 +7256,7 @@
   {
     "vals": [
       3005,
+      3023,
       2116
     ],
     "tvals": [],
@@ -21369,6 +21374,7 @@
   },
   {
     "vals": [
+      3005,
       2393
     ],
     "tvals": [],
@@ -21386,6 +21392,8 @@
   },
   {
     "vals": [
+      3005,
+      3009,
       2393
     ],
     "tvals": [],
@@ -21403,6 +21411,7 @@
   },
   {
     "vals": [
+      3005,
       2393
     ],
     "tvals": [],
@@ -23471,6 +23480,9 @@
   },
   {
     "vals": [
+      3005,
+      3008,
+      3033,
       2436
     ],
     "tvals": [],
@@ -25795,8 +25807,8 @@
     "id": 1856,
     "buffGroup": 0,
     "type": 5,
-    "name": "毎ターンNP獲得",
-    "detail": "ターン終了時にNPが増える",
+    "name": "毎ターンNP獲得〔水辺〕",
+    "detail": "〔水辺〕のあるフィールドにおいてのみ、ターン終了時にNPが増える",
     "iconId": 319,
     "maxRate": 0,
     "effectId": 0
@@ -32652,6 +32664,8 @@
   },
   {
     "vals": [
+      3005,
+      3009,
       2354
     ],
     "tvals": [],
@@ -34281,6 +34295,8 @@
   },
   {
     "vals": [
+      3005,
+      3009,
       2628
     ],
     "tvals": [],
@@ -40855,6 +40871,9 @@
   },
   {
     "vals": [
+      3005,
+      3008,
+      3033,
       6023
     ],
     "tvals": [],
@@ -40872,6 +40891,8 @@
   },
   {
     "vals": [
+      3005,
+      3020,
       6023
     ],
     "tvals": [],
@@ -41706,6 +41727,9 @@
   },
   {
     "vals": [
+      3005,
+      3008,
+      3033,
       6021
     ],
     "tvals": [],
@@ -48170,8 +48194,7 @@
   },
   {
     "vals": [
-      3005,
-      3026
+      3005
     ],
     "tvals": [],
     "ckSelfIndv": [],
@@ -50779,7 +50802,8 @@
   {
     "vals": [
       3004,
-      3061
+      3061,
+      6032
     ],
     "tvals": [
       6034
@@ -51029,6 +51053,8 @@
   },
   {
     "vals": [
+      3005,
+      3042,
       6034
     ],
     "tvals": [],
@@ -51046,6 +51072,8 @@
   },
   {
     "vals": [
+      3005,
+      3044,
       6034
     ],
     "tvals": [],
@@ -51307,6 +51335,9 @@
   },
   {
     "vals": [
+      3005,
+      3008,
+      3033,
       6034
     ],
     "tvals": [],
@@ -51324,6 +51355,8 @@
   },
   {
     "vals": [
+      3005,
+      3009,
       6034
     ],
     "tvals": [],
@@ -51341,6 +51374,8 @@
   },
   {
     "vals": [
+      3005,
+      3020,
       6034
     ],
     "tvals": [],
@@ -79646,6 +79681,21 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5511,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "チョコラフター",
+    "detail": "『バレンタイン2024』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004,
       3091
@@ -79768,6 +79818,57 @@
     "name": "",
     "detail": "",
     "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5521,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、自身の攻撃力をアップ",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5523,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "攻撃を受けると自身のNPを増やす＆クリティカル威力をアップ",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5524,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "攻撃を受けると自身のチャージを低確率で増やす＆クリティカル威力をアップ",
+    "iconId": 331,
     "maxRate": 0,
     "effectId": 0
   },
@@ -102699,6 +102800,109 @@
     "detail": "",
     "iconId": 0,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94092701,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94092702,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "毎ターン終了時、自身のクリティカル時のダメージをアップ",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94092703,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "毎ターン終了時、自身の攻撃力をアップ",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94092704,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "毎ターン終了時、自身の攻撃力をアップ",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94092705,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94092706,
+    "buffGroup": 0,
+    "type": 104,
+    "name": "殺戮女神の加護",
+    "detail": "HPが0になった時、HPを回復して耐える(他のガッツ状態と重複可能)",
+    "iconId": 304,
+    "maxRate": 1000,
     "effectId": 0
   },
   {
