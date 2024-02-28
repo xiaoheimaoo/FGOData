@@ -57527,6 +57527,84 @@
   },
   {
     "vals": [
+      2823,
+      3005,
+      3009
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003
+    ],
+    "script": {
+      "extendLowerLimit": 2000
+    },
+    "id": 4082,
+    "buffGroup": 0,
+    "type": 106,
+    "name": "Fracture",
+    "detail": "Increase damage taken, NP generated, and C. Star drop rate upon damage from Quick Cards",
+    "iconId": 539,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2823,
+      3005,
+      3009
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001
+    ],
+    "script": {
+      "extendLowerLimit": 2000
+    },
+    "id": 4083,
+    "buffGroup": 0,
+    "type": 106,
+    "name": "Fracture",
+    "detail": "Increase damage taken, NP generated, and C. Star drop rate upon damage from Arts Cards",
+    "iconId": 540,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2823,
+      3005,
+      3009
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {
+      "extendLowerLimit": 2000
+    },
+    "id": 4084,
+    "buffGroup": 0,
+    "type": 106,
+    "name": "Fracture",
+    "detail": "Increase damage taken, NP generated, and C. Star drop rate upon damage from Buster Cards",
+    "iconId": 541,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004
     ],
     "tvals": [],
@@ -57871,6 +57949,57 @@
     "name": "Chance to Evade",
     "detail": "Chance to reduce damage taken to 0",
     "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4106,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Quick Fracture",
+    "detail": "Decrease Quick Card resistance <up to 10 max> for yourself when damaged [Demerit]",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4153,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Arts Fracture",
+    "detail": "Decrease Arts Card resistance <up to 10 max> for yourself when damaged [Demerit]",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4154,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Buster Fracture",
+    "detail": "Decrease Buster Card resistance <up to 10 max> for yourself when damaged [Demerit]",
+    "iconId": 525,
     "maxRate": 0,
     "effectId": 0
   },
