@@ -79770,6 +79770,21 @@
     "ckSelfIndv": [],
     "ckOpIndv": [],
     "script": {},
+    "id": 5516,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "プリンシパル・キャスト",
+    "detail": "『CBC2024 シャルルマーニュのモンジョワ・騎士道！』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
     "id": 5517,
     "buffGroup": 0,
     "type": 11,
@@ -79886,6 +79901,28 @@
     "name": "被ダメージ時発動",
     "detail": "攻撃を受けると敵単体の攻撃力をダウン",
     "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [
+      4100
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5530,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "クリティカル攻撃時追加効果",
+    "detail": "クリティカル攻撃時、自身に〔王勇〕状態を付与",
+    "iconId": 333,
     "maxRate": 0,
     "effectId": 0
   },
@@ -103611,6 +103648,40 @@
     "detail": "スターが発生する確率を増やす",
     "iconId": 560,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94093301,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "揺れ動く恋心",
+    "detail": "毎ターン終了時、自身のQuick攻撃耐性・Arts攻撃耐性・Buster攻撃耐性のいずれかをダウン",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94093302,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "毎ターン終了時、味方の〔シャルルマーニュ〕のNPを増やすか、攻撃力・スター発生率のいずれかをアップ",
+    "iconId": 343,
+    "maxRate": 0,
     "effectId": 0
   }
 ]
