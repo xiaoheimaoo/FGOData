@@ -79928,6 +79928,46 @@
   },
   {
     "vals": [
+      3005,
+      3020
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 5531,
+    "buffGroup": 900,
+    "type": 34,
+    "name": "宝具封印",
+    "detail": "宝具を使用できなくなる",
+    "iconId": 512,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3025
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 5532,
+    "buffGroup": 800,
+    "type": 33,
+    "name": "スキル封印",
+    "detail": "スキルを使用できなくなる",
+    "iconId": 511,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3006
     ],
@@ -103681,6 +103721,74 @@
     "name": "毎ターン発動",
     "detail": "毎ターン終了時、味方の〔シャルルマーニュ〕のNPを増やすか、攻撃力・スター発生率のいずれかをアップ",
     "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94093503,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "ためらいの克服",
+    "detail": "自身がやられた時、敵全体<控え含む>の宝具封印状態を解除",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94093504,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "恐れの克服",
+    "detail": "自身がやられた時、敵全体<控え含む>のスキル封印状態を解除",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94093505,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "後悔の克服",
+    "detail": "自身がやられた時、敵全体<控え含む>のスター発生率をアップ",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94093506,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "攻撃を受けると自身の攻撃力をアップ",
+    "iconId": 331,
     "maxRate": 0,
     "effectId": 0
   }
