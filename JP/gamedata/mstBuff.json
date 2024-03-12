@@ -79969,6 +79969,52 @@
   {
     "vals": [
       3004,
+      3016
+    ],
+    "tvals": [
+      -4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4007
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 5535,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "特殊耐性アップ",
+    "detail": "宝具以外の攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5536,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "宝具攻撃時追加効果",
+    "detail": "宝具攻撃時、対象に即死を付与<耐性無効>",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
       3006
     ],
     "tvals": [
@@ -103790,6 +103836,156 @@
     "detail": "攻撃を受けると自身の攻撃力をアップ",
     "iconId": 331,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94093610,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "呪縛の強迫",
+    "detail": "通常攻撃時、対象に宝具封印状態を付与",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94093611,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "畏怖の強迫",
+    "detail": "通常攻撃時、対象にスキル封印状態を付与",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94093612,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "悔恨の強迫",
+    "detail": "通常攻撃時、対象のスター発生率をダウン",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3017
+    ],
+    "tvals": [
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94093613,
+    "buffGroup": 0,
+    "type": 92,
+    "name": "宝具耐性ダウン",
+    "detail": "宝具攻撃に対する耐性をダウン",
+    "iconId": 529,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94093614,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、対象の防御力をダウン",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94093615,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "特殊耐性アップ",
+    "detail": "全ての攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94093634,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "",
+    "detail": "",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003
+    ],
+    "script": {},
+    "id": 94093635,
+    "buffGroup": 0,
+    "type": 106,
+    "name": "",
+    "detail": "",
+    "iconId": 539,
+    "maxRate": 5000,
     "effectId": 0
   }
 ]
