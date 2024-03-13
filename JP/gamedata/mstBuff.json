@@ -40275,8 +40275,8 @@
     "id": 3133,
     "buffGroup": 0,
     "type": 92,
-    "name": "宝具攻撃耐性ダウン",
-    "detail": "宝具攻撃による被ダメージが増加する",
+    "name": "宝具耐性ダウン",
+    "detail": "宝具攻撃に対する耐性をダウン",
     "iconId": 529,
     "maxRate": 5000,
     "effectId": 0
@@ -103944,6 +103944,332 @@
     "name": "特殊耐性アップ",
     "detail": "全ての攻撃に対する耐性をアップ",
     "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94093617,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "宝具による攻撃を受けると敵単体の攻撃力をダウン",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6026
+    },
+    "id": 94093618,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "特殊耐性アップ",
+    "detail": "〔シラノ役〕が舞台上にいる間、全ての攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6026
+    },
+    "id": 94093619,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "クリティカル発生アップ",
+    "detail": "〔シラノ役〕が舞台上にいる間、クリティカルの発生率をアップ",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [
+      4100
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94093620,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "クリティカル攻撃時追加効果",
+    "detail": "クリティカル攻撃時、対象の強化状態を3つ解除",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6027
+    },
+    "id": 94093621,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "特殊耐性アップ",
+    "detail": "〔クリスチャン役〕が舞台上にいる間、全ての攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6027
+    },
+    "id": 94093622,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "防御力アップ",
+    "detail": "〔クリスチャン役〕が舞台上にいる間、防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94093623,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "3ターン毎発動",
+    "detail": "ターン終了時、味方全体のチャージを2増やす＆弱体状態を解除<3ターンに1回だけ発動>",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      3010
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3010
+    ],
+    "script": {
+      "INDIVIDUALITIE": 6028
+    },
+    "id": 94093624,
+    "buffGroup": 0,
+    "type": 29,
+    "name": "精神異常耐性アップ",
+    "detail": "〔ロクサーヌ役〕が舞台上にいる間、精神異常耐性をアップ",
+    "iconId": 306,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6028
+    },
+    "id": 94093625,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "攻撃力アップ",
+    "detail": "〔ロクサーヌ役〕が舞台上にいる間、攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3060
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6029
+    },
+    "id": 94093626,
+    "buffGroup": 0,
+    "type": 7,
+    "name": "毎ターンHP回復",
+    "detail": "〔ラグノー役〕が舞台上にいる間、ターン終了時にHPが回復する",
+    "iconId": 318,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94093627,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時、対象に宝具封印状態を付与＋付与成功時、自身を除く味方全体のHPを減らす【デメリット】",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3023
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6030
+    },
+    "id": 94093629,
+    "buffGroup": 0,
+    "type": 38,
+    "name": "タゲ集中アップ",
+    "detail": "〔ド・ギッシュ役〕が舞台上にいる間、自身にターゲットを固定する",
+    "iconId": 323,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6030
+    },
+    "id": 94093630,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "防御力ダウン",
+    "detail": "〔ド・ギッシュ役〕が舞台上にいる間、防御力をダウン",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94093631,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "攻撃力アップ",
+    "detail": "HPが少ないほど攻撃力アップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -3021
+    },
+    "id": 94093632,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "毎ターンチャージプラス",
+    "detail": "毎ターンチャージを3増やす<〔回避〕状態の時、効果が無効になる>",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3036
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -3021
+    },
+    "id": 94093633,
+    "buffGroup": 0,
+    "type": 16,
+    "name": "宝具威力ダウン",
+    "detail": "宝具で与えるダメージをダウン<〔回避〕状態の時、効果が無効になる>",
+    "iconId": 508,
     "maxRate": 5000,
     "effectId": 0
   },
