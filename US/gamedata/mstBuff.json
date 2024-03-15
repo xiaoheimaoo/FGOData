@@ -16381,7 +16381,7 @@
     "type": 40,
     "name": "\"Your Pain'll Get Worse!\"",
     "detail": "<Activates when Special Resist Up [Arts] is applied>\nAt the beginning of the turn, decrease C. Stars for all enemies",
-    "iconId": 525,
+    "iconId": 331,
     "maxRate": 0,
     "effectId": 0
   },
@@ -16396,7 +16396,7 @@
     "type": 40,
     "name": "\"Execute Divine Punishment!\"",
     "detail": "<Activates when Special Resist Up [Buster] is applied>\nAt the beginning of the turn, apply Stun to one random enemy",
-    "iconId": 525,
+    "iconId": 331,
     "maxRate": 0,
     "effectId": 0
   },
@@ -17237,7 +17237,7 @@
     "buffGroup": 0,
     "type": 17,
     "name": "Late Fee Payment: NP Stockpile",
-    "detail": "Increase NP Gain during normal attacks & while this effect is active, Late Fee Payment \"decrease your Critical Strength + increase the Lender's Critical Strength\" will be activated at the end of each turn & remove one of the Lender's Paywall when this effect is used during a normal attack",
+    "detail": "Increase NP Gain during attacks & while this effect is active, Late Fee Payment \"decrease your Critical Strength + increase the Lender's Critical Strength\" will be activated at the end of each turn & remove one of the Lender's Paywall when this effect is used during a normal attack",
     "iconId": 303,
     "maxRate": 5000,
     "effectId": 0
@@ -28351,9 +28351,7 @@
   },
   {
     "vals": [
-      2503,
-      2504,
-      2505
+      2503
     ],
     "tvals": [],
     "ckSelfIndv": [],
@@ -29650,7 +29648,6 @@
   },
   {
     "vals": [
-      2004,
       3005,
       2541
     ],
@@ -57327,6 +57324,21 @@
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
+    "script": {},
+    "id": 4069,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Strength Up",
+    "detail": "Increase damage dealt during \"Battle in New York 2024\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
     "script": {
       "relationId": 136
     },
@@ -57981,6 +57993,40 @@
     "name": "Quick Fracture",
     "detail": "Decrease Quick Card resistance <up to 10 max> for yourself when damaged [Demerit]",
     "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2504
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4108,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2505
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4109,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
     "maxRate": 0,
     "effectId": 0
   },
@@ -59046,6 +59092,104 @@
   },
   {
     "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007,
+      4004
+    ],
+    "ckSelfIndv": [
+      4007,
+      4004
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4167,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect when Attacking with Noble Phantasm (Apply Invincible)",
+    "detail": "Ignore Sure Hit and reduce ATK damage taken to 0 for yourself when attacking with a Noble Phantasm",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2004
+    ],
+    "script": {},
+    "id": 4168,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect when Attacking (Remove Buffs)",
+    "detail": "Medium chance to remove Buffs from [Rome] targets during normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2004
+    ],
+    "script": {},
+    "id": 4169,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect when Attacking (Buster Down)",
+    "detail": "Medium chance to decrease Buster Card effectiveness for [Rome] targets during normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2004
+    ],
+    "script": {},
+    "id": 4170,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect when Attacking (Arts Down)",
+    "detail": "Medium chance to decrease Arts Card effectiveness for [Rome] targets during normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4171,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Apply Trait (Rome)",
+    "detail": "Apply [Rome] trait (treated as Debuff)",
+    "iconId": 360,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3005
     ],
     "tvals": [
@@ -59104,6 +59248,189 @@
     "detail": "Gain resistance to all attacks",
     "iconId": 334,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4175,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect on Attack (Inflict Stun)",
+    "detail": "Low Chance to inflict Stun (1 turn) to a single enemy during your normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4176,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn (Critical Hit Rate Up)",
+    "detail": "Increase your Critical Hit Rate at the end of each turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4177,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate when damaged (C. Star Gain)",
+    "detail": "Increase the enemies' C. Stars by 5 when attacked [Demerit]",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4179,
+    "buffGroup": 0,
+    "type": 141,
+    "name": "Ready Hail of Gunfire",
+    "detail": "Trigger hail of projectile treasure at the end of each turn (Does not work if afflicted with Incapacitate or Skill Seal)",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4180,
+    "buffGroup": 0,
+    "type": 141,
+    "name": "Ready Defensive Systems",
+    "detail": "Activate defensive system in response to number of C. Stars at the end of each turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6021
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4181,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001
+    ],
+    "script": {},
+    "id": 4193,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Special Resist Up (Arts)",
+    "detail": "Increase resistance against Arts attacks",
+    "iconId": 346,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {},
+    "id": 4194,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Special Resist Up (Buster)",
+    "detail": "Increase resistance against Buster attacks",
+    "iconId": 347,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3057,
+      2038
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4195,
+    "buffGroup": 0,
+    "type": 133,
+    "name": "Field Set [Sunlight]",
+    "detail": "Turn the field to [Sunlight]",
+    "iconId": 352,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3057,
+      2039
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4196,
+    "buffGroup": 0,
+    "type": 133,
+    "name": "Field Set [Near Water]",
+    "detail": "Change the field to [Near Water]",
+    "iconId": 354,
+    "maxRate": 0,
     "effectId": 0
   },
   {
