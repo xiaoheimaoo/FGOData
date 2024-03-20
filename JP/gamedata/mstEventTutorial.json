@@ -1,6 +1,182 @@
 [
   {
     "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      4000326
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "rects": [],
+        "questId": 4000327,
+        "text": "オーディール・コールの日本エリアに\n奏章Ⅱ 不可逆廃棄孔 イド\n『appendix』\nが追加されました。\n",
+        "textPos": [
+          0,
+          30
+        ],
+        "spacingY": 5,
+        "dlgFontSize": 28,
+        "ptPos": [
+          0,
+          0
+        ],
+        "isQuestRelease": true
+      }
+    ],
+    "script": {},
+    "eventId": -112,
+    "flagType": 1,
+    "num": 1,
+    "priority": 0,
+    "openType": 80,
+    "condType": 215,
+    "condValue": 10800,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      4000326
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "isClassBoardRelease": true,
+        "releaseClassBoardBaseIds": [
+          8
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": -111,
+    "flagType": 1,
+    "num": 1,
+    "priority": 0,
+    "openType": 83,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      4000326
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "addClassIds": [
+          11
+        ],
+        "releaseClassBoardBaseIds": [
+          8
+        ],
+        "isClassBoardRelease": true
+      }
+    ],
+    "script": {},
+    "eventId": -110,
+    "flagType": 1,
+    "num": 2,
+    "priority": 0,
+    "openType": 83,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[40301]"
+    ],
+    "condIds": [
+      4000317
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "黒い影による\nアヴェンジャークラスのサーヴァントへの\n魔力供給が弱まりました。",
+        "dlgFontSize": 30,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": -109,
+    "flagType": 3,
+    "num": 1,
+    "priority": 0,
+    "openType": 1,
+    "condType": 46,
+    "condValue": 1,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[40301]"
+    ],
+    "condIds": [
+      4000306
+    ],
+    "imageIds": [
+      76
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": -108,
+    "flagType": 3,
+    "num": 1,
+    "priority": 0,
+    "openType": 1,
+    "condType": 46,
+    "condValue": 1,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[4000305,1]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      75
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": -107,
+    "flagType": 43,
+    "num": 1,
+    "priority": 0,
+    "openType": 45,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
       "[94087008]"
     ],
     "condIds": [],
@@ -665,6 +841,52 @@
     },
     "eventId": -67,
     "flagType": 1,
+    "num": 1,
+    "priority": 0,
+    "openType": 83,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      4000217
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "奏章Ⅱ\n\n不可逆廃棄孔 イド\nが開放されました。",
+        "dlgFontSize": 30,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {
+      "beforeActionSetup": [
+        "114",
+        "1040301,5"
+      ],
+      "beforeActionVals": [
+        "300",
+        "1040301,15,1000",
+        "104",
+        "1040301,6"
+      ]
+    },
+    "eventId": -67,
+    "flagType": 3,
     "num": 1,
     "priority": 0,
     "openType": 83,
