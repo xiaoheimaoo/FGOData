@@ -59351,6 +59351,195 @@
   },
   {
     "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4182,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 139
+    },
+    "id": 4183,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "Class Affinity Change",
+    "detail": "Increase Class Affinity between [Caster] and [Assassin] classes even more",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 140
+    },
+    "id": 4184,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "Class Affinity Change",
+    "detail": "Increase Class Affinity between [Rider] and [Assassin] classes even more",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 141
+    },
+    "id": 4185,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "Class Affinity Change",
+    "detail": "Increase Class Affinity between [Rider] and [Caster] classes even more",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 142
+    },
+    "id": 4186,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "Class Affinity Change",
+    "detail": "Increase Class Affinity between all classes except for [Shielder] even more",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4187,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "DEF_UP",
+    "detail": "When HP reaches 0, increase all allies' Defense",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4188,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "INT_UP",
+    "detail": "When HP reaches 0, apply Ignore DEF to all allies",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4189,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "STAN_TRAP",
+    "detail": "When HP reaches 0, inflict Stun to all enemies",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4190,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Undead Troops' Protection",
+    "detail": "Gain resistance to all attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4191,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Undead Troops' Pride",
+    "detail": "When HP reaches 0, increase Darius III's ATK & remove 1 Undead Troops' Protection [Demerit]",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4192,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Synchronized Movement",
+    "detail": "Increase ATK for all allies except yourself during your attacks",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3016
     ],
@@ -59430,6 +59619,42 @@
     "name": "Field Set [Near Water]",
     "detail": "Change the field to [Near Water]",
     "iconId": 354,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4197,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "Herd Leader",
+    "detail": "Increase ATK",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4198,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Undead Troops' Pride",
+    "detail": "When HP reaches 0, increase Darius III's ATK & remove 3 Undead Troops' Protection [Demerit]",
+    "iconId": 350,
     "maxRate": 0,
     "effectId": 0
   },
