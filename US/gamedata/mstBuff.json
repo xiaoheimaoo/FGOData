@@ -59659,6 +59659,534 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4199,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Island Rescue",
+    "detail": "Increase damage dealt during \"Water Monsters Crisis, The Floating Island of Innocents\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [
+      4100
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4200,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Activate during Critical Attack (Death)",
+    "detail": "Chance to inflict Death to a single enemy during your Critical attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4201,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate when Damaged (Inflict Charm)",
+    "detail": "Chance to inflict Charm to a single enemy when attacked",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4202,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "Support Program",
+    "detail": "Prevents disappearing after incapacitating an enemy",
+    "iconId": 520,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6026
+    },
+    "id": 4203,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Special Resist Up",
+    "detail": "Gain resistance to all attacks when a Wooden Sluice (Under Construction) exists on the field",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6026
+    },
+    "id": 4204,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Special Resist Up",
+    "detail": "Gain resistance to all attacks when a Stone Sluice (Under Construction) exists on the field",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6026
+    },
+    "id": 4205,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "Critical Hit Rate Up",
+    "detail": "Increase Critical Hit rate when a Stone Sluice (Under Construction) exists on the field",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4206,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      201
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      201
+    ],
+    "script": {},
+    "id": 4207,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Strength Up (Earth Attribute)",
+    "detail": "Increase damage dealt against [Earth Attribute]",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -2000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -2000
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 4208,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "",
+    "detail": "",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -2000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -2000
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 4209,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "",
+    "detail": "",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -2000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -2000
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 4210,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "",
+    "detail": "",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4211,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Activate when Attacking with Arts",
+    "detail": "Increase Buster Card effectiveness for yourself when attacking with Arts Cards",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4212,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect with Buster Attack",
+    "detail": "Increase Arts Card effectiveness for yourself when attacking with Buster Cards ",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4213,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Taisui's Misfortune",
+    "detail": "When HP reaches 0, decrease all allies' Defense & inflict Curse & inflict Disastrous Curse",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4214,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "Activate when Guts is Triggered (Inflict Curse)",
+    "detail": "Inflict Curse to all enemies when Guts is triggered",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4215,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "God of Fortune",
+    "detail": "Increase NP damage & increase Overcharge level when using Noble Phantasm & increase DEF",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4216,
+    "buffGroup": 0,
+    "type": 96,
+    "name": "",
+    "detail": "",
+    "iconId": 336,
+    "maxRate": 5,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4217,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "",
+    "detail": "",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {},
+    "id": 4218,
+    "buffGroup": 0,
+    "type": 112,
+    "name": "God of Curses",
+    "detail": "Increase damage dealt against [Debuff] & decrease damage taken",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4219,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "",
+    "detail": "",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4220,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect on Attack (Burn)",
+    "detail": "Inflict Burn (3 turns) to a single enemy during your attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6036
+    },
+    "id": 4221,
+    "buffGroup": 600,
+    "type": 37,
+    "name": "Boss's Pride",
+    "detail": "When HP reaches 0, recover HP and survive when [Flunky] is on the field",
+    "iconId": 304,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4222,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Closeness Power",
+    "detail": "Generates a random Buff every turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4223,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Ancient Distorted Faith",
+    "detail": "Gain super resistance to all non [Divine] attacks & gain super resistance to all attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4224,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Opposing Distorted Faith",
+    "detail": "Gain resistance to all non [Divine] attacks & gain resistance to all attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4225,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Comparative Distorted Faith",
+    "detail": "Gain resistance to all non [Divine] attacks & gain slight resistance to all attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004
     ],
