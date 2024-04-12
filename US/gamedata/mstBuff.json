@@ -60194,6 +60194,248 @@
     "ckSelfIndv": [],
     "ckOpIndv": [],
     "script": {},
+    "id": 4227,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Assemble and Roar",
+    "detail": "When HP reaches 0, increase Maximum HP & apply Damage Plus & Guts for all allies (including sub-members)",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4228,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Flag Pledge",
+    "detail": "When HP reaches 0, increase Critical Rate & Critical Strength & set Charge to maximum for [Marshal] allies",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2824
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4229,
+    "buffGroup": 9992,
+    "type": 40,
+    "name": "CRUSH!!!",
+    "detail": "Summon an enemy at end of each turn",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4230,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "\"meth\"",
+    "detail": "When HP reaches 0, decrease [emeth] enemies' HP",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3067
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4231,
+    "buffGroup": 0,
+    "type": 140,
+    "name": "Command Card Unselectable",
+    "detail": "Cannot select Command Cards",
+    "iconId": 555,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4232,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Clod of Truth",
+    "detail": "Gain resistance to all attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {},
+    "id": 4233,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "Clod of Truth",
+    "detail": "Immune to all debuffs",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4234,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Clod of Truth",
+    "detail": "Chance to gain [CRUSH!!!] state (Chance gradually increases with every attack received) when damaged",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2825
+    ],
+    "tvals": [
+      2824
+    ],
+    "ckSelfIndv": [
+      2824
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4235,
+    "buffGroup": 0,
+    "type": 27,
+    "name": "",
+    "detail": "",
+    "iconId": 307,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3075,
+      6032,
+      6033
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4236,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Quick Up",
+    "detail": "Increase Quick Card effectiveness",
+    "iconId": 312,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3073,
+      6032,
+      6034
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4237,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Arts Up",
+    "detail": "Increase Arts Card effectiveness",
+    "iconId": 313,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3074,
+      6032,
+      6035
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4238,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Buster Up",
+    "detail": "Increase Buster Card effectiveness",
+    "iconId": 314,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
     "id": 4266,
     "buffGroup": 0,
     "type": 95,
