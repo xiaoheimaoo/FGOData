@@ -1,6 +1,51 @@
 [
   {
     "targetIds": [
+      "[94094401]",
+      "[94094402]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      73
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": -114,
+    "flagType": 43,
+    "num": 1,
+    "priority": 0,
+    "openType": 45,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[94094401]",
+      "[94094402]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      74,
+      77
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": -113,
+    "flagType": 43,
+    "num": 1,
+    "priority": 0,
+    "openType": 45,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
       "[]"
     ],
     "condIds": [
@@ -216,6 +261,74 @@
   },
   {
     "targetIds": [
+      "[94094401]",
+      "[94094402]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      78
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": -104,
+    "flagType": 43,
+    "num": 1,
+    "priority": 0,
+    "openType": 45,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      94086401
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "第二の大統領特異点が確認されました。",
+        "dlgFontSize": 30,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {
+      "beforeActionSetup": [
+        "114",
+        "1040109,2"
+      ],
+      "beforeActionVals": [
+        "300",
+        "1040109,15,1000",
+        "104",
+        "1040109,3"
+      ]
+    },
+    "eventId": -103,
+    "flagType": 3,
+    "num": 2,
+    "priority": 0,
+    "openType": 83,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
       "[94087008]"
     ],
     "condIds": [],
@@ -354,7 +467,8 @@
       "[]"
     ],
     "condIds": [
-      4000217
+      4000217,
+      94094401
     ],
     "imageIds": [],
     "textJson": [
@@ -399,6 +513,37 @@
     "script": {},
     "eventId": -95,
     "flagType": 1,
+    "num": 2,
+    "priority": 0,
+    "openType": 83,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      94094401
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "addClassIds": [
+          28
+        ],
+        "releaseClassBoardBaseIds": [
+          9
+        ],
+        "isClassBoardRelease": true
+      }
+    ],
+    "script": {},
+    "eventId": -95,
+    "flagType": 65,
     "num": 2,
     "priority": 0,
     "openType": 83,
@@ -1017,6 +1162,28 @@
     "textJson": [],
     "script": {},
     "eventId": -65,
+    "flagType": 43,
+    "num": 1,
+    "priority": 0,
+    "openType": 45,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[94086401]",
+      "[94086402]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      78
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": -64,
     "flagType": 43,
     "num": 1,
     "priority": 0,

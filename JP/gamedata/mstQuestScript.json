@@ -1,6 +1,15 @@
 [
   {
     "script": {},
+    "id": 0,
+    "name": "オルガマリークエスト",
+    "folderType": 4,
+    "materialFolderId": 90001,
+    "parentWarId": 14000,
+    "priority": 90001
+  },
+  {
+    "script": {},
     "id": 1000817,
     "name": "第10節 玉座にて",
     "folderType": 0,
@@ -10631,6 +10640,19 @@
     "priority": 14001
   },
   {
+    "script": {
+      "startAction": "Q93040150",
+      "noneQuest": 1,
+      "maxPhase": 1
+    },
+    "id": 94086403,
+    "name": "オルガマリークエスト_１",
+    "folderType": 0,
+    "materialFolderId": 0,
+    "parentWarId": 90001,
+    "priority": 907299
+  },
+  {
     "script": {},
     "id": 94086900,
     "name": "プロローグ",
@@ -11269,5 +11291,16 @@
     "materialFolderId": 80462,
     "parentWarId": 0,
     "priority": 0
+  },
+  {
+    "script": {
+      "materialLatestClear": 1
+    },
+    "id": 94094401,
+    "name": "オルガマリークエスト_２",
+    "folderType": 0,
+    "materialFolderId": 0,
+    "parentWarId": 90001,
+    "priority": 907297
   }
 ]
