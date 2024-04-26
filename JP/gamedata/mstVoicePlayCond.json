@@ -8502,6 +8502,59 @@
     "targetId": 703500
   },
   {
+    "condValues": [],
+    "script": {
+      "weight": 200
+    },
+    "svtId": 704900,
+    "voicePrefix": -1,
+    "voiceId": "B100",
+    "idx": 1,
+    "condGroup": 1,
+    "condType": 0,
+    "targetId": 0
+  },
+  {
+    "condValues": [],
+    "script": {
+      "weight": 200
+    },
+    "svtId": 704900,
+    "voicePrefix": -1,
+    "voiceId": "B110",
+    "idx": 1,
+    "condGroup": 1,
+    "condType": 0,
+    "targetId": 0
+  },
+  {
+    "condValues": [],
+    "script": {
+      "forcePlayFirst": 1,
+      "weight": 600
+    },
+    "svtId": 704900,
+    "voicePrefix": -1,
+    "voiceId": "B8500",
+    "idx": 1,
+    "condGroup": 1,
+    "condType": 216,
+    "targetId": 2501400
+  },
+  {
+    "condValues": [
+      3
+    ],
+    "script": {},
+    "svtId": 704900,
+    "voicePrefix": -1,
+    "voiceId": "M060",
+    "idx": 1,
+    "condGroup": 1,
+    "condType": 177,
+    "targetId": 80472001
+  },
+  {
     "condValues": [
       0
     ],
@@ -12754,6 +12807,32 @@
   },
   {
     "condValues": [
+      2
+    ],
+    "script": {},
+    "svtId": 2501400,
+    "voicePrefix": -1,
+    "voiceId": "M060",
+    "idx": 1,
+    "condGroup": 1,
+    "condType": 177,
+    "targetId": 80472001
+  },
+  {
+    "condValues": [
+      4
+    ],
+    "script": {},
+    "svtId": 2501400,
+    "voicePrefix": -1,
+    "voiceId": "M070",
+    "idx": 1,
+    "condGroup": 1,
+    "condType": 177,
+    "targetId": 80472001
+  },
+  {
+    "condValues": [
       0
     ],
     "script": {},
@@ -14324,5 +14403,18 @@
     "condGroup": 1,
     "condType": 1,
     "targetId": 94090005
+  },
+  {
+    "condValues": [
+      1
+    ],
+    "script": {},
+    "svtId": 109829780,
+    "voicePrefix": -1,
+    "voiceId": "M060",
+    "idx": 1,
+    "condGroup": 1,
+    "condType": 177,
+    "targetId": 80472001
   }
 ]
