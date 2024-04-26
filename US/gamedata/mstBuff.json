@@ -61011,7 +61011,7 @@
     "id": 4266,
     "buffGroup": 0,
     "type": 95,
-    "name": "Evade Upon Entry",
+    "name": "Apply Evade upon Entry",
     "detail": "Apply Evade upon entering the field",
     "iconId": 331,
     "maxRate": 0,
@@ -61028,7 +61028,7 @@
     "id": 4267,
     "buffGroup": 0,
     "type": 95,
-    "name": "Invincible Upon Entry",
+    "name": "Invincible upon Entry",
     "detail": "Apply Invincible upon entering the field",
     "iconId": 331,
     "maxRate": 0,
@@ -61476,6 +61476,43 @@
     "detail": "Decrease damage taken, NP generate, and C. Star drop rate upon damage from Buster Card",
     "iconId": 347,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2354
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 143
+    },
+    "id": 4293,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "Class Affinity Change",
+    "detail": "Negate Class disadvantages from Saber Class attributes",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4294,
+    "buffGroup": 9999,
+    "type": 104,
+    "name": "Guts",
+    "detail": "When HP reaches 0, recover HP and survive",
+    "iconId": 304,
+    "maxRate": 1000,
     "effectId": 0
   },
   {
