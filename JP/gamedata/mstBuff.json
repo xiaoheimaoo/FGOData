@@ -80377,6 +80377,31 @@
   {
     "vals": [
       3004,
+      3024,
+      2914
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3096,
+      3097
+    ],
+    "script": {
+      "DisplayPriority": 600,
+      "INDIVIDUALITIE": -3086
+    },
+    "id": 5559,
+    "buffGroup": 5559,
+    "type": 37,
+    "name": "即死時ガッツ",
+    "detail": "即死効果を受けた時、HPを回復して耐える",
+    "iconId": 402,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
       3006
     ],
     "tvals": [],
@@ -80389,6 +80414,76 @@
     "name": "ダメージカット貫通",
     "detail": "ダメージカットを無視して、攻撃によるダメージを与える",
     "iconId": 351,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2886
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 500
+    },
+    "id": 5561,
+    "buffGroup": 5561,
+    "type": 40,
+    "name": "コマドリカウンター",
+    "detail": "スキル〔駒鳥の殺人〕の残り使用可能回数を表す",
+    "iconId": 401,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2887
+    },
+    "id": 5562,
+    "buffGroup": 0,
+    "type": 161,
+    "name": "",
+    "detail": "",
+    "iconId": 511,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5563,
+    "buffGroup": 0,
+    "type": 194,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3099
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "effectText": "身代わり"
+    },
+    "id": 5564,
+    "buffGroup": 5564,
+    "type": 157,
+    "name": "身代わり",
+    "detail": "無敵貫通を無視して、攻撃によるダメージを0にする(強化解除で解除不能)",
+    "iconId": 400,
     "maxRate": 0,
     "effectId": 0
   },
@@ -80411,6 +80506,53 @@
     "name": "致死ダメージ回避",
     "detail": "攻撃によるダメージでHPが0になる時、その攻撃を回避してダメージを0にする",
     "iconId": 399,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3085,
+      3040
+    ],
+    "tvals": [
+      -4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4007
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 5568,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "ダメージカット",
+    "detail": "宝具以外の攻撃による被ダメージを減らす",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      3011,
+      3015,
+      3026
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5569,
+    "buffGroup": 0,
+    "type": 198,
+    "name": "",
+    "detail": "",
+    "iconId": 301,
     "maxRate": 0,
     "effectId": 0
   },
@@ -80943,6 +81085,119 @@
   },
   {
     "vals": [
+      3095
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2903
+    },
+    "id": 5598,
+    "buffGroup": 2000,
+    "type": 190,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3095
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2903
+    },
+    "id": 5599,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3095
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2903
+    },
+    "id": 5600,
+    "buffGroup": 0,
+    "type": 41,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5601,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "",
+    "detail": "",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5602,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "攻撃力アップ",
+    "detail": "〔森〕〔都市〕〔暗闇〕のフィールドにおいてのみ、攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5603,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "防御力アップ",
+    "detail": "〔森〕〔都市〕〔暗闇〕のフィールドにおいてのみ、防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004
     ],
     "tvals": [
@@ -81389,6 +81644,23 @@
     "name": "無窮の愛",
     "detail": "通常攻撃時、自身のHPを1000回復＆自身に強化無効状態(1回・2ターン)を付与＆Quickカード性能をダウン(3ターン)＆Artsカード性能をダウン(3ターン)＆Busterカード性能をダウン(3ターン)＆防御力をダウン(3ターン)＆弱体耐性をダウン(3ターン)",
     "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -2886
+    },
+    "id": 5629,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
     "maxRate": 0,
     "effectId": 0
   },
@@ -110101,6 +110373,151 @@
   },
   {
     "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 94095601
+    },
+    "id": 94095607,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔アヴェンジャー〕クラスに対する相性不利を打ち消す",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94095608,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時、対象のNPを減らす",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94095609,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時、対象に低確率で魅了状態を付与",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94095610,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6039
+    },
+    "id": 94095611,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "美の神域",
+    "detail": "〔神の造形物〕がフィールドにいる間、全ての攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94095612,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時、対象に呪い状態を付与",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3022,
+      3007,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94095613,
+    "buffGroup": 400,
+    "type": 26,
+    "name": "無敵",
+    "detail": "必中を無視して、攻撃によるダメージを0にする<恐怖状態になると解除される>",
+    "iconId": 311,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024,
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94095614,
+    "buffGroup": 600,
+    "type": 104,
+    "name": "ガッツ",
+    "detail": "HPが0になった時、HPを回復して耐える<恐怖状態になると解除される>",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3016
     ],
@@ -110200,6 +110617,175 @@
   {
     "vals": [
       3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94095627,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "歪な造形",
+    "detail": "攻撃力をアップ＆防御力をダウン【デメリット】",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94095628,
+    "buffGroup": 0,
+    "type": 24,
+    "name": "怪しく揺れ蠢く",
+    "detail": "攻撃によるダメージを低確率で0にする",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94095629,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94095630,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "終わらぬ作業",
+    "detail": "通常攻撃時、対象のNPを減らす＋自身のチャージを減らす【デメリット】",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94095631,
+    "buffGroup": 600,
+    "type": 104,
+    "name": "高速おきあがり",
+    "detail": "HPが0になった時、HPを回復して耐える",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94095632,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "高速おきあがり",
+    "detail": "ガッツ発動時、自身のクリティカル発生率をアップ",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94095633,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "カース・マジック",
+    "detail": "通常攻撃時、対象に呪い状態を付与",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3011,
+      3015
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3011,
+      3015
+    ],
+    "script": {},
+    "id": 94095634,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "ストロングフィスト",
+    "detail": "毒・やけどを受けなくなる＆呪いの効果量アップ【デメリット】",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3048
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      3026
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94095635,
+    "buffGroup": 0,
+    "type": 126,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
       3060
     ],
     "tvals": [],
@@ -110271,6 +110857,25 @@
     "name": "",
     "detail": "",
     "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      3039
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94095655,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "即死耐性ダウン",
+    "detail": "即死耐性をダウン",
+    "iconId": 506,
     "maxRate": 0,
     "effectId": 0
   },
