@@ -56113,7 +56113,7 @@
     "buffGroup": 0,
     "type": 15,
     "name": "Brave Bogatyr",
-    "detail": "Increase NP damage & increase NP Gauge by 50% for yourself when defeating an enemy + Increase all allies' DEF when you are on the field",
+    "detail": "Increase NP damage & DEF & increase NP Gauge by 50% for yourself when defeating an enemy + Increase all allies' DEF when you are on the field",
     "iconId": 310,
     "maxRate": 5000,
     "effectId": 0
@@ -61529,6 +61529,133 @@
     "name": "Activate on Defeat (Demise Privilege)",
     "detail": "When HP reaches 0, increase NP Gauge & Critical Strength & gain C. Stars each turn for one ally in the back excluding yourself",
     "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4296,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Antibodies",
+    "detail": "When HP reaches 0, remove 1 Poison state for a single enemy [Demerit]",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2354
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 144
+    },
+    "id": 4298,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "Class Affinity Change",
+    "detail": "Gain advantage against [Lancer] class",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4299,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect when Attacking (Apply Siege)",
+    "detail": "Add one [Siege] during normal attacks",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4300,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect when Attacking with Noble Phantasm (Apply Siege)",
+    "detail": "Add two [Siege] during Noble Phantasm attacks",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4301,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Siege",
+    "detail": "Once 7 are collected, decrease Charge by 1 & remove all [Siege] states",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4338,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Venom Strike",
+    "detail": "Inflict Poison (10 turns) to one enemy during your normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4339,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate When Damaged (Inflict Poison)",
+    "detail": "Inflict Poison (1 turn) to a single enemy when attacked",
+    "iconId": 331,
     "maxRate": 0,
     "effectId": 0
   },
