@@ -240,5 +240,33 @@
     "evalValue": 500,
     "timing": 0,
     "iconId": 351
+  },
+  {
+    "svals": [
+      "[1000,1,-1,1000]"
+    ],
+    "funcId": [
+      274
+    ],
+    "id": 94071401,
+    "name": "Damage Cut",
+    "effectName": "Apply a state where \"Damage taken is reduced by 1000\" for this Servant (1 turn)",
+    "evalValue": 500,
+    "timing": 0,
+    "iconId": 301
+  },
+  {
+    "svals": [
+      "[1000,-1,1,967956,Value2:1,ShowState:1,ForceAddState:1]"
+    ],
+    "funcId": [
+      8812
+    ],
+    "id": 94071402,
+    "name": "BB Slots",
+    "effectName": "Apply a state where \"ATK, Critical Strength, or NP Strength is increased by 50% upon entering the field (3 turns)\" for this Servant (1 turn)",
+    "evalValue": 500,
+    "timing": 0,
+    "iconId": 1000001
   }
 ]
