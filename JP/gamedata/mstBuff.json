@@ -81793,6 +81793,75 @@
   {
     "vals": [
       3004,
+      3007
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003
+    ],
+    "script": {},
+    "id": 5635,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "Quickカード耐性",
+    "detail": "Quickカードの攻撃による被ダメージ、被NP発生量、被スター発生率が減少する",
+    "iconId": 345,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001
+    ],
+    "script": {},
+    "id": 5636,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "Artsカード耐性",
+    "detail": "Artsカードの攻撃による被ダメージ、被NP発生量、被スター発生率が減少する",
+    "iconId": 346,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {},
+    "id": 5637,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "Busterカード耐性",
+    "detail": "Busterカードの攻撃による被ダメージ、被NP発生量、被スター発生率が減少する",
+    "iconId": 347,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
       3006
     ],
     "tvals": [
@@ -109870,10 +109939,16 @@
     "vals": [
       3004
     ],
-    "tvals": [],
+    "tvals": [
+      -6031
+    ],
     "ckSelfIndv": [],
-    "ckOpIndv": [],
-    "script": {},
+    "ckOpIndv": [
+      -6031
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
     "id": 94095304,
     "buffGroup": 0,
     "type": 78,
@@ -109887,10 +109962,16 @@
     "vals": [
       3005
     ],
-    "tvals": [],
+    "tvals": [
+      -6031
+    ],
     "ckSelfIndv": [],
-    "ckOpIndv": [],
-    "script": {},
+    "ckOpIndv": [
+      -6031
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
     "id": 94095305,
     "buffGroup": 0,
     "type": 78,
@@ -110382,6 +110463,48 @@
     "name": "財宝奪取",
     "detail": "クリティカル攻撃時、対象の〔至高の財宝〕を1つ奪う",
     "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      6031
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      6031
+    ],
+    "script": {},
+    "id": 94095328,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      6031
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      6031
+    ],
+    "script": {},
+    "id": 94095329,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 350,
     "maxRate": 0,
     "effectId": 0
   },
@@ -111958,6 +112081,160 @@
     "vals": [
       3004
     ],
+    "tvals": [
+      -3060
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -3060
+    ],
+    "script": {
+      "checkIndvType": 2,
+      "IndvAddBuffPassive": 1
+    },
+    "id": 94097400,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "大食",
+    "detail": "攻撃時、対象のHPを吸収<毎ターンHP回復状態の相手には効果が無効になる>",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      -3060
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -3060
+    ],
+    "script": {
+      "checkIndvType": 2,
+      "IndvAddBuffPassive": 1
+    },
+    "id": 94097401,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "大食",
+    "detail": "攻撃を受けた時、敵単体のHPを吸収<毎ターンHP回復状態の相手には効果が無効になる>",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      4007,
+      4100,
+      -3060
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007,
+      4100,
+      -3060
+    ],
+    "script": {
+      "checkIndvType": 2,
+      "IndvAddBuffPassive": 1
+    },
+    "id": 94097402,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "大食",
+    "detail": "宝具・クリティカルに対する耐性をアップ<毎ターンHP回復状態の相手には効果が無効になる>",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      -3060
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -3060
+    ],
+    "script": {
+      "checkIndvType": 2,
+      "IndvAddBuffPassive": 1
+    },
+    "id": 94097403,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "暴食",
+    "detail": "攻撃時、対象のHPを吸収<毎ターンHP回復状態の相手には効果が無効になる>",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      -3060
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -3060
+    ],
+    "script": {
+      "checkIndvType": 2,
+      "IndvAddBuffPassive": 1
+    },
+    "id": 94097404,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "暴食",
+    "detail": "攻撃を受けた時、敵単体のHPを吸収<毎ターンHP回復状態の相手には効果が無効になる>",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      4007,
+      4100,
+      -3060
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007,
+      4100,
+      -3060
+    ],
+    "script": {
+      "checkIndvType": 2,
+      "IndvAddBuffPassive": 1
+    },
+    "id": 94097405,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "暴食",
+    "detail": "宝具・クリティカルに対する耐性をアップ<毎ターンHP回復状態の相手には効果が無効になる>",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [
@@ -111972,6 +112249,476 @@
     "name": "",
     "detail": "",
     "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097407,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、自身の弱体状態を解除＆HPを0にした攻撃に対する耐性をアップ<Extra Attackの場合は、Quick・Arts・Busterのすべてに対する耐性をアップ>",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097408,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097409,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097410,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097411,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [
+      4100
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097412,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "クリティカル攻撃時追加効果",
+    "detail": "クリティカル攻撃時、対象に〔ヒュドラの猛毒〕状態を付与",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3011
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097413,
+    "buffGroup": 94097413,
+    "type": 85,
+    "name": "ヒュドラの猛毒",
+    "detail": "ターン終了時、自身の強化状態を1つ解除＆攻撃力をダウン",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097414,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、対象のHPを吸収＋自身の弱体状態を1つ解除",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097416,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、自身のチャージを2増やす＆Busterカード性能をアップ",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097417,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、対象の防御強化状態の残り回数を1減らす",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4004
+    ],
+    "ckSelfIndv": [
+      4004
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097418,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6021
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097419,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097420,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "遅延発動",
+    "detail": "ターン経過後、自身の防御力をダウン",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94097421,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "2ターン毎発動",
+    "detail": "ターン終了時、自身のスキルチャージを1進める<2ターンに1回だけ発動>",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097422,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097423,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097424,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6029
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097425,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024,
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097426,
+    "buffGroup": 0,
+    "type": 104,
+    "name": "生命維持ユニット",
+    "detail": "HPが0になった時、HPを回復して耐える",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097427,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097428,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "力の代償",
+    "detail": "ターン経過後、自身に即死効果",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3033
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097429,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "攻撃力ダウン",
+    "detail": "ターン毎に効果量が大きくなる攻撃力ダウン",
+    "iconId": 503,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097430,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "防御力ダウン",
+    "detail": "ターン毎に効果量が大きくなる防御力ダウン",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097431,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、対象にスタン状態を付与",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3011
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097432,
+    "buffGroup": 94097432,
+    "type": 8,
+    "name": "ヒュドラの猛毒",
+    "detail": "ターン終了時にHPが減る",
+    "iconId": 500,
+    "maxRate": 0,
+    "effectId": 17119
+  },
+  {
+    "vals": [
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097433,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
     "maxRate": 0,
     "effectId": 0
   }
