@@ -69585,7 +69585,7 @@
     "buffGroup": 0,
     "type": 26,
     "name": "無敵",
-    "detail": "必中を無視して、攻撃によるダメージを0にする",
+    "detail": "必中を無視して、攻撃によるダメージを0にする(他の無敵状態と重複可能)",
     "iconId": 311,
     "maxRate": 0,
     "effectId": 0
@@ -81857,6 +81857,25 @@
     "detail": "Busterカードの攻撃による被ダメージ、被NP発生量、被スター発生率が減少する",
     "iconId": 347,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3064,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5638,
+    "buffGroup": 0,
+    "type": 157,
+    "name": "対粛正防御",
+    "detail": "無敵貫通を無視して、攻撃によるダメージを0にする(他の対粛正防御状態と重複可能)",
+    "iconId": 368,
+    "maxRate": 0,
     "effectId": 0
   },
   {
@@ -112720,6 +112739,115 @@
     "detail": "",
     "iconId": 520,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94098600,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "祈りの第一防壁",
+    "detail": "防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94098601,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "誓いの第二防壁",
+    "detail": "防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94098602,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "栄華",
+    "detail": "〔ローマ〕特性を付与する",
+    "iconId": 360,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3026,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94098603,
+    "buffGroup": 0,
+    "type": 8,
+    "name": "呪縛の紋様",
+    "detail": "ターン終了時にHPが減る",
+    "iconId": 521,
+    "maxRate": 0,
+    "effectId": 17123
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94098604,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94098605,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "不滅の第三防壁",
+    "detail": "防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
     "effectId": 0
   }
 ]
