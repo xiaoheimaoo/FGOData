@@ -47522,7 +47522,7 @@
     "id": 3530,
     "buffGroup": 0,
     "type": 137,
-    "name": "Activate when Attacking with Buster (Remove Buff)",
+    "name": "Bonus Effect with Buster (Remove Buff)",
     "detail": "Remove Buff from a single enemy when attacking with your Buster Card & inflict Burn if removal is successful",
     "iconId": 528,
     "maxRate": 0,
@@ -47612,7 +47612,7 @@
     "id": 3535,
     "buffGroup": 0,
     "type": 89,
-    "name": "Activate when Attacking with Buster (Critical Rate Up)",
+    "name": "Bonus Effect with Buster (Critical Rate Up)",
     "detail": "Increase Critical Hit Rate for yourself during normal attacks with your Buster Card",
     "iconId": 333,
     "maxRate": 0,
@@ -47744,7 +47744,7 @@
     "id": 3542,
     "buffGroup": 0,
     "type": 89,
-    "name": "Activate when Attacking with Arts (NP Gain)",
+    "name": "Bonus Effect with Arts (NP Gain)",
     "detail": "Increase NP Gauge for yourself during normal attacks with your Arts Card",
     "iconId": 333,
     "maxRate": 0,
@@ -47764,7 +47764,7 @@
     "id": 3543,
     "buffGroup": 0,
     "type": 89,
-    "name": "Activate when Attacking with Arts (Increase Charge)",
+    "name": "Bonus Effect with Arts (Increase Charge)",
     "detail": "Increase NP Charge by 1 for yourself during normal attacks with your Arts Card",
     "iconId": 333,
     "maxRate": 0,
@@ -48088,7 +48088,7 @@
     "id": 3563,
     "buffGroup": 0,
     "type": 137,
-    "name": "Activate when Attacking with Arts",
+    "name": "Bonus Effect with Arts",
     "detail": "Inflict Poison state to target when attacking with Arts Cards",
     "iconId": 528,
     "maxRate": 0,
@@ -59932,7 +59932,7 @@
     "id": 4211,
     "buffGroup": 0,
     "type": 137,
-    "name": "Activate when Attacking with Arts",
+    "name": "Bonus Effect with Arts",
     "detail": "Increase Buster Card effectiveness for yourself when attacking with Arts Cards",
     "iconId": 333,
     "maxRate": 0,
@@ -62624,6 +62624,21 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4355,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Essence of Loyalty and Courage",
+    "detail": "Increase damage dealt during \"Nanmei Yumihari Eight Dog Chronicles\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004,
       3007,
@@ -63096,6 +63111,298 @@
   },
   {
     "vals": [
+      3004,
+      3006,
+      3027,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4380,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "Curse of Endless Dancing",
+    "detail": "Increase ATK & Max HP for all allies when Red Shoes exists on the field",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3043,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4381,
+    "buffGroup": 0,
+    "type": 81,
+    "name": "Max HP Addition",
+    "detail": "",
+    "iconId": 330,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4382,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "Unvoiced Love",
+    "detail": "Apply a state where all allies' NP Charge increases by 1 each turn & increase Critical Strength & Critical Rate for all allies when The Little Mermaid exists on the field",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031,
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4383,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "Critical Up",
+    "detail": "",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032,
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 4384,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "Critical Hit Rate Up",
+    "detail": "",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4385,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Rewind Spring",
+    "detail": "Inflict Stun to yourself when attacking with Noble Phantasm",
+    "iconId": 549,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4386,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Thoughts of Avarice",
+    "detail": "When HP reaches 0, increase reserve Blue Oni's Max HP",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4387,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Thoughts of Auddhatya",
+    "detail": "When HP reaches 0, apply a \"Decrease DEF for one enemy during normal attacks\" state to reserve Blue Oni",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6029
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4388,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Thoughts of Styāna",
+    "detail": "When HP reaches 0, apply a \"Decrease ATK for one enemy during normal attacks\" state to reserve Blue Oni",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4389,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Thoughts of Doubt",
+    "detail": "When HP reaches 0, increase reserve Blue Oni's NP Strength",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4390,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Thoughts of Dvesha",
+    "detail": "When HP reaches 0, increase reserve Blue Oni's ATK",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4391,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Thoughts of Styāna",
+    "detail": "Apply ATK Down to a single enemy during your normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4392,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Thoughts of Auddhatya",
+    "detail": "Apply DEF Down to a single enemy during your normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4393,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "Increase ATK",
+    "detail": "Increase Old Gear ATK for all allies",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4394,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "Delayed Effect (Increase Charge by 1 & Max HP Up)",
+    "detail": "Increase Charge by 1 after 1 turn & increase Max HP for yourself",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4395,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "Delayed Effect (Inflict Stun & decrease Quick Card effectiveness)",
+    "detail": "Inflict Stun after 1 turn & decrease Quick Card effectiveness for yourself",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3005,
       3014,
       3047,
@@ -63114,6 +63421,158 @@
     "name": "Pigify",
     "detail": "Turn into a pig and become incapacitated",
     "iconId": 548,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4397,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "Unvoiced Love",
+    "detail": "Apply a state where all allies' NP Charge increases by 1 each turn & increase Critical Strength & Critical Rate for all allies when Blank Little Mermaid 2 exists on the field",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031,
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4398,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "Critical Up",
+    "detail": "",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032,
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 4399,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "Critical Hit Rate Up",
+    "detail": "",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3023
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4400,
+    "buffGroup": 700,
+    "type": 38,
+    "name": "Mechanical Protection",
+    "detail": "Set Target",
+    "iconId": 323,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3020
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4401,
+    "buffGroup": 900,
+    "type": 34,
+    "name": "Missing Dog Warrior Penalty",
+    "detail": "Unable to use Noble Phantasms",
+    "iconId": 512,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4402,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Practiced",
+    "detail": "Increase ATK & DEF for yourself",
+    "iconId": 300,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4405,
+    "buffGroup": 0,
+    "type": 2,
+    "name": "C. Star Gather Up",
+    "detail": "Increase C. Star gather rate",
+    "iconId": 325,
+    "maxRate": 500000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4406,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect with Arts",
+    "detail": "Increase ATK for all allies when attacking with Arts Cards",
+    "iconId": 333,
     "maxRate": 0,
     "effectId": 0
   },
