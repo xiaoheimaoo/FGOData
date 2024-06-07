@@ -38,114 +38,6 @@
   {
     "consume": 1,
     "createdAt": "0",
-    "detail": "让出击中的全体从者的宝具值+100％",
-    "funcId": [
-      1
-    ],
-    "id": 3,
-    "motion": 201,
-    "name": "宝具填充",
-    "priority": 100,
-    "script": "",
-    "vals": [
-      "[1,0]"
-    ],
-    "type": 0,
-    "updatedAt": "0"
-  },
-  {
-    "consume": 1,
-    "createdAt": "0",
-    "detail": "让出击中的全体从者的技能变为可使用的状态",
-    "funcId": [
-      1
-    ],
-    "id": 4,
-    "motion": 201,
-    "name": "技能填充",
-    "priority": 100,
-    "script": "",
-    "vals": [
-      "[1,0]"
-    ],
-    "type": 0,
-    "updatedAt": "0"
-  },
-  {
-    "consume": 1,
-    "createdAt": "0",
-    "detail": "下一次分配的指令卡全部为迅指令卡",
-    "funcId": [
-      1
-    ],
-    "id": 5,
-    "motion": 201,
-    "name": "全迅指令",
-    "priority": 100,
-    "script": "",
-    "vals": [
-      "[1,0]"
-    ],
-    "type": 0,
-    "updatedAt": "0"
-  },
-  {
-    "consume": 1,
-    "createdAt": "0",
-    "detail": "下一次分配的指令卡全部为技指令卡",
-    "funcId": [
-      1
-    ],
-    "id": 6,
-    "motion": 201,
-    "name": "全技指令",
-    "priority": 100,
-    "script": "",
-    "vals": [
-      "[1,0]"
-    ],
-    "type": 0,
-    "updatedAt": "0"
-  },
-  {
-    "consume": 1,
-    "createdAt": "0",
-    "detail": "下一次分配的指令卡全部为力指令卡",
-    "funcId": [
-      1
-    ],
-    "id": 7,
-    "motion": 201,
-    "name": "全力指令",
-    "priority": 100,
-    "script": "",
-    "vals": [
-      "[1,0]"
-    ],
-    "type": 0,
-    "updatedAt": "0"
-  },
-  {
-    "consume": 1,
-    "createdAt": "0",
-    "detail": "强制让出击中的从者和替补成员交换",
-    "funcId": [
-      1
-    ],
-    "id": 8,
-    "motion": 201,
-    "name": "队员交换",
-    "priority": 100,
-    "script": "",
-    "vals": [
-      "[1,0]"
-    ],
-    "type": 0,
-    "updatedAt": "0"
-  },
-  {
-    "consume": 1,
-    "createdAt": "0",
     "detail": "1名从者的宝具值+100%",
     "funcId": [
       464
@@ -161,6 +53,26 @@
       "[3000,10000,Unaffected:1]"
     ],
     "type": 1,
+    "updatedAt": "0"
+  },
+  {
+    "consume": 3,
+    "createdAt": "0",
+    "detail": "",
+    "funcId": [
+      1
+    ],
+    "id": 20,
+    "motion": 201,
+    "name": "",
+    "priority": 0,
+    "script": {
+      "HideInDetailWindow": 1
+    },
+    "vals": [
+      "[1,0]"
+    ],
+    "type": 6,
     "updatedAt": "0"
   }
 ]

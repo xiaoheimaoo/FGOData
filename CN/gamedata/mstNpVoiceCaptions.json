@@ -10158,6 +10158,7 @@
         "conds": []
       },
       {
+        "overwriteName": "宝具2",
         "infos": [
           {
             "id": "0_B800",
@@ -10179,6 +10180,7 @@
         "conds": []
       },
       {
+        "overwriteName": "宝具3",
         "infos": [
           {
             "id": "0_B810",
@@ -10243,6 +10245,7 @@
         "conds": []
       },
       {
+        "overwriteName": "宝具2",
         "infos": [
           {
             "id": "2_B800",
@@ -10280,6 +10283,7 @@
         "conds": []
       },
       {
+        "overwriteName": "宝具3",
         "infos": [
           {
             "id": "2_B810",
@@ -32706,6 +32710,110 @@
             "value": 0
           }
         ]
+      }
+    ]
+  },
+  {
+    "id": 800102,
+    "voicePrefix": 0,
+    "scriptJson": [
+      {
+        "infos": [
+          {
+            "id": "0_B060",
+            "face": 4,
+            "delay": 0,
+            "text": "那是能治愈所有伤痕，"
+          },
+          {
+            "id": "0_B062",
+            "face": 4,
+            "delay": 0.6097854,
+            "text": "所有怨恨的吾等故乡——"
+          },
+          {
+            "id": "0_B063",
+            "face": 4,
+            "delay": 1.615835,
+            "text": "显现吧，"
+          },
+          {
+            "id": "0_B064",
+            "face": 4,
+            "delay": 0.6536114,
+            "text": "已然遥远的理想之城！！"
+          }
+        ],
+        "conds": [
+          {
+            "condType": 13,
+            "value": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 800140,
+    "voicePrefix": 12,
+    "scriptJson": [
+      {
+        "infos": [
+          {
+            "id": "12_B050",
+            "face": 0,
+            "delay": 0.0,
+            "text": "真名，投影补全——",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "12_B051",
+            "face": 0,
+            "delay": 1.11,
+            "text": "那是经过了诸多道路，诸多梦想的远望之城——",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "12_B052",
+            "face": 0,
+            "delay": 1.27,
+            "text": "证明吧，依然存在的梦想之城！",
+            "form": 0,
+            "changeEffect": 0
+          }
+        ],
+        "conds": []
+      },
+      {
+        "infos": [
+          {
+            "id": "12_B800",
+            "face": 0,
+            "delay": 0.0,
+            "text": "即便踞傲，也要高亢。",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "12_B801",
+            "face": 0,
+            "delay": 1.06,
+            "text": "为了终有一天，能够回报失去的一切！",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "12_B802",
+            "face": 0,
+            "delay": 2.05,
+            "text": "引导之星啊，化作力量吧！",
+            "form": 0,
+            "changeEffect": 0
+          }
+        ],
+        "conds": []
       }
     ]
   },
