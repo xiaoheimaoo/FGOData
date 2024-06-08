@@ -63536,6 +63536,40 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4403,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect when Attacking (NP Reduction)",
+    "detail": "Decrease NP Gauge for one enemy during your normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4404,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect when Attacking (Increase Charge)",
+    "detail": "Increase Charge during your normal attacks",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004
     ],
@@ -63573,6 +63607,259 @@
     "name": "Bonus Effect with Arts",
     "detail": "Increase ATK for all allies when attacking with Arts Cards",
     "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4407,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "Activate when Guts IS Triggered (NP Strength Up & Remove Debuff)",
+    "detail": "Increase NP Strength & remove debuffs when Guts is activated",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4408,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn (NP Strength Up)",
+    "detail": "Increase NP Strength for yourself at the end of each turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4409,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Buster Up",
+    "detail": "Increase Buster Card effectiveness only when on a [Near Water] field",
+    "iconId": 314,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4410,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6029
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4411,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4412,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect when Attacking (Inflict Peruse Yomi-hon)",
+    "detail": "Inflict [Devout Reader] to a single enemy during normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4413,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect when Attacking  (Inflict Appreciating Ukiyo-e)",
+    "detail": "Inflict [Ukiyo-e Fan] to a single enemy during normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      6026
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003
+    ],
+    "script": {},
+    "id": 4414,
+    "buffGroup": 0,
+    "type": 106,
+    "name": "Peruse Yomi-hon",
+    "detail": "Increase damage taken, NP generated, and C. Star drop rate upon damage from Quick Cards",
+    "iconId": 539,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      6027
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001
+    ],
+    "script": {},
+    "id": 4415,
+    "buffGroup": 0,
+    "type": 106,
+    "name": "Appreciating Ukiyo-e",
+    "detail": "Increase damage taken, NP generated, and C. Star drop rate upon damage from Arts Cards",
+    "iconId": 540,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4416,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect when Attacking (Remove Peruse Yomi-hon)",
+    "detail": "Remove one [Devout Reader] from yourself during normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4417,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect when Attacking (Remove Appreciating Ukiyo-e)",
+    "detail": "Remove one [Ukiyo-e Fan] from yourself during normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4418,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Appeal of Yomi-hon ",
+    "detail": "Activate an effect that applies Charm & removes all [Devout Reader] states from all allies when all allies have a combined total of seven or more [Devout Reader] states",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4419,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Appeal of Ukiyo-e",
+    "detail": "Activate an effect that applies Charm & removes all [Ukiyo-e Fan] states from all allies when all allies have a combined total of seven or more [Ukiyo-e Fan] states",
+    "iconId": 525,
     "maxRate": 0,
     "effectId": 0
   },
