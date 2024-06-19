@@ -63352,7 +63352,7 @@
     "buffGroup": 0,
     "type": 149,
     "name": "ガッツ時発動(宝具威力アップ＆弱体解除)",
-    "detail": "ガッツ発動時、宝具威力をアップ＆弱体状態を解除",
+    "detail": "ガッツ発動時、自身の宝具威力をアップ＆弱体状態を解除",
     "iconId": 365,
     "maxRate": 0,
     "effectId": 0
@@ -81924,6 +81924,23 @@
     "name": "攻撃時追加効果",
     "detail": "攻撃時、自身のNPを増やす",
     "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5640,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、自身の宝具威力をアップ＆弱体状態を解除",
+    "iconId": 365,
     "maxRate": 0,
     "effectId": 0
   },
