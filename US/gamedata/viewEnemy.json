@@ -61834,6 +61834,45 @@
     "npcSvtId": 94071807
   },
   {
+    "questId": 94072598,
+    "enemyId": 1,
+    "name": "Kama/Mara",
+    "classId": 26,
+    "svtId": 9941730,
+    "limitCount": 3,
+    "iconId": 99417301,
+    "displayType": 1,
+    "missionIds": [],
+    "impossibleKill": 0,
+    "enemyScript": "{\"boss\":1}",
+    "npcSvtId": 94071981
+  },
+  {
+    "questId": 94072598,
+    "enemyId": 2,
+    "name": "Demon King of Passion",
+    "classId": 26,
+    "svtId": 9941730,
+    "limitCount": 3,
+    "iconId": 99417301,
+    "displayType": 1,
+    "missionIds": [
+      2002580,
+      2002571,
+      2002584,
+      2002599,
+      2002545,
+      2002573,
+      2002601,
+      2002624,
+      2002593,
+      2002594
+    ],
+    "impossibleKill": 0,
+    "enemyScript": "{\"appear\":1,\"shift\":[94071983,94071984,94071985],\"call\":[94071976],\"voice\":1}",
+    "npcSvtId": 94071982
+  },
+  {
     "questId": 94072801,
     "enemyId": 1,
     "name": "Sister's Escort and Dog Trainer",
