@@ -2521,7 +2521,8 @@
     "vals": [
       3004,
       3006,
-      3028
+      3028,
+      3078
     ],
     "tvals": [
       2001
@@ -35689,7 +35690,8 @@
     "vals": [
       3004,
       3006,
-      3028
+      3028,
+      3078
     ],
     "tvals": [
       2001
@@ -63918,6 +63920,1291 @@
     "name": "Bonus Effect when Attacking (Apply Story)",
     "detail": "Apply [Story] to yourself when attacking",
     "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4424,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Arts Up: Neutral",
+    "detail": "Increase Arts Card effectiveness for [Neutral Servants]",
+    "iconId": 313,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4425,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Buster Up: King",
+    "detail": "Increase Buster Card effectiveness for [King] trait",
+    "iconId": 314,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      2831
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      2831
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4426,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Magecraft Tears",
+    "detail": "Gain resistance to all attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4427,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Special Resist Up",
+    "detail": "Gain resistance to all attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4428,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn",
+    "detail": "Increase NP Charge to maximum for yourself at end of turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4429,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn",
+    "detail": "Decrease Debuff Success Rate for your own [Mystic Eyes] at end of turn",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2038
+    },
+    "id": 4430,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect with Normal Attacks",
+    "detail": "Remove one state of [Magecraft Tears] from target when using normal attacks on a [Sunlight] field",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2038
+    },
+    "id": 4431,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect with Noble Phantasm",
+    "detail": "Remove two states of [Magecraft Tears] from target when attacking with Noble Phantasm on a [Sunlight] field",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2039
+    },
+    "id": 4432,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect when Attacking",
+    "detail": "Apply one state of [Magecraft Tears] to yourself when attacking on a [Near Water] field",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "gutsText": "Life -1"
+    },
+    "id": 4433,
+    "buffGroup": 0,
+    "type": 37,
+    "name": "Life",
+    "detail": "When HP reaches 0, recover HP and survive",
+    "iconId": 304,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6036
+    },
+    "id": 4434,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6037
+    },
+    "id": 4435,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4436,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Chicken's Counterattack",
+    "detail": "When HP reaches 0, decrease Life for [Crimson Hero] [Demerit] + Decrease HP for all enemies",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4437,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Chicken's Counterattack",
+    "detail": "When HP reaches 0, decrease Life for [Crimson Hero] [Demerit] + Decrease HP for all enemies",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4438,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "Activate when Guts is Triggered",
+    "detail": "Increase resistance to your Noble Phantasm attacks when Guts is activated",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      6026
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4439,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Training Menu [Quick]",
+    "detail": "Increase NP Gauge and NP Strength for yourself when attacking with a Quick Card",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      6026
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4440,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Training Menu [Arts]",
+    "detail": "Increase NP Gauge and NP Strength for yourself when attacking with an Arts Card",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      6026
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4441,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Training Menu [Buster]",
+    "detail": "Increase NP Gauge and NP Strength for yourself when attacking with a Buster Card",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3075
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4442,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Quick Up",
+    "detail": "Increase Quick Card effectiveness",
+    "iconId": 312,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3073
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4443,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Arts Up",
+    "detail": "Increase Arts Card effectiveness",
+    "iconId": 313,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3074
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4444,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Buster Up",
+    "detail": "Increase Buster Card effectiveness",
+    "iconId": 314,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 146
+    },
+    "id": 4445,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "Class Affinity Change",
+    "detail": "Increase Class Affinity between all classes except for Class Affinity changes caused by skills/Noble Phantasms and [Berserker] even more",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 147
+    },
+    "id": 4446,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "Class Affinity Change",
+    "detail": "Increase Class Affinity between all classes except for Class Affinity changes caused by skills/Noble Phantasms even more",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 148
+    },
+    "id": 4447,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "Class Affinity Change",
+    "detail": "Increase Class Affinity between all classes except for Class Affinity changes caused by skills/Noble Phantasms and [Berserker] even more",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4448,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "CHG_UP",
+    "detail": "When HP reaches 0, apply a state where \"increase Charge by 1 for yourself at end of turn\" to all allies",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4449,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "UN_LUK_UP",
+    "detail": "When HP reaches 0, decrease all allies' Critical Hit Rate [Demerit] + Decrease C. Star Drop Rate for all enemies",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4450,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "FORCED_TRAP",
+    "detail": "When HP reaches 0, inflict NP Seal to all enemies",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      100,
+      2830
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      100,
+      2830
+    ],
+    "script": {},
+    "id": 4451,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "\"Death to Sabers\"",
+    "detail": "Increase damage dealt against [Saber-class Servants]",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4452,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "\"Sinful\"",
+    "detail": "Apply [Saber-class Servant] trait",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3078
+    ],
+    "script": {},
+    "id": 4453,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Aesthetic Appreciation",
+    "detail": "Chance to become Charmed when attacked by enemies with Special Attack [Humanoid] effect",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3063
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4454,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "Rebound",
+    "detail": "Remove Buffs and decrease ATK & inflict Poison on yourself after 1 turn",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4462,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn",
+    "detail": "Increase NP Charge by 1 for yourself at end of turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4463,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Magical Energy Reactor Core Rampage",
+    "detail": "Increase NP Charge to maximum for yourself at end of turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3017
+    ],
+    "tvals": [
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 4469,
+    "buffGroup": 0,
+    "type": 92,
+    "name": "Special Resist Down [NP]",
+    "detail": "Decrease resistance against Noble Phantasm Attacks",
+    "iconId": 529,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6036
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4470,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "Certification Exam",
+    "detail": "Apply [Add-On Menu] to all enemies when ending a turn without damage from Noble Phantasm attacks",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3010,
+      3012,
+      3045,
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4471,
+    "buffGroup": 501,
+    "type": 32,
+    "name": "Charm",
+    "detail": "Unable to act",
+    "iconId": 502,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3045,
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4472,
+    "buffGroup": 500,
+    "type": 32,
+    "name": "Bound",
+    "detail": "Unable to act",
+    "iconId": 501,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4473,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Nameless Chicken",
+    "detail": "Gets upset if messed with, but if left alone...",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 4474,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Special Resist Up [NP]",
+    "detail": "Increase resistance against Noble Phantasm Attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 4475,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6035
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4476,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Add-On Menu",
+    "detail": "Decrease HP for yourself at end of turn",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6035
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4477,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "Fruits of Training",
+    "detail": "Increase NP Gauge and NP Strength for yourself after 1 turn",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4478,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4479,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6026
+    ],
+    "tvals": [
+      3004
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3004
+    ],
+    "script": {},
+    "id": 4480,
+    "buffGroup": 0,
+    "type": 29,
+    "name": "Buff Success Rate Down",
+    "detail": "Decrease buff success rate",
+    "iconId": 506,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6026
+    ],
+    "tvals": [
+      3004
+    ],
+    "ckSelfIndv": [
+      3004
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4481,
+    "buffGroup": 0,
+    "type": 28,
+    "name": "Buff Chance Down",
+    "detail": "Decrease Buff success rate",
+    "iconId": 507,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4482,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "Tentacle Wall",
+    "detail": "Decrease damage taken",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4483,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "Mental Corruption",
+    "detail": "Increase charge each turn",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3060
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4484,
+    "buffGroup": 0,
+    "type": 7,
+    "name": "Self Repair",
+    "detail": "Recover HP for yourself at end of turn",
+    "iconId": 318,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6036
+    ],
+    "tvals": [
+      6026
+    ],
+    "ckSelfIndv": [
+      6026
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4485,
+    "buffGroup": 0,
+    "type": 27,
+    "name": "",
+    "detail": "",
+    "iconId": 307,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6036
+    ],
+    "tvals": [
+      6027
+    ],
+    "ckSelfIndv": [
+      6027
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4486,
+    "buffGroup": 0,
+    "type": 27,
+    "name": "",
+    "detail": "",
+    "iconId": 307,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6036
+    ],
+    "tvals": [
+      6028
+    ],
+    "ckSelfIndv": [
+      6028
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4487,
+    "buffGroup": 0,
+    "type": 27,
+    "name": "",
+    "detail": "",
+    "iconId": 307,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6026
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003
+    ],
+    "script": {},
+    "id": 4488,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "Quick Resist Up",
+    "detail": "Decrease damage taken, NP generation, and C. Star drop rate upon attacks from Quick Cards",
+    "iconId": 345,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6027
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001
+    ],
+    "script": {},
+    "id": 4489,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "Arts Resist Up",
+    "detail": "Decrease damage taken, NP generation, and C. Star drop rate upon attacks from Arts Cards",
+    "iconId": 346,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6028
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {},
+    "id": 4490,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "Buster Resist Up",
+    "detail": "Decrease damage taken, NP generation, and C. Star drop rate upon attacks from Buster Cards",
+    "iconId": 347,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4491,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Anti-Heroic Spirit Combat Info",
+    "detail": "When HP reaches 0, apply resistance to last Quick, Arts, or Buster Card attack taken from [Integrated Control Unit]",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      6027
+    ],
+    "ckSelfIndv": [
+      6027
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4493,
+    "buffGroup": 0,
+    "type": 28,
+    "name": "Debuff Success Rate Down [Mystic Eyes]",
+    "detail": "Decrease Debuff Success Rate for [Mystic Eyes]",
+    "iconId": 507,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 4496,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Anti-Noble Phantasm Optimized Armor",
+    "detail": "Increase resistance against Noble Phantasm Attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3022,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4497,
+    "buffGroup": 400,
+    "type": 26,
+    "name": "Anti-Magical Energy Signal Armor",
+    "detail": "Ignore Sure Hit and reduce Attack damage taken to 0",
+    "iconId": 311,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3011,
+      3026,
+      3015,
+      3047
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3011,
+      3026,
+      3015,
+      3047
+    ],
+    "script": {},
+    "id": 4498,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "Immune to Poison, Curse, Burn, Pigify",
+    "detail": "Immune to Poison, Curse, Burn, Pigify",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4500,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "\"Sinful\"",
+    "detail": "When HP reaches 0, increase NP Gauge for all enemy [Saber-class Servants]",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4501,
+    "buffGroup": 0,
+    "type": 141,
+    "name": "Unable to Change Order",
+    "detail": "Cannot use Order Change",
+    "iconId": 554,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003
+    ],
+    "script": {},
+    "id": 4502,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001
+    ],
+    "script": {},
+    "id": 4503,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {},
+    "id": 4504,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
     "maxRate": 0,
     "effectId": 0
   },
