@@ -7497,8 +7497,8 @@
     "voiceId": "H120",
     "idx": 3,
     "condGroup": 2,
-    "condType": 1,
-    "targetId": 94082521
+    "condType": 20,
+    "targetId": 80476
   },
   {
     "condValues": [
@@ -7523,8 +7523,8 @@
     "voiceId": "H120",
     "idx": 5,
     "condGroup": 3,
-    "condType": 1,
-    "targetId": 94097621
+    "condType": 20,
+    "targetId": 80476
   },
   {
     "condValues": [
@@ -7575,8 +7575,8 @@
     "voiceId": "H130",
     "idx": 3,
     "condGroup": 2,
-    "condType": 1,
-    "targetId": 94082521
+    "condType": 20,
+    "targetId": 80476
   },
   {
     "condValues": [
@@ -7601,8 +7601,8 @@
     "voiceId": "H130",
     "idx": 5,
     "condGroup": 3,
-    "condType": 1,
-    "targetId": 94097621
+    "condType": 20,
+    "targetId": 80476
   },
   {
     "condValues": [
@@ -7653,8 +7653,8 @@
     "voiceId": "H2300",
     "idx": 3,
     "condGroup": 2,
-    "condType": 1,
-    "targetId": 94097625
+    "condType": 20,
+    "targetId": 80476
   },
   {
     "condValues": [
@@ -7692,8 +7692,8 @@
     "voiceId": "H3070",
     "idx": 2,
     "condGroup": 2,
-    "condType": 1,
-    "targetId": 94082525
+    "condType": 20,
+    "targetId": 80476
   },
   {
     "condValues": [
@@ -7705,8 +7705,8 @@
     "voiceId": "H3070",
     "idx": 3,
     "condGroup": 3,
-    "condType": 1,
-    "targetId": 94097625
+    "condType": 20,
+    "targetId": 80476
   },
   {
     "condValues": [
@@ -10867,8 +10867,8 @@
     "voiceId": "H240",
     "idx": 6,
     "condGroup": 3,
-    "condType": 1,
-    "targetId": 94097625
+    "condType": 20,
+    "targetId": 80476
   },
   {
     "condValues": [
@@ -13862,7 +13862,7 @@
   },
   {
     "condValues": [
-      2
+      0
     ],
     "script": {},
     "svtId": 3300100,
@@ -13870,8 +13870,8 @@
     "voiceId": "H1600",
     "idx": 3,
     "condGroup": 2,
-    "condType": 46,
-    "targetId": 94097624
+    "condType": 113,
+    "targetId": 20097619
   },
   {
     "condValues": [
@@ -13935,8 +13935,8 @@
     "voiceId": "H1800",
     "idx": 5,
     "condGroup": 3,
-    "condType": 1,
-    "targetId": 94097625
+    "condType": 20,
+    "targetId": 80476
   },
   {
     "condValues": [
@@ -14912,5 +14912,20 @@
     "condGroup": 1,
     "condType": 177,
     "targetId": 80472001
+  },
+  {
+    "condValues": [
+      1500000
+    ],
+    "script": {
+      "forcePlayFirst": 1
+    },
+    "svtId": 109830060,
+    "voicePrefix": -1,
+    "voiceId": "N3080",
+    "idx": 1,
+    "condGroup": 1,
+    "condType": 85,
+    "targetId": 80480
   }
 ]

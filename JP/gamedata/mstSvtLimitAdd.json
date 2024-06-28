@@ -17435,7 +17435,8 @@
   {
     "individuality": [],
     "script": {
-      "overWriteServantBattleName": "バゼット"
+      "overWriteServantBattleName": "バゼット",
+      "overWriteServantShortName": "バゼット"
     },
     "svtId": 1001100,
     "limitCount": 0,
@@ -17452,7 +17453,8 @@
   {
     "individuality": [],
     "script": {
-      "overWriteServantBattleName": "バゼット"
+      "overWriteServantBattleName": "バゼット",
+      "overWriteServantShortName": "バゼット"
     },
     "svtId": 1001100,
     "limitCount": 1,
@@ -17469,7 +17471,8 @@
   {
     "individuality": [],
     "script": {
-      "overWriteServantBattleName": "バゼット"
+      "overWriteServantBattleName": "バゼット",
+      "overWriteServantShortName": "バゼット"
     },
     "svtId": 1001100,
     "limitCount": 2,
@@ -17487,6 +17490,7 @@
     "individuality": [],
     "script": {
       "overWriteServantBattleName": "マナナン・マク・リール",
+      "overWriteServantShortName": "マナナン・マク・リール",
       "overWriteTDName": "奔り猛る戦神の剣",
       "overWriteTDRuby": "フラガラック・アンヴァル",
       "overWriteTDFileName": "1001110"
@@ -17506,10 +17510,11 @@
   {
     "individuality": [],
     "script": {
-      "overWriteServantBattleName": "マナナン・マク・リール",
-      "overWriteTDName": "奔り猛る戦神の剣",
       "overWriteTDRuby": "フラガラック・アンヴァル",
+      "overWriteServantBattleName": "マナナン・マク・リール",
       "limitCountUpResultServantLimitCount": 0,
+      "overWriteServantShortName": "マナナン・マク・リール",
+      "overWriteTDName": "奔り猛る戦神の剣",
       "overWriteTDFileName": "1001110"
     },
     "svtId": 1001100,
@@ -17946,6 +17951,82 @@
     "svtVoiceId": 1001600,
     "voicePrefix": 2,
     "attri": -1
+  },
+  {
+    "individuality": [
+      303,
+      300,
+      2008,
+      2,
+      2654,
+      2881
+    ],
+    "script": {},
+    "svtId": 1001700,
+    "limitCount": 0,
+    "battleCharaId": 1001700,
+    "fileConvertLimitCount": 0,
+    "battleCharaLimitCount": 0,
+    "battleCharaOffsetX": 0,
+    "battleCharaOffsetY": 0,
+    "battleCharaOffsetZ": 0,
+    "svtVoiceId": 1001700,
+    "voicePrefix": 0,
+    "attri": -1
+  },
+  {
+    "individuality": [
+      303,
+      300,
+      2008,
+      2,
+      2654,
+      2881,
+      2011
+    ],
+    "script": {
+      "overWriteServantBattleName": "阿曇磯良",
+      "overWriteServantName": "阿曇磯良",
+      "overwriteSvtDetailName": "阿曇磯良"
+    },
+    "svtId": 1001700,
+    "limitCount": 1,
+    "battleCharaId": 1001710,
+    "fileConvertLimitCount": 1,
+    "battleCharaLimitCount": 1,
+    "battleCharaOffsetX": 0,
+    "battleCharaOffsetY": 0,
+    "battleCharaOffsetZ": 0,
+    "svtVoiceId": 1001700,
+    "voicePrefix": 1,
+    "attri": 3
+  },
+  {
+    "individuality": [
+      303,
+      300,
+      2008,
+      2,
+      2654,
+      2881,
+      2011
+    ],
+    "script": {
+      "overWriteServantBattleName": "阿曇磯良",
+      "overWriteServantName": "阿曇磯良",
+      "overwriteSvtDetailName": "阿曇磯良"
+    },
+    "svtId": 1001700,
+    "limitCount": 2,
+    "battleCharaId": 1001710,
+    "fileConvertLimitCount": 2,
+    "battleCharaLimitCount": 2,
+    "battleCharaOffsetX": 0,
+    "battleCharaOffsetY": 0,
+    "battleCharaOffsetZ": 0,
+    "svtVoiceId": 1001700,
+    "voicePrefix": 1,
+    "attri": 3
   },
   {
     "individuality": [],
@@ -19712,6 +19793,7 @@
     "script": {
       "overWriteServantBattleName": "アルクェイド・ブリュンスタッド",
       "overWriteServantName": "アルクェイド・ブリュンスタッド",
+      "overWriteServantShortName": "真祖の姫",
       "overwriteSvtDetailName": "アルクェイド・ブリュンスタッド"
     },
     "svtId": 2300500,
@@ -19733,6 +19815,7 @@
     "script": {
       "overWriteServantBattleName": "アルクェイド・ブリュンスタッド",
       "overWriteServantName": "アルクェイド・ブリュンスタッド",
+      "overWriteServantShortName": "真祖の姫",
       "overwriteSvtDetailName": "アルクェイド・ブリュンスタッド"
     },
     "svtId": 2300500,
@@ -43791,6 +43874,21 @@
   {
     "individuality": [],
     "script": {},
+    "svtId": 9945490,
+    "limitCount": 1,
+    "battleCharaId": 9945490,
+    "fileConvertLimitCount": 1,
+    "battleCharaLimitCount": 1,
+    "battleCharaOffsetX": 0,
+    "battleCharaOffsetY": 0,
+    "battleCharaOffsetZ": 0,
+    "svtVoiceId": 9945490,
+    "voicePrefix": 0,
+    "attri": -1
+  },
+  {
+    "individuality": [],
+    "script": {},
     "svtId": 9945590,
     "limitCount": 0,
     "battleCharaId": 9944630,
@@ -43935,6 +44033,81 @@
     "battleCharaOffsetY": 0,
     "battleCharaOffsetZ": 0,
     "svtVoiceId": 9944990,
+    "voicePrefix": 0,
+    "attri": -1
+  },
+  {
+    "individuality": [],
+    "script": {},
+    "svtId": 9945610,
+    "limitCount": 0,
+    "battleCharaId": 9945610,
+    "fileConvertLimitCount": 0,
+    "battleCharaLimitCount": 1,
+    "battleCharaOffsetX": 0,
+    "battleCharaOffsetY": 0,
+    "battleCharaOffsetZ": 0,
+    "svtVoiceId": 9945610,
+    "voicePrefix": 0,
+    "attri": -1
+  },
+  {
+    "individuality": [],
+    "script": {},
+    "svtId": 9945610,
+    "limitCount": 1,
+    "battleCharaId": 9945610,
+    "fileConvertLimitCount": 1,
+    "battleCharaLimitCount": 1,
+    "battleCharaOffsetX": 0,
+    "battleCharaOffsetY": 0,
+    "battleCharaOffsetZ": 0,
+    "svtVoiceId": 9945610,
+    "voicePrefix": 0,
+    "attri": -1
+  },
+  {
+    "individuality": [],
+    "script": {},
+    "svtId": 9945610,
+    "limitCount": 2,
+    "battleCharaId": 9945610,
+    "fileConvertLimitCount": 2,
+    "battleCharaLimitCount": 1,
+    "battleCharaOffsetX": 0,
+    "battleCharaOffsetY": 0,
+    "battleCharaOffsetZ": 0,
+    "svtVoiceId": 9945610,
+    "voicePrefix": 0,
+    "attri": -1
+  },
+  {
+    "individuality": [],
+    "script": {},
+    "svtId": 9945610,
+    "limitCount": 3,
+    "battleCharaId": 9945610,
+    "fileConvertLimitCount": 3,
+    "battleCharaLimitCount": 1,
+    "battleCharaOffsetX": 0,
+    "battleCharaOffsetY": 0,
+    "battleCharaOffsetZ": 0,
+    "svtVoiceId": 9945610,
+    "voicePrefix": 0,
+    "attri": -1
+  },
+  {
+    "individuality": [],
+    "script": {},
+    "svtId": 9945610,
+    "limitCount": 4,
+    "battleCharaId": 9945610,
+    "fileConvertLimitCount": 4,
+    "battleCharaLimitCount": 1,
+    "battleCharaOffsetX": 0,
+    "battleCharaOffsetY": 0,
+    "battleCharaOffsetZ": 0,
+    "svtVoiceId": 9945610,
     "voicePrefix": 0,
     "attri": -1
   }
