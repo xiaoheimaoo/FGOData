@@ -37535,7 +37535,7 @@
     "targetType": 0,
     "applyTarget": 3,
     "popupIconId": 306,
-    "popupText": "Increase Buff Success Rate",
+    "popupText": "Increase Buff Success Rate \nwhen receiving a Buff",
     "categoryId": 30204
   },
   {
@@ -37554,7 +37554,7 @@
     "targetType": 0,
     "applyTarget": 3,
     "popupIconId": 306,
-    "popupText": "Increase Buff Success Rate",
+    "popupText": "Increase Buff Success Rate \nwhen receiving a Buff",
     "categoryId": 30204
   },
   {
@@ -37573,7 +37573,7 @@
     "targetType": 0,
     "applyTarget": 3,
     "popupIconId": 306,
-    "popupText": "Increase Buff Success Rate",
+    "popupText": "Increase Buff Success Rate \nwhen receiving a Buff",
     "categoryId": 30204
   },
   {
@@ -55309,7 +55309,7 @@
     "targetType": 4,
     "applyTarget": 3,
     "popupIconId": 0,
-    "popupText": "Remove Evade & Invincible",
+    "popupText": "Remove Evade \n& Invincible",
     "categoryId": 0
   },
   {
@@ -95362,7 +95362,7 @@
     "targetType": 1,
     "applyTarget": 3,
     "popupIconId": 306,
-    "popupText": "Increase Buff Success Rate",
+    "popupText": "Increase Buff Success Rate \nwhen receiving a Buff",
     "categoryId": 30204
   },
   {
@@ -95381,7 +95381,7 @@
     "targetType": 1,
     "applyTarget": 3,
     "popupIconId": 306,
-    "popupText": "Increase Buff Success Rate",
+    "popupText": "Increase Buff Success Rate \nwhen receiving a Buff",
     "categoryId": 30204
   },
   {
@@ -95400,7 +95400,7 @@
     "targetType": 1,
     "applyTarget": 3,
     "popupIconId": 306,
-    "popupText": "Increase Buff Success Rate",
+    "popupText": "Increase Buff Success Rate \nwhen receiving a Buff",
     "categoryId": 30204
   },
   {
@@ -118022,7 +118022,7 @@
     "targetType": 7,
     "applyTarget": 3,
     "popupIconId": 306,
-    "popupText": "Increase Buff Success Rate",
+    "popupText": "Increase Buff Success Rate \nwhen receiving a Buff",
     "categoryId": 30204
   },
   {
@@ -118041,7 +118041,7 @@
     "targetType": 7,
     "applyTarget": 3,
     "popupIconId": 306,
-    "popupText": "Increase Buff Success Rate",
+    "popupText": "Increase Buff Success Rate \nwhen receiving a Buff",
     "categoryId": 30204
   },
   {
@@ -118060,7 +118060,7 @@
     "targetType": 7,
     "applyTarget": 3,
     "popupIconId": 306,
-    "popupText": "Increase Buff Success Rate",
+    "popupText": "Increase Buff Success Rate \nwhen receiving a Buff",
     "categoryId": 30204
   },
   {
@@ -152450,6 +152450,23 @@
   },
   {
     "vals": [
+      4423
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [],
+    "popupTextColor": 1,
+    "id": 8911,
+    "cond": 0,
+    "funcType": 130,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "",
+    "categoryId": 80204
+  },
+  {
+    "vals": [
       175
     ],
     "tvals": [],
@@ -153407,7 +153424,7 @@
     "targetType": 7,
     "applyTarget": 3,
     "popupIconId": 506,
-    "popupText": "Buff Success Rate Down",
+    "popupText": "Decrease Buff Success Rate \nwhen receiving a Buff",
     "categoryId": 0
   },
   {
@@ -153445,7 +153462,7 @@
     "targetType": 8,
     "applyTarget": 3,
     "popupIconId": 506,
-    "popupText": "Buff Success Rate Down",
+    "popupText": "Decrease Buff Success Rate \nwhen receiving a Buff",
     "categoryId": 0
   },
   {
@@ -153717,6 +153734,181 @@
   },
   {
     "vals": [
+      4458
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      331
+    ],
+    "popupTextColor": 2,
+    "id": 8986,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 312,
+    "popupText": "Quick Up: Millennium Castle",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      4459
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      331
+    ],
+    "popupTextColor": 2,
+    "id": 8987,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 313,
+    "popupText": "Arts Up: Millennium Castle",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      4460
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      331
+    ],
+    "popupTextColor": 2,
+    "id": 8988,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 314,
+    "popupText": "Buster Up: Millennium Castle",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      887
+    ],
+    "tvals": [
+      303
+    ],
+    "questTvals": [],
+    "effectList": [
+      335
+    ],
+    "popupTextColor": 2,
+    "id": 8989,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 3,
+    "applyTarget": 3,
+    "popupIconId": 348,
+    "popupText": "Buff Removal Resist Up",
+    "categoryId": 30205
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "questTvals": [
+      2829
+    ],
+    "effectList": [
+      327
+    ],
+    "popupTextColor": 2,
+    "id": 8990,
+    "cond": 0,
+    "funcType": 7,
+    "targetType": 9,
+    "applyTarget": 1,
+    "popupIconId": 0,
+    "popupText": "NP Gain: Millennium Castle",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      4461
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      337
+    ],
+    "popupTextColor": 3,
+    "id": 8991,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 503,
+    "popupText": "ATK Down vs. Yu Mei-ren",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      191
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      331
+    ],
+    "popupTextColor": 2,
+    "id": 8992,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 3,
+    "applyTarget": 3,
+    "popupIconId": 302,
+    "popupText": "STR Up\nvs. Undead",
+    "categoryId": 10205
+  },
+  {
+    "vals": [
+      138
+    ],
+    "tvals": [
+      2833
+    ],
+    "questTvals": [],
+    "effectList": [
+      331
+    ],
+    "popupTextColor": 2,
+    "id": 8993,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 1,
+    "applyTarget": 3,
+    "popupIconId": 310,
+    "popupText": "NP Strength Up",
+    "categoryId": 10601
+  },
+  {
+    "vals": [],
+    "tvals": [
+      2833
+    ],
+    "questTvals": [],
+    "effectList": [
+      327
+    ],
+    "popupTextColor": 2,
+    "id": 8994,
+    "cond": 0,
+    "funcType": 7,
+    "targetType": 1,
+    "applyTarget": 1,
+    "popupIconId": 0,
+    "popupText": "NP Gain",
+    "categoryId": 10602
+  },
+  {
+    "vals": [
       4462
     ],
     "tvals": [],
@@ -153770,6 +153962,82 @@
     "applyTarget": 3,
     "popupIconId": 319,
     "popupText": "Mental Corruption",
+    "categoryId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      2654
+    ],
+    "questTvals": [],
+    "effectList": [
+      326
+    ],
+    "popupTextColor": 2,
+    "id": 9011,
+    "cond": 0,
+    "funcType": 7,
+    "targetType": 9,
+    "applyTarget": 1,
+    "popupIconId": 0,
+    "popupText": "NP Gain",
+    "categoryId": 10602
+  },
+  {
+    "vals": [],
+    "tvals": [
+      2654
+    ],
+    "questTvals": [],
+    "effectList": [
+      327
+    ],
+    "popupTextColor": 2,
+    "id": 9012,
+    "cond": 0,
+    "funcType": 7,
+    "targetType": 9,
+    "applyTarget": 1,
+    "popupIconId": 0,
+    "popupText": "NP Gain",
+    "categoryId": 10602
+  },
+  {
+    "vals": [],
+    "tvals": [
+      2654
+    ],
+    "questTvals": [],
+    "effectList": [
+      328
+    ],
+    "popupTextColor": 2,
+    "id": 9013,
+    "cond": 0,
+    "funcType": 7,
+    "targetType": 9,
+    "applyTarget": 1,
+    "popupIconId": 0,
+    "popupText": "NP Gain",
+    "categoryId": 10602
+  },
+  {
+    "vals": [],
+    "tvals": [
+      2654
+    ],
+    "questTvals": [],
+    "effectList": [
+      328
+    ],
+    "popupTextColor": 2,
+    "id": 9014,
+    "cond": 0,
+    "funcType": 19,
+    "targetType": 9,
+    "applyTarget": 2,
+    "popupIconId": 0,
+    "popupText": "Charge Gain",
     "categoryId": 0
   },
   {
@@ -154122,6 +154390,44 @@
     "categoryId": 10202
   },
   {
+    "vals": [],
+    "tvals": [],
+    "questTvals": [
+      2829
+    ],
+    "effectList": [
+      328
+    ],
+    "popupTextColor": 2,
+    "id": 9034,
+    "cond": 0,
+    "funcType": 19,
+    "targetType": 9,
+    "applyTarget": 2,
+    "popupIconId": 0,
+    "popupText": "Charge Gain",
+    "categoryId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      2833
+    ],
+    "questTvals": [],
+    "effectList": [
+      328
+    ],
+    "popupTextColor": 2,
+    "id": 9035,
+    "cond": 0,
+    "funcType": 19,
+    "targetType": 1,
+    "applyTarget": 2,
+    "popupIconId": 0,
+    "popupText": "Charge Gain",
+    "categoryId": 0
+  },
+  {
     "vals": [
       4485
     ],
@@ -154210,6 +154516,44 @@
   },
   {
     "vals": [
+      4499
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      331
+    ],
+    "popupTextColor": 2,
+    "id": 9042,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 7,
+    "applyTarget": 3,
+    "popupIconId": 310,
+    "popupText": "NP Strength Up",
+    "categoryId": 10601
+  },
+  {
+    "vals": [
+      4492
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      328
+    ],
+    "popupTextColor": 2,
+    "id": 9043,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 365,
+    "popupText": "Activate when Guts is Triggered (C. Star Gain)",
+    "categoryId": 10404
+  },
+  {
+    "vals": [
       6035
     ],
     "tvals": [],
@@ -154261,6 +154605,101 @@
     "applyTarget": 3,
     "popupIconId": 0,
     "popupText": "",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      4494
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      328
+    ],
+    "popupTextColor": 2,
+    "id": 9047,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 331,
+    "popupText": "Activate when Damaged",
+    "categoryId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      600700
+    ],
+    "questTvals": [],
+    "effectList": [
+      328
+    ],
+    "popupTextColor": 2,
+    "id": 9048,
+    "cond": 0,
+    "funcType": 7,
+    "targetType": 0,
+    "applyTarget": 1,
+    "popupIconId": 0,
+    "popupText": "NP Gain",
+    "categoryId": 10602
+  },
+  {
+    "vals": [],
+    "tvals": [
+      600700
+    ],
+    "questTvals": [],
+    "effectList": [
+      328
+    ],
+    "popupTextColor": 2,
+    "id": 9049,
+    "cond": 0,
+    "funcType": 19,
+    "targetType": 0,
+    "applyTarget": 2,
+    "popupIconId": 0,
+    "popupText": "Charge Gain",
+    "categoryId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      117
+    ],
+    "questTvals": [],
+    "effectList": [
+      327
+    ],
+    "popupTextColor": 2,
+    "id": 9050,
+    "cond": 0,
+    "funcType": 7,
+    "targetType": 3,
+    "applyTarget": 1,
+    "popupIconId": 0,
+    "popupText": "NP Gain",
+    "categoryId": 10602
+  },
+  {
+    "vals": [],
+    "tvals": [
+      117
+    ],
+    "questTvals": [],
+    "effectList": [
+      328
+    ],
+    "popupTextColor": 2,
+    "id": 9051,
+    "cond": 0,
+    "funcType": 19,
+    "targetType": 3,
+    "applyTarget": 2,
+    "popupIconId": 0,
+    "popupText": "Charge Gain",
     "categoryId": 0
   },
   {

@@ -1616,8 +1616,8 @@
   },
   {
     "id": 127025,
-    "detail": "Increase Quick Card effectiveness [{0}] (1 turn) & increase Buff Success Rate [{0}] (3 turns) [g][o]▲[/o][/g] & increase NP Gauge [g][o]▲[/o][/g] for one ally",
-    "detailShort": "Increase Quick Card effectiveness [{0}] (1 turn) & increase Buff Success Rate [{0}] (3 turns) [g][o]▲[/o][/g] & increase NP Gauge [g][o]▲[/o][/g] for one ally"
+    "detail": "Increase Quick Card effectiveness [{0}] (1 turn) & increase Buff Success Rate when receiving a Buff [{0}] (3 turns) [g][o]▲[/o][/g] & increase NP Gauge [g][o]▲[/o][/g] for one ally",
+    "detailShort": "Increase Quick Card effectiveness [{0}] (1 turn) & increase Buff Success Rate when receiving a Buff [{0}] (3 turns) [g][o]▲[/o][/g] & increase NP Gauge [g][o]▲[/o][/g] for one ally"
   },
   {
     "id": 127250,
@@ -3008,6 +3008,11 @@
     "id": 347650,
     "detail": "Decrease DEF that gets more effective each turn [{0}] (5 turns) for a single enemy ",
     "detailShort": "Decrease DEF that gets more effective each turn [{0}] (5 turns) for a single enemy "
+  },
+  {
+    "id": 348250,
+    "detail": "No Effect",
+    "detailShort": "No Effect"
   },
   {
     "id": 348550,
@@ -5801,8 +5806,8 @@
   },
   {
     "id": 871550,
-    "detail": "Increase Buff Success Rate for all allies when you are on the field",
-    "detailShort": "Increase Buff Success Rate for all allies when you are on the field"
+    "detail": "Increase Buff Success Rate when receiving a Buff for all allies when you are on the field",
+    "detailShort": "Increase Buff Success Rate when receiving a Buff for all allies when you are on the field"
   },
   {
     "id": 872550,
@@ -8678,6 +8683,21 @@
     "id": 980075,
     "detail": "Switch one active member with a sub-member",
     "detailShort": "Switch one active member with a sub-member"
+  },
+  {
+    "id": 980076,
+    "detail": "Increase Buster Card effectiveness [{0}] (1 turn) & restore HP [{0}] for one ally",
+    "detailShort": "Increase Buster Card effectiveness [{0}] (1 turn) & restore HP [{0}] for one ally"
+  },
+  {
+    "id": 980077,
+    "detail": "Decrease Death resistance [{0}] (1 turn) for one enemy + Gain C. Stars [{0}]",
+    "detailShort": "Decrease Death resistance [{0}] (1 turn) for one enemy + Gain C. Stars [{0}]"
+  },
+  {
+    "id": 980078,
+    "detail": "Remove all Mental Debuff Effects & increase NP Gauge for a single ally",
+    "detailShort": "Remove all Mental Debuff Effects & increase NP Gauge for a single ally"
   },
   {
     "id": 990001,
@@ -14406,13 +14426,13 @@
   },
   {
     "id": 991250,
-    "detail": "Increase your Buff Success Rate by 3%",
-    "detailShort": "Increase your Buff Success Rate by 3%"
+    "detail": "Increase your Buff Success Rate when receiving a Buff by 3%",
+    "detailShort": "Increase your Buff Success Rate when receiving a Buff by 3%"
   },
   {
     "id": 991251,
-    "detail": "Increase your Buff Success Rate by 5% [MAX]",
-    "detailShort": "Increase your Buff Success Rate by 5% [MAX]"
+    "detail": "Increase your Buff Success Rate when receiving a Buff by 5% [MAX]",
+    "detailShort": "Increase your Buff Success Rate when receiving a Buff by 5% [MAX]"
   },
   {
     "id": 991252,
@@ -15746,13 +15766,13 @@
   },
   {
     "id": 991534,
-    "detail": "Increase your Buff Success Rate by 10%",
-    "detailShort": "Increase your Buff Success Rate by 10%"
+    "detail": "Increase your Buff Success Rate when receiving a Buff by 10%",
+    "detailShort": "Increase your Buff Success Rate when receiving a Buff by 10%"
   },
   {
     "id": 991535,
-    "detail": "Increase your Buff Success Rate by 15% [MAX]",
-    "detailShort": "Increase your Buff Success Rate by 15% [MAX]"
+    "detail": "Increase your Buff Success Rate when receiving a Buff by 15% [MAX]",
+    "detailShort": "Increase your Buff Success Rate when receiving a Buff by 15% [MAX]"
   },
   {
     "id": 991536,
@@ -18011,13 +18031,13 @@
   },
   {
     "id": 992054,
-    "detail": "Increase Critical Strength by 15% & Buff Success Rate by 10% for yourself",
-    "detailShort": "Increase Critical Strength by 15% & Buff Success Rate by 10% for yourself"
+    "detail": "Increase Critical Strength by 15% & Buff Success Rate when receiving a Buff by 10% for yourself",
+    "detailShort": "Increase Critical Strength by 15% & Buff Success Rate when receiving a Buff by 10% for yourself"
   },
   {
     "id": 992055,
-    "detail": "Increase Critical Strength by 20% & Buff Success Rate by 15% for yourself [MAX]",
-    "detailShort": "Increase Critical Strength by 20% & Buff Success Rate by 15% for yourself [MAX]"
+    "detail": "Increase Critical Strength by 20% & Buff Success Rate when receiving a Buff by 15% for yourself [MAX]",
+    "detailShort": "Increase Critical Strength by 20% & Buff Success Rate when receiving a Buff by 15% for yourself [MAX]"
   },
   {
     "id": 992056,
@@ -19366,33 +19386,33 @@
   },
   {
     "id": 992332,
-    "detail": "Increase Arts Card effectiveness by 10% & Critical Strength by 15% for all allies only if [servantName 104500] (Saber) is equipped with this Craft Essence when she is on the field",
-    "detailShort": "Increase Arts Card effectiveness by 10% & Critical Strength by 15% for all allies only if [servantName 104500] (Saber) is equipped with this Craft Essence when she is on the field"
+    "detail": "Increase Arts Card effectiveness by 10% & Critical Strength by 15% for all allies only if [servantName 104500] is equipped with this Craft Essence when she is on the field",
+    "detailShort": "Increase Arts Card effectiveness by 10% & Critical Strength by 15% for all allies only if [servantName 104500] is equipped with this Craft Essence when she is on the field"
   },
   {
     "id": 992333,
-    "detail": "Increase Quick, Arts, and Buster Card effectiveness by 8% for all allies only if [servantName 204200] (Archer) is equipped with this Craft Essence when she is on the field.",
-    "detailShort": "Increase Quick, Arts, and Buster Card effectiveness by 8% for all allies only if [servantName 204200] (Archer) is equipped with this Craft Essence when she is on the field."
+    "detail": "Increase Quick, Arts, and Buster Card effectiveness by 8% for all allies only if [servantName 204200] is equipped with this Craft Essence when she is on the field.",
+    "detailShort": "Increase Quick, Arts, and Buster Card effectiveness by 8% for all allies only if [servantName 204200] is equipped with this Craft Essence when she is on the field."
   },
   {
     "id": 992334,
-    "detail": "Increase Quick Card effectiveness by 10% & Critical Strength by 15% for all allies only if [servantName 304400] (Lancer) is equipped with this Craft Essence when she is on the field",
-    "detailShort": "Increase Quick Card effectiveness by 10% & Critical Strength by 15% for all allies only if [servantName 304400] (Lancer) is equipped with this Craft Essence when she is on the field"
+    "detail": "Increase Quick Card effectiveness by 10% & Critical Strength by 15% for all allies only if [servantName 304400] is equipped with this Craft Essence when she is on the field",
+    "detailShort": "Increase Quick Card effectiveness by 10% & Critical Strength by 15% for all allies only if [servantName 304400] is equipped with this Craft Essence when she is on the field"
   },
   {
     "id": 992335,
-    "detail": "Increase Arts Card effectiveness by 10% & NP Gain by 10% for all allies only if [servantName 404100] (Rider) is equipped with this Craft Essence when she is on the field",
-    "detailShort": "Increase Arts Card effectiveness by 10% & NP Gain by 10% for all allies only if [servantName 404100] (Rider) is equipped with this Craft Essence when she is on the field"
+    "detail": "Increase Arts Card effectiveness by 10% & NP Gain by 10% for all allies only if [servantName 404100] is equipped with this Craft Essence when she is on the field",
+    "detailShort": "Increase Arts Card effectiveness by 10% & NP Gain by 10% for all allies only if [servantName 404100] is equipped with this Craft Essence when she is on the field"
   },
   {
     "id": 992336,
-    "detail": "Increase Arts Card effectiveness by 15% & Buster Card effectiveness by 15% for all [Loved One] allies except yourself + Increase Arts Card effectiveness by 10% & Buster Card effectiveness by 10% for yourself only if [servantName 703800] (Berserker) is equipped with this Craft Essence when she is on the field",
-    "detailShort": "Increase Arts Card effectiveness by 15% & Buster Card effectiveness by 15% for all [Loved One] allies except yourself + Increase Arts Card effectiveness by 10% & Buster Card effectiveness by 10% for yourself only if [servantName 703800] (Berserker) is equipped with this Craft Essence when she is on the field"
+    "detail": "Increase Arts Card effectiveness by 15% & Buster Card effectiveness by 15% for all [Loved One] allies except yourself + Increase Arts Card effectiveness by 10% & Buster Card effectiveness by 10% for yourself only if [servantName 703800] is equipped with this Craft Essence when she is on the field",
+    "detailShort": "Increase Arts Card effectiveness by 15% & Buster Card effectiveness by 15% for all [Loved One] allies except yourself + Increase Arts Card effectiveness by 10% & Buster Card effectiveness by 10% for yourself only if [servantName 703800] is equipped with this Craft Essence when she is on the field"
   },
   {
     "id": 992337,
-    "detail": "Apply Guts (1 time, HP recovery 100%, stackable with other Guts) for yourself only if [servantName 2300400] (Moon Cancer) is equipped with this Craft Essence + Decrease Max HP by 1000 for all allies except yourself [Demerit] when she is on the field",
-    "detailShort": "Apply Guts (1 time, HP recovery 100%, stackable with other Guts) for yourself only if [servantName 2300400] (Moon Cancer) is equipped with this Craft Essence + Decrease Max HP by 1000 for all allies except yourself [Demerit] when she is on the field"
+    "detail": "Apply Guts (1 time, HP recovery 100%, stackable with other Guts) for yourself only if [servantName 2300400] is equipped with this Craft Essence + Decrease Max HP by 1000 for all allies except yourself [Demerit] when she is on the field",
+    "detailShort": "Apply Guts (1 time, HP recovery 100%, stackable with other Guts) for yourself only if [servantName 2300400] is equipped with this Craft Essence + Decrease Max HP by 1000 for all allies except yourself [Demerit] when she is on the field"
   },
   {
     "id": 992338,
@@ -19406,8 +19426,8 @@
   },
   {
     "id": 992340,
-    "detail": "Increase Buff Success Rate by 20% (1 time, 2 turns) for yourself when attacking with the engraved Card",
-    "detailShort": "Increase Buff Success Rate by 20% (1 time, 2 turns) for yourself when attacking with the engraved Card"
+    "detail": "Increase Buff Success Rate when receiving a Buff by 20% (1 time, 2 turns) for yourself when attacking with the engraved Card",
+    "detailShort": "Increase Buff Success Rate when receiving a Buff by 20% (1 time, 2 turns) for yourself when attacking with the engraved Card"
   },
   {
     "id": 992341,
@@ -23236,33 +23256,33 @@
   },
   {
     "id": 993151,
-    "detail": "Increase drop rate for [Dragon Fang] by 5% <Applied to original drop rate>",
-    "detailShort": "Increase drop rate for [Dragon Fang] by 5% <Applied to original drop rate>"
+    "detail": "Increase chance of (Dragon Fang) drops by 5% <Applied to original drop rate>",
+    "detailShort": "Increase chance of (Dragon Fang) drops by 5% <Applied to original drop rate>"
   },
   {
     "id": 993152,
-    "detail": "Increase drop rate for [Dragon Fang] by 25% <Applied to original drop rate> [MAX]",
-    "detailShort": "Increase drop rate for [Dragon Fang] by 25% <Applied to original drop rate> [MAX]"
+    "detail": "Increase chance of (Dragon Fang) drops by 25% <Applied to original drop rate> [MAX]",
+    "detailShort": "Increase chance of (Dragon Fang) drops by 25% <Applied to original drop rate> [MAX]"
   },
   {
     "id": 993153,
-    "detail": "Increase drop rate for [Proof of Hero] by 5% <Applied to original drop rate>",
-    "detailShort": "Increase drop rate for [Proof of Hero] by 5% <Applied to original drop rate>"
+    "detail": "Increase chance of (Proof of Hero) drops by 5% <Applied to original drop rate>",
+    "detailShort": "Increase chance of (Proof of Hero) drops by 5% <Applied to original drop rate>"
   },
   {
     "id": 993154,
-    "detail": "Increase drop rate for [Proof of Hero] by 25% <Applied to original drop rate> [MAX]",
-    "detailShort": "Increase drop rate for [Proof of Hero] by 25% <Applied to original drop rate> [MAX]"
+    "detail": "Increase chance of (Proof of Hero) drops by 25% <Applied to original drop rate> [MAX]",
+    "detailShort": "Increase chance of (Proof of Hero) drops by 25% <Applied to original drop rate> [MAX]"
   },
   {
     "id": 993155,
-    "detail": "Increase drop rate for [Octuplet Crystals] by 5% <Applied to original drop rate>",
-    "detailShort": "Increase drop rate for [Octuplet Crystals] by 5% <Applied to original drop rate>"
+    "detail": "Increase chance of (Octuplet Crystals) drops by 5% <Applied to original drop rate>",
+    "detailShort": "Increase chance of (Octuplet Crystals) drops by 5% <Applied to original drop rate>"
   },
   {
     "id": 993156,
-    "detail": "Increase drop rate for [Octuplet Crystals] by 25% <Applied to original drop rate> [MAX]",
-    "detailShort": "Increase drop rate for [Octuplet Crystals] by 25% <Applied to original drop rate> [MAX]"
+    "detail": "Increase chance of (Octuplet Crystals) drops by 25% <Applied to original drop rate> [MAX]",
+    "detailShort": "Increase chance of (Octuplet Crystals) drops by 25% <Applied to original drop rate> [MAX]"
   },
   {
     "id": 993159,
@@ -23276,23 +23296,23 @@
   },
   {
     "id": 993166,
-    "detail": "Increase drop rate for [Shell of Reminiscence] by 5% <Applied to original drop rate>",
-    "detailShort": "Increase drop rate for [Shell of Reminiscence] by 5% <Applied to original drop rate>"
+    "detail": "Increase chance of (Shell of Reminiscence) drops by 5% <Applied to original drop rate>",
+    "detailShort": "Increase chance of (Shell of Reminiscence) drops by 5% <Applied to original drop rate>"
   },
   {
     "id": 993167,
-    "detail": "Increase drop rate for [Shell of Reminiscence] by 25% <Applied to original drop rate> [MAX]",
-    "detailShort": "Increase drop rate for [Shell of Reminiscence] by 25% <Applied to original drop rate> [MAX]"
+    "detail": "Increase chance of (Shell of Reminiscence) drops by 25% <Applied to original drop rate> [MAX]",
+    "detailShort": "Increase chance of (Shell of Reminiscence) drops by 25% <Applied to original drop rate> [MAX]"
   },
   {
     "id": 993168,
-    "detail": "Increase drop rate for [Phoenix Feather] by 5% <Applied to original drop rate>",
-    "detailShort": "Increase drop rate for [Phoenix Feather] by 5% <Applied to original drop rate>"
+    "detail": "Increase chance of (Phoenix Feather) drops by 5% <Applied to original drop rate>",
+    "detailShort": "Increase chance of (Phoenix Feather) drops by 5% <Applied to original drop rate>"
   },
   {
     "id": 993169,
-    "detail": "Increase drop rate for [Phoenix Feather] by 25% <Applied to original drop rate> [MAX]",
-    "detailShort": "Increase drop rate for [Phoenix Feather] by 25% <Applied to original drop rate> [MAX]"
+    "detail": "Increase chance of (Phoenix Feather) drops by 25% <Applied to original drop rate> [MAX]",
+    "detailShort": "Increase chance of (Phoenix Feather) drops by 25% <Applied to original drop rate> [MAX]"
   },
   {
     "id": 993171,
@@ -23391,8 +23411,8 @@
   },
   {
     "id": 993190,
-    "detail": "Increase NP Strength by 10% & Buff Success Rate by 20% for all allies only if [servantName 505100] (Caster) is equipped with this Craft Essence when he is on the field",
-    "detailShort": "Increase NP Strength by 10% & Buff Success Rate by 20% for all allies only if [servantName 505100] (Caster) is equipped with this Craft Essence when he is on the field"
+    "detail": "Increase NP Strength by 10% & Buff Success Rate when receiving a Buff by 20% for all allies only if [servantName 505100] (Caster) is equipped with this Craft Essence when he is on the field",
+    "detailShort": "Increase NP Strength by 10% & Buff Success Rate when receiving a Buff by 20% for all allies only if [servantName 505100] (Caster) is equipped with this Craft Essence when he is on the field"
   },
   {
     "id": 993191,
@@ -23501,23 +23521,23 @@
   },
   {
     "id": 993212,
-    "detail": "Increase drop rate for [Forbidden Page] by 5% <Applied to original drop rate>",
-    "detailShort": "Increase drop rate for [Forbidden Page] by 5% <Applied to original drop rate>"
+    "detail": "Increase chance of (Forbidden Page) drops by 5% <Applied to original drop rate>",
+    "detailShort": "Increase chance of (Forbidden Page) drops by 5% <Applied to original drop rate>"
   },
   {
     "id": 993213,
-    "detail": "Increase drop rate for [Forbidden Page] by 25% <Applied to original drop rate> [MAX]",
-    "detailShort": "Increase drop rate for [Forbidden Page] by 25% <Applied to original drop rate> [MAX]"
+    "detail": "Increase chance of (Forbidden Page) drops by 25% <Applied to original drop rate> [MAX]",
+    "detailShort": "Increase chance of (Forbidden Page) drops by 25% <Applied to original drop rate> [MAX]"
   },
   {
     "id": 993214,
-    "detail": "Increase drop rate for [Eternal Gear] by 5% <Applied to original drop rate>",
-    "detailShort": "Increase drop rate for [Eternal Gear] by 5% <Applied to original drop rate>"
+    "detail": "Increase chance of (Eternal Gear) drops by 5% <Applied to original drop rate>",
+    "detailShort": "Increase chance of (Eternal Gear) drops by 5% <Applied to original drop rate>"
   },
   {
     "id": 993215,
-    "detail": "Increase drop rate for [Eternal Gear] by 25% <Applied to original drop rate> [MAX]",
-    "detailShort": "Increase drop rate for [Eternal Gear] by 25% <Applied to original drop rate> [MAX]"
+    "detail": "Increase chance of (Eternal Gear) drops by 25% <Applied to original drop rate> [MAX]",
+    "detailShort": "Increase chance of (Eternal Gear) drops by 25% <Applied to original drop rate> [MAX]"
   },
   {
     "id": 993260,
@@ -23728,6 +23748,71 @@
     "id": 993301,
     "detail": "Gain +10 Friend Points when used as Support (Stackable)",
     "detailShort": "Gain +10 Friend Points when used as Support (Stackable)"
+  },
+  {
+    "id": 993302,
+    "detail": "Gain 1 C. Star when attacking with the engraved Card + Remove one Poison, Curse, or Burn status effect from yourself",
+    "detailShort": "Gain 1 C. Star when attacking with the engraved Card + Remove one Poison, Curse, or Burn status effect from yourself"
+  },
+  {
+    "id": 993303,
+    "detail": "Increase Arts Card effectiveness by 8% & Arts Card Critical Strength by 15% & begin battle with NP charged at 50% for yourself",
+    "detailShort": "Increase Arts Card effectiveness by 8% & Arts Card Critical Strength by 15% & begin battle with NP charged at 50% for yourself"
+  },
+  {
+    "id": 993304,
+    "detail": "Increase Arts Card effectiveness by 10% & Arts Card Critical Strength by 20% & begin battle with NP charged at 60% for yourself [MAX]",
+    "detailShort": "Increase Arts Card effectiveness by 10% & Arts Card Critical Strength by 20% & begin battle with NP charged at 60% for yourself [MAX]"
+  },
+  {
+    "id": 993305,
+    "detail": "Increase Arts Card effectiveness by 8% & Buster Card effectiveness by 8% & NP Strength by 3% & NP Gain by 3% for yourself",
+    "detailShort": "Increase Arts Card effectiveness by 8% & Buster Card effectiveness by 8% & NP Strength by 3% & NP Gain by 3% for yourself"
+  },
+  {
+    "id": 993306,
+    "detail": "Increase Arts Card effectiveness by 10% & Buster Card effectiveness by 10% & NP Strength by 5% & NP Gain by 5% for yourself [MAX]",
+    "detailShort": "Increase Arts Card effectiveness by 10% & Buster Card effectiveness by 10% & NP Strength by 5% & NP Gain by 5% for yourself [MAX]"
+  },
+  {
+    "id": 993307,
+    "detail": "Increase C. Star Gather Rate by 100% & Arts Card effectiveness by 2% for yourself",
+    "detailShort": "Increase C. Star Gather Rate by 100% & Arts Card effectiveness by 2% for yourself"
+  },
+  {
+    "id": 993308,
+    "detail": "Increase C. Star Gather Rate by 200% & Arts Card effectiveness by 3% for yourself [MAX]",
+    "detailShort": "Increase C. Star Gather Rate by 200% & Arts Card effectiveness by 3% for yourself [MAX]"
+  },
+  {
+    "id": 993309,
+    "detail": "Gain 6 C. Stars each turn & increase NP Charge by 2 levels when using NP (1 time) for yourself",
+    "detailShort": "Gain 6 C. Stars each turn & increase NP Charge by 2 levels when using NP (1 time) for yourself"
+  },
+  {
+    "id": 993310,
+    "detail": "Gain 8 C. Stars each turn & increase NP Charge by 2 levels when using NP (1 time) for yourself [MAX]",
+    "detailShort": "Gain 8 C. Stars each turn & increase NP Charge by 2 levels when using NP (1 time) for yourself [MAX]"
+  },
+  {
+    "id": 993311,
+    "detail": "Increase C. Star Gather Rate by 200% & Critical Strength by 15% for yourself",
+    "detailShort": "Increase C. Star Gather Rate by 200% & Critical Strength by 15% for yourself"
+  },
+  {
+    "id": 993312,
+    "detail": "Increase C. Star Gather Rate by 300% & Critical Strength by 20% for yourself [MAX]",
+    "detailShort": "Increase C. Star Gather Rate by 300% & Critical Strength by 20% for yourself [MAX]"
+  },
+  {
+    "id": 993313,
+    "detail": "Increase all allies' NP Strength by 25% only if [servantName 2300500] (Moon Cancer) is equipped with this Craft Essence when she is on a [Millennium Castle] field",
+    "detailShort": "Increase all allies' NP Strength by 25% only if [servantName 2300500] (Moon Cancer) is equipped with this Craft Essence when she is on a [Millennium Castle] field"
+  },
+  {
+    "id": 993314,
+    "detail": "Apply Guts (1 time, restore 20% HP) & gain 30 C. Stars when Guts is activated (1 time) only if [servantName 1001400] (Alter Ego) is equipped with this Craft Essence",
+    "detailShort": "Apply Guts (1 time, restore 20% HP) & gain 30 C. Stars when Guts is activated (1 time) only if [servantName 1001400] (Alter Ego) is equipped with this Craft Essence"
   },
   {
     "id": 993322,
@@ -24198,6 +24283,51 @@
     "id": 2089650,
     "detail": "Apply Sure Hit (5 turns) & apply a state where \"your NP Strength increases [{0}] (1 time, 5 turns) each turn\" (5 turns) & increase NP Gauge [{0}] each turn (5 turns) for yourself",
     "detailShort": "Apply Sure Hit (5 turns) & apply a state where \"your NP Strength increases [{0}] (1 time, 5 turns) each turn\" (5 turns) & increase NP Gauge [{0}] each turn (5 turns) for yourself"
+  },
+  {
+    "id": 2090250,
+    "detail": "When on a [Millennium Castle] field, increase Quick Card effectiveness & Arts Card effectiveness & Buster Card effectiveness for yourself",
+    "detailShort": "When on a [Millennium Castle] field, increase Quick Card effectiveness & Arts Card effectiveness & Buster Card effectiveness for yourself"
+  },
+  {
+    "id": 2091550,
+    "detail": "Inflict Skill Seal (1 turn) & decrease DEF [{0}] (3 turns) for all enemies + Increase ATK [{0}] (3 turns) for yourself",
+    "detailShort": "Inflict Skill Seal (1 turn) & decrease DEF [{0}] (3 turns) for all enemies + Increase ATK [{0}] (3 turns) for yourself"
+  },
+  {
+    "id": 2092350,
+    "detail": "Significantly increase NP Gauge [{0}] & increase NP Strength [{0}] (3 turns) for yourself",
+    "detailShort": "Significantly increase NP Gauge [{0}] & increase NP Strength [{0}] (3 turns) for yourself"
+  },
+  {
+    "id": 2093650,
+    "detail": "Apply Invincible (1 time, 3 turns) to all allies + Increase Buff Removal Resist [{0}] (1 turn) for all [Good] allies + When on a [Millennium Castle] field, increase NP Gauge [{0}] for all allies excluding yourself",
+    "detailShort": "Apply Invincible (1 time, 3 turns) to all allies + Increase Buff Removal Resist [{0}] (1 turn) for all [Good] allies + When on a [Millennium Castle] field, increase NP Gauge [{0}] for all allies excluding yourself"
+  },
+  {
+    "id": 2094650,
+    "detail": "Increase your Arts Card effectiveness & amount of NP you gain when damaged",
+    "detailShort": "Increase your Arts Card effectiveness & amount of NP you gain when damaged"
+  },
+  {
+    "id": 2095650,
+    "detail": "Decrease ATK against [Yu Mei-ren] by 20% [Demerit] for yourself",
+    "detailShort": "Decrease ATK against [Yu Mei-ren] by 20% [Demerit] for yourself"
+  },
+  {
+    "id": 2096450,
+    "detail": "Restore HP [{0}] & remove one Debuff & increase NP Gain [{0}] (3 turns) for all allies",
+    "detailShort": "Restore HP [{0}] & remove one Debuff & increase NP Gain [{0}] (3 turns) for all allies"
+  },
+  {
+    "id": 2097350,
+    "detail": "Increase NP Gauge [{0}] & Buff Removal Resist [{0}] (1 turn) for one ally + Increase [Yu Mei-ren]'s NP Strength [{0}] (3 turns) & NP Gauge for one ally",
+    "detailShort": "Increase NP Gauge [{0}] & Buff Removal Resist [{0}] (1 turn) for one ally + Increase [Yu Mei-ren]'s NP Strength [{0}] (3 turns) & NP Gauge for one ally"
+  },
+  {
+    "id": 2103550,
+    "detail": "Increase Arts Card effectiveness [{0}] (3 turns) & Critical Strength [{0}] (3 turns) & apply Special Attack [Undead] [{0}] (3 turns) for all allies + Decrease Critical Strength [{0}] (3 turns) for all enemies",
+    "detailShort": "Increase Arts Card effectiveness [{0}] (3 turns) & Critical Strength [{0}] (3 turns) & apply Special Attack [Undead] [{0}] (3 turns) for all allies + Decrease Critical Strength [{0}] (3 turns) for all enemies"
   },
   {
     "id": 2161551,
@@ -25671,6 +25801,11 @@
   },
   {
     "id": 90084004,
+    "detail": "Gain +10 Friend Points when used as Support (Stackable)",
+    "detailShort": "Gain +10 Friend Points when used as Support (Stackable)"
+  },
+  {
+    "id": 90084005,
     "detail": "Gain +10 Friend Points when used as Support (Stackable)",
     "detailShort": "Gain +10 Friend Points when used as Support (Stackable)"
   }

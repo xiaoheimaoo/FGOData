@@ -11979,8 +11979,8 @@
     "id": 950,
     "buffGroup": 0,
     "type": 30,
-    "name": "Increase Buff Success Rate",
-    "detail": "Increase Buff Success Rate",
+    "name": "Increase Buff Success Rate when receiving a Buff",
+    "detail": "Increase Buff Success Rate when receiving a Buff",
     "iconId": 306,
     "maxRate": 5000,
     "effectId": 0
@@ -57008,8 +57008,8 @@
     "id": 4051,
     "buffGroup": 0,
     "type": 29,
-    "name": "Buff Success Rate Down",
-    "detail": "Decrease buff success rate",
+    "name": "Decrease Buff Success Rate when receiving a Buff",
+    "detail": "Decrease Buff Success Rate when receiving a Buff",
     "iconId": 506,
     "maxRate": 5000,
     "effectId": 0
@@ -63925,6 +63925,24 @@
   },
   {
     "vals": [
+      3079,
+      2829
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4423,
+    "buffGroup": 0,
+    "type": 10001,
+    "name": "Field Change [Millennium Castle]",
+    "detail": "Change field to [Millennium Castle]",
+    "iconId": 700,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3006
     ],
@@ -64531,9 +64549,111 @@
     "buffGroup": 0,
     "type": 76,
     "name": "Rebound",
-    "detail": "Remove Buffs and decrease ATK & inflict Poison on yourself after 1 turn",
+    "detail": "Remove Buffs and decrease ATK & inflict Poison on yourself after 3 turns",
     "iconId": 525,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2829
+    },
+    "id": 4458,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Quick Up",
+    "detail": "Increase Quick Card effectiveness only when on a [Millennium Castle] field",
+    "iconId": 312,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2829
+    },
+    "id": 4459,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Arts Up",
+    "detail": "Increase Arts Card effectiveness only when on a [Millennium Castle] field",
+    "iconId": 313,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2829
+    },
+    "id": 4460,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Buster Up",
+    "detail": "Increase Buster Card effectiveness only when on a [Millennium Castle] field",
+    "iconId": 314,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3033
+    ],
+    "tvals": [
+      2833,
+      603500,
+      304400
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2833,
+      603500,
+      304400
+    ],
+    "script": {},
+    "id": 4461,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "ATK Down [Yu Mei-ren]",
+    "detail": "Decrease ATK against [Yu Mei-ren]",
+    "iconId": 503,
+    "maxRate": 5000,
     "effectId": 0
   },
   {
@@ -64792,8 +64912,8 @@
     "id": 4480,
     "buffGroup": 0,
     "type": 29,
-    "name": "Buff Success Rate Down",
-    "detail": "Decrease buff success rate",
+    "name": "Decrease Buff Success Rate when receiving a Buff",
+    "detail": "Decrease Buff Success Rate when receiving a Buff",
     "iconId": 506,
     "maxRate": 5000,
     "effectId": 0
@@ -65025,6 +65145,23 @@
   },
   {
     "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4492,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "Activate when Guts is Triggered (C. Star Gain)",
+    "detail": "Gain C. Stars when Guts is activated",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3005
     ],
     "tvals": [
@@ -65042,6 +65179,25 @@
     "detail": "Decrease Debuff Success Rate for [Mystic Eyes]",
     "iconId": 507,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4494,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate when Damaged",
+    "detail": "Decrease DEF for a single enemy when attacked",
+    "iconId": 331,
+    "maxRate": 0,
     "effectId": 0
   },
   {
@@ -65112,6 +65268,27 @@
     "detail": "Immune to Poison, Curse, Burn, Pigify",
     "iconId": 322,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2829
+    },
+    "id": 4499,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "NP Strength Up",
+    "detail": "Increase NP damage",
+    "iconId": 310,
+    "maxRate": 5000,
     "effectId": 0
   },
   {
