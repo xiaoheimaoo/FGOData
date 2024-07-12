@@ -1,1508 +1,1414 @@
 [
   {
-    "id": 1,
-    "name": "敵の駒が攻撃範囲にある",
+    "id": 1000,
+    "name": "",
     "conditionTypes": [
       1
     ],
     "value": 0
   },
   {
-    "id": 2,
-    "name": "敵の駒が攻撃範囲にない",
-    "conditionTypes": [
-      2
-    ],
-    "value": 0
-  },
-  {
-    "id": 3,
-    "name": "移動後に敵の駒が攻撃範囲にある",
-    "conditionTypes": [
-      3
-    ],
-    "value": 0
-  },
-  {
-    "id": 4,
-    "name": "移動後に敵の駒が攻撃範囲にない",
-    "conditionTypes": [
-      4
-    ],
-    "value": 0
-  },
-  {
-    "id": 5,
-    "name": "入れ替わりが発生する",
+    "id": 2000,
+    "name": "",
     "conditionTypes": [
       5
     ],
     "value": 0
   },
   {
-    "id": 6,
-    "name": "入れ替わりが発生しない",
+    "id": 3000,
+    "name": "",
+    "conditionTypes": [
+      5
+    ],
+    "value": 0
+  },
+  {
+    "id": 4000,
+    "name": "",
+    "conditionTypes": [
+      5
+    ],
+    "value": 0
+  },
+  {
+    "id": 5000,
+    "name": "",
     "conditionTypes": [
       6
     ],
     "value": 0
   },
   {
-    "id": 7,
-    "name": "マスターの防衛範囲に敵がいる",
+    "id": 6000,
+    "name": "",
+    "conditionTypes": [
+      6
+    ],
+    "value": 0
+  },
+  {
+    "id": 7000,
+    "name": "",
+    "conditionTypes": [
+      6
+    ],
+    "value": 0
+  },
+  {
+    "id": 8000,
+    "name": "",
     "conditionTypes": [
       7
     ],
     "value": 0
   },
   {
-    "id": 8,
-    "name": "マスターの防衛範囲に敵がいない",
+    "id": 9000,
+    "name": "",
     "conditionTypes": [
       8
     ],
     "value": 0
   },
   {
-    "id": 9,
-    "name": "移動後にマスターの防衛範囲に敵がいる",
-    "conditionTypes": [
-      9
-    ],
-    "value": 0
-  },
-  {
-    "id": 10,
-    "name": "移動後にマスターの防衛範囲に敵がいない",
-    "conditionTypes": [
-      10
-    ],
-    "value": 0
-  },
-  {
-    "id": 11,
-    "name": "サーヴァントがマスターの防衛範囲にいる",
-    "conditionTypes": [
-      11
-    ],
-    "value": 0
-  },
-  {
-    "id": 12,
-    "name": "サーヴァントがマスターの防衛範囲にいない",
-    "conditionTypes": [
-      12
-    ],
-    "value": 0
-  },
-  {
-    "id": 13,
-    "name": "移動後に移動したサーヴァントがマスターの防衛範囲にいる",
-    "conditionTypes": [
-      13
-    ],
-    "value": 0
-  },
-  {
-    "id": 14,
-    "name": "移動後に移動したサーヴァントがマスターの防衛範囲にいない",
-    "conditionTypes": [
-      14
-    ],
-    "value": 0
-  },
-  {
-    "id": 15,
-    "name": "有益度の高いマスが移動範囲にある",
-    "conditionTypes": [
-      15
-    ],
-    "value": 0
-  },
-  {
-    "id": 16,
-    "name": "有益度の高いマスが移動範囲にない",
-    "conditionTypes": [
-      16
-    ],
-    "value": 0
-  },
-  {
-    "id": 17,
-    "name": "移動後に有益度の高いマスが移動範囲にある",
-    "conditionTypes": [
-      17
-    ],
-    "value": 0
-  },
-  {
-    "id": 18,
-    "name": "移動後に有益度の高いマスが移動範囲にない",
-    "conditionTypes": [
-      18
-    ],
-    "value": 0
-  },
-  {
-    "id": 19,
-    "name": "フィールド上にクラス相性有利な敵がいる",
+    "id": 10000,
+    "name": "",
     "conditionTypes": [
       19
     ],
     "value": 0
   },
   {
-    "id": 20,
-    "name": "フィールド上にクラス相性有利な敵がいない",
+    "id": 11000,
+    "name": "",
     "conditionTypes": [
       20
     ],
     "value": 0
   },
   {
-    "id": 21,
-    "name": "フィールド上にクラス相性不利な敵がいる",
-    "conditionTypes": [
-      21
-    ],
-    "value": 0
-  },
-  {
-    "id": 22,
-    "name": "フィールド上にクラス相性不利な敵がいない",
-    "conditionTypes": [
-      22
-    ],
-    "value": 0
-  },
-  {
-    "id": 23,
-    "name": "フィールドにアーツアップアイテムがある",
-    "conditionTypes": [
-      23
-    ],
-    "value": 1
-  },
-  {
-    "id": 24,
-    "name": "フィールドに指定アイテムがある",
-    "conditionTypes": [
-      23
-    ],
-    "value": 1
-  },
-  {
-    "id": 25,
-    "name": "フィールドに指定アイテムがない",
-    "conditionTypes": [
-      24
-    ],
-    "value": 1
-  },
-  {
-    "id": 26,
-    "name": "移動後にマスターと敵との最短距離が近づく",
+    "id": 12000,
+    "name": "",
     "conditionTypes": [
       25
     ],
     "value": 0
   },
   {
-    "id": 27,
-    "name": "移動後にマスターと敵との最短距離が離れる",
+    "id": 13000,
+    "name": "",
+    "conditionTypes": [
+      25
+    ],
+    "value": 0
+  },
+  {
+    "id": 14000,
+    "name": "",
     "conditionTypes": [
       26
     ],
     "value": 0
   },
   {
-    "id": 28,
-    "name": "移動後にマスターと敵との最短距離が変化しない",
+    "id": 15000,
+    "name": "",
+    "conditionTypes": [
+      26
+    ],
+    "value": 0
+  },
+  {
+    "id": 16000,
+    "name": "",
     "conditionTypes": [
       27
     ],
     "value": 0
   },
   {
-    "id": 29,
-    "name": "移動後に移動したサーヴァントと敵との最短距離が近づく",
+    "id": 17000,
+    "name": "",
+    "conditionTypes": [
+      27
+    ],
+    "value": 0
+  },
+  {
+    "id": 18000,
+    "name": "",
     "conditionTypes": [
       28
     ],
     "value": 0
   },
   {
-    "id": 30,
-    "name": "移動後に移動したサーヴァントと敵との最短距離が離れる",
+    "id": 19000,
+    "name": "",
+    "conditionTypes": [
+      28
+    ],
+    "value": 0
+  },
+  {
+    "id": 20000,
+    "name": "",
     "conditionTypes": [
       29
     ],
     "value": 0
   },
   {
-    "id": 31,
-    "name": "移動後に移動したサーヴァントと敵との最短距離が変化しない",
+    "id": 21000,
+    "name": "",
     "conditionTypes": [
       30
     ],
     "value": 0
   },
   {
-    "id": 32,
-    "name": "移動後に移動したサーヴァントとマスターの最短距離が近づく",
+    "id": 22000,
+    "name": "",
     "conditionTypes": [
       31
     ],
     "value": 0
   },
   {
-    "id": 33,
-    "name": "移動後に移動したサーヴァントとマスターの最短距離が離れる",
+    "id": 23000,
+    "name": "",
     "conditionTypes": [
       32
     ],
     "value": 0
   },
   {
-    "id": 34,
-    "name": "移動後に移動したサーヴァントとマスターの最短距離が変化しない",
+    "id": 24000,
+    "name": "",
     "conditionTypes": [
       33
     ],
     "value": 0
   },
   {
-    "id": 35,
-    "name": "移動により移動したサーヴァントとクラス相性有利な敵との最短距離が近づく",
+    "id": 25000,
+    "name": "",
     "conditionTypes": [
       34
     ],
     "value": 0
   },
   {
-    "id": 36,
-    "name": "移動により移動したサーヴァントとクラス相性有利な敵との最短距離が離れる",
+    "id": 26000,
+    "name": "",
     "conditionTypes": [
       35
     ],
     "value": 0
   },
   {
-    "id": 37,
-    "name": "移動により移動したサーヴァントとクラス相性有利な敵との最短距離が変化しない",
+    "id": 27000,
+    "name": "",
     "conditionTypes": [
       36
     ],
     "value": 0
   },
   {
-    "id": 38,
-    "name": "移動により移動したサーヴァントとクラス相性不利な敵との最短距離が近づく",
-    "conditionTypes": [
-      37
-    ],
-    "value": 0
-  },
-  {
-    "id": 39,
-    "name": "移動により移動したサーヴァントとクラス相性不利な敵との最短距離が離れる",
-    "conditionTypes": [
-      38
-    ],
-    "value": 0
-  },
-  {
-    "id": 40,
-    "name": "移動により移動したサーヴァントとクラス相性不利な敵との最短距離が変化しない",
-    "conditionTypes": [
-      39
-    ],
-    "value": 0
-  },
-  {
-    "id": 41,
-    "name": "移動により移動したサーヴァントと指定アイテムとの最短距離が近づく",
-    "conditionTypes": [
-      40
-    ],
-    "value": 1
-  },
-  {
-    "id": 42,
-    "name": "移動により移動したサーヴァントと指定アイテムとの最短距離が離れる",
-    "conditionTypes": [
-      41
-    ],
-    "value": 1
-  },
-  {
-    "id": 43,
-    "name": "移動により移動したサーヴァントと指定アイテムとの最短距離が変化しない",
-    "conditionTypes": [
-      42
-    ],
-    "value": 1
-  },
-  {
-    "id": 44,
-    "name": "移動により移動したサーヴァントと敵との最短距離が離れるor変化しない",
-    "conditionTypes": [
-      29,
-      30
-    ],
-    "value": 0
-  },
-  {
-    "id": 45,
-    "name": "移動により移動したサーヴァントとクラス有利な敵との最短距離が離れるor変化しない",
-    "conditionTypes": [
-      35,
-      36
-    ],
-    "value": 0
-  },
-  {
-    "id": 46,
-    "name": "移動により移動したサーヴァントとクラス不利な敵との最短距離が離れるor変化しない",
-    "conditionTypes": [
-      38,
-      39
-    ],
-    "value": 0
-  },
-  {
-    "id": 47,
-    "name": "移動により移動したサーヴァントと指定アイテムとの最短距離が離れるor変化しない",
-    "conditionTypes": [
-      41,
-      42
-    ],
-    "value": 1
-  },
-  {
-    "id": 48,
-    "name": "フィールド上に攻撃有利な敵がいる",
+    "id": 28000,
+    "name": "",
     "conditionTypes": [
       43
     ],
     "value": 0
   },
   {
-    "id": 49,
-    "name": "フィールド上に攻撃有利な敵がいない",
+    "id": 29000,
+    "name": "",
     "conditionTypes": [
       44
     ],
     "value": 0
   },
   {
-    "id": 50,
-    "name": "フィールド上に攻撃不利な敵がいる",
-    "conditionTypes": [
-      45
-    ],
-    "value": 0
-  },
-  {
-    "id": 51,
-    "name": "フィールド上に攻撃不利な敵がいない",
-    "conditionTypes": [
-      46
-    ],
-    "value": 0
-  },
-  {
-    "id": 52,
-    "name": "フィールド上に防御有利な敵がいる",
-    "conditionTypes": [
-      47
-    ],
-    "value": 0
-  },
-  {
-    "id": 53,
-    "name": "フィールド上に防御有利な敵がいない",
-    "conditionTypes": [
-      48
-    ],
-    "value": 0
-  },
-  {
-    "id": 54,
-    "name": "フィールド上に防御不利な敵がいる",
+    "id": 30000,
+    "name": "",
     "conditionTypes": [
       49
     ],
     "value": 0
   },
   {
-    "id": 55,
-    "name": "フィールド上に防御不利な敵がいない",
+    "id": 31000,
+    "name": "",
+    "conditionTypes": [
+      49
+    ],
+    "value": 0
+  },
+  {
+    "id": 32000,
+    "name": "",
     "conditionTypes": [
       50
     ],
     "value": 0
   },
   {
-    "id": 56,
-    "name": "移動により移動したサーヴァントと攻撃相性有利な敵との最短距離が近づく",
+    "id": 33000,
+    "name": "",
     "conditionTypes": [
       51
     ],
     "value": 0
   },
   {
-    "id": 57,
-    "name": "移動により移動したサーヴァントと攻撃相性有利な敵との最短距離が遠ざかる",
+    "id": 34000,
+    "name": "",
     "conditionTypes": [
       52
     ],
     "value": 0
   },
   {
-    "id": 58,
-    "name": "移動により移動したサーヴァントと攻撃相性有利な敵との最短距離が近づくor変化しない",
-    "conditionTypes": [
-      51,
-      53
-    ],
-    "value": 0
-  },
-  {
-    "id": 59,
-    "name": "移動により移動したサーヴァントと攻撃相性有利な敵との最短距離が離れるor変化しない",
-    "conditionTypes": [
-      52,
-      53
-    ],
-    "value": 0
-  },
-  {
-    "id": 60,
-    "name": "移動により移動したサーヴァントと攻撃相性有利な敵との最短距離が変化しない",
+    "id": 35000,
+    "name": "",
     "conditionTypes": [
       53
     ],
     "value": 0
   },
   {
-    "id": 61,
-    "name": "移動により移動したサーヴァントと攻撃相性不利な敵との最短距離が近づく",
-    "conditionTypes": [
-      54
-    ],
-    "value": 0
-  },
-  {
-    "id": 62,
-    "name": "移動により移動したサーヴァントと攻撃相性不利な敵との最短距離が遠ざかる",
-    "conditionTypes": [
-      55
-    ],
-    "value": 0
-  },
-  {
-    "id": 63,
-    "name": "移動により移動したサーヴァントと攻撃相性不利な敵との最短距離が近づくor変化しない",
-    "conditionTypes": [
-      54,
-      56
-    ],
-    "value": 0
-  },
-  {
-    "id": 64,
-    "name": "移動により移動したサーヴァントと攻撃相性不利な敵との最短距離が離れるor変化しない",
-    "conditionTypes": [
-      55,
-      56
-    ],
-    "value": 0
-  },
-  {
-    "id": 65,
-    "name": "移動により移動したサーヴァントと攻撃相性不利な敵との最短距離が変化しない",
-    "conditionTypes": [
-      56
-    ],
-    "value": 0
-  },
-  {
-    "id": 66,
-    "name": "移動により移動したサーヴァントと防御相性有利な敵との最短距離が近づく",
-    "conditionTypes": [
-      57
-    ],
-    "value": 0
-  },
-  {
-    "id": 67,
-    "name": "移動により移動したサーヴァントと防御相性有利な敵との最短距離が遠ざかる",
-    "conditionTypes": [
-      58
-    ],
-    "value": 0
-  },
-  {
-    "id": 68,
-    "name": "移動により移動したサーヴァントと防御相性有利な敵との最短距離が近づくor変化しない",
-    "conditionTypes": [
-      57,
-      59
-    ],
-    "value": 0
-  },
-  {
-    "id": 69,
-    "name": "移動により移動したサーヴァントと防御相性有利な敵との最短距離が離れるor変化しない",
-    "conditionTypes": [
-      58,
-      59
-    ],
-    "value": 0
-  },
-  {
-    "id": 70,
-    "name": "移動により移動したサーヴァントと防御相性有利な敵との最短距離が変化しない",
-    "conditionTypes": [
-      59
-    ],
-    "value": 0
-  },
-  {
-    "id": 71,
-    "name": "移動により移動したサーヴァントと防御相性不利な敵との最短距離が近づく",
+    "id": 36000,
+    "name": "",
     "conditionTypes": [
       60
     ],
     "value": 0
   },
   {
-    "id": 72,
-    "name": "移動により移動したサーヴァントと防御相性不利な敵との最短距離が遠ざかる",
+    "id": 37000,
+    "name": "",
+    "conditionTypes": [
+      60
+    ],
+    "value": 0
+  },
+  {
+    "id": 38000,
+    "name": "",
     "conditionTypes": [
       61
     ],
     "value": 0
   },
   {
-    "id": 73,
-    "name": "移動により移動したサーヴァントと防御相性不利な敵との最短距離が近づくor変化しない",
+    "id": 39000,
+    "name": "",
     "conditionTypes": [
-      60,
-      62
+      61
     ],
     "value": 0
   },
   {
-    "id": 74,
-    "name": "移動により移動したサーヴァントと防御相性不利な敵との最短距離が離れるor変化しない",
-    "conditionTypes": [
-      61,
-      62
-    ],
-    "value": 0
-  },
-  {
-    "id": 75,
-    "name": "移動により移動したサーヴァントと防御相性不利な敵との最短距離が変化しない",
+    "id": 40000,
+    "name": "",
     "conditionTypes": [
       62
     ],
     "value": 0
   },
   {
-    "id": 76,
-    "name": "移動により味方マスター～敵の最短距離が延びない",
+    "id": 41000,
+    "name": "",
     "conditionTypes": [
-      25,
-      27
+      62
     ],
     "value": 0
   },
   {
-    "id": 77,
-    "name": "移動により味方マスターへの最短距離が近づかない",
-    "conditionTypes": [
-      32,
-      33
-    ],
-    "value": 0
-  },
-  {
-    "id": 78,
-    "name": "移動により攻撃範囲に敵マスターがいる",
-    "conditionTypes": [
-      63
-    ],
-    "value": 0
-  },
-  {
-    "id": 79,
-    "name": "移動により攻撃範囲に敵マスターがいない",
-    "conditionTypes": [
-      64
-    ],
-    "value": 0
-  },
-  {
-    "id": 80,
-    "name": "移動により敵マスターと最短距離が近づくor変化しない",
-    "conditionTypes": [
-      65,
-      67
-    ],
-    "value": 0
-  },
-  {
-    "id": 81,
-    "name": "移動により敵マスターと最短距離が離れる",
-    "conditionTypes": [
-      66
-    ],
-    "value": 0
-  },
-  {
-    "id": 82,
-    "name": "移動により敵マスターと最短距離が近づく",
+    "id": 42000,
+    "name": "",
     "conditionTypes": [
       65
     ],
     "value": 0
   },
   {
-    "id": 83,
-    "name": "移動により敵マスターと最短距離が離れるor変化しない",
+    "id": 43000,
+    "name": "",
     "conditionTypes": [
-      66,
+      66
+    ],
+    "value": 0
+  },
+  {
+    "id": 44000,
+    "name": "",
+    "conditionTypes": [
       67
     ],
     "value": 0
   },
   {
-    "id": 84,
-    "name": "攻撃対象がマスターである",
+    "id": 45000,
+    "name": "",
     "conditionTypes": [
       68
     ],
     "value": 0
   },
   {
-    "id": 85,
-    "name": "攻撃対象がマスターではない",
+    "id": 46000,
+    "name": "",
+    "conditionTypes": [
+      68
+    ],
+    "value": 0
+  },
+  {
+    "id": 47000,
+    "name": "",
     "conditionTypes": [
       69
     ],
     "value": 0
   },
   {
-    "id": 86,
-    "name": "フィールドに3日目のNP獲得1アイテムがある",
-    "conditionTypes": [
-      23
-    ],
-    "value": 19
-  },
-  {
-    "id": 87,
-    "name": "移動により移動したサーヴァントと3日目のNP獲得1アイテムとの最短距離が近づく",
-    "conditionTypes": [
-      40
-    ],
-    "value": 19
-  },
-  {
-    "id": 88,
-    "name": "移動により移動したサーヴァントと3日目のNP獲得1アイテムとの最短距離が離れる",
-    "conditionTypes": [
-      41
-    ],
-    "value": 19
-  },
-  {
-    "id": 89,
-    "name": "フィールドに3日目のNP獲得2アイテムがある",
-    "conditionTypes": [
-      23
-    ],
-    "value": 46
-  },
-  {
-    "id": 90,
-    "name": "移動により移動したサーヴァントと3日目のNP獲得2アイテムとの最短距離が近づく",
-    "conditionTypes": [
-      40
-    ],
-    "value": 46
-  },
-  {
-    "id": 91,
-    "name": "移動により移動したサーヴァントと3日目のNP獲得2アイテムとの最短距離が離れる",
-    "conditionTypes": [
-      41
-    ],
-    "value": 46
-  },
-  {
-    "id": 92,
-    "name": "フィールドに3日目のNP獲得1アイテムがない",
-    "conditionTypes": [
-      24
-    ],
-    "value": 19
-  },
-  {
-    "id": 93,
-    "name": "フィールドに3日目のNP獲得2アイテムがない",
-    "conditionTypes": [
-      24
-    ],
-    "value": 46
-  },
-  {
-    "id": 94,
-    "name": "移動により移動したサーヴァントと3日目のNP獲得1アイテムとの最短距離が変化しない",
-    "conditionTypes": [
-      42
-    ],
-    "value": 19
-  },
-  {
-    "id": 95,
-    "name": "移動により移動したサーヴァントと3日目のNP獲得2アイテムとの最短距離が変化しない",
-    "conditionTypes": [
-      42
-    ],
-    "value": 46
-  },
-  {
-    "id": 96,
-    "name": "移動により移動したサーヴァントと3日目のNP獲得1アイテムとの最短距離が近づくor変化しない",
-    "conditionTypes": [
-      40,
-      42
-    ],
-    "value": 19
-  },
-  {
-    "id": 97,
-    "name": "移動により移動したサーヴァントと3日目のNP獲得1アイテムとの最短距離が離れるor変化しない",
-    "conditionTypes": [
-      41,
-      42
-    ],
-    "value": 19
-  },
-  {
-    "id": 98,
-    "name": "移動により移動したサーヴァントと3日目のNP獲得2アイテムとの最短距離が近づくor変化しない",
-    "conditionTypes": [
-      40,
-      42
-    ],
-    "value": 46
-  },
-  {
-    "id": 99,
-    "name": "移動により移動したサーヴァントと3日目のNP獲得2アイテムとの最短距離が離れるor変化しない",
-    "conditionTypes": [
-      41,
-      42
-    ],
-    "value": 46
-  },
-  {
-    "id": 100,
-    "name": "当該キャラクターの行動タイプが「前衛」である",
-    "conditionTypes": [
-      70
-    ],
-    "value": 1
-  },
-  {
-    "id": 101,
-    "name": "当該キャラクターの行動タイプが「中衛」である",
-    "conditionTypes": [
-      70
-    ],
-    "value": 2
-  },
-  {
-    "id": 102,
-    "name": "当該キャラクターの行動タイプが「後衛」である",
-    "conditionTypes": [
-      70
-    ],
-    "value": 3
-  },
-  {
-    "id": 103,
-    "name": "この行動は当該キャラクターのターン内1回目の行動である",
+    "id": 48001,
+    "name": "",
     "conditionTypes": [
       71
     ],
     "value": 1
   },
   {
-    "id": 104,
-    "name": "この行動は当該キャラクターのターン内2回目の行動である",
+    "id": 49002,
+    "name": "",
     "conditionTypes": [
       71
     ],
     "value": 2
   },
   {
-    "id": 105,
-    "name": "この行動は当該キャラクターのターン内3回目の行動である",
+    "id": 50003,
+    "name": "",
     "conditionTypes": [
       71
     ],
     "value": 3
   },
   {
-    "id": 106,
-    "name": "フィールドに当該サーヴァントの「ターゲット」が存在する",
+    "id": 51000,
+    "name": "",
     "conditionTypes": [
       74
     ],
     "value": 0
   },
   {
-    "id": 107,
-    "name": "フィールドに当該サーヴァントの「ターゲット」が存在しない",
+    "id": 51001,
+    "name": "",
+    "conditionTypes": [
+      74
+    ],
+    "value": 1
+  },
+  {
+    "id": 51003,
+    "name": "",
+    "conditionTypes": [
+      74
+    ],
+    "value": 3
+  },
+  {
+    "id": 51004,
+    "name": "",
+    "conditionTypes": [
+      74
+    ],
+    "value": 4
+  },
+  {
+    "id": 51006,
+    "name": "",
+    "conditionTypes": [
+      74
+    ],
+    "value": 6
+  },
+  {
+    "id": 51010,
+    "name": "",
+    "conditionTypes": [
+      74
+    ],
+    "value": 10
+  },
+  {
+    "id": 51012,
+    "name": "",
+    "conditionTypes": [
+      74
+    ],
+    "value": 12
+  },
+  {
+    "id": 51014,
+    "name": "",
+    "conditionTypes": [
+      74
+    ],
+    "value": 14
+  },
+  {
+    "id": 51016,
+    "name": "",
+    "conditionTypes": [
+      74
+    ],
+    "value": 16
+  },
+  {
+    "id": 51017,
+    "name": "",
+    "conditionTypes": [
+      74
+    ],
+    "value": 17
+  },
+  {
+    "id": 51019,
+    "name": "",
+    "conditionTypes": [
+      74
+    ],
+    "value": 19
+  },
+  {
+    "id": 51024,
+    "name": "",
+    "conditionTypes": [
+      74
+    ],
+    "value": 24
+  },
+  {
+    "id": 51025,
+    "name": "",
+    "conditionTypes": [
+      74
+    ],
+    "value": 25
+  },
+  {
+    "id": 51028,
+    "name": "",
+    "conditionTypes": [
+      74
+    ],
+    "value": 28
+  },
+  {
+    "id": 51034,
+    "name": "",
+    "conditionTypes": [
+      74
+    ],
+    "value": 34
+  },
+  {
+    "id": 51039,
+    "name": "",
+    "conditionTypes": [
+      74
+    ],
+    "value": 39
+  },
+  {
+    "id": 51041,
+    "name": "",
+    "conditionTypes": [
+      74
+    ],
+    "value": 41
+  },
+  {
+    "id": 51044,
+    "name": "",
+    "conditionTypes": [
+      74
+    ],
+    "value": 44
+  },
+  {
+    "id": 51050,
+    "name": "",
+    "conditionTypes": [
+      74
+    ],
+    "value": 50
+  },
+  {
+    "id": 51051,
+    "name": "",
+    "conditionTypes": [
+      74
+    ],
+    "value": 51
+  },
+  {
+    "id": 51055,
+    "name": "",
+    "conditionTypes": [
+      74
+    ],
+    "value": 55
+  },
+  {
+    "id": 51056,
+    "name": "",
+    "conditionTypes": [
+      74
+    ],
+    "value": 56
+  },
+  {
+    "id": 51060,
+    "name": "",
+    "conditionTypes": [
+      74
+    ],
+    "value": 60
+  },
+  {
+    "id": 51061,
+    "name": "",
+    "conditionTypes": [
+      74
+    ],
+    "value": 61
+  },
+  {
+    "id": 51065,
+    "name": "",
+    "conditionTypes": [
+      74
+    ],
+    "value": 65
+  },
+  {
+    "id": 51072,
+    "name": "",
+    "conditionTypes": [
+      74
+    ],
+    "value": 72
+  },
+  {
+    "id": 51083,
+    "name": "",
+    "conditionTypes": [
+      74
+    ],
+    "value": 83
+  },
+  {
+    "id": 51084,
+    "name": "",
+    "conditionTypes": [
+      74
+    ],
+    "value": 84
+  },
+  {
+    "id": 51101,
+    "name": "",
+    "conditionTypes": [
+      74
+    ],
+    "value": 101
+  },
+  {
+    "id": 51104,
+    "name": "",
+    "conditionTypes": [
+      74
+    ],
+    "value": 104
+  },
+  {
+    "id": 51111,
+    "name": "",
+    "conditionTypes": [
+      74
+    ],
+    "value": 111
+  },
+  {
+    "id": 52000,
+    "name": "",
+    "conditionTypes": [
+      74
+    ],
+    "value": 0
+  },
+  {
+    "id": 53000,
+    "name": "",
     "conditionTypes": [
       75
     ],
     "value": 0
   },
   {
-    "id": 108,
-    "name": "ターゲットは攻撃対象である",
+    "id": 53001,
+    "name": "",
+    "conditionTypes": [
+      75
+    ],
+    "value": 1
+  },
+  {
+    "id": 53003,
+    "name": "",
+    "conditionTypes": [
+      75
+    ],
+    "value": 3
+  },
+  {
+    "id": 53004,
+    "name": "",
+    "conditionTypes": [
+      75
+    ],
+    "value": 4
+  },
+  {
+    "id": 53006,
+    "name": "",
+    "conditionTypes": [
+      75
+    ],
+    "value": 6
+  },
+  {
+    "id": 53010,
+    "name": "",
+    "conditionTypes": [
+      75
+    ],
+    "value": 10
+  },
+  {
+    "id": 53012,
+    "name": "",
+    "conditionTypes": [
+      75
+    ],
+    "value": 12
+  },
+  {
+    "id": 53014,
+    "name": "",
+    "conditionTypes": [
+      75
+    ],
+    "value": 14
+  },
+  {
+    "id": 53016,
+    "name": "",
+    "conditionTypes": [
+      75
+    ],
+    "value": 16
+  },
+  {
+    "id": 53017,
+    "name": "",
+    "conditionTypes": [
+      75
+    ],
+    "value": 17
+  },
+  {
+    "id": 53019,
+    "name": "",
+    "conditionTypes": [
+      75
+    ],
+    "value": 19
+  },
+  {
+    "id": 53024,
+    "name": "",
+    "conditionTypes": [
+      75
+    ],
+    "value": 24
+  },
+  {
+    "id": 53025,
+    "name": "",
+    "conditionTypes": [
+      75
+    ],
+    "value": 25
+  },
+  {
+    "id": 53028,
+    "name": "",
+    "conditionTypes": [
+      75
+    ],
+    "value": 28
+  },
+  {
+    "id": 53034,
+    "name": "",
+    "conditionTypes": [
+      75
+    ],
+    "value": 34
+  },
+  {
+    "id": 53039,
+    "name": "",
+    "conditionTypes": [
+      75
+    ],
+    "value": 39
+  },
+  {
+    "id": 53041,
+    "name": "",
+    "conditionTypes": [
+      75
+    ],
+    "value": 41
+  },
+  {
+    "id": 53044,
+    "name": "",
+    "conditionTypes": [
+      75
+    ],
+    "value": 44
+  },
+  {
+    "id": 53050,
+    "name": "",
+    "conditionTypes": [
+      75
+    ],
+    "value": 50
+  },
+  {
+    "id": 53051,
+    "name": "",
+    "conditionTypes": [
+      75
+    ],
+    "value": 51
+  },
+  {
+    "id": 53055,
+    "name": "",
+    "conditionTypes": [
+      75
+    ],
+    "value": 55
+  },
+  {
+    "id": 53056,
+    "name": "",
+    "conditionTypes": [
+      75
+    ],
+    "value": 56
+  },
+  {
+    "id": 53060,
+    "name": "",
+    "conditionTypes": [
+      75
+    ],
+    "value": 60
+  },
+  {
+    "id": 53061,
+    "name": "",
+    "conditionTypes": [
+      75
+    ],
+    "value": 61
+  },
+  {
+    "id": 53065,
+    "name": "",
+    "conditionTypes": [
+      75
+    ],
+    "value": 65
+  },
+  {
+    "id": 53072,
+    "name": "",
+    "conditionTypes": [
+      75
+    ],
+    "value": 72
+  },
+  {
+    "id": 53083,
+    "name": "",
+    "conditionTypes": [
+      75
+    ],
+    "value": 83
+  },
+  {
+    "id": 53084,
+    "name": "",
+    "conditionTypes": [
+      75
+    ],
+    "value": 84
+  },
+  {
+    "id": 53101,
+    "name": "",
+    "conditionTypes": [
+      75
+    ],
+    "value": 101
+  },
+  {
+    "id": 53104,
+    "name": "",
+    "conditionTypes": [
+      75
+    ],
+    "value": 104
+  },
+  {
+    "id": 53111,
+    "name": "",
+    "conditionTypes": [
+      75
+    ],
+    "value": 111
+  },
+  {
+    "id": 54000,
+    "name": "",
+    "conditionTypes": [
+      75
+    ],
+    "value": 0
+  },
+  {
+    "id": 55000,
+    "name": "",
     "conditionTypes": [
       76
     ],
     "value": 0
   },
   {
-    "id": 109,
-    "name": "ターゲットは攻撃対象でない",
+    "id": 56000,
+    "name": "",
     "conditionTypes": [
       77
     ],
     "value": 0
   },
   {
-    "id": 110,
-    "name": "ターゲットと隣接してる",
+    "id": 57000,
+    "name": "",
+    "conditionTypes": [
+      77
+    ],
+    "value": 0
+  },
+  {
+    "id": 58000,
+    "name": "",
     "conditionTypes": [
       78
     ],
     "value": 0
   },
   {
-    "id": 111,
-    "name": "ターゲットと隣接していない",
+    "id": 59000,
+    "name": "",
+    "conditionTypes": [
+      78
+    ],
+    "value": 0
+  },
+  {
+    "id": 60000,
+    "name": "",
     "conditionTypes": [
       79
     ],
     "value": 0
   },
   {
-    "id": 112,
-    "name": "移動によりターゲットとの距離が近づく",
+    "id": 61000,
+    "name": "",
+    "conditionTypes": [
+      79
+    ],
+    "value": 0
+  },
+  {
+    "id": 62000,
+    "name": "",
     "conditionTypes": [
       80
     ],
     "value": 0
   },
   {
-    "id": 113,
-    "name": "移動によりターゲットとの距離が離れる",
+    "id": 63000,
+    "name": "",
+    "conditionTypes": [
+      80
+    ],
+    "value": 0
+  },
+  {
+    "id": 64000,
+    "name": "",
+    "conditionTypes": [
+      80
+    ],
+    "value": 0
+  },
+  {
+    "id": 65000,
+    "name": "",
+    "conditionTypes": [
+      80
+    ],
+    "value": 0
+  },
+  {
+    "id": 66000,
+    "name": "",
+    "conditionTypes": [
+      80
+    ],
+    "value": 0
+  },
+  {
+    "id": 67000,
+    "name": "",
+    "conditionTypes": [
+      80
+    ],
+    "value": 0
+  },
+  {
+    "id": 68000,
+    "name": "",
+    "conditionTypes": [
+      80
+    ],
+    "value": 0
+  },
+  {
+    "id": 69000,
+    "name": "",
+    "conditionTypes": [
+      80
+    ],
+    "value": 0
+  },
+  {
+    "id": 70000,
+    "name": "",
     "conditionTypes": [
       81
     ],
     "value": 0
   },
   {
-    "id": 114,
-    "name": "移動によりターゲットとの距離が変わらない",
+    "id": 71000,
+    "name": "",
+    "conditionTypes": [
+      81
+    ],
+    "value": 0
+  },
+  {
+    "id": 72000,
+    "name": "",
     "conditionTypes": [
       82
     ],
     "value": 0
   },
   {
-    "id": 115,
-    "name": "ターゲットへの迂回ルートが許容範囲内である（＋3マス以内）",
+    "id": 73000,
+    "name": "",
+    "conditionTypes": [
+      82
+    ],
+    "value": 0
+  },
+  {
+    "id": 74003,
+    "name": "",
     "conditionTypes": [
       83
     ],
     "value": 3
   },
   {
-    "id": 116,
-    "name": "ターゲットへの迂回ルートが許容範囲内でない（＋3マスより遠い）",
+    "id": 75003,
+    "name": "",
+    "conditionTypes": [
+      83
+    ],
+    "value": 3
+  },
+  {
+    "id": 76003,
+    "name": "",
     "conditionTypes": [
       84
     ],
     "value": 3
   },
   {
-    "id": 117,
-    "name": "２番目の最短経路で移動によりターゲットとの距離が近づく",
+    "id": 77003,
+    "name": "",
     "conditionTypes": [
-      85
+      84
     ],
-    "value": 0
+    "value": 3
   },
   {
-    "id": 118,
-    "name": "２番目の最短経路で移動によりターゲットとの距離が離れる",
-    "conditionTypes": [
-      86
-    ],
-    "value": 0
-  },
-  {
-    "id": 119,
-    "name": "２番目の最短経路で移動によりターゲットとの距離が変わらない",
-    "conditionTypes": [
-      87
-    ],
-    "value": 0
-  },
-  {
-    "id": 120,
-    "name": "マスターと敵の最短距離の経路すべてに最低一人の味方サーヴァントがいる",
+    "id": 78000,
+    "name": "",
     "conditionTypes": [
       88
     ],
     "value": 0
   },
   {
-    "id": 121,
-    "name": "マスターと敵の最短距離の経路すべてに最低一人の味方サーヴァントがいない",
+    "id": 79000,
+    "name": "",
     "conditionTypes": [
       89
     ],
     "value": 0
   },
   {
-    "id": 122,
-    "name": "移動により、マスターと敵の最短距離の経路すべてに最低一人の味方サーヴァントがいる",
-    "conditionTypes": [
-      90
-    ],
-    "value": 0
-  },
-  {
-    "id": 123,
-    "name": "移動により、マスターと敵の最短距離の経路すべてに最低一人の味方サーヴァントがいない",
-    "conditionTypes": [
-      91
-    ],
-    "value": 0
-  },
-  {
-    "id": 124,
-    "name": "敵とマスターの最短ルート上にいる",
+    "id": 80000,
+    "name": "",
     "conditionTypes": [
       92
     ],
     "value": 0
   },
   {
-    "id": 125,
-    "name": "敵とマスターの最短ルート上にいない",
+    "id": 81000,
+    "name": "",
     "conditionTypes": [
       93
     ],
     "value": 0
   },
   {
-    "id": 126,
-    "name": "移動により、敵とマスターの最短ルート上に乗る",
+    "id": 82000,
+    "name": "",
     "conditionTypes": [
       94
     ],
     "value": 0
   },
   {
-    "id": 127,
-    "name": "移動により、敵とマスターの最短ルート上にのらない",
+    "id": 83000,
+    "name": "",
     "conditionTypes": [
       95
     ],
     "value": 0
   },
   {
-    "id": 128,
-    "name": "移動によりターゲットとの距離が離れるor変化しない",
-    "conditionTypes": [
-      81,
-      82
-    ],
-    "value": 0
-  },
-  {
-    "id": 129,
-    "name": "ターゲットへの最短経路上に敵がいる",
+    "id": 84000,
+    "name": "",
     "conditionTypes": [
       96
     ],
     "value": 0
   },
   {
-    "id": 130,
-    "name": "ターゲットへの最短経路上に敵がいない",
+    "id": 85000,
+    "name": "",
+    "conditionTypes": [
+      96
+    ],
+    "value": 0
+  },
+  {
+    "id": 86000,
+    "name": "",
     "conditionTypes": [
       97
     ],
     "value": 0
   },
   {
-    "id": 131,
-    "name": "２番目の最短経路で移動によりターゲットとの距離が離れるor変化しない",
+    "id": 87000,
+    "name": "",
     "conditionTypes": [
-      86,
-      87
+      97
     ],
     "value": 0
   },
   {
-    "id": 132,
-    "name": "3マス以内に敵がいる",
+    "id": 88003,
+    "name": "",
     "conditionTypes": [
       98
     ],
     "value": 3
   },
   {
-    "id": 133,
-    "name": "3マス以内に敵がいない",
+    "id": 89002,
+    "name": "",
+    "conditionTypes": [
+      98
+    ],
+    "value": 2
+  },
+  {
+    "id": 90003,
+    "name": "",
+    "conditionTypes": [
+      98
+    ],
+    "value": 3
+  },
+  {
+    "id": 91003,
+    "name": "",
+    "conditionTypes": [
+      98
+    ],
+    "value": 3
+  },
+  {
+    "id": 92002,
+    "name": "",
+    "conditionTypes": [
+      98
+    ],
+    "value": 2
+  },
+  {
+    "id": 93003,
+    "name": "",
     "conditionTypes": [
       99
     ],
     "value": 3
   },
   {
-    "id": 134,
-    "name": "この行動は当該キャラクターのターン内1回目の攻撃である",
+    "id": 94002,
+    "name": "",
+    "conditionTypes": [
+      99
+    ],
+    "value": 2
+  },
+  {
+    "id": 95003,
+    "name": "",
+    "conditionTypes": [
+      99
+    ],
+    "value": 3
+  },
+  {
+    "id": 96002,
+    "name": "",
+    "conditionTypes": [
+      99
+    ],
+    "value": 2
+  },
+  {
+    "id": 97001,
+    "name": "",
     "conditionTypes": [
       100
     ],
     "value": 1
   },
   {
-    "id": 135,
-    "name": "この行動は当該キャラクターのターン内2回目の攻撃である",
+    "id": 98002,
+    "name": "",
     "conditionTypes": [
       100
     ],
     "value": 2
   },
   {
-    "id": 136,
-    "name": "この行動は当該キャラクターのターン内3回目の攻撃である",
+    "id": 99003,
+    "name": "",
     "conditionTypes": [
       100
     ],
     "value": 3
   },
   {
-    "id": 137,
-    "name": "隣りマスに味方マスターがいる",
+    "id": 100000,
+    "name": "",
     "conditionTypes": [
       103
     ],
     "value": 0
   },
   {
-    "id": 138,
-    "name": "隣りマスに味方マスターがいない",
+    "id": 101000,
+    "name": "",
     "conditionTypes": [
       104
     ],
     "value": 0
   },
   {
-    "id": 139,
-    "name": "隣りマスに味方サーヴァントがいる",
+    "id": 102000,
+    "name": "",
     "conditionTypes": [
       105
     ],
     "value": 0
   },
   {
-    "id": 140,
-    "name": "隣りマスに味方サーヴァントがいない",
+    "id": 103000,
+    "name": "",
     "conditionTypes": [
       106
     ],
     "value": 0
   },
   {
-    "id": 141,
-    "name": "マスターの移動により敵との最短経路上にサーヴァントが置かれる",
+    "id": 104000,
+    "name": "",
     "conditionTypes": [
       107
     ],
     "value": 0
   },
   {
-    "id": 142,
-    "name": "マスターの移動により敵との最短経路上にサーヴァントが置かれない",
+    "id": 105000,
+    "name": "",
     "conditionTypes": [
       108
     ],
     "value": 0
   },
   {
-    "id": 143,
-    "name": "防衛エリア内のすべての敵との最短経路を味方サーヴァントが塞いでいる",
+    "id": 106000,
+    "name": "",
     "conditionTypes": [
       109
     ],
     "value": 0
   },
   {
-    "id": 144,
-    "name": "防衛エリア内のすべての敵との最短経路を味方サーヴァントが塞いでいない",
+    "id": 107000,
+    "name": "",
+    "conditionTypes": [
+      109
+    ],
+    "value": 0
+  },
+  {
+    "id": 108000,
+    "name": "",
     "conditionTypes": [
       110
     ],
     "value": 0
   },
   {
-    "id": 145,
-    "name": "ターゲットが味方",
+    "id": 109000,
+    "name": "",
+    "conditionTypes": [
+      110
+    ],
+    "value": 0
+  },
+  {
+    "id": 110000,
+    "name": "",
     "conditionTypes": [
       111
     ],
     "value": 0
   },
   {
-    "id": 146,
-    "name": "ターゲットが味方じゃない",
+    "id": 111000,
+    "name": "",
     "conditionTypes": [
       112
     ],
     "value": 0
   },
   {
-    "id": 147,
-    "name": "2マス以内に敵がいる",
+    "id": 112000,
+    "name": "",
     "conditionTypes": [
-      98
+      112
     ],
-    "value": 2
+    "value": 0
   },
   {
-    "id": 148,
-    "name": "2マス以内に敵がいない",
-    "conditionTypes": [
-      99
-    ],
-    "value": 2
-  },
-  {
-    "id": 149,
-    "name": "移動によりターゲットへの迂回ルートに乗る",
+    "id": 113000,
+    "name": "",
     "conditionTypes": [
       113
     ],
     "value": 0
   },
   {
-    "id": 150,
-    "name": "移動によりターゲットへの迂回ルートに乗らない",
+    "id": 114000,
+    "name": "",
+    "conditionTypes": [
+      113
+    ],
+    "value": 0
+  },
+  {
+    "id": 115000,
+    "name": "",
     "conditionTypes": [
       114
     ],
     "value": 0
   },
   {
-    "id": 151,
-    "name": "移動により敵マスターと最短距離が変化しない",
+    "id": 116000,
+    "name": "",
     "conditionTypes": [
-      67
+      114
     ],
     "value": 0
   },
   {
-    "id": 1001,
-    "name": "フィールドに当該サーヴァントの「ターゲット」が存在する＠1日目マスター狙い(1マス目)",
-    "conditionTypes": [
-      74
-    ],
-    "value": 1
-  },
-  {
-    "id": 1002,
-    "name": "フィールドに当該サーヴァントの「ターゲット」が存在しない＠1日目マスター狙い(1マス目)",
-    "conditionTypes": [
-      75
-    ],
-    "value": 1
-  },
-  {
-    "id": 1003,
-    "name": "フィールドに当該サーヴァントの「ターゲット」が存在する＠1日目攻撃力アップ狙い(39マス目)",
-    "conditionTypes": [
-      74
-    ],
-    "value": 39
-  },
-  {
-    "id": 1004,
-    "name": "フィールドに当該サーヴァントの「ターゲット」が存在しない＠1日目攻撃力アップ狙い(39マス目)",
-    "conditionTypes": [
-      75
-    ],
-    "value": 39
-  },
-  {
-    "id": 1005,
-    "name": "フィールドに当該サーヴァントの「ターゲット」が存在する＠4日目ベディヴィエールに追従(41マス目)",
-    "conditionTypes": [
-      74
-    ],
-    "value": 41
-  },
-  {
-    "id": 1006,
-    "name": "フィールドに当該サーヴァントの「ターゲット」が存在しない＠4日目ベディヴィエールに追従(41マス目)",
-    "conditionTypes": [
-      75
-    ],
-    "value": 41
-  },
-  {
-    "id": 1007,
-    "name": "フィールドに当該サーヴァントの「ターゲット」が存在する＠4日目ランスロット＠セイバーに追従(10マス目)",
-    "conditionTypes": [
-      74
-    ],
-    "value": 10
-  },
-  {
-    "id": 1008,
-    "name": "フィールドに当該サーヴァントの「ターゲット」が存在しない＠4日目ランスロット＠セイバーに追従(10マス目)",
-    "conditionTypes": [
-      75
-    ],
-    "value": 10
-  },
-  {
-    "id": 1009,
-    "name": "フィールドに当該サーヴァントの「ターゲット」が存在する＠4日目マスター狙い(5マス目)",
-    "conditionTypes": [
-      74
-    ],
-    "value": 5
-  },
-  {
-    "id": 1010,
-    "name": "フィールドに当該サーヴァントの「ターゲット」が存在しない＠4日目マスター狙い(5マス目)",
-    "conditionTypes": [
-      75
-    ],
-    "value": 5
-  },
-  {
-    "id": 1011,
-    "name": "フィールドに当該サーヴァントの「ターゲット」が存在する＠1日目岡田以蔵に追従(23マス目)",
-    "conditionTypes": [
-      74
-    ],
-    "value": 23
-  },
-  {
-    "id": 1012,
-    "name": "フィールドに当該サーヴァントの「ターゲット」が存在しない＠1日目岡田以蔵に追従(23マス目)",
-    "conditionTypes": [
-      75
-    ],
-    "value": 23
-  },
-  {
-    "id": 1013,
-    "name": "フィールドに当該サーヴァントの「ターゲット」が存在する＠5日目マスター狙い(1マス目)",
-    "conditionTypes": [
-      74
-    ],
-    "value": 1
-  },
-  {
-    "id": 1014,
-    "name": "フィールドに当該サーヴァントの「ターゲット」が存在しない＠5日目マスター狙い(1マス目)",
-    "conditionTypes": [
-      75
-    ],
-    "value": 1
-  },
-  {
-    "id": 1015,
-    "name": "フィールドに当該サーヴァントの「ターゲット」が存在する＠5日目アルテラに追従(24マス目)",
-    "conditionTypes": [
-      74
-    ],
-    "value": 24
-  },
-  {
-    "id": 1016,
-    "name": "フィールドに当該サーヴァントの「ターゲット」が存在しない＠5日目アルテラに追従(24マス目)",
-    "conditionTypes": [
-      75
-    ],
-    "value": 24
-  },
-  {
-    "id": 1017,
-    "name": "フィールドに当該サーヴァントの「ターゲット」が存在する＠5日目ディルムッド＠セイバーに追従(20マス目)",
-    "conditionTypes": [
-      74
-    ],
-    "value": 20
-  },
-  {
-    "id": 1018,
-    "name": "フィールドに当該サーヴァントの「ターゲット」が存在しない＠5日目ディルムッド＠セイバーに追従(20マス目)",
-    "conditionTypes": [
-      75
-    ],
-    "value": 20
-  },
-  {
-    "id": 1019,
-    "name": "フィールドに当該サーヴァントの「ターゲット」が存在する＠6日目マスター狙い(29マス目)",
-    "conditionTypes": [
-      74
-    ],
-    "value": 29
-  },
-  {
-    "id": 1020,
-    "name": "フィールドに当該サーヴァントの「ターゲット」が存在しない＠6日目マスター狙い(29マス目)",
-    "conditionTypes": [
-      75
-    ],
-    "value": 29
-  },
-  {
-    "id": 1021,
-    "name": "フィールドに当該サーヴァントの「ターゲット」が存在する＠6日目アレキサンダーに追従(43マス目)",
-    "conditionTypes": [
-      74
-    ],
-    "value": 43
-  },
-  {
-    "id": 1022,
-    "name": "フィールドに当該サーヴァントの「ターゲット」が存在しない＠6日目アレキサンダーに追従(43マス目)",
-    "conditionTypes": [
-      75
-    ],
-    "value": 43
-  },
-  {
-    "id": 1023,
-    "name": "フィールドに当該サーヴァントの「ターゲット」が存在する＠6日目牛若丸に追従(52マス目)",
-    "conditionTypes": [
-      74
-    ],
-    "value": 52
-  },
-  {
-    "id": 1024,
-    "name": "フィールドに当該サーヴァントの「ターゲット」が存在しない＠6日目牛若丸に追従(52マス目)",
-    "conditionTypes": [
-      75
-    ],
-    "value": 52
-  },
-  {
-    "id": 1025,
-    "name": "フィールドに当該サーヴァントの「ターゲット」が存在する＠7日目マスター狙い(1マス目)",
-    "conditionTypes": [
-      74
-    ],
-    "value": 1
-  },
-  {
-    "id": 1026,
-    "name": "フィールドに当該サーヴァントの「ターゲット」が存在しない＠7日目マスター狙い(1マス目)",
-    "conditionTypes": [
-      75
-    ],
-    "value": 1
-  },
-  {
-    "id": 1027,
-    "name": "フィールドに当該サーヴァントの「ターゲット」が存在する＠7日目ロムルス＝クィリヌスに追従(21マス目)",
-    "conditionTypes": [
-      74
-    ],
-    "value": 21
-  },
-  {
-    "id": 1028,
-    "name": "フィールドに当該サーヴァントの「ターゲット」が存在しない＠7日目ロムルス＝クィリヌスに追従(21マス目)",
-    "conditionTypes": [
-      75
-    ],
-    "value": 21
-  },
-  {
-    "id": 1029,
-    "name": "フィールドに当該サーヴァントの「ターゲット」が存在する＠2日目クリ威力UP狙い(43マス目)",
-    "conditionTypes": [
-      74
-    ],
-    "value": 43
-  },
-  {
-    "id": 1030,
-    "name": "フィールドに当該サーヴァントの「ターゲット」が存在しない＠2日目クリ威力UP狙い(43マス目)",
-    "conditionTypes": [
-      75
-    ],
-    "value": 43
-  },
-  {
-    "id": 1031,
-    "name": "フィールドに当該サーヴァントの「ターゲット」が存在する＠5日目無敵貫通狙い(39マス目)",
-    "conditionTypes": [
-      74
-    ],
-    "value": 39
-  },
-  {
-    "id": 1032,
-    "name": "フィールドに当該サーヴァントの「ターゲット」が存在しない＠5日目無敵貫通狙い(39マス目)",
-    "conditionTypes": [
-      75
-    ],
-    "value": 39
-  },
-  {
-    "id": 1033,
-    "name": "フィールドに当該サーヴァントの「ターゲット」が存在する＠6日目Arts狙い(37マス目)",
-    "conditionTypes": [
-      74
-    ],
-    "value": 37
-  },
-  {
-    "id": 1034,
-    "name": "フィールドに当該サーヴァントの「ターゲット」が存在しない＠6日目Arts狙い(37マス目)",
-    "conditionTypes": [
-      75
-    ],
-    "value": 37
-  },
-  {
-    "id": 20100000,
+    "id": 117000,
     "name": "",
     "conditionTypes": [
       115
@@ -1510,7 +1416,15 @@
     "value": 0
   },
   {
-    "id": 20200000,
+    "id": 118000,
+    "name": "",
+    "conditionTypes": [
+      115
+    ],
+    "value": 0
+  },
+  {
+    "id": 119000,
     "name": "",
     "conditionTypes": [
       116
@@ -1518,559 +1432,15 @@
     "value": 0
   },
   {
-    "id": 20300000,
+    "id": 120000,
     "name": "",
     "conditionTypes": [
-      117
+      116
     ],
     "value": 0
   },
   {
-    "id": 20400001,
-    "name": "",
-    "conditionTypes": [
-      71
-    ],
-    "value": 1
-  },
-  {
-    "id": 20500002,
-    "name": "",
-    "conditionTypes": [
-      71
-    ],
-    "value": 2
-  },
-  {
-    "id": 20600003,
-    "name": "",
-    "conditionTypes": [
-      71
-    ],
-    "value": 3
-  },
-  {
-    "id": 20700001,
-    "name": "",
-    "conditionTypes": [
-      100
-    ],
-    "value": 1
-  },
-  {
-    "id": 20800002,
-    "name": "",
-    "conditionTypes": [
-      100
-    ],
-    "value": 2
-  },
-  {
-    "id": 20900003,
-    "name": "",
-    "conditionTypes": [
-      100
-    ],
-    "value": 3
-  },
-  {
-    "id": 21000000,
-    "name": "",
-    "conditionTypes": [
-      1
-    ],
-    "value": 0
-  },
-  {
-    "id": 21100000,
-    "name": "",
-    "conditionTypes": [
-      68
-    ],
-    "value": 0
-  },
-  {
-    "id": 21200000,
-    "name": "",
-    "conditionTypes": [
-      68
-    ],
-    "value": 0
-  },
-  {
-    "id": 21300000,
-    "name": "",
-    "conditionTypes": [
-      69
-    ],
-    "value": 0
-  },
-  {
-    "id": 21400000,
-    "name": "",
-    "conditionTypes": [
-      74
-    ],
-    "value": 0
-  },
-  {
-    "id": 21400001,
-    "name": "",
-    "conditionTypes": [
-      74
-    ],
-    "value": 1
-  },
-  {
-    "id": 21400011,
-    "name": "",
-    "conditionTypes": [
-      74
-    ],
-    "value": 11
-  },
-  {
-    "id": 21400014,
-    "name": "",
-    "conditionTypes": [
-      74
-    ],
-    "value": 14
-  },
-  {
-    "id": 21400017,
-    "name": "",
-    "conditionTypes": [
-      74
-    ],
-    "value": 17
-  },
-  {
-    "id": 21400020,
-    "name": "",
-    "conditionTypes": [
-      74
-    ],
-    "value": 20
-  },
-  {
-    "id": 21400035,
-    "name": "",
-    "conditionTypes": [
-      74
-    ],
-    "value": 35
-  },
-  {
-    "id": 21400036,
-    "name": "",
-    "conditionTypes": [
-      74
-    ],
-    "value": 36
-  },
-  {
-    "id": 21400037,
-    "name": "",
-    "conditionTypes": [
-      74
-    ],
-    "value": 37
-  },
-  {
-    "id": 21400042,
-    "name": "",
-    "conditionTypes": [
-      74
-    ],
-    "value": 42
-  },
-  {
-    "id": 21400053,
-    "name": "",
-    "conditionTypes": [
-      74
-    ],
-    "value": 53
-  },
-  {
-    "id": 21500000,
-    "name": "",
-    "conditionTypes": [
-      76
-    ],
-    "value": 0
-  },
-  {
-    "id": 21600000,
-    "name": "",
-    "conditionTypes": [
-      77
-    ],
-    "value": 0
-  },
-  {
-    "id": 21700000,
-    "name": "",
-    "conditionTypes": [
-      75
-    ],
-    "value": 0
-  },
-  {
-    "id": 21700001,
-    "name": "",
-    "conditionTypes": [
-      75
-    ],
-    "value": 1
-  },
-  {
-    "id": 21700011,
-    "name": "",
-    "conditionTypes": [
-      75
-    ],
-    "value": 11
-  },
-  {
-    "id": 21700014,
-    "name": "",
-    "conditionTypes": [
-      75
-    ],
-    "value": 14
-  },
-  {
-    "id": 21700017,
-    "name": "",
-    "conditionTypes": [
-      75
-    ],
-    "value": 17
-  },
-  {
-    "id": 21700020,
-    "name": "",
-    "conditionTypes": [
-      75
-    ],
-    "value": 20
-  },
-  {
-    "id": 21700035,
-    "name": "",
-    "conditionTypes": [
-      75
-    ],
-    "value": 35
-  },
-  {
-    "id": 21700036,
-    "name": "",
-    "conditionTypes": [
-      75
-    ],
-    "value": 36
-  },
-  {
-    "id": 21700037,
-    "name": "",
-    "conditionTypes": [
-      75
-    ],
-    "value": 37
-  },
-  {
-    "id": 21700042,
-    "name": "",
-    "conditionTypes": [
-      75
-    ],
-    "value": 42
-  },
-  {
-    "id": 21700053,
-    "name": "",
-    "conditionTypes": [
-      75
-    ],
-    "value": 53
-  },
-  {
-    "id": 22000000,
-    "name": "",
-    "conditionTypes": [
-      78
-    ],
-    "value": 0
-  },
-  {
-    "id": 22100000,
-    "name": "",
-    "conditionTypes": [
-      80
-    ],
-    "value": 0
-  },
-  {
-    "id": 22200000,
-    "name": "",
-    "conditionTypes": [
-      82
-    ],
-    "value": 0
-  },
-  {
-    "id": 22300000,
-    "name": "",
-    "conditionTypes": [
-      81
-    ],
-    "value": 0
-  },
-  {
-    "id": 22400000,
-    "name": "",
-    "conditionTypes": [
-      79
-    ],
-    "value": 0
-  },
-  {
-    "id": 22500000,
-    "name": "",
-    "conditionTypes": [
-      96
-    ],
-    "value": 0
-  },
-  {
-    "id": 22600003,
-    "name": "",
-    "conditionTypes": [
-      83
-    ],
-    "value": 3
-  },
-  {
-    "id": 22700000,
-    "name": "",
-    "conditionTypes": [
-      113
-    ],
-    "value": 0
-  },
-  {
-    "id": 22800000,
-    "name": "",
-    "conditionTypes": [
-      122
-    ],
-    "value": 0
-  },
-  {
-    "id": 22900000,
-    "name": "",
-    "conditionTypes": [
-      124
-    ],
-    "value": 0
-  },
-  {
-    "id": 23000000,
-    "name": "",
-    "conditionTypes": [
-      123
-    ],
-    "value": 0
-  },
-  {
-    "id": 23100000,
-    "name": "",
-    "conditionTypes": [
-      114
-    ],
-    "value": 0
-  },
-  {
-    "id": 23200003,
-    "name": "",
-    "conditionTypes": [
-      84
-    ],
-    "value": 3
-  },
-  {
-    "id": 23300003,
-    "name": "",
-    "conditionTypes": [
-      98
-    ],
-    "value": 3
-  },
-  {
-    "id": 23400000,
-    "name": "",
-    "conditionTypes": [
-      28
-    ],
-    "value": 0
-  },
-  {
-    "id": 23500000,
-    "name": "",
-    "conditionTypes": [
-      30
-    ],
-    "value": 0
-  },
-  {
-    "id": 23600000,
-    "name": "",
-    "conditionTypes": [
-      29
-    ],
-    "value": 0
-  },
-  {
-    "id": 23700003,
-    "name": "",
-    "conditionTypes": [
-      99
-    ],
-    "value": 3
-  },
-  {
-    "id": 23800000,
-    "name": "",
-    "conditionTypes": [
-      6
-    ],
-    "value": 0
-  },
-  {
-    "id": 24200000,
-    "name": "",
-    "conditionTypes": [
-      5
-    ],
-    "value": 0
-  },
-  {
-    "id": 24300000,
-    "name": "",
-    "conditionTypes": [
-      97
-    ],
-    "value": 0
-  },
-  {
-    "id": 24900000,
-    "name": "",
-    "conditionTypes": [
-      77
-    ],
-    "value": 0
-  },
-  {
-    "id": 25000000,
-    "name": "",
-    "conditionTypes": [
-      112
-    ],
-    "value": 0
-  },
-  {
-    "id": 25200000,
-    "name": "",
-    "conditionTypes": [
-      80
-    ],
-    "value": 0
-  },
-  {
-    "id": 25210000,
-    "name": "",
-    "conditionTypes": [
-      80
-    ],
-    "value": 0
-  },
-  {
-    "id": 25220000,
-    "name": "",
-    "conditionTypes": [
-      80
-    ],
-    "value": 0
-  },
-  {
-    "id": 25910000,
-    "name": "",
-    "conditionTypes": [
-      122
-    ],
-    "value": 0
-  },
-  {
-    "id": 25920000,
-    "name": "",
-    "conditionTypes": [
-      122
-    ],
-    "value": 0
-  },
-  {
-    "id": 26510000,
-    "name": "",
-    "conditionTypes": [
-      28
-    ],
-    "value": 0
-  },
-  {
-    "id": 27010000,
-    "name": "",
-    "conditionTypes": [
-      80
-    ],
-    "value": 0
-  },
-  {
-    "id": 27020000,
-    "name": "",
-    "conditionTypes": [
-      80
-    ],
-    "value": 0
-  },
-  {
-    "id": 28000000,
-    "name": "",
-    "conditionTypes": [
-      111
-    ],
-    "value": 0
-  },
-  {
-    "id": 28100002,
-    "name": "",
-    "conditionTypes": [
-      98
-    ],
-    "value": 2
-  },
-  {
-    "id": 28500002,
-    "name": "",
-    "conditionTypes": [
-      99
-    ],
-    "value": 2
-  },
-  {
-    "id": 31600000,
+    "id": 121000,
     "name": "",
     "conditionTypes": [
       115,
@@ -2079,487 +1449,16 @@
     "value": 0
   },
   {
-    "id": 31800000,
+    "id": 122000,
     "name": "",
     "conditionTypes": [
-      19
-    ],
-    "value": 0
-  },
-  {
-    "id": 31900000,
-    "name": "",
-    "conditionTypes": [
-      34
-    ],
-    "value": 0
-  },
-  {
-    "id": 32000000,
-    "name": "",
-    "conditionTypes": [
-      36
-    ],
-    "value": 0
-  },
-  {
-    "id": 32100000,
-    "name": "",
-    "conditionTypes": [
-      35
-    ],
-    "value": 0
-  },
-  {
-    "id": 32200000,
-    "name": "",
-    "conditionTypes": [
-      20
-    ],
-    "value": 0
-  },
-  {
-    "id": 32300000,
-    "name": "",
-    "conditionTypes": [
-      43
-    ],
-    "value": 0
-  },
-  {
-    "id": 32400000,
-    "name": "",
-    "conditionTypes": [
-      51
-    ],
-    "value": 0
-  },
-  {
-    "id": 32500000,
-    "name": "",
-    "conditionTypes": [
-      53
-    ],
-    "value": 0
-  },
-  {
-    "id": 32600000,
-    "name": "",
-    "conditionTypes": [
-      52
-    ],
-    "value": 0
-  },
-  {
-    "id": 32700000,
-    "name": "",
-    "conditionTypes": [
-      44
-    ],
-    "value": 0
-  },
-  {
-    "id": 32800000,
-    "name": "",
-    "conditionTypes": [
-      49
-    ],
-    "value": 0
-  },
-  {
-    "id": 32900000,
-    "name": "",
-    "conditionTypes": [
-      60
-    ],
-    "value": 0
-  },
-  {
-    "id": 33000000,
-    "name": "",
-    "conditionTypes": [
-      62
-    ],
-    "value": 0
-  },
-  {
-    "id": 33100000,
-    "name": "",
-    "conditionTypes": [
-      61
-    ],
-    "value": 0
-  },
-  {
-    "id": 33200000,
-    "name": "",
-    "conditionTypes": [
-      50
-    ],
-    "value": 0
-  },
-  {
-    "id": 33600003,
-    "name": "",
-    "conditionTypes": [
-      98
-    ],
-    "value": 3
-  },
-  {
-    "id": 34000000,
-    "name": "",
-    "conditionTypes": [
-      49
-    ],
-    "value": 0
-  },
-  {
-    "id": 34100000,
-    "name": "",
-    "conditionTypes": [
-      60
-    ],
-    "value": 0
-  },
-  {
-    "id": 34200000,
-    "name": "",
-    "conditionTypes": [
-      62
-    ],
-    "value": 0
-  },
-  {
-    "id": 34300000,
-    "name": "",
-    "conditionTypes": [
-      61
-    ],
-    "value": 0
-  },
-  {
-    "id": 34400000,
-    "name": "",
-    "conditionTypes": [
-      74
-    ],
-    "value": 0
-  },
-  {
-    "id": 34400039,
-    "name": "",
-    "conditionTypes": [
-      74
-    ],
-    "value": 39
-  },
-  {
-    "id": 34500000,
-    "name": "",
-    "conditionTypes": [
-      112
-    ],
-    "value": 0
-  },
-  {
-    "id": 34600000,
-    "name": "",
-    "conditionTypes": [
-      78
-    ],
-    "value": 0
-  },
-  {
-    "id": 34610003,
-    "name": "",
-    "conditionTypes": [
-      99
-    ],
-    "value": 3
-  },
-  {
-    "id": 34700000,
-    "name": "",
-    "conditionTypes": [
-      80
-    ],
-    "value": 0
-  },
-  {
-    "id": 34800000,
-    "name": "",
-    "conditionTypes": [
-      82
-    ],
-    "value": 0
-  },
-  {
-    "id": 34900000,
-    "name": "",
-    "conditionTypes": [
-      81
-    ],
-    "value": 0
-  },
-  {
-    "id": 34910003,
-    "name": "",
-    "conditionTypes": [
-      98
-    ],
-    "value": 3
-  },
-  {
-    "id": 35000000,
-    "name": "",
-    "conditionTypes": [
-      79
-    ],
-    "value": 0
-  },
-  {
-    "id": 35100000,
-    "name": "",
-    "conditionTypes": [
-      96
-    ],
-    "value": 0
-  },
-  {
-    "id": 35200003,
-    "name": "",
-    "conditionTypes": [
-      83
-    ],
-    "value": 3
-  },
-  {
-    "id": 35300000,
-    "name": "",
-    "conditionTypes": [
-      113
-    ],
-    "value": 0
-  },
-  {
-    "id": 35400000,
-    "name": "",
-    "conditionTypes": [
-      122
-    ],
-    "value": 0
-  },
-  {
-    "id": 35500000,
-    "name": "",
-    "conditionTypes": [
-      124
-    ],
-    "value": 0
-  },
-  {
-    "id": 35600000,
-    "name": "",
-    "conditionTypes": [
-      123
-    ],
-    "value": 0
-  },
-  {
-    "id": 35700000,
-    "name": "",
-    "conditionTypes": [
-      114
-    ],
-    "value": 0
-  },
-  {
-    "id": 35800003,
-    "name": "",
-    "conditionTypes": [
-      84
-    ],
-    "value": 3
-  },
-  {
-    "id": 36000000,
-    "name": "",
-    "conditionTypes": [
-      6
-    ],
-    "value": 0
-  },
-  {
-    "id": 36100000,
-    "name": "",
-    "conditionTypes": [
-      80
-    ],
-    "value": 0
-  },
-  {
-    "id": 36400000,
-    "name": "",
-    "conditionTypes": [
-      5
-    ],
-    "value": 0
-  },
-  {
-    "id": 36500000,
-    "name": "",
-    "conditionTypes": [
-      97
-    ],
-    "value": 0
-  },
-  {
-    "id": 37100000,
-    "name": "",
-    "conditionTypes": [
-      7
-    ],
-    "value": 0
-  },
-  {
-    "id": 37600000,
-    "name": "",
-    "conditionTypes": [
-      110
-    ],
-    "value": 0
-  },
-  {
-    "id": 37700000,
-    "name": "",
-    "conditionTypes": [
-      103
-    ],
-    "value": 0
-  },
-  {
-    "id": 37800000,
-    "name": "",
-    "conditionTypes": [
-      93
-    ],
-    "value": 0
-  },
-  {
-    "id": 37900000,
-    "name": "",
-    "conditionTypes": [
-      94
-    ],
-    "value": 0
-  },
-  {
-    "id": 38000000,
-    "name": "",
-    "conditionTypes": [
-      6
-    ],
-    "value": 0
-  },
-  {
-    "id": 38100000,
-    "name": "",
-    "conditionTypes": [
-      121
-    ],
-    "value": 0
-  },
-  {
-    "id": 38200000,
-    "name": "",
-    "conditionTypes": [
-      32
-    ],
-    "value": 0
-  },
-  {
-    "id": 38300000,
-    "name": "",
-    "conditionTypes": [
-      33
-    ],
-    "value": 0
-  },
-  {
-    "id": 38400000,
-    "name": "",
-    "conditionTypes": [
-      31
-    ],
-    "value": 0
-  },
-  {
-    "id": 38500000,
-    "name": "",
-    "conditionTypes": [
-      120
-    ],
-    "value": 0
-  },
-  {
-    "id": 38600000,
-    "name": "",
-    "conditionTypes": [
-      5
-    ],
-    "value": 0
-  },
-  {
-    "id": 38700000,
-    "name": "",
-    "conditionTypes": [
-      95
-    ],
-    "value": 0
-  },
-  {
-    "id": 38800000,
-    "name": "",
-    "conditionTypes": [
-      92
-    ],
-    "value": 0
-  },
-  {
-    "id": 38900000,
-    "name": "",
-    "conditionTypes": [
-      104
-    ],
-    "value": 0
-  },
-  {
-    "id": 41700000,
-    "name": "",
-    "conditionTypes": [
-      109
-    ],
-    "value": 0
-  },
-  {
-    "id": 47410000,
-    "name": "",
-    "conditionTypes": [
-      115
-    ],
-    "value": 0
-  },
-  {
-    "id": 47420000,
-    "name": "",
-    "conditionTypes": [
+      115,
       116
     ],
     "value": 0
   },
   {
-    "id": 47430000,
+    "id": 123000,
     "name": "",
     "conditionTypes": [
       117
@@ -2567,79 +1466,15 @@
     "value": 0
   },
   {
-    "id": 48500000,
+    "id": 124000,
     "name": "",
     "conditionTypes": [
-      110
+      117
     ],
     "value": 0
   },
   {
-    "id": 48600002,
-    "name": "",
-    "conditionTypes": [
-      99
-    ],
-    "value": 2
-  },
-  {
-    "id": 48700000,
-    "name": "",
-    "conditionTypes": [
-      89
-    ],
-    "value": 0
-  },
-  {
-    "id": 48800000,
-    "name": "",
-    "conditionTypes": [
-      105
-    ],
-    "value": 0
-  },
-  {
-    "id": 48900000,
-    "name": "",
-    "conditionTypes": [
-      107
-    ],
-    "value": 0
-  },
-  {
-    "id": 49000000,
-    "name": "",
-    "conditionTypes": [
-      121
-    ],
-    "value": 0
-  },
-  {
-    "id": 49100000,
-    "name": "",
-    "conditionTypes": [
-      26
-    ],
-    "value": 0
-  },
-  {
-    "id": 49200000,
-    "name": "",
-    "conditionTypes": [
-      27
-    ],
-    "value": 0
-  },
-  {
-    "id": 49300000,
-    "name": "",
-    "conditionTypes": [
-      25
-    ],
-    "value": 0
-  },
-  {
-    "id": 49400000,
+    "id": 125000,
     "name": "",
     "conditionTypes": [
       120
@@ -2647,191 +1482,15 @@
     "value": 0
   },
   {
-    "id": 49500000,
+    "id": 126000,
     "name": "",
     "conditionTypes": [
-      108
+      120
     ],
     "value": 0
   },
   {
-    "id": 50100000,
-    "name": "",
-    "conditionTypes": [
-      106
-    ],
-    "value": 0
-  },
-  {
-    "id": 51400000,
-    "name": "",
-    "conditionTypes": [
-      88
-    ],
-    "value": 0
-  },
-  {
-    "id": 54100002,
-    "name": "",
-    "conditionTypes": [
-      98
-    ],
-    "value": 2
-  },
-  {
-    "id": 54500000,
-    "name": "",
-    "conditionTypes": [
-      66
-    ],
-    "value": 0
-  },
-  {
-    "id": 54600000,
-    "name": "",
-    "conditionTypes": [
-      67
-    ],
-    "value": 0
-  },
-  {
-    "id": 54700000,
-    "name": "",
-    "conditionTypes": [
-      65
-    ],
-    "value": 0
-  },
-  {
-    "id": 55000000,
-    "name": "",
-    "conditionTypes": [
-      109
-    ],
-    "value": 0
-  },
-  {
-    "id": 55300000,
-    "name": "",
-    "conditionTypes": [
-      26
-    ],
-    "value": 0
-  },
-  {
-    "id": 55400000,
-    "name": "",
-    "conditionTypes": [
-      27
-    ],
-    "value": 0
-  },
-  {
-    "id": 55500000,
-    "name": "",
-    "conditionTypes": [
-      25
-    ],
-    "value": 0
-  },
-  {
-    "id": 55800000,
-    "name": "",
-    "conditionTypes": [
-      8
-    ],
-    "value": 0
-  },
-  {
-    "id": 56510000,
-    "name": "",
-    "conditionTypes": [
-      75
-    ],
-    "value": 0
-  },
-  {
-    "id": 56510039,
-    "name": "",
-    "conditionTypes": [
-      74
-    ],
-    "value": 39
-  },
-  {
-    "id": 91300000,
-    "name": "",
-    "conditionTypes": [
-      74
-    ],
-    "value": 0
-  },
-  {
-    "id": 91300003,
-    "name": "",
-    "conditionTypes": [
-      74
-    ],
-    "value": 3
-  },
-  {
-    "id": 91300021,
-    "name": "",
-    "conditionTypes": [
-      74
-    ],
-    "value": 21
-  },
-  {
-    "id": 91300026,
-    "name": "",
-    "conditionTypes": [
-      74
-    ],
-    "value": 26
-  },
-  {
-    "id": 91300034,
-    "name": "",
-    "conditionTypes": [
-      74
-    ],
-    "value": 34
-  },
-  {
-    "id": 91300039,
-    "name": "",
-    "conditionTypes": [
-      74
-    ],
-    "value": 39
-  },
-  {
-    "id": 91300042,
-    "name": "",
-    "conditionTypes": [
-      74
-    ],
-    "value": 42
-  },
-  {
-    "id": 91300051,
-    "name": "",
-    "conditionTypes": [
-      74
-    ],
-    "value": 51
-  },
-  {
-    "id": 91300053,
-    "name": "",
-    "conditionTypes": [
-      74
-    ],
-    "value": 53
-  },
-  {
-    "id": 93700000,
+    "id": 127000,
     "name": "",
     "conditionTypes": [
       121
@@ -2839,10 +1498,170 @@
     "value": 0
   },
   {
-    "id": 94100000,
+    "id": 128000,
     "name": "",
     "conditionTypes": [
-      120
+      121
+    ],
+    "value": 0
+  },
+  {
+    "id": 129000,
+    "name": "",
+    "conditionTypes": [
+      122
+    ],
+    "value": 0
+  },
+  {
+    "id": 130000,
+    "name": "",
+    "conditionTypes": [
+      122
+    ],
+    "value": 0
+  },
+  {
+    "id": 131000,
+    "name": "",
+    "conditionTypes": [
+      122
+    ],
+    "value": 0
+  },
+  {
+    "id": 132000,
+    "name": "",
+    "conditionTypes": [
+      122
+    ],
+    "value": 0
+  },
+  {
+    "id": 133000,
+    "name": "",
+    "conditionTypes": [
+      123
+    ],
+    "value": 0
+  },
+  {
+    "id": 134000,
+    "name": "",
+    "conditionTypes": [
+      123
+    ],
+    "value": 0
+  },
+  {
+    "id": 135000,
+    "name": "",
+    "conditionTypes": [
+      124
+    ],
+    "value": 0
+  },
+  {
+    "id": 136000,
+    "name": "",
+    "conditionTypes": [
+      124
+    ],
+    "value": 0
+  },
+  {
+    "id": 137000,
+    "name": "",
+    "conditionTypes": [
+      125
+    ],
+    "value": 0
+  },
+  {
+    "id": 138000,
+    "name": "",
+    "conditionTypes": [
+      126
+    ],
+    "value": 0
+  },
+  {
+    "id": 139000,
+    "name": "",
+    "conditionTypes": [
+      125
+    ],
+    "value": 0
+  },
+  {
+    "id": 140000,
+    "name": "",
+    "conditionTypes": [
+      126
+    ],
+    "value": 0
+  },
+  {
+    "id": 141000,
+    "name": "",
+    "conditionTypes": [
+      74
+    ],
+    "value": 0
+  },
+  {
+    "id": 142000,
+    "name": "",
+    "conditionTypes": [
+      1
+    ],
+    "value": 0
+  },
+  {
+    "id": 143000,
+    "name": "",
+    "conditionTypes": [
+      2
+    ],
+    "value": 0
+  },
+  {
+    "id": 144000,
+    "name": "",
+    "conditionTypes": [
+      69
+    ],
+    "value": 0
+  },
+  {
+    "id": 145000,
+    "name": "",
+    "conditionTypes": [
+      29
+    ],
+    "value": 0
+  },
+  {
+    "id": 146000,
+    "name": "",
+    "conditionTypes": [
+      30
+    ],
+    "value": 0
+  },
+  {
+    "id": 147000,
+    "name": "",
+    "conditionTypes": [
+      28
+    ],
+    "value": 0
+  },
+  {
+    "id": 148000,
+    "name": "",
+    "conditionTypes": [
+      74
     ],
     "value": 0
   }

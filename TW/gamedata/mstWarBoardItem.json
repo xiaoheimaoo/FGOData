@@ -290,5 +290,37 @@
     "updatedAt": 0,
     "createdAt": 0,
     "iconId": 351
+  },
+  {
+    "id": 94071401,
+    "name": "傷害減免",
+    "effectName": "賦予獲得從者傷害減免1000的狀態(1回合)",
+    "funcId": [
+      274
+    ],
+    "svals": [
+      "[1000,1,-1,1000]"
+    ],
+    "evalValue": 500,
+    "timing": 0,
+    "updatedAt": 0,
+    "createdAt": 0,
+    "iconId": 301
+  },
+  {
+    "id": 94071402,
+    "name": "BB老虎機",
+    "effectName": "賦予獲得從者「登場時，自身的攻擊力・爆擊威力・寶具威力其中之一提升50%(3回合)」的狀態(1次)",
+    "funcId": [
+      8812
+    ],
+    "svals": [
+      "[1000,-1,1,967956,Value2:1,ShowState:1,ForceAddState:1]"
+    ],
+    "evalValue": 500,
+    "timing": 0,
+    "updatedAt": 0,
+    "createdAt": 0,
+    "iconId": 1000001
   }
 ]

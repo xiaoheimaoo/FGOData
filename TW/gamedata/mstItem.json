@@ -1,15 +1,15 @@
 [
   {
     "bgImageId": 0,
-    "detail": "【強化資源】\n實質為QP的碎片。\n包含著多種可能性的靈子變動。\n在各種魔術中被作為燃料使用。",
-    "dropPriority": 511,
+    "detail": "【強化資源】\n實質為量子的碎片。\n包含著多種可能性的靈子變動。\n在各種魔術中被作為燃料使用。",
+    "dropPriority": 513,
     "endedAt": "1910880000",
     "id": 1,
     "imageId": 5,
     "individuality": [],
     "isSell": false,
     "name": "QP",
-    "priority": 11,
+    "priority": 13,
     "script": "",
     "sellQp": -1,
     "startedAt": "946656000",
@@ -56,14 +56,14 @@
   {
     "bgImageId": 0,
     "detail": "友情的證明",
-    "dropPriority": 9012,
+    "dropPriority": 9014,
     "endedAt": "1910880000",
     "id": 4,
     "imageId": 12,
     "individuality": [],
     "isSell": false,
     "name": "友情點數",
-    "priority": 12,
+    "priority": 14,
     "script": "",
     "sellQp": -1,
     "startedAt": "946656000",
@@ -73,15 +73,15 @@
   },
   {
     "bgImageId": 4,
-    "detail": "【強化資源】\n實質為QP的碎片。\n包含著多種可能性的靈子變動。\n在各種魔術中被作為燃料使用。",
-    "dropPriority": 9013,
+    "detail": "【強化資源】\n實質為量子的碎片。\n包含著多種可能性的靈子變動。\n在各種魔術中被作為燃料使用。",
+    "dropPriority": 9015,
     "endedAt": "1910880000",
     "id": 5,
     "imageId": 5,
     "individuality": [],
     "isSell": false,
     "name": "任務通關獎勵QP",
-    "priority": 13,
+    "priority": 15,
     "script": "",
     "sellQp": -1,
     "startedAt": "946656000",
@@ -186,6 +186,24 @@
     "value": 0
   },
   {
+    "bgImageId": 2,
+    "detail": "【兌換道具】\n精煉度更高的瑪那結晶體。",
+    "dropPriority": 6004,
+    "endedAt": "1893427200",
+    "id": 46,
+    "imageId": 46,
+    "individuality": [],
+    "isSell": false,
+    "name": "純淨稜鏡",
+    "priority": 4,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1698076800",
+    "type": 31,
+    "unit": "",
+    "value": 0
+  },
+  {
     "bgImageId": 1,
     "detail": "？？？",
     "dropPriority": 2099,
@@ -206,14 +224,14 @@
   {
     "bgImageId": 3,
     "detail": "【AP恢復道具】\n恢復100%AP。",
-    "dropPriority": 9010,
+    "dropPriority": 9012,
     "endedAt": "1910880000",
     "id": 100,
     "imageId": 100,
     "individuality": [],
     "isSell": false,
     "name": "黃金果實",
-    "priority": 10,
+    "priority": 12,
     "script": "",
     "sellQp": -1,
     "startedAt": "946656000",
@@ -224,14 +242,14 @@
   {
     "bgImageId": 2,
     "detail": "【AP恢復道具】\n恢復50%AP。",
-    "dropPriority": 9009,
+    "dropPriority": 9011,
     "endedAt": "1910880000",
     "id": 101,
     "imageId": 101,
     "individuality": [],
     "isSell": false,
     "name": "白銀果實",
-    "priority": 9,
+    "priority": 11,
     "script": "",
     "sellQp": -1,
     "startedAt": "946656000",
@@ -242,20 +260,58 @@
   {
     "bgImageId": 1,
     "detail": "【AP恢復道具】\n恢復10點AP。",
-    "dropPriority": 9008,
+    "dropPriority": 9009,
     "endedAt": "1910880000",
     "id": 102,
     "imageId": 102,
     "individuality": [],
     "isSell": false,
     "name": "赤銅果實",
-    "priority": 8,
+    "priority": 9,
     "script": "",
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 4,
     "unit": "",
     "value": 10
+  },
+  {
+    "bgImageId": 1,
+    "detail": "【兌換道具】\n用魔術製造的樹苗。\n透過注入魔力進行培養，就能結一次果實。",
+    "dropPriority": 9008,
+    "endedAt": "1893427200",
+    "id": 103,
+    "imageId": 103,
+    "individuality": [
+      10732
+    ],
+    "isSell": false,
+    "name": "青銅樹苗",
+    "priority": 8,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1698076800",
+    "type": 32,
+    "unit": "",
+    "value": 1
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【AP恢復道具】\n恢復40點AP。",
+    "dropPriority": 9010,
+    "endedAt": "1893427200",
+    "id": 104,
+    "imageId": 104,
+    "individuality": [],
+    "isSell": false,
+    "name": "青銅果實",
+    "priority": 10,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1698076800",
+    "type": 4,
+    "unit": "",
+    "value": 40
   },
   {
     "bgImageId": 3,
@@ -315,7 +371,7 @@
   },
   {
     "bgImageId": 3,
-    "detail": "【指令刻印插槽開放素材】\n讓指令紋章可以刻印在\nQucik類指令卡上的鑰匙般裝置。",
+    "detail": "【指令刻印插槽開放素材】\n讓指令紋章可以刻印在\nQuick類指令卡上的鑰匙般裝置。",
     "dropPriority": 9000,
     "endedAt": "1893427200",
     "id": 5000,
@@ -369,7 +425,7 @@
   },
   {
     "bgImageId": 3,
-    "detail": "【指令紋章鑲嵌槽削除道具】\n將紋章開啟器開放的\n指令紋章鑲嵌槽削除的裝置。",
+    "detail": "【指令紋章鑲嵌槽消除道具】\n將紋章開啟器開放的\n指令紋章鑲嵌槽消除的裝置。",
     "dropPriority": 9003,
     "endedAt": "1893427200",
     "id": 5003,
@@ -817,7 +873,7 @@
     ],
     "isSell": true,
     "name": "鳳凰羽毛",
-    "priority": 214,
+    "priority": 217,
     "script": "",
     "sellQp": 2500,
     "startedAt": "946656000",
@@ -837,7 +893,7 @@
     ],
     "isSell": true,
     "name": "世界樹之種",
-    "priority": 210,
+    "priority": 213,
     "script": "",
     "sellQp": 2500,
     "startedAt": "946656000",
@@ -897,7 +953,7 @@
     ],
     "isSell": true,
     "name": "龍之逆鱗",
-    "priority": 234,
+    "priority": 238,
     "script": "",
     "sellQp": 2500,
     "startedAt": "946656000",
@@ -917,7 +973,7 @@
     ],
     "isSell": true,
     "name": "混沌之爪",
-    "priority": 232,
+    "priority": 236,
     "script": "",
     "sellQp": 2500,
     "startedAt": "946656000",
@@ -937,7 +993,7 @@
     ],
     "isSell": true,
     "name": "鬼魂提燈",
-    "priority": 211,
+    "priority": 214,
     "script": "",
     "sellQp": 2500,
     "startedAt": "946656000",
@@ -957,7 +1013,7 @@
     ],
     "isSell": true,
     "name": "蛇之寶玉",
-    "priority": 213,
+    "priority": 216,
     "script": "",
     "sellQp": 2500,
     "startedAt": "946656000",
@@ -977,7 +1033,7 @@
     ],
     "isSell": true,
     "name": "無間齒輪",
-    "priority": 215,
+    "priority": 218,
     "script": "",
     "sellQp": 2500,
     "startedAt": "946656000",
@@ -997,7 +1053,7 @@
     ],
     "isSell": true,
     "name": "禁斷書頁",
-    "priority": 216,
+    "priority": 219,
     "script": "",
     "sellQp": 2500,
     "startedAt": "946656000",
@@ -1037,7 +1093,7 @@
     ],
     "isSell": true,
     "name": "隕蹄鐵",
-    "priority": 218,
+    "priority": 221,
     "script": "",
     "sellQp": 2500,
     "startedAt": "946656000",
@@ -1057,7 +1113,7 @@
     ],
     "isSell": true,
     "name": "人工生命體幼體",
-    "priority": 217,
+    "priority": 220,
     "script": "",
     "sellQp": 2500,
     "startedAt": "946656000",
@@ -1077,7 +1133,7 @@
     ],
     "isSell": true,
     "name": "八連雙晶",
-    "priority": 212,
+    "priority": 215,
     "script": "",
     "sellQp": 2500,
     "startedAt": "946656000",
@@ -1117,7 +1173,7 @@
     ],
     "isSell": true,
     "name": "蠻神心臟",
-    "priority": 233,
+    "priority": 237,
     "script": "",
     "sellQp": 2500,
     "startedAt": "946656000",
@@ -1137,7 +1193,7 @@
     ],
     "isSell": true,
     "name": "精靈根",
-    "priority": 235,
+    "priority": 239,
     "script": "",
     "sellQp": 2500,
     "startedAt": "946656000",
@@ -1157,7 +1213,7 @@
     ],
     "isSell": true,
     "name": "戰馬的幼角",
-    "priority": 236,
+    "priority": 240,
     "script": "",
     "sellQp": 2500,
     "startedAt": "946656000",
@@ -1177,7 +1233,7 @@
     ],
     "isSell": true,
     "name": "血之淚石",
-    "priority": 237,
+    "priority": 241,
     "script": "",
     "sellQp": 2500,
     "startedAt": "946656000",
@@ -1197,7 +1253,7 @@
     ],
     "isSell": true,
     "name": "黑獸脂",
-    "priority": 238,
+    "priority": 242,
     "script": "",
     "sellQp": 2500,
     "startedAt": "946656000",
@@ -1237,7 +1293,7 @@
     ],
     "isSell": true,
     "name": "封魔之燈",
-    "priority": 239,
+    "priority": 243,
     "script": "",
     "sellQp": 2500,
     "startedAt": "946656000",
@@ -1257,7 +1313,7 @@
     ],
     "isSell": true,
     "name": "大騎士勳章",
-    "priority": 220,
+    "priority": 223,
     "script": "",
     "sellQp": 2500,
     "startedAt": "946656000",
@@ -1277,7 +1333,7 @@
     ],
     "isSell": true,
     "name": "智慧之聖甲蟲像",
-    "priority": 240,
+    "priority": 244,
     "script": "",
     "sellQp": 2500,
     "startedAt": "946656000",
@@ -1298,7 +1354,7 @@
     ],
     "isSell": true,
     "name": "追憶的貝殼",
-    "priority": 221,
+    "priority": 224,
     "script": "",
     "sellQp": -1,
     "startedAt": "946656000",
@@ -1338,7 +1394,7 @@
     ],
     "isSell": true,
     "name": "起源的胎毛",
-    "priority": 241,
+    "priority": 245,
     "script": "",
     "sellQp": 2500,
     "startedAt": "946656000",
@@ -1358,7 +1414,7 @@
     ],
     "isSell": true,
     "name": "咒獸膽石",
-    "priority": 242,
+    "priority": 246,
     "script": "",
     "sellQp": 2500,
     "startedAt": "946656000",
@@ -1398,7 +1454,7 @@
     ],
     "isSell": true,
     "name": "奇奇神酒",
-    "priority": 243,
+    "priority": 247,
     "script": "",
     "sellQp": 2500,
     "startedAt": "946656000",
@@ -1418,7 +1474,7 @@
     ],
     "isSell": true,
     "name": "枯淡勾玉",
-    "priority": 222,
+    "priority": 225,
     "script": "",
     "sellQp": 2500,
     "startedAt": "946656000",
@@ -1478,7 +1534,7 @@
     ],
     "isSell": true,
     "name": "永遠結冰",
-    "priority": 223,
+    "priority": 226,
     "script": "",
     "sellQp": 2500,
     "startedAt": "946656000",
@@ -1498,7 +1554,7 @@
     ],
     "isSell": true,
     "name": "極光之鋼",
-    "priority": 225,
+    "priority": 228,
     "script": "",
     "sellQp": 2500,
     "startedAt": "946656000",
@@ -1518,7 +1574,7 @@
     ],
     "isSell": true,
     "name": "巨人的指輪",
-    "priority": 224,
+    "priority": 227,
     "script": "",
     "sellQp": 2500,
     "startedAt": "946656000",
@@ -1537,8 +1593,8 @@
       20057
     ],
     "isSell": true,
-    "name": "閒古鈴",
-    "priority": 226,
+    "name": "閑古鈴",
+    "priority": 229,
     "script": "",
     "sellQp": 2500,
     "startedAt": "946656000",
@@ -1558,7 +1614,7 @@
     ],
     "isSell": true,
     "name": "曉光爐心",
-    "priority": 244,
+    "priority": 248,
     "script": "",
     "sellQp": 2500,
     "startedAt": "946656000",
@@ -1578,7 +1634,7 @@
     ],
     "isSell": true,
     "name": "九十九鏡",
-    "priority": 245,
+    "priority": 249,
     "script": "",
     "sellQp": 2500,
     "startedAt": "1604034000",
@@ -1598,7 +1654,7 @@
     ],
     "isSell": true,
     "name": "禍罪之箭頭",
-    "priority": 227,
+    "priority": 230,
     "script": "",
     "sellQp": 2500,
     "startedAt": "946656000",
@@ -1618,7 +1674,7 @@
     ],
     "isSell": true,
     "name": "真理之卵",
-    "priority": 246,
+    "priority": 250,
     "script": "",
     "sellQp": 2500,
     "startedAt": "946656000",
@@ -1638,7 +1694,7 @@
     ],
     "isSell": true,
     "name": "光銀之冠",
-    "priority": 228,
+    "priority": 231,
     "script": "",
     "sellQp": 2500,
     "startedAt": "946656000",
@@ -1658,7 +1714,7 @@
     ],
     "isSell": true,
     "name": "煌星碎片",
-    "priority": 247,
+    "priority": 251,
     "script": "",
     "sellQp": 2500,
     "startedAt": "946656000",
@@ -1678,7 +1734,7 @@
     ],
     "isSell": true,
     "name": "神脈靈子",
-    "priority": 229,
+    "priority": 232,
     "script": "",
     "sellQp": 2500,
     "startedAt": "946656000",
@@ -1698,7 +1754,7 @@
     ],
     "isSell": true,
     "name": "悠久果實",
-    "priority": 248,
+    "priority": 252,
     "script": "",
     "sellQp": 2500,
     "startedAt": "946656000",
@@ -1718,7 +1774,7 @@
     ],
     "isSell": true,
     "name": "虹色線球",
-    "priority": 230,
+    "priority": 233,
     "script": "",
     "sellQp": 2500,
     "startedAt": "946656000",
@@ -1738,7 +1794,7 @@
     ],
     "isSell": true,
     "name": "鬼炎鬼燈",
-    "priority": 249,
+    "priority": 253,
     "script": "",
     "sellQp": 2500,
     "startedAt": "946656000",
@@ -1778,10 +1834,90 @@
     ],
     "isSell": true,
     "name": "夢幻的鱗粉",
-    "priority": 231,
+    "priority": 234,
     "script": "",
     "sellQp": 2500,
     "startedAt": "946656000",
+    "type": 11,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 1,
+    "detail": "【技能強化＆靈基再臨素材】\n特殊儀式中使用的劍。\n時而用來讚美值得驕傲的功績，\n時而用來刻下無法償還的罪孽。",
+    "dropPriority": 8107,
+    "endedAt": "1893427200",
+    "id": 6551,
+    "imageId": 6551,
+    "individuality": [
+      20084
+    ],
+    "isSell": true,
+    "name": "黃昏的儀式劍",
+    "priority": 210,
+    "script": "",
+    "sellQp": 2500,
+    "startedAt": "946656000",
+    "type": 11,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 1,
+    "detail": "【技能強化＆靈基再臨素材】\n裝著燃燒完灰燼般物體的\n小小的瓶子。\n作為絕不忘卻的誓約之證。",
+    "dropPriority": 8108,
+    "endedAt": "1893427200",
+    "id": 6552,
+    "imageId": 6552,
+    "individuality": [
+      20085
+    ],
+    "isSell": true,
+    "name": "不忘之灰",
+    "priority": 211,
+    "script": "",
+    "sellQp": 2500,
+    "startedAt": "946656000",
+    "type": 11,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【技能強化＆靈基再臨素材】\n儲存太陽光變化為各種顏色的皮。\n不只外表美麗，強度甚至凌駕鋼鐵。",
+    "dropPriority": 8320,
+    "endedAt": "1893427200",
+    "id": 6553,
+    "imageId": 6553,
+    "individuality": [
+      20086
+    ],
+    "isSell": true,
+    "name": "太陽皮",
+    "priority": 235,
+    "script": "",
+    "sellQp": 2500,
+    "startedAt": "1893427200",
+    "type": 11,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 1,
+    "detail": "【技能強化＆靈基再臨素材】\n將蘊藏著魔力的黑曜石打磨製作的匕首。\n雖然非常原始，但其鋒利程度十分驚人。",
+    "dropPriority": 8109,
+    "endedAt": "1893427200",
+    "id": 6554,
+    "imageId": 6554,
+    "individuality": [
+      20087
+    ],
+    "isSell": true,
+    "name": "黑曜銳刃",
+    "priority": 212,
+    "script": "",
+    "sellQp": 2500,
+    "startedAt": "1893427200",
     "type": 11,
     "unit": "",
     "value": 0
@@ -2650,7 +2786,7 @@
   },
   {
     "bgImageId": 2,
-    "detail": "可從閒古鈴、無間齒輪、英雄之證中選擇一種進行兌換。",
+    "detail": "可從閑古鈴、無間齒輪、英雄之證中選擇一種進行兌換。",
     "dropPriority": 9001,
     "endedAt": "1893427200",
     "id": 10029,
@@ -2740,7 +2876,7 @@
   },
   {
     "bgImageId": 2,
-    "detail": "可從閒古鈴、鬼魂提燈、萬死的毒針中選擇一種進行兌換。",
+    "detail": "可從閑古鈴、鬼魂提燈、萬死的毒針中選擇一種進行兌換。",
     "dropPriority": 9001,
     "endedAt": "1893427200",
     "id": 10034,
@@ -2884,7 +3020,7 @@
   },
   {
     "bgImageId": 2,
-    "detail": "可從閒古鈴、追憶的貝殼、龍之牙中選擇一種進行兌換。",
+    "detail": "可從閑古鈴、追憶的貝殼、龍之牙中選擇一種進行兌換。",
     "dropPriority": 9001,
     "endedAt": "1893427200",
     "id": 10042,
@@ -3028,7 +3164,7 @@
   },
   {
     "bgImageId": 2,
-    "detail": "可從閒古鈴、枯淡勾玉、愚者之鎖中選擇一種進行兌換。",
+    "detail": "可從閑古鈴、枯淡勾玉、愚者之鎖中選擇一種進行兌換。",
     "dropPriority": 9001,
     "endedAt": "1893427200",
     "id": 10050,
@@ -3099,6 +3235,222 @@
     "value": 0
   },
   {
+    "bgImageId": 2,
+    "detail": "可從神脈靈子、人工生命體幼體、魔術髓液中選擇一種進行兌換。",
+    "dropPriority": 9001,
+    "endedAt": "1893427200",
+    "id": 10054,
+    "imageId": 10000,
+    "individuality": [],
+    "isSell": false,
+    "name": "2月交換券(2024)",
+    "priority": 200,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1441036800",
+    "type": 24,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "可從巨人的指輪、追憶的貝殼、愚者之鎖中選擇一種進行兌換。",
+    "dropPriority": 9001,
+    "endedAt": "1893427200",
+    "id": 10055,
+    "imageId": 10000,
+    "individuality": [],
+    "isSell": false,
+    "name": "3月交換券(2024)",
+    "priority": 200,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1441036800",
+    "type": 24,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "可從光銀之冠、隕蹄鐵、赦免的小鐘中選擇一種進行兌換。",
+    "dropPriority": 9001,
+    "endedAt": "1893427200",
+    "id": 10056,
+    "imageId": 10000,
+    "individuality": [],
+    "isSell": false,
+    "name": "4月交換券(2024)",
+    "priority": 200,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1441036800",
+    "type": 24,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "可從夢幻的鱗粉、禁斷書頁、宵泣之鐵樁中選擇一種進行兌換。",
+    "dropPriority": 9001,
+    "endedAt": "1893427200",
+    "id": 10057,
+    "imageId": 10000,
+    "individuality": [],
+    "isSell": false,
+    "name": "5月交換券(2024)",
+    "priority": 200,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1441036800",
+    "type": 24,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "可從極光之鋼、大騎士勳章、龍之牙中選擇一種進行兌換。",
+    "dropPriority": 9001,
+    "endedAt": "1893427200",
+    "id": 10058,
+    "imageId": 10000,
+    "individuality": [],
+    "isSell": false,
+    "name": "12月兌換券(2023)",
+    "priority": 200,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1893427200",
+    "type": 24,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "可從閑古鈴、鳳凰羽毛、振盪火藥中選擇一種進行兌換。",
+    "dropPriority": 9001,
+    "endedAt": "1893427200",
+    "id": 10059,
+    "imageId": 10000,
+    "individuality": [],
+    "isSell": false,
+    "name": "7月交換券(2024)",
+    "priority": 200,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1893427200",
+    "type": 24,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "可從虹之線球、追憶的貝殼、世界樹之種中選擇一種進行兌換。",
+    "dropPriority": 9001,
+    "endedAt": "1893427200",
+    "id": 10060,
+    "imageId": 10000,
+    "individuality": [],
+    "isSell": false,
+    "name": "11月兌換券(2023)",
+    "priority": 200,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1893427200",
+    "type": 24,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "可從5種素材道具中選擇一種進行兌換。",
+    "dropPriority": 9001,
+    "endedAt": "1893427200",
+    "id": 10061,
+    "imageId": 10000,
+    "individuality": [],
+    "isSell": false,
+    "name": "6月交換券(2024)",
+    "priority": 200,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1441036800",
+    "type": 24,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "可從5種素材道具中選擇一種進行兌換。",
+    "dropPriority": 9001,
+    "endedAt": "1893427200",
+    "id": 10062,
+    "imageId": 10000,
+    "individuality": [],
+    "isSell": false,
+    "name": "7月交換券(2024)",
+    "priority": 200,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1441036800",
+    "type": 24,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "可從5種素材道具中選擇一種進行兌換。",
+    "dropPriority": 9001,
+    "endedAt": "1893427200",
+    "id": 10063,
+    "imageId": 10000,
+    "individuality": [],
+    "isSell": false,
+    "name": "11月兌換券(2023)",
+    "priority": 200,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1893427200",
+    "type": 24,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "可從5種素材道具中選擇一種進行兌換。",
+    "dropPriority": 9001,
+    "endedAt": "1893427200",
+    "id": 10064,
+    "imageId": 10000,
+    "individuality": [],
+    "isSell": false,
+    "name": "12月兌換券(2023)",
+    "priority": 200,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1893427200",
+    "type": 24,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "可從5種素材道具中選擇一種進行兌換。",
+    "dropPriority": 9001,
+    "endedAt": "1893427200",
+    "id": 10065,
+    "imageId": 10000,
+    "individuality": [],
+    "isSell": false,
+    "name": "1月兌換券(2024)",
+    "priority": 200,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1893427200",
+    "type": 24,
+    "unit": "",
+    "value": 0
+  },
+  {
     "bgImageId": 3,
     "detail": "",
     "dropPriority": 9001,
@@ -3113,7 +3465,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 23,
-    "unit": "个",
+    "unit": "個",
     "value": 1
   },
   {
@@ -3751,6 +4103,24 @@
     "detail": "【從者強化素材】\n從者的靈基碎片。",
     "dropPriority": 1003,
     "endedAt": "1893427200",
+    "id": 10430001,
+    "imageId": 104300,
+    "individuality": [],
+    "isSell": false,
+    "name": "從者幣",
+    "priority": 57,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "946656000",
+    "type": 29,
+    "unit": "",
+    "value": 104300
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【從者強化素材】\n從者的靈基碎片。",
+    "dropPriority": 1003,
+    "endedAt": "1893427200",
     "id": 10440001,
     "imageId": 104400,
     "individuality": [],
@@ -3889,6 +4259,78 @@
     "type": 29,
     "unit": "",
     "value": 105100
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【從者強化素材】\n從者的靈基碎片。",
+    "dropPriority": 1003,
+    "endedAt": "1893427200",
+    "id": 10520001,
+    "imageId": 105200,
+    "individuality": [],
+    "isSell": false,
+    "name": "從者幣",
+    "priority": 57,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "946656000",
+    "type": 29,
+    "unit": "",
+    "value": 105200
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【從者強化素材】\n從者的靈基碎片。",
+    "dropPriority": 1003,
+    "endedAt": "1893427200",
+    "id": 10530001,
+    "imageId": 105300,
+    "individuality": [],
+    "isSell": false,
+    "name": "從者幣",
+    "priority": 57,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "946656000",
+    "type": 29,
+    "unit": "",
+    "value": 105300
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【從者強化素材】\n從者的靈基碎片。",
+    "dropPriority": 1003,
+    "endedAt": "1893427200",
+    "id": 10540001,
+    "imageId": 105400,
+    "individuality": [],
+    "isSell": false,
+    "name": "從者幣",
+    "priority": 57,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "946656000",
+    "type": 29,
+    "unit": "",
+    "value": 105400
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【從者強化素材】\n從者的靈基碎片。",
+    "dropPriority": 1003,
+    "endedAt": "1893427200",
+    "id": 10550001,
+    "imageId": 105500,
+    "individuality": [],
+    "isSell": false,
+    "name": "從者幣",
+    "priority": 57,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "946656000",
+    "type": 29,
+    "unit": "",
+    "value": 105500
   },
   {
     "bgImageId": 2,
@@ -4633,6 +5075,24 @@
     "detail": "【從者強化素材】\n從者的靈基碎片。",
     "dropPriority": 1003,
     "endedAt": "1893427200",
+    "id": 20460001,
+    "imageId": 204600,
+    "individuality": [],
+    "isSell": false,
+    "name": "從者幣",
+    "priority": 57,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "946656000",
+    "type": 29,
+    "unit": "",
+    "value": 204600
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【從者強化素材】\n從者的靈基碎片。",
+    "dropPriority": 1003,
+    "endedAt": "1893427200",
     "id": 30010001,
     "imageId": 300100,
     "individuality": [],
@@ -5371,6 +5831,24 @@
     "detail": "【從者強化素材】\n從者的靈基碎片。",
     "dropPriority": 1003,
     "endedAt": "1893427200",
+    "id": 30490001,
+    "imageId": 304900,
+    "individuality": [],
+    "isSell": false,
+    "name": "從者幣",
+    "priority": 57,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "946656000",
+    "type": 29,
+    "unit": "",
+    "value": 304900
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【從者強化素材】\n從者的靈基碎片。",
+    "dropPriority": 1003,
+    "endedAt": "1893427200",
     "id": 30500001,
     "imageId": 305000,
     "individuality": [],
@@ -5383,6 +5861,42 @@
     "type": 29,
     "unit": "",
     "value": 305000
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【從者強化素材】\n從者的靈基碎片。",
+    "dropPriority": 1003,
+    "endedAt": "1893427200",
+    "id": 30510001,
+    "imageId": 305100,
+    "individuality": [],
+    "isSell": false,
+    "name": "從者幣",
+    "priority": 57,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "946656000",
+    "type": 29,
+    "unit": "",
+    "value": 305100
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【從者強化素材】\n從者的靈基碎片。",
+    "dropPriority": 1003,
+    "endedAt": "1893427200",
+    "id": 30530001,
+    "imageId": 305300,
+    "individuality": [],
+    "isSell": false,
+    "name": "從者幣",
+    "priority": 57,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "946656000",
+    "type": 29,
+    "unit": "",
+    "value": 305300
   },
   {
     "bgImageId": 2,
@@ -6085,6 +6599,60 @@
     "type": 29,
     "unit": "",
     "value": 404600
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【從者強化素材】\n從者的靈基碎片。",
+    "dropPriority": 1003,
+    "endedAt": "1893427200",
+    "id": 40470001,
+    "imageId": 404700,
+    "individuality": [],
+    "isSell": false,
+    "name": "從者幣",
+    "priority": 57,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "946656000",
+    "type": 29,
+    "unit": "",
+    "value": 404700
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【從者強化素材】\n從者的靈基碎片。",
+    "dropPriority": 1003,
+    "endedAt": "1893427200",
+    "id": 40480001,
+    "imageId": 404800,
+    "individuality": [],
+    "isSell": false,
+    "name": "從者幣",
+    "priority": 57,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "946656000",
+    "type": 29,
+    "unit": "",
+    "value": 404800
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【從者強化素材】\n從者的靈基碎片。",
+    "dropPriority": 1003,
+    "endedAt": "1893427200",
+    "id": 40490001,
+    "imageId": 404900,
+    "individuality": [],
+    "isSell": false,
+    "name": "從者幣",
+    "priority": 57,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "946656000",
+    "type": 29,
+    "unit": "",
+    "value": 404900
   },
   {
     "bgImageId": 2,
@@ -6811,6 +7379,24 @@
     "detail": "【從者強化素材】\n從者的靈基碎片。",
     "dropPriority": 1003,
     "endedAt": "1893427200",
+    "id": 50470001,
+    "imageId": 504700,
+    "individuality": [],
+    "isSell": false,
+    "name": "從者幣",
+    "priority": 57,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "946656000",
+    "type": 29,
+    "unit": "",
+    "value": 504700
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【從者強化素材】\n從者的靈基碎片。",
+    "dropPriority": 1003,
+    "endedAt": "1893427200",
     "id": 50480001,
     "imageId": 504800,
     "individuality": [],
@@ -6859,6 +7445,42 @@
     "type": 29,
     "unit": "",
     "value": 505000
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【從者強化素材】\n從者的靈基碎片。",
+    "dropPriority": 1003,
+    "endedAt": "1893427200",
+    "id": 50510001,
+    "imageId": 505100,
+    "individuality": [],
+    "isSell": false,
+    "name": "從者幣",
+    "priority": 57,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "946656000",
+    "type": 29,
+    "unit": "",
+    "value": 505100
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【從者強化素材】\n從者的靈基碎片。",
+    "dropPriority": 1003,
+    "endedAt": "1893427200",
+    "id": 50520001,
+    "imageId": 505200,
+    "individuality": [],
+    "isSell": false,
+    "name": "從者幣",
+    "priority": 57,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "946656000",
+    "type": 29,
+    "unit": "",
+    "value": 505200
   },
   {
     "bgImageId": 2,
@@ -7531,6 +8153,78 @@
     "detail": "【從者強化素材】\n從者的靈基碎片。",
     "dropPriority": 1003,
     "endedAt": "1893427200",
+    "id": 60430001,
+    "imageId": 604300,
+    "individuality": [],
+    "isSell": false,
+    "name": "從者幣",
+    "priority": 57,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "946656000",
+    "type": 29,
+    "unit": "",
+    "value": 604300
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【從者強化素材】\n從者的靈基碎片。",
+    "dropPriority": 1003,
+    "endedAt": "1893427200",
+    "id": 60440001,
+    "imageId": 604400,
+    "individuality": [],
+    "isSell": false,
+    "name": "從者幣",
+    "priority": 57,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "946656000",
+    "type": 29,
+    "unit": "",
+    "value": 604400
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【從者強化素材】\n從者的靈基碎片。",
+    "dropPriority": 1003,
+    "endedAt": "1893427200",
+    "id": 60450001,
+    "imageId": 604500,
+    "individuality": [],
+    "isSell": false,
+    "name": "從者幣",
+    "priority": 57,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "946656000",
+    "type": 29,
+    "unit": "",
+    "value": 604500
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【從者強化素材】\n從者的靈基碎片。",
+    "dropPriority": 1003,
+    "endedAt": "1893427200",
+    "id": 60460001,
+    "imageId": 604600,
+    "individuality": [],
+    "isSell": false,
+    "name": "從者幣",
+    "priority": 57,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "946656000",
+    "type": 29,
+    "unit": "",
+    "value": 604600
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【從者強化素材】\n從者的靈基碎片。",
+    "dropPriority": 1003,
+    "endedAt": "1893427200",
     "id": 70010001,
     "imageId": 700100,
     "individuality": [],
@@ -8179,6 +8873,60 @@
     "detail": "【從者強化素材】\n從者的靈基碎片。",
     "dropPriority": 1003,
     "endedAt": "1893427200",
+    "id": 70420001,
+    "imageId": 704200,
+    "individuality": [],
+    "isSell": false,
+    "name": "從者幣",
+    "priority": 57,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "946656000",
+    "type": 29,
+    "unit": "",
+    "value": 704200
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【從者強化素材】\n從者的靈基碎片。",
+    "dropPriority": 1003,
+    "endedAt": "1893427200",
+    "id": 70430001,
+    "imageId": 704300,
+    "individuality": [],
+    "isSell": false,
+    "name": "從者幣",
+    "priority": 57,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "946656000",
+    "type": 29,
+    "unit": "",
+    "value": 704300
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【從者強化素材】\n從者的靈基碎片。",
+    "dropPriority": 1003,
+    "endedAt": "1893427200",
+    "id": 70440001,
+    "imageId": 704400,
+    "individuality": [],
+    "isSell": false,
+    "name": "從者幣",
+    "priority": 57,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "946656000",
+    "type": 29,
+    "unit": "",
+    "value": 704400
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【從者強化素材】\n從者的靈基碎片。",
+    "dropPriority": 1003,
+    "endedAt": "1893427200",
     "id": 80010001,
     "imageId": 800100,
     "individuality": [],
@@ -8391,6 +9139,60 @@
     "type": 29,
     "unit": "",
     "value": 901200
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【從者強化素材】\n從者的靈基碎片。",
+    "dropPriority": 1003,
+    "endedAt": "1893427200",
+    "id": 90130001,
+    "imageId": 901300,
+    "individuality": [],
+    "isSell": false,
+    "name": "從者幣",
+    "priority": 57,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "946656000",
+    "type": 29,
+    "unit": "",
+    "value": 901300
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【從者強化素材】\n從者的靈基碎片。",
+    "dropPriority": 1003,
+    "endedAt": "1893427200",
+    "id": 90140001,
+    "imageId": 901400,
+    "individuality": [],
+    "isSell": false,
+    "name": "從者幣",
+    "priority": 57,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "946656000",
+    "type": 29,
+    "unit": "",
+    "value": 901400
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【從者強化素材】\n從者的靈基碎片。",
+    "dropPriority": 1003,
+    "endedAt": "1893427200",
+    "id": 90150001,
+    "imageId": 901500,
+    "individuality": [],
+    "isSell": false,
+    "name": "從者幣",
+    "priority": 57,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "946656000",
+    "type": 29,
+    "unit": "",
+    "value": 901500
   },
   {
     "bgImageId": 1,
@@ -8908,7 +9710,7 @@
   },
   {
     "bgImageId": 3,
-    "detail": "【活動道具】\n在『巧克力小姐的大驚小怪』中獲得的，\n刻有劍士徽章的硬幣巧克力。",
+    "detail": "【活動道具】\n在『巧克力小姐的大驚小怪』中獲得的，\n刻有Saber徽章的硬幣巧克力。",
     "dropPriority": 2010,
     "endedAt": "1489989600",
     "id": 94001803,
@@ -9203,7 +10005,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 2
   },
   {
@@ -9223,7 +10025,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 2
   },
   {
@@ -9243,7 +10045,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 2
   },
   {
@@ -9265,7 +10067,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 1
   },
   {
@@ -9287,7 +10089,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 1
   },
   {
@@ -9597,7 +10399,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 0
   },
   {
@@ -9797,7 +10599,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 1
   },
   {
@@ -9817,7 +10619,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 1
   },
   {
@@ -9837,7 +10639,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 1
   },
   {
@@ -9937,7 +10739,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 1
   },
   {
@@ -9957,7 +10759,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 1
   },
   {
@@ -9977,7 +10779,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 1
   },
   {
@@ -9997,7 +10799,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 1
   },
   {
@@ -10017,7 +10819,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 1
   },
   {
@@ -10037,7 +10839,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 0
   },
   {
@@ -10057,7 +10859,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 2
   },
   {
@@ -10077,7 +10879,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 2
   },
   {
@@ -10097,7 +10899,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 2
   },
   {
@@ -10117,7 +10919,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 2
   },
   {
@@ -10137,7 +10939,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 2
   },
   {
@@ -10157,7 +10959,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 0
   },
   {
@@ -10177,7 +10979,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 2
   },
   {
@@ -10197,7 +10999,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 2
   },
   {
@@ -10217,7 +11019,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 2
   },
   {
@@ -10237,7 +11039,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 0
   },
   {
@@ -10479,7 +11281,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 0
   },
   {
@@ -10924,7 +11726,7 @@
   },
   {
     "bgImageId": 3,
-    "detail": "【活動道具】\n在『復刻：巧克力小姐的大驚小怪』中獲得的，\n刻有劍士徽章的硬幣巧克力。",
+    "detail": "【活動道具】\n在『復刻：巧克力小姐的大驚小怪』中獲得的，\n刻有Saber徽章的硬幣巧克力。",
     "dropPriority": 2010,
     "endedAt": "1523771999",
     "id": 94009803,
@@ -11447,7 +12249,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 14,
-    "unit": " ",
+    "unit": "",
     "value": 0
   },
   {
@@ -11470,7 +12272,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 14,
-    "unit": " ",
+    "unit": "",
     "value": 0
   },
   {
@@ -11604,7 +12406,7 @@
       10147
     ],
     "isSell": false,
-    "name": "Meltry之鑰",
+    "name": "Melt之鑰",
     "priority": 94011906,
     "script": "",
     "sellQp": -1,
@@ -11644,7 +12446,7 @@
       10149
     ],
     "isSell": false,
-    "name": "抓癢棒",
+    "name": "搔癢棒",
     "priority": 94011908,
     "script": "",
     "sellQp": -1,
@@ -11664,7 +12466,7 @@
       10150
     ],
     "isSell": false,
-    "name": "祈荒懲罰者『Meltry醬死亡whip』",
+    "name": "祈荒懲罰者『Melt醬死亡whip』",
     "priority": 94011925,
     "script": "",
     "sellQp": -1,
@@ -12408,7 +13210,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 0
   },
   {
@@ -12488,7 +13290,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 1
   },
   {
@@ -12508,7 +13310,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 1
   },
   {
@@ -12528,7 +13330,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 1
   },
   {
@@ -12608,7 +13410,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 1
   },
   {
@@ -12628,7 +13430,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 1
   },
   {
@@ -12648,7 +13450,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 1
   },
   {
@@ -12668,7 +13470,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 1
   },
   {
@@ -12688,7 +13490,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 1
   },
   {
@@ -12708,7 +13510,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 23,
-    "unit": "个",
+    "unit": "個",
     "value": 1
   },
   {
@@ -12728,7 +13530,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 2
   },
   {
@@ -12748,7 +13550,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 2
   },
   {
@@ -12768,7 +13570,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 2
   },
   {
@@ -12788,7 +13590,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 2
   },
   {
@@ -12808,7 +13610,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 2
   },
   {
@@ -12846,7 +13648,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 1
   },
   {
@@ -12866,7 +13668,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 1
   },
   {
@@ -12886,7 +13688,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 1
   },
   {
@@ -12906,7 +13708,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 19,
-    "unit": "个",
+    "unit": "個",
     "value": 960899
   },
   {
@@ -12926,7 +13728,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 19,
-    "unit": "个",
+    "unit": "個",
     "value": 960900
   },
   {
@@ -12946,7 +13748,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 19,
-    "unit": "个",
+    "unit": "個",
     "value": 960901
   },
   {
@@ -12986,7 +13788,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 1
   },
   {
@@ -13006,7 +13808,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 1
   },
   {
@@ -13026,7 +13828,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 1
   },
   {
@@ -13046,7 +13848,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 19,
-    "unit": "个",
+    "unit": "個",
     "value": 960922
   },
   {
@@ -13066,7 +13868,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 19,
-    "unit": "个",
+    "unit": "個",
     "value": 960923
   },
   {
@@ -13086,7 +13888,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 19,
-    "unit": "个",
+    "unit": "個",
     "value": 960924
   },
   {
@@ -13124,7 +13926,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 23,
-    "unit": "个",
+    "unit": "個",
     "value": 1
   },
   {
@@ -13784,7 +14586,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 2
   },
   {
@@ -13804,7 +14606,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 2
   },
   {
@@ -13824,7 +14626,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 2
   },
   {
@@ -13846,7 +14648,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 1
   },
   {
@@ -13868,7 +14670,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 1
   },
   {
@@ -14531,7 +15333,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 14,
-    "unit": " ",
+    "unit": "",
     "value": 0
   },
   {
@@ -14554,7 +15356,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 14,
-    "unit": " ",
+    "unit": "",
     "value": 0
   },
   {
@@ -14694,7 +15496,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 1
   },
   {
@@ -14714,7 +15516,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 1
   },
   {
@@ -14734,7 +15536,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 1
   },
   {
@@ -14754,7 +15556,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 19,
-    "unit": "个",
+    "unit": "個",
     "value": 960899
   },
   {
@@ -14774,7 +15576,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 19,
-    "unit": "个",
+    "unit": "個",
     "value": 960900
   },
   {
@@ -14794,7 +15596,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 19,
-    "unit": "个",
+    "unit": "個",
     "value": 960901
   },
   {
@@ -14814,7 +15616,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 1
   },
   {
@@ -14834,7 +15636,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 1
   },
   {
@@ -14854,7 +15656,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 1
   },
   {
@@ -14874,7 +15676,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 19,
-    "unit": "个",
+    "unit": "個",
     "value": 960922
   },
   {
@@ -14894,7 +15696,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 19,
-    "unit": "个",
+    "unit": "個",
     "value": 960923
   },
   {
@@ -14914,7 +15716,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 19,
-    "unit": "个",
+    "unit": "個",
     "value": 960924
   },
   {
@@ -16087,7 +16889,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 2
   },
   {
@@ -16107,7 +16909,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 2
   },
   {
@@ -16127,7 +16929,7 @@
     "sellQp": -1,
     "startedAt": "946656000",
     "type": 15,
-    "unit": "个",
+    "unit": "個",
     "value": 2
   },
   {
@@ -16341,7 +17143,7 @@
       10147
     ],
     "isSell": false,
-    "name": "Meltry之鑰",
+    "name": "Melt之鑰",
     "priority": 94034006,
     "script": "",
     "sellQp": -1,
@@ -16381,7 +17183,7 @@
       10149
     ],
     "isSell": false,
-    "name": "抓癢棒",
+    "name": "搔癢棒",
     "priority": 94034008,
     "script": "",
     "sellQp": -1,
@@ -16401,7 +17203,7 @@
       10150
     ],
     "isSell": false,
-    "name": "祈荒懲罰者『Meltry醬死亡whip』",
+    "name": "祈荒懲罰者『Melt醬死亡whip』",
     "priority": 94035025,
     "script": "",
     "sellQp": -1,
@@ -18066,7 +18868,7 @@
       10465
     ],
     "isSell": false,
-    "name": "銅劍士徽章",
+    "name": "銅Saber徽章",
     "priority": 94041901,
     "script": "",
     "sellQp": -1,
@@ -18086,7 +18888,7 @@
       10466
     ],
     "isSell": false,
-    "name": "銀劍士徽章",
+    "name": "銀Saber徽章",
     "priority": 94041902,
     "script": "",
     "sellQp": -1,
@@ -18106,7 +18908,7 @@
       10467
     ],
     "isSell": false,
-    "name": "金劍士徽章",
+    "name": "金Saber徽章",
     "priority": 94041903,
     "script": "",
     "sellQp": -1,
@@ -19388,7 +20190,7 @@
     "priority": 94047704,
     "script": {
       "diceType": 1,
-      "event_item_board_description": "能投出1~6点的普通骰子。"
+      "event_item_board_description": "能投出1~6點的普通骰子。"
     },
     "sellQp": -1,
     "startedAt": "946656000",
@@ -19411,7 +20213,7 @@
     "priority": 94047705,
     "script": {
       "diceType": 2,
-      "event_item_board_description": "只能投出1、2、3点的特殊骰子。"
+      "event_item_board_description": "只能投出1、2、3點的特殊骰子。"
     },
     "sellQp": -1,
     "startedAt": "946656000",
@@ -19434,7 +20236,7 @@
     "priority": 94047706,
     "script": {
       "diceType": 3,
-      "event_item_board_description": "只能投出4、5、6点的特殊骰子。"
+      "event_item_board_description": "只能投出4、5、6點的特殊骰子。"
     },
     "sellQp": -1,
     "startedAt": "946656000",
@@ -19457,7 +20259,7 @@
     "priority": 94047707,
     "script": {
       "diceType": 4,
-      "event_item_board_description": "只能投出1点的贵重骰子。"
+      "event_item_board_description": "只能投出1點的貴重骰子。"
     },
     "sellQp": -1,
     "startedAt": "946656000",
@@ -19480,7 +20282,7 @@
     "priority": 94047708,
     "script": {
       "diceType": 5,
-      "event_item_board_description": "只能投出2点的贵重骰子。"
+      "event_item_board_description": "只能投出2點的貴重骰子。"
     },
     "sellQp": -1,
     "startedAt": "946656000",
@@ -19503,7 +20305,7 @@
     "priority": 94047709,
     "script": {
       "diceType": 6,
-      "event_item_board_description": "只能投出3点的贵重骰子。"
+      "event_item_board_description": "只能投出3點的貴重骰子。"
     },
     "sellQp": -1,
     "startedAt": "946656000",
@@ -19653,14 +20455,14 @@
   },
   {
     "bgImageId": 3,
-    "detail": "【活動兌換道具】\n在『2000萬DL突破紀念活動』中\n獲得的獎券。\n可在達．文西工房中\n兌換1騎「★5(SSR)從者」。\n\n※兌換期限截至2021/6/14(週一) 23:59。",
+    "detail": "【活動兌換道具】\n在『迦勒底兒童節特別活動活動』中\n獲得的獎券。\n可在達．文西工房中\n兌換1騎「★5(SSR)從者」。\n\n※兌換期限截至2021/6/14(週一) 23:59。",
     "dropPriority": 9001,
     "endedAt": "1655222399",
     "id": 94049001,
     "imageId": 94049001,
     "individuality": [],
     "isSell": false,
-    "name": "2000萬DL紀念券",
+    "name": "迦勒底兒童節特別紀念券",
     "priority": 94049001,
     "script": "",
     "sellQp": -1,
@@ -20160,7 +20962,7 @@
       10147
     ],
     "isSell": false,
-    "name": "Meltry之鑰",
+    "name": "Melt之鑰",
     "priority": 94050906,
     "script": "",
     "sellQp": -1,
@@ -20200,7 +21002,7 @@
       10149
     ],
     "isSell": false,
-    "name": "抓癢棒",
+    "name": "搔癢棒",
     "priority": 94050908,
     "script": "",
     "sellQp": -1,
@@ -20220,7 +21022,7 @@
       10150
     ],
     "isSell": false,
-    "name": "祈荒懲罰者『Meltry醬死亡whip』",
+    "name": "祈荒懲罰者『Melt醬死亡whip』",
     "priority": 94050925,
     "script": "",
     "sellQp": -1,
@@ -21239,7 +22041,7 @@
     "name": "聖誕節2021交換券",
     "priority": 94052706,
     "script": {
-      "overwritePresentboxDetail": "可從混沌之爪、鳳凰羽毛、巨人的戒指中選擇一種進行兌換。",
+      "overwritePresentboxDetail": "可從混沌之爪、鳳凰羽毛、巨人的指輪中選擇一種進行兌換。",
       "isPresent": 1
     },
     "sellQp": -1,
@@ -21262,7 +22064,7 @@
     "name": "聖誕節2021交換券(補償)",
     "priority": 94052706,
     "script": {
-      "overwritePresentboxDetail": "可從混沌之爪、鳳凰羽毛、巨人的戒指中選擇一種進行兌換。",
+      "overwritePresentboxDetail": "可從混沌之爪、鳳凰羽毛、巨人的指輪中選擇一種進行兌換。",
       "isPresent": 1
     },
     "sellQp": -1,
@@ -21333,7 +22135,7 @@
   },
   {
     "bgImageId": 2,
-    "detail": "【活動蒐集道具】\n在『虛數大海戰 幻想急航』中獲得的\n虛數空間敵人身體的一部分。\n可作為高質量魔力資源進行加工。\n\n閃耀著七色光輝類似鱗片的存在。",
+    "detail": "【活動蒐集道具】\n在『虛數大海戰 幻想急航』中獲得的\n虛數空間敵人身體的一部分。\n可作為高品質魔力資源進行加工。\n\n閃耀著七色光輝類似鱗片的存在。",
     "dropPriority": 2004,
     "endedAt": "1662613199",
     "id": 94053404,
@@ -21353,7 +22155,7 @@
   },
   {
     "bgImageId": 2,
-    "detail": "【活動蒐集道具】\n在『虛數大海戰 幻想急航』中獲得的\n虛數空間敵人身體的一部分。\n可作為高質量魔力資源進行加工。\n\n閃耀著七色光輝類似魚鰭的存在。",
+    "detail": "【活動蒐集道具】\n在『虛數大海戰 幻想急航』中獲得的\n虛數空間敵人身體的一部分。\n可作為高品質魔力資源進行加工。\n\n閃耀著七色光輝類似魚鰭的存在。",
     "dropPriority": 2005,
     "endedAt": "1662613199",
     "id": 94053405,
@@ -21373,7 +22175,7 @@
   },
   {
     "bgImageId": 2,
-    "detail": "【活動蒐集道具】\n在『虛數大海戰 幻想急航』中獲得的\n虛數空間敵人身體的一部分。\n可作為高質量魔力資源進行加工。\n\n閃耀著七色光輝類似利齒的存在。",
+    "detail": "【活動蒐集道具】\n在『虛數大海戰 幻想急航』中獲得的\n虛數空間敵人身體的一部分。\n可作為高品質魔力資源進行加工。\n\n閃耀著七色光輝類似利齒的存在。",
     "dropPriority": 2006,
     "endedAt": "1662613199",
     "id": 94053406,
@@ -21542,7 +22344,7 @@
       10616
     ],
     "isSell": false,
-    "name": "聖誕節2022交換券",
+    "name": "聖誕節2023交換券",
     "priority": 94054207,
     "script": {
       "overwritePresentboxDetail": "可從血之淚石、神脈靈子、閑古鈴中選擇一種進行兌換。",
@@ -21623,7 +22425,7 @@
       10580
     ],
     "isSell": false,
-    "name": "銅劍士徽章",
+    "name": "銅Saber徽章",
     "priority": 94054801,
     "script": "",
     "sellQp": -1,
@@ -21643,7 +22445,7 @@
       10581
     ],
     "isSell": false,
-    "name": "銀劍士徽章",
+    "name": "銀Saber徽章",
     "priority": 94054802,
     "script": "",
     "sellQp": -1,
@@ -21663,7 +22465,7 @@
       10582
     ],
     "isSell": false,
-    "name": "金劍士徽章",
+    "name": "金Saber徽章",
     "priority": 94054803,
     "script": "",
     "sellQp": -1,
@@ -23422,9 +24224,9 @@
   },
   {
     "bgImageId": 1,
-    "detail": "【活動收集道具】\n在『復刻：嘮嘮叨叨邪馬臺國2022 輕量版』\n中獲得的小小的銅鐸。\n雖然不知道有什麼用處，但很可愛。",
+    "detail": "【活動蒐集道具】\n在『復刻：嘮嘮叨叨邪馬臺國2022 輕量版』\n中獲得的小小的銅鐸。\n雖然不知道有什麼用處，但很可愛。",
     "dropPriority": 2001,
-    "endedAt": "1893427200",
+    "endedAt": "1694494799",
     "id": 94062301,
     "imageId": 94049101,
     "individuality": [
@@ -23435,16 +24237,16 @@
     "priority": 94062901,
     "script": "",
     "sellQp": -1,
-    "startedAt": "946656000",
+    "startedAt": "1692680400",
     "type": 15,
     "unit": "",
     "value": 0
   },
   {
     "bgImageId": 2,
-    "detail": "【活動收集道具】\n在『復刻：嘮嘮叨叨邪馬臺國2022 輕量版』\n中獲得的便於隨身攜帶的銅鏡。\n保持儀容是少女應有的修養。",
+    "detail": "【活動蒐集道具】\n在『復刻：嘮嘮叨叨邪馬臺國2022 輕量版』\n中獲得的便於隨身攜帶的銅鏡。\n保持儀容是少女應有的修養。",
     "dropPriority": 2002,
-    "endedAt": "1893427200",
+    "endedAt": "1694494799",
     "id": 94062302,
     "imageId": 94049102,
     "individuality": [
@@ -23455,16 +24257,16 @@
     "priority": 94062902,
     "script": "",
     "sellQp": -1,
-    "startedAt": "946656000",
+    "startedAt": "1692680400",
     "type": 15,
     "unit": "",
     "value": 0
   },
   {
     "bgImageId": 3,
-    "detail": "【活動收集道具】\n在『復刻：嘮嘮叨叨邪馬臺國2022 輕量版』\n中獲得的肉質肥厚的蛤蜊。\n卑彌呼的最愛！",
+    "detail": "【活動蒐集道具】\n在『復刻：嘮嘮叨叨邪馬臺國2022 輕量版』\n中獲得的肉質肥厚的蛤蜊。\n卑彌呼的最愛！",
     "dropPriority": 2003,
-    "endedAt": "1893427200",
+    "endedAt": "1694494799",
     "id": 94062303,
     "imageId": 94049103,
     "individuality": [
@@ -23475,16 +24277,16 @@
     "priority": 94062903,
     "script": "",
     "sellQp": -1,
-    "startedAt": "946656000",
+    "startedAt": "1692680400",
     "type": 15,
     "unit": "",
     "value": 0
   },
   {
     "bgImageId": 2,
-    "detail": "【活動收集道具】\n在『復刻：嘮嘮叨叨邪馬臺國2022 輕量版』\n中獲得的茅草束。\n用於鋪設建築物屋頂。",
+    "detail": "【活動蒐集道具】\n在『復刻：嘮嘮叨叨邪馬臺國2022 輕量版』\n中獲得的茅草束。\n用於鋪設建築物屋頂。",
     "dropPriority": 2004,
-    "endedAt": "1893427200",
+    "endedAt": "1694494799",
     "id": 94062304,
     "imageId": 94049104,
     "individuality": [
@@ -23495,16 +24297,16 @@
     "priority": 94062904,
     "script": "",
     "sellQp": -1,
-    "startedAt": "946656000",
+    "startedAt": "1692680400",
     "type": 15,
     "unit": "",
     "value": 0
   },
   {
     "bgImageId": 2,
-    "detail": "【活動收集道具】\n在『復刻：嘮嘮叨叨邪馬臺國2022 輕量版』\n中獲得的粗壯的圓木。\n用於作為建築物立柱或板樁的材料。",
+    "detail": "【活動蒐集道具】\n在『復刻：嘮嘮叨叨邪馬臺國2022 輕量版』\n中獲得的粗壯的圓木。\n用於作為建築物立柱或板樁的材料。",
     "dropPriority": 2005,
-    "endedAt": "1893427200",
+    "endedAt": "1694494799",
     "id": 94062305,
     "imageId": 94049105,
     "individuality": [
@@ -23515,16 +24317,16 @@
     "priority": 94062905,
     "script": "",
     "sellQp": -1,
-    "startedAt": "946656000",
+    "startedAt": "1692680400",
     "type": 15,
     "unit": "",
     "value": 0
   },
   {
     "bgImageId": 2,
-    "detail": "【活動收集道具】\n在『復刻：嘮嘮叨叨邪馬臺國2022 輕量版』\n中獲得的細膩的黏土。\n用於作為土器或埴輪的材料。",
+    "detail": "【活動蒐集道具】\n在『復刻：嘮嘮叨叨邪馬臺國2022 輕量版』\n中獲得的細膩的黏土。\n用於作為土器或埴輪的材料。",
     "dropPriority": 2006,
-    "endedAt": "1893427200",
+    "endedAt": "1694494799",
     "id": 94062306,
     "imageId": 94049106,
     "individuality": [
@@ -23535,14 +24337,14 @@
     "priority": 94062906,
     "script": "",
     "sellQp": -1,
-    "startedAt": "946656000",
+    "startedAt": "1692680400",
     "type": 15,
     "unit": "",
     "value": 0
   },
   {
     "bgImageId": 1,
-    "detail": "【活動收集道具】\n在『萬聖節．復活歸來！』中獲得的\n營養豐富的芝麻種子。\n傳說芝麻蘊含著神秘的力量。",
+    "detail": "【活動蒐集道具】\n在『萬聖節．復活歸來！』中獲得的\n營養豐富的芝麻種子。\n傳說芝麻蘊含著神秘的力量。",
     "dropPriority": 2001,
     "endedAt": "1692680399",
     "id": 94062801,
@@ -23562,7 +24364,7 @@
   },
   {
     "bgImageId": 2,
-    "detail": "【活動收集道具】\n在『萬聖節．復活歸來！』中獲得的\n能一口吃下的糖果屋。\n雖然吃不下房子那麼大尺寸的糖果，\n但這個大小應該吃多少都沒問題吧。",
+    "detail": "【活動蒐集道具】\n在『萬聖節．復活歸來！』中獲得的\n能一口吃下的糖果屋。\n雖然吃不下房子那麼大尺寸的糖果，\n但這個大小應該吃多少都沒問題吧。",
     "dropPriority": 2002,
     "endedAt": "1692680399",
     "id": 94062802,
@@ -23582,7 +24384,7 @@
   },
   {
     "bgImageId": 3,
-    "detail": "【活動收集道具】\n在『萬聖節．復活歸來！』中獲得的\n怎麼看都很可疑的蘋果。\n收下這個並願意吃下去的人一定是個超級老好人吧。",
+    "detail": "【活動蒐集道具】\n在『萬聖節．復活歸來！』中獲得的\n怎麼看都很可疑的蘋果。\n收下這個並願意吃下去的人一定是個超級老好人吧。",
     "dropPriority": 2003,
     "endedAt": "1692680399",
     "id": 94062803,
@@ -23693,9 +24495,9 @@
   },
   {
     "bgImageId": 1,
-    "detail": "【活動收集道具】\n在『嘮嘮叨叨龍馬千鈞一髮！』\n中獲得的樸素的食物。\n是在炸馬鈴薯上澆上甜味噌汁做成的。\n從ZHIFU山地走私而來，\n作為簡單的食物在黑市流通。",
+    "detail": "【活動蒐集道具】\n在『嘮嘮叨叨龍馬千鈞一髮！』中獲得的\n樸素的食物。\n是在炸馬鈴薯上澆上甜味噌汁做成的。\n從CHICHIBU山地走私而來，\n作為簡單的食物在黑市流通。",
     "dropPriority": 2001,
-    "endedAt": "1893427200",
+    "endedAt": "1695704399",
     "id": 94063701,
     "imageId": 94063701,
     "individuality": [
@@ -23706,16 +24508,16 @@
     "priority": 94063701,
     "script": "",
     "sellQp": -1,
-    "startedAt": "946656000",
+    "startedAt": "1693890000",
     "type": 15,
     "unit": "",
     "value": 0
   },
   {
     "bgImageId": 2,
-    "detail": "【活動收集道具】\n在『嘮嘮叨叨龍馬千鈞一髮！』\n中獲得的高級大蔥。\n柔軟、甜美、雪白而美麗。\n在想要奢侈一下的民眾中非常有人氣。",
+    "detail": "【活動蒐集道具】\n在『嘮嘮叨叨龍馬千鈞一髮！』中獲得的\n高級大蔥。\n柔軟、甘甜、雪白又美麗。\n在想要奢侈一下的民眾中非常有人氣。",
     "dropPriority": 2002,
-    "endedAt": "1893427200",
+    "endedAt": "1695704399",
     "id": 94063702,
     "imageId": 94063702,
     "individuality": [
@@ -23726,16 +24528,16 @@
     "priority": 94063702,
     "script": "",
     "sellQp": -1,
-    "startedAt": "946656000",
+    "startedAt": "1693890000",
     "type": 15,
     "unit": "",
     "value": 0
   },
   {
     "bgImageId": 3,
-    "detail": "【活動收集道具】\n在『嘮嘮叨叨龍馬千鈞一髮！』\n中獲得的過於有趣的饅頭。\n只要一口塞進嘴裡，\n所有人都會難以抑制地大叫有趣。\n有趣，太有趣了！",
+    "detail": "【活動蒐集道具】\n在『嘮嘮叨叨龍馬千鈞一髮！』中獲得的\n過於有趣的饅頭。\n只要一口塞進嘴裡，\n所有人都會難以抑制地大叫有趣。\n有趣，太有趣了！",
     "dropPriority": 2003,
-    "endedAt": "1893427200",
+    "endedAt": "1695704399",
     "id": 94063703,
     "imageId": 94063703,
     "individuality": [
@@ -23746,14 +24548,14 @@
     "priority": 94063703,
     "script": "",
     "sellQp": -1,
-    "startedAt": "946656000",
+    "startedAt": "1693890000",
     "type": 15,
     "unit": "",
     "value": 0
   },
   {
     "bgImageId": 3,
-    "detail": "【靈基再臨素材】\n在『嘮嘮叨叨龍馬千鈞一髮！』\n中獲得的蘭丸星特產的物質。 \n擁有凝縮了蘭丸元素的形象，\n品嘗起來似乎接近焦糖與巧克力的味道。",
+    "detail": "【靈基再臨素材】\n在『嘮嘮叨叨龍馬千鈞一髮！』中獲得的\n蘭丸星特產的物質。 \n是將蘭丸元素凝縮在一起的形象，\n嘗起來似乎接近焦糖與巧克力的味道。",
     "dropPriority": 2004,
     "endedAt": "1893427200",
     "id": 94063704,
@@ -23766,16 +24568,16 @@
     "priority": 94063704,
     "script": "",
     "sellQp": -1,
-    "startedAt": "946656000",
+    "startedAt": "1693890000",
     "type": 15,
     "unit": "",
     "value": 0
   },
   {
     "bgImageId": 1,
-    "detail": "【活動收集道具】\n在『聖誕節2022\nMaking Christmas Party！』\n中獲得的像砂糖一樣甜的水果乾。",
+    "detail": "【活動蒐集道具】\n在『聖誕節2023\nMaking Christmas Party！』\n中獲得的像砂糖一樣甜的水果乾。",
     "dropPriority": 2001,
-    "endedAt": "1893427200",
+    "endedAt": "1697605199",
     "id": 94064301,
     "imageId": 94064301,
     "individuality": [
@@ -23786,16 +24588,16 @@
     "priority": 94064301,
     "script": "",
     "sellQp": -1,
-    "startedAt": "946656000",
+    "startedAt": "1695704400",
     "type": 15,
     "unit": "",
     "value": 0
   },
   {
     "bgImageId": 2,
-    "detail": "【活動收集道具】\n在『聖誕節2022\nMaking Christmas Party！』\n中獲得的味道濃郁的雞蛋。",
+    "detail": "【活動蒐集道具】\n在『聖誕節2023\nMaking Christmas Party！』\n中獲得的味道濃郁的雞蛋。",
     "dropPriority": 2002,
-    "endedAt": "1893427200",
+    "endedAt": "1697605199",
     "id": 94064302,
     "imageId": 94064302,
     "individuality": [
@@ -23806,16 +24608,16 @@
     "priority": 94064302,
     "script": "",
     "sellQp": -1,
-    "startedAt": "946656000",
+    "startedAt": "1695704400",
     "type": 15,
     "unit": "",
     "value": 0
   },
   {
     "bgImageId": 3,
-    "detail": "【活動收集道具】\n在『聖誕節2022\nMaking Christmas Party！』\n中獲得的風味濃厚奢華的奶油。",
+    "detail": "【活動蒐集道具】\n在『聖誕節2023\nMaking Christmas Party！』\n中獲得的風味濃厚奢華的奶油。",
     "dropPriority": 2003,
-    "endedAt": "1893427200",
+    "endedAt": "1697605199",
     "id": 94064303,
     "imageId": 94064303,
     "individuality": [
@@ -23826,16 +24628,16 @@
     "priority": 94064303,
     "script": "",
     "sellQp": -1,
-    "startedAt": "946656000",
+    "startedAt": "1695704400",
     "type": 15,
     "unit": "",
     "value": 0
   },
   {
     "bgImageId": 3,
-    "detail": "【活動收集道具】\n在『聖誕節2022\nMaking Christmas Party！』\n中獲得的香檳風無酒精蘇打。\n在神聖之夜稍微有些成年人的感覺！",
+    "detail": "【活動蒐集道具】\n在『聖誕節2023\nMaking Christmas Party！』\n中獲得的香檳風無酒精蘇打。\n在神聖之夜稍微有點成年人的感覺！",
     "dropPriority": 2004,
-    "endedAt": "1893427200",
+    "endedAt": "1697605199",
     "id": 94064304,
     "imageId": 94064304,
     "individuality": [
@@ -23846,16 +24648,16 @@
     "priority": 94064304,
     "script": "",
     "sellQp": -1,
-    "startedAt": "946656000",
+    "startedAt": "1695704400",
     "type": 15,
     "unit": "",
     "value": 0
   },
   {
     "bgImageId": 3,
-    "detail": "【活動兌換道具】\n在『聖誕節2022\nMaking Christmas Party！』\n中賜予為了給宴會做準備而\n東奔西走之人的謎之獎券。",
+    "detail": "【活動兌換道具】\n在『聖誕節2023\nMaking Christmas Party！』\n中賜予為了做宴會準備而\n東奔西走之人的謎之獎券。",
     "dropPriority": 2005,
-    "endedAt": "1893427200",
+    "endedAt": "1697605199",
     "id": 94064305,
     "imageId": 94064305,
     "individuality": [
@@ -23866,57 +24668,57 @@
     "priority": 94064305,
     "script": "",
     "sellQp": -1,
-    "startedAt": "946656000",
+    "startedAt": "1695704400",
     "type": 15,
     "unit": "",
     "value": 0
   },
   {
     "bgImageId": 3,
-    "detail": "【活動收集道具】\n在『聖誕節2022\nMaking Christmas Party！』\n中獲得的可愛的湯勺。\n用充滿了聖誕節風的餐具，\n讓派對氣氛更為熱烈吧！",
+    "detail": "【活動蒐集道具】\n在『聖誕節2023\nMaking Christmas Party！』\n中獲得的可愛的湯匙。\n用充滿了聖誕節風的餐具，\n讓派對氣氛更為熱烈吧！",
     "dropPriority": 2006,
-    "endedAt": "1893427200",
+    "endedAt": "1697605199",
     "id": 94064306,
     "imageId": 94064306,
     "individuality": [
       10697
     ],
     "isSell": false,
-    "name": "聖誕樹湯勺",
+    "name": "聖誕樹湯匙",
     "priority": 94064306,
     "script": "",
     "sellQp": -1,
-    "startedAt": "946656000",
+    "startedAt": "1695704400",
     "type": 15,
     "unit": "",
     "value": 0
   },
   {
     "bgImageId": 3,
-    "detail": "【活動兌換道具】\n在『聖誕節2022\nMaking Christmas Party！』\n中獲得的特別兌換券。",
+    "detail": "【活動兌換道具】\n在『聖誕節2023\nMaking Christmas Party！』\n中獲得的特別兌換券。",
     "dropPriority": 9001,
-    "endedAt": "1893427200",
+    "endedAt": "1697605199",
     "id": 94064307,
     "imageId": 94064307,
     "individuality": [
       10698
     ],
     "isSell": false,
-    "name": "聖誕節2022交換券",
+    "name": "聖誕節2023交換券",
     "priority": 94064307,
     "script": {
       "overwritePresentboxDetail": "可從混沌之爪、極光之鋼、鳳凰羽毛中選擇一種進行兌換。",
       "isPresent": 1
     },
     "sellQp": -1,
-    "startedAt": "946656000",
+    "startedAt": "1695704400",
     "type": 24,
     "unit": "",
     "value": 0
   },
   {
     "bgImageId": 3,
-    "detail": "【靈基再臨素材】\n在『聖誕節2022\nMaking Christmas Party！』\n中獲得的奇蹟的湯勺。",
+    "detail": "【靈基再臨素材】\n在『聖誕節2023\nMaking Christmas Party！』\n中獲得的奇蹟的湯勺。",
     "dropPriority": 2008,
     "endedAt": "1893427200",
     "id": 94064308,
@@ -23929,7 +24731,7 @@
     "priority": 94064308,
     "script": "",
     "sellQp": -1,
-    "startedAt": "946656000",
+    "startedAt": "1695704400",
     "type": 15,
     "unit": "",
     "value": 0
@@ -23954,9 +24756,9 @@
   },
   {
     "bgImageId": 1,
-    "detail": "【活動兌換道具】\n在『復刻版：淑女．萊涅絲事件簿 -Plus Episode-』\n中獲得的格調高雅的紅茶茶葉。\n是紳士淑女們午茶時間中必不可少的。",
+    "detail": "【活動兌換道具】\n在『復刻版：淑女．萊涅絲事件簿 -Plus Episode-』\n中獲得的格調高雅的紅茶茶葉。\n是紳士淑女們下午茶時間中不可或缺的。",
     "dropPriority": 2001,
-    "endedAt": "1893427200",
+    "endedAt": "1701752399",
     "id": 94065501,
     "imageId": 94036601,
     "individuality": [
@@ -23967,7 +24769,7 @@
     "priority": 94065501,
     "script": "",
     "sellQp": -1,
-    "startedAt": "946656000",
+    "startedAt": "1699333200",
     "type": 15,
     "unit": "",
     "value": 0
@@ -23976,7 +24778,7 @@
     "bgImageId": 2,
     "detail": "【活動兌換道具】\n在『復刻版：淑女．萊涅絲事件簿 -Plus Episode-』\n中獲得的兔子的玩偶。\n從那炯炯有神的雙眼中透出了一股氣質。",
     "dropPriority": 2002,
-    "endedAt": "1893427200",
+    "endedAt": "1701752399",
     "id": 94065502,
     "imageId": 94036602,
     "individuality": [
@@ -23987,7 +24789,7 @@
     "priority": 94065502,
     "script": "",
     "sellQp": -1,
-    "startedAt": "946656000",
+    "startedAt": "1699333200",
     "type": 15,
     "unit": "",
     "value": 0
@@ -23996,7 +24798,7 @@
     "bgImageId": 3,
     "detail": "【活動兌換道具】\n在『復刻版：淑女．萊涅絲事件簿 -Plus Episode-』\n中獲得的高級懷錶。\n在懷中藏著懷錶乃是紳士的愛好。",
     "dropPriority": 2003,
-    "endedAt": "1893427200",
+    "endedAt": "1701752399",
     "id": 94065503,
     "imageId": 94036603,
     "individuality": [
@@ -24007,7 +24809,7 @@
     "priority": 94065503,
     "script": "",
     "sellQp": -1,
-    "startedAt": "946656000",
+    "startedAt": "1699333200",
     "type": 15,
     "unit": "",
     "value": 0
@@ -24016,7 +24818,7 @@
     "bgImageId": 2,
     "detail": "【羈絆提升道具】\n任務通關時，隊伍全員(包括替補)的\n羈絆獲得量變成兩倍。\n(無法獲得羈絆的任務不會消耗)",
     "dropPriority": 9001,
-    "endedAt": "1893427200",
+    "endedAt": "1702789199",
     "id": 94065901,
     "imageId": 94065901,
     "individuality": [],
@@ -24025,7 +24827,1652 @@
     "priority": 94065901,
     "script": "",
     "sellQp": -1,
-    "startedAt": "946656000",
+    "startedAt": "1696741200",
+    "type": 30,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 1,
+    "detail": "【活動收集道具】\n在『馬納南．紀念．情人節』\n中獲得的可可豆碎粒。\n是可可豆發酵、烘焙後打碎成的小碎塊。",
+    "dropPriority": 2001,
+    "endedAt": "1702961999",
+    "id": 94066401,
+    "imageId": 94066401,
+    "individuality": [
+      10703
+    ],
+    "isSell": false,
+    "name": "可可豆",
+    "priority": 94066401,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1701147600",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【活動收集道具】\n在『馬納南．紀念．情人節』\n中獲得的可可粉。\n是從可可液塊中榨出可可脂之後，\n留下的粉末狀物體。",
+    "dropPriority": 2002,
+    "endedAt": "1702961999",
+    "id": 94066402,
+    "imageId": 94066402,
+    "individuality": [
+      10704
+    ],
+    "isSell": false,
+    "name": "苦味可可粉",
+    "priority": 94066402,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1701147600",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 3,
+    "detail": "【活動收集道具】\n在『馬納南．紀念．情人節』\n中獲得的熱巧克力。\n將炒熟的可可粉溶於水，\n加上香料並打發泡製成的飲料。",
+    "dropPriority": 2003,
+    "endedAt": "1702961999",
+    "id": 94066403,
+    "imageId": 94066403,
+    "individuality": [
+      10705
+    ],
+    "isSell": false,
+    "name": "香料熱巧克力",
+    "priority": 94066403,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1701147600",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【活動點數】\n在『馬納南．紀念．情人節』\n中獲得的用來表彰保鑣功績的點數。",
+    "dropPriority": 3004,
+    "endedAt": "1702961999",
+    "id": 94066404,
+    "imageId": 94066404,
+    "individuality": [
+      10706
+    ],
+    "isSell": false,
+    "name": "保鑣點數",
+    "priority": 94066404,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1701147600",
+    "type": 14,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 3,
+    "detail": "【活動兌換道具】\n在『馬納南．紀念．情人節』\n中獲得的特製巧克力。\n最適合用作主動贈送的禮物。",
+    "dropPriority": 2005,
+    "endedAt": "1702961999",
+    "id": 94066405,
+    "imageId": 94020806,
+    "individuality": [
+      10262
+    ],
+    "isSell": false,
+    "name": "鎖定巧克力",
+    "priority": 94066405,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1701147600",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 3,
+    "detail": "【活動兌換道具】\n在『馬納南．紀念．情人節』\n中獲得的特製巧克力。\n最適合用作出其不意的禮物。",
+    "dropPriority": 2006,
+    "endedAt": "1702961999",
+    "id": 94066406,
+    "imageId": 94020807,
+    "individuality": [
+      10263
+    ],
+    "isSell": false,
+    "name": "驚喜巧克力",
+    "priority": 94066406,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1701147600",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 1,
+    "detail": "【活動收集道具】\n在『15位知性的眼鏡們』中獲得的\n富含智慧的複印紙。\n施加了魔術的通透性。",
+    "dropPriority": 2001,
+    "endedAt": "1704776399",
+    "id": 94067001,
+    "imageId": 94067001,
+    "individuality": [
+      10707
+    ],
+    "isSell": false,
+    "name": "智慧紙",
+    "priority": 94067001,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1702962000",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【活動收集道具】\n在『15位知性的眼鏡們』中獲得的\n充滿透明感而清爽的活頁夾。\n上面描繪著魔術的標記。",
+    "dropPriority": 2002,
+    "endedAt": "1704776399",
+    "id": 94067002,
+    "imageId": 94067002,
+    "individuality": [
+      10708
+    ],
+    "isSell": false,
+    "name": "冷靜活頁夾",
+    "priority": 94067002,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1702962000",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 3,
+    "detail": "【活動收集道具】\n在『15位知性的眼鏡們』中獲得的\n樣式講究的鋼筆。\n刻印著魔術的紋路。",
+    "dropPriority": 2003,
+    "endedAt": "1704776399",
+    "id": 94067003,
+    "imageId": 94067003,
+    "individuality": [
+      10709
+    ],
+    "isSell": false,
+    "name": "聰明筆",
+    "priority": 94067003,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1702962000",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 3,
+    "detail": "【活動兌換道具】\n在『白色情人節．眼鏡映照的景色』\n中收到的時尚的入場證。",
+    "dropPriority": 2004,
+    "endedAt": "1704776399",
+    "id": 94067004,
+    "imageId": 94067004,
+    "individuality": [
+      10710
+    ],
+    "isSell": false,
+    "name": "白色情人節．眼鏡映照的景色入場證",
+    "priority": 94067004,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1702962000",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 3,
+    "detail": "【靈衣開放券】\n在『白色情人節．眼鏡映照的景色』\n中獲得的，可以不使用素材及QP\n就得到「學生會長阿周那」\n與眼鏡靈衣的特別兌換券。",
+    "dropPriority": 2005,
+    "endedAt": "1893427200",
+    "id": 94067005,
+    "imageId": 94067005,
+    "individuality": [
+      10711
+    ],
+    "isSell": false,
+    "name": "白色情人節．眼鏡映照的景色靈衣開放券",
+    "priority": 94067005,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1702962000",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【羈絆提升道具】\n任務通關時，隊伍全員(包括替補)的\n羈絆獲得量變成兩倍。\n(無法獲得羈絆的任務不會消耗)",
+    "dropPriority": 9006,
+    "endedAt": "1710737999",
+    "id": 94067006,
+    "imageId": 94065901,
+    "individuality": [],
+    "isSell": false,
+    "name": "占星茶壺",
+    "priority": 94067006,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1703016000",
+    "type": 30,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 3,
+    "detail": "【活動兌換道具】\n在『迦勒底男性精選2022』中收到的邀請函。",
+    "dropPriority": 2001,
+    "endedAt": "1893427200",
+    "id": 94067501,
+    "imageId": 94056504,
+    "individuality": [
+      10717
+    ],
+    "isSell": false,
+    "name": "CBC2022特別邀請函",
+    "priority": 94067501,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1702357200",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 1,
+    "detail": "【活動收集道具】\n在『BATTLE IN NEWYORK 2024』中獲得的\n透過與從者宇宙聯動誕生的新品炸薯條。\n像未知的宇宙那樣神奇。",
+    "dropPriority": 2001,
+    "endedAt": "1705985999",
+    "id": 94067601,
+    "imageId": 94067601,
+    "individuality": [
+      10712
+    ],
+    "isSell": false,
+    "name": "太空薯條",
+    "priority": 94067601,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1704171600",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【活動收集道具】\n在『BATTLE IN NEWYORK 2024』中獲得的\n透過與從者宇宙聯動誕生的新品熱狗。\n像閃耀的銀河那樣奢華。",
+    "dropPriority": 2002,
+    "endedAt": "1705985999",
+    "id": 94067602,
+    "imageId": 94067602,
+    "individuality": [
+      10713
+    ],
+    "isSell": false,
+    "name": "銀河熱狗",
+    "priority": 94067602,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1704171600",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 3,
+    "detail": "【活動收集道具】\n在『BATTLE IN NEWYORK 2024』中獲得的\n透過與從者宇宙聯動誕生的新品漢堡。\n像燃燒的隕石那樣精力充沛。",
+    "dropPriority": 2003,
+    "endedAt": "1705985999",
+    "id": 94067603,
+    "imageId": 94067603,
+    "individuality": [
+      10714
+    ],
+    "isSell": false,
+    "name": "隕石漢堡",
+    "priority": 94067603,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1704171600",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 3,
+    "detail": "【活動收集道具】\n在『BATTLE IN NEWYORK 2024』中獲得的\n從者宇宙製獎章。",
+    "dropPriority": 2004,
+    "endedAt": "1705985999",
+    "id": 94067604,
+    "imageId": 94067604,
+    "individuality": [
+      10715
+    ],
+    "isSell": false,
+    "name": "宇宙徽章",
+    "priority": 94067604,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1704171600",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 3,
+    "detail": "【活動收集道具】\n在『BATTLE IN NEWYORK 2024』中獲得的\n宇宙規模的抽獎券。",
+    "dropPriority": 2005,
+    "endedAt": "1705985999",
+    "id": 94067605,
+    "imageId": 94067605,
+    "individuality": [
+      10716
+    ],
+    "isSell": false,
+    "name": "AUO抽獎券2024",
+    "priority": 94067605,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1704171600",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 1,
+    "detail": "【活動收集道具】\n在『水怪危機 純潔之人的浮島』\n中獲得的特異植物的藤蔓。\n包含著些微魔力，\n可以當做強韌的繩子使用，\n或是從中抽取纖維當做絲線使用。",
+    "dropPriority": 2001,
+    "endedAt": "1707800399",
+    "id": 94068801,
+    "imageId": 94068801,
+    "individuality": [
+      10718
+    ],
+    "isSell": false,
+    "name": "神秘藤",
+    "priority": 94068801,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1705381200",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【活動收集道具】\n在『水怪危機 純潔之人的浮島』\n中獲得的特異的礦石。\n對魔力的親和性之高媲美寶石，\n可作為優秀的魔術觸媒。",
+    "dropPriority": 2002,
+    "endedAt": "1707800399",
+    "id": 94068802,
+    "imageId": 94068802,
+    "individuality": [
+      10719
+    ],
+    "isSell": false,
+    "name": "萬能岩",
+    "priority": 94068802,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1705381200",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 3,
+    "detail": "【活動收集道具】\n在『水怪危機 純潔之人的浮島』\n中獲得的特異的木材。\n或許是由於透過吸收魔力成長的，\n所以可輕易使用魔術進行精細加工。",
+    "dropPriority": 2003,
+    "endedAt": "1707800399",
+    "id": 94068803,
+    "imageId": 94068803,
+    "individuality": [
+      10720
+    ],
+    "isSell": false,
+    "name": "魔生木",
+    "priority": 94068803,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1705381200",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【活動收集道具】\n在『水怪危機 純潔之人的浮島』\n中救出的涳。\n身體雖小但很有力氣。",
+    "dropPriority": 2004,
+    "endedAt": "1707800399",
+    "id": 94068804,
+    "imageId": 94068804,
+    "individuality": [
+      10721
+    ],
+    "isSell": false,
+    "name": "健康的涳",
+    "priority": 94068804,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1705381200",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【活動收集道具】\n在『水怪危機 純潔之人的浮島』\n中救出的涳。\n對精巧手藝很有自信。",
+    "dropPriority": 2005,
+    "endedAt": "1707800399",
+    "id": 94068805,
+    "imageId": 94068805,
+    "individuality": [
+      10722
+    ],
+    "isSell": false,
+    "name": "開朗的涳",
+    "priority": 94068805,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1705381200",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【活動收集道具】\n在『水怪危機 純潔之人的浮島』\n中救出的涳。\n會踏踏實實工作，非常努力。",
+    "dropPriority": 2006,
+    "endedAt": "1707800399",
+    "id": 94068806,
+    "imageId": 94068806,
+    "individuality": [
+      10723
+    ],
+    "isSell": false,
+    "name": "勇敢的涳",
+    "priority": 94068806,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1705381200",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 3,
+    "detail": "【靈基再臨素材】\n在『水怪危機 純潔之人的浮島』\n中獲得的粉紅色的緞帶。\n某位明星在當地的1號粉絲證明，\n是重要回憶的一部分。",
+    "dropPriority": 2007,
+    "endedAt": "1893427200",
+    "id": 94068807,
+    "imageId": 94068807,
+    "individuality": [
+      10724
+    ],
+    "isSell": false,
+    "name": "1號粉絲的證明",
+    "priority": 94068807,
+    "script": {
+      "effectId": 1
+    },
+    "sellQp": -1,
+    "startedAt": "1705381200",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 1,
+    "detail": "【活動收集道具】\n在『系列冒險劇神話 密西西比．神話編撰者們』\n中獲得的旅途必備道具。\n只要一起分享著吃，大家都能融洽相處！",
+    "dropPriority": 2001,
+    "endedAt": "1709614799",
+    "id": 94069601,
+    "imageId": 94069601,
+    "individuality": [
+      10725
+    ],
+    "isSell": false,
+    "name": "來福飯糰",
+    "priority": 94069601,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1707195600",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【活動收集道具】\n在『系列冒險劇神話 密西西比．神話編撰者們』\n中獲得的享受成年人感覺的巧克力。\n要注意不能就這麼吃下去！",
+    "dropPriority": 2002,
+    "endedAt": "1709614799",
+    "id": 94069602,
+    "imageId": 94069602,
+    "individuality": [
+      10726
+    ],
+    "isSell": false,
+    "name": "雪茄棒（偽）",
+    "priority": 94069602,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1707195600",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 3,
+    "detail": "【活動收集道具】\n在『系列冒險劇神話 密西西比．神話編撰者們』\n中獲得的拍攝電影用的膠捲。\n每一盤膠捲中都塞滿了眾多夢想與野心。",
+    "dropPriority": 2003,
+    "endedAt": "1709614799",
+    "id": 94069603,
+    "imageId": 94069603,
+    "individuality": [
+      10727
+    ],
+    "isSell": false,
+    "name": "古董膠捲",
+    "priority": 94069603,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1707195600",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【活動發掘道具】\n在『系列冒險劇神話 密西西比．神話編撰者們』\n中獲得的挖掘用道具。\n適合用來挖掘脆弱的岩盤。",
+    "dropPriority": 2005,
+    "endedAt": "1709614799",
+    "id": 94069604,
+    "imageId": 94069604,
+    "individuality": [
+      10729
+    ],
+    "isSell": false,
+    "name": "咚咚錘",
+    "priority": 94069605,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1707195600",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【活動發掘道具】\n在『系列冒險劇神話 密西西比．神話編撰者們』\n中獲得的挖掘用道具。\n適合用來挖掘堅硬的岩盤。",
+    "dropPriority": 2006,
+    "endedAt": "1709614799",
+    "id": 94069605,
+    "imageId": 94069605,
+    "individuality": [
+      10730
+    ],
+    "isSell": false,
+    "name": "嘎嘎鎬",
+    "priority": 94069606,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1707195600",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【活動發掘道具】\n在『系列冒險劇神話 密西西比．神話編撰者們』\n中獲得的挖掘用道具。\n適合用來挖掘柔軟的岩盤。",
+    "dropPriority": 2004,
+    "endedAt": "1709614799",
+    "id": 94069606,
+    "imageId": 94069606,
+    "individuality": [
+      10728
+    ],
+    "isSell": false,
+    "name": "唰唰鏟",
+    "priority": 94069604,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1707195600",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【活動點數】\n在『系列冒險劇神話 密西西比．神話編撰者們』\n中獲得的透過償還借款獲得的點數。",
+    "dropPriority": 3007,
+    "endedAt": "1709614799",
+    "id": 94069607,
+    "imageId": 94069607,
+    "individuality": [
+      10731
+    ],
+    "isSell": false,
+    "name": "班揚支付點數",
+    "priority": 94069607,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1707195600",
+    "type": 14,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 3,
+    "detail": "【活動兌換道具】\n『迦勒底春節紀念活動』中\n獲得的獎券。\n可在達．文西工房中\n兌換1騎「★4(SR)從者」。\n\n※通關「特異點F」後才可兌換。\n※兌換期限截至2024/02/22(週四) 12:59。",
+    "dropPriority": 9001,
+    "endedAt": "1708577999",
+    "id": 94071601,
+    "imageId": 94071601,
+    "individuality": [],
+    "isSell": false,
+    "name": "迦勒底春節紀念券〔從者〕",
+    "priority": 94071601,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1707195600",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 3,
+    "detail": "【活動兌換道具】\n『迦勒底春節紀念活動』中\n獲得的獎券。\n可在達．文西工房中\n兌換1張「★4(SR)概念禮裝」。\n\n※通關「特異點F」後才可兌換。\n※兌換期限截至2024/02/20(週二) 12:59。",
+    "dropPriority": 9001,
+    "endedAt": "1708405199",
+    "id": 94071602,
+    "imageId": 94071602,
+    "individuality": [],
+    "isSell": false,
+    "name": "迦勒底春節紀念券〔概念禮裝〕",
+    "priority": 94071602,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1707195600",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 3,
+    "detail": "【第2部 Traum開幕前夕活動限定 接關道具】\n主線劇情戰鬥全滅時使用，\n可讓組隊全員復活。\n\n※使用期限 2024/4/17(週三) 12:59",
+    "dropPriority": 9001,
+    "endedAt": "1713329999",
+    "id": 94071701,
+    "imageId": 94054401,
+    "individuality": [],
+    "isSell": false,
+    "name": "靈脈石",
+    "priority": 94071701,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1709614800",
+    "type": 27,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 3,
+    "detail": "【活動關鍵道具】\n在『主線分支：德川迴天迷宮 大奧』中\n獲得的手提燈籠。\n是在昏暗走廊行走的必需品。",
+    "dropPriority": 2004,
+    "endedAt": "1893427200",
+    "id": 94071904,
+    "imageId": 94035004,
+    "individuality": [
+      10421
+    ],
+    "isSell": false,
+    "name": "御鈴行燈",
+    "priority": 94072804,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1714453200",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 3,
+    "detail": "【活動道具】\n在『主線分支：德川迴天迷宮 大奧』中\n獲得的奇妙的花牌。\n上面畫著「牡丹與蝶」的圖案。",
+    "dropPriority": 2005,
+    "endedAt": "1893427200",
+    "id": 94071905,
+    "imageId": 94035005,
+    "individuality": [
+      10422
+    ],
+    "isSell": false,
+    "name": "大奧花牌",
+    "priority": 94072805,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1714453200",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 3,
+    "detail": "【活動道具】\n在『主線分支：德川迴天迷宮 大奧』中\n獲得的奇妙的花牌。\n上面畫著「牡丹與蝶」的圖案。",
+    "dropPriority": 2006,
+    "endedAt": "1893427200",
+    "id": 94071906,
+    "imageId": 94035006,
+    "individuality": [
+      10423
+    ],
+    "isSell": false,
+    "name": "大奧花牌・黑",
+    "priority": 94072806,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1714453200",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 1,
+    "detail": "【活動收集道具】\n在『南溟弓張八犬傳』中獲得的\n連犬士看到也會忍不住猛衝的狗糧。\n兼顧了口感與營養平衡。",
+    "dropPriority": 2001,
+    "endedAt": "1715662799",
+    "id": 94072701,
+    "imageId": 94072701,
+    "individuality": [
+      10733
+    ],
+    "isSell": false,
+    "name": "白白米飯",
+    "priority": 94072701,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1713243600",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【活動收集道具】\n在『南溟弓張八犬傳』中獲得的\n連犬士看到也會忍不住啃咬的繩狀玩具。\n一邊爭奪一邊玩耍還能起到刷牙的效果",
+    "dropPriority": 2002,
+    "endedAt": "1715662799",
+    "id": 94072702,
+    "imageId": 94072702,
+    "individuality": [
+      10734
+    ],
+    "isSell": false,
+    "name": "咬咬繩索",
+    "priority": 94072702,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1713243600",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 3,
+    "detail": "【活動收集道具】\n在『南溟弓張八犬傳』中獲得的\n連犬士看到也會忍不住撲上去的球狀玩具。\n滾動時會發出奇妙的聲響，刺激好奇心與本能。",
+    "dropPriority": 2003,
+    "endedAt": "1715662799",
+    "id": 94072703,
+    "imageId": 94072703,
+    "individuality": [
+      10735
+    ],
+    "isSell": false,
+    "name": "轉轉手鞠",
+    "priority": 94072703,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1713243600",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【活動點數】\n在『南溟弓張八犬傳』中獲得的\n「仁、義、禮、智、忠、信、孝、悌」\n的八德力量。",
+    "dropPriority": 3004,
+    "endedAt": "1715662799",
+    "id": 94072704,
+    "imageId": 94072704,
+    "individuality": [
+      10736
+    ],
+    "isSell": false,
+    "name": "犬士點數",
+    "priority": 94072704,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1713243600",
+    "type": 14,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【羈絆提升道具】\n任務通關時，隊伍全員(包括替補)的\n羈絆獲得量變成兩倍。\n(無法獲得羈絆的任務不會消耗)",
+    "dropPriority": 9001,
+    "endedAt": "1718859599",
+    "id": 94073101,
+    "imageId": 94065901,
+    "individuality": [],
+    "isSell": false,
+    "name": "占星茶壺",
+    "priority": 94073101,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1712638800",
+    "type": 30,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 1,
+    "detail": "【活動收集道具】\n在『北極．夏日世界！』中獲得的\n冰涼～的甜品。\n在寒冷環境中品嘗冰涼美食更有樂趣！",
+    "dropPriority": 2001,
+    "endedAt": "1719464399",
+    "id": 94073601,
+    "imageId": 94073601,
+    "individuality": [
+      10737
+    ],
+    "isSell": false,
+    "name": "極光冰沙",
+    "priority": 94073601,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1717045200",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【活動收集道具】\n在『北極．夏日世界！』中獲得的\n經典禮品。\n不知為何總是忍不住想購買的東西。",
+    "dropPriority": 2002,
+    "endedAt": "1719464399",
+    "id": 94073602,
+    "imageId": 94073602,
+    "individuality": [
+      10738
+    ],
+    "isSell": false,
+    "name": "北極水晶球",
+    "priority": 94073602,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1717045200",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 3,
+    "detail": "【活動收集道具】\n在『北極．夏日世界！』中獲得的，\n讓人心情雀躍的頭飾。\n不要害羞，戴上它在園內四處遊覽吧！",
+    "dropPriority": 2003,
+    "endedAt": "1719464399",
+    "id": 94073603,
+    "imageId": 94073603,
+    "individuality": [
+      10739
+    ],
+    "isSell": false,
+    "name": "瓦爾基麗髮箍",
+    "priority": 94073603,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1717045200",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【活動收集道具】\n在『北極．夏日世界！』中獲得的，\n由北極清澈的冰切成的整齊冰磚。\n無論用作食材還是建材，都很方便。",
+    "dropPriority": 2004,
+    "endedAt": "1719464399",
+    "id": 94073604,
+    "imageId": 94073604,
+    "individuality": [
+      10740
+    ],
+    "isSell": false,
+    "name": "北極式天然冰",
+    "priority": 94073604,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1717045200",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【活動點數】\n在『北極．夏日世界！』中獲得的，\n蒐集了入園者雀躍心情的力量。",
+    "dropPriority": 3005,
+    "endedAt": "1719464399",
+    "id": 94073605,
+    "imageId": 94073605,
+    "individuality": [
+      10741
+    ],
+    "isSell": false,
+    "name": "入園人數點數",
+    "priority": 94073605,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1717045200",
+    "type": 14,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 3,
+    "detail": "【靈基再臨素材】\n在『北極．夏日世界！』中獲得的，\n換上夏日靈基的瓦爾基麗們\n頭上佩戴的帽子的複製品。",
+    "dropPriority": 2006,
+    "endedAt": "1893427200",
+    "id": 94073606,
+    "imageId": 94073606,
+    "individuality": [
+      10742
+    ],
+    "isSell": false,
+    "name": "女武神的貝雷帽",
+    "priority": 94073606,
+    "script": {
+      "effectId": 1
+    },
+    "sellQp": -1,
+    "startedAt": "1717045200",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 3,
+    "detail": "【活動兌換道具】\n『Fate/Grand Order ～7th Anniversary～』\n期間可獲得的兌換券。\n可在達．文西工房兌換1張「★5(SSR)概念禮裝」。\n\n※通關「特異點F」後才可兌換。\n※兌換期限截止2024/06/06(週四) 12:59。",
+    "dropPriority": 2001,
+    "endedAt": "1717649999",
+    "id": 94074101,
+    "imageId": 94074101,
+    "individuality": [],
+    "isSell": false,
+    "name": "FGO 7th Anniversary ★5概念禮裝兌換券",
+    "priority": 94074101,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1716008400",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 3,
+    "detail": "【活動兌換道具】\n『Fate/Grand Order ～7th Anniversary～』\n期間可獲得的兌換券。\n可在達．文西工房兌換英靈夢裝概念禮裝。\n\n※兌換期限截止2024/06/04(週二) 12:59。",
+    "dropPriority": 2002,
+    "endedAt": "1717477199",
+    "id": 94074102,
+    "imageId": 94074102,
+    "individuality": [],
+    "isSell": false,
+    "name": "FGO 7th Anniversary 英靈夢裝兌換券",
+    "priority": 94074102,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1715788800",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 1,
+    "detail": "【活動收集道具】\n在『嘮嘮叨叨新邪馬臺國』中獲得的\n頗為風流的茶筅。\n穗數較少，最適合攪拌濃茶。",
+    "dropPriority": 2001,
+    "endedAt": "1722488399",
+    "id": 94074501,
+    "imageId": 94074501,
+    "individuality": [
+      10743
+    ],
+    "isSell": false,
+    "name": "荒穗茶筅",
+    "priority": 94074501,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1720069200",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【活動收集道具】\n在『嘮嘮叨叨新邪馬臺國』中獲得的\n景氣繁榮的貨幣。\n只要有一枚就能隨意購買高價的茶器！？",
+    "dropPriority": 2002,
+    "endedAt": "1722488399",
+    "id": 94074502,
+    "imageId": 94074502,
+    "individuality": [
+      10744
+    ],
+    "isSell": false,
+    "name": "天正大判",
+    "priority": 94074502,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1720069200",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 3,
+    "detail": "【活動收集道具】\n在『嘮嘮叨叨新邪馬臺國』中獲得的\n讓人產生閒寂幽雅感的茶碗。\n唯有能理解其中的好，才算獨當一面的茶人。",
+    "dropPriority": 2003,
+    "endedAt": "1722488399",
+    "id": 94074503,
+    "imageId": 94074503,
+    "individuality": [
+      10745
+    ],
+    "isSell": false,
+    "name": "赤樂茶碗",
+    "priority": 94074503,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1720069200",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【活動收集道具】\n在『嘮嘮叨叨新邪馬臺國』中獲得的\n鮮嫩綠色的茶葉。",
+    "dropPriority": 2004,
+    "endedAt": "1722488399",
+    "id": 94074504,
+    "imageId": 94074504,
+    "individuality": [
+      10746
+    ],
+    "isSell": false,
+    "name": "綠茶葉",
+    "priority": 94074504,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1720069200",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【活動收集道具】\n在『嘮嘮叨叨新邪馬臺國』中獲得的\n華麗的黃色茶葉。",
+    "dropPriority": 2005,
+    "endedAt": "1722488399",
+    "id": 94074505,
+    "imageId": 94074505,
+    "individuality": [
+      10747
+    ],
+    "isSell": false,
+    "name": "黃茶葉",
+    "priority": 94074505,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1720069200",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【活動收集道具】\n在『嘮嘮叨叨新邪馬臺國』中獲得的\n充滿熟成感的紅色茶葉。",
+    "dropPriority": 2006,
+    "endedAt": "1722488399",
+    "id": 94074506,
+    "imageId": 94074506,
+    "individuality": [
+      10748
+    ],
+    "isSell": false,
+    "name": "紅茶葉",
+    "priority": 94074506,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1720069200",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【活動點數】\n在『嘮嘮叨叨新邪馬臺國』中獲得的，\n寄宿在渴望將茶道鑽研到極致之人身上的\n閒寂幽雅的力量。",
+    "dropPriority": 3007,
+    "endedAt": "1722488399",
+    "id": 94074507,
+    "imageId": 94074507,
+    "individuality": [
+      10749
+    ],
+    "isSell": false,
+    "name": "茶道點數",
+    "priority": 94074507,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1720069200",
+    "type": 14,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 3,
+    "detail": "【靈基再臨素材】\n在『嘮嘮叨叨新邪馬臺國』中獲得的，\n用只能在某個洞窟中挖掘到的特殊礦石\n打磨而成的不可思議的勾玉。\n似乎在不斷釋放著謎之力量。",
+    "dropPriority": 2008,
+    "endedAt": "1893427200",
+    "id": 94074508,
+    "imageId": 94074508,
+    "individuality": [
+      10750
+    ],
+    "isSell": false,
+    "name": "薄暮的勾玉",
+    "priority": 94074508,
+    "script": {
+      "effectId": 1
+    },
+    "sellQp": -1,
+    "startedAt": "1720069200",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【活動點數】\n在『主線分支 虛數大海戰 幻想急航』中，\n表現了虛數海域探查進行程度的數值。",
+    "dropPriority": 3007,
+    "endedAt": "1893427200",
+    "id": 94075007,
+    "imageId": 94053407,
+    "individuality": [
+      10572
+    ],
+    "isSell": false,
+    "name": "虛數探查點數",
+    "priority": 94075007,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1893427200",
+    "type": 14,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【羈絆提升道具】\n任務通關時，隊伍全員(包括替補)的\n羈絆獲得量變成兩倍。\n(無法獲得羈絆的任務不會消耗)",
+    "dropPriority": 9008,
+    "endedAt": "1893427200",
+    "id": 94075008,
+    "imageId": 94065901,
+    "individuality": [],
+    "isSell": false,
+    "name": "占星茶壺",
+    "priority": 94077401,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1893427200",
+    "type": 30,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 3,
+    "detail": "【特異點修復支援活動限定 接關道具】\n主線劇情戰鬥全滅時使用，\n可讓組隊全員復活。\n\n※使用期限 2024/2/28(週三) 23:59",
+    "dropPriority": 9001,
+    "endedAt": "1893427200",
+    "id": 94075601,
+    "imageId": 94054401,
+    "individuality": [],
+    "isSell": false,
+    "name": "靈脈石",
+    "priority": 94077501,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1893427200",
+    "type": 27,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【羈絆提升道具】\n任務通關時，隊伍全員(包括替補)的\n羈絆獲得量變成兩倍。\n(無法獲得羈絆的任務不會消耗)",
+    "dropPriority": 9001,
+    "endedAt": "1723093199",
+    "id": 94075801,
+    "imageId": 94065901,
+    "individuality": [],
+    "isSell": false,
+    "name": "占星茶壺",
+    "priority": 94075801,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1719464400",
+    "type": 30,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 1,
+    "detail": "【活動收集道具】\n在『108人的萬聖節．叛亂！』中獲得的\n看起來很貴重的卷軸。\n不知道裡面到底寫了什麼。",
+    "dropPriority": 2001,
+    "endedAt": "1893427200",
+    "id": 94076201,
+    "imageId": 94076201,
+    "individuality": [
+      10751
+    ],
+    "isSell": false,
+    "name": "高價的卷軸",
+    "priority": 94076201,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1893427200",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【活動收集道具】\n在『108人的萬聖節．叛亂！』中獲得的\n壯麗的白瓷瓶子。\n上面畫著守護西方的四神「白虎」。",
+    "dropPriority": 2002,
+    "endedAt": "1893427200",
+    "id": 94076202,
+    "imageId": 94076202,
+    "individuality": [
+      10752
+    ],
+    "isSell": false,
+    "name": "白虎的瓷瓶",
+    "priority": 94076202,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1893427200",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 3,
+    "detail": "【活動收集道具】\n在『108人的萬聖節．叛亂！』中獲得的\n華美的黃金擺飾。\n造型是守護東方的四神「青龍」。",
+    "dropPriority": 2003,
+    "endedAt": "1893427200",
+    "id": 94076203,
+    "imageId": 94076203,
+    "individuality": [
+      10753
+    ],
+    "isSell": false,
+    "name": "青龍的擺飾",
+    "priority": 94076203,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1893427200",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 3,
+    "detail": "【靈基再臨素材】\n在『108人的萬聖節．叛亂！』中獲得的，\n隱藏著天微星力量的奇妙寶玉的複製品。",
+    "dropPriority": 2004,
+    "endedAt": "1893427200",
+    "id": 94076204,
+    "imageId": 94076204,
+    "individuality": [
+      10754
+    ],
+    "isSell": false,
+    "name": "天微星的雙玉",
+    "priority": 94076204,
+    "script": {
+      "effectId": 1
+    },
+    "sellQp": -1,
+    "startedAt": "1893427200",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 3,
+    "detail": "【Road to 7 [Lostbelt No.5 亞特蘭提斯]限定\n接關道具】\n主線劇情戰鬥全滅時使用，\n可讓組隊全員復活。\n\n※使用期限 2023/10/19(週四) 13:59",
+    "dropPriority": 9001,
+    "endedAt": "1893427200",
+    "id": 94076901,
+    "imageId": 94054401,
+    "individuality": [],
+    "isSell": false,
+    "name": "靈脈石",
+    "priority": 94076901,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1893427200",
+    "type": 27,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 1,
+    "detail": "【活動收集道具】\n在『迦勒底妖精騎士杯』中獲得的，\n讓人可以隨時拜謁\n摩根陛下尊容的銅獎章。",
+    "dropPriority": 2001,
+    "endedAt": "1893427200",
+    "id": 94077701,
+    "imageId": 94077701,
+    "individuality": [
+      10755
+    ],
+    "isSell": false,
+    "name": "摩根獎章〔銅〕",
+    "priority": 94077701,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1893427200",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【活動收集道具】\n在『迦勒底妖精騎士杯』中獲得的，\n讓人可以隨時拜謁\n摩根陛下尊容的銀獎章。",
+    "dropPriority": 2002,
+    "endedAt": "1893427200",
+    "id": 94077702,
+    "imageId": 94077702,
+    "individuality": [
+      10756
+    ],
+    "isSell": false,
+    "name": "摩根獎章〔銀〕",
+    "priority": 94077702,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1893427200",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 3,
+    "detail": "【活動收集道具】\n在『迦勒底妖精騎士杯』中獲得的，\n讓人可以隨時拜謁\n摩根陛下尊容的金獎章。",
+    "dropPriority": 2003,
+    "endedAt": "1893427200",
+    "id": 94077703,
+    "imageId": 94077703,
+    "individuality": [
+      10757
+    ],
+    "isSell": false,
+    "name": "摩根獎章〔金〕",
+    "priority": 94077703,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1893427200",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 3,
+    "detail": "【活動收集道具】\n在『迦勒底妖精騎士杯』中獲得的，\n毛茸茸的玩偶。",
+    "dropPriority": 2004,
+    "endedAt": "1893427200",
+    "id": 94077704,
+    "imageId": 94077704,
+    "individuality": [
+      10758
+    ],
+    "isSell": false,
+    "name": "科爾玩偶",
+    "priority": 94077704,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1893427200",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 3,
+    "detail": "【活動收集道具】\n在『迦勒底妖精騎士杯』中獲得的，\n選手們身上佩戴的標牌。",
+    "dropPriority": 2005,
+    "endedAt": "1893427200",
+    "id": 94077705,
+    "imageId": 94077705,
+    "individuality": [
+      10759
+    ],
+    "isSell": false,
+    "name": "明日靈血古標牌",
+    "priority": 94077705,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1893427200",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 1,
+    "detail": "【活動收集道具】\n在『復刻：榮光的聖誕老人之路 輕量版』\n中獲得的充滿了清涼感的口香糖。\n減重期間嚼口香糖可以減少飢餓感。",
+    "dropPriority": 2001,
+    "endedAt": "1893427200",
+    "id": 94078501,
+    "imageId": 94054201,
+    "individuality": [
+      10760
+    ],
+    "isSell": false,
+    "name": "酷涼口香糖",
+    "priority": 94078501,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1893427200",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【活動收集道具】\n在『復刻：榮光的聖誕老人之路 輕量版』\n中獲得的高熱量能量棒。\n在減重的重要關頭，水分是天敵。\n補充營養只能靠低水分的食品。",
+    "dropPriority": 2002,
+    "endedAt": "1893427200",
+    "id": 94078502,
+    "imageId": 94054202,
+    "individuality": [
+      10761
+    ],
+    "isSell": false,
+    "name": "聖人能量棒",
+    "priority": 94078502,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1893427200",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 3,
+    "detail": "【活動收集道具】\n在『復刻：榮光的聖誕老人之路 輕量版』\n中獲得的高級香蕉。\n非常適合用來恢復減重後的體力。",
+    "dropPriority": 2003,
+    "endedAt": "1893427200",
+    "id": 94078503,
+    "imageId": 94054203,
+    "individuality": [
+      10762
+    ],
+    "isSell": false,
+    "name": "神聖香蕉",
+    "priority": 94078503,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1893427200",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 3,
+    "detail": "【活動收集道具】\n在『復刻：榮光的聖誕老人之路 輕量版』\n中獲得的宣告聖誕節\n開始與結束的銅鑼。",
+    "dropPriority": 2004,
+    "endedAt": "1893427200",
+    "id": 94078504,
+    "imageId": 94054204,
+    "individuality": [
+      10763
+    ],
+    "isSell": false,
+    "name": "聖誕銅鑼",
+    "priority": 94078504,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1893427200",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【活動收集道具】\n在『復刻：榮光的聖誕老人之路 輕量版』\n中獲得的拳擊用繃帶。\n上面配有太陽神蘇利耶之眼的花紋。",
+    "dropPriority": 2005,
+    "endedAt": "1893427200",
+    "id": 94078505,
+    "imageId": 94054205,
+    "individuality": [
+      10764
+    ],
+    "isSell": false,
+    "name": "太陽繃帶",
+    "priority": 94078505,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1893427200",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 3,
+    "detail": "【活動收集道具】\n在『復刻：榮光的聖誕老人之路 輕量版』\n中獲得的打不開的禮物盒。",
+    "dropPriority": 2006,
+    "endedAt": "1893427200",
+    "id": 94078506,
+    "imageId": 94054206,
+    "individuality": [
+      10765
+    ],
+    "isSell": false,
+    "name": "黑色禮物",
+    "priority": 94078506,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1893427200",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 3,
+    "detail": "【活動兌換道具】\n在『復刻：榮光的聖誕老人之路 輕量版』\n中獲得的特別兌換券。",
+    "dropPriority": 9001,
+    "endedAt": "1893427200",
+    "id": 94078507,
+    "imageId": 94054207,
+    "individuality": [
+      10766
+    ],
+    "isSell": false,
+    "name": "聖誕節2023交換券",
+    "priority": 94078507,
+    "script": {
+      "overwritePresentboxDetail": "可從血之淚石、神脈靈子、閑古鈴中選擇一種進行兌換。",
+      "isPresent": 1
+    },
+    "sellQp": -1,
+    "startedAt": "1893427200",
+    "type": 24,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 3,
+    "detail": "【活動兌換道具】\n在『復刻：榮光的聖誕老人之路 輕量版』\n中賜予為配送禮物而克服了\n眾多試煉之人的謎之獎券。",
+    "dropPriority": 2008,
+    "endedAt": "1893427200",
+    "id": 94078508,
+    "imageId": 94054209,
+    "individuality": [
+      10767
+    ],
+    "isSell": false,
+    "name": "拳士的交換券",
+    "priority": 94078508,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1893427200",
+    "type": 15,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【羈絆提升道具】\n任務通關時，隊伍全員(包括替補)的\n羈絆獲得量變成兩倍。\n(無法獲得羈絆的任務不會消耗)",
+    "dropPriority": 9000,
+    "endedAt": "1893427200",
+    "id": 94079401,
+    "imageId": 94065901,
+    "individuality": [],
+    "isSell": false,
+    "name": "占星茶壺",
+    "priority": 94078500,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1893427200",
+    "type": 30,
+    "unit": "",
+    "value": 0
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【羈絆提升道具】\n任務通關時，隊伍全員(包括替補)的\n羈絆獲得量變成兩倍。\n(無法獲得羈絆的任務不會消耗)",
+    "dropPriority": 9001,
+    "endedAt": "1893427200",
+    "id": 94079801,
+    "imageId": 94065901,
+    "individuality": [],
+    "isSell": false,
+    "name": "占星茶壺",
+    "priority": 94079801,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "1893427200",
     "type": 30,
     "unit": "",
     "value": 0
@@ -24191,6 +26638,96 @@
     "type": 29,
     "unit": "",
     "value": 1001000
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【從者強化素材】\n從者的靈基碎片。",
+    "dropPriority": 1003,
+    "endedAt": "1893427200",
+    "id": 100110001,
+    "imageId": 1001100,
+    "individuality": [],
+    "isSell": false,
+    "name": "從者幣",
+    "priority": 57,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "946656000",
+    "type": 29,
+    "unit": "",
+    "value": 1001100
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【從者強化素材】\n從者的靈基碎片。",
+    "dropPriority": 1003,
+    "endedAt": "1893427200",
+    "id": 100120001,
+    "imageId": 1001200,
+    "individuality": [],
+    "isSell": false,
+    "name": "從者幣",
+    "priority": 57,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "946656000",
+    "type": 29,
+    "unit": "",
+    "value": 1001200
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【從者強化素材】\n從者的靈基碎片。",
+    "dropPriority": 1003,
+    "endedAt": "1893427200",
+    "id": 100130001,
+    "imageId": 1001300,
+    "individuality": [],
+    "isSell": false,
+    "name": "從者幣",
+    "priority": 57,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "946656000",
+    "type": 29,
+    "unit": "",
+    "value": 1001300
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【從者強化素材】\n從者的靈基碎片。",
+    "dropPriority": 1003,
+    "endedAt": "1893427200",
+    "id": 100140001,
+    "imageId": 1001400,
+    "individuality": [],
+    "isSell": false,
+    "name": "從者幣",
+    "priority": 57,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "946656000",
+    "type": 29,
+    "unit": "",
+    "value": 1001400
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【從者強化素材】\n從者的靈基碎片。",
+    "dropPriority": 1003,
+    "endedAt": "1893427200",
+    "id": 100150001,
+    "imageId": 1001500,
+    "individuality": [],
+    "isSell": false,
+    "name": "從者幣",
+    "priority": 57,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "946656000",
+    "type": 29,
+    "unit": "",
+    "value": 1001500
   },
   {
     "bgImageId": 2,
@@ -24395,6 +26932,24 @@
     "detail": "【從者強化素材】\n從者的靈基碎片。",
     "dropPriority": 1003,
     "endedAt": "1893427200",
+    "id": 110140001,
+    "imageId": 1101400,
+    "individuality": [],
+    "isSell": false,
+    "name": "從者幣",
+    "priority": 57,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "946656000",
+    "type": 29,
+    "unit": "",
+    "value": 1101400
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【從者強化素材】\n從者的靈基碎片。",
+    "dropPriority": 1003,
+    "endedAt": "1893427200",
     "id": 230010001,
     "imageId": 2300100,
     "individuality": [],
@@ -24461,6 +27016,24 @@
     "type": 29,
     "unit": "",
     "value": 2300400
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【從者強化素材】\n從者的靈基碎片。",
+    "dropPriority": 1003,
+    "endedAt": "1893427200",
+    "id": 230050001,
+    "imageId": 2300500,
+    "individuality": [],
+    "isSell": false,
+    "name": "從者幣",
+    "priority": 57,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "946656000",
+    "type": 29,
+    "unit": "",
+    "value": 2300500
   },
   {
     "bgImageId": 2,
@@ -24677,5 +27250,41 @@
     "type": 29,
     "unit": "",
     "value": 2800200
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【從者強化素材】\n從者的靈基碎片。",
+    "dropPriority": 1003,
+    "endedAt": "1893427200",
+    "id": 280030001,
+    "imageId": 2800300,
+    "individuality": [],
+    "isSell": false,
+    "name": "從者幣",
+    "priority": 57,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "946656000",
+    "type": 29,
+    "unit": "",
+    "value": 2800300
+  },
+  {
+    "bgImageId": 2,
+    "detail": "【從者強化素材】\n從者的靈基碎片。",
+    "dropPriority": 1003,
+    "endedAt": "1893427200",
+    "id": 280040001,
+    "imageId": 2800400,
+    "individuality": [],
+    "isSell": false,
+    "name": "從者幣",
+    "priority": 57,
+    "script": "",
+    "sellQp": -1,
+    "startedAt": "946656000",
+    "type": 29,
+    "unit": "",
+    "value": 2800400
   }
 ]
