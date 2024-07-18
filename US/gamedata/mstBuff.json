@@ -3787,11 +3787,17 @@
       3028
     ],
     "tvals": [
-      2040
+      2040,
+      2000,
+      1002,
+      1119
     ],
     "ckSelfIndv": [],
     "ckOpIndv": [
-      2040
+      2040,
+      2000,
+      1002,
+      1119
     ],
     "script": {},
     "id": 295,
@@ -4087,11 +4093,15 @@
       3028
     ],
     "tvals": [
-      2018
+      2018,
+      1002,
+      1119
     ],
     "ckSelfIndv": [],
     "ckOpIndv": [
-      2018
+      2018,
+      1002,
+      1119
     ],
     "script": {},
     "id": 312,
@@ -20493,7 +20503,7 @@
     "ckOpIndv": [],
     "script": {},
     "id": 1432,
-    "buffGroup": 0,
+    "buffGroup": 1900,
     "type": 115,
     "name": "",
     "detail": "",
@@ -24486,7 +24496,7 @@
     "ckOpIndv": [],
     "script": {},
     "id": 1693,
-    "buffGroup": 0,
+    "buffGroup": 1900,
     "type": 115,
     "name": "Charge Down Each Turn",
     "detail": "Decrease Charge by 1 each turn [Demerit]",
@@ -64692,6 +64702,91 @@
   },
   {
     "vals": [
+      3023
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4464,
+    "buffGroup": 700,
+    "type": 38,
+    "name": "Rebel Against the Current",
+    "detail": "Set Target",
+    "iconId": 323,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4465,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "Activate when Guts Is Triggered (Increase Charge by 1)",
+    "detail": "Increase Charge by 1 when Guts is activated",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4466,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "Delayed Effect (Set Charge to maximum)",
+    "detail": "Set Charge to maximum for yourself after 1 turn",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2354
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 149
+    },
+    "id": 4467,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "Class Affinity Change",
+    "detail": "Gain advantage against [Caster] class",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4468,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Summer Cast",
+    "detail": "Increase damage dealt during \"Arctic Summer World!\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3005,
       3017
     ],
@@ -65382,6 +65477,1048 @@
     "name": "",
     "detail": "",
     "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4505,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "Ice Protection",
+    "detail": "Increase DEF & decrease damage taken, NP generation, and C. Star drop rate upon attacks from Arts Cards",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 4506,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "Farmer (Sunlight Manager)",
+    "detail": "Increase all allies' Critical Rate when you are on the field",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4507,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Farmer (Fertilizer Manager)",
+    "detail": "Low chance to increase Charge by 1 for all allies at the end of each turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4508,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Farmer (Watering Manager)",
+    "detail": "Recover HP for all allies at the end of each turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4509,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Farmer (Shipping Manager)",
+    "detail": "Apply Incoming Damage Cut to all allies at the end of each turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4510,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "Farmer (Leader)",
+    "detail": "Increase all allies' ATK when you are on the field",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4511,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "Umibouzu (Fake)",
+    "detail": "Increase ATK",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4512,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "Isonade (Fake)",
+    "detail": "Increase DEF",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4513,
+    "buffGroup": 200,
+    "type": 24,
+    "name": "Koromodako (Fake)",
+    "detail": "Medium chance to reduce ATK damage taken to 0",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 4514,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Silky Coat",
+    "detail": "Gain resistance to NP Damage",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 4515,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "Silky Coat",
+    "detail": "Increase Critical Hit rate",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4516,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Combat Sync",
+    "detail": "Increase Quick Card effectiveness for all allies excluding yourself when you are on the field",
+    "iconId": 312,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3033
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4517,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "Emaciation",
+    "detail": "Decrease ATK & unable to use Noble Phantasms & unable to use Skills",
+    "iconId": 503,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 4518,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "High-Mobility Combat",
+    "detail": "Increase Critical Hit rate",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      103300
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      103300
+    ],
+    "script": {},
+    "id": 4519,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Love Strike",
+    "detail": "Increase damage dealt against Sigurd",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3029
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4520,
+    "buffGroup": 0,
+    "type": 13,
+    "name": "Evilkyries",
+    "detail": "Increase damage dealt by all allies when you are on the field",
+    "iconId": 302,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4521,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Majin Unleashed",
+    "detail": "Decrease DEF for one enemy when Attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 4522,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Prefect Mode",
+    "detail": "Increase Buster Card effectiveness & Gain C. Stars at end of each turn",
+    "iconId": 314,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 4523,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "Man Dedicated to Throwing Dodgeballs at Full Power",
+    "detail": "Increase Critical Hit rate",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4524,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "Man Dedicated to Throwing Dodgeballs at Full Power",
+    "detail": "Increase Critical Hit damage",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008
+    ],
+    "tvals": [
+      5000,
+      4100,
+      4001,
+      4003,
+      4002
+    ],
+    "ckSelfIndv": [
+      4100
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4525,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Man Dedicated to Throwing Dodgeballs at Full Power",
+    "detail": "Apply Stun to yourself during your Critical attacks [Demerit]",
+    "iconId": 549,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3023
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4526,
+    "buffGroup": 700,
+    "type": 38,
+    "name": "I'd Appreciate It if You Would Aim at Machine 2",
+    "detail": "Increase chance of being targeted by enemies",
+    "iconId": 323,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4527,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect on Attack (Inflict Curse)",
+    "detail": "Inflict Curse (3 turns) to one enemy during your attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {},
+    "id": 4528,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "Red Knight",
+    "detail": "Decrease damage taken, NP generation, and C. Star drop rate upon attacks from Buster Cards & increase ATK",
+    "iconId": 347,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4529,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Get a Scare",
+    "detail": "Low chance to inflict Fear (1 time, 3 turns) to one enemy during your attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4530,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Activate when Attacking (Fear)",
+    "detail": "Low chance to inflict Fear (1 time, 3 turns) to one enemy during your attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4531,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "Idle Thoughts",
+    "detail": "Increase DEF",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4532,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "Midsummer Protection",
+    "detail": "Increase ATK & Critical Rate",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4533,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "Ibuki-Douji's Speech",
+    "detail": "Increase ATK & restore your HP when attacking & increase NP Gain & Arts Card effectiveness",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3014,
+      3045
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4534,
+    "buffGroup": 500,
+    "type": 32,
+    "name": "Attack Chance",
+    "detail": "Unable to act",
+    "iconId": 501,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3022,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4535,
+    "buffGroup": 400,
+    "type": 26,
+    "name": "Anti-Slimy Barrier",
+    "detail": "Ignore Sure Hit and reduce ATK damage to 0",
+    "iconId": 311,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4536,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Strength Up",
+    "detail": "Increase damage dealt during \"Arctic Summer World!\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4537,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate when Damaged (Decrease HP)",
+    "detail": "Decrease your HP when attacked",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4539,
+    "buffGroup": 1900,
+    "type": 115,
+    "name": "Charge Down Each Turn",
+    "detail": "Decrease Charge by 1 each turn",
+    "iconId": 519,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2836
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4540,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4541,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect with Normal Attacks (Burn)",
+    "detail": "Inflict Burn to target during normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4542,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "ATK Up",
+    "detail": "Increase ATK only when on a [Sunlight] field",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4543,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate when Damaged",
+    "detail": "Decrease DEF for a single enemy when attacked",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4544,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "NP Strength Up",
+    "detail": "Increase damage dealt with Noble Phantasm only when on a [Near Water] field",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2038
+    },
+    "id": 4545,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Buster Up",
+    "detail": "Increase Buster Card effectiveness only when on a [Sunlight] field",
+    "iconId": 314,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2038
+    },
+    "id": 4546,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "Critical Strength Up",
+    "detail": "Increase Critical Hit damage only when on a [Sunlight] field",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4547,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Apply Trait (Undead)",
+    "detail": "Apply [Undead] trait",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4548,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate When Damaged (Inflict Target Focused)",
+    "detail": "Inflict Target Focused (1 turn) to a single enemy when attacked",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3023
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4549,
+    "buffGroup": 0,
+    "type": 38,
+    "name": "Target Focused",
+    "detail": "Increase likelihood of being targeted by enemies (treated as debuff)",
+    "iconId": 323,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4550,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Activate on Defeat (Buff)",
+    "detail": "When HP reaches 0, increase DEF for a single ally & inflict Target Focus to a single enemy when attacked",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4551,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Activate on Defeat (Buff)",
+    "detail": "When HP reaches 0, increase all allies' Critical Hit Rate & apply Sure Hit to enemies with Target Focus",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4552,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Activate on Defeat (Buff)",
+    "detail": "When HP reaches 0, apply Debuff Immune to all allies & restore HP",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4553,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Activate on Defeat (Debuff)",
+    "detail": "When HP reaches 0, inflict Curse to a single enemy",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4554,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Activate on Defeat (Buff)",
+    "detail": "When HP reaches 0, apply a state where all allies' NP Charge increases by 1 each turn",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3019,
+      3006
+    ],
+    "tvals": [
+      3023
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3023
+    ],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 4555,
+    "buffGroup": 0,
+    "type": 25,
+    "name": "Sure Hit (Target Focused)",
+    "detail": "Ignore Evade and deal ATK damage to enemies with Target Focus",
+    "iconId": 309,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3036
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4556,
+    "buffGroup": 0,
+    "type": 16,
+    "name": "\"Is this okay?\"",
+    "detail": "Decrease NP Strength & Arts Card effectiveness for all enemies",
+    "iconId": 508,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4557,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4558,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "Midsummer Protection",
+    "detail": "Increase DEF & decrease damage taken, NP generation, and C. Star drop rate upon attacks from Arts Cards",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4640,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn (HP Loss)",
+    "detail": "Decrease HP each turn",
+    "iconId": 537,
     "maxRate": 0,
     "effectId": 0
   },
