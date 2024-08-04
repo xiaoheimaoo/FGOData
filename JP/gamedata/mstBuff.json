@@ -82409,6 +82409,310 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [
+      5000,
+      4001,
+      4008
+    ],
+    "ckSelfIndv": [
+      4001,
+      4008
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 3
+    },
+    "id": 5650,
+    "buffGroup": 0,
+    "type": 200,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4003,
+      4008
+    ],
+    "ckSelfIndv": [
+      4003,
+      4008
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 3
+    },
+    "id": 5651,
+    "buffGroup": 0,
+    "type": 200,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4002,
+      4008
+    ],
+    "ckSelfIndv": [
+      4002,
+      4008
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 3
+    },
+    "id": 5652,
+    "buffGroup": 0,
+    "type": 200,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4004
+    ],
+    "ckSelfIndv": [
+      4004
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5653,
+    "buffGroup": 0,
+    "type": 200,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5654,
+    "buffGroup": 0,
+    "type": 201,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "useFirstTimeInTurn": 1
+    },
+    "id": 5655,
+    "buffGroup": 0,
+    "type": 201,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "fromMasterEquip": 1
+    },
+    "id": 5656,
+    "buffGroup": 0,
+    "type": 202,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2039
+    },
+    "id": 5657,
+    "buffGroup": 0,
+    "type": 203,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "fromCommandSpell": 1
+    },
+    "id": 5658,
+    "buffGroup": 0,
+    "type": 202,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5659,
+    "buffGroup": 0,
+    "type": 204,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5660,
+    "buffGroup": 0,
+    "type": 95,
+    "name": "登場時発動",
+    "detail": "フィールドに登場した時、味方全体の攻撃力をアップ",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [
+      4008
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5661,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "空間保存",
+    "detail": "通常攻撃時、自身のNPを増やす",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [
+      1000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      1000
+    ],
+    "script": {},
+    "id": 5662,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "クリティカル威力アップ〔サーヴァント〕",
+    "detail": "〔サーヴァント〕に与えるクリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [
+      4008
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5663,
+    "buffGroup": 0,
+    "type": 148,
+    "name": "通常攻撃ダメージ前追加効果",
+    "detail": "通常攻撃時、ダメージ前に自身のクリティカル威力をアップ ",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3014,
+      3013,
+      3087,
+      3047
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3014,
+      3013,
+      3087,
+      3047
+    ],
+    "script": {},
+    "id": 5664,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "スタン・石化・拘束・豚化無効",
+    "detail": "スタン・石化・拘束・豚化を受けなくなる",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004,
       3006
@@ -82784,7 +83088,8 @@
       125,
       126,
       127,
-      128
+      128,
+      129
     ],
     "ckSelfIndv": [],
     "ckOpIndv": [
@@ -82808,7 +83113,8 @@
       125,
       126,
       127,
-      128
+      128,
+      129
     ],
     "script": {},
     "id": 30016,
@@ -83134,7 +83440,8 @@
       122,
       124,
       125,
-      126
+      126,
+      129
     ],
     "ckSelfIndv": [],
     "ckOpIndv": [
@@ -83149,7 +83456,8 @@
       122,
       124,
       125,
-      126
+      126,
+      129
     ],
     "script": {},
     "id": 30031,
@@ -83177,7 +83485,8 @@
       122,
       124,
       125,
-      126
+      126,
+      129
     ],
     "ckSelfIndv": [],
     "ckOpIndv": [
@@ -83192,7 +83501,8 @@
       122,
       124,
       125,
-      126
+      126,
+      129
     ],
     "script": {},
     "id": 30032,
@@ -83497,6 +83807,23 @@
     "detail": "",
     "iconId": 387,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30059,
+    "buffGroup": 0,
+    "type": 206,
+    "name": "スキル使用後リチャージ",
+    "detail": "スキル使用後に使用したスキルのチャージを1進める<スキルごとに1回限り>",
+    "iconId": 404,
+    "maxRate": 0,
     "effectId": 0
   },
   {
