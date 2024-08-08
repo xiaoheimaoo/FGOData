@@ -31460,6 +31460,39 @@
     "displayType": 1
   },
   {
+    "questId": 94100401,
+    "phase": 1,
+    "idx": 0,
+    "message": "「Fate/stay night REMASTERED」発売記念 PV\nのムービーを再生します。\nよろしいですか？",
+    "condType": 0,
+    "targetId": 0,
+    "targetNum": 0,
+    "frequencyType": 3,
+    "displayType": 4
+  },
+  {
+    "questId": 94100401,
+    "phase": 1,
+    "idx": 1,
+    "message": "ムービーデータのダウンロードを行います。\n\n【ダウンロードサイズ：46.9MB】\n[FFFF00]（保存のために 46.9MB の空き容量が必要です）[-]",
+    "condType": 96,
+    "targetId": 94100401,
+    "targetNum": 1,
+    "frequencyType": 3,
+    "displayType": 4
+  },
+  {
+    "questId": 94100401,
+    "phase": 1,
+    "idx": 2,
+    "message": "「Fate/stay night REMASTERED」発売記念 PV\nのムービーデータを保存したままにしますか？\n\n[sub]保存したままにした場合、\n46.9MBの容量を使用します。\n保存しない場合、もう一度ムービーを再生するには\nムービーデータの再ダウンロードが必要になります。",
+    "condType": 100,
+    "targetId": 94100401,
+    "targetNum": 1,
+    "frequencyType": 3,
+    "displayType": 5
+  },
+  {
     "questId": 912300301,
     "phase": 1,
     "idx": 0,
