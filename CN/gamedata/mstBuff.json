@@ -91290,12 +91290,12 @@
     "ckOpIndv": [],
     "ckSelfIndv": [],
     "createdAt": "0",
-    "detail": "『ワンジナ・ワールドツアー！』において与えるダメージをアップ",
+    "detail": "在『旺吉那·世界之旅！』中造成的伤害提升",
     "effectList": [],
     "iconId": 302,
     "id": 5437,
     "maxRate": 10000,
-    "name": "ワールド・トラベラー",
+    "name": "世界旅行者",
     "script": "",
     "tvals": [],
     "type": 11,
@@ -91308,7 +91308,7 @@
     "ckOpIndv": [],
     "ckSelfIndv": [],
     "createdAt": "0",
-    "detail": "『ワンジナ・ワールドツアー！』において与えるダメージをアップ",
+    "detail": "在『旺吉那·世界之旅！』中造成的伤害提升",
     "effectList": [],
     "iconId": 302,
     "id": 5438,
@@ -92058,7 +92058,7 @@
     "ckOpIndv": [],
     "ckSelfIndv": [],
     "createdAt": "0",
-    "detail": "普通攻击时，自身に〔精霊の怒り〕状態を付与",
+    "detail": "普通攻击时，付与自身〔精灵之怒〕状态",
     "effectList": [],
     "iconId": 333,
     "id": 5471,
@@ -92078,7 +92078,7 @@
     "ckOpIndv": [],
     "ckSelfIndv": [],
     "createdAt": "0",
-    "detail": "受到攻击时，味方全体の〔ワンジナ〕に〔精霊の怒り〕状態を付与",
+    "detail": "受到攻击时，付与己方全体〔旺吉娜〕〔精灵之怒〕状态",
     "effectList": [],
     "iconId": 331,
     "id": 5472,
@@ -92100,12 +92100,12 @@
     "ckOpIndv": [],
     "ckSelfIndv": [],
     "createdAt": "0",
-    "detail": "精霊の怒りが募るほど自身の宝具威力がアップする",
+    "detail": "精灵之怒越多自身的宝具威力越大",
     "effectList": [],
     "iconId": 520,
     "id": 5473,
     "maxRate": 0,
-    "name": "精霊の怒り",
+    "name": "精灵之怒",
     "script": {
       "ProgressSelfTurn": 1
     },
@@ -92122,7 +92122,7 @@
     "ckOpIndv": [],
     "ckSelfIndv": [],
     "createdAt": "0",
-    "detail": "フィールドが〔空中〕の時、宝具造成的伤害提升",
+    "detail": "场地为〔空中〕时，宝具造成的伤害提升",
     "effectList": [],
     "iconId": 310,
     "id": 5474,
@@ -92170,12 +92170,12 @@
     "ckOpIndv": [],
     "ckSelfIndv": [],
     "createdAt": "0",
-    "detail": "『リリース3000日突破キャンペーン』開催期間中において与えるダメージをアップ",
+    "detail": "『开服3000日突破纪念』活动期间造成的伤害提升",
     "effectList": [],
     "iconId": 302,
     "id": 5476,
     "maxRate": 10000,
-    "name": "威力提升【3000日突破記念】",
+    "name": "威力提升【3000日突破纪念】",
     "script": "",
     "tvals": [],
     "type": 11,
@@ -92579,6 +92579,24 @@
       3004,
       3091
     ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [],
+    "createdAt": "0",
+    "detail": "「Fate/stay night REMASTERED」特别纪念活动期间造成的伤害提升",
+    "effectList": [],
+    "iconId": 302,
+    "id": 5517,
+    "maxRate": 10000,
+    "name": "威力提升【FSN REMASTERED纪念】",
+    "script": "",
+    "tvals": [],
+    "type": 11,
+    "updatedAt": "0",
+    "vals": [],
     "effectId": 0
   },
   {
@@ -113051,7 +113069,7 @@
     "maxRate": 0,
     "name": "不安定的实体化",
     "script": {
-      "avoidanceText": "当たらない"
+      "avoidanceText": "打不中"
     },
     "tvals": [],
     "type": 155,
@@ -113486,7 +113504,7 @@
     "ckOpIndv": [],
     "ckSelfIndv": [],
     "createdAt": "0",
-    "detail": "每回合结束时，敌方全体的没火耐性下降",
+    "detail": "每回合结束时，敌方全体的魅惑耐性下降",
     "effectList": [],
     "iconId": 343,
     "id": 94088002,
@@ -116607,6 +116625,53 @@
     "vals": [
       3005,
       3020
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [
+      4008
+    ],
+    "createdAt": "0",
+    "detail": "普通攻击的次数变成2倍<每次攻击的威力大幅下降，但生命值越多攻击力就越高>",
+    "effectList": [],
+    "iconId": 349,
+    "id": 94092026,
+    "maxRate": 10,
+    "name": "攻击次数提升",
+    "script": "",
+    "tvals": [],
+    "type": 116,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006
+    ],
+    "effectId": 0
+  },
+  {
+    "buffGroup": 0,
+    "ckOpIndv": [],
+    "ckSelfIndv": [
+      4008
+    ],
+    "createdAt": "0",
+    "detail": "",
+    "effectList": [],
+    "iconId": 0,
+    "id": 94092027,
+    "maxRate": 5000,
+    "name": "",
+    "script": "",
+    "tvals": [],
+    "type": 9,
+    "updatedAt": "0",
+    "vals": [
+      3004,
+      3006,
+      3027
     ],
     "effectId": 0
   }
