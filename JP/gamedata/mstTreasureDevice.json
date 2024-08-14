@@ -14277,6 +14277,7 @@
       "limitSeqId_3": 300400,
       "limitSeqId_11": 300410,
       "limitSeqId_4": 300400,
+      "limitSeqId_13": 300450,
       "limitSeqId_1": 300400,
       "limitSeqId_2": 300400,
       "limitSeqId_12": 300400
@@ -14302,6 +14303,7 @@
       "limitSeqId_3": 300400,
       "limitSeqId_11": 300410,
       "limitSeqId_4": 300400,
+      "limitSeqId_13": 300450,
       "limitSeqId_1": 300400,
       "limitSeqId_2": 300400,
       "limitSeqId_12": 300400
@@ -15344,7 +15346,12 @@
       4101
     ],
     "script": {
-      "delayEnd": 1
+      "limitSeqId_3": 304700,
+      "delayEnd": 1,
+      "limitSeqId_11": 304730,
+      "limitSeqId_4": 304700,
+      "limitSeqId_1": 304700,
+      "limitSeqId_2": 304700
     },
     "id": 304701,
     "seqId": 304700,
@@ -15738,6 +15745,29 @@
     "rank": "B",
     "maxLv": 5,
     "typeText": "対人／対軍宝具",
+    "attackAttri": 1,
+    "effectFlag": 2
+  },
+  {
+    "individuality": [
+      3001,
+      4001,
+      4007,
+      4102
+    ],
+    "script": {
+      "limitSeqId_1": 305510,
+      "limitSeqId_3": 305520,
+      "limitSeqId_4": 305520,
+      "limitSeqId_2": 305510
+    },
+    "id": 305501,
+    "seqId": 305500,
+    "name": "四つに裂けよ、母なる大地",
+    "ruby": "クラデニェツ・ズメイ・タタール",
+    "rank": "A",
+    "maxLv": 5,
+    "typeText": "対竜宝具",
     "attackAttri": 1,
     "effectFlag": 2
   },
@@ -16724,7 +16754,13 @@
       4007,
       4101
     ],
-    "script": {},
+    "script": {
+      "limitSeqId_11": 403430,
+      "limitSeqId_1": 403400,
+      "limitSeqId_3": 403400,
+      "limitSeqId_4": 403400,
+      "limitSeqId_2": 403400
+    },
     "id": 403401,
     "seqId": 403400,
     "name": "高貴なる海賊準男爵の咆吼",
@@ -24381,6 +24417,29 @@
   },
   {
     "individuality": [
+      3000,
+      4002,
+      4007,
+      4102
+    ],
+    "script": {
+      "limitSeqId_1": 1101910,
+      "limitSeqId_3": 1101920,
+      "limitSeqId_4": 1101920,
+      "limitSeqId_2": 1101910
+    },
+    "id": 1101901,
+    "seqId": 1101900,
+    "name": "夕暮にて絶息、黄昏にて電鋸",
+    "ruby": "ゆうぐれにてぜっそく、たそがれにてちぇーんそー",
+    "rank": "B+",
+    "maxLv": 5,
+    "typeText": "対人宝具",
+    "attackAttri": 1,
+    "effectFlag": 2
+  },
+  {
+    "individuality": [
       3002,
       4001,
       4007
@@ -24671,6 +24730,83 @@
     "typeText": "対軍宝具",
     "attackAttri": 1,
     "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3002,
+      4002,
+      4007,
+      4102
+    ],
+    "script": {
+      "randomSeqIds_11": [
+        2300930
+      ],
+      "randomWeights_1": [
+        34,
+        33,
+        33
+      ],
+      "randomWeights_2": [
+        34,
+        33,
+        33
+      ],
+      "randomWeights": [
+        100
+      ],
+      "randomSeqIds_12": [
+        2300940,
+        2300941,
+        2300942
+      ],
+      "randomSeqIds_2": [
+        2300910,
+        2300911,
+        2300912
+      ],
+      "randomWeights_3": [
+        20,
+        80
+      ],
+      "randomWeights_11": [
+        100
+      ],
+      "randomSeqIds_1": [
+        2300910,
+        2300911,
+        2300912
+      ],
+      "randomSeqIds_3": [
+        2300920,
+        2300921
+      ],
+      "randomSeqIds_4": [
+        2300920,
+        2300921
+      ],
+      "randomWeights_12": [
+        34,
+        33,
+        33
+      ],
+      "randomSeqIds": [
+        2300900
+      ],
+      "randomWeights_4": [
+        20,
+        80
+      ]
+    },
+    "id": 2300901,
+    "seqId": 2300900,
+    "name": "第七聖典・断罪死",
+    "ruby": "コード：オリジナル・シン",
+    "rank": "A+",
+    "maxLv": 5,
+    "typeText": "対人宝具",
+    "attackAttri": 1,
+    "effectFlag": 2
   },
   {
     "individuality": [
@@ -29551,6 +29687,42 @@
     "rank": "EX",
     "maxLv": 5,
     "typeText": "対人宝具",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3002,
+      4002,
+      4007,
+      4101
+    ],
+    "script": {},
+    "id": 9945711,
+    "seqId": 9945710,
+    "name": "日輪よ、死に随え",
+    "ruby": "ヴァサヴィ・シャクティ",
+    "rank": "EX",
+    "maxLv": 5,
+    "typeText": "対神宝具",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3000,
+      4003,
+      4007,
+      4101
+    ],
+    "script": {},
+    "id": 9945741,
+    "seqId": 9945740,
+    "name": "",
+    "ruby": "",
+    "rank": "",
+    "maxLv": 5,
+    "typeText": "",
     "attackAttri": 1,
     "effectFlag": 1
   }
