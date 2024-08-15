@@ -115885,7 +115885,7 @@
     "type": 9,
     "name": "",
     "detail": "",
-    "iconId": 0,
+    "iconId": 300,
     "maxRate": 5000,
     "effectId": 0
   },
@@ -116089,6 +116089,68 @@
   {
     "vals": [
       3004,
+      3018,
+      3021,
+      3007,
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -3045
+    },
+    "id": 94099513,
+    "buffGroup": 200,
+    "type": 24,
+    "name": "バックフリップ",
+    "detail": "攻撃によるダメージを確率で0にする",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -3045
+    },
+    "id": 94099514,
+    "buffGroup": 200,
+    "type": 24,
+    "name": "クイックターン",
+    "detail": "攻撃によるダメージを確率で0にする",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099515,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
       3016
     ],
     "tvals": [],
@@ -116102,6 +116164,23 @@
     "detail": "全ての攻撃に対する耐性をアップ",
     "iconId": 334,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099545,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "ブラッディ・イーター",
+    "detail": "攻撃時、対象のHPを吸収する<1ターンに1回だけ発動>",
+    "iconId": 528,
+    "maxRate": 0,
     "effectId": 0
   },
   {
