@@ -82822,6 +82822,68 @@
   },
   {
     "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [
+      304,
+      2920,
+      2922
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      304,
+      2920,
+      2922
+    ],
+    "script": {
+      "IndvAddBuffPassive": 1,
+      "ProgressSelfTurn": 1
+    },
+    "id": 5668,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "攻撃力アップ",
+    "detail": "攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [
+      300,
+      2921,
+      2923,
+      1000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      300,
+      2921,
+      2923,
+      1000
+    ],
+    "script": {
+      "IndvAddBuffPassive": 1
+    },
+    "id": 5669,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "防御力アップ",
+    "detail": "防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004
     ],
     "tvals": [
@@ -82980,6 +83042,40 @@
     "detail": "HPが100%の時、クリティカル時のダメージをアップ",
     "iconId": 324,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5679,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "保護対象",
+    "detail": "〔保護対象〕特性を付与する",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5680,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "保護対象外",
+    "detail": "〔保護対象外〕特性を付与する",
+    "iconId": 520,
+    "maxRate": 0,
     "effectId": 0
   },
   {
@@ -116180,6 +116276,57 @@
     "name": "ブラッディ・イーター",
     "detail": "攻撃時、対象のHPを吸収する<1ターンに1回だけ発動>",
     "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3023,
+      6039
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099546,
+    "buffGroup": 0,
+    "type": 38,
+    "name": "餌",
+    "detail": "敵からの狙われやすさをアップ<キングクロコダイルを攻撃して餌を与えると解除される>",
+    "iconId": 323,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099547,
+    "buffGroup": 94099547,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099572,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
     "maxRate": 0,
     "effectId": 0
   },
