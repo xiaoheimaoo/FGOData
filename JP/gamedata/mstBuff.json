@@ -7332,7 +7332,7 @@
     "id": 504,
     "buffGroup": 0,
     "type": 106,
-    "name": "Quickカード耐性ダウン",
+    "name": "Quick攻撃耐性ダウン",
     "detail": "Quickカードの攻撃による被ダメージ、被NP発生量、被スター発生率が増加する",
     "iconId": 539,
     "maxRate": 5000,
@@ -7355,7 +7355,7 @@
     "id": 505,
     "buffGroup": 0,
     "type": 106,
-    "name": "Artsカード耐性ダウン",
+    "name": "Arts攻撃耐性ダウン",
     "detail": "Artsカードの攻撃による被ダメージ、被NP発生量、被スター発生率が増加する",
     "iconId": 540,
     "maxRate": 5000,
@@ -7378,7 +7378,7 @@
     "id": 506,
     "buffGroup": 0,
     "type": 106,
-    "name": "Busterカード耐性ダウン",
+    "name": "Buster攻撃耐性ダウン",
     "detail": "Busterカードの攻撃による被ダメージ、被NP発生量、被スター発生率が増加する",
     "iconId": 541,
     "maxRate": 5000,
@@ -116246,6 +116246,40 @@
   },
   {
     "vals": [
+      6039
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099540,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099541,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3016
     ],
@@ -116386,6 +116420,74 @@
   },
   {
     "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099552,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "狂気の双眸",
+    "detail": "通常攻撃時、対象に呪い状態を付与",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099553,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "獰猛な牙",
+    "detail": "通常攻撃時、対象の防御力をダウン",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099554,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "意外と優しい瞳",
+    "detail": "攻撃を受けると敵単体の攻撃力をダウン",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099555,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "超再生",
+    "detail": "ターン終了時、自身のHPを回復＆弱体状態を1つ解除",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       6026
     ],
     "tvals": [],
@@ -116398,6 +116500,25 @@
     "name": "",
     "detail": "",
     "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6039
+    },
+    "id": 94099574,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "債務",
+    "detail": "ターン終了時、自身のチャージを減らし、味方の〔ジャック・ド・モレー〕のチャージを増やす",
+    "iconId": 537,
     "maxRate": 0,
     "effectId": 0
   },
@@ -116419,6 +116540,83 @@
     "detail": "与えるダメージをアップ",
     "iconId": 302,
     "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099577,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "伸縮自在の体",
+    "detail": "防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099578,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "過激ないたずら",
+    "detail": "攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099579,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "異常発達した知性",
+    "detail": "クリティカルの発生率をアップ",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099580,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "狂気の双眸",
+    "detail": "攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
     "effectId": 0
   },
   {
