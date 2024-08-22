@@ -116356,6 +116356,96 @@
   },
   {
     "vals": [
+      6031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099521,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3063
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099522,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "地獄の辛味",
+    "detail": "ターン終了時、自身にやけど状態を付与",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      3015
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099523,
+    "buffGroup": 0,
+    "type": 198,
+    "name": "やけどダメージカット",
+    "detail": "やけどによる被ダメージを減らす",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6034
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099524,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "戦士の意地",
+    "detail": "HPが0になった時、HPを回復して耐える",
+    "iconId": 304,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6035
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94099525,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       6032
     ],
@@ -116557,6 +116647,42 @@
   {
     "vals": [
       3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099535,
+    "buffGroup": 600,
+    "type": 104,
+    "name": "果てしなく続く辛味",
+    "detail": "HPが0になった時、HPを回復して耐える",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099536,
+    "buffGroup": 0,
+    "type": 37,
+    "name": "戦士の意地",
+    "detail": "HPが0になった時、HPを回復して耐える(他のガッツ状態と重複可能)",
+    "iconId": 304,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
       3006,
       3093
     ],
@@ -116612,6 +116738,48 @@
     "detail": "",
     "iconId": 350,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3015
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099542,
+    "buffGroup": 0,
+    "type": 8,
+    "name": "地獄の辛味",
+    "detail": "ターン終了時にHPが減る",
+    "iconId": 513,
+    "maxRate": 0,
+    "effectId": 17122
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028,
+      2921
+    ],
+    "tvals": [
+      304
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      304
+    ],
+    "script": {},
+    "id": 94099543,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "対ヴィラン殲滅兵装",
+    "detail": "〔悪〕特性に与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
     "effectId": 0
   },
   {
@@ -117001,6 +117169,112 @@
   },
   {
     "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099566,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "あったかボディ",
+    "detail": "通常攻撃時、対象のHPを減らす＆〔代謝熱〕状態を付与",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099567,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "あったかボディ",
+    "detail": "攻撃を受けると敵単体のHPを減らす＆〔代謝熱〕状態を付与<1ターンに1回だけ発動>",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099568,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "代謝熱",
+    "detail": "冷やされた時に心と体が整うようになる",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      6026
+    ],
+    "script": {},
+    "id": 94099569,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "ひんやりボディ",
+    "detail": "攻撃時、〔代謝熱〕状態の対象の最大HPをアップ＆〔代謝熱〕状態を1つ解除",
+    "iconId": 550,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099570,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -6026
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94099571,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "ひんやりボディ",
+    "detail": "攻撃時、〔代謝熱〕状態ではない対象の最大HPをダウン",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       6026
     ],
     "tvals": [],
@@ -117186,6 +117460,61 @@
     "name": "飛鳥地縛",
     "detail": "行動不能になる",
     "iconId": 501,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      6026
+    ],
+    "script": {},
+    "id": 94099613,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "ひんやりボディ",
+    "detail": "〔代謝熱〕状態の敵から攻撃を受けると自身のHPが減少する ＋ 敵単体の〔代謝熱〕状態を1つ解除",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -6026
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94099614,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "ひんやりボディ",
+    "detail": "〔代謝熱〕状態ではない敵から攻撃を受けると敵単体の最大HPをダウン",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099615,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
     "maxRate": 0,
     "effectId": 0
   },
