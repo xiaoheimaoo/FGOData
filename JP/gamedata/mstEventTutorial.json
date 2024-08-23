@@ -1,6 +1,59 @@
 [
   {
     "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      20099501
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "rects": [],
+        "text": "期間限定イベント\n「ＢＢプレゼンツ☆セレブサマー・エクスペリエンス！\n～逆襲のドバイ～」の後編となる\n「奏章Ⅲ　新霊長後継戦　\nアーキタイプ・インセプション」\nが出現しました。\n\n[FFFF00]※奏章Ⅲは2024年8月28日(水) 18:00に開放されます。\nまた、奏章Ⅲには開放期間があり、\n開放期間終了後はプレイできなくなります。\nご注意ください。\n開放期間：2024年10月31日(木) 12:59まで[-]",
+        "textPos": [
+          0,
+          30
+        ],
+        "spacingY": 1,
+        "dlgFontSize": 24,
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {
+      "beforeActionSetup": [
+        "1012",
+        "50101,0",
+        "114",
+        "1040501,0"
+      ],
+      "beforeActionVals": [
+        "1002",
+        "50101,1",
+        "104",
+        "1040501,1",
+        "104",
+        "1040501,3",
+        "101",
+        "1040501"
+      ]
+    },
+    "eventId": -128,
+    "flagType": 68,
+    "num": 1,
+    "priority": 1,
+    "openType": 83,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
       "[1000005,2]",
       "[1000008,5]",
       "[1000009,3]",
@@ -1006,7 +1059,7 @@
     "eventId": -89,
     "flagType": 1,
     "num": 2,
-    "priority": 0,
+    "priority": 7,
     "openType": 83,
     "condType": 0,
     "condValue": 0,
@@ -1091,7 +1144,7 @@
     "eventId": -86,
     "flagType": 1,
     "num": 1,
-    "priority": 0,
+    "priority": 6,
     "openType": 83,
     "condType": 0,
     "condValue": 0,
@@ -1427,7 +1480,7 @@
     "eventId": -67,
     "flagType": 1,
     "num": 1,
-    "priority": 0,
+    "priority": 5,
     "openType": 83,
     "condType": 1,
     "condValue": 0,
@@ -1633,7 +1686,7 @@
     "eventId": -62,
     "flagType": 3,
     "num": 2,
-    "priority": 0,
+    "priority": 4,
     "openType": 83,
     "condType": 1,
     "condValue": 0,
@@ -24439,6 +24492,42 @@
     "priority": 0,
     "openType": 1,
     "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9171]"
+    ],
+    "condIds": [
+      20099504
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "rects": [],
+        "text": "期間限定イベント\n「ＢＢプレゼンツ☆セレブサマー・エクスペリエンス！\n～逆襲のドバイ～」の後編となる\n「奏章Ⅲ　新霊長後継戦　\nアーキタイプ・インセプション」\nはメインシナリオ「オーディール・コール 0」\nをクリアすることで開放されます。\n\n[FFFF00]※奏章Ⅲには開放期間があり、\n開放期間終了後はプレイできなくなります。\nご注意ください。\n開放期間：2024年10月31日(木) 12:59まで[-]",
+        "textPos": [
+          0,
+          30
+        ],
+        "spacingY": 1,
+        "dlgFontSize": 24,
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80485,
+    "flagType": 79,
+    "num": 1,
+    "priority": 0,
+    "openType": 1,
+    "condType": 113,
     "condValue": 0,
     "condValue2": 0,
     "condValue3": 0,
