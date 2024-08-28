@@ -1,47 +1,76 @@
 [
   {
+    "script": {},
     "blankEarthSpotId": 1040106,
     "name": "異常重力圏",
     "priority": 2000,
     "iconId": 80436,
     "condType": 113,
     "condId": 20087501,
-    "condNum": 1
+    "condNum": 1,
+    "messageOpenedAt": 0,
+    "messageClosedAt": 0
   },
   {
+    "script": {},
     "blankEarthSpotId": 1040109,
     "name": "大統領特異点_第二",
     "priority": 2010,
     "iconId": 80436,
     "condType": 113,
     "condId": 20094401,
-    "condNum": 1
+    "condNum": 1,
+    "messageOpenedAt": 0,
+    "messageClosedAt": 0
   },
   {
+    "script": {},
     "blankEarthSpotId": 1040201,
     "name": "奏章Ⅰ 虚数羅針内界\nペーパームーン",
     "priority": 3000,
     "iconId": 402,
     "condType": 1,
     "condId": 4000100,
-    "condNum": 1
+    "condNum": 1,
+    "messageOpenedAt": 0,
+    "messageClosedAt": 0
   },
   {
+    "script": {},
     "blankEarthSpotId": 1040301,
     "name": "奏章Ⅱ 不可逆廃棄孔\nイド",
     "priority": 3010,
     "iconId": 403,
     "condType": 1,
     "condId": 4000217,
-    "condNum": 1
+    "condNum": 1,
+    "messageOpenedAt": 0,
+    "messageClosedAt": 0
   },
   {
+    "script": {
+      "ShortCutMessageInfo": [
+        {
+          "text": " 開放期間 残り {0}",
+          "color": "#FFFFFF",
+          "dispType": 1
+        },
+        {
+          "text": "開放期間 残り {0}",
+          "color": "#FFEB04",
+          "overwriteTime": 1730260799,
+          "dispType": 1
+        }
+      ]
+    },
     "blankEarthSpotId": 1040501,
     "name": "奏章Ⅲ　新霊長後継戦\nアーキタイプ・インセプション",
     "priority": 3030,
     "iconId": 405,
     "condType": 1,
     "condId": 94099513,
-    "condNum": 1
+    "condNum": 1,
+    "messageOpenedAt": 1724835600,
+    "messageClosedAt": 1730347199
   }
 ]

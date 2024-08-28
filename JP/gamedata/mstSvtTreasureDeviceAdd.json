@@ -16,6 +16,7 @@
       "バトルキャラの霊基段階が第1段階または第2段階でないため\n使用できません。",
       "バトルキャラの霊基段階が第3段階でないため使用できません。"
     ],
+    "script": {},
     "svtId": 205000,
     "num": 1,
     "priority": 101,
@@ -39,6 +40,7 @@
       "バトルキャラの霊基段階が第1段階または第2段階でないため\n使用できません。",
       "バトルキャラの霊基段階が第3段階でないため使用できません。"
     ],
+    "script": {},
     "svtId": 205000,
     "num": 1,
     "priority": 102,
@@ -62,6 +64,7 @@
       "バトルキャラの霊基段階が第1段階または第2段階でないため\n使用できません。",
       "バトルキャラの霊基段階が第3段階でないため使用できません。"
     ],
+    "script": {},
     "svtId": 304800,
     "num": 1,
     "priority": 101,
@@ -85,7 +88,71 @@
       "バトルキャラの霊基段階が第1段階または第2段階でないため\n使用できません。",
       "バトルキャラの霊基段階が第3段階でないため使用できません。"
     ],
+    "script": {},
     "svtId": 304800,
+    "num": 1,
+    "priority": 102,
+    "condLimitCount": 3,
+    "commonReleaseId": 0
+  },
+  {
+    "treasureDeviceIds": [
+      2300601,
+      2300698
+    ],
+    "hideCardChara": [
+      0,
+      0
+    ],
+    "titles": [
+      "通常時(攻撃タイプ)",
+      "タイプチェンジ時(防御タイプ)"
+    ],
+    "closedMessages": [
+      "",
+      "スキル3開放と同時に宝具が開放されます。"
+    ],
+    "script": {
+      "fixedCardLimitCounts": [
+        0,
+        0
+      ]
+    },
+    "svtId": 2300600,
+    "num": 1,
+    "priority": 101,
+    "condLimitCount": 0,
+    "commonReleaseId": 0
+  },
+  {
+    "treasureDeviceIds": [
+      2300601,
+      2300698
+    ],
+    "hideCardChara": [
+      0,
+      0
+    ],
+    "titles": [
+      "通常時(攻撃タイプ)",
+      "タイプチェンジ時(防御タイプ)"
+    ],
+    "closedMessages": [
+      "",
+      ""
+    ],
+    "script": {
+      "condIgnoreSealedLimitCount": 1,
+      "dispMaskTreasureDevices": [
+        0,
+        0
+      ],
+      "fixedCardLimitCounts": [
+        0,
+        0
+      ]
+    },
+    "svtId": 2300600,
     "num": 1,
     "priority": 102,
     "condLimitCount": 3,

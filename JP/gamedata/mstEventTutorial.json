@@ -54,6 +54,95 @@
   },
   {
     "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      20099505
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "rects": [],
+        "text": "期間限定イベント\n「ＢＢプレゼンツ☆セレブサマー・エクスペリエンス！\n～逆襲のドバイ～」の後編となる\n「奏章Ⅲ　新霊長後継戦　\nアーキタイプ・インセプション」\nが開放されました。\n\n[FFFF00]※奏章Ⅲには開放期間があり、\n開放期間終了後はプレイできなくなります。\nご注意ください。\n開放期間：2024年10月31日(木) 12:59まで[-]",
+        "textPos": [
+          0,
+          30
+        ],
+        "spacingY": 1,
+        "dlgFontSize": 24,
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {
+      "beforeActionSetup": [
+        "1012",
+        "50101,0",
+        "114",
+        "1040501,0"
+      ],
+      "beforeActionVals": [
+        "1002",
+        "50101,1",
+        "104",
+        "1040501,1",
+        "104",
+        "1040501,3",
+        "101",
+        "1040501"
+      ]
+    },
+    "eventId": -128,
+    "flagType": 69,
+    "num": 2,
+    "priority": 2,
+    "openType": 83,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      20099506
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "rects": [],
+        "text": "期間限定イベント\n「ＢＢプレゼンツ☆セレブサマー・エクスペリエンス！\n～逆襲のドバイ～」の後編となる\n「奏章Ⅲ　新霊長後継戦　\nアーキタイプ・インセプション」\nが開放されました。\n\n[FFFF00]※奏章Ⅲには開放期間があり、\n開放期間終了後はプレイできなくなります。\nご注意ください。\n開放期間：2024年10月31日(木) 12:59まで[-]",
+        "textPos": [
+          0,
+          30
+        ],
+        "spacingY": 1,
+        "dlgFontSize": 24,
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": -128,
+    "flagType": 69,
+    "num": 3,
+    "priority": 3,
+    "openType": 83,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
       "[1000005,2]",
       "[1000008,5]",
       "[1000009,3]",
@@ -320,16 +409,18 @@
     "textJson": [
       {
         "rects": [],
+        "isClassBoardRelease": false,
         "isFortification": false,
-        "text": "霊基再臨の封印解放\n\n\n\n\n「阿曇磯良（ひびき＆千鍵）」の\n第三再臨の封印が解放されました。\n \n \n \n",
+        "text": "「阿曇磯良（ひびき＆千鍵）」の\n第三再臨の封印が解放されました。",
         "dlgBgId": 0,
         "textPos": [
           0,
-          90
+          0
         ],
         "spacingY": 0,
         "dlgFontSize": 30,
-        "isClassBoardRelease": false,
+        "title": "霊基再臨の封印解放",
+        "questId": 0,
         "ptPos": [
           0,
           0
@@ -685,16 +776,18 @@
     "textJson": [
       {
         "rects": [],
+        "isClassBoardRelease": false,
         "isFortification": false,
-        "text": "霊基再臨の封印解放\n\n\n\n\n「巌窟王　モンテ・クリスト」の\n第三再臨の封印が解放されました。\n \n \n \n",
+        "text": "「巌窟王　モンテ・クリスト」の\n第三再臨の封印が解放されました。",
         "dlgBgId": 0,
         "textPos": [
           0,
-          90
+          0
         ],
         "spacingY": 0,
         "dlgFontSize": 30,
-        "isClassBoardRelease": false,
+        "title": "霊基再臨の封印解放",
+        "questId": 0,
         "ptPos": [
           0,
           0
@@ -1018,16 +1111,18 @@
     "textJson": [
       {
         "rects": [],
+        "isClassBoardRelease": false,
         "isFortification": false,
-        "text": "霊基再臨の封印解放\n\n\n\n\n「ドゥルガー」の\n第三再臨の封印が解放されました。 \n \n \n \n",
+        "text": "「ドゥルガー」の\n第三再臨の封印が解放されました。",
         "dlgBgId": 0,
         "textPos": [
           0,
-          90
+          0
         ],
         "spacingY": 0,
         "dlgFontSize": 30,
-        "isClassBoardRelease": false,
+        "title": "霊基再臨の封印解放",
+        "questId": 0,
         "ptPos": [
           0,
           0
