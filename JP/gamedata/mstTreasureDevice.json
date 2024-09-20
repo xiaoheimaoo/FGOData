@@ -10838,6 +10838,22 @@
       4007
     ],
     "script": {},
+    "id": 920,
+    "seqId": 9945500,
+    "name": "有頂天・智慧海曼荼羅",
+    "ruby": "",
+    "rank": "なし",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
+      4007
+    ],
+    "script": {},
     "id": 921,
     "seqId": 9945510,
     "name": "ワープショット",
@@ -10922,6 +10938,22 @@
     "seqId": 9945560,
     "name": "デザートストーム",
     "ruby": "-",
+    "rank": "なし",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3000,
+      4007
+    ],
+    "script": {},
+    "id": 927,
+    "seqId": 9270,
+    "name": "Ｐ．Ｓ",
+    "ruby": "",
     "rank": "なし",
     "maxLv": 5,
     "typeText": "",
@@ -11020,6 +11052,124 @@
     "seqId": 9945850,
     "name": "巨神の制裁",
     "ruby": "-",
+    "rank": "なし",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3000,
+      4007
+    ],
+    "script": {
+      "ForcedOnlyFirstOneSpeed": 1
+    },
+    "id": 939,
+    "seqId": 9945570,
+    "name": "公正世界仮説",
+    "ruby": "just-world hypothesis",
+    "rank": "なし",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3000,
+      4007
+    ],
+    "script": {
+      "ForcedOnlyFirstOneSpeed": 1
+    },
+    "id": 940,
+    "seqId": 9945571,
+    "name": "公正世界誤謬",
+    "ruby": "just-world fallacy",
+    "rank": "なし",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3000,
+      4007
+    ],
+    "script": {
+      "ForcedOnlyFirstOneSpeed": 1
+    },
+    "id": 941,
+    "seqId": 9945572,
+    "name": "公正世界信念",
+    "ruby": "belief in a just world",
+    "rank": "なし",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3000,
+      4007
+    ],
+    "script": {},
+    "id": 942,
+    "seqId": 9945570,
+    "name": "",
+    "ruby": "",
+    "rank": "なし",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3000,
+      4007
+    ],
+    "script": {},
+    "id": 943,
+    "seqId": 9945571,
+    "name": "",
+    "ruby": "",
+    "rank": "なし",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3000,
+      4007
+    ],
+    "script": {},
+    "id": 944,
+    "seqId": 9945572,
+    "name": "",
+    "ruby": "",
+    "rank": "なし",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
+      4007
+    ],
+    "script": {},
+    "id": 945,
+    "seqId": 9945500,
+    "name": "有頂天・智慧海曼荼羅",
+    "ruby": "",
     "rank": "なし",
     "maxLv": 5,
     "typeText": "",
@@ -23368,7 +23518,13 @@
       4007,
       4101
     ],
-    "script": {},
+    "script": {
+      "limitSeqId_11": 1000130,
+      "limitSeqId_1": 1000100,
+      "limitSeqId_3": 1000100,
+      "limitSeqId_4": 1000100,
+      "limitSeqId_2": 1000100
+    },
     "id": 1000101,
     "seqId": 1000100,
     "name": "死が二人を別離つとも",
@@ -23386,7 +23542,13 @@
       4007,
       4101
     ],
-    "script": {},
+    "script": {
+      "limitSeqId_11": 1000130,
+      "limitSeqId_1": 1000100,
+      "limitSeqId_3": 1000100,
+      "limitSeqId_4": 1000100,
+      "limitSeqId_2": 1000100
+    },
     "id": 1000102,
     "seqId": 1000100,
     "name": "死が二人を別離つとも",
@@ -23422,7 +23584,48 @@
       4007,
       4101
     ],
-    "script": {},
+    "script": {
+      "randomSeqIds_1": [
+        1000310,
+        1000311
+      ],
+      "randomSeqIds": [
+        1000300,
+        1000301
+      ],
+      "randomSeqIds_3": [
+        1000320,
+        1000321
+      ],
+      "randomSeqIds_2": [
+        1000310,
+        1000311
+      ],
+      "randomWeights_3": [
+        66,
+        34
+      ],
+      "randomWeights_1": [
+        34,
+        66
+      ],
+      "randomWeights_2": [
+        34,
+        66
+      ],
+      "randomWeights": [
+        34,
+        66
+      ],
+      "randomWeights_4": [
+        66,
+        34
+      ],
+      "randomSeqIds_4": [
+        1000320,
+        1000321
+      ]
+    },
     "id": 1000301,
     "seqId": 1000300,
     "name": "快楽天・胎蔵曼荼羅",
@@ -23440,7 +23643,48 @@
       4007,
       4101
     ],
-    "script": {},
+    "script": {
+      "randomSeqIds_1": [
+        1000310,
+        1000311
+      ],
+      "randomSeqIds": [
+        1000300,
+        1000301
+      ],
+      "randomSeqIds_3": [
+        1000320,
+        1000321
+      ],
+      "randomSeqIds_2": [
+        1000310,
+        1000311
+      ],
+      "randomWeights_3": [
+        66,
+        34
+      ],
+      "randomWeights_1": [
+        34,
+        66
+      ],
+      "randomWeights_2": [
+        34,
+        66
+      ],
+      "randomWeights": [
+        34,
+        66
+      ],
+      "randomWeights_4": [
+        66,
+        34
+      ],
+      "randomSeqIds_4": [
+        1000320,
+        1000321
+      ]
+    },
     "id": 1000302,
     "seqId": 1000300,
     "name": "快楽天・胎蔵曼荼羅",
@@ -25026,6 +25270,214 @@
     "individuality": [
       3002,
       4001,
+      4007,
+      4101
+    ],
+    "script": {
+      "tdTypeChangeIDs": [
+        2300696,
+        2300697
+      ],
+      "randomWeights_1": [
+        50,
+        50
+      ],
+      "randomWeights_2": [
+        50,
+        50
+      ],
+      "randomWeights": [
+        100
+      ],
+      "randomSeqIds_4": [
+        2300620,
+        2300622,
+        2300623,
+        2300624,
+        2300625
+      ],
+      "randomSeqIds": [
+        2300602
+      ],
+      "randomSeqIds_2": [
+        2300610,
+        2300612
+      ],
+      "excludeTdChangeTypes": [
+        3
+      ],
+      "randomSeqIds_1": [
+        2300610,
+        2300612
+      ],
+      "groupSeqIDs": [
+        23006000
+      ],
+      "randomSeqIds_3": [
+        2300620,
+        2300622,
+        2300623,
+        2300624,
+        2300625
+      ],
+      "randomWeights_3": [
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "groupSeqIDs_4": [
+        2300620,
+        2300622,
+        2300620,
+        2300624,
+        2300624
+      ],
+      "groupSeqIDs_1": [
+        2300610,
+        2300612
+      ],
+      "groupSeqIDs_3": [
+        2300620,
+        2300622,
+        2300620,
+        2300624,
+        2300624
+      ],
+      "groupSeqIDs_2": [
+        2300610,
+        2300612
+      ],
+      "randomWeights_4": [
+        20,
+        20,
+        20,
+        20,
+        20
+      ]
+    },
+    "id": 2300696,
+    "seqId": 2300600,
+    "name": "Ｃ.Ｃ.Ｃ.",
+    "ruby": "コスモス・クラフト・クレーター",
+    "rank": "EX",
+    "maxLv": 5,
+    "typeText": "対界宝具",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3002,
+      4001,
+      4007
+    ],
+    "script": {
+      "tdTypeChangeIDs": [
+        2300696,
+        2300697
+      ],
+      "randomWeights_1": [
+        34,
+        33,
+        33
+      ],
+      "randomWeights_2": [
+        34,
+        33,
+        33
+      ],
+      "randomWeights": [
+        100
+      ],
+      "randomSeqIds_4": [
+        2300621,
+        2300626,
+        2300627,
+        2300628,
+        2300629
+      ],
+      "randomSeqIds": [
+        2300603
+      ],
+      "randomSeqIds_2": [
+        2300611,
+        2300613,
+        2300614
+      ],
+      "excludeTdChangeTypes": [
+        3
+      ],
+      "randomSeqIds_1": [
+        2300611,
+        2300613,
+        2300614
+      ],
+      "npNameFileSuffix": "2300610",
+      "groupSeqIDs": [
+        2300601
+      ],
+      "randomSeqIds_3": [
+        2300621,
+        2300626,
+        2300627,
+        2300628,
+        2300629
+      ],
+      "randomWeights_3": [
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "groupSeqIDs_4": [
+        2300621,
+        2300626,
+        2300627,
+        2300621,
+        2300627
+      ],
+      "groupSeqIDs_1": [
+        2300611,
+        2300613,
+        2300614
+      ],
+      "groupSeqIDs_3": [
+        2300621,
+        2300626,
+        2300627,
+        2300621,
+        2300627
+      ],
+      "groupSeqIDs_2": [
+        2300611,
+        2300613,
+        2300614
+      ],
+      "randomWeights_4": [
+        20,
+        20,
+        20,
+        20,
+        20
+      ]
+    },
+    "id": 2300697,
+    "seqId": 2300601,
+    "name": "Ｇ.Ｇ.Ｇ.",
+    "ruby": "ゴールド・ギガント・ガーメント",
+    "rank": "EX",
+    "maxLv": 5,
+    "typeText": "対界宝具",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
+      4001,
       4007
     ],
     "script": {
@@ -25128,6 +25580,42 @@
     "typeText": "対界宝具",
     "attackAttri": 1,
     "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
+      4002,
+      4007,
+      4101
+    ],
+    "script": {},
+    "id": 2300701,
+    "seqId": 2300700,
+    "name": "観測せよ、主なき月の柩",
+    "ruby": "ヴォイドレコード・ムーンアンカー",
+    "rank": "EX",
+    "maxLv": 5,
+    "typeText": "対人宝具",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3002,
+      4002,
+      4007,
+      4101
+    ],
+    "script": {},
+    "id": 2300801,
+    "seqId": 2300800,
+    "name": "記録せよ、読み手なき月の柩",
+    "ruby": "ヴォイドレコード・ムーンアンカー",
+    "rank": "EX",
+    "maxLv": 5,
+    "typeText": "対人宝具",
+    "attackAttri": 1,
+    "effectFlag": 1
   },
   {
     "individuality": [
@@ -30124,6 +30612,49 @@
       4101
     ],
     "script": {},
+    "id": 9945580,
+    "seqId": 9945580,
+    "name": "観測せよ、主なき月の柩",
+    "ruby": "ヴォイドレコード・ムーンアンカー",
+    "rank": "EX",
+    "maxLv": 5,
+    "typeText": "対人宝具",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3002,
+      4002,
+      4007,
+      4101
+    ],
+    "script": {
+      "ForcedOnlyFirstOneSpeed": 1,
+      "tdWithBackStepNpcIds": [
+        3002839,
+        3002840,
+        3002841
+      ]
+    },
+    "id": 9945581,
+    "seqId": 9945581,
+    "name": "編纂せよ虚空の月",
+    "ruby": "ヴォイドレコード・ムーンライター",
+    "rank": "EX",
+    "maxLv": 5,
+    "typeText": "対人宝具",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3002,
+      4002,
+      4007,
+      4101
+    ],
+    "script": {},
     "id": 9945611,
     "seqId": 9945610,
     "name": "転身火生三昧",
@@ -30301,6 +30832,49 @@
       4101
     ],
     "script": {},
+    "id": 9945790,
+    "seqId": 9945790,
+    "name": "記録せよ、読み手なき月の柩",
+    "ruby": "ヴォイドレコード・ムーンアンカー",
+    "rank": "EX",
+    "maxLv": 5,
+    "typeText": "対人宝具",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3002,
+      4002,
+      4007,
+      4101
+    ],
+    "script": {
+      "ForcedOnlyFirstOneSpeed": 1,
+      "tdWithBackStepNpcIds": [
+        3002836,
+        3002837,
+        3002838
+      ]
+    },
+    "id": 9945791,
+    "seqId": 9945791,
+    "name": "編纂せよ虚空の月",
+    "ruby": "ヴォイドレコード・ムーンライター",
+    "rank": "EX",
+    "maxLv": 5,
+    "typeText": "対人宝具",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3002,
+      4002,
+      4007,
+      4101
+    ],
+    "script": {},
     "id": 9945801,
     "seqId": 9945800,
     "name": "観測せよ、主なき月の柩",
@@ -30326,6 +30900,32 @@
     "rank": "C+",
     "maxLv": 5,
     "typeText": "対人宝具",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3002,
+      4001,
+      4007,
+      4101
+    ],
+    "script": {
+      "tdTypeChangeIDs": [
+        9945782,
+        9945781
+      ],
+      "excludeTdChangeTypes": [
+        3
+      ]
+    },
+    "id": 9945879,
+    "seqId": 9945780,
+    "name": "Ｃ.Ｃ.Ｃ.",
+    "ruby": "コスモス・クラフト・クレーター",
+    "rank": "EX",
+    "maxLv": 5,
+    "typeText": "対界宝具",
     "attackAttri": 1,
     "effectFlag": 1
   }

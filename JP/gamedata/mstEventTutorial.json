@@ -143,6 +143,37 @@
   },
   {
     "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      4000426
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "addClassIds": [
+          23
+        ],
+        "releaseClassBoardBaseIds": [
+          8
+        ],
+        "isClassBoardRelease": true
+      }
+    ],
+    "script": {},
+    "eventId": -127,
+    "flagType": 1,
+    "num": 2,
+    "priority": 12,
+    "openType": 83,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
       "[1000005,2]",
       "[1000008,5]",
       "[1000009,3]",
@@ -637,7 +668,8 @@
       "[]"
     ],
     "condIds": [
-      4000326
+      4000326,
+      4000426
     ],
     "imageIds": [],
     "textJson": [
@@ -652,7 +684,7 @@
     "eventId": -111,
     "flagType": 1,
     "num": 1,
-    "priority": 0,
+    "priority": 13,
     "openType": 83,
     "condType": 1,
     "condValue": 0,
@@ -24637,11 +24669,13 @@
     "targetIds": [
       "[]"
     ],
-    "condIds": [],
+    "condIds": [
+      94099513
+    ],
     "imageIds": [],
     "textJson": [
       {
-        "text": "[FFFF00]奏章Ⅲの開放に関するご注意[-]\n\n2024年8月28日(水)実装予定の『奏章Ⅲ』を開放するには\n期間限定イベント\n「ＢＢプレゼンツ☆セレブサマー・エクスペリエンス！\n～逆襲のドバイ～」をクリアする必要があります。\n\nイベントの開催期間中にイベントをクリアしていなかった場合、\n『奏章Ⅲ』を開放することができなくなりますのでご注意ください。\nイベント開催期間：2024年10月2日(水) 12:59まで",
+        "text": "[FFFF00]奏章Ⅲの開放に関するご注意[-]\n\n2024年8月28日(水)に開幕した『奏章Ⅲ』を開放するには\n期間限定イベント\n「ＢＢプレゼンツ☆セレブサマー・エクスペリエンス！\n～逆襲のドバイ～」をクリアする必要があります。\n\nイベントの開催期間中にイベントをクリアしていなかった場合、\n『奏章Ⅲ』を開放することができなくなりますのでご注意ください。\nイベント開催期間：2024年10月2日(水) 12:59まで",
         "dlgFontSize": 22,
         "rects": [],
         "textPos": [
@@ -24656,11 +24690,84 @@
     ],
     "script": {},
     "eventId": 80485,
-    "flagType": 80,
+    "flagType": 81,
     "num": 1,
     "priority": 0,
     "openType": 2,
-    "condType": 0,
+    "condType": 36,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      20100702
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "「奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション」\nクリアにより、白紙化地球上の「アラビアエリア」に\n新たなフリークエストが追加されました。\n\n追加されたフリークエストでは、奏章Ⅲで新たに登場した\nスキル強化＆霊基再臨素材を獲得可能です。\n\n[FFFF00]※「奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション」の\nマップ上のフリークエストは、今後のアップデートで\n「ＢＢプレゼンツ☆セレブサマー・エクスペリエンス！\n～逆襲のドバイ～」がメイン・インタールードに\n追加された際に開放されます。[-]",
+        "dlgFontSize": 22,
+        "rects": [],
+        "textPos": [
+          0,
+          38
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {
+      "beforeActionSetup": [
+        "110",
+        "1040200"
+      ],
+      "beforeActionVals": [
+        "300",
+        "1040200,15,1000",
+        "102",
+        "1040200"
+      ]
+    },
+    "eventId": 80491,
+    "flagType": 65,
+    "num": 1,
+    "priority": 11,
+    "openType": 83,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      20100705
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "isSelectBonus": true
+      }
+    ],
+    "script": {
+      "resumeTransitionWar": 401
+    },
+    "eventId": 80495,
+    "flagType": 65,
+    "num": 1,
+    "priority": 6,
+    "openType": 93,
+    "condType": 113,
     "condValue": 0,
     "condValue2": 0,
     "condValue3": 0,
