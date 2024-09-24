@@ -68709,6 +68709,430 @@
     "vals": [
       3004
     ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4674,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "King's Poison",
+    "detail": "Inflict Poison to target when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4675,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "King's Poison",
+    "detail": "Apply [King] trait to target",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -3011
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 4676,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "King Will Not Approve Sterility",
+    "detail": "Increase Charge by 1 when attacked by target who is not Poisoned",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -3011
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 4677,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "King Will Not Approve Sterility",
+    "detail": "Decrease HP for all enemies when HP reaches 0 when attacked by target who is not Poisoned",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4678,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Poisoned Mask",
+    "detail": "Apply [Poison] trait to target",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4679,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "The Empress of Poison",
+    "detail": "Apply [Poison] trait to target",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3011
+    ],
+    "script": {},
+    "id": 4680,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "King Will Not Approve Sterility",
+    "detail": "Decrease DEF against attacks by Poisoned opponent",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4681,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "Absolute Death and Expulsion",
+    "detail": "Decrease HP for yourself when Guts is triggered",
+    "iconId": 556,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001
+    ],
+    "script": {},
+    "id": 4682,
+    "buffGroup": 0,
+    "type": 106,
+    "name": "Serpent Wedge",
+    "detail": "Decrease Arts Resist that becomes more effective each turn",
+    "iconId": 540,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6026,
+      "avoidanceText": "Attack will not reach"
+    },
+    "id": 4683,
+    "buffGroup": 0,
+    "type": 155,
+    "name": "Witch in a Diorama",
+    "detail": "While [Dragon Tooth Warriors] are on the field, ignore Sure Hit and Ignore Invincible and reduce damage taken to 0",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4684,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4686,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {
+      "INDIVIDUALITIE": 6026
+    },
+    "id": 4687,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "Witch in a Diorama",
+    "detail": "While [Dragon Tooth Warriors] are on the field, immune to all debuffs",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4688,
+    "buffGroup": 0,
+    "type": 37,
+    "name": "\"Germination\"",
+    "detail": "When HP reaches 0, recover HP and survive",
+    "iconId": 304,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4689,
+    "buffGroup": 0,
+    "type": 38,
+    "name": "",
+    "detail": "",
+    "iconId": 323,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4690,
+    "buffGroup": 0,
+    "type": 73,
+    "name": "",
+    "detail": "",
+    "iconId": 340,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4691,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3023
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4692,
+    "buffGroup": 0,
+    "type": 38,
+    "name": "Target Focused",
+    "detail": "Increase chance of being targeted by enemies",
+    "iconId": 323,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      3026
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3026
+    ],
+    "script": {},
+    "id": 4693,
+    "buffGroup": 0,
+    "type": 110,
+    "name": "STR Up (Curse)",
+    "detail": "Increase damage dealt to [Cursed] enemies",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3033
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6026
+    },
+    "id": 4694,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "Witch in a Diorama",
+    "detail": "While [Dragon Tooth Warriors] are on the field, decrease ATK",
+    "iconId": 503,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      3015
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3015
+    ],
+    "script": {},
+    "id": 4695,
+    "buffGroup": 0,
+    "type": 110,
+    "name": "STR Up (Burn)",
+    "detail": "Increase damage dealt to [Burned] enemies",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      3012
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3012
+    ],
+    "script": {},
+    "id": 4696,
+    "buffGroup": 0,
+    "type": 110,
+    "name": "STR Up (Charm)",
+    "detail": "Increase damage dealt to [Charmed] enemies",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
     "tvals": [
       5000,
       4100
