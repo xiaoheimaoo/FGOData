@@ -47,7 +47,7 @@
     ],
     "targetVals2": [],
     "id": 3000201,
-    "name": "編成条件あり",
+    "name": "サポート\nスターティングメンバー出撃必須",
     "type": 7,
     "rangeType": 1
   },
@@ -57,7 +57,7 @@
     ],
     "targetVals2": [],
     "id": 3000202,
-    "name": "編成制限あり",
+    "name": "マシュ\nスターティングメンバー出撃必須",
     "type": 8,
     "rangeType": 0
   },
@@ -120,7 +120,7 @@
     ],
     "targetVals2": [],
     "id": 3000501,
-    "name": "編成条件あり",
+    "name": "超人オリオン(NPC)\nスターティングメンバー出撃必須",
     "type": 7,
     "rangeType": 1
   },
@@ -184,6 +184,34 @@
     "name": "編成制限あり",
     "type": 11,
     "rangeType": 4
+  },
+  {
+    "targetVals": [],
+    "targetVals2": [],
+    "id": 3000603,
+    "name": "サポートのみ出撃",
+    "type": 5,
+    "rangeType": 0
+  },
+  {
+    "targetVals": [
+      1
+    ],
+    "targetVals2": [],
+    "id": 3000604,
+    "name": "",
+    "type": 10,
+    "rangeType": 1
+  },
+  {
+    "targetVals": [
+      800100
+    ],
+    "targetVals2": [],
+    "id": 3000605,
+    "name": "マシュ\nスターティングメンバー出撃必須",
+    "type": 8,
+    "rangeType": 0
   },
   {
     "targetVals": [],
@@ -2591,7 +2619,7 @@
     ],
     "targetVals2": [],
     "id": 91000059,
-    "name": "編成制限あり",
+    "name": "",
     "type": 11,
     "rangeType": 4
   },
@@ -2601,7 +2629,7 @@
     ],
     "targetVals2": [],
     "id": 91000060,
-    "name": "2騎NPC固定出撃",
+    "name": "",
     "type": 10,
     "rangeType": 4
   },
@@ -2621,7 +2649,7 @@
     ],
     "targetVals2": [],
     "id": 91000062,
-    "name": "3騎固定出撃",
+    "name": "",
     "type": 10,
     "rangeType": 1
   },
@@ -3369,7 +3397,7 @@
       3
     ],
     "id": 91000128,
-    "name": "編成制限あり",
+    "name": "シャルロット・コルデー\nスターティングメンバー出撃必須",
     "type": 12,
     "rangeType": 1
   },
@@ -3379,7 +3407,7 @@
     ],
     "targetVals2": [],
     "id": 91000129,
-    "name": "2騎出撃可能",
+    "name": "",
     "type": 11,
     "rangeType": 1
   },
@@ -6816,5 +6844,26 @@
     "name": "",
     "type": 14,
     "rangeType": 1
+  },
+  {
+    "targetVals": [
+      101700
+    ],
+    "targetVals2": [],
+    "id": 94136501,
+    "name": "",
+    "type": 15,
+    "rangeType": 0
+  },
+  {
+    "targetVals": [
+      101700,
+      701000
+    ],
+    "targetVals2": [],
+    "id": 94136502,
+    "name": "",
+    "type": 15,
+    "rangeType": 0
   }
 ]
