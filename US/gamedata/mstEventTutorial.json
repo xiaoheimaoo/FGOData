@@ -200,13 +200,13 @@
       "[]"
     ],
     "condIds": [
-      3000628
+      3000421
     ],
     "imageIds": [],
     "textJson": [
       {
-        "text": "Road to 7 Lostbelt No.5 Olympus Recollection Quest Unlocked!\n\nSince you have cleared “Lostbelt No.5 Olympus”\nyou can now access its Recollection Quest on the [FFA500]“Lostbelt No.5 Olympus” map.[-]\n\nAccess the Recollection Quest to revisit [FFA500]the most memorable adventures and battles from “Lostbelt No.5 Olympus”.[-]\n\nAnd if you're confident in your skills and in the mood for a challenge,\nyou can also try your hand at the Ultra High Difficulty Super Recollection Quest!\n\n",
-        "dlgFontSize": 20,
+        "text": "You can now exchange for the “Main Interlude: Great Void Sea Battle, Imaginary Scramble” quest from “Exchange Rare Prisms” at Da Vinci's Workshop.\n\n[FFA500]*Can be exchanged for free![-]\n\nExchange to play “Main Interlude: Great Void Sea Battle, Imaginary Scramble”",
+        "dlgFontSize": 26,
         "rects": [],
         "textPos": [
           0,
@@ -219,11 +219,46 @@
       }
     ],
     "script": {},
-    "eventId": -65,
+    "eventId": -66,
     "flagType": 1,
     "num": 1,
     "priority": 0,
     "openType": 2,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[305]"
+    ],
+    "condIds": [
+      3000421
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "You can now exchange for the “Main Interlude: Great Void Sea Battle, Imaginary Scramble” quest from ”Exchange Rare Prisms” at Da Vinci's Workshop.\n\n[FFA500]*Can be exchanged for free![-]\n\nExchange to play “Main Interlude: Great Void Sea Battle, Imaginary Scramble”",
+        "dlgFontSize": 26,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": -66,
+    "flagType": 1,
+    "num": 2,
+    "priority": 0,
+    "openType": 18,
     "condType": 1,
     "condValue": 0,
     "condValue2": 0,
@@ -664,6 +699,27 @@
     "num": 1,
     "priority": 0,
     "openType": 1,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9145]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      978
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": -47,
+    "flagType": 2,
+    "num": 2,
+    "priority": 0,
+    "openType": 18,
     "condType": 0,
     "condValue": 0,
     "condValue2": 0,
@@ -18586,6 +18642,113 @@
     "priority": 0,
     "openType": 1,
     "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9145]"
+    ],
+    "condIds": [
+      94075002
+    ],
+    "imageIds": [
+      1006,
+      1007,
+      1008,
+      1009,
+      1010
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80393,
+    "flagType": 2,
+    "num": 1,
+    "priority": 0,
+    "openType": 1,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9146]"
+    ],
+    "condIds": [
+      94075005
+    ],
+    "imageIds": [
+      1012
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80393,
+    "flagType": 13,
+    "num": 1,
+    "priority": 0,
+    "openType": 1,
+    "condType": 46,
+    "condValue": 1,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9147]"
+    ],
+    "condIds": [
+      94075009
+    ],
+    "imageIds": [
+      1013
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80393,
+    "flagType": 50,
+    "num": 1,
+    "priority": 0,
+    "openType": 1,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[94075109]",
+      "[94075112]",
+      "[94075131]",
+      "[94075137]",
+      "[94075138]",
+      "[94075156]",
+      "[94075157]",
+      "[94075163]",
+      "[94075169]",
+      "[94075170]",
+      "[94075211]",
+      "[94075213]",
+      "[94075218]",
+      "[94075220]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      1011
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80393,
+    "flagType": 64,
+    "num": 1,
+    "priority": 0,
+    "openType": 67,
+    "condType": 0,
     "condValue": 0,
     "condValue2": 0,
     "condValue3": 0,
