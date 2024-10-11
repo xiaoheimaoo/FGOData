@@ -68578,7 +68578,7 @@
     "id": 4667,
     "buffGroup": 0,
     "type": 160,
-    "name": "Pre Quick ATK Damage Bonus Effect",
+    "name": "Pre-Quick ATK Damage Bonus Effect",
     "detail": "Decrease the DEF of the target before attacking with Quick Cards",
     "iconId": 528,
     "maxRate": 0,
@@ -69135,6 +69135,576 @@
     "ckSelfIndv": [],
     "ckOpIndv": [],
     "script": {},
+    "id": 4697,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Star of Destiny Power",
+    "detail": "Increase damage dealt during \"Halloween Rebellion of 108!\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4698,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn (Debuff)",
+    "detail": "Low probability to inflict Stun on yourself each turn",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4699,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Professional's Pride",
+    "detail": "When HP reaches 0, inflict Stun for a single enemy",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4700,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Inexhaustible Treasure",
+    "detail": "When HP reaches 0, increase NP charge by 2 for [Treasure Keeper]",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4701,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect with Normal Attack",
+    "detail": "Decrease NP Gauge for a single enemy during normal attacks + Increase Charge by 1 for yourself",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4702,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate when Damaged",
+    "detail": "Increase ATK when attacked & increase Critical Hit Rate",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 4703,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "NP Resist Up",
+    "detail": "Gain resistance to NP Damage",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6026
+    },
+    "id": 4704,
+    "buffGroup": 600,
+    "type": 37,
+    "name": "Guts",
+    "detail": "When [As-You-Will Treasure Core] is on the field, when HP reaches 0, recover HP and survive",
+    "iconId": 304,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3022,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6026
+    },
+    "id": 4705,
+    "buffGroup": 400,
+    "type": 26,
+    "name": "Invincible",
+    "detail": "When [As-You-Will Treasure Core] is on the field, ignore Sure Hit and reduce damage taken to 0",
+    "iconId": 311,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      5000
+    ],
+    "script": {},
+    "id": 4706,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "",
+    "detail": "",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061,
+      6021
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {},
+    "id": 4708,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "Minute Star of Heaven",
+    "detail": "Immune to all debuffs",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6021
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4709,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Prestige Star of Heaven",
+    "detail": "Apply a state that decreases DEF of a single enemy with normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031,
+      6021
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4710,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "Skillful Star of Heaven",
+    "detail": "Increase Critical Hit damage",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4711,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect on Attack",
+    "detail": "During attack, remove 1 ATK Buff of a target",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4712,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect on Attack",
+    "detail": "During attack, remove 1 DEF Buff of a target",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3017,
+      6016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4713,
+    "buffGroup": 0,
+    "type": 92,
+    "name": "Mental Break",
+    "detail": "Decrease resistance to all attacks ",
+    "iconId": 529,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6035
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4714,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Mental",
+    "detail": "Apply [Mental] trait",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {},
+    "id": 4715,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "Minute Star of Heaven Pole",
+    "detail": "Immune to all debuffs",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4716,
+    "buffGroup": 0,
+    "type": 148,
+    "name": "Prestige Star of Heaven Pole",
+    "detail": "Decrease DEF for a single enemy before attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4717,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "Skillful Star of Heaven Pole",
+    "detail": "Increase Critical Hit damage",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4718,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "Pre-Quick ATK Damage Bonus Effect",
+    "detail": "During Quick attacks, increase C. Star Drop Rate for yourself before damage",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4719,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "Pre-Buster ATK Damage Bonus Effect",
+    "detail": "During Buster attacks, increase Critical Strength for yourself before damage",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4720,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Governing Prince Wucheng",
+    "detail": "Change from [Chaotic] to [Lawful]",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4721,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Mount Liang",
+    "detail": "Apply [Mount Liang] trait",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      2840
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2840
+    },
+    "id": 4722,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "Critical Up",
+    "detail": "Increase Critical Hit damage",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4723,
+    "buffGroup": 0,
+    "type": 41,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4724,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Special Resist Up (Mental)",
+    "detail": "Gain resistance to all attacks <effect increases with more [Mental]>",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 4725,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "ATK Up (Mental)",
+    "detail": "Increase ATK <effect increases with more [Mental]>",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3023
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4726,
+    "buffGroup": 700,
+    "type": 38,
+    "name": "Target Focused",
+    "detail": "Set Target to yourself",
+    "iconId": 323,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4727,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "Pre-Quick ATK Damage Bonus Effect",
+    "detail": "During a Quick attacks, increase Critical Hit Rate for yourself before damage",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
     "id": 4728,
     "buffGroup": 0,
     "type": 91,
@@ -69142,6 +69712,27 @@
     "detail": "Remove Change and \"???\" when sustaining attack & increase Special Resistance",
     "iconId": 334,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [
+      5000
+    ],
+    "script": {},
+    "id": 4729,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 528,
+    "maxRate": 0,
     "effectId": 0
   },
   {
