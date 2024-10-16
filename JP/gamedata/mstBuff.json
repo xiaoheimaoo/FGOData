@@ -40299,7 +40299,7 @@
     "id": 3132,
     "buffGroup": 0,
     "type": 92,
-    "name": "クリティカル攻撃耐性ダウン",
+    "name": "特殊耐性ダウン〔クリティカル〕",
     "detail": "クリティカル攻撃による被ダメージが増加する",
     "iconId": 529,
     "maxRate": 5000,
@@ -40321,7 +40321,7 @@
     "id": 3133,
     "buffGroup": 0,
     "type": 92,
-    "name": "宝具耐性ダウン",
+    "name": "特殊耐性ダウン〔宝具〕",
     "detail": "宝具攻撃に対する耐性をダウン",
     "iconId": 529,
     "maxRate": 5000,
@@ -47189,7 +47189,7 @@
     "id": 3528,
     "buffGroup": 0,
     "type": 91,
-    "name": "クリティカル耐性アップ",
+    "name": "特殊耐性アップ〔クリティカル〕",
     "detail": "クリティカル攻撃への耐性を得る",
     "iconId": 334,
     "maxRate": 5000,
@@ -80465,7 +80465,7 @@
     "id": 5535,
     "buffGroup": 0,
     "type": 91,
-    "name": "特殊耐性アップ",
+    "name": "特殊耐性アップ〔宝具以外〕",
     "detail": "宝具以外の攻撃に対する耐性をアップ",
     "iconId": 334,
     "maxRate": 5000,
@@ -83225,6 +83225,36 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5685,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "パーフェクト・ロール",
+    "detail": "『妖精双六虫籠遊戯』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5686,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ",
+    "detail": "『妖精双六虫籠遊戯』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004,
       3006,
@@ -83501,6 +83531,962 @@
     "detail": "Extra Attack時にスターを獲得する",
     "iconId": 333,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 100,
+      "ProgressSelfTurn": 1
+    },
+    "id": 5700,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "宝具威力アップ：セイバー",
+    "detail": "自身が〔セイバー〕クラスの場合、宝具で与えるダメージをアップ",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 102,
+      "ProgressSelfTurn": 1
+    },
+    "id": 5701,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "宝具威力アップ：アーチャー",
+    "detail": "自身が〔アーチャー〕クラスの場合、宝具で与えるダメージをアップ",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 101,
+      "ProgressSelfTurn": 1
+    },
+    "id": 5702,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "宝具威力アップ：ランサー",
+    "detail": "自身が〔ランサー〕クラスの場合、宝具で与えるダメージをアップ",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 103,
+      "ProgressSelfTurn": 1
+    },
+    "id": 5703,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "宝具威力アップ：ライダー",
+    "detail": "自身が〔ライダー〕クラスの場合、宝具で与えるダメージをアップ",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 104,
+      "ProgressSelfTurn": 1
+    },
+    "id": 5704,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "宝具威力アップ：キャスター",
+    "detail": "自身が〔キャスター〕クラスの場合、宝具で与えるダメージをアップ",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 105,
+      "ProgressSelfTurn": 1
+    },
+    "id": 5705,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "宝具威力アップ：アサシン",
+    "detail": "自身が〔アサシン〕クラスの場合、宝具で与えるダメージをアップ",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 106,
+      "ProgressSelfTurn": 1
+    },
+    "id": 5706,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "宝具威力アップ：バーサーカー",
+    "detail": "自身が〔バーサーカー〕クラスの場合、宝具で与えるダメージをアップ",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2000,
+      "ProgressSelfTurn": 1
+    },
+    "id": 5707,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "宝具威力アップ：神性",
+    "detail": "自身が〔神性〕特性を持つ場合、宝具で与えるダメージをアップ",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 300
+    },
+    "id": 5708,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "クリティカル威力アップ：秩序",
+    "detail": "自身が〔秩序〕特性を持つ場合、クリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3084
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [
+      4008
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 301
+    },
+    "id": 5709,
+    "buffGroup": 0,
+    "type": 17,
+    "name": "NP獲得アップ：混沌",
+    "detail": "自身が〔混沌〕特性を持つ場合、刻印されたカードのNP獲得量をアップ",
+    "iconId": 303,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      2925
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2925
+    ],
+    "script": {},
+    "id": 5710,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ〔サクラシリーズ系〕",
+    "detail": "〔サクラシリーズ系〕に与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      100
+    ],
+    "script": {
+      "INDIVIDUALITIE": 100
+    },
+    "id": 5711,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ〔セイバー〕",
+    "detail": "自身が〔セイバー〕クラスの場合、〔セイバー〕クラスに与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      102
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      102
+    ],
+    "script": {
+      "INDIVIDUALITIE": 102
+    },
+    "id": 5712,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ〔アーチャー〕",
+    "detail": "自身が〔アーチャー〕クラスの場合、〔アーチャー〕クラスに与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      101
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      101
+    ],
+    "script": {
+      "INDIVIDUALITIE": 101
+    },
+    "id": 5713,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ〔ランサー〕",
+    "detail": "自身が〔ランサー〕クラスの場合、〔ランサー〕クラスに与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      103
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      103
+    ],
+    "script": {
+      "INDIVIDUALITIE": 103
+    },
+    "id": 5714,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ〔ライダー〕",
+    "detail": "自身が〔ライダー〕クラスの場合、〔ライダー〕クラスに与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      104
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      104
+    ],
+    "script": {
+      "INDIVIDUALITIE": 104
+    },
+    "id": 5715,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ〔キャスター〕",
+    "detail": "自身が〔キャスター〕クラスの場合、〔キャスター〕クラスに与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      105
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      105
+    ],
+    "script": {
+      "INDIVIDUALITIE": 105
+    },
+    "id": 5716,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ〔アサシン〕",
+    "detail": "自身が〔アサシン〕クラスの場合、〔アサシン〕クラスに与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      106
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      106
+    ],
+    "script": {
+      "INDIVIDUALITIE": 106
+    },
+    "id": 5717,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ〔バーサーカー〕",
+    "detail": "自身が〔バーサーカー〕クラスの場合、〔バーサカー〕クラスに与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      108
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      108
+    ],
+    "script": {
+      "INDIVIDUALITIE": 108
+    },
+    "id": 5718,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ〔ルーラー〕",
+    "detail": "自身が〔ルーラー〕クラスの場合、〔ルーラー〕クラスに与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      110
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      110
+    ],
+    "script": {
+      "INDIVIDUALITIE": 110
+    },
+    "id": 5719,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ〔アヴェンジャー〕",
+    "detail": "自身が〔アヴェンジャー〕クラスの場合、〔アヴェンジャー〕クラスに与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      115
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      115
+    ],
+    "script": {
+      "INDIVIDUALITIE": 115
+    },
+    "id": 5720,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ〔ムーンキャンサー〕",
+    "detail": "自身が〔ムーンキャンサー〕クラスの場合、〔ムーンキャンサー〕クラスに与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      109
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      109
+    ],
+    "script": {
+      "INDIVIDUALITIE": 109
+    },
+    "id": 5721,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ〔アルターエゴ〕",
+    "detail": "自身が〔アルターエゴ〕クラスの場合、〔アルターエゴ〕クラスに与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      117
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      117
+    ],
+    "script": {
+      "INDIVIDUALITIE": 117
+    },
+    "id": 5722,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ〔フォーリナー〕",
+    "detail": "自身が〔フォーリナー〕クラスの場合、〔フォーリナー〕クラスに与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      120
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      120
+    ],
+    "script": {
+      "INDIVIDUALITIE": 120
+    },
+    "id": 5723,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ〔プリテンダー〕",
+    "detail": "自身が〔プリテンダー〕クラスの場合、〔プリテンダー〕クラスに与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "classIconChangeEffectId": 4001013
+    },
+    "id": 5724,
+    "buffGroup": 0,
+    "type": 107,
+    "name": "クラス変化",
+    "detail": "クラスを対象と同じクラスに変更する",
+    "iconId": 406,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [
+      100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      100
+    ],
+    "script": {
+      "INDIVIDUALITIE": 100
+    },
+    "id": 5726,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "クリティカル威力アップ〔セイバー〕",
+    "detail": "自身が〔セイバー〕クラスの場合、〔セイバー〕クラスに与えるクリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [
+      102
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      102
+    ],
+    "script": {
+      "INDIVIDUALITIE": 102
+    },
+    "id": 5727,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "クリティカル威力アップ〔アーチャー〕",
+    "detail": "自身が〔アーチャー〕クラスの場合、〔アーチャー〕クラスに与えるクリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [
+      101
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      101
+    ],
+    "script": {
+      "INDIVIDUALITIE": 101
+    },
+    "id": 5728,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "クリティカル威力アップ〔ランサー〕",
+    "detail": "自身が〔ランサー〕クラスの場合、〔ランサー〕クラスに与えるクリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [
+      103
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      103
+    ],
+    "script": {
+      "INDIVIDUALITIE": 103
+    },
+    "id": 5729,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "クリティカル威力アップ〔ライダー〕",
+    "detail": "自身が〔ライダー〕クラスの場合、〔ライダー〕クラスに与えるクリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [
+      104
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      104
+    ],
+    "script": {
+      "INDIVIDUALITIE": 104
+    },
+    "id": 5730,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "クリティカル威力アップ〔キャスター〕",
+    "detail": "自身が〔キャスター〕クラスの場合、〔キャスター〕クラスに与えるクリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [
+      105
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      105
+    ],
+    "script": {
+      "INDIVIDUALITIE": 105
+    },
+    "id": 5731,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "クリティカル威力アップ〔アサシン〕",
+    "detail": "自身が〔アサシン〕クラスの場合、〔アサシン〕クラスに与えるクリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [
+      106
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      106
+    ],
+    "script": {
+      "INDIVIDUALITIE": 106
+    },
+    "id": 5732,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "クリティカル威力アップ〔バーサーカー〕",
+    "detail": "自身が〔バーサーカー〕クラスの場合、〔バーサーカー〕クラスに与えるクリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [
+      108
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      108
+    ],
+    "script": {
+      "INDIVIDUALITIE": 108
+    },
+    "id": 5733,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "クリティカル威力アップ〔ルーラー〕",
+    "detail": "自身が〔ルーラー〕クラスの場合、〔ルーラー〕クラスに与えるクリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [
+      110
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      110
+    ],
+    "script": {
+      "INDIVIDUALITIE": 110
+    },
+    "id": 5734,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "クリティカル威力アップ〔アヴェンジャー〕",
+    "detail": "自身が〔アヴェンジャー〕クラスの場合、〔アヴェンジャー〕クラスに与えるクリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [
+      115
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      115
+    ],
+    "script": {
+      "INDIVIDUALITIE": 115
+    },
+    "id": 5735,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "クリティカル威力アップ〔ムーンキャンサー〕",
+    "detail": "自身が〔ムーンキャンサー〕クラスの場合、〔ムーンキャンサー〕クラスに与えるクリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [
+      109
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      109
+    ],
+    "script": {
+      "INDIVIDUALITIE": 109
+    },
+    "id": 5736,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "クリティカル威力アップ〔アルターエゴ〕",
+    "detail": "自身が〔アルターエゴ〕クラスの場合、〔アルターエゴ〕クラスに与えるクリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [
+      117
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      117
+    ],
+    "script": {
+      "INDIVIDUALITIE": 117
+    },
+    "id": 5737,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "クリティカル威力アップ〔フォーリナー〕",
+    "detail": "自身が〔フォーリナー〕クラスの場合、〔フォーリナー〕クラスに与えるクリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [
+      120
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      120
+    ],
+    "script": {
+      "INDIVIDUALITIE": 120
+    },
+    "id": 5738,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "クリティカル威力アップ〔プリテンダー〕",
+    "detail": "自身が〔プリテンダー〕クラスの場合、〔プリテンダー〕クラスに与えるクリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5739,
+    "buffGroup": 0,
+    "type": 168,
+    "name": "ピクシー・フィンガー",
+    "detail": "ターン開始時、敵全体のQuick攻撃耐性をダウン＆クリティカル攻撃耐性をダウン",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4100
+    ],
+    "script": {},
+    "id": 5740,
+    "buffGroup": 0,
+    "type": 106,
+    "name": "クリティカル攻撃耐性ダウン",
+    "detail": "クリティカル攻撃による被ダメージ、被NP発生量、被スター発生率が増加する",
+    "iconId": 573,
+    "maxRate": 5000,
     "effectId": 0
   },
   {
@@ -119027,6 +120013,1054 @@
     "id": 94099649,
     "buffGroup": 0,
     "type": 171,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099650,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "こびりつく汚れ",
+    "detail": "通常攻撃時、中確率で対象に被ダメージプラス状態を付与",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099651,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "こびりつく汚れ",
+    "detail": "攻撃を受けると敵単体の弱体耐性をダウン",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -6026
+    },
+    "id": 94099652,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "こびりつく汚れ",
+    "detail": "全ての攻撃に対する耐性をアップ<〔お掃除対象〕状態の時、効果が無効になる>",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099653,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "積もったホコリ",
+    "detail": "通常攻撃時、中確率で対象の防御力をダウン",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099654,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "積もったホコリ",
+    "detail": "攻撃を受けると敵単体の弱体耐性をダウン",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -6026
+    },
+    "id": 94099655,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "積もったホコリ",
+    "detail": "全ての攻撃に対する耐性をアップ<〔お掃除対象〕状態の時、効果が無効になる>",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099656,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "張り巡らされた巣",
+    "detail": "通常攻撃時、中確率で対象に毒状態を付与",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099657,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "張り巡らされた巣",
+    "detail": "攻撃を受けると敵単体の弱体耐性をダウン",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -6026
+    },
+    "id": 94099658,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "張り巡らされた巣",
+    "detail": "全ての攻撃に対する耐性をアップ<〔お掃除対象〕状態の時、効果が無効になる>",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099659,
+    "buffGroup": 0,
+    "type": 17,
+    "name": "ゼムルプス棒",
+    "detail": "NP獲得量をアップ＆与えるダメージを増やす",
+    "iconId": 303,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3029
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099660,
+    "buffGroup": 0,
+    "type": 13,
+    "name": "",
+    "detail": "",
+    "iconId": 302,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3023,
+      6021,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099661,
+    "buffGroup": 700,
+    "type": 38,
+    "name": "お掃除対象",
+    "detail": "自身にターゲットを固定する",
+    "iconId": 323,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099662,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "ロウリュ",
+    "detail": "全ての攻撃に対する耐性をアップ + ターン経過後、自身の防御力をダウン【デメリット】",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6039
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099663,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099664,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "攻撃力アップ",
+    "detail": "フィールドにいる熱蒸気の数に応じて自身の攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099666,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "熱気が立ち込める……",
+    "detail": "ターン終了時、敵全体の最大HPをダウン",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {},
+    "id": 94099667,
+    "buffGroup": 0,
+    "type": 29,
+    "name": "着せ替えパーツ",
+    "detail": "弱体耐性をアップ",
+    "iconId": 306,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099668,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "調理用包丁",
+    "detail": "通常攻撃時、対象の防御力をダウン",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099669,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "おもちゃサーベル",
+    "detail": "攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099670,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "光る！　秘密結社バッヂ",
+    "detail": "クリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3060
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099671,
+    "buffGroup": 0,
+    "type": 7,
+    "name": "花盛りの舞",
+    "detail": "ターン終了時にHPが回復する",
+    "iconId": 318,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099672,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "研がれた狼爪",
+    "detail": "クリティカルの発生率をアップ",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099673,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時、対象の防御力をダウン",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099676,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "灼熱ロウリュ",
+    "detail": "全ての攻撃に対する耐性をアップ＆攻撃力アップ + ターン経過後、自身の防御力をダウン【デメリット】",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099678,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "アウフグース",
+    "detail": "自身がやられた時、敵単体の最大HPをダウン",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6039
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099679,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {},
+    "id": 94099680,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "熱気バリア",
+    "detail": "全ての攻撃に対する耐性をアップ＆弱体を受けなくなる＆被ダメージを減らす＆宝具を使用できなくなる",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099681,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099682,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099683,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "とてつもない熱気が立ち込める……",
+    "detail": "ターン終了時、敵全体の最大HPをダウン",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099699,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "死亡時発動",
+    "detail": "自身がやられた時、味方のマザーニワトリにガッツ状態を付与(他のガッツ状態と重複可能)",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099700,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、自身のチャージを最大にする＆宝具で与えるダメージをアップ",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099702,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "〔鬼〕の知識",
+    "detail": "自身がやられた時、敵単体に〔鬼の知識〕状態を付与",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94099703,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "〔鬼の知識〕状態",
+    "detail": "〔鬼〕特性を付与",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099704,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "〔妖精〕の知識",
+    "detail": "自身がやられた時、敵単体に〔妖精の知識〕状態を付与",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94099705,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "〔妖精の知識〕状態",
+    "detail": "〔妖精〕特性を付与",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      6027
+    ],
+    "tvals": [
+      -1177
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -1177
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94099706,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "防御力アップ",
+    "detail": "〔？？？〕特性を持つ対象以外に対する防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [
+      -1132
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -1132
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94099707,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "防御力アップ",
+    "detail": "〔？？？〕特性を持つ対象以外に対する防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003
+    ],
+    "script": {},
+    "id": 94099708,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "Quick攻撃を受けると自身の〔憑依〕状態を１つ解除",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      6039
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099709,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "憑依",
+    "detail": "全ての攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6039
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099710,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "憑依",
+    "detail": "毎ターンチャージを2増やす",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030,
+      6039
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099711,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "憑依",
+    "detail": "宝具で与えるダメージをアップ",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001
+    ],
+    "script": {},
+    "id": 94099712,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "Arts攻撃を受けると自身の〔憑依〕状態を１つ解除",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {},
+    "id": 94099713,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "Buster攻撃を受けると自身の〔憑依〕状態を１つ解除",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6039
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099714,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "バブル",
+    "detail": "攻撃を受けると自身の〔バブル〕状態を1つ解除＆解除成功時に自身のHPが減少する",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94099715,
+    "buffGroup": 0,
+    "type": 182,
+    "name": "バブルクラッシャー",
+    "detail": "攻撃時、自身の〔バブル〕状態を1つ解除",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94099716,
+    "buffGroup": 0,
+    "type": 63,
+    "name": "湯冷め",
+    "detail": "NP獲得量をダウン",
+    "iconId": 509,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3060,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94099717,
+    "buffGroup": 0,
+    "type": 7,
+    "name": "外気浴",
+    "detail": "ターン終了時にHPが回復する",
+    "iconId": 318,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099727,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "アツアツ蒸気",
+    "detail": "防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099728,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "超アツアツ蒸気",
+    "detail": "防御力をアップ＆攻撃力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099729,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6029
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099731,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099732,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6039
+    },
+    "id": 94099733,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "特殊耐性アップ",
+    "detail": "〔サウナストーン〕がフィールドにいる間、全ての攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6029
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099734,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099737,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94099738,
+    "buffGroup": 0,
+    "type": 40,
     "name": "",
     "detail": "",
     "iconId": 0,
