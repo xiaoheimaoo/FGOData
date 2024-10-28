@@ -480,7 +480,7 @@
     "buffGroup": 0,
     "type": 6,
     "name": "C. Star Gain Per Turn",
-    "detail": "Gain C. Stars at end of each turn",
+    "detail": "Gain C. Stars at end of turn",
     "iconId": 320,
     "maxRate": 0,
     "effectId": 0
@@ -14895,7 +14895,7 @@
     "buffGroup": 0,
     "type": 6,
     "name": "Throw/Retrieve",
-    "detail": "Gain C. Stars at end of each turn",
+    "detail": "Gain C. Stars at end of turn",
     "iconId": 320,
     "maxRate": 0,
     "effectId": 0
@@ -18579,7 +18579,7 @@
     "buffGroup": 0,
     "type": 6,
     "name": "C. Star Gain Per Turn",
-    "detail": "Gain C. Stars at end of each turn",
+    "detail": "Gain C. Stars at end of turn",
     "iconId": 320,
     "maxRate": 0,
     "effectId": 0
@@ -22326,7 +22326,7 @@
     "buffGroup": 0,
     "type": 6,
     "name": "C. Star Gain Per Turn",
-    "detail": "Gain C. Stars at end of each turn",
+    "detail": "Gain C. Stars at end of turn",
     "iconId": 320,
     "maxRate": 0,
     "effectId": 0
@@ -25684,7 +25684,7 @@
     "buffGroup": 0,
     "type": 6,
     "name": "C. Star Gain Per Turn",
-    "detail": "Gain C. Stars at end of each turn",
+    "detail": "Gain C. Stars at end of turn",
     "iconId": 320,
     "maxRate": 0,
     "effectId": 0
@@ -31581,7 +31581,7 @@
     "buffGroup": 0,
     "type": 6,
     "name": "C. Star Gain Per Turn",
-    "detail": "Gain C. Stars at end of each turn",
+    "detail": "Gain C. Stars at end of turn",
     "iconId": 320,
     "maxRate": 0,
     "effectId": 0
@@ -48168,7 +48168,7 @@
     "buffGroup": 0,
     "type": 6,
     "name": "C. Star Gain Per Turn",
-    "detail": "Gain C. Stars at end of each turn",
+    "detail": "Gain C. Stars at end of turn",
     "iconId": 320,
     "maxRate": 0,
     "effectId": 0
@@ -67259,7 +67259,7 @@
     "buffGroup": 0,
     "type": 86,
     "name": "Activate when Damaged",
-    "detail": "Decrease NP Gain for a single enemy when sustaining attack",
+    "detail": "Decrease NP Gain of a single enemy when attacked",
     "iconId": 331,
     "maxRate": 0,
     "effectId": 0
@@ -69768,6 +69768,23 @@
     "name": "Class Affinity Change",
     "detail": "Gain class advantage against Ruler-class",
     "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4776,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "Delayed Effect (C. Star Gain)",
+    "detail": "Gain C. Stars at end of turn",
+    "iconId": 331,
     "maxRate": 0,
     "effectId": 0
   },
