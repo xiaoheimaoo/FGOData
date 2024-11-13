@@ -46118,8 +46118,8 @@
     "id": 3491,
     "buffGroup": 0,
     "type": 149,
-    "name": "ガッツ時発動(NP増加)",
-    "detail": "ガッツ発動時、味方全体のNPが増える",
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、味方全体のNPを増やす",
     "iconId": 365,
     "maxRate": 0,
     "effectId": 0
@@ -53341,8 +53341,8 @@
     "id": 3892,
     "buffGroup": 0,
     "type": 149,
-    "name": "ガッツ時発動(NP増加)",
-    "detail": "ガッツ発動時、自身のNPが増える",
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、自身のNPを増やす",
     "iconId": 365,
     "maxRate": 0,
     "effectId": 0
@@ -82852,6 +82852,36 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5698,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "スーパー・ドゥーパー・クラフター",
+    "detail": "『ぶち壊せ！ ミステリーハウス・クラフターズ』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5699,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ",
+    "detail": "『ぶち壊せ！ ミステリーハウス・クラフターズ』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004,
       3006,
@@ -83805,6 +83835,289 @@
     "detail": "クリティカル攻撃による被ダメージ、被NP発生量、被スター発生率が増加する",
     "iconId": 573,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [
+      1002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      1002
+    ],
+    "script": {},
+    "id": 5742,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "防御力アップ〔死霊〕",
+    "detail": "〔死霊〕特性に対する防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3110
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3110
+    ],
+    "script": {},
+    "id": 5744,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "防御力ダウン無効",
+    "detail": "防御力ダウン効果を受けなくなる",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      3026
+    ],
+    "ckSelfIndv": [
+      3026
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5745,
+    "buffGroup": 0,
+    "type": 27,
+    "name": "呪い付与アップ",
+    "detail": "呪い付与率をアップ",
+    "iconId": 307,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5746,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "死亡時発動",
+    "detail": "死亡時、スターを大量獲得",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5747,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、スターを大量獲得",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5748,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、対象に呪い状態を付与",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3083
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 5749,
+    "buffGroup": 0,
+    "type": 3,
+    "name": "スター発生アップ：Buster",
+    "detail": "Buster攻撃のスター発生率をアップ",
+    "iconId": 321,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5750,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "クリティカル発生アップ",
+    "detail": "〔都市〕のフィールドにおいてのみ、クリティカルの発生率をアップ",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3079,
+      2392
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5751,
+    "buffGroup": 0,
+    "type": 10001,
+    "name": "フィールド変化〔都市〕",
+    "detail": "フィールドを〔都市〕状態にする",
+    "iconId": 407,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3014,
+      3045
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 5752,
+    "buffGroup": 500,
+    "type": 32,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5754,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、味方全体のNPを少し増やす",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5755,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "死亡時発動",
+    "detail": "死亡時、味方全体のNPを少し増やす",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5756,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "死亡時発動",
+    "detail": "死亡時、味方単体のクリティカル発生率をアップ",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5757,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、自身のクリティカル発生率をアップ",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5758,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "死亡時発動",
+    "detail": "自身がやられた時、味方全体のNPを増やす",
+    "iconId": 350,
+    "maxRate": 0,
     "effectId": 0
   },
   {
@@ -124837,6 +125150,45 @@
     "name": "海神の権能（古）",
     "detail": "攻撃時、対象の防御強化状態を1つ解除",
     "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136601,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6036
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136602,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
     "maxRate": 0,
     "effectId": 0
   }
