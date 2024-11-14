@@ -125191,5 +125191,337 @@
     "iconId": 0,
     "maxRate": 0,
     "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3033
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136603,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "霊基不調",
+    "detail": "攻撃力をダウン＆宝具威力をダウン",
+    "iconId": 503,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136604,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "全ての道はローマに通ず",
+    "detail": "攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136605,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "死霊の隠れ家",
+    "detail": "自身がフィールドにいる間、自身を除く味方全体の攻撃力をアップ＋味方全体の防御力をアップ",
+    "iconId": 300,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136606,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "炎上鉄壁",
+    "detail": "防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136607,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "素晴らしき桃源郷",
+    "detail": "クリティカルの発生率をアップ",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136608,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "誘爆ボディ",
+    "detail": "攻撃を受けた時、自身のチャージを増やす",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3085,
+      3040
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003
+    ],
+    "script": {},
+    "id": 94136674,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "魔力の壁：Quick",
+    "detail": "Quickカードの攻撃による被ダメージを減らす",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3085,
+      3040
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001
+    ],
+    "script": {},
+    "id": 94136675,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "魔力の壁：Arts",
+    "detail": "Artsカードの攻撃による被ダメージを減らす",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3085,
+      3040
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {},
+    "id": 94136676,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "魔力の壁：Buster",
+    "detail": "Busterカードの攻撃による被ダメージを減らす",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4003
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94136677,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "魔力の障壁",
+    "detail": "Quick以外の攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4001
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94136678,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "魔力の障壁",
+    "detail": "Arts以外の攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4002
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94136679,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "魔力の障壁",
+    "detail": "Buster以外の攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94136680,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "クイック強化の記述（銅）",
+    "detail": "敵を倒した時、味方全体<控え含む>のQuickカード性能をアップ",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94136681,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "アーツ強化の記述（銅）",
+    "detail": "敵を倒した時、味方全体<控え含む>のArtsカード性能をアップ",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94136682,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "バスター強化の記述（銅）",
+    "detail": "敵を倒した時、味方全体<控え含む>のBusterカード性能をアップ",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3033
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136705,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "「ううむ、霊基不調だな！」",
+    "detail": "攻撃力をダウン＆宝具威力をダウン",
+    "iconId": 503,
+    "maxRate": 5000,
+    "effectId": 0
   }
 ]
