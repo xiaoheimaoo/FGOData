@@ -84037,6 +84037,27 @@
   },
   {
     "vals": [
+      3005,
+      3008,
+      3038
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "missText": "クリティカル MISS"
+    },
+    "id": 5753,
+    "buffGroup": 0,
+    "type": 71,
+    "name": "",
+    "detail": "",
+    "iconId": 523,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004
     ],
     "tvals": [],
@@ -125303,6 +125324,65 @@
   },
   {
     "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136609,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "攻撃を受けた時、敵単体に呪い状態を付与<1ターンに1回だけ発動>",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136610,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "最先端の技術（魔改造）",
+    "detail": "クリティカル時のダメージをアップ＆クリティカルの発生率をダウン【デメリット】",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      3026
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3026
+    ],
+    "script": {},
+    "id": 94136611,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "弱り目に祟り目",
+    "detail": "〔呪い〕状態の敵に与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3007,
       3085,
@@ -125501,6 +125581,255 @@
     "type": 90,
     "name": "バスター強化の記述（銅）",
     "detail": "敵を倒した時、味方全体<控え含む>のBusterカード性能をアップ",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3085,
+      3040
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4100
+    ],
+    "script": {},
+    "id": 94136683,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "魔力の壁：クリティカル",
+    "detail": "クリティカル攻撃による被ダメージを減らす",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3085,
+      3040
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94136684,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "魔力の壁：宝具",
+    "detail": "宝具攻撃による被ダメージを減らす",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3085,
+      3040
+    ],
+    "tvals": [
+      5000,
+      4004
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4004
+    ],
+    "script": {},
+    "id": 94136685,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "魔力の壁：Extra Attack",
+    "detail": "Extra Attackによる被ダメージを減らす",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4100
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94136686,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "魔力の障壁",
+    "detail": "クリティカル以外の攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4007
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94136687,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "魔力の障壁",
+    "detail": "宝具以外の攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -4004
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4004
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94136688,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "魔力の障壁",
+    "detail": "Extra Attack以外の攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94136689,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "クリティカル強化の記述（銀）",
+    "detail": "敵を倒した時、味方全体<控え含む>のクリティカル威力をアップ＋スターを獲得",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94136690,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "宝具強化の記述（銀）",
+    "detail": "敵を倒した時、味方全体<控え含む>の宝具威力をアップ＆NPを少し増やす",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94136691,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "追撃強化の記述（銀）",
+    "detail": "敵を倒した時、味方全体<控え含む>のExtra Attackカード性能をアップ＆攻撃の威力をアップ",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -4007,
+      -4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4007,
+      -4001
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94136692,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "魔力の障壁",
+    "detail": "Artsと宝具以外の攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94136693,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "アーツと宝具強化の記述（金）",
+    "detail": "敵を倒した時、味方全体<控え含む>のArtsカード性能をアップ＆宝具威力をアップ＆NPを少し増やす",
     "iconId": 342,
     "maxRate": 0,
     "effectId": 0
