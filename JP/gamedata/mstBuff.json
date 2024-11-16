@@ -125383,6 +125383,119 @@
   },
   {
     "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136613,
+    "buffGroup": 0,
+    "type": 167,
+    "name": "フレイムボディ",
+    "detail": "やけどによるダメージをHP回復効果に変換する",
+    "iconId": 374,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136614,
+    "buffGroup": 200,
+    "type": 24,
+    "name": "隠密",
+    "detail": "攻撃によるダメージを0にする",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136618,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、対象に呪い状態を付与",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3015
+    },
+    "id": 94136619,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "防御力アップ",
+    "detail": "やけど状態の時、自身の防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136623,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "神仙合体！",
+    "detail": "全ての攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136673,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "攻撃力アップ",
+    "detail": "攻撃力をアップ<毎ターン徐々に効果量アップ>",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3007,
       3085,
@@ -125836,6 +125949,25 @@
   },
   {
     "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136694,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "神仙合体！",
+    "detail": "宝具で与えるダメージをアップ",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3005,
       3008,
       3033
@@ -125851,6 +125983,152 @@
     "detail": "攻撃力をダウン＆宝具威力をダウン",
     "iconId": 503,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -4007,
+      -4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4007,
+      -4003
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94136709,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "魔力の障壁",
+    "detail": "Quickと宝具以外の攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94136710,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "クイックと宝具強化の記述（金）",
+    "detail": "敵を倒した時、味方全体<控え含む>のQuickカード性能をアップ＆宝具威力をアップ＆NPを少し増やす",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136711,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "魔力の障壁",
+    "detail": "全ての攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94136712,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "炎の記述（銀）",
+    "detail": "敵を倒した時、霊障石にやけど状態を付与",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -4100,
+      -4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4100,
+      -4002
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94136713,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "魔力の障壁",
+    "detail": "Busterとクリティカル以外の攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94136714,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "バスターとクリティカル強化の記述（金）",
+    "detail": "敵を倒した時、味方全体<控え含む>のBusterカード性能をアップ＆クリティカル威力をアップ＋スターを獲得",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94136715,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "呪いの記述（銀）",
+    "detail": "敵を倒した時、霊障石に呪い状態を付与",
+    "iconId": 342,
+    "maxRate": 0,
     "effectId": 0
   }
 ]
