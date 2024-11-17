@@ -125420,6 +125420,77 @@
   },
   {
     "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      3049
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3049
+    ],
+    "script": {},
+    "id": 94136615,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "咲き誇る狂気",
+    "detail": "〔恐怖〕状態の敵に与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -6010
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94136616,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "巨木",
+    "detail": "ポール・バニヤン(NPC)以外からの攻撃に対する耐性をアップ＆毒・呪い・やけど効果を受けなくなる",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3011,
+      3015,
+      3026
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3011,
+      3015,
+      3026
+    ],
+    "script": {},
+    "id": 94136617,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004
     ],
     "tvals": [],
@@ -125459,6 +125530,44 @@
   },
   {
     "vals": [
+      3005,
+      3008,
+      3033
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136620,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "スランプ",
+    "detail": "攻撃力をダウン",
+    "iconId": 503,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      6039
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136621,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "人海戦術",
+    "detail": "全ての攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3016
     ],
@@ -125473,6 +125582,40 @@
     "detail": "全ての攻撃に対する耐性をアップ",
     "iconId": 334,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136632,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "バニヤンを応援",
+    "detail": "通常攻撃時、対象の防御力をダウン＋ポール・バニヤン(NPC)の攻撃力をアップ",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6021
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136633,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
     "effectId": 0
   },
   {
@@ -125988,6 +126131,30 @@
   {
     "vals": [
       3004,
+      3007,
+      3085,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -6010
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94136706,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "",
+    "detail": "",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
       3016
     ],
     "tvals": [
@@ -126127,6 +126294,141 @@
     "type": 90,
     "name": "呪いの記述（銀）",
     "detail": "敵を倒した時、霊障石に呪い状態を付与",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -4100,
+      -4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4100,
+      -4001
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94136716,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "魔力の障壁",
+    "detail": "Artsとクリティカル以外の攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94136717,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "アーツとクリティカル強化の記述（金）",
+    "detail": "敵を倒した時、味方全体<控え含む>のArtsカード性能をアップ＆クリティカル威力をアップ＋スターを獲得",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -4007,
+      -4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4007,
+      -4002
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94136718,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "魔力の障壁",
+    "detail": "Busterと宝具以外の攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94136719,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "バスターと宝具強化の記述（金）",
+    "detail": "敵を倒した時、味方全体<控え含む>のBusterカード性能をアップ＆宝具威力をアップ＆NPを少し増やす",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -4100,
+      -4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4100,
+      -4003
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94136720,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "魔力の障壁",
+    "detail": "Quickとクリティカル以外の攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94136721,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "クイックとクリティカル強化の記述（金）",
+    "detail": "敵を倒した時、味方全体<控え含む>のQuickカード性能をアップ＆クリティカル威力をアップ＋スターを獲得",
     "iconId": 342,
     "maxRate": 0,
     "effectId": 0
