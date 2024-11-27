@@ -83883,6 +83883,30 @@
   {
     "vals": [
       3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [
+      2004
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2004
+    ],
+    "script": {},
+    "id": 5743,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "防御力アップ〔ローマ〕",
+    "detail": "〔ローマ〕特性に対する防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
       3061
     ],
     "tvals": [
@@ -84201,6 +84225,40 @@
     "name": "Quick攻撃時追加効果",
     "detail": "Quick攻撃時、自身の呪い状態を1つ解除＆解除に成功した場合、自身の攻撃力を少しアップ＆チャージを増やす",
     "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5764,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、味方全体のNPを増やす",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5765,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、味方全体のチャージを増やす",
+    "iconId": 365,
     "maxRate": 0,
     "effectId": 0
   },
@@ -128017,6 +128075,57 @@
     "name": "",
     "detail": "",
     "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94137900,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94137902,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "クリティカル発生アップ",
+    "detail": "HPが少ないほどクリティカルの発生率をアップ",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94137908,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "特性付与〔ローマ〕",
+    "detail": "〔ローマ〕特性を付与する",
+    "iconId": 360,
     "maxRate": 0,
     "effectId": 0
   }
