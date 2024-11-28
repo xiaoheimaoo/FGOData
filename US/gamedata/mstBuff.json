@@ -70190,6 +70190,429 @@
   },
   {
     "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      303
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      303
+    ],
+    "script": {},
+    "id": 4754,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Elimination of Good",
+    "detail": "Increase damage dealt against [Good]",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -3012
+    },
+    "id": 4755,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Tribe's Honor",
+    "detail": "Gain resistance to all attacks & increase Death Resist <effect is nullified if [Charmed]>",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      2
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2
+    ],
+    "script": {},
+    "id": 4756,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Love Hunter",
+    "detail": "Increase damage dealt against [Females] & increase Charm Resist & increase Charge to MAX for yourself when defeating [Females]",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      2
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2
+    ],
+    "script": {},
+    "id": 4757,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "",
+    "detail": "",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4758,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "Delayed Effect (Debuff)",
+    "detail": "Apply a state that decreases NP Gauge at the end of the turn & decrease NP Strength at the end of turn ",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4759,
+    "buffGroup": 0,
+    "type": 107,
+    "name": "Unreasonable Contract",
+    "detail": "Change Class Affinity to [Assassin] (treated as Debuff)",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4760,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Death Contract",
+    "detail": "After 3 turns...",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3036,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4761,
+    "buffGroup": 0,
+    "type": 16,
+    "name": "NP Strength Down",
+    "detail": "Decrease NP damage",
+    "iconId": 508,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4762,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Apply Trait (Good)",
+    "detail": "Apply [Good] trait (treated as Debuff)",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6039
+    },
+    "id": 4763,
+    "buffGroup": 9999,
+    "type": 62,
+    "name": "Parched Land",
+    "detail": "When the field is a Wasteland, NP Gauge decreases at the end of turn",
+    "iconId": 519,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      3006
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3006
+    ],
+    "script": {
+      "INDIVIDUALITIE": 6040
+    },
+    "id": 4764,
+    "buffGroup": 9998,
+    "type": 31,
+    "name": "Dark Water",
+    "detail": "When the field is Underwater, immune to ATK Buff",
+    "iconId": 531,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6041
+    },
+    "id": 4765,
+    "buffGroup": 9997,
+    "type": 8,
+    "name": "Pyroclastic Bullet",
+    "detail": "When the field is Lava, your HP decreases at the end of each turn",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3020
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6042
+    },
+    "id": 4766,
+    "buffGroup": 9996,
+    "type": 34,
+    "name": "Gospel of Heaven",
+    "detail": "When the field is Heaven, cannot use NP",
+    "iconId": 512,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6039
+    },
+    "id": 4767,
+    "buffGroup": 9995,
+    "type": 9,
+    "name": "Essence of the Battlefield, Wasteland",
+    "detail": "When the field is a Wasteland, increase ATK",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6040
+    },
+    "id": 4768,
+    "buffGroup": 9994,
+    "type": 24,
+    "name": "Essence of the Battlefield, Underwater",
+    "detail": "When the field is Underwater, chance to reduce attack damage taken to 0",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6041
+    },
+    "id": 4769,
+    "buffGroup": 9993,
+    "type": 89,
+    "name": "Essence of the Battlefield, Lava",
+    "detail": "When the field is Lava, inflict Burn to a single enemy during your normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3060
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6042
+    },
+    "id": 4770,
+    "buffGroup": 9992,
+    "type": 7,
+    "name": "Essence of the Battlefield, High Heaven",
+    "detail": "When the field is Heaven, recover HP at the end of turn",
+    "iconId": 318,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030,
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4771,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "NP Strength Up",
+    "detail": "Increase NP damage",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -3012
+    },
+    "id": 4772,
+    "buffGroup": 0,
+    "type": 74,
+    "name": "",
+    "detail": "",
+    "iconId": 306,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2,
+      2356
+    ],
+    "script": {},
+    "id": 4773,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3012
+    },
+    "id": 4774,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4775,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "Charge Plus Each Turn",
+    "detail": "Increase Charge by 2 each turn",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004
     ],
     "tvals": [],
