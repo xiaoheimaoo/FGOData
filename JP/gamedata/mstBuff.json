@@ -74684,7 +74684,7 @@
     "buffGroup": 0,
     "type": 149,
     "name": "ガッツ時発動",
-    "detail": "ガッツ発動時、宝具で与えるダメージをアップ",
+    "detail": "ガッツ発動時、自身の宝具威力をアップ",
     "iconId": 365,
     "maxRate": 0,
     "effectId": 0
@@ -84258,6 +84258,61 @@
     "type": 149,
     "name": "ガッツ時発動",
     "detail": "ガッツ発動時、味方全体のチャージを増やす",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024,
+      2941
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -3086
+    },
+    "id": 5766,
+    "buffGroup": 0,
+    "type": 37,
+    "name": "ガッツ<高確率>",
+    "detail": "HPが0になった時、高確率でHPを回復して耐える(他の確率発動でないガッツ状態と重複可能)",
+    "iconId": 304,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5767,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "攻撃を受けると自身のクリティカル威力をアップ",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5768,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、味方全体の宝具威力をアップ",
     "iconId": 365,
     "maxRate": 0,
     "effectId": 0
