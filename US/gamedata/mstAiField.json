@@ -64276,11 +64276,9 @@
     "infoText": ""
   },
   {
-    "vals": [
-      1
-    ],
+    "vals": [],
     "avals": [
-      0,
+      94055752,
       0
     ],
     "script": {},
@@ -64288,9 +64286,9 @@
     "idx": 1,
     "actNum": -1,
     "timing": 2,
-    "priority": 100,
+    "priority": 1,
     "probability": 100,
-    "cond": 86,
+    "cond": 0,
     "aiActId": 94056015,
     "infoText": ""
   },
@@ -64301,8 +64299,8 @@
       0
     ],
     "script": {},
-    "id": 94055751,
-    "idx": 2,
+    "id": 94055752,
+    "idx": 1,
     "actNum": -1,
     "timing": 2,
     "priority": 1,
@@ -64649,7 +64647,9 @@
       94055777,
       0
     ],
-    "script": {},
+    "script": {
+      "includeUnsubState": 1
+    },
     "id": 94055776,
     "idx": 1,
     "actNum": -1,
