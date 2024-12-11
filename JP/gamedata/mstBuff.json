@@ -83857,6 +83857,21 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5741,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "ノエル・エトワール",
+    "detail": "『ポホヨラのクリスマス・イブ』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004,
       3007,
@@ -84314,6 +84329,96 @@
     "name": "ガッツ時発動",
     "detail": "ガッツ発動時、味方全体の宝具威力をアップ",
     "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5772,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "毎ターンチャージプラス",
+    "detail": "毎ターンチャージを3増やす",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 5773,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "宝具威力アップ",
+    "detail": "〔暗闇〕のフィールドにおいてのみ、宝具で与えるダメージをアップ",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3079,
+      2884
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5774,
+    "buffGroup": 0,
+    "type": 10001,
+    "name": "フィールド変化〔暗闇〕",
+    "detail": "フィールドを〔暗闇〕状態にする",
+    "iconId": 412,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5775,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "毎ターンチャージプラス",
+    "detail": "毎ターンチャージを4増やす",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5776,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "毎ターンチャージプラス",
+    "detail": "毎ターンチャージを最大まで増やす",
+    "iconId": 319,
     "maxRate": 0,
     "effectId": 0
   },
@@ -128278,6 +128383,99 @@
     "detail": "〔ローマ〕特性を付与する",
     "iconId": 360,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94138501,
+    "buffGroup": 0,
+    "type": 168,
+    "name": "聖夜のバレリーナ",
+    "detail": "ターン開始時、自身のクリティカル威力をアップ＋スターを獲得＋味方全体のNPを少し増やす",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94138502,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "荒ぶるケモノ？",
+    "detail": "攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94138503,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "荒ぶる魔物",
+    "detail": "攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94138504,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "近距離・超パワータイプ",
+    "detail": "攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94138505,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "近距離・パワータイプ",
+    "detail": "攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
     "effectId": 0
   }
 ]
