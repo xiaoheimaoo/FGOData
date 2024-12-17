@@ -84334,6 +84334,23 @@
   },
   {
     "vals": [
+      2942
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5769,
+    "buffGroup": 0,
+    "type": 169,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004
     ],
     "tvals": [],
@@ -128596,6 +128613,1015 @@
     "detail": "HPが0になった時、HPを回復して耐える",
     "iconId": 304,
     "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94138600,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "チャージバッテリー（小）",
+    "detail": "自身がやられた時、マスタースキルのチャージを2進める＋敵全体のHPを回復",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94138601,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "チャージバッテリー（中）",
+    "detail": "自身がやられた時、マスタースキルのチャージを3進める＋敵全体のHPを回復",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6039
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94138602,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "チャージバッテリー（大）",
+    "detail": "自身がやられた時、マスタースキルのチャージを5進める＋敵全体のHPを回復",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94138609,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "中距離・スピード型おもちゃ",
+    "detail": "ターン経過後、戦闘から逃げ出す",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94138610,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "遠距離・ブラスト型おもちゃ",
+    "detail": "ターン経過後、自身の〔デンジャーボム〕を解除して自爆する＆エネミー側全体にダメージ",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6043
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94138611,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "デンジャーボム",
+    "detail": "自身がやられた時、爆発してプレイヤー側全体にダメージ＆HP回復量をダウン",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94138612,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "近距離・超ディフェンス型おもちゃ",
+    "detail": "防御力をアップ＆自身がフィールドにいる間、自身を除く味方全体の防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94138613,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "",
+    "detail": "",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      6041
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 600
+    },
+    "id": 94138614,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "あんしんセキュリティ",
+    "detail": "全ての攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3022
+    },
+    "id": 94138615,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "攻撃力アップ〔無敵〕",
+    "detail": "自身が〔無敵〕状態の間、攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94138616,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "セキュリティ解除キー",
+    "detail": "自身がやられた時、〔ファクトリーコア〕の〔あんしんセキュリティ〕を解除",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3060
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94138617,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "防衛塔",
+    "detail": "ターン終了時、自身を除く味方全体のHPを回復＋控えにいる味方全体のHPをさらに回復＆弱体状態を解除＆スキルチャージを3進める",
+    "iconId": 318,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94138618,
+    "buffGroup": 0,
+    "type": 141,
+    "name": "防衛塔",
+    "detail": "オーダーチェンジを使用できなくなる",
+    "iconId": 554,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94138619,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "ターン終了時、自身のHPが減少する",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94138620,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "ヤヤウキサービスデー",
+    "detail": "ターン終了時、自身に無敵状態を付与＋味方全体の攻撃力・防御力をアップ",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 180
+    },
+    "id": 94138621,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "近距離・アタック型おもちゃ",
+    "detail": "〔フォーリナー〕クラスに対する防御不利相性がより大きくなる",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94138622,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "遠距離・スナイプ型おもちゃ",
+    "detail": "宝具で与えるダメージをアップ",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94138623,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "遠距離・超スナイプ型おもちゃ",
+    "detail": "宝具で与えるダメージをアップ",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94138624,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "中距離・アタック型おもちゃ",
+    "detail": "攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94138625,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "中距離・超アタック型おもちゃ",
+    "detail": "攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94138626,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "中距離・アタック型おもちゃ",
+    "detail": "防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94138627,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "中距離・超アタック型おもちゃ",
+    "detail": "防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 180
+    },
+    "id": 94138628,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "近距離・超アタック型おもちゃ",
+    "detail": "〔フォーリナー〕クラスに対する防御不利相性がより大きくなる",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 178
+    },
+    "id": 94138629,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "近距離・アタック型おもちゃ",
+    "detail": "〔アサシン〕〔アルターエゴ〕クラスに対する防御不利相性がより大きくなる",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 175
+    },
+    "id": 94138630,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "近距離・アタック型おもちゃ",
+    "detail": "〔アーチャー〕〔プリテンダー〕クラスに対する防御不利相性がより大きくなる",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 176
+    },
+    "id": 94138631,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "遠距離・スナイプ型おもちゃ",
+    "detail": "〔ランサー〕〔プリテンダー〕クラスに対する防御不利相性がより大きくなる",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 176
+    },
+    "id": 94138632,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "遠距離・超スナイプ型おもちゃ",
+    "detail": "〔ランサー〕〔プリテンダー〕クラスに対する防御不利相性がより大きくなる",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 177
+    },
+    "id": 94138633,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "中距離・アタック型おもちゃ",
+    "detail": "〔セイバー〕〔プリテンダー〕クラスに対する防御不利相性がより大きくなる",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 177
+    },
+    "id": 94138634,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "中距離・超アタック型おもちゃ",
+    "detail": "〔セイバー〕〔プリテンダー〕クラスに対する防御不利相性がより大きくなる",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 179
+    },
+    "id": 94138635,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "中距離・スピード型おもちゃ",
+    "detail": "〔キャスター〕〔アルターエゴ〕クラスに対する防御不利相性がより大きくなる",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 181
+    },
+    "id": 94138636,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "遠距離・ブラスト型おもちゃ",
+    "detail": "〔ムーンキャンサー〕クラスに対する防御不利相性がより大きくなる",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 177
+    },
+    "id": 94138637,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "近距離・超ディフェンス型おもちゃ",
+    "detail": "〔セイバー〕〔プリテンダー〕クラスに対する防御不利相性がより大きくなる",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94138638,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94138639,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "近距離・アタック型おもちゃ",
+    "detail": "攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94138640,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "近距離・超アタック型おもちゃ",
+    "detail": "攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94138641,
+    "buffGroup": 0,
+    "type": 142,
+    "name": "",
+    "detail": "",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94138642,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "ヤヤウキサービスデー",
+    "detail": "ターン終了時、特別なクーポンをプレゼント！",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94138643,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "“Poca”クーポン",
+    "detail": "攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94138644,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "ゴールド“Poca”クーポン",
+    "detail": "攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94138645,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "ゴールド“Poca”クーポン",
+    "detail": "クリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94138646,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "ゴールド“Poca”クーポン",
+    "detail": "宝具で与えるダメージをアップ",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6041
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 600
+    },
+    "id": 94138647,
+    "buffGroup": 0,
+    "type": 167,
+    "name": "あんしんセキュリティ",
+    "detail": "毒によるダメージをHP回復効果に変換する",
+    "iconId": 373,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6041
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 600
+    },
+    "id": 94138648,
+    "buffGroup": 0,
+    "type": 167,
+    "name": "あんしんセキュリティ",
+    "detail": "やけどによるダメージをHP回復効果に変換する",
+    "iconId": 374,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6041
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 600
+    },
+    "id": 94138649,
+    "buffGroup": 0,
+    "type": 167,
+    "name": "あんしんセキュリティ",
+    "detail": "呪いによるダメージをHP回復効果に変換する",
+    "iconId": 375,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94138650,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "近距離・アタック型おもちゃ",
+    "detail": "通常攻撃時、対象の攻撃力をダウン",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94138651,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "中距離・アタック型おもちゃ",
+    "detail": "通常攻撃時、対象の防御力をダウン",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94138652,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "中距離・超アタック型おもちゃ",
+    "detail": "通常攻撃時、対象の防御力をダウン",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 600
+    },
+    "id": 94138653,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "セキュリティホール",
+    "detail": "ターン終了時、全ての攻撃に対する耐性をダウン",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {},
+    "id": 94138654,
+    "buffGroup": 0,
+    "type": 29,
+    "name": "防衛塔",
+    "detail": "弱体耐性をアップ",
+    "iconId": 306,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3023
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94138655,
+    "buffGroup": 700,
+    "type": 38,
+    "name": "ヤヤウキサービスデー",
+    "detail": "自身にターゲットを固定する",
+    "iconId": 323,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3017
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 500
+    },
+    "id": 94138656,
+    "buffGroup": 0,
+    "type": 92,
+    "name": "特殊耐性ダウン",
+    "detail": "全ての攻撃に対する耐性をダウン",
+    "iconId": 529,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3036
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94138657,
+    "buffGroup": 0,
+    "type": 16,
+    "name": "ヤヤウキサービスデー",
+    "detail": "宝具で与えるダメージをダウン",
+    "iconId": 508,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3014,
+      3045
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94138658,
+    "buffGroup": 0,
+    "type": 32,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3070
+    ],
+    "tvals": [
+      3004
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3004
+    ],
+    "script": {
+      "DisplayPriority": 600
+    },
+    "id": 94138659,
+    "buffGroup": 1000,
+    "type": 31,
+    "name": "セキュリティホール",
+    "detail": "強化を受けなくなる",
+    "iconId": 531,
+    "maxRate": 0,
     "effectId": 0
   }
 ]
