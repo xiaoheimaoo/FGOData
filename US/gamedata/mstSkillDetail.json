@@ -1945,6 +1945,11 @@
     "detailShort": "Chance to gain C. Stars each turn [{0}] (5 turns) [g][o]▲[/o][/g] & chance to increase C. Star Drop Rate [{0}] (5 turns) [g][o]▲[/o][/g] & chance to increase Critical Strength [{0}] (5 turns) [g][o]▲[/o][/g] & increase NP Gauge [{0}] [g][o]▲[/o][/g] for yourself"
   },
   {
+    "id": 169252,
+    "detail": "Increase the amount of NP you gain when damaged + Decrease Debuff Resist for all allies (including sub-members) except yourself [Demerit]",
+    "detailShort": "Increase the amount of NP you gain when damaged + Decrease Debuff Resist for all allies (including sub-members) except yourself [Demerit]"
+  },
+  {
     "id": 169350,
     "detail": "Increase the amount of NP you gain when damaged + Decrease Debuff Resist for all allies (including sub-members) except yourself [Demerit]",
     "detailShort": "Increase the amount of NP you gain when damaged + Decrease Debuff Resist for all allies (including sub-members) except yourself [Demerit]"
@@ -8473,6 +8478,51 @@
     "id": 968341,
     "detail": "Apply Invincible to all allies (3 times, 3 turns)",
     "detailShort": "Apply Invincible to all allies (3 times, 3 turns)"
+  },
+  {
+    "id": 969851,
+    "detail": "Reduce Skill cooldown by 2 for yourself + Apply a state where a Command Card becomes unselectable for all allies <no effect when only 1 Servant on field> (1 time, 1 turn) excluding yourself + Redistribute Command Cards + Gain C. Stars + Inflict NP Seal (1 turn) & decrease HP Recovery amount (1 turn) to all enemies",
+    "detailShort": "Reduce Skill cooldown by 2 for yourself + Apply a state where a Command Card becomes unselectable for all allies <no effect when only 1 Servant on field> (1 time, 1 turn) excluding yourself + Redistribute Command Cards + Gain C. Stars + Inflict NP Seal (1 turn) & decrease HP Recovery amount (1 turn) to all enemies"
+  },
+  {
+    "id": 969852,
+    "detail": "Inflict Burn (3 turns) to all enemies + Set NP Gauge to MAX & randomly decrease HP [Demerit] for yourself",
+    "detailShort": "Inflict Burn (3 turns) to all enemies + Set NP Gauge to MAX & randomly decrease HP [Demerit] for yourself"
+  },
+  {
+    "id": 969853,
+    "detail": "[Usable only when your NP Gauge is 100% or higher] Set NP Gauge to 0% [Demerit] for yourself + Apply Ignore Invincible (3 turns) & increase Buster Card effectiveness (3 turns) & increase Critical Strength (3 turns) & increase NP Gain (3 turns) for all allies",
+    "detailShort": "[Usable only when your NP Gauge is 100% or higher] Set NP Gauge to 0% [Demerit] for yourself + Apply Ignore Invincible (3 turns) & increase Buster Card effectiveness (3 turns) & increase Critical Strength (3 turns) & increase NP Gain (3 turns) for all allies"
+  },
+  {
+    "id": 970041,
+    "detail": "Apply Evade to one ally (3 times, 3 turns)",
+    "detailShort": "Apply Evade to one ally (3 times, 3 turns)"
+  },
+  {
+    "id": 970042,
+    "detail": "Apply Sure Hit to all allies (3 turns)",
+    "detailShort": "Apply Sure Hit to all allies (3 turns)"
+  },
+  {
+    "id": 970043,
+    "detail": "Inflict Skill Seal (1 turn) & NP Seal (1 turn) for one enemy",
+    "detailShort": "Inflict Skill Seal (1 turn) & NP Seal (1 turn) for one enemy"
+  },
+  {
+    "id": 970051,
+    "detail": "Reduce Skill cooldown by 2 for yourself + Apply a state where a Command Card becomes unselectable for all allies <no effect when only 1 Servant on field> (1 time, 1 turn) excluding yourself + Redistribute Command Cards + Gain C. Stars + Inflict NP Seal (1 turn) & decrease HP Recovery amount (1 turn) to all enemies",
+    "detailShort": "Reduce Skill cooldown by 2 for yourself + Apply a state where a Command Card becomes unselectable for all allies <no effect when only 1 Servant on field> (1 time, 1 turn) excluding yourself + Redistribute Command Cards + Gain C. Stars + Inflict NP Seal (1 turn) & decrease HP Recovery amount (1 turn) to all enemies"
+  },
+  {
+    "id": 970052,
+    "detail": "Inflict Burn (3 turns) to all enemies + Set NP Gauge to MAX & randomly decrease HP [Demerit] for yourself",
+    "detailShort": "Inflict Burn (3 turns) to all enemies + Set NP Gauge to MAX & randomly decrease HP [Demerit] for yourself"
+  },
+  {
+    "id": 970053,
+    "detail": "[Usable only when your NP Gauge is 100% or higher] Set NP Gauge to 0% [Demerit] for yourself + Apply Ignore Invincible (3 turns) & increase Buster Card effectiveness (3 turns) & Critical Strength (3 turns) & NP Gain (3 turns) for all allies",
+    "detailShort": "[Usable only when your NP Gauge is 100% or higher] Set NP Gauge to 0% [Demerit] for yourself + Apply Ignore Invincible (3 turns) & increase Buster Card effectiveness (3 turns) & Critical Strength (3 turns) & NP Gain (3 turns) for all allies"
   },
   {
     "id": 980001,
@@ -17946,8 +17996,8 @@
   },
   {
     "id": 991992,
-    "detail": "Gain 2 C. Star each turn & increase your Buster Card effectiveness by 5% [MAX]",
-    "detailShort": "Gain 2 C. Star each turn & increase your Buster Card effectiveness by 5% [MAX]"
+    "detail": "Gain 2 C. Stars each turn & increase your Buster Card effectiveness by 5% [MAX]",
+    "detailShort": "Gain 2 C. Stars each turn & increase your Buster Card effectiveness by 5% [MAX]"
   },
   {
     "id": 991993,
@@ -24780,6 +24830,11 @@
     "detailShort": "When a quest is completed, increase the amount of Mystic Code EXP gained by 50"
   },
   {
+    "id": 993490,
+    "detail": "Increase all allies' Death Success Rate by 10% & Arts Card effectiveness by 10% only if [servantName 1101500] (Avenger) is equipped with this Craft Essence when she is on the field",
+    "detailShort": "Increase all allies' Death Success Rate by 10% & Arts Card effectiveness by 10% only if [servantName 1101500] (Avenger) is equipped with this Craft Essence when she is on the field"
+  },
+  {
     "id": 993694,
     "detail": "Increase the amount of Master EXP gained by 50 when a quest is cleared",
     "detailShort": "Increase the amount of Master EXP gained by 50 when a quest is cleared"
@@ -25628,6 +25683,36 @@
     "id": 2161551,
     "detail": "Increase NP Gain [{0}] (3 turns) & increase NP Gauge [{0}] [g][o]▲[/o][/g] & apply \"a state that removes one Buff for one enemy during Critical Attacks\" (3 turns) [g][o]▲[/o][/g] for yourself ",
     "detailShort": "Increase NP Gain [{0}] (3 turns) & increase NP Gauge [{0}] [g][o]▲[/o][/g] & apply \"a state that removes one Buff for one enemy during Critical Attacks\" (3 turns) [g][o]▲[/o][/g] for yourself "
+  },
+  {
+    "id": 2162350,
+    "detail": "Apply Invincible (1 turn) & Target Focus (1 turn) & Ignore Invincible (3 turns) [g][o]▲[/o][/g] & decrease HP [{0}] [Demerit] for yourself + Gain a large amount of C. Stars [{0}] [g][o]▲[/o][/g]",
+    "detailShort": "Apply Invincible (1 turn) & Target Focus (1 turn) & Ignore Invincible (3 turns) [g][o]▲[/o][/g] & decrease HP [{0}] [Demerit] for yourself + Gain a large amount of C. Stars [{0}] [g][o]▲[/o][/g]"
+  },
+  {
+    "id": 2163350,
+    "detail": "Slightly increase Quick Card effectiveness & Arts Card effectiveness & Buster Card effectiveness for yourself",
+    "detailShort": "Slightly increase Quick Card effectiveness & Arts Card effectiveness & Buster Card effectiveness for yourself"
+  },
+  {
+    "id": 2164650,
+    "detail": "Increase Buster Card effectiveness & Extra Attack effectiveness for yourself",
+    "detailShort": "Increase Buster Card effectiveness & Extra Attack effectiveness for yourself"
+  },
+  {
+    "id": 2179550,
+    "detail": "Increase Arts Card effectiveness [{0}] (3 turns) & Buster Card effectiveness [{0}] (3 turns) & apply HP Recovery per turn [{0}] (3 turns) for yourself ",
+    "detailShort": "Increase Arts Card effectiveness [{0}] (3 turns) & Buster Card effectiveness [{0}] (3 turns) & apply HP Recovery per turn [{0}] (3 turns) for yourself "
+  },
+  {
+    "id": 2180550,
+    "detail": "Significantly increase NP Gauge [{0}] for yourself + Apply [Good] trait (1 turn) & increase Buff Success Rate when receiving a Buff [{0}] (1 turn) to all allies + Apply [Evil] trait (1 turn) & decrease Buff Success Rate when receiving a Buff [{0}] (1 turn) to all enemies",
+    "detailShort": "Significantly increase NP Gauge [{0}] for yourself + Apply [Good] trait (1 turn) & increase Buff Success Rate when receiving a Buff [{0}] (1 turn) to all allies + Apply [Evil] trait (1 turn) & decrease Buff Success Rate when receiving a Buff [{0}] (1 turn) to all enemies"
+  },
+  {
+    "id": 2181550,
+    "detail": "Increase Arts Card effectiveness [{0}] (3 turns) to all allies + Chance to apply Evade (1 time, 3 turns) & chance to apply Debuff Immune (1 time, 3 turns) & chance to apply Death Immune (1 time, 3 turns) to all allies with [Good] trait",
+    "detailShort": "Increase Arts Card effectiveness [{0}] (3 turns) to all allies + Chance to apply Evade (1 time, 3 turns) & chance to apply Debuff Immune (1 time, 3 turns) & chance to apply Death Immune (1 time, 3 turns) to all allies with [Good] trait"
   },
   {
     "id": 3001000,

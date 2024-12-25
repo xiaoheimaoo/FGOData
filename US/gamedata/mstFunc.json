@@ -18606,7 +18606,7 @@
     "applyTarget": 3,
     "popupIconId": 507,
     "popupText": "Status Chance\nDown: Buff",
-    "categoryId": 0
+    "categoryId": 70223
   },
   {
     "vals": [
@@ -19983,12 +19983,12 @@
     "popupTextColor": 3,
     "id": 1127,
     "cond": 0,
-    "funcType": 16,
+    "funcType": 1,
     "targetType": 6,
     "applyTarget": 3,
     "popupIconId": 506,
-    "popupText": "Buff Success Down",
-    "categoryId": 70223
+    "popupText": "Decrease Buff Success Rate \nwhen receiving a Buff",
+    "categoryId": 70224
   },
   {
     "vals": [
@@ -20002,12 +20002,12 @@
     "popupTextColor": 3,
     "id": 1128,
     "cond": 0,
-    "funcType": 16,
+    "funcType": 1,
     "targetType": 6,
     "applyTarget": 3,
     "popupIconId": 506,
-    "popupText": "Buff Success Down",
-    "categoryId": 70223
+    "popupText": "Decrease Buff Success Rate \nwhen receiving a Buff",
+    "categoryId": 70224
   },
   {
     "vals": [
@@ -20021,12 +20021,12 @@
     "popupTextColor": 3,
     "id": 1129,
     "cond": 0,
-    "funcType": 16,
+    "funcType": 1,
     "targetType": 6,
     "applyTarget": 3,
     "popupIconId": 506,
-    "popupText": "Buff Success Down",
-    "categoryId": 70223
+    "popupText": "Decrease Buff Success Rate \nwhen receiving a Buff",
+    "categoryId": 70224
   },
   {
     "vals": [
@@ -120975,7 +120975,7 @@
     "targetType": 0,
     "applyTarget": 1,
     "popupIconId": 343,
-    "popupText": "Triggers Each Turn (Increase NP)",
+    "popupText": "Triggers Each Turn (NP Gain)",
     "categoryId": 10602
   },
   {
@@ -123066,7 +123066,7 @@
     "targetType": 0,
     "applyTarget": 3,
     "popupIconId": 331,
-    "popupText": "Sacrifice for the World Tree",
+    "popupText": "Sacrifice to the World Tree",
     "categoryId": 20205
   },
   {
@@ -123842,7 +123842,7 @@
     "targetType": 7,
     "applyTarget": 3,
     "popupIconId": 307,
-    "popupText": "Debuff Chance\nUp",
+    "popupText": "Debuff Chance Up",
     "categoryId": 30203
   },
   {
@@ -123861,7 +123861,7 @@
     "targetType": 7,
     "applyTarget": 3,
     "popupIconId": 307,
-    "popupText": "Debuff Chance\nUp",
+    "popupText": "Debuff Chance Up",
     "categoryId": 30203
   },
   {
@@ -123880,7 +123880,7 @@
     "targetType": 7,
     "applyTarget": 3,
     "popupIconId": 307,
-    "popupText": "Debuff Chance\nUp",
+    "popupText": "Debuff Chance Up",
     "categoryId": 30203
   },
   {
@@ -167329,6 +167329,38 @@
     "categoryId": 30202
   },
   {
+    "vals": [],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [],
+    "popupTextColor": 1,
+    "id": 9720,
+    "cond": 0,
+    "funcType": 134,
+    "targetType": 3,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "",
+    "categoryId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      6010
+    ],
+    "questTvals": [],
+    "effectList": [],
+    "popupTextColor": 1,
+    "id": 9721,
+    "cond": 0,
+    "funcType": 54,
+    "targetType": 3,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "",
+    "categoryId": 0
+  },
+  {
     "vals": [
       4754
     ],
@@ -168386,6 +168418,1497 @@
   },
   {
     "vals": [
+      4779
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      339
+    ],
+    "popupTextColor": 3,
+    "id": 9780,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 4,
+    "applyTarget": 1,
+    "popupIconId": 559,
+    "popupText": "Decrease Critical Resistance",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      4779
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      340
+    ],
+    "popupTextColor": 3,
+    "id": 9781,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 4,
+    "applyTarget": 1,
+    "popupIconId": 559,
+    "popupText": "Decrease Critical Resistance",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      4779
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      341
+    ],
+    "popupTextColor": 3,
+    "id": 9782,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 4,
+    "applyTarget": 1,
+    "popupIconId": 559,
+    "popupText": "Decrease Critical Resistance",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      4781
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      323
+    ],
+    "popupTextColor": 1,
+    "id": 9784,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 318,
+    "popupText": "HP Recovery\nPer Turn",
+    "categoryId": 20402
+  },
+  {
+    "vals": [
+      4781
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      324
+    ],
+    "popupTextColor": 1,
+    "id": 9785,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 318,
+    "popupText": "HP Recovery\nPer Turn",
+    "categoryId": 20402
+  },
+  {
+    "vals": [
+      4781
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      325
+    ],
+    "popupTextColor": 1,
+    "id": 9786,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 318,
+    "popupText": "HP Recovery\nPer Turn",
+    "categoryId": 20402
+  },
+  {
+    "vals": [
+      4640
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      347
+    ],
+    "popupTextColor": 3,
+    "id": 9787,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 6,
+    "applyTarget": 3,
+    "popupIconId": 537,
+    "popupText": "Triggers\nEach Turn (HP Loss)",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      4782
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      328
+    ],
+    "popupTextColor": 2,
+    "id": 9788,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 528,
+    "popupText": "Enjaku Battoujutsu Ultimate Art",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      4783
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [],
+    "popupTextColor": 2,
+    "id": 9789,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 342,
+    "popupText": "",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      4784
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [],
+    "popupTextColor": 2,
+    "id": 9790,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 536,
+    "popupText": "",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      4785
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [],
+    "popupTextColor": 2,
+    "id": 9791,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      4786
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [],
+    "popupTextColor": 2,
+    "id": 9792,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      4787
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [],
+    "popupTextColor": 2,
+    "id": 9793,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      6038
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [],
+    "popupTextColor": 1,
+    "id": 9794,
+    "cond": 0,
+    "funcType": 2,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      4789
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      335
+    ],
+    "popupTextColor": 2,
+    "id": 9795,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 311,
+    "popupText": "Organism Wave",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      4790
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      331
+    ],
+    "popupTextColor": 2,
+    "id": 9796,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 302,
+    "popupText": "Mictlān's Ablution",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      4791
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      334
+    ],
+    "popupTextColor": 2,
+    "id": 9797,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 301,
+    "popupText": "",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      4792
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      328
+    ],
+    "popupTextColor": 2,
+    "id": 9798,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 330,
+    "popupText": "Growth EX",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      4793
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [],
+    "popupTextColor": 2,
+    "id": 9799,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 334,
+    "popupText": "",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      4286
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [],
+    "popupTextColor": 1,
+    "id": 9800,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      4286
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [],
+    "popupTextColor": 1,
+    "id": 9801,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 3,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      4794
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      331
+    ],
+    "popupTextColor": 2,
+    "id": 9802,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 300,
+    "popupText": "Black Calavera",
+    "categoryId": 10201
+  },
+  {
+    "vals": [
+      4795
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [],
+    "popupTextColor": 1,
+    "id": 9803,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      4796
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      328
+    ],
+    "popupTextColor": 1,
+    "id": 9804,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 319,
+    "popupText": "Fighter's Enthusiasm",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      4797
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      331
+    ],
+    "popupTextColor": 2,
+    "id": 9805,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 309,
+    "popupText": "Swift FW",
+    "categoryId": 10801
+  },
+  {
+    "vals": [
+      4798
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      328
+    ],
+    "popupTextColor": 2,
+    "id": 9806,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 331,
+    "popupText": "Speedy Red Card",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      4799
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      328
+    ],
+    "popupTextColor": 2,
+    "id": 9807,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 350,
+    "popupText": "Speedy Red Card",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      329
+    ],
+    "popupTextColor": 1,
+    "id": 9808,
+    "cond": 0,
+    "funcType": 2,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5150
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [],
+    "popupTextColor": 2,
+    "id": 9809,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 342,
+    "popupText": "",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5151
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      335
+    ],
+    "popupTextColor": 2,
+    "id": 9810,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 304,
+    "popupText": "Inexhaustible Stamina",
+    "categoryId": 20205
+  },
+  {
+    "vals": [
+      5152
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [],
+    "popupTextColor": 2,
+    "id": 9811,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "",
+    "categoryId": 20205
+  },
+  {
+    "vals": [
+      5153
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      335
+    ],
+    "popupTextColor": 2,
+    "id": 9812,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 311,
+    "popupText": "Super Organism Wave",
+    "categoryId": 20204
+  },
+  {
+    "vals": [
+      5154
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      334
+    ],
+    "popupTextColor": 2,
+    "id": 9813,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 301,
+    "popupText": "Nonaggressive Defense",
+    "categoryId": 20201
+  },
+  {
+    "vals": [
+      5155
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      328
+    ],
+    "popupTextColor": 2,
+    "id": 9814,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 525,
+    "popupText": "Nonaggressive Defense",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5156
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      328
+    ],
+    "popupTextColor": 2,
+    "id": 9815,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 340,
+    "popupText": "King of the Ocelomeh",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5157
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      328
+    ],
+    "popupTextColor": 2,
+    "id": 9816,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 331,
+    "popupText": "King of the Ocelomeh",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5158
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      328
+    ],
+    "popupTextColor": 2,
+    "id": 9817,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 331,
+    "popupText": "King of the Ocelomeh",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5159
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      335
+    ],
+    "popupTextColor": 2,
+    "id": 9818,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 304,
+    "popupText": "Unreturning Vassal",
+    "categoryId": 20205
+  },
+  {
+    "vals": [
+      5160
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      328
+    ],
+    "popupTextColor": 2,
+    "id": 9819,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 528,
+    "popupText": "Ten Kings' Deputy",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5243
+    ],
+    "tvals": [
+      9944140
+    ],
+    "questTvals": [],
+    "effectList": [],
+    "popupTextColor": 2,
+    "id": 9820,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 4,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "",
+    "categoryId": 20205
+  },
+  {
+    "vals": [
+      5161
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [],
+    "popupTextColor": 1,
+    "id": 9821,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5162
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [],
+    "popupTextColor": 2,
+    "id": 9822,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 7,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5226
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      328
+    ],
+    "popupTextColor": 2,
+    "id": 9823,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 343,
+    "popupText": "Guardian of the Boundary",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5163
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      335
+    ],
+    "popupTextColor": 2,
+    "id": 9824,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 334,
+    "popupText": "Invinicible Simulation",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5164
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      335
+    ],
+    "popupTextColor": 2,
+    "id": 9825,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 334,
+    "popupText": "Something That Flows",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5165
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      335
+    ],
+    "popupTextColor": 2,
+    "id": 9826,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 334,
+    "popupText": "Special Resist Up (Quick)",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5166
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      325
+    ],
+    "popupTextColor": 1,
+    "id": 9827,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 318,
+    "popupText": "Fertile Harvest Rain",
+    "categoryId": 20402
+  },
+  {
+    "vals": [
+      5167
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [],
+    "popupTextColor": 2,
+    "id": 9828,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 7,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5168
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      347
+    ],
+    "popupTextColor": 2,
+    "id": 9829,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 343,
+    "popupText": "Hazy Mirror",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5169
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      328
+    ],
+    "popupTextColor": 2,
+    "id": 9830,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 343,
+    "popupText": "Infinite Growth EX",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5170
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      328
+    ],
+    "popupTextColor": 2,
+    "id": 9831,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 331,
+    "popupText": "Flash MF",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5171
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      328
+    ],
+    "popupTextColor": 2,
+    "id": 9832,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 343,
+    "popupText": "Impregnable GK",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5172
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      328
+    ],
+    "popupTextColor": 2,
+    "id": 9833,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 528,
+    "popupText": "Blood-Soaked Head",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5173
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      333
+    ],
+    "popupTextColor": 2,
+    "id": 9834,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 301,
+    "popupText": "DEF Up vs Chaotic",
+    "categoryId": 20201
+  },
+  {
+    "vals": [
+      5173
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      334
+    ],
+    "popupTextColor": 2,
+    "id": 9835,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 301,
+    "popupText": "DEF Up vs Chaotic",
+    "categoryId": 20201
+  },
+  {
+    "vals": [
+      5173
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      335
+    ],
+    "popupTextColor": 2,
+    "id": 9836,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 301,
+    "popupText": "DEF Up vs Chaotic",
+    "categoryId": 20201
+  },
+  {
+    "vals": [
+      5174
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      328
+    ],
+    "popupTextColor": 2,
+    "id": 9837,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 331,
+    "popupText": "Reload",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5175
+    ],
+    "tvals": [
+      -2847,
+      -6026,
+      -2800500
+    ],
+    "questTvals": [],
+    "effectList": [
+      346
+    ],
+    "popupTextColor": 1,
+    "id": 9838,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 6,
+    "applyTarget": 3,
+    "popupIconId": 501,
+    "popupText": "Wild Metztliapan",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5176
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      328
+    ],
+    "popupTextColor": 2,
+    "id": 9839,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 528,
+    "popupText": "Sabotage",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5177
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      328
+    ],
+    "popupTextColor": 2,
+    "id": 9840,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 528,
+    "popupText": "Bonus Effect on Attack",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      515
+    ],
+    "tvals": [
+      2847
+    ],
+    "questTvals": [],
+    "effectList": [
+      345
+    ],
+    "popupTextColor": 3,
+    "id": 9841,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 6,
+    "applyTarget": 3,
+    "popupIconId": 525,
+    "popupText": "Electrify",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5178
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      330
+    ],
+    "popupTextColor": 2,
+    "id": 9842,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 302,
+    "popupText": "Strength Up (Stun)",
+    "categoryId": 10201
+  },
+  {
+    "vals": [
+      5178
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      331
+    ],
+    "popupTextColor": 2,
+    "id": 9843,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 302,
+    "popupText": "Strength Up (Stun)",
+    "categoryId": 10201
+  },
+  {
+    "vals": [
+      5178
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      332
+    ],
+    "popupTextColor": 2,
+    "id": 9844,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 302,
+    "popupText": "Strength Up (Stun)",
+    "categoryId": 10201
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      347
+    ],
+    "popupTextColor": 1,
+    "id": 9845,
+    "cond": 0,
+    "funcType": 2,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "Remove Buff",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      347
+    ],
+    "popupTextColor": 1,
+    "id": 9846,
+    "cond": 0,
+    "funcType": 2,
+    "targetType": 4,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "Remove Growth",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5179
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      347
+    ],
+    "popupTextColor": 1,
+    "id": 9847,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 1,
+    "applyTarget": 1,
+    "popupIconId": 323,
+    "popupText": "Target Focus\nUp",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5180
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      328
+    ],
+    "popupTextColor": 2,
+    "id": 9848,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 6,
+    "applyTarget": 3,
+    "popupIconId": 528,
+    "popupText": "Breakthrough",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5181
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      328
+    ],
+    "popupTextColor": 2,
+    "id": 9849,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 1,
+    "applyTarget": 3,
+    "popupIconId": 350,
+    "popupText": "Offside",
+    "categoryId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      1000
+    ],
+    "questTvals": [],
+    "effectList": [],
+    "popupTextColor": 1,
+    "id": 9850,
+    "cond": 0,
+    "funcType": 35,
+    "targetType": 6,
+    "applyTarget": 2,
+    "popupIconId": 0,
+    "popupText": "Retreat",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      347
+    ],
+    "popupTextColor": 1,
+    "id": 9851,
+    "cond": 0,
+    "funcType": 2,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "Remove Inexhaustible Stamina",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      4286
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [],
+    "popupTextColor": 1,
+    "id": 9852,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 6,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5189
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      325
+    ],
+    "popupTextColor": 1,
+    "id": 9853,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 318,
+    "popupText": "Red Sea of Milk",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5184
+    ],
+    "tvals": [
+      -800100,
+      -800101
+    ],
+    "questTvals": [],
+    "effectList": [],
+    "popupTextColor": 1,
+    "id": 9854,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 7,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5185
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      347
+    ],
+    "popupTextColor": 3,
+    "id": 9855,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 6,
+    "applyTarget": 3,
+    "popupIconId": 531,
+    "popupText": "God-Tier Offsetting",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5186
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      328
+    ],
+    "popupTextColor": 1,
+    "id": 9856,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 331,
+    "popupText": "Infantile Regression",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      6028
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [],
+    "popupTextColor": 1,
+    "id": 9857,
+    "cond": 0,
+    "funcType": 2,
+    "targetType": 7,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      9999
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      329
+    ],
+    "popupTextColor": 1,
+    "id": 9858,
+    "cond": 0,
+    "funcType": 2,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      9999
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      329
+    ],
+    "popupTextColor": 1,
+    "id": 9859,
+    "cond": 0,
+    "funcType": 2,
+    "targetType": 6,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5187
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      328
+    ],
+    "popupTextColor": 2,
+    "id": 9860,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 528,
+    "popupText": "Bonus Effect with Noble Phantasm",
+    "categoryId": 0
+  },
+  {
+    "vals": [
       1548
     ],
     "tvals": [],
@@ -168418,6 +169941,340 @@
     "applyTarget": 1,
     "popupIconId": 323,
     "popupText": "Target Focus\nUp",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5188
+    ],
+    "tvals": [
+      6010
+    ],
+    "questTvals": [],
+    "effectList": [
+      335
+    ],
+    "popupTextColor": 2,
+    "id": 9863,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 3,
+    "applyTarget": 3,
+    "popupIconId": 322,
+    "popupText": "Beloved Triton",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5230
+    ],
+    "tvals": [
+      2848
+    ],
+    "questTvals": [],
+    "effectList": [],
+    "popupTextColor": 1,
+    "id": 9864,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 7,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5229
+    ],
+    "tvals": [
+      2849
+    ],
+    "questTvals": [],
+    "effectList": [],
+    "popupTextColor": 1,
+    "id": 9865,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 7,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      4788
+    ],
+    "tvals": [
+      2850
+    ],
+    "questTvals": [],
+    "effectList": [],
+    "popupTextColor": 1,
+    "id": 9866,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 7,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5182
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      328
+    ],
+    "popupTextColor": 1,
+    "id": 9867,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 520,
+    "popupText": "Something that Blocks",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5183
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      335
+    ],
+    "popupTextColor": 2,
+    "id": 9868,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 322,
+    "popupText": "Steadfast Determination",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5190
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      335
+    ],
+    "popupTextColor": 2,
+    "id": 9869,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 338,
+    "popupText": "Guardian of the Boundary",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      4286
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [],
+    "popupTextColor": 1,
+    "id": 9914,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 7,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      6023
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      347
+    ],
+    "popupTextColor": 1,
+    "id": 9915,
+    "cond": 0,
+    "funcType": 2,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5227
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [],
+    "popupTextColor": 2,
+    "id": 9916,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5228
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [],
+    "popupTextColor": 2,
+    "id": 9917,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      6030
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [],
+    "popupTextColor": 1,
+    "id": 9918,
+    "cond": 0,
+    "funcType": 2,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5237
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      328
+    ],
+    "popupTextColor": 2,
+    "id": 9919,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 331,
+    "popupText": "King of the Ocelomeh",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5231
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [],
+    "popupTextColor": 1,
+    "id": 9920,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      149
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      333
+    ],
+    "popupTextColor": 2,
+    "id": 9922,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 6,
+    "applyTarget": 3,
+    "popupIconId": 301,
+    "popupText": "Damage Cut",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      149
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      334
+    ],
+    "popupTextColor": 2,
+    "id": 9923,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 6,
+    "applyTarget": 3,
+    "popupIconId": 301,
+    "popupText": "Damage Cut",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      149
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      335
+    ],
+    "popupTextColor": 2,
+    "id": 9924,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 6,
+    "applyTarget": 3,
+    "popupIconId": 301,
+    "popupText": "Damage Cut",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5233
+    ],
+    "tvals": [
+      404200
+    ],
+    "questTvals": [],
+    "effectList": [],
+    "popupTextColor": 1,
+    "id": 9925,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 7,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "",
     "categoryId": 0
   },
   {
@@ -168476,6 +170333,416 @@
     "popupIconId": 547,
     "popupText": "Disastrous Curse",
     "categoryId": 70220
+  },
+  {
+    "vals": [
+      2911
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      347
+    ],
+    "popupTextColor": 3,
+    "id": 9929,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 9,
+    "applyTarget": 1,
+    "popupIconId": 555,
+    "popupText": "Command Card Unselectible",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5234
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [],
+    "popupTextColor": 1,
+    "id": 9930,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 7,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "",
+    "categoryId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      345
+    ],
+    "popupTextColor": 1,
+    "id": 9931,
+    "cond": 0,
+    "funcType": 46,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "Ejection",
+    "categoryId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      345
+    ],
+    "popupTextColor": 1,
+    "id": 9932,
+    "cond": 0,
+    "funcType": 46,
+    "targetType": 4,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "Ejection",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5235
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      347
+    ],
+    "popupTextColor": 3,
+    "id": 9933,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 8,
+    "applyTarget": 3,
+    "popupIconId": 531,
+    "popupText": "Nullify Buff",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5236
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      328
+    ],
+    "popupTextColor": 1,
+    "id": 9934,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 2,
+    "popupIconId": 323,
+    "popupText": "Father's Teaching",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      229
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      347
+    ],
+    "popupTextColor": 3,
+    "id": 9935,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 4,
+    "applyTarget": 1,
+    "popupIconId": 530,
+    "popupText": "NP Gain From Damage Down",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      126
+    ],
+    "tvals": [
+      2386
+    ],
+    "questTvals": [],
+    "effectList": [
+      331
+    ],
+    "popupTextColor": 2,
+    "id": 9936,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 300,
+    "popupText": "ATK Up (Growth)",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5241
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      335
+    ],
+    "popupTextColor": 2,
+    "id": 9948,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 301,
+    "popupText": "Hazy Mirror",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      219
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [],
+    "popupTextColor": 3,
+    "id": 9949,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 8,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "",
+    "categoryId": 70208
+  },
+  {
+    "vals": [
+      5242
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      330
+    ],
+    "popupTextColor": 2,
+    "id": 9950,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 302,
+    "popupText": "Extra Attack Up",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5242
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      331
+    ],
+    "popupTextColor": 2,
+    "id": 9951,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 302,
+    "popupText": "Extra Attack Up",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5242
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      332
+    ],
+    "popupTextColor": 2,
+    "id": 9952,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 302,
+    "popupText": "Extra Attack Up",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5242
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      330
+    ],
+    "popupTextColor": 2,
+    "id": 9953,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 1,
+    "applyTarget": 3,
+    "popupIconId": 302,
+    "popupText": "Extra Attack Up",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5242
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      331
+    ],
+    "popupTextColor": 2,
+    "id": 9954,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 1,
+    "applyTarget": 3,
+    "popupIconId": 302,
+    "popupText": "Extra Attack Up",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5242
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      332
+    ],
+    "popupTextColor": 2,
+    "id": 9955,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 1,
+    "applyTarget": 3,
+    "popupIconId": 302,
+    "popupText": "Extra Attack Up",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5242
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      330
+    ],
+    "popupTextColor": 2,
+    "id": 9956,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 3,
+    "applyTarget": 3,
+    "popupIconId": 302,
+    "popupText": "Extra Attack Up",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5242
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      331
+    ],
+    "popupTextColor": 2,
+    "id": 9957,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 3,
+    "applyTarget": 3,
+    "popupIconId": 302,
+    "popupText": "Extra Attack Up",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5242
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      332
+    ],
+    "popupTextColor": 2,
+    "id": 9958,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 3,
+    "applyTarget": 3,
+    "popupIconId": 302,
+    "popupText": "Extra Attack Up",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      4286
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [],
+    "popupTextColor": 1,
+    "id": 9959,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 6,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5230
+    ],
+    "tvals": [
+      6010
+    ],
+    "questTvals": [],
+    "effectList": [],
+    "popupTextColor": 1,
+    "id": 9960,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 7,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "",
+    "categoryId": 0
+  },
+  {
+    "vals": [
+      5244
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      331
+    ],
+    "popupTextColor": 2,
+    "id": 9961,
+    "cond": 0,
+    "funcType": 16,
+    "targetType": 0,
+    "applyTarget": 3,
+    "popupIconId": 324,
+    "popupText": "Critical Up [Near Water]",
+    "categoryId": 10401
   },
   {
     "vals": [
@@ -172235,6 +174502,164 @@
     "popupIconId": 336,
     "popupText": "Overcharge\nLv. Up",
     "categoryId": 10605
+  },
+  {
+    "vals": [
+      4165
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      328
+    ],
+    "popupTextColor": 1,
+    "id": 20766,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 3,
+    "applyTarget": 3,
+    "popupIconId": 520,
+    "popupText": "Apply Good Trait",
+    "categoryId": 80202
+  },
+  {
+    "vals": [
+      151
+    ],
+    "tvals": [
+      303
+    ],
+    "questTvals": [],
+    "effectList": [
+      334
+    ],
+    "popupTextColor": 2,
+    "id": 20767,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 3,
+    "applyTarget": 3,
+    "popupIconId": 305,
+    "popupText": "Evade",
+    "categoryId": 20203
+  },
+  {
+    "vals": [
+      171
+    ],
+    "tvals": [
+      303
+    ],
+    "questTvals": [],
+    "effectList": [
+      335
+    ],
+    "popupTextColor": 2,
+    "id": 20768,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 3,
+    "applyTarget": 3,
+    "popupIconId": 322,
+    "popupText": "Debuff Immune",
+    "categoryId": 30202
+  },
+  {
+    "vals": [
+      341
+    ],
+    "tvals": [
+      303
+    ],
+    "questTvals": [],
+    "effectList": [
+      328
+    ],
+    "popupTextColor": 2,
+    "id": 20769,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 3,
+    "applyTarget": 3,
+    "popupIconId": 340,
+    "popupText": "Immune to Death",
+    "categoryId": 30403
+  },
+  {
+    "vals": [],
+    "tvals": [
+      304
+    ],
+    "questTvals": [],
+    "effectList": [
+      345
+    ],
+    "popupTextColor": 1,
+    "id": 20770,
+    "cond": 0,
+    "funcType": 13,
+    "targetType": 6,
+    "applyTarget": 3,
+    "popupIconId": 0,
+    "popupText": "Death",
+    "categoryId": 70401
+  },
+  {
+    "vals": [
+      950
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      333
+    ],
+    "popupTextColor": 2,
+    "id": 20781,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 3,
+    "applyTarget": 3,
+    "popupIconId": 306,
+    "popupText": "Increase Buff Success Rate \nwhen receiving a Buff",
+    "categoryId": 30204
+  },
+  {
+    "vals": [
+      950
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      334
+    ],
+    "popupTextColor": 2,
+    "id": 20782,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 3,
+    "applyTarget": 3,
+    "popupIconId": 306,
+    "popupText": "Increase Buff Success Rate \nwhen receiving a Buff",
+    "categoryId": 30204
+  },
+  {
+    "vals": [
+      950
+    ],
+    "tvals": [],
+    "questTvals": [],
+    "effectList": [
+      335
+    ],
+    "popupTextColor": 2,
+    "id": 20783,
+    "cond": 0,
+    "funcType": 1,
+    "targetType": 3,
+    "applyTarget": 3,
+    "popupIconId": 306,
+    "popupText": "Increase Buff Success Rate \nwhen receiving a Buff",
+    "categoryId": 30204
   },
   {
     "vals": [
