@@ -129852,6 +129852,46 @@
     "effectId": 0
   },
   {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      2300900
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2300900
+    ],
+    "script": {},
+    "id": 94138906,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "復讐者（ACR）",
+    "detail": "〔シエル〕に与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94138907,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "遅延発動",
+    "detail": "ターン経過後、自身のHPを回復",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
     "vals": [],
     "tvals": [],
     "ckSelfIndv": [],
@@ -129897,6 +129937,25 @@
     "name": "",
     "detail": "",
     "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 183
+    },
+    "id": 94138913,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "ネコ八毛球（偽）",
+    "detail": "〔プリテンダー〕クラスに対するクラス相性が防御劣位になる",
+    "iconId": 520,
     "maxRate": 0,
     "effectId": 0
   }
