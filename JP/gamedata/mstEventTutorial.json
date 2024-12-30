@@ -26888,6 +26888,107 @@
   },
   {
     "targetIds": [
+      "[94139111]",
+      "[94139112]",
+      "[94139113]",
+      "[94139114]",
+      "[94139115]"
+    ],
+    "condIds": [],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "ネコ１０８を撃退してもゲージが残っている限り\n繰り返し復活します。\n\n画面上部にはゲージが表示されており、\n撃退するごとにゲージが減っていきます。\nまた、他のマスターが撃退した数がバトル中も随時反映されます。\n\nゲージを減らしきるまで皆でネコ１０８を倒しましょう！",
+        "rects": [
+          {
+            "x": -622,
+            "y": 200,
+            "w": 690,
+            "h": 120
+          }
+        ],
+        "textPos": [
+          0,
+          24
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80507,
+    "flagType": 68,
+    "num": 2,
+    "priority": 0,
+    "openType": 5,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[8391]"
+    ],
+    "condIds": [
+      20138909
+    ],
+    "imageIds": [
+      1164
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80507,
+    "flagType": 69,
+    "num": 1,
+    "priority": 2,
+    "openType": 18,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      20138901
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "レイド限定ドロップアイテム\n「ムーンそば」と交換できる商品が\n新たに追加されました。",
+        "dlgFontSize": 29,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80507,
+    "flagType": 70,
+    "num": 1,
+    "priority": 0,
+    "openType": 20,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
       "[8391]"
     ],
     "condIds": [
@@ -27015,6 +27116,41 @@
     "script": {},
     "eventId": 80507,
     "flagType": 76,
+    "num": 1,
+    "priority": 1,
+    "openType": 18,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[8391]"
+    ],
+    "condIds": [
+      94138906
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "～ 交換アイテム追加 ～\n\n絆ブーストアイテム「月見のティーポット」が\nイベント報酬画面の「イベントアイテム交換」で\n交換可能になりました。",
+        "dlgFontSize": 26,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80507,
+    "flagType": 77,
     "num": 1,
     "priority": 1,
     "openType": 18,
