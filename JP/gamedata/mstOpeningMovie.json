@@ -272,7 +272,7 @@
   {
     "script": {},
     "id": 20,
-    "priority": 19,
+    "priority": 100,
     "name": "奏章オープニング",
     "movieName": "ops00400",
     "commonReleaseId": 50083301,
@@ -446,6 +446,23 @@
     "moviePlayTime": 15,
     "flag": 1,
     "startedAt": 1733043600,
+    "endedAt": 1893423600
+  },
+  {
+    "script": {
+      "timing": 3
+    },
+    "id": 31,
+    "priority": 99,
+    "name": "奏章Ⅰ告知CM",
+    "movieName": "intro029",
+    "commonReleaseId": 50140701,
+    "materialCommonReleaseId": 50140702,
+    "materialPosType": 1,
+    "materialPosValue": 3,
+    "moviePlayTime": 15,
+    "flag": 1,
+    "startedAt": 1735722000,
     "endedAt": 1893423600
   }
 ]
