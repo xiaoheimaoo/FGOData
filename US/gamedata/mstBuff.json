@@ -75437,6 +75437,85 @@
     "effectId": 0
   },
   {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3011
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3011
+    ],
+    "script": {},
+    "id": 5245,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "Poison Immune",
+    "detail": "Become immune to Poison",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -3086
+    },
+    "id": 5246,
+    "buffGroup": 0,
+    "type": 37,
+    "name": "Guts",
+    "detail": "When HP reaches 0, recover HP and survive (stackable with other Guts)",
+    "iconId": 304,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5247,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "Activate when Guts is Triggered",
+    "detail": "Increase NP damage when Guts is triggered",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -3086
+    },
+    "id": 5248,
+    "buffGroup": 600,
+    "type": 37,
+    "name": "Guts <High Chance>",
+    "detail": "When HP reaches 0, high chance to recover HP and survive",
+    "iconId": 304,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
     "vals": [],
     "tvals": [],
     "ckSelfIndv": [],
