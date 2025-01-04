@@ -1712,7 +1712,7 @@
     "priority": 1,
     "referenceType": 1,
     "referenceId": 0,
-    "message": "種火集め 消費AP 50%DOWN 開催期間 残り {0}",
+    "message": "蒐集種火消耗AP減半 舉辦時間 剩餘 {0}",
     "script": [
       {
         "startTime": 0,
@@ -1744,7 +1744,7 @@
     "priority": 1,
     "referenceType": 1,
     "referenceId": 0,
-    "message": "蒐集種火＆修練場 消費AP 50%DOWN 舉辦時間 剩餘 {0}",
+    "message": "蒐集種火＆修練場 消耗AP減半 舉辦時間 剩餘 {0}",
     "script": [
       {
         "startTime": 0,
@@ -1758,6 +1758,226 @@
       },
       {
         "startTime": 1673323200,
+        "color": "#FFEB04FF",
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      }
+    ],
+    "openedAt": "1703829600",
+    "closedAt": "1704952799"
+  },
+  {
+    "id": 71332001,
+    "warId": 1002,
+    "priority": 1,
+    "referenceType": 1,
+    "referenceId": 0,
+    "message": "打開寶物庫之門消耗AP減半 舉辦時間 剩餘 {0}",
+    "script": [
+      {
+        "startTime": 0,
+        "color": "#FFFFFF",
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      },
+      {
+        "startTime": 1675742400,
+        "color": "#FFEB04FF",
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      }
+    ],
+    "openedAt": "2145888000",
+    "closedAt": "2145888000"
+  },
+  {
+    "id": 71333001,
+    "warId": 1001,
+    "priority": 1,
+    "referenceType": 1,
+    "referenceId": 0,
+    "message": "消費AP 50%DOWN 開催期間 残り {0}",
+    "script": [
+      {
+        "startTime": 0,
+        "color": "#FFFFFF",
+        "imgId": 0,
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      }
+    ],
+    "openedAt": "2145888000",
+    "closedAt": "2145888000"
+  },
+  {
+    "id": 71334001,
+    "warId": 1003,
+    "priority": 1,
+    "referenceType": 1,
+    "referenceId": 0,
+    "message": "消費AP 50%DOWN 開催期間 残り {0}",
+    "script": [
+      {
+        "startTime": 0,
+        "color": "#FFFFFF",
+        "imgId": 0,
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      }
+    ],
+    "openedAt": "2145888000",
+    "closedAt": "2145888000"
+  },
+  {
+    "id": 71336001,
+    "warId": 1002,
+    "priority": 1,
+    "referenceType": 1,
+    "referenceId": 0,
+    "message": "蒐集種火＆修練場 消費AP 50%DOWN 舉辦時間 剩餘 {0}",
+    "script": [
+      {
+        "startTime": 0,
+        "color": "#FFFFFF",
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      },
+      {
+        "startTime": 1676779200,
+        "color": "#FFEB04FF",
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      }
+    ],
+    "openedAt": "2145888000",
+    "closedAt": "2145888000"
+  },
+  {
+    "id": 71341001,
+    "warId": 1002,
+    "priority": 1,
+    "referenceType": 1,
+    "referenceId": 0,
+    "message": "蒐集種火消耗AP減半 舉辦時間 剩餘 {0}",
+    "script": [
+      {
+        "startTime": 0,
+        "color": "#FFFFFF",
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      },
+      {
+        "startTime": 1681531200,
+        "color": "#FFEB04FF",
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      }
+    ],
+    "openedAt": "2145888000",
+    "closedAt": "2145888000"
+  },
+  {
+    "id": 71345001,
+    "warId": 1003,
+    "priority": 1,
+    "referenceType": 1,
+    "referenceId": 0,
+    "message": "特定サーヴァント 消費AP 50%DOWN 開催期間 残り {0}",
+    "script": [
+      {
+        "startTime": 0,
+        "color": "#FFFFFF",
+        "imgId": 0,
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      }
+    ],
+    "openedAt": "2145888000",
+    "closedAt": "2145888000"
+  },
+  {
+    "id": 71346001,
+    "warId": 1001,
+    "priority": 1,
+    "referenceType": 1,
+    "referenceId": 0,
+    "message": "特定サーヴァント 消費AP 50%DOWN 開催期間 残り {0}",
+    "script": [
+      {
+        "startTime": 0,
+        "color": "#FFFFFF",
+        "imgId": 0,
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      }
+    ],
+    "openedAt": "2145888000",
+    "closedAt": "2145888000"
+  },
+  {
+    "id": 71349001,
+    "warId": 1002,
+    "priority": 1,
+    "referenceType": 1,
+    "referenceId": 0,
+    "message": "蒐集種火消耗AP減半 舉辦時間 剩餘 {0}",
+    "script": [
+      {
+        "startTime": 0,
+        "color": "#FFFFFF",
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      },
+      {
+        "startTime": 1684814400,
         "color": "#FFEB04FF",
         "frameOffset": {
           "x": 0,
@@ -12715,6 +12935,158 @@
     "closedAt": "1702619999"
   },
   {
+    "id": 80414001,
+    "warId": 8382,
+    "priority": 2,
+    "referenceType": 2,
+    "referenceId": 94080004,
+    "message": "距第三節開放 剩餘 {0}",
+    "script": [
+      {
+        "startTime": 0,
+        "color": "#FFFFFF",
+        "imgId": 0,
+        "sideSizeOffset": 0,
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      }
+    ],
+    "openedAt": "1732597200",
+    "closedAt": "1732694399"
+  },
+  {
+    "id": 80414002,
+    "warId": 8382,
+    "priority": 2,
+    "referenceType": 2,
+    "referenceId": 94080005,
+    "message": "距第四節開放 剩餘 {0}",
+    "script": [
+      {
+        "startTime": 0,
+        "color": "#FFFFFF",
+        "imgId": 0,
+        "sideSizeOffset": 0,
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      }
+    ],
+    "openedAt": "1732694400",
+    "closedAt": "1732780799"
+  },
+  {
+    "id": 80414003,
+    "warId": 8382,
+    "priority": 2,
+    "referenceType": 2,
+    "referenceId": 94080006,
+    "message": "距第五節開放 剩餘 {0}",
+    "script": [
+      {
+        "startTime": 0,
+        "color": "#FFFFFF",
+        "imgId": 0,
+        "sideSizeOffset": 0,
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      }
+    ],
+    "openedAt": "1732780800",
+    "closedAt": "1732867199"
+  },
+  {
+    "id": 80414004,
+    "warId": 8382,
+    "priority": 2,
+    "referenceType": 2,
+    "referenceId": 94080007,
+    "message": "距第六節開放 剩餘 {0}",
+    "script": [
+      {
+        "startTime": 0,
+        "color": "#FFFFFF",
+        "imgId": 0,
+        "sideSizeOffset": 0,
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      }
+    ],
+    "openedAt": "1732867200",
+    "closedAt": "1732953599"
+  },
+  {
+    "id": 80414005,
+    "warId": 8382,
+    "priority": 2,
+    "referenceType": 2,
+    "referenceId": 94080008,
+    "message": "距第七節開放 剩餘 {0}",
+    "script": [
+      {
+        "startTime": 0,
+        "color": "#FFFFFF",
+        "imgId": 0,
+        "sideSizeOffset": 0,
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      }
+    ],
+    "openedAt": "1732953600",
+    "closedAt": "1733039999"
+  },
+  {
+    "id": 80414006,
+    "warId": 8382,
+    "priority": 1,
+    "referenceType": 4,
+    "referenceId": 80414,
+    "message": "活動舉辦時間 剩餘 {0}",
+    "script": [
+      {
+        "startTime": 0,
+        "color": "#FFFFFF",
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      },
+      {
+        "startTime": 1678334400,
+        "color": "#FFEB04FF",
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      }
+    ],
+    "openedAt": "1732597200",
+    "closedAt": "1734411599"
+  },
+  {
     "id": 80415001,
     "warId": 1003,
     "priority": 1,
@@ -12782,5 +13154,453 @@
     ],
     "openedAt": "1701075600",
     "closedAt": "1701323999"
+  },
+  {
+    "id": 80422001,
+    "warId": 8383,
+    "priority": 2,
+    "referenceType": 2,
+    "referenceId": 94081803,
+    "message": "距第二節開放 剩餘 {0}",
+    "script": [
+      {
+        "startTime": 0,
+        "color": "#FFFFFF",
+        "imgId": 0,
+        "sideSizeOffset": 0,
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      }
+    ],
+    "openedAt": "1735016400",
+    "closedAt": "1735113599"
+  },
+  {
+    "id": 80422002,
+    "warId": 8383,
+    "priority": 2,
+    "referenceType": 2,
+    "referenceId": 94081804,
+    "message": "距第三節開放 剩餘 {0}",
+    "script": [
+      {
+        "startTime": 0,
+        "color": "#FFFFFF",
+        "imgId": 0,
+        "sideSizeOffset": 0,
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      }
+    ],
+    "openedAt": "1735113600",
+    "closedAt": "1735199999"
+  },
+  {
+    "id": 80422003,
+    "warId": 8383,
+    "priority": 2,
+    "referenceType": 2,
+    "referenceId": 94081805,
+    "message": "距第四節開放 剩餘 {0}",
+    "script": [
+      {
+        "startTime": 0,
+        "color": "#FFFFFF",
+        "imgId": 0,
+        "sideSizeOffset": 0,
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      }
+    ],
+    "openedAt": "1735189200",
+    "closedAt": "1735286399"
+  },
+  {
+    "id": 80422004,
+    "warId": 8383,
+    "priority": 2,
+    "referenceType": 2,
+    "referenceId": 94081806,
+    "message": "距第五節開放 剩餘 {0}",
+    "script": [
+      {
+        "startTime": 0,
+        "color": "#FFFFFF",
+        "imgId": 0,
+        "sideSizeOffset": 0,
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      }
+    ],
+    "openedAt": "1735286400",
+    "closedAt": "1735372799"
+  },
+  {
+    "id": 80422005,
+    "warId": 8383,
+    "priority": 2,
+    "referenceType": 2,
+    "referenceId": 94081807,
+    "message": "距第六節開放 剩餘 {0}",
+    "script": [
+      {
+        "startTime": 0,
+        "color": "#FFFFFF",
+        "imgId": 0,
+        "sideSizeOffset": 0,
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      }
+    ],
+    "openedAt": "1735362000",
+    "closedAt": "1735459199"
+  },
+  {
+    "id": 80422006,
+    "warId": 8383,
+    "priority": 2,
+    "referenceType": 2,
+    "referenceId": 94081808,
+    "message": "距第七節開放 剩餘 {0}",
+    "script": [
+      {
+        "startTime": 0,
+        "color": "#FFFFFF",
+        "imgId": 0,
+        "sideSizeOffset": 0,
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      }
+    ],
+    "openedAt": "1735459200",
+    "closedAt": "1735545599"
+  },
+  {
+    "id": 80422007,
+    "warId": 8383,
+    "priority": 1,
+    "referenceType": 4,
+    "referenceId": 80422,
+    "message": "活動舉辦時間 剩餘 {0}",
+    "script": [
+      {
+        "startTime": 0,
+        "color": "#FFFFFF",
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      },
+      {
+        "startTime": 1680753600,
+        "color": "#FFEB04FF",
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      }
+    ],
+    "openedAt": "1735016400",
+    "closedAt": "1736830799"
+  },
+  {
+    "id": 80424001,
+    "warId": 9151,
+    "priority": 2,
+    "referenceType": 2,
+    "referenceId": 94082505,
+    "message": "距第3節開放 剩餘 {0}",
+    "script": [
+      {
+        "startTime": 0,
+        "color": "#FFFFFF",
+        "imgId": 0,
+        "sideSizeOffset": 0,
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      }
+    ],
+    "openedAt": "1714111200",
+    "closedAt": "1715925599"
+  },
+  {
+    "id": 80424002,
+    "warId": 9151,
+    "priority": 2,
+    "referenceType": 2,
+    "referenceId": 94082509,
+    "message": "距第6節開放 剩餘 {0}",
+    "script": [
+      {
+        "startTime": 0,
+        "color": "#FFFFFF",
+        "imgId": 0,
+        "sideSizeOffset": 0,
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      }
+    ],
+    "openedAt": "1714208400",
+    "closedAt": "1715925599"
+  },
+  {
+    "id": 80424003,
+    "warId": 9151,
+    "priority": 2,
+    "referenceType": 2,
+    "referenceId": 94082512,
+    "message": "距第8節開放 剩餘 {0}",
+    "script": [
+      {
+        "startTime": 0,
+        "color": "#FFFFFF",
+        "imgId": 0,
+        "sideSizeOffset": 0,
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      }
+    ],
+    "openedAt": "1714294800",
+    "closedAt": "1715925599"
+  },
+  {
+    "id": 80424004,
+    "warId": 9151,
+    "priority": 2,
+    "referenceType": 2,
+    "referenceId": 94082515,
+    "message": "距第11節開放 剩餘 {0}",
+    "script": [
+      {
+        "startTime": 0,
+        "color": "#FFFFFF",
+        "imgId": 0,
+        "sideSizeOffset": 0,
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      }
+    ],
+    "openedAt": "1714381200",
+    "closedAt": "1715925599"
+  },
+  {
+    "id": 80424005,
+    "warId": 9151,
+    "priority": 2,
+    "referenceType": 2,
+    "referenceId": 94082520,
+    "message": "距第14節開放 剩餘 {0}",
+    "script": [
+      {
+        "startTime": 0,
+        "color": "#FFFFFF",
+        "imgId": 0,
+        "sideSizeOffset": 0,
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      }
+    ],
+    "openedAt": "1714467600",
+    "closedAt": "1715925599"
+  },
+  {
+    "id": 80424006,
+    "warId": 9151,
+    "priority": 2,
+    "referenceType": 2,
+    "referenceId": 94082522,
+    "message": "距第16節開放 剩餘 {0}",
+    "script": [
+      {
+        "startTime": 0,
+        "color": "#FFFFFF",
+        "imgId": 0,
+        "sideSizeOffset": 0,
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      }
+    ],
+    "openedAt": "1714554000",
+    "closedAt": "1715925599"
+  },
+  {
+    "id": 80424007,
+    "warId": 9151,
+    "priority": 1,
+    "referenceType": 4,
+    "referenceId": 80424,
+    "message": "活動舉辦時間 剩餘 {0}",
+    "script": [
+      {
+        "startTime": 0,
+        "color": "#FFFFFF",
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      },
+      {
+        "startTime": 1684209600,
+        "color": "#FFEB04FF",
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      }
+    ],
+    "openedAt": "1714111200",
+    "closedAt": "1715925599"
+  },
+  {
+    "id": 80429001,
+    "warId": 8384,
+    "priority": 2,
+    "referenceType": 1,
+    "referenceId": 0,
+    "message": "第一任務舞臺舉辦時間 剩餘 {0}",
+    "script": [
+      {
+        "startTime": 0,
+        "color": "#FFFFFF",
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      },
+      {
+        "startTime": 1685091600,
+        "color": "#FFEB04FF",
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      }
+    ],
+    "openedAt": "1716444000",
+    "closedAt": "1716713999"
+  },
+  {
+    "id": 80429002,
+    "warId": 8384,
+    "priority": 2,
+    "referenceType": 1,
+    "referenceId": 0,
+    "message": "第二任務舞臺舉辦時間 剩餘 {0}",
+    "script": [
+      {
+        "startTime": 0,
+        "color": "#FFFFFF",
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      },
+      {
+        "startTime": 1685350800,
+        "color": "#FFEB04FF",
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      }
+    ],
+    "openedAt": "1716714000",
+    "closedAt": "1716973199"
+  },
+  {
+    "id": 80429004,
+    "warId": 8384,
+    "priority": 1,
+    "referenceType": 4,
+    "referenceId": 80429,
+    "message": "活動舉辦時間 剩餘 {0}",
+    "script": [
+      {
+        "startTime": 0,
+        "color": "#FFFFFF",
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      },
+      {
+        "startTime": 1686024000,
+        "color": "#FFEB04FF",
+        "frameOffset": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "isFrameBg": true
+      }
+    ],
+    "openedAt": "1716444000",
+    "closedAt": "1717685999"
   }
 ]
