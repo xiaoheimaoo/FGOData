@@ -36,6 +36,85 @@
   },
   {
     "targetIds": [
+      "[3001401]",
+      "[3001402]",
+      "[3001403]",
+      "[3001404]",
+      "[3001405]",
+      "[3001406]",
+      "[3001407]",
+      "[3001408]",
+      "[3002401]",
+      "[3002402]",
+      "[3002403]",
+      "[3002404]",
+      "[3002405]",
+      "[3002406]",
+      "[3002407]",
+      "[3002408]"
+    ],
+    "condIds": [],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "\n\n\n\nORT, who appears in the all-out war, possesses a massive amount of HP. When inflicting damage, HP will be depleted.\nThis damage will be carried over to the next battle.\n\nWhen your entire party is wiped out, you will not be able to Continue, but the depleted HP will be carried over\nto the next battle.\n\nIf you withdraw from battle, the depleted HP will not be carried over to the next battle. Instead, HP will revert to the value prior to the start of the battle.",
+        "rects": [
+          {
+            "x": -622,
+            "y": 200,
+            "w": 690,
+            "h": 120
+          }
+        ],
+        "textPos": [
+          0,
+          24
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": -83,
+    "flagType": 8,
+    "num": 1,
+    "priority": 0,
+    "openType": 5,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[31103]"
+    ],
+    "condIds": [
+      3001324
+    ],
+    "imageIds": [
+      62,
+      63,
+      64
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": -82,
+    "flagType": 2,
+    "num": 1,
+    "priority": 0,
+    "openType": 1,
+    "condType": 46,
+    "condValue": 1,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
       "[3001302,2]"
     ],
     "condIds": [],

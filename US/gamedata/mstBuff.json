@@ -1030,6 +1030,7 @@
     "vals": [
       3004,
       3007,
+      3085,
       3040
     ],
     "tvals": [],
@@ -1660,7 +1661,9 @@
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
-    "script": {},
+    "script": {
+      "INDIVIDUALITIE": -3086
+    },
     "id": 180,
     "buffGroup": 600,
     "type": 37,
@@ -2910,7 +2913,9 @@
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
-    "script": {},
+    "script": {
+      "INDIVIDUALITIE": -3086
+    },
     "id": 244,
     "buffGroup": 600,
     "type": 104,
@@ -4739,7 +4744,9 @@
     "effectId": 0
   },
   {
-    "vals": [],
+    "vals": [
+      3085
+    ],
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
@@ -4754,7 +4761,9 @@
     "effectId": 0
   },
   {
-    "vals": [],
+    "vals": [
+      3085
+    ],
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
@@ -5442,7 +5451,8 @@
     "vals": [
       3004,
       3006,
-      3028
+      3028,
+      2852
     ],
     "tvals": [],
     "ckSelfIndv": [
@@ -5462,7 +5472,8 @@
   {
     "vals": [
       3004,
-      3006
+      3006,
+      2852
     ],
     "tvals": [],
     "ckSelfIndv": [
@@ -5519,7 +5530,8 @@
     "vals": [
       3004,
       3006,
-      3031
+      3031,
+      2852
     ],
     "tvals": [],
     "ckSelfIndv": [
@@ -6220,7 +6232,8 @@
   },
   {
     "vals": [
-      2080
+      2080,
+      3085
     ],
     "tvals": [],
     "ckSelfIndv": [],
@@ -7091,7 +7104,8 @@
     "vals": [
       3004,
       3006,
-      3030
+      3030,
+      2852
     ],
     "tvals": [],
     "ckSelfIndv": [
@@ -7112,7 +7126,8 @@
     "vals": [
       3004,
       3006,
-      3030
+      3030,
+      2852
     ],
     "tvals": [],
     "ckSelfIndv": [
@@ -7133,7 +7148,8 @@
     "vals": [
       3004,
       3006,
-      3030
+      3030,
+      2852
     ],
     "tvals": [],
     "ckSelfIndv": [
@@ -9407,7 +9423,8 @@
   },
   {
     "vals": [
-      3004
+      3004,
+      3085
     ],
     "tvals": [],
     "ckSelfIndv": [],
@@ -11973,7 +11990,9 @@
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
-    "script": {},
+    "script": {
+      "INDIVIDUALITIE": -3086
+    },
     "id": 949,
     "buffGroup": 0,
     "type": 104,
@@ -12025,7 +12044,8 @@
     "vals": [
       3004,
       3006,
-      3031
+      3031,
+      2852
     ],
     "tvals": [],
     "ckSelfIndv": [
@@ -13454,6 +13474,7 @@
     "vals": [
       3004,
       3007,
+      3085,
       3040
     ],
     "tvals": [],
@@ -20073,6 +20094,7 @@
   },
   {
     "vals": [
+      3085,
       3040
     ],
     "tvals": [],
@@ -21559,7 +21581,8 @@
   },
   {
     "vals": [
-      2384
+      2384,
+      3085
     ],
     "tvals": [],
     "ckSelfIndv": [],
@@ -23259,7 +23282,8 @@
     "vals": [
       3004,
       3006,
-      3031
+      3031,
+      2852
     ],
     "tvals": [
       5000,
@@ -23322,7 +23346,8 @@
     "vals": [
       3004,
       3006,
-      3031
+      3031,
+      2852
     ],
     "tvals": [],
     "ckSelfIndv": [
@@ -23529,7 +23554,9 @@
     "effectId": 0
   },
   {
-    "vals": [],
+    "vals": [
+      3085
+    ],
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
@@ -25129,7 +25156,8 @@
     "vals": [
       3004,
       3006,
-      3031
+      3031,
+      2852
     ],
     "tvals": [
       5000,
@@ -25349,6 +25377,7 @@
     "vals": [
       3004,
       3007,
+      3085,
       3040
     ],
     "tvals": [],
@@ -25397,7 +25426,9 @@
     "effectId": 0
   },
   {
-    "vals": [],
+    "vals": [
+      3085
+    ],
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
@@ -25842,7 +25873,8 @@
   {
     "vals": [
       3004,
-      3006
+      3006,
+      2852
     ],
     "tvals": [
       4001,
@@ -25859,7 +25891,7 @@
     "id": 1831,
     "buffGroup": 0,
     "type": 116,
-    "name": "Hit Count Up (Arts)",
+    "name": "Hit Count Up: Arts",
     "detail": "Double the number of hits of normal Arts Card attacks and decrease hit strength proportionally",
     "iconId": 349,
     "maxRate": 10,
@@ -25869,7 +25901,8 @@
     "vals": [
       3004,
       3006,
-      3028
+      3028,
+      2852
     ],
     "tvals": [
       4001,
@@ -25886,8 +25919,8 @@
     "id": 1832,
     "buffGroup": 0,
     "type": 11,
-    "name": "Strength Up (Arts)",
-    "detail": "Increase damage dealt using normal Arts Card attacks",
+    "name": "Strength Up: Arts",
+    "detail": "Increase normal Arts Card ATK damage",
     "iconId": 302,
     "maxRate": 10000,
     "effectId": 0
@@ -26917,7 +26950,9 @@
     "effectId": 0
   },
   {
-    "vals": [],
+    "vals": [
+      3085
+    ],
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [
@@ -29706,7 +29741,7 @@
     "id": 2511,
     "buffGroup": 0,
     "type": 96,
-    "name": "Overcharge Lv. Up (Rome)",
+    "name": "Overcharge Lv. Up (Roman)",
     "detail": "In a [Roman] state, increase Overcharge level by 2 when using Noble Phantasm",
     "iconId": 336,
     "maxRate": 5,
@@ -29731,7 +29766,7 @@
     "id": 2512,
     "buffGroup": 0,
     "type": 52,
-    "name": "Quick Up (Rome)",
+    "name": "Quick Up (Roman)",
     "detail": "In a [Roman] state, increase Quick Card effectiveness",
     "iconId": 312,
     "maxRate": 5000,
@@ -29756,7 +29791,7 @@
     "id": 2513,
     "buffGroup": 0,
     "type": 52,
-    "name": "Arts Up (Rome)",
+    "name": "Arts Up (Roman)",
     "detail": "In a [Roman] state, increase Arts Card effectiveness",
     "iconId": 313,
     "maxRate": 5000,
@@ -29781,7 +29816,7 @@
     "id": 2514,
     "buffGroup": 0,
     "type": 52,
-    "name": "Buster Up (Rome)",
+    "name": "Buster Up (Roman)",
     "detail": "In a [Roman] state, increase Buster Card effectiveness",
     "iconId": 314,
     "maxRate": 5000,
@@ -29801,7 +29836,7 @@
     "id": 2515,
     "buffGroup": 0,
     "type": 17,
-    "name": "NP Gain Up (Rome)",
+    "name": "NP Gain Up (Roman)",
     "detail": "In a [Roman] state, increase NP Gain",
     "iconId": 303,
     "maxRate": 5000,
@@ -29821,7 +29856,7 @@
     "id": 2516,
     "buffGroup": 0,
     "type": 3,
-    "name": "C. Star Drop Rate Up (Rome)",
+    "name": "C. Star Drop Rate Up (Roman)",
     "detail": "In a [Roman] state, increase C. Star drop rate",
     "iconId": 321,
     "maxRate": 5000,
@@ -30980,7 +31015,8 @@
     "vals": [
       3004,
       3006,
-      3031
+      3031,
+      2852
     ],
     "tvals": [
       5000,
@@ -32950,6 +32986,7 @@
     "vals": [
       3004,
       3007,
+      3085,
       3040,
       2609
     ],
@@ -33818,7 +33855,9 @@
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
-    "script": {},
+    "script": {
+      "INDIVIDUALITIE": -3086
+    },
     "id": 2747,
     "buffGroup": 0,
     "type": 37,
@@ -35169,8 +35208,8 @@
     "id": 2820,
     "buffGroup": 0,
     "type": 40,
-    "name": "Apply Trait (Rome)",
-    "detail": "Apply [Rome] trait (treated as Buff)",
+    "name": "Apply Trait (Roman)",
+    "detail": "Apply [Romen] trait (treated as Buff)",
     "iconId": 360,
     "maxRate": 0,
     "effectId": 0
@@ -35191,8 +35230,8 @@
     "id": 2821,
     "buffGroup": 0,
     "type": 89,
-    "name": "Bonus Effect with Critical ATK (Apply Rome Trait)",
-    "detail": "Apply [Rome] trait through your Critical attacks",
+    "name": "Bonus Effect with Critical ATK (Apply Roman Trait)",
+    "detail": "Apply [Romen] trait through your Critical attacks",
     "iconId": 333,
     "maxRate": 0,
     "effectId": 0
@@ -35392,8 +35431,8 @@
     "id": 2832,
     "buffGroup": 0,
     "type": 40,
-    "name": "Apply Trait (Rome)",
-    "detail": "Apply [Rome] trait (treated as Debuff)",
+    "name": "Apply Trait (Roman)",
+    "detail": "Apply [Romen] trait (treated as Debuff)",
     "iconId": 360,
     "maxRate": 0,
     "effectId": 0
@@ -35421,7 +35460,8 @@
     "vals": [
       3004,
       3006,
-      3027
+      3027,
+      2852
     ],
     "tvals": [
       5000,
@@ -36135,7 +36175,9 @@
     "effectId": 0
   },
   {
-    "vals": [],
+    "vals": [
+      3085
+    ],
     "tvals": [
       2649
     ],
@@ -37176,7 +37218,9 @@
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
-    "script": {},
+    "script": {
+      "INDIVIDUALITIE": -3086
+    },
     "id": 2932,
     "buffGroup": 0,
     "type": 37,
@@ -37425,7 +37469,9 @@
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
-    "script": {},
+    "script": {
+      "INDIVIDUALITIE": -3086
+    },
     "id": 2946,
     "buffGroup": 0,
     "type": 104,
@@ -37454,7 +37500,8 @@
   },
   {
     "vals": [
-      2669
+      2669,
+      3085
     ],
     "tvals": [],
     "ckSelfIndv": [],
@@ -37560,7 +37607,8 @@
   },
   {
     "vals": [
-      2702
+      2702,
+      3085
     ],
     "tvals": [],
     "ckSelfIndv": [],
@@ -38406,7 +38454,9 @@
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
-    "script": {},
+    "script": {
+      "INDIVIDUALITIE": -3086
+    },
     "id": 3002,
     "buffGroup": 0,
     "type": 37,
@@ -39189,6 +39239,7 @@
     "vals": [
       3004,
       3007,
+      3085,
       3040
     ],
     "tvals": [],
@@ -42718,6 +42769,7 @@
     "vals": [
       3004,
       3007,
+      3085,
       3040
     ],
     "tvals": [],
@@ -43186,6 +43238,7 @@
       3004,
       3006,
       3031,
+      2852,
       2802
     ],
     "tvals": [
@@ -44053,7 +44106,9 @@
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
-    "script": {},
+    "script": {
+      "INDIVIDUALITIE": -3086
+    },
     "id": 3330,
     "buffGroup": 0,
     "type": 37,
@@ -46261,7 +46316,8 @@
   },
   {
     "vals": [
-      6026
+      6026,
+      3085
     ],
     "tvals": [],
     "ckSelfIndv": [],
@@ -46278,7 +46334,8 @@
   },
   {
     "vals": [
-      6027
+      6027,
+      3085
     ],
     "tvals": [],
     "ckSelfIndv": [],
@@ -48024,7 +48081,9 @@
     "effectId": 0
   },
   {
-    "vals": [],
+    "vals": [
+      3085
+    ],
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
@@ -49117,7 +49176,8 @@
   },
   {
     "vals": [
-      6021
+      6021,
+      3085
     ],
     "tvals": [],
     "ckSelfIndv": [],
@@ -51657,7 +51717,9 @@
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
-    "script": {},
+    "script": {
+      "INDIVIDUALITIE": -3086
+    },
     "id": 3761,
     "buffGroup": 0,
     "type": 37,
@@ -51674,7 +51736,9 @@
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
-    "script": {},
+    "script": {
+      "INDIVIDUALITIE": -3086
+    },
     "id": 3762,
     "buffGroup": 0,
     "type": 149,
@@ -52871,6 +52935,7 @@
     "vals": [
       3004,
       3007,
+      3085,
       3040
     ],
     "tvals": [],
@@ -53905,7 +53970,8 @@
   },
   {
     "vals": [
-      6026
+      6026,
+      3085
     ],
     "tvals": [],
     "ckSelfIndv": [],
@@ -54209,6 +54275,7 @@
     "vals": [
       3004,
       3007,
+      3085,
       3040
     ],
     "tvals": [],
@@ -54824,7 +54891,8 @@
   },
   {
     "vals": [
-      6026
+      6026,
+      3085
     ],
     "tvals": [],
     "ckSelfIndv": [],
@@ -59184,7 +59252,7 @@
     "buffGroup": 0,
     "type": 89,
     "name": "Bonus Effect when Attacking (Remove Buffs)",
-    "detail": "Medium chance to remove Buffs from [Rome] targets during normal attacks",
+    "detail": "Medium chance to remove Buffs from [Romen] targets during normal attacks",
     "iconId": 528,
     "maxRate": 0,
     "effectId": 0
@@ -59203,7 +59271,7 @@
     "buffGroup": 0,
     "type": 89,
     "name": "Bonus Effect when Attacking (Buster Down)",
-    "detail": "Medium chance to decrease Buster Card effectiveness for [Rome] targets during normal attacks",
+    "detail": "Medium chance to decrease Buster Card effectiveness for [Romen] targets during normal attacks",
     "iconId": 528,
     "maxRate": 0,
     "effectId": 0
@@ -59222,7 +59290,7 @@
     "buffGroup": 0,
     "type": 89,
     "name": "Bonus Effect when Attacking (Arts Down)",
-    "detail": "Medium chance to decrease Arts Card effectiveness for [Rome] targets during normal attacks",
+    "detail": "Medium chance to decrease Arts Card effectiveness for [Romen] targets during normal attacks",
     "iconId": 528,
     "maxRate": 0,
     "effectId": 0
@@ -59238,8 +59306,8 @@
     "id": 4171,
     "buffGroup": 0,
     "type": 40,
-    "name": "Apply Trait (Rome)",
-    "detail": "Apply [Rome] trait (treated as Debuff)",
+    "name": "Apply Trait (Roman)",
+    "detail": "Apply [Romen] trait (treated as Debuff)",
     "iconId": 360,
     "maxRate": 0,
     "effectId": 0
@@ -60132,6 +60200,7 @@
     "vals": [
       3004,
       3007,
+      3085,
       3040
     ],
     "tvals": [],
@@ -60790,6 +60859,7 @@
     "vals": [
       3004,
       3007,
+      3085,
       3040
     ],
     "tvals": [],
@@ -61889,6 +61959,7 @@
     "vals": [
       3004,
       3007,
+      3085,
       3040
     ],
     "tvals": [],
@@ -62560,6 +62631,7 @@
     "vals": [
       3004,
       3007,
+      3085,
       3040,
       6028
     ],
@@ -64171,7 +64243,7 @@
     "id": 4432,
     "buffGroup": 0,
     "type": 137,
-    "name": "Bonus Effect when Attacking",
+    "name": "Bonus Effect with ATK",
     "detail": "Apply one state of [Magecraft Tears] to yourself when attacking on a [Near Water] field",
     "iconId": 333,
     "maxRate": 0,
@@ -65083,6 +65155,7 @@
     "vals": [
       3004,
       3007,
+      3085,
       3040
     ],
     "tvals": [],
@@ -66982,7 +67055,9 @@
     "effectId": 0
   },
   {
-    "vals": [],
+    "vals": [
+      3085
+    ],
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
@@ -69405,7 +69480,7 @@
     "id": 4711,
     "buffGroup": 0,
     "type": 137,
-    "name": "Bonus Effect on Attack",
+    "name": "Bonus Effect with ATK",
     "detail": "During attack, remove 1 ATK Buff of a target",
     "iconId": 528,
     "maxRate": 0,
@@ -69424,7 +69499,7 @@
     "id": 4712,
     "buffGroup": 0,
     "type": 137,
-    "name": "Bonus Effect on Attack",
+    "name": "Bonus Effect with ATK",
     "detail": "During attack, remove 1 DEF Buff of a target",
     "iconId": 528,
     "maxRate": 0,
@@ -70041,6 +70116,7 @@
   },
   {
     "vals": [
+      3085,
       3040
     ],
     "tvals": [],
@@ -70681,6 +70757,25 @@
     "detail": "Increase chance of sustaining Critical Attacks",
     "iconId": 559,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 4780,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect when Attacking",
+    "detail": "Decrease your own HP when attacking",
+    "iconId": 549,
+    "maxRate": 0,
     "effectId": 0
   },
   {
@@ -71452,7 +71547,8 @@
     "vals": [
       3004,
       3006,
-      6016
+      6016,
+      3094
     ],
     "tvals": [
       5000,
@@ -71476,7 +71572,8 @@
     "vals": [
       3004,
       3006,
-      6016
+      6016,
+      3092
     ],
     "tvals": [
       5000,
@@ -71500,7 +71597,8 @@
     "vals": [
       3004,
       3006,
-      6016
+      6016,
+      3093
     ],
     "tvals": [
       5000,
@@ -74076,7 +74174,7 @@
     "id": 5168,
     "buffGroup": 0,
     "type": 85,
-    "name": "Hazy Mirror",
+    "name": "Smoky Mirror",
     "detail": "Apply Invincible to yourself at the end of turn",
     "iconId": 343,
     "maxRate": 0,
@@ -74249,7 +74347,7 @@
     "id": 5177,
     "buffGroup": 0,
     "type": 137,
-    "name": "Bonus Effect on Attack",
+    "name": "Bonus Effect with ATK",
     "detail": "Remove 1 Buff of target when attacking",
     "iconId": 528,
     "maxRate": 0,
@@ -75366,7 +75464,7 @@
     "id": 5241,
     "buffGroup": 0,
     "type": 42,
-    "name": "Hazy Mirror",
+    "name": "Smoky Mirror",
     "detail": "Increase DEF & no longer incapacitated",
     "iconId": 301,
     "maxRate": 5000,
@@ -75513,6 +75611,1662 @@
     "detail": "When HP reaches 0, high chance to recover HP and survive",
     "iconId": 304,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3059,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5249,
+    "buffGroup": 0,
+    "type": 72,
+    "name": "Teachings of the Sun",
+    "detail": "Ignore Evade and Invincible, and deal damage",
+    "iconId": 329,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5250,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Teachings of the Sun",
+    "detail": "Apply Ignore Invincible & Debuff Immune to yourself at the end of turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [
+      3005
+    ],
+    "ckOpIndv": [
+      501200
+    ],
+    "script": {},
+    "id": 5251,
+    "buffGroup": 0,
+    "type": 27,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5252,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "Obsidian Riverbank",
+    "detail": "Increase DEF",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5253,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Obsidian Riverbank",
+    "detail": "Increase ATK for yourself when sustaining attack",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [
+      4100
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5254,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Giant Killing",
+    "detail": "Immune against effects of [Infinite Growth EX] for 1 turn & remove 1 [Growth EX] during a Critical attack + When successfully removed, increase Critical Hit damage for yourself",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3025
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5255,
+    "buffGroup": 9999,
+    "type": 40,
+    "name": "Infinite Growth Seal ",
+    "detail": "Nullify [Infinite Growth EX]",
+    "iconId": 511,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3059,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5256,
+    "buffGroup": 0,
+    "type": 72,
+    "name": "Dead Apostole",
+    "detail": "Ignore Evade and Invincible to deal damage",
+    "iconId": 329,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5257,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Dead Apostole",
+    "detail": "Absorb target's HP when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5258,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bloodthirsty Moan",
+    "detail": "Apply HP recovery per turn for yourself during attack",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5259,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "Organism Modification",
+    "detail": "Increase DEF & decrease damage taken",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      1002
+    ],
+    "script": {},
+    "id": 5260,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Dead Jamming",
+    "detail": "Medium chance to inflict Stun against target [Undead] when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5261,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Dead Jamming",
+    "detail": "Increase Charge for yourself by 1 at end of turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 5262,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "One-Man Army",
+    "detail": "Increase NP resistance",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5263,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "One-Man Army",
+    "detail": "Decrease HP for all enemies except target when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5264,
+    "buffGroup": 450,
+    "type": 121,
+    "name": "Scorpion Alias",
+    "detail": "Ignore DEF Up and deal damage",
+    "iconId": 351,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5265,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Scorpion Alias",
+    "detail": "Apply Evade for yourself at the end of turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5266,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Portable Radiator",
+    "detail": "Inflict Burn to target when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5267,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Whirling Sandstorm",
+    "detail": "Apply Evade for yourself at the end of turn + Medium chance to apply Evade to all enemies [Demerit]",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5268,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Special Resist Up",
+    "detail": "Gain resistance to all attacks <Effect increases with more Gugalanna>",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5269,
+    "buffGroup": 600,
+    "type": 37,
+    "name": "Revolutionary Bounded Ravine, Heaven's Roaring Temple",
+    "detail": "When HP reaches 0, recover HP and survive",
+    "iconId": 304,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5270,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5271,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "Bonus Effect when Defeated",
+    "detail": "Recover HP & increase NP Gauge for yourself when defeating an enemy",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5272,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Attack Effect",
+    "detail": "Decrease target's ATK when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5273,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Obsidian Artificial Leg",
+    "detail": "Decrease target's Buff, Debuff Success Rate when using normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [
+      3005
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5274,
+    "buffGroup": 0,
+    "type": 28,
+    "name": "Debuff Success Rate Down",
+    "detail": "Decrease Debuff Success Rate",
+    "iconId": 507,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5275,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "Call of the Forest",
+    "detail": "Increase Charge by 1 each turn",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3010,
+      3049
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5276,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Terror",
+    "detail": "Chance to inflict Stun each turn",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5277,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Warning Signal",
+    "detail": "Increase NP Charge by 1 for all allies <includes sub-members> except yourself when HP reaches 0",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3085,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5278,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "Prison Cavelike Cactus",
+    "detail": "Decrease damage taken & increase NP Charge by 1 each turn & increase Quick, Arts resistance & decrease Buster resistance [Demerit]",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5279,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "City on a Bountiful Lake",
+    "detail": "Increase NP Charge by 2 each turn & restore HP at the end of turn & increase C. Star drop rate when damaged [Demerit]",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5280,
+    "buffGroup": 0,
+    "type": 7,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5281,
+    "buffGroup": 0,
+    "type": 152,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5282,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Frostbite",
+    "detail": "Decrease HP at the end of turn",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5283,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Infinite Conflict",
+    "detail": "Summon ocelotl at the start of the enemy turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5284,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Return to Michtlampa",
+    "detail": "Apply Guts to ally Tezcatlipoca when HP reaches 0",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3023
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5285,
+    "buffGroup": 700,
+    "type": 38,
+    "name": "Necromancy",
+    "detail": "Set Target to yourself",
+    "iconId": 323,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5286,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Necromancy",
+    "detail": "Inflict NP Seal to all enemies at the end of turn",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5287,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Quasi-Stellar Signal",
+    "detail": "Low chance to inflict Electrify, Burn to target when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5288,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Quasi-Stellar Signal",
+    "detail": "Low chance to inflict Electrify, Burn when attacked ",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5289,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Beyond Outer Space",
+    "detail": "Gain resistance to all attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5290,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Beyond Outer Space",
+    "detail": "Remove Debuffs for yourself at the end of turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5291,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3056,
+      3045
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003,
+      -4007
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 5292,
+    "buffGroup": 40,
+    "type": 134,
+    "name": "Normal Attack Seal",
+    "detail": "Cannot attack except with Noble Phantasms",
+    "iconId": 564,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3056,
+      3045
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001,
+      -4007
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 5293,
+    "buffGroup": 41,
+    "type": 134,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3056,
+      3045
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002,
+      -4007
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 5294,
+    "buffGroup": 42,
+    "type": 134,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5296,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Activate on Defeat",
+    "detail": "Increase Skill Charge by 1 for all allies when HP reaches 0",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3017
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "HP_HIGHER": 1000
+    },
+    "id": 5297,
+    "buffGroup": 0,
+    "type": 92,
+    "name": "Special Resist Down",
+    "detail": "Decrease resistance against all attacks while HP is at 100%",
+    "iconId": 529,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3019,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5298,
+    "buffGroup": 0,
+    "type": 25,
+    "name": "Midday Sun",
+    "detail": "Ignore Evade and inflict damage with attacks",
+    "iconId": 309,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3059,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5299,
+    "buffGroup": 0,
+    "type": 72,
+    "name": "Dawn Sun",
+    "detail": "Ignore Evade and Invincible and inflict damage with attacks",
+    "iconId": 329,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4008
+    ],
+    "script": {},
+    "id": 5300,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Smoky Mirror",
+    "detail": "Gain resistance to normal attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 5301,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Reflective Odd Wing",
+    "detail": "Gain resistance to NP Damage",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5302,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Bloodthirsty Demonic Wing",
+    "detail": "Your HP gets absorbed at the end of turn",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5303,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "One-Death",
+    "detail": "Inflict Poison to target when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5304,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Seven-Death",
+    "detail": "Low chance to inflict Death to target when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3070
+    ],
+    "tvals": [
+      3027
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3027
+    ],
+    "script": {},
+    "id": 5305,
+    "buffGroup": 9999,
+    "type": 31,
+    "name": "ATK Up Immune",
+    "detail": "Immune to ATK Up",
+    "iconId": 531,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3070
+    ],
+    "tvals": [
+      3031
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3031
+    ],
+    "script": {},
+    "id": 5306,
+    "buffGroup": 9998,
+    "type": 31,
+    "name": "Critical Strength Up Immune",
+    "detail": "Immune to Critical Strength Up",
+    "iconId": 531,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3070
+    ],
+    "tvals": [
+      3058
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3058
+    ],
+    "script": {},
+    "id": 5307,
+    "buffGroup": 9997,
+    "type": 31,
+    "name": "DEF Up Immune",
+    "detail": "Immune to DEF Up",
+    "iconId": 531,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3070
+    ],
+    "tvals": [
+      3085
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3085
+    ],
+    "script": {},
+    "id": 5308,
+    "buffGroup": 9996,
+    "type": 31,
+    "name": "Damage Cut Immune",
+    "detail": "Immune to Damage Cut",
+    "iconId": 531,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5309,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "House of Jaguars, Balamiha",
+    "detail": "Apply state that \"increases number of actions for the next turn\" after turn",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5310,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "House of Bats, Zotzilaha ",
+    "detail": "Absorb target's HP when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5311,
+    "buffGroup": 0,
+    "type": 170,
+    "name": "Number of Actions Up",
+    "detail": "Increase number of actions",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5312,
+    "buffGroup": 0,
+    "type": 171,
+    "name": "Number of Actions Down",
+    "detail": "Decrease number of actions",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5313,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Arts Up",
+    "detail": "Increase Arts Card effectiveness",
+    "iconId": 313,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5314,
+    "buffGroup": 1900,
+    "type": 115,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5315,
+    "buffGroup": 0,
+    "type": 172,
+    "name": "Guts at Break",
+    "detail": "Recover HP and survive when HP Gauge gets broken",
+    "iconId": 384,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5316,
+    "buffGroup": 0,
+    "type": 173,
+    "name": "Guts at Break",
+    "detail": "Recover HP and survive when HP Gauge gets broken",
+    "iconId": 384,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5318,
+    "buffGroup": 0,
+    "type": 10003,
+    "name": "Starring Invade",
+    "detail": "Negate the field's characteristics",
+    "iconId": 562,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3079
+    ],
+    "script": {},
+    "id": 5319,
+    "buffGroup": 0,
+    "type": 10002,
+    "name": "Starring Invade",
+    "detail": "Field will not change",
+    "iconId": 701,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5320,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "Teachings of the Sun",
+    "detail": "Increase Critical Hit damage & increase C. Star Gather Rate",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5321,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Smoky Mirror",
+    "detail": "Apply Invincible to yourself at the end of turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5322,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "Smoky Mirror",
+    "detail": "Increase ATK",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5323,
+    "buffGroup": 0,
+    "type": 174,
+    "name": "Master Skill Effect Up",
+    "detail": "Increase a portion of the Master Skills effects when you are on the field",
+    "iconId": 376,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3070
+    ],
+    "tvals": [
+      3022
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3022
+    ],
+    "script": {},
+    "id": 5324,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "Invincible Immune",
+    "detail": "Immune to Invincible",
+    "iconId": 531,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5325,
+    "buffGroup": 0,
+    "type": 176,
+    "name": "Negate Field Trait [Sunlight]",
+    "detail": "Negate the field's [Sunlight]",
+    "iconId": 565,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5326,
+    "buffGroup": 0,
+    "type": 175,
+    "name": "Apply Anti-Enforcement DEF ",
+    "detail": "Change the Invincible effect to Anti-Enforcement DEF applied to yourself",
+    "iconId": 377,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3014,
+      3045
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5327,
+    "buffGroup": 0,
+    "type": 32,
+    "name": "Stun",
+    "detail": "Unable to act",
+    "iconId": 501,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 158
+    },
+    "id": 5328,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "Class Affinity Change",
+    "detail": "Negate the Class Affinity disadvantage",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5329,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5330,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "Return to Michtlampa",
+    "detail": "Increase Charge by 2 each turn",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      3015
+    ],
+    "ckSelfIndv": [
+      3015
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5331,
+    "buffGroup": 0,
+    "type": 27,
+    "name": "Quasi-Stellar Signal",
+    "detail": "Increase Burn infliction rate <Effect increases with the number of enemies at the start of battle>",
+    "iconId": 307,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5332,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Quasi-Stellar Signal",
+    "detail": "Increase damage dealt <Effect increases with the number of enemies at the start of battle>",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6035
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5333,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3020
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 5334,
+    "buffGroup": 0,
+    "type": 34,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      3063
+    ],
+    "ckSelfIndv": [
+      3063
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5335,
+    "buffGroup": 0,
+    "type": 27,
+    "name": "Quasi-Stellar Signal",
+    "detail": "Increase Electrify infliction rate  <Effect increases with the number of enemies at the start of battle>",
+    "iconId": 307,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2039
+    },
+    "id": 5337,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "NP Strength Up [Near Water]",
+    "detail": "Increase NP damage when the field is [Near Water]",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 303
+    },
+    "id": 5338,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "NP Strength Up",
+    "detail": "Increase NP damage",
+    "iconId": 310,
+    "maxRate": 5000,
     "effectId": 0
   },
   {
@@ -75900,7 +77654,8 @@
       118,
       119,
       121,
-      123
+      123,
+      122
     ],
     "ckSelfIndv": [],
     "ckOpIndv": [
@@ -75918,7 +77673,8 @@
       118,
       119,
       121,
-      123
+      123,
+      122
     ],
     "script": {},
     "id": 30016,
@@ -76203,6 +77959,1273 @@
     "detail": "Increase ATK against [Pretender] class",
     "iconId": 300,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94081400,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "",
+    "detail": "",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94081401,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Cosmic Ray",
+    "detail": "Inflict [Cosmic Ray Interference] to target & increase [Cosmic Ray Interference] effects when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94081402,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Cosmic Ray",
+    "detail": "Inflict [Cosmic Ray Interference] to target & increase [Cosmic Ray Interference] effects when attacked",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6034,
+      3042
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94081403,
+    "buffGroup": 9999,
+    "type": 80,
+    "name": "Cosmic Ray Interference",
+    "detail": "Decrease Max HP by percentage <Effect increases when battling ORT>",
+    "iconId": 522,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6035
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94081404,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 522,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      1172
+    ],
+    "script": {},
+    "id": 94081405,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Mighty Heart, Antibody",
+    "detail": "Gain resistance against ORT's attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94081406,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Starring Invade",
+    "detail": "Negate the field's characteristics & field will not change & increase the effects of the [Cosmic Ray Interference] for all enemies at the end of each turn",
+    "iconId": 562,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6043
+    },
+    "id": 94081408,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "",
+    "detail": "",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94081409,
+    "buffGroup": 9998,
+    "type": 176,
+    "name": "",
+    "detail": "",
+    "iconId": 562,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3079
+    ],
+    "script": {},
+    "id": 94081410,
+    "buffGroup": 9997,
+    "type": 10002,
+    "name": "",
+    "detail": "",
+    "iconId": 701,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94081411,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "",
+    "detail": "",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6043
+    },
+    "id": 94081412,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Dark Matter Plankton",
+    "detail": "Chance to absorb attack, defense Buffs of all enemies at the end of turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94081413,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Revolution Web",
+    "detail": "Prohibits all enemies from willingly leaving the field while you are on the field",
+    "iconId": 563,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6041
+    },
+    "id": 94081414,
+    "buffGroup": 9996,
+    "type": 141,
+    "name": "Orbital Silver Thread",
+    "detail": "Recover HP when HP reaches 0 other than from ORT's attacks & decrease DEF for all allies when Orbital Silver Thread, Guts is activated",
+    "iconId": 563,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6026,
+      3024,
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "gutsText": "Orbital Silver Thread",
+      "INDIVIDUALITIE": 6041
+    },
+    "id": 94081415,
+    "buffGroup": 9995,
+    "type": 104,
+    "name": "",
+    "detail": "",
+    "iconId": 563,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6026,
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94081416,
+    "buffGroup": 9994,
+    "type": 149,
+    "name": "",
+    "detail": "",
+    "iconId": 563,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6026,
+      6039
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94081417,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Ether Drinker",
+    "detail": "Medium chance to absorb NP from all enemies every 2 turns",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6026,
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6039
+    },
+    "id": 94081418,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "",
+    "detail": "",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94081419,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Earnest Union",
+    "detail": "Inflict either Poison, Burn, Curse, DEF Down, or HP Recovery Down to target when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6043
+    },
+    "id": 94081420,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Galactica Supercell",
+    "detail": "Inflict damage to all enemies <possible to be immune to Evade, Invincible, Anti-Enforcement DEF> & increase [Cosmic Ray Interference] effect at the end of turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94081421,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Paradigm Inflation",
+    "detail": "When the enemy or yourself activates a skill to Buff an attack, a portion of the Buff effect <ATK Up, Critical Strength Up, NP Strength Up, Special Attack UP, etc.> can be duplicated and applied to yourself ",
+    "iconId": 381,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3005
+    },
+    "id": 94081422,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Paradox Canceller",
+    "detail": "When Debuffed, remove 3 Debuffs for yourself & increase ATK based on the number of successful removal",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94081423,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "PP Chain/Seven Ether",
+    "detail": "Apply \"set Charge to maximum each turn\" for yourself after turn",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94081424,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "PP Chain/Seven Ether",
+    "detail": "Set Charge to maximum for yourself at the end of turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94081425,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Analysis Complete",
+    "detail": "Immune to Buff & unable to use skill & decrease HP recovery amount, NP Gain, C. Star Drop Rate & decrease your HP when Guts is activated",
+    "iconId": 531,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      6029
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      6029
+    ],
+    "script": {},
+    "id": 94081426,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Strength Up [Analysis Complete]",
+    "detail": "Increase damage against enemies in [Analysis Complete] state",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94081427,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Paradigm Inflation",
+    "detail": "Increase ATK for yourself when an enemy activates a skill",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94081428,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Third Extermination",
+    "detail": "Decrease HP for all enemies at the end of turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3056,
+      3045,
+      6026
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94081429,
+    "buffGroup": 41,
+    "type": 134,
+    "name": "Arts Seal",
+    "detail": "Unable to use Arts Cards",
+    "iconId": 552,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94081430,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Century of Darkness",
+    "detail": "Apply Sleep to yourself at the end of turn",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94081431,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Earnest Union",
+    "detail": "Inflict either Poison, Burn, Curse, DEF Down, or HP Recovery Down to target when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94081432,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Century of Jaguars",
+    "detail": "Remove 1 Buff from target when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      4100
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6039
+    },
+    "id": 94081433,
+    "buffGroup": 0,
+    "type": 148,
+    "name": "What Crosses Boundaries",
+    "detail": "Make 1 enemy leave during Critical Hits <Will not activate if Guts Immune, or if there is only 1 enemy left>",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94081434,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94081435,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94081436,
+    "buffGroup": 0,
+    "type": 95,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94081437,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "",
+    "detail": "",
+    "iconId": 556,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 100
+    },
+    "id": 94081438,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 102
+    },
+    "id": 94081439,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 101
+    },
+    "id": 94081440,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 103
+    },
+    "id": 94081441,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 104
+    },
+    "id": 94081442,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 105
+    },
+    "id": 94081443,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 106
+    },
+    "id": 94081444,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -6036
+    },
+    "id": 94081445,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 100
+    },
+    "id": 94081446,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 102
+    },
+    "id": 94081447,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 101
+    },
+    "id": 94081448,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 103
+    },
+    "id": 94081449,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 104
+    },
+    "id": 94081450,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 105
+    },
+    "id": 94081451,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 106
+    },
+    "id": 94081452,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6033
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94081453,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6040
+    },
+    "id": 94081454,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94081455,
+    "buffGroup": 0,
+    "type": 41,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94081456,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 522,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94081457,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "",
+    "detail": "",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94081458,
+    "buffGroup": 0,
+    "type": 41,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      1172
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      1172
+    ],
+    "script": {},
+    "id": 94081459,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Vs. Threat to Humanity",
+    "detail": "Increase Damage against [Threat to Humanity] & increase NP Gauge at the end of the turn",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94081460,
+    "buffGroup": 0,
+    "type": 136,
+    "name": "Magical Energy Support",
+    "detail": "Increase ATK Strength during Decisive Battle at the Sea of Tree of Emptiness",
+    "iconId": 359,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -94081419
+    },
+    "id": 94081461,
+    "buffGroup": 0,
+    "type": 95,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94081462,
+    "buffGroup": 0,
+    "type": 176,
+    "name": "Starring Invade",
+    "detail": "Negate the field's characteristics & field will not change",
+    "iconId": 562,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2852
+    ],
+    "script": {},
+    "id": 94081463,
+    "buffGroup": 1000,
+    "type": 31,
+    "name": "",
+    "detail": "",
+    "iconId": 531,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "HP_LOWER": 0
+    },
+    "id": 94081464,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94081465,
+    "buffGroup": 0,
+    "type": 136,
+    "name": "Increase Special Strength",
+    "detail": "Increase ATK strength",
+    "iconId": 359,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94081466,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6021
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94081467,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "",
+    "detail": "",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3079
+    ],
+    "script": {},
+    "id": 94081468,
+    "buffGroup": 0,
+    "type": 10002,
+    "name": "",
+    "detail": "",
+    "iconId": 701,
+    "maxRate": 0,
     "effectId": 0
   }
 ]

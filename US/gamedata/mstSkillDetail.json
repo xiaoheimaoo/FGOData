@@ -5211,8 +5211,8 @@
   },
   {
     "id": 741650,
-    "detail": "Increase ATK [{0}] (3 turns) & Critical Strength [{0}] (3 turns) for all allies + Increase Critical Strength [{0}] (3 turns) of all [Rome] allies + Apply [Rome] trait to all enemies (5 turns)",
-    "detailShort": "Increase ATK [{0}] (3 turns) & Critical Strength [{0}] (3 turns) for all allies + Increase Critical Strength [{0}] (3 turns) of all [Rome] allies + Apply [Rome] trait to all enemies (5 turns)"
+    "detail": "Increase ATK [{0}] (3 turns) & Critical Strength [{0}] (3 turns) for all allies + Increase Critical Strength [{0}] (3 turns) of all [Roman] allies + Apply [Roman] trait to all enemies (5 turns)",
+    "detailShort": "Increase ATK [{0}] (3 turns) & Critical Strength [{0}] (3 turns) for all allies + Increase Critical Strength [{0}] (3 turns) of all [Roman] allies + Apply [Roman] trait to all enemies (5 turns)"
   },
   {
     "id": 742450,
@@ -5221,8 +5221,8 @@
   },
   {
     "id": 743550,
-    "detail": "Increase Buster Card effectiveness [{0}] (3 turns) & C. Star Gather Rate [{0}] (1 turn) & apply a state that \"applies [Rome] trait (5 turns) to a single enemy during Critical attacks\" for yourself (3 turns)",
-    "detailShort": "Increase Buster Card effectiveness [{0}] (3 turns) & C. Star Gather Rate [{0}] (1 turn) & apply a state that \"applies [Rome] trait (5 turns) to a single enemy during Critical attacks\" for yourself (3 turns)"
+    "detail": "Increase Buster Card effectiveness [{0}] (3 turns) & C. Star Gather Rate [{0}] (1 turn) & apply a state that \"applies [Roman] trait (5 turns) to a single enemy during Critical attacks\" for yourself (3 turns)",
+    "detailShort": "Increase Buster Card effectiveness [{0}] (3 turns) & C. Star Gather Rate [{0}] (1 turn) & apply a state that \"applies [Roman] trait (5 turns) to a single enemy during Critical attacks\" for yourself (3 turns)"
   },
   {
     "id": 744450,
@@ -8523,6 +8523,21 @@
     "id": 970053,
     "detail": "[Usable only when your NP Gauge is 100% or higher] Set NP Gauge to 0% [Demerit] for yourself + Apply Ignore Invincible (3 turns) & increase Buster Card effectiveness (3 turns) & Critical Strength (3 turns) & NP Gain (3 turns) for all allies",
     "detailShort": "[Usable only when your NP Gauge is 100% or higher] Set NP Gauge to 0% [Demerit] for yourself + Apply Ignore Invincible (3 turns) & increase Buster Card effectiveness (3 turns) & Critical Strength (3 turns) & NP Gain (3 turns) for all allies"
+  },
+  {
+    "id": 970238,
+    "detail": "Apply Evade to one ally (3 times, 3 turns)",
+    "detailShort": "Apply Evade to one ally (3 times, 3 turns)"
+  },
+  {
+    "id": 970239,
+    "detail": "Apply Sure Hit to all allies (3 turns)",
+    "detailShort": "Apply Sure Hit to all allies (3 turns)"
+  },
+  {
+    "id": 970240,
+    "detail": "Inflict Skill Seal (1 turn) & NP Seal (1 turn) for one enemy",
+    "detailShort": "Inflict Skill Seal (1 turn) & NP Seal (1 turn) for one enemy"
   },
   {
     "id": 980001,
@@ -18851,8 +18866,8 @@
   },
   {
     "id": 992175,
-    "detail": "Increase ATK by 20% for all [Rome] allies only if [servantName 304200] (Lancer) is equipped with this Craft Essence when they are on the field",
-    "detailShort": "Increase ATK by 20% for all [Rome] allies only if [servantName 304200] (Lancer) is equipped with this Craft Essence when they are on the field"
+    "detail": "Increase ATK by 20% for all [Roman] allies only if [servantName 304200] (Lancer) is equipped with this Craft Essence when they are on the field",
+    "detailShort": "Increase ATK by 20% for all [Roman] allies only if [servantName 304200] (Lancer) is equipped with this Craft Essence when they are on the field"
   },
   {
     "id": 992177,
@@ -24925,6 +24940,66 @@
     "detailShort": "Increase all allies' Death Success Rate by 10% & Arts Card effectiveness by 10% only if [servantName 1101500] (Avenger) is equipped with this Craft Essence when she is on the field"
   },
   {
+    "id": 993491,
+    "detail": "Increase Quick Card effectiveness by 15% & increase NP Charge by 2 levels when using NP (1 time) for yourself",
+    "detailShort": "Increase Quick Card effectiveness by 15% & increase NP Charge by 2 levels when using NP (1 time) for yourself"
+  },
+  {
+    "id": 993492,
+    "detail": "Increase Quick Card effectiveness by 20% & increase NP Charge by 2 levels when using NP (1 time) for yourself [MAX]",
+    "detailShort": "Increase Quick Card effectiveness by 20% & increase NP Charge by 2 levels when using NP (1 time) for yourself [MAX]"
+  },
+  {
+    "id": 993493,
+    "detail": "Increase Arts Card effectiveness by 8% & Critical Resistance by 10% for yourself",
+    "detailShort": "Increase Arts Card effectiveness by 8% & Critical Resistance by 10% for yourself"
+  },
+  {
+    "id": 993494,
+    "detail": "Increase Arts Card effectiveness by 10% & Critical Resistance by 15% for yourself [MAX]",
+    "detailShort": "Increase Arts Card effectiveness by 10% & Critical Resistance by 15% for yourself [MAX]"
+  },
+  {
+    "id": 993495,
+    "detail": "Increase Critical Strength by 20% & NP Gain by 5% for yourself",
+    "detailShort": "Increase Critical Strength by 20% & NP Gain by 5% for yourself"
+  },
+  {
+    "id": 993496,
+    "detail": "Increase Critical Strength by 25% & NP Gain by 10% for yourself [MAX]",
+    "detailShort": "Increase Critical Strength by 25% & NP Gain by 10% for yourself [MAX]"
+  },
+  {
+    "id": 993497,
+    "detail": "Increase NP Strength by 15% if a [Good] Servant is equipped with this Craft Essence",
+    "detailShort": "Increase NP Strength by 15% if a [Good] Servant is equipped with this Craft Essence"
+  },
+  {
+    "id": 993498,
+    "detail": "Increase NP Strength by 25% if a [Good] Servant is equipped with this Craft Essence [MAX]",
+    "detailShort": "Increase NP Strength by 25% if a [Good] Servant is equipped with this Craft Essence [MAX]"
+  },
+  {
+    "id": 993499,
+    "detail": "Increase Quick Card effectiveness by 8% & Arts Card effectiveness by 8% & begin battle with NP charged at 10% for yourself ",
+    "detailShort": "Increase Quick Card effectiveness by 8% & Arts Card effectiveness by 8% & begin battle with NP charged at 10% for yourself "
+  },
+  {
+    "id": 993500,
+    "detail": "Increase Quick Card effectiveness by 10% & Arts Card effectiveness by 10% & begin battle with NP charged at 20% for yourself [MAX]",
+    "detailShort": "Increase Quick Card effectiveness by 10% & Arts Card effectiveness by 10% & begin battle with NP charged at 20% for yourself [MAX]"
+  },
+  {
+    "id": 993501,
+    "detail": "Increase NP Strength by 30% for yourself & apply \"gain 10 C. Stars when Guts is activated\" for all allies only if [servantName 604700] (Assassin) is equipped with this Craft Essence when he is on the field",
+    "detailShort": "Increase NP Strength by 30% for yourself & apply \"gain 10 C. Stars when Guts is activated\" for all allies only if [servantName 604700] (Assassin) is equipped with this Craft Essence when he is on the field"
+  },
+  {
+    "id": 993502,
+    "detail": "Increase Quick Card effectiveness by 8% & Arts Card effectiveness by 8% & when on a [Near Water] field, increase NP Strength by 15% only if [servantName 2800500] (Pretender) is equipped with this Craft Essence when she is on the field",
+    "detailShort": "Increase Quick Card effectiveness by 8% & Arts Card effectiveness by 8% & when on a [Near Water] field, increase NP Strength by 15% only if [servantName 2800500] (Pretender) is equipped with this Craft Essence when she is on the field"
+  },
+  {
     "id": 993694,
     "detail": "Increase the amount of Master EXP gained by 50 when a quest is cleared",
     "detailShort": "Increase the amount of Master EXP gained by 50 when a quest is cleared"
@@ -24976,6 +25051,11 @@
   },
   {
     "id": 994345,
+    "detail": "Increase the amount of Master EXP gained by 50 when a quest is cleared",
+    "detailShort": "Increase the amount of Master EXP gained by 50 when a quest is cleared"
+  },
+  {
+    "id": 994400,
     "detail": "Increase the amount of Master EXP gained by 50 when a quest is cleared",
     "detailShort": "Increase the amount of Master EXP gained by 50 when a quest is cleared"
   },
@@ -25790,6 +25870,11 @@
     "detailShort": "Increase Buster Card effectiveness & Extra Attack effectiveness for yourself"
   },
   {
+    "id": 2165551,
+    "detail": "Increase Critical Strength when on a [Near Water] field for yourself",
+    "detailShort": "Increase Critical Strength when on a [Near Water] field for yourself"
+  },
+  {
     "id": 2167650,
     "detail": "Increase ATK [{0}] (3 turns) for all allies + Increase NP Strength [{0}] (3 turns) [g][o]▲[/o][/g] for all allies that are [Servants with Heaven Attribute] + Gain C. Stars [{0}] [g][o]▲[/o][/g]",
     "detailShort": "Increase ATK [{0}] (3 turns) for all allies + Increase NP Strength [{0}] (3 turns) [g][o]▲[/o][/g] for all allies that are [Servants with Heaven Attribute] + Gain C. Stars [{0}] [g][o]▲[/o][/g]"
@@ -25830,6 +25915,26 @@
     "detailShort": "Significantly restore HP [{0}] & remove Debuffs & increase NP Gauge [{0}] [g][o]▲[/o][/g] for yourself"
   },
   {
+    "id": 2175550,
+    "detail": "Increase Arts Card effectiveness for all allies except for yourself when you are on the field",
+    "detailShort": "Increase Arts Card effectiveness for all allies except for yourself when you are on the field"
+  },
+  {
+    "id": 2176550,
+    "detail": "Increase all allies' ATK [{0}] (3 turns) + Increase ATK [{0}] (3 turns) for all allies with [Guts]",
+    "detailShort": "Increase all allies' ATK [{0}] (3 turns) + Increase ATK [{0}] (3 turns) for all allies with [Guts]"
+  },
+  {
+    "id": 2177650,
+    "detail": "Increase NP Gauge [{0}] for yourself + Increase NP Gauge for all allies except for yourself [{0}] + Apply Invincible (2 times, 3 turns) & apply Invincible Immune (1 time, 3 turns) [Demerit] for all allies",
+    "detailShort": "Increase NP Gauge [{0}] for yourself + Increase NP Gauge for all allies except for yourself [{0}] + Apply Invincible (2 times, 3 turns) & apply Invincible Immune (1 time, 3 turns) [Demerit] for all allies"
+  },
+  {
+    "id": 2178550,
+    "detail": "Apply Guts [{0}] (1 time, 3 turns) & increase Arts Card effectiveness [{0}] (3 turns) & apply Special Attack [Divine] [{0}] (3 turns) & apply Special Attack [Super Giant] [{0}] (3 turns) for yourself & negate the field's [Sunlight] status (3 turns) ",
+    "detailShort": "Apply Guts [{0}] (1 time, 3 turns) & increase Arts Card effectiveness [{0}] (3 turns) & apply Special Attack [Divine] [{0}] (3 turns) & apply Special Attack [Super Giant] [{0}] (3 turns) for yourself & negate the field's [Sunlight] status (3 turns) "
+  },
+  {
     "id": 2179550,
     "detail": "Increase Arts Card effectiveness [{0}] (3 turns) & Buster Card effectiveness [{0}] (3 turns) & apply HP Recovery per turn [{0}] (3 turns) for yourself ",
     "detailShort": "Increase Arts Card effectiveness [{0}] (3 turns) & Buster Card effectiveness [{0}] (3 turns) & apply HP Recovery per turn [{0}] (3 turns) for yourself "
@@ -25843,6 +25948,56 @@
     "id": 2181550,
     "detail": "Increase Arts Card effectiveness [{0}] (3 turns) to all allies + Chance to apply Evade (1 time, 3 turns) & chance to apply Debuff Immune (1 time, 3 turns) & chance to apply Death Immune (1 time, 3 turns) to all allies with [Good] trait",
     "detailShort": "Increase Arts Card effectiveness [{0}] (3 turns) to all allies + Chance to apply Evade (1 time, 3 turns) & chance to apply Debuff Immune (1 time, 3 turns) & chance to apply Death Immune (1 time, 3 turns) to all allies with [Good] trait"
+  },
+  {
+    "id": 2182550,
+    "detail": "Slightly increase certain Master Skills' effects when you are on the field",
+    "detailShort": "Slightly increase certain Master Skills' effects when you are on the field"
+  },
+  {
+    "id": 2183550,
+    "detail": "Increase Buster Card effectiveness for yourself",
+    "detailShort": "Increase Buster Card effectiveness for yourself"
+  },
+  {
+    "id": 2184550,
+    "detail": "Increase NP Gauge [{0}] & increase NP Gauge each turn [{0}] (3 turns) & change field to [Near Water] status (3 turns)",
+    "detailShort": "Increase NP Gauge [{0}] & increase NP Gauge each turn [{0}] (3 turns) & change field to [Near Water] status (3 turns)"
+  },
+  {
+    "id": 2185550,
+    "detail": "Increase ATK [{0}] (3 turns) & Critical Strength [{0}] (3 turns) & apply Sure Hit (3 turns) for all allies + Remove 1 Guts from all enemies & when successfully removed, decrease DEF [{0}] (3 turns) for the target",
+    "detailShort": "Increase ATK [{0}] (3 turns) & Critical Strength [{0}] (3 turns) & apply Sure Hit (3 turns) for all allies + Remove 1 Guts from all enemies & when successfully removed, decrease DEF [{0}] (3 turns) for the target"
+  },
+  {
+    "id": 2186650,
+    "detail": "Increase Quick Card effectiveness [{0}] (3 turns) & Arts Card effectiveness [{0}] (3 turns) & Critical Strength [{0}] (3 turns) for yourself + Apply Incoming Damage Cut [{0}] (3 times, 3 turns) for all allies",
+    "detailShort": "Increase Quick Card effectiveness [{0}] (3 turns) & Arts Card effectiveness [{0}] (3 turns) & Critical Strength [{0}] (3 turns) for yourself + Apply Incoming Damage Cut [{0}] (3 times, 3 turns) for all allies"
+  },
+  {
+    "id": 2187650,
+    "detail": "Increase Debuff Success Rate for all allies when you are on the field",
+    "detailShort": "Increase Debuff Success Rate for all allies when you are on the field"
+  },
+  {
+    "id": 2188000,
+    "detail": "Apply a state that \"changes Invincible states applied to you into Anti-Enforcement DEF states\" & gain C. Stars each turn & increase NP Gauge each turn for yourself ",
+    "detailShort": "Apply a state that \"changes Invincible states applied to you into Anti-Enforcement DEF states\" & gain C. Stars each turn & increase NP Gauge each turn for yourself "
+  },
+  {
+    "id": 2189551,
+    "detail": "Increase ATK [{0}] (3 turns) & Critical Resistance [{0}] (3 turns) for all allies + [You can choose to expend C. Stars to gain this effect] Expend 10 C. Stars and increase ATK [{0}] (3 turns) for yourself ",
+    "detailShort": "Increase ATK [{0}] (3 turns) & Critical Resistance [{0}] (3 turns) for all allies + [You can choose to expend C. Stars to gain this effect] Expend 10 C. Stars and increase ATK [{0}] (3 turns) for yourself "
+  },
+  {
+    "id": 2190650,
+    "detail": "Increase NP Gauge [{0}] for a single ally + [You can choose to expend C. Stars to gain this effect] Expend 10 C. Stars and apply Evade (2 times, 3 turns) & Sure Hit (3 turns) for a single ally",
+    "detailShort": "Increase NP Gauge [{0}] for a single ally + [You can choose to expend C. Stars to gain this effect] Expend 10 C. Stars and apply Evade (2 times, 3 turns) & Sure Hit (3 turns) for a single ally"
+  },
+  {
+    "id": 2191650,
+    "detail": "Apply Invincible (1 turn) & increase Buster Card effectiveness [{0}] (3 turns) & Critical Strength [{0}] (3 turns) for yourself + [You can choose to expend C. Stars to gain this effect] Expend 10 C. Stars and increase NP Strength [{0}] (3 turns) for yourself",
+    "detailShort": "Apply Invincible (1 turn) & increase Buster Card effectiveness [{0}] (3 turns) & Critical Strength [{0}] (3 turns) for yourself + [You can choose to expend C. Stars to gain this effect] Expend 10 C. Stars and increase NP Strength [{0}] (3 turns) for yourself"
   },
   {
     "id": 3001000,
