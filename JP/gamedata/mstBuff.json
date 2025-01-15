@@ -84380,6 +84380,36 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5770,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "蛇頭竜尾",
+    "detail": "『育て！ マイ・リトル・ドラゴン』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5771,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ",
+    "detail": "『育て！ マイ・リトル・ドラゴン』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004
     ],
@@ -84583,6 +84613,157 @@
     "name": "攻撃ダメージ前追加効果",
     "detail": "攻撃時、ダメージ前に自身のスター発生率をアップ",
     "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5784,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、対象の宝具威力をダウン",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      3045
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3045
+    ],
+    "script": {},
+    "id": 5785,
+    "buffGroup": 0,
+    "type": 110,
+    "name": "威力アップ〔行動不能〕",
+    "detail": "〔行動不能〕状態の敵に与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5786,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "Quick攻撃ダメージ前追加効果",
+    "detail": "Quick攻撃時、ダメージ前に対象に毒状態を付与",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3023
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      1110,
+      2002
+    ],
+    "script": {},
+    "id": 5787,
+    "buffGroup": 700,
+    "type": 38,
+    "name": "タゲ集中アップ〔蛇・竜〕",
+    "detail": "〔蛇・竜〕からの狙われやすさをアップ",
+    "iconId": 323,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3023
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      1110,
+      2002
+    ],
+    "script": {},
+    "id": 5788,
+    "buffGroup": 700,
+    "type": 38,
+    "name": "タゲ集中アップ〔蛇・竜〕",
+    "detail": "自身に〔蛇・竜〕からのターゲットを固定する",
+    "iconId": 323,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      1110,
+      2002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      1110,
+      2002
+    ],
+    "script": {},
+    "id": 5789,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ〔蛇・竜〕",
+    "detail": "〔蛇・竜〕特性に与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [
+      4100
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5790,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "クリティカル攻撃ダメージ前追加効果",
+    "detail": "クリティカル攻撃時、ダメージ前に対象に毒状態を付与",
+    "iconId": 528,
     "maxRate": 0,
     "effectId": 0
   },
@@ -130022,6 +130203,379 @@
     "name": "",
     "detail": "",
     "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94139301,
+    "buffGroup": 0,
+    "type": 173,
+    "name": "再生する鱗",
+    "detail": "HPゲージがBreakされた時、HPを回復して耐える",
+    "iconId": 384,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3045
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3045
+    ],
+    "script": {},
+    "id": 94139302,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "再生する鱗",
+    "detail": "行動不能効果を受けなくなる",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94139303,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "代行命令",
+    "detail": "攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94139304,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "代行命令",
+    "detail": "クリティカルの発生率をアップ",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94139305,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "代行命令",
+    "detail": "全ての攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3023
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94139339,
+    "buffGroup": 700,
+    "type": 38,
+    "name": "赤き情熱",
+    "detail": "敵からの狙われやすさがアップ",
+    "iconId": 323,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94139340,
+    "buffGroup": 0,
+    "type": 141,
+    "name": "赤き情熱",
+    "detail": "オーダーチェンジを使用できなくなる",
+    "iconId": 554,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3082
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94139341,
+    "buffGroup": 0,
+    "type": 64,
+    "name": "医神の救護",
+    "detail": "HPの回復効果量をアップ",
+    "iconId": 328,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94139342,
+    "buffGroup": 0,
+    "type": 104,
+    "name": "医神の救護",
+    "detail": "HPが0になった時、HPを回復して耐える(他のガッツ状態と重複可能)",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94139343,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "青の魔食",
+    "detail": "敵を倒した時、自身にHP回復・NP獲得・スター獲得・攻撃力アップ・ダメージプラスのいずれかの効果が発動",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94139344,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3094
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94139345,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "疾風の緑",
+    "detail": "Quickカードの性能をアップ",
+    "iconId": 312,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94139346,
+    "buffGroup": 0,
+    "type": 141,
+    "name": "疾風の緑",
+    "detail": "オーダーチェンジを使用できなくなる",
+    "iconId": 554,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "tvals": [
+      -4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4003
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94139347,
+    "buffGroup": 200,
+    "type": 24,
+    "name": "回避",
+    "detail": "Quick攻撃以外によるダメージを0にする",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94139348,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94139349,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "良い香り",
+    "detail": "自身がやられた時、敵単体のNPを増やす",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94139350,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "くさい臭い",
+    "detail": "自身がやられた時、敵単体のNPを減らす",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94139351,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "クセになる香り",
+    "detail": "自身がやられた時、敵単体に毎ターンNP獲得状態を付与",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94139358,
+    "buffGroup": 0,
+    "type": 141,
+    "name": "青の魔食",
+    "detail": "オーダーチェンジを使用できなくなる",
+    "iconId": 554,
     "maxRate": 0,
     "effectId": 0
   }
