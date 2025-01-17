@@ -130307,6 +130307,195 @@
   },
   {
     "vals": [
+      3005,
+      3023
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94139306,
+    "buffGroup": 0,
+    "type": 38,
+    "name": "勇者の威光？",
+    "detail": "敵からの狙われやすさがアップ(弱体扱い)",
+    "iconId": 323,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3,
+      "relationId": 184
+    },
+    "id": 94139307,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔セイバー〕〔ランサー〕クラスに対するクラス相性が優位になる",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94139308,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、対象の防御強化状態を1つ解除",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94139309,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、対象の攻撃強化状態を1つ解除",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3020
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94139310,
+    "buffGroup": 900,
+    "type": 34,
+    "name": "？？？",
+    "detail": "宝具を使用できなくなる",
+    "iconId": 512,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94139311,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "蛇王の威権",
+    "detail": "攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94139312,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "蛇王の威権",
+    "detail": "クリティカルの発生率をアップ",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94139313,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "蛇王の威権",
+    "detail": "全ての攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94139314,
+    "buffGroup": 0,
+    "type": 136,
+    "name": "？？？",
+    "detail": "与えるダメージをアップ＆全ての攻撃に対する耐性をアップ",
+    "iconId": 359,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94139315,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "",
+    "detail": "",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3023
     ],
@@ -130557,6 +130746,64 @@
     "name": "クセになる香り",
     "detail": "自身がやられた時、敵単体に毎ターンNP獲得状態を付与",
     "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94139352,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "安定感のあるボディ",
+    "detail": "防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {},
+    "id": 94139353,
+    "buffGroup": 0,
+    "type": 29,
+    "name": "自然体",
+    "detail": "弱体耐性をアップ",
+    "iconId": 306,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94139354,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "軽やかな存在",
+    "detail": "ターン終了時、自身に回避状態を付与",
+    "iconId": 343,
     "maxRate": 0,
     "effectId": 0
   },
