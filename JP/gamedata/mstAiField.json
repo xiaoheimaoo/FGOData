@@ -26699,7 +26699,28 @@
     "infoText": ""
   },
   {
-    "vals": [],
+    "vals": [
+      6011
+    ],
+    "avals": [
+      401296,
+      0
+    ],
+    "script": {},
+    "id": 401295,
+    "idx": 1,
+    "actNum": -1,
+    "timing": 1,
+    "priority": 100,
+    "probability": 100,
+    "cond": 56,
+    "aiActId": 1,
+    "infoText": ""
+  },
+  {
+    "vals": [
+      110
+    ],
     "avals": [
       401296,
       0
@@ -26708,32 +26729,34 @@
       "forcedSkillSpeed": 1
     },
     "id": 401295,
-    "idx": 1,
+    "idx": 2,
     "actNum": -1,
     "timing": 1,
     "priority": 1,
     "probability": 100,
-    "cond": 0,
+    "cond": 56,
     "aiActId": 1001525,
     "infoText": ""
   },
   {
     "vals": [
-      1100200
+      110
     ],
     "avals": [
       401296,
       0
     ],
-    "script": {},
+    "script": {
+      "forcedSkillSpeed": 1
+    },
     "id": 401295,
-    "idx": 2,
+    "idx": 3,
     "actNum": -1,
-    "timing": 1,
-    "priority": 100,
+    "timing": 7,
+    "priority": 1,
     "probability": 100,
     "cond": 56,
-    "aiActId": 1,
+    "aiActId": 1001525,
     "infoText": ""
   },
   {
