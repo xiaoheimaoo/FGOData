@@ -84500,6 +84500,21 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5777,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "謳花爛漫",
+    "detail": "『小野小町古今抄』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004,
       3006,
@@ -84817,6 +84832,177 @@
     "name": "攻撃時追加効果",
     "detail": "攻撃時、追加効果が発動",
     "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5796,
+    "buffGroup": 0,
+    "type": 1,
+    "name": "三大パワー〔翠〕",
+    "detail": "『小野小町古今抄』においてQuickカードの威力をアップ",
+    "iconId": 356,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5797,
+    "buffGroup": 0,
+    "type": 1,
+    "name": "三大パワー〔藍〕",
+    "detail": "『小野小町古今抄』においてArtsカードの威力をアップ",
+    "iconId": 357,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5798,
+    "buffGroup": 0,
+    "type": 1,
+    "name": "三大パワー〔紅〕",
+    "detail": "『小野小町古今抄』においてBusterカードの威力をアップ",
+    "iconId": 358,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5799,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Quick攻撃時追加効果",
+    "detail": "Quick攻撃時、自身のNPを少し増やす",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5800,
+    "buffGroup": 0,
+    "type": 182,
+    "name": "Arts攻撃時追加効果",
+    "detail": "Arts攻撃時、自身に回避状態を付与",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5801,
+    "buffGroup": 0,
+    "type": 181,
+    "name": "Buster攻撃ダメージ前追加効果",
+    "detail": "Buster攻撃時、ダメージ前に自身に必中状態を付与",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5802,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "ターン終了時、自身の強化状態を1つ解除",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5803,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "攻撃ダメージ前追加効果",
+    "detail": "攻撃時、ダメージ前に対象に毒状態を付与",
+    "iconId": 528,
     "maxRate": 0,
     "effectId": 0
   },
@@ -131594,6 +131780,25 @@
     "detail": "HPが多いほど攻撃力アップ",
     "iconId": 300,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94140200,
+    "buffGroup": 0,
+    "type": 104,
+    "name": "夢見る乙女",
+    "detail": "HPが0になった時、HPを回復して耐える",
+    "iconId": 304,
+    "maxRate": 1000,
     "effectId": 0
   },
   {
