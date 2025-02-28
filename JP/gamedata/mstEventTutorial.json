@@ -1,6 +1,149 @@
 [
   {
     "targetIds": [
+      "[401]"
+    ],
+    "condIds": [
+      94141901
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "addClassIds": [
+          25
+        ],
+        "releaseClassBoardBaseIds": [
+          9
+        ],
+        "isClassBoardRelease": true
+      }
+    ],
+    "script": {},
+    "eventId": -144,
+    "flagType": 65,
+    "num": 1,
+    "priority": 14,
+    "openType": 18,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[401]"
+    ],
+    "condIds": [
+      94141901
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "rects": [],
+        "text": "チャレンジクエスト\n『オルガマリークエスト_３・やや本気』が開放されました。\nより高難易度のグランマリーとの再戦に挑んでみましょう！\n\n※『オルガマリークエスト_３・やや本気』には\n　アドベンチャーパートはありません。\n\n【リプレイクエストについて】\nキャンペーン期間中にチャレンジクエストをクリアすると\nリプレイクエストが開放され、期間中何度でも再挑戦できます。\n[FFFF00]※キャンペーン期間：\n2025年2月28日(金) 18:00～3月19日(水) 12:59まで\n※リプレイクエストでは各報酬、EXP、絆ポイントの獲得はありません。[-]\n\n",
+        "textPos": [
+          0,
+          36
+        ],
+        "spacingY": 2,
+        "dlgFontSize": 21,
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": -143,
+    "flagType": 65,
+    "num": 1,
+    "priority": 14,
+    "openType": 18,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[94141901]",
+      "[94141902]",
+      "[94141903]",
+      "[94141904]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      87,
+      88,
+      89,
+      78,
+      83
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": -142,
+    "flagType": 43,
+    "num": 1,
+    "priority": 0,
+    "openType": 45,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      94094401
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "第三の大統領特異点が確認されました。",
+        "dlgFontSize": 30,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {
+      "beforeActionSetup": [
+        "114",
+        "1040182,4"
+      ],
+      "beforeActionVals": [
+        "300",
+        "1040182,15,1000",
+        "104",
+        "1040182,1",
+        "104",
+        "1040182,3"
+      ]
+    },
+    "eventId": -141,
+    "flagType": 3,
+    "num": 1,
+    "priority": 0,
+    "openType": 83,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
       "[]"
     ],
     "condIds": [
