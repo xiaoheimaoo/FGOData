@@ -133258,6 +133258,81 @@
   },
   {
     "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94141502,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "ショート",
+    "detail": "攻撃を受けた時、敵単体の弱体耐性をダウン",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94141503,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "オーバーヒート",
+    "detail": "通常攻撃時、対象にやけど状態を付与",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94141504,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "毎ターンチャージプラス",
+    "detail": "毎ターン中確率でチャージを1増やす",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4100
+    ],
+    "script": {},
+    "id": 94141505,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "防御力アップ〔クリティカル〕",
+    "detail": "クリティカル攻撃に対する防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3060
     ],
@@ -133272,6 +133347,45 @@
     "detail": "ターン終了時にHPが回復する",
     "iconId": 318,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3015
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94141509,
+    "buffGroup": 0,
+    "type": 8,
+    "name": "オーバーヒート",
+    "detail": "ターン終了時にHPが減る",
+    "iconId": 513,
+    "maxRate": 0,
+    "effectId": 17122
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {},
+    "id": 94141510,
+    "buffGroup": 0,
+    "type": 30,
+    "name": "ショート",
+    "detail": "弱体耐性をダウン",
+    "iconId": 506,
+    "maxRate": 5000,
     "effectId": 0
   },
   {
