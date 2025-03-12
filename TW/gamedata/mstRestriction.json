@@ -1112,6 +1112,48 @@
     "targetVals2": []
   },
   {
+    "id": 4000001,
+    "name": "可從持有從者中\n最多編入4騎",
+    "type": 11,
+    "targetVals": [
+      4
+    ],
+    "rangeType": 4,
+    "targetVals2": []
+  },
+  {
+    "id": 4000002,
+    "name": "怖軍\n必須設定為先發隊員",
+    "type": 10,
+    "targetVals": [
+      6
+    ],
+    "rangeType": 4,
+    "targetVals2": []
+  },
+  {
+    "id": 4000003,
+    "name": "可從持有從者中\n最多編入5騎",
+    "type": 11,
+    "targetVals": [
+      5
+    ],
+    "rangeType": 4,
+    "targetVals2": []
+  },
+  {
+    "id": 4000004,
+    "name": "迦摩(客座)\n必須設定為先發隊員",
+    "type": 7,
+    "targetVals": [
+      1,
+      2,
+      3
+    ],
+    "rangeType": 1,
+    "targetVals2": []
+  },
+  {
     "id": 91000001,
     "name": "2騎NPC固定出擊",
     "type": 10,
@@ -3380,7 +3422,8 @@
       117,
       115,
       109,
-      120
+      120,
+      124
     ],
     "rangeType": 1,
     "targetVals2": []
@@ -4440,6 +4483,867 @@
       1
     ],
     "rangeType": 4,
+    "targetVals2": []
+  },
+  {
+    "id": 94085000,
+    "name": "僅限1騎出擊",
+    "type": 10,
+    "targetVals": [
+      1
+    ],
+    "rangeType": 1,
+    "targetVals2": []
+  },
+  {
+    "id": 94085001,
+    "name": "美杜莎\n必須設定為先發隊員",
+    "type": 12,
+    "targetVals": [
+      105600
+    ],
+    "rangeType": 1,
+    "targetVals2": [
+      1
+    ]
+  },
+  {
+    "id": 94085002,
+    "name": "美杜莎\n必須設定為先發隊員",
+    "type": 12,
+    "targetVals": [
+      400100
+    ],
+    "rangeType": 1,
+    "targetVals2": [
+      2
+    ]
+  },
+  {
+    "id": 94085003,
+    "name": "最多編入2騎",
+    "type": 10,
+    "targetVals": [
+      2
+    ],
+    "rangeType": 1,
+    "targetVals2": []
+  },
+  {
+    "id": 94086401,
+    "name": "必須編入3騎",
+    "type": 10,
+    "targetVals": [
+      3
+    ],
+    "rangeType": 1,
+    "targetVals2": []
+  },
+  {
+    "id": 94086402,
+    "name": "可從持有從者中\n最多編入3騎",
+    "type": 11,
+    "targetVals": [
+      3
+    ],
+    "rangeType": 1,
+    "targetVals2": []
+  },
+  {
+    "id": 94086900,
+    "name": "支援從者\n必須設定為先發隊員",
+    "type": 7,
+    "targetVals": [
+      1,
+      2,
+      3
+    ],
+    "rangeType": 1,
+    "targetVals2": []
+  },
+  {
+    "id": 94087901,
+    "name": "6騎NPC固定出擊",
+    "type": 10,
+    "targetVals": [
+      6
+    ],
+    "rangeType": 1,
+    "targetVals2": []
+  },
+  {
+    "id": 94087902,
+    "name": "編制存在限制",
+    "type": 12,
+    "targetVals": [
+      100700
+    ],
+    "rangeType": 1,
+    "targetVals2": [
+      1
+    ]
+  },
+  {
+    "id": 94087903,
+    "name": "編制存在限制",
+    "type": 12,
+    "targetVals": [
+      102000
+    ],
+    "rangeType": 1,
+    "targetVals2": [
+      2
+    ]
+  },
+  {
+    "id": 94087904,
+    "name": "編制存在限制",
+    "type": 12,
+    "targetVals": [
+      200800
+    ],
+    "rangeType": 1,
+    "targetVals2": [
+      3
+    ]
+  },
+  {
+    "id": 94087905,
+    "name": "編制存在限制",
+    "type": 12,
+    "targetVals": [
+      1101600
+    ],
+    "rangeType": 1,
+    "targetVals2": [
+      4
+    ]
+  },
+  {
+    "id": 94087906,
+    "name": "編制存在限制",
+    "type": 12,
+    "targetVals": [
+      405000
+    ],
+    "rangeType": 1,
+    "targetVals2": [
+      5
+    ]
+  },
+  {
+    "id": 94087907,
+    "name": "編制存在限制",
+    "type": 12,
+    "targetVals": [
+      704700
+    ],
+    "rangeType": 1,
+    "targetVals2": [
+      6
+    ]
+  },
+  {
+    "id": 94087908,
+    "name": "3騎NPC固定出擊",
+    "type": 10,
+    "targetVals": [
+      6
+    ],
+    "rangeType": 4,
+    "targetVals2": []
+  },
+  {
+    "id": 94087909,
+    "name": "可從持有從者中\n最多編入3騎",
+    "type": 11,
+    "targetVals": [
+      3
+    ],
+    "rangeType": 4,
+    "targetVals2": []
+  },
+  {
+    "id": 94087910,
+    "name": "2騎NPC固定出擊",
+    "type": 10,
+    "targetVals": [
+      6
+    ],
+    "rangeType": 4,
+    "targetVals2": []
+  },
+  {
+    "id": 94087911,
+    "name": "可從持有從者中\n最多編入4騎",
+    "type": 11,
+    "targetVals": [
+      4
+    ],
+    "rangeType": 4,
+    "targetVals2": []
+  },
+  {
+    "id": 94087912,
+    "name": "1騎NPC固定出擊",
+    "type": 10,
+    "targetVals": [
+      6
+    ],
+    "rangeType": 4,
+    "targetVals2": []
+  },
+  {
+    "id": 94087913,
+    "name": "可從持有從者中\n最多編入5騎",
+    "type": 11,
+    "targetVals": [
+      5
+    ],
+    "rangeType": 4,
+    "targetVals2": []
+  },
+  {
+    "id": 94087914,
+    "name": "瑪修\n必須設定為先發隊員",
+    "type": 8,
+    "targetVals": [
+      800100
+    ],
+    "rangeType": 1,
+    "targetVals2": []
+  },
+  {
+    "id": 94087915,
+    "name": "4騎NPC固定出擊",
+    "type": 10,
+    "targetVals": [
+      6
+    ],
+    "rangeType": 4,
+    "targetVals2": []
+  },
+  {
+    "id": 94087916,
+    "name": "可從持有從者中\n最多選擇1騎",
+    "type": 11,
+    "targetVals": [
+      1
+    ],
+    "rangeType": 4,
+    "targetVals2": []
+  },
+  {
+    "id": 94087917,
+    "name": "1騎NPC固定出擊",
+    "type": 10,
+    "targetVals": [
+      3
+    ],
+    "rangeType": 4,
+    "targetVals2": []
+  },
+  {
+    "id": 94087918,
+    "name": "可從持有從者中\n最多選擇2騎",
+    "type": 11,
+    "targetVals": [
+      2
+    ],
+    "rangeType": 4,
+    "targetVals2": []
+  },
+  {
+    "id": 94087919,
+    "name": "1騎NPC固定出擊",
+    "type": 10,
+    "targetVals": [
+      6
+    ],
+    "rangeType": 4,
+    "targetVals2": []
+  },
+  {
+    "id": 94087920,
+    "name": "5騎NPC固定出擊",
+    "type": 10,
+    "targetVals": [
+      6
+    ],
+    "rangeType": 1,
+    "targetVals2": []
+  },
+  {
+    "id": 94087921,
+    "name": "編制存在限制",
+    "type": 12,
+    "targetVals": [
+      2800600
+    ],
+    "rangeType": 1,
+    "targetVals2": [
+      2
+    ]
+  },
+  {
+    "id": 94087922,
+    "name": "編制存在限制",
+    "type": 12,
+    "targetVals": [
+      704700
+    ],
+    "rangeType": 1,
+    "targetVals2": [
+      3
+    ]
+  },
+  {
+    "id": 94087923,
+    "name": "編制存在限制",
+    "type": 12,
+    "targetVals": [
+      100700
+    ],
+    "rangeType": 1,
+    "targetVals2": [
+      4
+    ]
+  },
+  {
+    "id": 94087924,
+    "name": "編制存在限制",
+    "type": 12,
+    "targetVals": [
+      102000
+    ],
+    "rangeType": 1,
+    "targetVals2": [
+      5
+    ]
+  },
+  {
+    "id": 94087925,
+    "name": "編制存在限制",
+    "type": 12,
+    "targetVals": [
+      200800
+    ],
+    "rangeType": 1,
+    "targetVals2": [
+      6
+    ]
+  },
+  {
+    "id": 94088001,
+    "name": "1騎NPC固定出擊",
+    "type": 10,
+    "targetVals": [
+      1
+    ],
+    "rangeType": 1,
+    "targetVals2": []
+  },
+  {
+    "id": 94088002,
+    "name": "編制存在限制",
+    "type": 12,
+    "targetVals": [
+      504300
+    ],
+    "rangeType": 1,
+    "targetVals2": [
+      1
+    ]
+  },
+  {
+    "id": 94088003,
+    "name": "3騎NPC固定出擊",
+    "type": 10,
+    "targetVals": [
+      3
+    ],
+    "rangeType": 4,
+    "targetVals2": []
+  },
+  {
+    "id": 94088004,
+    "name": "編制存在限制",
+    "type": 12,
+    "targetVals": [
+      701400
+    ],
+    "rangeType": 1,
+    "targetVals2": [
+      1
+    ]
+  },
+  {
+    "id": 94088005,
+    "name": "編制存在限制",
+    "type": 12,
+    "targetVals": [
+      504300
+    ],
+    "rangeType": 1,
+    "targetVals2": [
+      2
+    ]
+  },
+  {
+    "id": 94088006,
+    "name": "編制存在限制",
+    "type": 12,
+    "targetVals": [
+      505100
+    ],
+    "rangeType": 1,
+    "targetVals2": [
+      3
+    ]
+  },
+  {
+    "id": 94088007,
+    "name": "編制存在限制",
+    "type": 12,
+    "targetVals": [
+      1001300
+    ],
+    "rangeType": 1,
+    "targetVals2": [
+      1
+    ]
+  },
+  {
+    "id": 94088008,
+    "name": "編制存在限制",
+    "type": 10,
+    "targetVals": [
+      1
+    ],
+    "rangeType": 4,
+    "targetVals2": []
+  },
+  {
+    "id": 94088010,
+    "name": "編制存在限制",
+    "type": 12,
+    "targetVals": [
+      404800
+    ],
+    "rangeType": 1,
+    "targetVals2": [
+      1
+    ]
+  },
+  {
+    "id": 94088011,
+    "name": "編制存在限制",
+    "type": 12,
+    "targetVals": [
+      104000
+    ],
+    "rangeType": 1,
+    "targetVals2": [
+      2
+    ]
+  },
+  {
+    "id": 94088012,
+    "name": "編制存在限制",
+    "type": 7,
+    "targetVals": [
+      1,
+      2,
+      3
+    ],
+    "rangeType": 1,
+    "targetVals2": []
+  },
+  {
+    "id": 94088013,
+    "name": "編制存在限制",
+    "type": 12,
+    "targetVals": [
+      704700
+    ],
+    "rangeType": 1,
+    "targetVals2": [
+      3
+    ]
+  },
+  {
+    "id": 94088017,
+    "name": "1騎NPC固定出擊",
+    "type": 10,
+    "targetVals": [
+      2
+    ],
+    "rangeType": 1,
+    "targetVals2": []
+  },
+  {
+    "id": 94088401,
+    "name": "葛飾北齋\n必須設定為先發隊員",
+    "type": 12,
+    "targetVals": [
+      104000
+    ],
+    "rangeType": 1,
+    "targetVals2": [
+      1
+    ]
+  },
+  {
+    "id": 94088402,
+    "name": "最多編入5騎",
+    "type": 11,
+    "targetVals": [
+      5
+    ],
+    "rangeType": 4,
+    "targetVals2": []
+  },
+  {
+    "id": 94088403,
+    "name": "1騎NPC固定出擊",
+    "type": 10,
+    "targetVals": [
+      6
+    ],
+    "rangeType": 4,
+    "targetVals2": []
+  },
+  {
+    "id": 94088801,
+    "name": "宇津見繪里世\n必須設定為先發隊員",
+    "type": 12,
+    "targetVals": [
+      1101400
+    ],
+    "rangeType": 1,
+    "targetVals2": [
+      1
+    ]
+  },
+  {
+    "id": 94088802,
+    "name": "編制存在限制",
+    "type": 10,
+    "targetVals": [
+      1
+    ],
+    "rangeType": 1,
+    "targetVals2": []
+  },
+  {
+    "id": 94088803,
+    "name": "齊格飛\n必須設定為先發隊員",
+    "type": 12,
+    "targetVals": [
+      100800
+    ],
+    "rangeType": 1,
+    "targetVals2": [
+      1
+    ]
+  },
+  {
+    "id": 94088804,
+    "name": "編制存在限制",
+    "type": 10,
+    "targetVals": [
+      3
+    ],
+    "rangeType": 1,
+    "targetVals2": []
+  },
+  {
+    "id": 94088805,
+    "name": "編制存在限制",
+    "type": 10,
+    "targetVals": [
+      6
+    ],
+    "rangeType": 4,
+    "targetVals2": []
+  },
+  {
+    "id": 94088806,
+    "name": "旺吉娜\n必須設定為先發隊員",
+    "type": 7,
+    "targetVals": [
+      1
+    ],
+    "rangeType": 1,
+    "targetVals2": []
+  },
+  {
+    "id": 94088807,
+    "name": "太歲星君\n必須設定為先發隊員",
+    "type": 12,
+    "targetVals": [
+      1001200
+    ],
+    "rangeType": 1,
+    "targetVals2": [
+      2
+    ]
+  },
+  {
+    "id": 94088808,
+    "name": "航海家\n必須設定為先發隊員",
+    "type": 12,
+    "targetVals": [
+      2500500
+    ],
+    "rangeType": 1,
+    "targetVals2": [
+      3
+    ]
+  },
+  {
+    "id": 94088809,
+    "name": "編制存在限制",
+    "type": 11,
+    "targetVals": [
+      2
+    ],
+    "rangeType": 4,
+    "targetVals2": []
+  },
+  {
+    "id": 94090002,
+    "name": "可從持有從者中\n最多編入4騎",
+    "type": 11,
+    "targetVals": [
+      4
+    ],
+    "rangeType": 4,
+    "targetVals2": []
+  },
+  {
+    "id": 94090003,
+    "name": "永倉新八(客座)\n固定出擊",
+    "type": 10,
+    "targetVals": [
+      6
+    ],
+    "rangeType": 4,
+    "targetVals2": []
+  },
+  {
+    "id": 94090004,
+    "name": "只可編入2騎",
+    "type": 10,
+    "targetVals": [
+      2
+    ],
+    "rangeType": 1,
+    "targetVals2": []
+  },
+  {
+    "id": 94090005,
+    "name": "只可編入3騎",
+    "type": 10,
+    "targetVals": [
+      3
+    ],
+    "rangeType": 1,
+    "targetVals2": []
+  },
+  {
+    "id": 94090006,
+    "name": "沖田總司\n固定出擊",
+    "type": 12,
+    "targetVals": [
+      102700
+    ],
+    "rangeType": 1,
+    "targetVals2": [
+      1
+    ]
+  },
+  {
+    "id": 94090007,
+    "name": "齋藤一\n固定出擊",
+    "type": 12,
+    "targetVals": [
+      104400
+    ],
+    "rangeType": 1,
+    "targetVals2": [
+      2
+    ]
+  },
+  {
+    "id": 94090008,
+    "name": "只可編入1騎",
+    "type": 10,
+    "targetVals": [
+      1
+    ],
+    "rangeType": 1,
+    "targetVals2": []
+  },
+  {
+    "id": 94090009,
+    "name": "長尾景虎\n固定出擊",
+    "type": 12,
+    "targetVals": [
+      303800
+    ],
+    "rangeType": 1,
+    "targetVals2": [
+      1
+    ]
+  },
+  {
+    "id": 94090010,
+    "name": "編制存在限制",
+    "type": 10,
+    "targetVals": [
+      3
+    ],
+    "rangeType": 4,
+    "targetVals2": []
+  },
+  {
+    "id": 94090011,
+    "name": "",
+    "type": 10,
+    "targetVals": [
+      6
+    ],
+    "rangeType": 4,
+    "targetVals2": []
+  },
+  {
+    "id": 94090012,
+    "name": "編制存在限制",
+    "type": 11,
+    "targetVals": [
+      2
+    ],
+    "rangeType": 4,
+    "targetVals2": []
+  },
+  {
+    "id": 94090013,
+    "name": "永倉新八(客座)\n固定出擊",
+    "type": 11,
+    "targetVals": [
+      2
+    ],
+    "rangeType": 4,
+    "targetVals2": []
+  },
+  {
+    "id": 94090014,
+    "name": "齋藤一\n固定出擊",
+    "type": 12,
+    "targetVals": [
+      104400
+    ],
+    "rangeType": 1,
+    "targetVals2": [
+      2
+    ]
+  },
+  {
+    "id": 94090016,
+    "name": "上杉謙信\n固定出擊",
+    "type": 10,
+    "targetVals": [
+      6
+    ],
+    "rangeType": 4,
+    "targetVals2": []
+  },
+  {
+    "id": 94090017,
+    "name": "長尾景虎\n固定出擊",
+    "type": 12,
+    "targetVals": [
+      303800
+    ],
+    "rangeType": 1,
+    "targetVals2": [
+      2
+    ]
+  },
+  {
+    "id": 94090018,
+    "name": "雜賀孫一\n必須設定為先發隊員",
+    "type": 8,
+    "targetVals": [
+      205200
+    ],
+    "rangeType": 1,
+    "targetVals2": []
+  },
+  {
+    "id": 94090019,
+    "name": "沖田總司\n固定出擊",
+    "type": 12,
+    "targetVals": [
+      102700
+    ],
+    "rangeType": 1,
+    "targetVals2": [
+      3
+    ]
+  },
+  {
+    "id": 94090901,
+    "name": "瑪修\n不可出擊",
+    "type": 1,
+    "targetVals": [
+      800100
+    ],
+    "rangeType": 2,
+    "targetVals2": []
+  },
+  {
+    "id": 94090902,
+    "name": "尼莫〔Santa〕\n固定出擊",
+    "type": 12,
+    "targetVals": [
+      405300
+    ],
+    "rangeType": 1,
+    "targetVals2": [
+      1
+    ]
+  },
+  {
+    "id": 94090903,
+    "name": "可從持有從者中\n最多編入5騎",
+    "type": 10,
+    "targetVals": [
+      6
+    ],
+    "rangeType": 4,
+    "targetVals2": []
+  },
+  {
+    "id": 94090904,
+    "name": "瑪修、尼莫\n不可出擊",
+    "type": 1,
+    "targetVals": [
+      800100,
+      403700
+    ],
+    "rangeType": 2,
+    "targetVals2": []
+  },
+  {
+    "id": 94090905,
+    "name": "尼莫〔Santa〕\n不可重複出擊",
+    "type": 15,
+    "targetVals": [
+      405300
+    ],
+    "rangeType": 1,
     "targetVals2": []
   }
 ]
