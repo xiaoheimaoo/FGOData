@@ -3017,7 +3017,7 @@
     "buffGroup": 0,
     "type": 11,
     "name": "STR Up vs. Heaven/Earth Servant",
-    "detail": "Increase damage dealt against [Servants with Heaven or Earth powers (excluding Pseudo-Servants and Demi-Servants)]",
+    "detail": "Increase damage dealt against [Servants with Heaven or Earth Attributes (excluding Pseudo-Servants and Demi-Servants)]",
     "iconId": 302,
     "maxRate": 10000,
     "effectId": 0
@@ -6166,6 +6166,7 @@
   },
   {
     "vals": [
+      3005,
       2091
     ],
     "tvals": [],
@@ -7489,7 +7490,10 @@
     "effectId": 0
   },
   {
-    "vals": [],
+    "vals": [
+      3005,
+      3044
+    ],
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
@@ -7564,6 +7568,7 @@
   {
     "vals": [
       3005,
+      3023,
       2116
     ],
     "tvals": [],
@@ -21896,6 +21901,7 @@
   },
   {
     "vals": [
+      3005,
       2393
     ],
     "tvals": [],
@@ -21913,6 +21919,8 @@
   },
   {
     "vals": [
+      3005,
+      3009,
       2393
     ],
     "tvals": [],
@@ -21930,6 +21938,7 @@
   },
   {
     "vals": [
+      3005,
       2393
     ],
     "tvals": [],
@@ -23971,6 +23980,9 @@
   },
   {
     "vals": [
+      3005,
+      3008,
+      3033,
       2436
     ],
     "tvals": [],
@@ -33139,6 +33151,8 @@
   },
   {
     "vals": [
+      3005,
+      3009,
       2354
     ],
     "tvals": [],
@@ -34764,6 +34778,8 @@
   },
   {
     "vals": [
+      3005,
+      3009,
       2628
     ],
     "tvals": [],
@@ -35209,7 +35225,7 @@
     "buffGroup": 0,
     "type": 40,
     "name": "Apply Trait (Roman)",
-    "detail": "Apply [Romen] trait (treated as Buff)",
+    "detail": "Apply [Roman] trait (treated as Buff)",
     "iconId": 360,
     "maxRate": 0,
     "effectId": 0
@@ -35231,7 +35247,7 @@
     "buffGroup": 0,
     "type": 89,
     "name": "Bonus Effect with Critical ATK (Apply Roman Trait)",
-    "detail": "Apply [Romen] trait through your Critical attacks",
+    "detail": "Apply [Roman] trait through your Critical attacks",
     "iconId": 333,
     "maxRate": 0,
     "effectId": 0
@@ -35432,7 +35448,7 @@
     "buffGroup": 0,
     "type": 40,
     "name": "Apply Trait (Roman)",
-    "detail": "Apply [Romen] trait (treated as Debuff)",
+    "detail": "Apply [Roman] trait (treated as Debuff)",
     "iconId": 360,
     "maxRate": 0,
     "effectId": 0
@@ -41323,6 +41339,9 @@
   },
   {
     "vals": [
+      3005,
+      3008,
+      3033,
       6023
     ],
     "tvals": [],
@@ -41340,6 +41359,8 @@
   },
   {
     "vals": [
+      3005,
+      3020,
       6023
     ],
     "tvals": [],
@@ -42174,6 +42195,9 @@
   },
   {
     "vals": [
+      3005,
+      3008,
+      3033,
       6021
     ],
     "tvals": [],
@@ -48630,8 +48654,7 @@
   },
   {
     "vals": [
-      3005,
-      3026
+      3005
     ],
     "tvals": [],
     "ckSelfIndv": [],
@@ -50850,7 +50873,7 @@
   },
   {
     "vals": [
-      3004
+      3005
     ],
     "tvals": [],
     "ckSelfIndv": [],
@@ -51239,7 +51262,8 @@
   {
     "vals": [
       3004,
-      3061
+      3061,
+      6032
     ],
     "tvals": [
       6034
@@ -51489,6 +51513,8 @@
   },
   {
     "vals": [
+      3005,
+      3042,
       6034
     ],
     "tvals": [],
@@ -51506,6 +51532,8 @@
   },
   {
     "vals": [
+      3005,
+      3044,
       6034
     ],
     "tvals": [],
@@ -51769,6 +51797,9 @@
   },
   {
     "vals": [
+      3005,
+      3008,
+      3033,
       6034
     ],
     "tvals": [],
@@ -51786,6 +51817,8 @@
   },
   {
     "vals": [
+      3005,
+      3009,
       6034
     ],
     "tvals": [],
@@ -51803,6 +51836,8 @@
   },
   {
     "vals": [
+      3005,
+      3020,
       6034
     ],
     "tvals": [],
@@ -59307,7 +59342,7 @@
     "buffGroup": 0,
     "type": 40,
     "name": "Apply Trait (Roman)",
-    "detail": "Apply [Romen] trait (treated as Debuff)",
+    "detail": "Apply [Roman] trait (treated as Debuff)",
     "iconId": 360,
     "maxRate": 0,
     "effectId": 0
@@ -77305,6 +77340,55 @@
     "ckSelfIndv": [],
     "ckOpIndv": [],
     "script": {},
+    "id": 5339,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Strength Up",
+    "detail": "Increase damage dealt during \"Spiral Proof World, Lilim Harlot\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5340,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Proof of Existence",
+    "detail": "Increase damage dealt during \"Spiral Proof World, Lilim Harlot\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5341,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate when Damaged",
+    "detail": "Increase damage inflicted to a single enemy when sustaining attack",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
     "id": 5342,
     "buffGroup": 0,
     "type": 11,
@@ -77312,6 +77396,183 @@
     "detail": "Increase damage dealt",
     "iconId": 302,
     "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5344,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn",
+    "detail": "Decrease HP for all enemies at the end of each turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [
+      3005
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5347,
+    "buffGroup": 0,
+    "type": 27,
+    "name": "Ignore Debuff Resist",
+    "detail": "Ignore Debuff Resist Up and apply Debuffs",
+    "iconId": 389,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      3011
+    ],
+    "ckSelfIndv": [
+      3011
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5348,
+    "buffGroup": 0,
+    "type": 27,
+    "name": "Inflict Poison Up",
+    "detail": "Increase Poisoning rate",
+    "iconId": 307,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5349,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Holy Grail Possession",
+    "detail": "Apply [Holy Grail Possession]",
+    "iconId": 1004,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5350,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect with Normal Attack",
+    "detail": "Inflict Poison to target during normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5351,
+    "buffGroup": 0,
+    "type": 167,
+    "name": "[Poison] Recovery",
+    "detail": "Convert damage from Poison into HP Recovery",
+    "iconId": 373,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2857
+    },
+    "id": 5352,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect with Normal Attack",
+    "detail": "Increase NP Strength during normal attacks when in [Holy Grail Possession] state",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      3011
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3011
+    ],
+    "script": {},
+    "id": 5353,
+    "buffGroup": 0,
+    "type": 110,
+    "name": "Strength Up (Poison)",
+    "detail": "Increase damage dealt to [Poisoned] enemies",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [
+      4008
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5354,
+    "buffGroup": 0,
+    "type": 148,
+    "name": "Pre-ATK Damage Bonus Effect",
+    "detail": "Inflict Curse to a single enemy before normal attack damage",
+    "iconId": 528,
+    "maxRate": 0,
     "effectId": 0
   },
   {
@@ -77327,6 +77588,21 @@
     "detail": "Increase damage dealt during \"Fate 20th Anniversary Campaign\"",
     "iconId": 302,
     "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5520,
+    "buffGroup": 0,
+    "type": 189,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
     "effectId": 0
   },
   {
@@ -77700,7 +77976,10 @@
       119,
       121,
       123,
-      122
+      122,
+      124,
+      125,
+      126
     ],
     "ckSelfIndv": [],
     "ckOpIndv": [
@@ -77719,7 +77998,10 @@
       119,
       121,
       123,
-      122
+      122,
+      124,
+      125,
+      126
     ],
     "script": {},
     "id": 30016,
@@ -78021,7 +78303,10 @@
       119,
       121,
       123,
-      122
+      122,
+      124,
+      125,
+      126
     ],
     "ckSelfIndv": [],
     "ckOpIndv": [
@@ -78033,7 +78318,10 @@
       119,
       121,
       123,
-      122
+      122,
+      124,
+      125,
+      126
     ],
     "script": {},
     "id": 30031,
@@ -78058,7 +78346,10 @@
       119,
       121,
       123,
-      122
+      122,
+      124,
+      125,
+      126
     ],
     "ckSelfIndv": [],
     "ckOpIndv": [
@@ -78070,7 +78361,10 @@
       119,
       121,
       123,
-      122
+      122,
+      124,
+      125,
+      126
     ],
     "script": {},
     "id": 30032,
@@ -81439,6 +81733,1724 @@
     "detail": "Increase Critical Hit rate",
     "iconId": 327,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3019,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 94082501,
+    "buffGroup": 0,
+    "type": 25,
+    "name": "First Marking",
+    "detail": "Ignore Evade and deal ATK damage",
+    "iconId": 309,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 152
+    },
+    "id": 94082502,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "The Great Mother",
+    "detail": "Negate the ATK disadvantage due to Class Affinity & increase DEF",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082503,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "City Eater",
+    "detail": "Increase ATK & restore your HP when defeating an enemy",
+    "iconId": 300,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082504,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Headache",
+    "detail": "Decrease Debuff Resist or C. Star drop rate or NP amount gained for yourself at the end of each turn ",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082505,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Headache",
+    "detail": "Decrease Debuff Resist or C. Star drop rate or NP amount gained or medium chance to decrease ATK for yourself at the end of each turn ",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082506,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Headache",
+    "detail": "Decrease Debuff Resist or Critical Hit rate or Charge or medium chance to decrease ATK for yourself at the end of each turn",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082507,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Knight of Nightmares",
+    "detail": "When HP reaches 0, inflict Curse to a single enemy",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082508,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Seventh Marking",
+    "detail": "Inflict Burn to target during attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082509,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Macabre Dwellers",
+    "detail": "Absorb HP of target during attacks",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082510,
+    "buffGroup": 450,
+    "type": 121,
+    "name": "Harbinger of Madness",
+    "detail": "Ignore DEF Up and deal damage & increase damage inflict on [Cursed] enemies",
+    "iconId": 351,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082511,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "Undefined Dregs",
+    "detail": "Decrease damage taken & increase Critical Hit rate",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082512,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "Third Marking",
+    "detail": "Increase DEF",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082513,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Floor Guardian Authority",
+    "detail": "Nullify [Third Marking]",
+    "iconId": 511,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -6026
+    },
+    "id": 94082514,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "Third Marking",
+    "detail": "Increase DEF",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94082515,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Crimea's Angel",
+    "detail": "Gain resistance against NP damage & increase Charge each turn <amount of Charge gained increases with each [Debuff state] of target>",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94082516,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Angel's Protection",
+    "detail": "Gain resistance to NP Damage",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082517,
+    "buffGroup": 0,
+    "type": 24,
+    "name": "Second Marking",
+    "detail": "Chance to reduce damage taken to 0",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082518,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Sixth Marking",
+    "detail": "Remove 1 Buff from a single enemy when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082519,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "Fourth Marking",
+    "detail": "Decrease damage taken",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082520,
+    "buffGroup": 0,
+    "type": 7,
+    "name": "Fifth Marking",
+    "detail": "Recover HP at end of each turn",
+    "iconId": 318,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      6016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082521,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Demon Scale",
+    "detail": "Gain resistance to all attacks <Removed when sustaining Quick attack>",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      6017
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082522,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Demon Scale",
+    "detail": "Gain resistance to all attacks <Removed when sustaining Arts attack>",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      6018
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082523,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Demon Scale",
+    "detail": "Gain resistance to all attacks <Removed when sustaining Buster attack>",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003
+    ],
+    "script": {},
+    "id": 94082524,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001
+    ],
+    "script": {},
+    "id": 94082525,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {},
+    "id": 94082526,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 159
+    },
+    "id": 94082527,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "Primordial Mother",
+    "detail": "Negate DEF disadvantage due to Class Affinity & gain attack advantage against [Beast] class & increase resistance against Buff removal",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 160
+    },
+    "id": 94082528,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3059,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082529,
+    "buffGroup": 0,
+    "type": 72,
+    "name": "Demonic Beast Emperor",
+    "detail": "Ignore Evade and Invincible to deal damage & \"Remove 1 attack Debuff for yourself & recover HP when removal is successful at the end of each turn\"",
+    "iconId": 329,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082530,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "",
+    "detail": "",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082531,
+    "buffGroup": 0,
+    "type": 104,
+    "name": "Overcoming the Third Sunset",
+    "detail": "When HP reaches 0, recover HP and survive (stackable with other Guts)",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082532,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "Overcoming the Third Sunset",
+    "detail": "Increase NP Gauge for yourself when Guts is activated",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082533,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Looming Shadow",
+    "detail": "Low chance to inflict Death to a single enemy when attacking",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082534,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Edible (?)",
+    "detail": "When HP reaches 0, restore HP for a single enemy [Demerit] & inflict Poison",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082535,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn",
+    "detail": "Inflict Curse to all enemies at the end of each turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4008
+    ],
+    "script": {},
+    "id": 94082536,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate when Damaged",
+    "detail": "Apply NP Seal to yourself when sustaining normal attack",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082537,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn",
+    "detail": "Inflict Poison to all enemies at the end of each turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082538,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect when Attacking",
+    "detail": "Inflict Corroding Poison to target when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082539,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn",
+    "detail": "Apply Evade to yourself at the end of each turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 161
+    },
+    "id": 94082540,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "Class Affinity Change",
+    "detail": "Gain ATK advantage against [Beast] class",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082541,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "Activate when Guts is Triggered",
+    "detail": "Increase MAX HP & apply Target Focus to yourself when Guts is activated",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082542,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect with ATK",
+    "detail": "Remove attack Buff of a single enemy when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082543,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect with ATK",
+    "detail": "Inflict Poison to a single enemy when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082544,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect with ATK",
+    "detail": "Absorb HP of target when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3014,
+      3045
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082545,
+    "buffGroup": 500,
+    "type": 32,
+    "name": "Faint",
+    "detail": "Become incapacitated",
+    "iconId": 501,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082546,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn",
+    "detail": "Decrease 10 C. Stars of your squad at end of each turn",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082547,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate when Damaged",
+    "detail": "Decrease ATK & DEF of a single enemy when attacked",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3033
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082548,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "ATK Down",
+    "detail": "Chance to decrease ATK",
+    "iconId": 503,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082549,
+    "buffGroup": 1900,
+    "type": 115,
+    "name": "Charge Down Each Turn",
+    "detail": "Decrease Charge by 1 each turn",
+    "iconId": 519,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082550,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Pandemonium",
+    "detail": "Decrease DEF of target when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082551,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Headache",
+    "detail": "Decrease Debuff Resist or Critical Hit rate or Charge for yourself at the end of every turn",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3010,
+      3049
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082552,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Terror",
+    "detail": "Chance to inflict Stun each turn",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082557,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Headache",
+    "detail": "\"Low chance to apply Stun to yourself at the end of each turn\" & decrease HP at the end of turn",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6021
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082558,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082600,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "Parasitic Mushroom",
+    "detail": "Increase Charge by 1 each turn & increase Critical Hit Rate & apply Confusion <Chance to apply Skill Seal for yourself at the end of turn> [Demerit]",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082601,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Symbiosis",
+    "detail": "Increase MAX HP for yourself at the end of turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082602,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "White-Spotted Red Mushroom",
+    "detail": "Increase ATK",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082603,
+    "buffGroup": 600,
+    "type": 37,
+    "name": "White-Spotted Green Mushroom",
+    "detail": "When HP reaches 0, recover HP and survive",
+    "iconId": 304,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082604,
+    "buffGroup": 600,
+    "type": 104,
+    "name": "Golden Mushroom",
+    "detail": "When HP reaches 0, recover HP and survive & when Guts is activated, increase Charge to the max & increase DEF for yourself",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3011
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3011
+    ],
+    "script": {},
+    "id": 94082605,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "Immunity",
+    "detail": "Become immune to Poison",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3011
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082606,
+    "buffGroup": 0,
+    "type": 8,
+    "name": "Mushroom Poisoning",
+    "detail": "Decrease HP at end of turn & decrease NP Gauge at end of turn",
+    "iconId": 500,
+    "maxRate": 0,
+    "effectId": 17119
+  },
+  {
+    "vals": [
+      3005,
+      3011
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082607,
+    "buffGroup": 0,
+    "type": 8,
+    "name": "Mushroom Poisoning",
+    "detail": "Decrease HP at end of turn & decrease Charge at end of turn",
+    "iconId": 500,
+    "maxRate": 0,
+    "effectId": 17119
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082608,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect when Attacking",
+    "detail": "Remove 1 Buff of target when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082609,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect when Attacking",
+    "detail": "Apply Burn to target when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082610,
+    "buffGroup": 0,
+    "type": 104,
+    "name": "Grail War",
+    "detail": "When HP reaches 0, recover HP and survive & activate Party Member Change when Guts is activated",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 105700
+    },
+    "id": 94082611,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "",
+    "detail": "",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 300900
+    },
+    "id": 94082612,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "",
+    "detail": "",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 200500
+    },
+    "id": 94082613,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "",
+    "detail": "",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2500300
+    },
+    "id": 94082614,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "",
+    "detail": "",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 1001600
+    },
+    "id": 94082615,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "",
+    "detail": "",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 400100
+    },
+    "id": 94082616,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "",
+    "detail": "",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 600200
+    },
+    "id": 94082617,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "",
+    "detail": "",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 401900
+    },
+    "id": 94082618,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "",
+    "detail": "",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3300100
+    },
+    "id": 94082619,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "",
+    "detail": "",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082620,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082622,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082623,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082624,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "\"Kaleidoscope\"",
+    "detail": "Begin battle with 2 Charges for yourself",
+    "iconId": 303,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082625,
+    "buffGroup": 200,
+    "type": 24,
+    "name": "\"Under the Sun\"",
+    "detail": "Reduce ATK damage taken to 0",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082626,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "\"Under the Sun\"",
+    "detail": "Decrease damage taken",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082627,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "\"A Fragment of 2030\"",
+    "detail": "Increase Critical Hit rate",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3059,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082628,
+    "buffGroup": 0,
+    "type": 72,
+    "name": "\"Pirates Party!\"",
+    "detail": "Ignore Evade and Invincible to deal damage",
+    "iconId": 329,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082629,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "\"Pirates Party!\"",
+    "detail": "Increase Critical Hit rate",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {},
+    "id": 94082630,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "\"Vessel of the Saint\"",
+    "detail": "Immune to all debuffs",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082631,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "\"Vessel of the Saint\"",
+    "detail": "Begin battle with 1 Charge for yourself",
+    "iconId": 303,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3092
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082632,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "\"Another Ending\"",
+    "detail": "Increase Arts Card effectiveness & Critical Hit damage",
+    "iconId": 313,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3029
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082633,
+    "buffGroup": 0,
+    "type": 13,
+    "name": "\"Covering Fire\"",
+    "detail": "Increase damage dealt & Critical Hit damage",
+    "iconId": 302,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      2857
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082634,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "Holy Grail Obtained",
+    "detail": "Increase [Vanquish Points] gained when defeating enemies & unable to use Order Change [Demerit]",
+    "iconId": 1004,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6021
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082635,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      2857
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082636,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Holy Grail Obtained",
+    "detail": "Gain 1 Charge at the end of each turn",
+    "iconId": 1004,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6034
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082637,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6035
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082638,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -2857
+    },
+    "id": 94082639,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6025
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94082640,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
     "effectId": 0
   },
   {

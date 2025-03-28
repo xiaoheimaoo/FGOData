@@ -711,8 +711,8 @@
   },
   {
     "id": 53800,
-    "detail": "Gain C. Stars each turn [{0}] (3 turns) & increase Quick Card effectiveness [{0}] (3 turns) & Apply [Curse] Special Attack for yourself [{0}] (3 turns)",
-    "detailShort": "Gain C. Stars each turn [{0}] (3 turns) & increase Quick Card effectiveness [{0}] (3 turns) & Apply [Curse] Special Attack for yourself [{0}] (3 turns)"
+    "detail": "Gain C. Stars each turn [{0}] (3 turns) & increase Quick Card effectiveness [{0}] (3 turns) & Apply Special Attack [Curse] for yourself  [{0}] (3 turns)",
+    "detailShort": "Gain C. Stars each turn [{0}] (3 turns) & increase Quick Card effectiveness [{0}] (3 turns) & Apply Special Attack [Curse] for yourself  [{0}] (3 turns)"
   },
   {
     "id": 53900,
@@ -3143,6 +3143,11 @@
     "id": 358350,
     "detail": "Remove Invincible & chance [{0}] to inflict Stun (1 turn) for one enemy",
     "detailShort": "Remove Invincible & chance [{0}] to inflict Stun (1 turn) for one enemy"
+  },
+  {
+    "id": 358600,
+    "detail": "Inflict Skill Seal (1 turn) & Burn [{0}] (3 turns) & increase Charge [Demerit] for all enemies + Increase ATK [{0}] (3 turns) & apply [Holy Grail Possession] (3 turns) for yourself",
+    "detailShort": "Inflict Skill Seal (1 turn) & Burn [{0}] (3 turns) & increase Charge [Demerit] for all enemies + Increase ATK [{0}] (3 turns) & apply [Holy Grail Possession] (3 turns) for yourself"
   },
   {
     "id": 359450,
@@ -7608,6 +7613,26 @@
     "id": 940279,
     "detail": "Increase Bond gained when completing quests in \"CBC 2025: The Story of Chaldea Heavy Industries\" by 20% for yourself [Event Only]",
     "detailShort": "Increase Bond gained when completing quests in \"CBC 2025: The Story of Chaldea Heavy Industries\" by 20% for yourself [Event Only]"
+  },
+  {
+    "id": 940280,
+    "detail": "Increase your ATK Strength by 100% in \"Spiral Proof World, Lilim Harlot\" & increase Bond gained when completing quests by 50% [Event Only]",
+    "detailShort": "Increase your ATK Strength by 100% in \"Spiral Proof World, Lilim Harlot\" & increase Bond gained when completing quests by 50% [Event Only]"
+  },
+  {
+    "id": 940281,
+    "detail": "Increase your ATK Strength by 50% in \"Spiral Proof World, Lilim Harlot\" & increase Bond gained when completing quests by 20% [Event Only]",
+    "detailShort": "Increase your ATK Strength by 50% in \"Spiral Proof World, Lilim Harlot\" & increase Bond gained when completing quests by 20% [Event Only]"
+  },
+  {
+    "id": 940282,
+    "detail": "Increase your ATK Strength by 30% in \"Spiral Proof World, Lilim Harlot\" & increase Bond gained when completing quests by 20% [Event Only]",
+    "detailShort": "Increase your ATK Strength by 30% in \"Spiral Proof World, Lilim Harlot\" & increase Bond gained when completing quests by 20% [Event Only]"
+  },
+  {
+    "id": 940283,
+    "detail": "Increase your ATK Strength by 30% in \"Spiral Proof World, Lilim Harlot\" +  Increase Bond gained for all allies <including sub-members> when completing quests in \"Spiral Proof World, Lilim Harlot\" by 5% (No effect when equipped as Support) [Event Only]",
+    "detailShort": "Increase your ATK Strength by 30% in \"Spiral Proof World, Lilim Harlot\" +  Increase Bond gained for all allies <including sub-members> when completing quests in \"Spiral Proof World, Lilim Harlot\" by 5% (No effect when equipped as Support) [Event Only]"
   },
   {
     "id": 940284,
@@ -15068,6 +15093,11 @@
     "id": 991318,
     "detail": "Increase NP Gain by 10% & Critical Strength by 10% for all allies only if [servantName 303300] (Lancer) is equipped with this Craft Essence when she is on the field.",
     "detailShort": "Increase NP Gain by 10% & Critical Strength by 10% for all allies only if [servantName 303300] (Lancer) is equipped with this Craft Essence when she is on the field."
+  },
+  {
+    "id": 991319,
+    "detail": "Increase the amount of Master EXP gained by 50 when a quest is cleared",
+    "detailShort": "Increase the amount of Master EXP gained by 50 when a quest is cleared"
   },
   {
     "id": 991323,
@@ -25565,6 +25595,16 @@
     "detailShort": "Increase Buster Card effectiveness by 15% & NP Gain by 15% & increase NP Charge by 2 levels when using NP (1 time) for yourself [MAX]"
   },
   {
+    "id": 993601,
+    "detail": "Increase amount of Medal of a Fallen Nation per drop by 1 [Event Only]",
+    "detailShort": "Increase amount of Medal of a Fallen Nation per drop by 1 [Event Only]"
+  },
+  {
+    "id": 993602,
+    "detail": "Increase amount of Medal of a Fallen Nation per drop by 2 [MAX] [Event Only]",
+    "detailShort": "Increase amount of Medal of a Fallen Nation per drop by 2 [MAX] [Event Only]"
+  },
+  {
     "id": 993603,
     "detail": "Increase NP Gauge by 3% each turn & HP Recovery Amount by 15% for yourself",
     "detailShort": "Increase NP Gauge by 3% each turn & HP Recovery Amount by 15% for yourself"
@@ -25575,6 +25615,16 @@
     "detailShort": "Increase NP Gauge by 4% each turn & HP Recovery Amount by 20% for yourself [MAX]"
   },
   {
+    "id": 993605,
+    "detail": "Increase amount of Decayed Laurel per drop by 1 [Event Only]",
+    "detailShort": "Increase amount of Decayed Laurel per drop by 1 [Event Only]"
+  },
+  {
+    "id": 993606,
+    "detail": "Increase amount of Decayed Laurel per drop by 2 [MAX] [Event Only]",
+    "detailShort": "Increase amount of Decayed Laurel per drop by 2 [MAX] [Event Only]"
+  },
+  {
     "id": 993607,
     "detail": "Increase Arts Card effectiveness by 2% & Buster Card effectiveness by 2% & gain 1 C. Star each turn for yourself",
     "detailShort": "Increase Arts Card effectiveness by 2% & Buster Card effectiveness by 2% & gain 1 C. Star each turn for yourself"
@@ -25583,6 +25633,66 @@
     "id": 993608,
     "detail": "Increase Arts Card effectiveness by 3% & Buster Card effectiveness by 3% & gain 2 C. Stars each turn for yourself [MAX]",
     "detailShort": "Increase Arts Card effectiveness by 3% & Buster Card effectiveness by 3% & gain 2 C. Stars each turn for yourself [MAX]"
+  },
+  {
+    "id": 993609,
+    "detail": "Increase amount of Rose of Annihilation per drop by 1 [Event Only]",
+    "detailShort": "Increase amount of Rose of Annihilation per drop by 1 [Event Only]"
+  },
+  {
+    "id": 993610,
+    "detail": "Increase amount of Rose of Annihilation per drop by 2 [MAX] [Event Only]",
+    "detailShort": "Increase amount of Rose of Annihilation per drop by 2 [MAX] [Event Only]"
+  },
+  {
+    "id": 993611,
+    "detail": "Increase Arts Card effectiveness by 8% & Buster Card effectiveness by 8% & NP Gain by 5% & begin battle with NP charged at 30% for yourself",
+    "detailShort": "Increase Arts Card effectiveness by 8% & Buster Card effectiveness by 8% & NP Gain by 5% & begin battle with NP charged at 30% for yourself"
+  },
+  {
+    "id": 993612,
+    "detail": "Increase Arts Card effectiveness by 10% & Buster Card effectiveness by 10% & NP Gain by 8% & begin battle with NP charged at 50% for yourself [MAX]",
+    "detailShort": "Increase Arts Card effectiveness by 10% & Buster Card effectiveness by 10% & NP Gain by 8% & begin battle with NP charged at 50% for yourself [MAX]"
+  },
+  {
+    "id": 993613,
+    "detail": "Increase your ATK Strength by 100% in \"Spiral Proof World, Lilim Harlot\" [Event Only]",
+    "detailShort": "Increase your ATK Strength by 100% in \"Spiral Proof World, Lilim Harlot\" [Event Only]"
+  },
+  {
+    "id": 993614,
+    "detail": "Increase your ATK Strength by 200% in \"Spiral Proof World, Lilim Harlot\" [MAX] [Event Only]",
+    "detailShort": "Increase your ATK Strength by 200% in \"Spiral Proof World, Lilim Harlot\" [MAX] [Event Only]"
+  },
+  {
+    "id": 993615,
+    "detail": "Increase NP Strength by 30% & chance to increase NP Strength by 10% (3 turns) when attacking if in a [Holy Grail Possession] state for yourself only if [servantName 3300100] (Beast) is equipped with this Craft Essence",
+    "detailShort": "Increase NP Strength by 30% & chance to increase NP Strength by 10% (3 turns) when attacking if in a [Holy Grail Possession] state for yourself only if [servantName 3300100] (Beast) is equipped with this Craft Essence"
+  },
+  {
+    "id": 993616,
+    "detail": "Apply 20% Special Attack [Poison] for all allies only if [servantName 604800] (Assassin) is equipped with this Craft Essence when she is on the field + Apply Poison (500 damage) to yourself [Demerit]",
+    "detailShort": "Apply 20% Special Attack [Poison] for all allies only if [servantName 604800] (Assassin) is equipped with this Craft Essence when she is on the field + Apply Poison (500 damage) to yourself [Demerit]"
+  },
+  {
+    "id": 993617,
+    "detail": "Increase Quick Card effectiveness by 10% & apply 10% Special Attack [Wild Beast] for all allies only if [servantName 105700] (Saber) is equipped with this Craft Essence when he is on the field",
+    "detailShort": "Increase Quick Card effectiveness by 10% & apply 10% Special Attack [Wild Beast] for all allies only if [servantName 105700] (Saber) is equipped with this Craft Essence when he is on the field"
+  },
+  {
+    "id": 993618,
+    "detail": "Increase Critical Strength by 5% for the engraved Card + Decrease Critical Rate by 10% (1 turn) for a single enemy when attacking with the engraved Card ",
+    "detailShort": "Increase Critical Strength by 5% for the engraved Card + Decrease Critical Rate by 10% (1 turn) for a single enemy when attacking with the engraved Card "
+  },
+  {
+    "id": 993619,
+    "detail": "Increase NP Gain by 5% & increase C. Star Drop Rate by 30% for the engraved Card",
+    "detailShort": "Increase NP Gain by 5% & increase C. Star Drop Rate by 30% for the engraved Card"
+  },
+  {
+    "id": 993620,
+    "detail": "Apply 15% Special Attack [Roman] effect to the engraved Card + Apply [Roman] trait (5 turns) to a single enemy when attacking with the engraved Card",
+    "detailShort": "Apply 15% Special Attack [Roman] effect to the engraved Card + Apply [Roman] trait (5 turns) to a single enemy when attacking with the engraved Card"
   },
   {
     "id": 993622,
@@ -26678,6 +26788,56 @@
     "id": 2203650,
     "detail": "Decrease Death Resist [g][o]▲[/o][/g] [{0}] (3 turns) for all enemies + Increase Buster Card effectiveness [{0}] (3 turns [g][o]▲[/o][/g]) & NP Gauge [{0}] [g][o]▲[/o][/g] for yourself",
     "detailShort": "Decrease Death Resist [g][o]▲[/o][/g] [{0}] (3 turns) for all enemies + Increase Buster Card effectiveness [{0}] (3 turns [g][o]▲[/o][/g]) & NP Gauge [{0}] [g][o]▲[/o][/g] for yourself"
+  },
+  {
+    "id": 2204650,
+    "detail": "Apply Ignore Debuff Resist to yourself",
+    "detailShort": "Apply Ignore Debuff Resist to yourself"
+  },
+  {
+    "id": 2205350,
+    "detail": "Increase NP Gauge each turn [{0}] (6 turns) & Critical Strength [{0}] (6 times) & apply Damage Cut [{0}] (6 times) for yourself",
+    "detailShort": "Increase NP Gauge each turn [{0}] (6 turns) & Critical Strength [{0}] (6 times) & apply Damage Cut [{0}] (6 times) for yourself"
+  },
+  {
+    "id": 2206350,
+    "detail": "Increase Buff Removal Resist (1 time, 3 turns) for yourself + When in a [Holy Grail Possession] state, apply Special Attack [Dragon] [{0}] (3 turns) & Special Attack [Roman] [{0}] (3 turns ) & gain C. Stars each turn [{0}] (3 turns) & apply Debuff Immune (1 time) & apply Ignore DEF (3 turns) & increase HP Recovery amount [{0}] (3 turns) & increase NP Gauge each turn [{0}] (3 turns) for yourself",
+    "detailShort": "Increase Buff Removal Resist (1 time, 3 turns) for yourself + When in a [Holy Grail Possession] state, apply Special Attack [Dragon] [{0}] (3 turns) & Special Attack [Roman] [{0}] (3 turns ) & gain C. Stars each turn [{0}] (3 turns) & apply Debuff Immune (1 time) & apply Ignore DEF (3 turns) & increase HP Recovery amount [{0}] (3 turns) & increase NP Gauge each turn [{0}] (3 turns) for yourself"
+  },
+  {
+    "id": 2207551,
+    "detail": "Inflict Poison [{0}] (5 turns) to all enemies + Increase Arts Card effectiveness [{0}] (3 turns) & NP Gain [{0}] (3 turns) for yourself",
+    "detailShort": "Inflict Poison [{0}] (5 turns) to all enemies + Increase Arts Card effectiveness [{0}] (3 turns) & NP Gain [{0}] (3 turns) for yourself"
+  },
+  {
+    "id": 2208550,
+    "detail": "Apply Guts [{0}] (1 time, 3 turns) & Incoming Damage Cut [{0}] (3 turns) & [Poison] recovery <a state that converts damage from Poison into HP recovery> (5 turns) to yourself",
+    "detailShort": "Apply Guts [{0}] (1 time, 3 turns) & Incoming Damage Cut [{0}] (3 turns) & [Poison] recovery <a state that converts damage from Poison into HP recovery> (5 turns) to yourself"
+  },
+  {
+    "id": 2209450,
+    "detail": "Increase NP Gauge [{0}] for all allies + Apply \"a state that applies Poison (3 turns) during normal attacks\" (3 times, 3 turns) & apply Poison (5 turns) [Demerit] to yourself",
+    "detailShort": "Increase NP Gauge [{0}] for all allies + Apply \"a state that applies Poison (3 turns) during normal attacks\" (3 times, 3 turns) & apply Poison (5 turns) [Demerit] to yourself"
+  },
+  {
+    "id": 2210450,
+    "detail": "Increase ATK [{0}] (3 turns) & remove Debuffs for yourself + Gain C. Stars [{0}]",
+    "detailShort": "Increase ATK [{0}] (3 turns) & remove Debuffs for yourself + Gain C. Stars [{0}]"
+  },
+  {
+    "id": 2211550,
+    "detail": "Apply Special Attack [Wild Beast] [{0}] (3 turns) & increase Quick Card effectiveness [{0}] (3 turns) for yourself",
+    "detailShort": "Apply Special Attack [Wild Beast] [{0}] (3 turns) & increase Quick Card effectiveness [{0}] (3 turns) for yourself"
+  },
+  {
+    "id": 2212451,
+    "detail": "Chance [{0}] to increase Critical Strength [{0}] (3 turns) & chance [{0}] to increase C. Star Gather Rate [{0}] (3 turns) & apply Evade (2 times, 3 turns) for yourself",
+    "detailShort": "Chance [{0}] to increase Critical Strength [{0}] (3 turns) & chance [{0}] to increase C. Star Gather Rate [{0}] (3 turns) & apply Evade (2 times, 3 turns) for yourself"
+  },
+  {
+    "id": 2213250,
+    "detail": "Increase Poison Success Rate & increase Mental Debuff Resist for yourself",
+    "detailShort": "Increase Poison Success Rate & increase Mental Debuff Resist for yourself"
   },
   {
     "id": 3001000,
@@ -28253,5 +28413,60 @@
     "id": 90084005,
     "detail": "Gain +10 Friend Points when used as Support (Stackable)",
     "detailShort": "Gain +10 Friend Points when used as Support (Stackable)"
+  },
+  {
+    "id": 94082901,
+    "detail": "Decrease DEF [{0}] (1 turn) of a single enemy when attacking with the given Card",
+    "detailShort": "Decrease DEF [{0}] (1 turn) of a single enemy when attacking with the given Card"
+  },
+  {
+    "id": 94082903,
+    "detail": "Chance [{0}] to inflict Stun (1 turn) to a single enemy when attacking with the given Card <Once used, 3 turns will be needed to reuse>",
+    "detailShort": "Chance [{0}] to inflict Stun (1 turn) to a single enemy when attacking with the given Card <Once used, 3 turns will be needed to reuse>"
+  },
+  {
+    "id": 94082905,
+    "detail": "Increase Critical Strength [{0}] (1 turn) for yourself when attacking with the given Card",
+    "detailShort": "Increase Critical Strength [{0}] (1 turn) for yourself when attacking with the given Card"
+  },
+  {
+    "id": 94082906,
+    "detail": "Decrease ATK [{0}] (1 turn) of a single enemy when attacking with the given Card",
+    "detailShort": "Decrease ATK [{0}] (1 turn) of a single enemy when attacking with the given Card"
+  },
+  {
+    "id": 94082908,
+    "detail": "Increase NP Strength [{0}] (1 time, 2 turns) for yourself when attacking with the given Card",
+    "detailShort": "Increase NP Strength [{0}] (1 time, 2 turns) for yourself when attacking with the given Card"
+  },
+  {
+    "id": 94082909,
+    "detail": "Gain C. Stars [{0}] when attacking with the given Card",
+    "detailShort": "Gain C. Stars [{0}] when attacking with the given Card"
+  },
+  {
+    "id": 94082910,
+    "detail": "Increase ATK [{0}] (1 turn) for yourself when attacking with the given Card",
+    "detailShort": "Increase ATK [{0}] (1 turn) for yourself when attacking with the given Card"
+  },
+  {
+    "id": 94082911,
+    "detail": "Increase NP Gauge [{0}] for yourself when attacking with the given Card <Once used, 3 turns will be needed to reuse>",
+    "detailShort": "Increase NP Gauge [{0}] for yourself when attacking with the given Card <Once used, 3 turns will be needed to reuse>"
+  },
+  {
+    "id": 94082913,
+    "detail": "High Chance [{0}] to decrease Charge of a single enemy when attacking with the given Card",
+    "detailShort": "High Chance [{0}] to decrease Charge of a single enemy when attacking with the given Card"
+  },
+  {
+    "id": 94082915,
+    "detail": "Recover HP [{0}] for yourself when attacking with the given Card",
+    "detailShort": "Recover HP [{0}] for yourself when attacking with the given Card"
+  },
+  {
+    "id": 94082917,
+    "detail": "Increase Arts Card effectiveness [{0}] (1 turn) for yourself when attacking with the given Card",
+    "detailShort": "Increase Arts Card effectiveness [{0}] (1 turn) for yourself when attacking with the given Card"
   }
 ]
