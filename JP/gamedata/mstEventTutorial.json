@@ -1,6 +1,188 @@
 [
   {
     "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      4000529
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "役目を終えた聖杯の短剣が\n聖杯へと変化した！\n\n聖杯\nがプレゼントボックスに送られました。",
+        "dlgFontSize": 30,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": -156,
+    "flagType": 69,
+    "num": 1,
+    "priority": 0,
+    "openType": 93,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      20142607
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "『メタトロン』とのリンクが閉じ、\nマテリアルでの霊基グラフが\n閉鎖状態となりました。\n[FFFF00]※マテリアルの霊基一覧から、\n詳細表示は可能となります。[-]",
+        "dlgFontSize": 30,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": -154,
+    "flagType": 68,
+    "num": 1,
+    "priority": 1,
+    "openType": 2,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      20142606
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "奏章Ⅳの秩序復衡により、\nマテリアルでの霊基グラフ『メタトロン』に\n異常が検知されました。\n（現状では特に変化が見られません）",
+        "dlgFontSize": 30,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": -153,
+    "flagType": 67,
+    "num": 1,
+    "priority": 0,
+    "openType": 2,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[40501]"
+    ],
+    "condIds": [
+      4000501
+    ],
+    "imageIds": [
+      95
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": -152,
+    "flagType": 66,
+    "num": 1,
+    "priority": 0,
+    "openType": 1,
+    "condType": 46,
+    "condValue": 2,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      4000529
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "rects": [],
+        "text": "マシュのサーヴァントコインが獲得できる\nクエストが以下のスポットに開放されました。\n\n第1部 第6章 キャメロット『王城』\n第2部 第6章 アヴァロン・ル・フェ『キャメロット』\n\n[FFFF00]マシュのサーヴァント詳細画面から\nクエストへ移動できます。[-]",
+        "textPos": [
+          0,
+          15
+        ],
+        "spacingY": 1,
+        "dlgFontSize": 28,
+        "title": "クエスト開放",
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {
+      "beforeActionSetup": [
+        "402",
+        "50102"
+      ],
+      "beforeActionVals": [
+        "303",
+        "-84,95,2000,9",
+        "401",
+        "50102",
+        "900",
+        "0",
+        "560",
+        "0,4000529",
+        "300",
+        "1040401,15,1000"
+      ]
+    },
+    "eventId": -151,
+    "flagType": 1,
+    "num": 2,
+    "priority": 1,
+    "openType": 83,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
       "[9191]"
     ],
     "condIds": [
@@ -31,6 +213,107 @@
     "openType": 18,
     "condType": 1,
     "condValue": 1,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[40504]"
+    ],
+    "condIds": [
+      4000502
+    ],
+    "imageIds": [
+      93
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": -149,
+    "flagType": 65,
+    "num": 1,
+    "priority": 0,
+    "openType": 3,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      4000529
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "addClassIds": [
+          9,
+          8
+        ],
+        "releaseClassBoardBaseIds": [
+          8
+        ],
+        "isClassBoardRelease": true
+      }
+    ],
+    "script": {},
+    "eventId": -147,
+    "flagType": 1,
+    "num": 1,
+    "priority": 2,
+    "openType": 83,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      20142601
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "『奏章Ⅳ 人類裁決法廷 トリニティ・メタトロニオス』\nが開放されました。",
+        "dlgFontSize": 28,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {
+      "beforeActionSetup": [
+        "114",
+        "1040401,5"
+      ],
+      "beforeActionVals": [
+        "300",
+        "1040401,15,1000",
+        "104",
+        "1040401,6"
+      ]
+    },
+    "eventId": -146,
+    "flagType": 3,
+    "num": 1,
+    "priority": 0,
+    "openType": 83,
+    "condType": 113,
+    "condValue": 0,
     "condValue2": 0,
     "condValue3": 0,
     "flag": 0
@@ -1166,8 +1449,8 @@
     "imageIds": [],
     "textJson": [
       {
-        "text": "奏章Ⅲ\n\n新霊長後継戦　アーキタイプ・インセプション\nが開放されました。",
-        "dlgFontSize": 30,
+        "text": "『奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション』\nが開放されました。",
+        "dlgFontSize": 27,
         "rects": [],
         "textPos": [
           0,
@@ -1549,7 +1832,19 @@
       "[4000419,4]",
       "[4000420,3]",
       "[4000423,6]",
-      "[4000425,2]"
+      "[4000425,2]",
+      "[4000508,1]",
+      "[4000513,2]",
+      "[4000515,1]",
+      "[4000517,2]",
+      "[4000517,4]",
+      "[4000519,1]",
+      "[4000519,4]",
+      "[4000520,2]",
+      "[4000520,3]",
+      "[4000522,3]",
+      "[4000527,2]",
+      "[4000528,1]"
     ],
     "condIds": [],
     "imageIds": [
@@ -2784,7 +3079,7 @@
     "imageIds": [],
     "textJson": [
       {
-        "text": "奏章Ⅰ\n\n虚数羅針内界 ペーパームーン\nが開放されました。",
+        "text": "『奏章Ⅰ 虚数羅針内界 ペーパームーン』\nが開放されました。",
         "dlgFontSize": 30,
         "rects": [],
         "textPos": [
@@ -2824,7 +3119,7 @@
     "imageIds": [],
     "textJson": [
       {
-        "text": "奏章Ⅱ\n\n不可逆廃棄孔 イド\nが開放されました。",
+        "text": "『奏章Ⅱ 不可逆廃棄孔 イド』\nが開放されました。",
         "dlgFontSize": 30,
         "rects": [],
         "textPos": [

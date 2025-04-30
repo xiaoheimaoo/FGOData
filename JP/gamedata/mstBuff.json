@@ -14404,7 +14404,8 @@
     "vals": [
       3004,
       3006,
-      3028
+      3028,
+      2966
     ],
     "tvals": [
       1172
@@ -85438,6 +85439,308 @@
   {
     "vals": [
       3004,
+      2972
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4008,
+      -6044
+    ],
+    "script": {
+      "CounterMessage": "カウンター発動",
+      "checkIndvType": 4
+    },
+    "id": 5824,
+    "buffGroup": 506,
+    "type": 165,
+    "name": "Busterカウンター",
+    "detail": "敵の攻撃の対象になった時、敵の行動後に特殊なBusterカードで反撃する",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      2967
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE_OR": "800100,800101,800102,800190",
+      "DisplayCardBottomImageName": "icon_treasure_device_change"
+    },
+    "id": 5825,
+    "buffGroup": 5825,
+    "type": 146,
+    "name": "聖剣装填",
+    "detail": "宝具を補助宝具から全体攻撃宝具に変更する",
+    "iconId": 393,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      2967
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5826,
+    "buffGroup": 0,
+    "type": 154,
+    "name": "",
+    "detail": "",
+    "iconId": 419,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      2000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2000
+    ],
+    "script": {},
+    "id": 5829,
+    "buffGroup": 0,
+    "type": 22,
+    "name": "ダメージアップ〔神性〕",
+    "detail": "〔神性〕特性からの被ダメージが増える(強化扱い)【デメリット】",
+    "iconId": 504,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5830,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "自陣防御",
+    "detail": "自身を除く味方全体の一定ダメージ以上のダメージを一定ダメージに抑える",
+    "iconId": 418,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5831,
+    "buffGroup": 0,
+    "type": 228,
+    "name": "自陣防御",
+    "detail": "一定ダメージ以上のダメージを一定ダメージに抑える",
+    "iconId": 418,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      3066
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3066
+    ],
+    "script": {},
+    "id": 5832,
+    "buffGroup": 0,
+    "type": 30,
+    "name": "睡眠耐性ダウン",
+    "detail": "睡眠耐性をダウン",
+    "iconId": 506,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [
+      1000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      1000
+    ],
+    "script": {},
+    "id": 5833,
+    "buffGroup": 0,
+    "type": 218,
+    "name": "宝具威力耐性アップ〔サーヴァント〕",
+    "detail": "〔サーヴァント〕による宝具で受けるダメージを減らす",
+    "iconId": 413,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      2654
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2654
+    ],
+    "script": {},
+    "id": 5834,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ〔今を生きる人類〕",
+    "detail": "〔今を生きる人類〕に与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5835,
+    "buffGroup": 0,
+    "type": 217,
+    "name": "クリティカル威力耐性ダウン",
+    "detail": "クリティカル攻撃で受けるダメージが増える",
+    "iconId": 575,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5836,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "攻撃を受けると、スターを獲得する",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5837,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "特性付与〔混沌〕",
+    "detail": "〔混沌〕特性を付与する",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4009
+    ],
+    "ckSelfIndv": [
+      4009
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5838,
+    "buffGroup": 0,
+    "type": 1,
+    "name": "カウンター威力アップ",
+    "detail": "カウンター攻撃の威力をアップ",
+    "iconId": 302,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [
+      300
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      300
+    ],
+    "script": {},
+    "id": 5840,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "クリティカル威力アップ〔秩序〕",
+    "detail": "〔秩序〕特性に与えるクリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3038
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "missText": "クリティカル MISS"
+    },
+    "id": 5841,
+    "buffGroup": 0,
+    "type": 71,
+    "name": "クリティカル発生ダウン",
+    "detail": "クリティカルの発生率をダウン(強化扱い)【デメリット】",
+    "iconId": 523,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
       3006
     ],
     "tvals": [
@@ -137839,6 +138142,3390 @@
     "name": "",
     "detail": "",
     "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 101
+    },
+    "id": 94142501,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "忠義の騎士",
+    "detail": "ランスロットがフィールドにいる間、クラス相性を変更する(防御相性をルーラーと同じにする)",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3022,
+      3007
+    ],
+    "tvals": [
+      3026
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3026
+    ],
+    "script": {
+      "INDIVIDUALITIE": 6026
+    },
+    "id": 94142502,
+    "buffGroup": 0,
+    "type": 26,
+    "name": "愛娘の守護",
+    "detail": "妖精騎士トリスタンがフィールドにいる間、呪い状態の敵に対して無敵になる",
+    "iconId": 311,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6027
+    },
+    "id": 94142503,
+    "buffGroup": 0,
+    "type": 173,
+    "name": "妖精騎士の守護",
+    "detail": "妖精騎士ランスロットがフィールドにいる間、HPゲージがBreakされた時、HPを回復して耐える",
+    "iconId": 384,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6028
+    },
+    "id": 94142504,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "妖精騎士の守護",
+    "detail": "妖精騎士ガウェインがフィールドにいる間、毎ターンチャージを1増やす",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142505,
+    "buffGroup": 0,
+    "type": 182,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      800100,
+      800101,
+      800102,
+      800190
+    ],
+    "script": {},
+    "id": 94142506,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6039
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      800100,
+      800101,
+      800102,
+      800190
+    ],
+    "script": {},
+    "id": 94142507,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142508,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007,
+      100900
+    ],
+    "script": {
+      "checkIndvType": 1,
+      "INDIVIDUALITIE": 2961
+    },
+    "id": 94142509,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [
+      5000
+    ],
+    "script": {},
+    "id": 94142510,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007,
+      2965
+    ],
+    "script": {
+      "checkIndvType": 1,
+      "INDIVIDUALITIE": 6040
+    },
+    "id": 94142511,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      800100,
+      800101,
+      800102,
+      800190
+    ],
+    "script": {
+      "INDIVIDUALITIE": -6043
+    },
+    "id": 94142512,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      800100,
+      800101,
+      800102,
+      800190
+    ],
+    "script": {},
+    "id": 94142513,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007,
+      9943200
+    ],
+    "script": {
+      "checkIndvType": 1,
+      "INDIVIDUALITIE": 2963
+    },
+    "id": 94142514,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      5000,
+      4008
+    ],
+    "script": {},
+    "id": 94142515,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "妖精魔女",
+    "detail": "通常攻撃時、対象に高確率で呪い状態を付与＆高確率で呪い状態を付与",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3059,
+      3006,
+      6036
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142516,
+    "buffGroup": 0,
+    "type": 72,
+    "name": "アルビオンの鼓動",
+    "detail": "回避と無敵を無視して、攻撃によるダメージを与える",
+    "iconId": 329,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000,
+      2966
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2966
+    ],
+    "script": {},
+    "id": 94142517,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "〔人類の脅威〕特攻攻撃を受けた時、〔アルビオンの鼓動〕状態を解除＆〔人類の脅威〕状態を解除",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6037
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142518,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "空腹",
+    "detail": "ターン経過後、敵マスターの令呪を1画喰らう",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6037
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      5000,
+      4008
+    ],
+    "script": {},
+    "id": 94142519,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "飢え",
+    "detail": "通常攻撃時、対象の攻撃強化状態を1つ解除",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000,
+      2966
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2966
+    ],
+    "script": {},
+    "id": 94142520,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "〔人類の脅威〕特攻攻撃を受けた時、〔空腹〕状態を解除＆〔人類の脅威〕状態を解除",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000,
+      2966
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2966
+    ],
+    "script": {},
+    "id": 94142521,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "〔人類の脅威〕特攻攻撃を受けた時、〔飢え〕状態を解除＆〔人類の脅威〕状態を解除",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      800100,
+      2966
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      800100,
+      2966
+    ],
+    "script": {
+      "checkIndvType": 1,
+      "INDIVIDUALITIE": 1172
+    },
+    "id": 94142522,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [
+      9943010
+    ],
+    "script": {},
+    "id": 94142523,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [
+      9943010
+    ],
+    "script": {
+      "ckSelfCountIndividuality": "6039",
+      "ckIndvCountAbove": 3
+    },
+    "id": 94142524,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 2,
+      "INDIVIDUALITIE": -3026
+    },
+    "id": 94142525,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      6040
+    ],
+    "script": {},
+    "id": 94142526,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "ckOpCountIndividuality": "2963",
+      "ckIndvCountAbove": 1
+    },
+    "id": 94142527,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6036
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142528,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "騎士の嗜み",
+    "detail": "ターン経過後、獅子王のHPを回復する",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000,
+      4007,
+      4100,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007,
+      4100,
+      4002
+    ],
+    "script": {},
+    "id": 94142529,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "Buster攻撃、クリティカル攻撃、宝具攻撃を受けた時、〔騎士の嗜み〕状態を解除",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142530,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "不滅の太陽",
+    "detail": "ガウェインがフィールドにいる間、防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142531,
+    "buffGroup": 0,
+    "type": 24,
+    "name": "悲哀の竪琴",
+    "detail": "トリスタンがフィールドにいる間、攻撃によるダメージを0にする(他の回避状態と重複可能)",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {},
+    "id": 94142532,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "忠義の騎士",
+    "detail": "ランスロットがフィールドにいる間、弱体を受けなくなる",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142533,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "妖精女王",
+    "detail": "ターン終了時、〔渇望のカリスマ〕を発動する<3ターンに1回だけ発動>",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 113
+    },
+    "id": 94142534,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "妖精女王",
+    "detail": "クラス相性の防御不利を打ち消す",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3005
+    },
+    "id": 94142535,
+    "buffGroup": 0,
+    "type": 168,
+    "name": "妖精女王",
+    "detail": "ターン開始時、自身の弱体状態を2つ解除する<弱体状態の間、効果が有効になる>",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142536,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "無垢なる湖光",
+    "detail": "ターン終了時、自身のチャージを2増やす＆宝具威力をアップ",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142537,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "ターン終了時、自身の攻撃力をアップ",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2969
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142538,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2970
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142539,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2971
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142540,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3081
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3,
+      "DisplayPriority": 900
+    },
+    "id": 94142602,
+    "buffGroup": 0,
+    "type": 6,
+    "name": "？？？",
+    "detail": "ターン終了時にスターを獲得する",
+    "iconId": 320,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3,
+      "DisplayPriority": 950
+    },
+    "id": 94142605,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "出力向上",
+    "detail": "ブラックバレル使用時、自身に〔天命〕特攻状態を付与＆Busterカードのスター集中度をアップ<1ターンに1回だけ発動>",
+    "iconId": 394,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142606,
+    "buffGroup": 0,
+    "type": 136,
+    "name": "裁定特権",
+    "detail": "与えるダメージをアップ",
+    "iconId": 359,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142607,
+    "buffGroup": 0,
+    "type": 136,
+    "name": "裁定特権",
+    "detail": "与えるダメージをアップ",
+    "iconId": 359,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142608,
+    "buffGroup": 0,
+    "type": 136,
+    "name": "裁定特権",
+    "detail": "与えるダメージをアップ",
+    "iconId": 359,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142609,
+    "buffGroup": 0,
+    "type": 136,
+    "name": "裁定特権",
+    "detail": "与えるダメージをアップ",
+    "iconId": 359,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3,
+      "DisplayPriority": 1000
+    },
+    "id": 94142610,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "出力向上",
+    "detail": "ブラックバレル使用時、自身に〔天命〕特攻状態を付与＆Busterカードのスター集中度をアップ<1ターンに1回だけ発動>",
+    "iconId": 394,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3081
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3,
+      "DisplayPriority": 1000
+    },
+    "id": 94142613,
+    "buffGroup": 0,
+    "type": 6,
+    "name": "ハベトロットの守護",
+    "detail": "ターン終了時にスターを獲得する",
+    "iconId": 320,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142615,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "ターン終了時、敵全体の防御力をダウン",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3020
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142616,
+    "buffGroup": 900,
+    "type": 34,
+    "name": "守られるべき姫",
+    "detail": "宝具を使用できなくなる",
+    "iconId": 512,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3045,
+      3010,
+      3066
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142617,
+    "buffGroup": 503,
+    "type": 32,
+    "name": "怠惰",
+    "detail": "行動不能になる",
+    "iconId": 557,
+    "maxRate": 0,
+    "effectId": 2001002
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142619,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "増援信号",
+    "detail": "ターン経過後、〔天使・第五階梯〕を召喚する",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142620,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "増援信号",
+    "detail": "ターン経過後、〔天使・第六階梯〕を召喚する",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 900,
+      "INDIVIDUALITIE": -3086
+    },
+    "id": 94142621,
+    "buffGroup": 94142621,
+    "type": 104,
+    "name": "？？？",
+    "detail": "HPが0になった時、HPを回復して耐える(他のガッツ状態と重複可能)",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {
+      "DisplayPriority": 900
+    },
+    "id": 94142622,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "？？？",
+    "detail": "弱体を受けなくなる",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3,
+      "DisplayPriority": 900
+    },
+    "id": 94142623,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "？？？",
+    "detail": "攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3,
+      "DisplayPriority": 900
+    },
+    "id": 94142624,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "？？？",
+    "detail": "ターン終了時、自身のブラックバレルのスキルチャージを1進める",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      6033,
+      6030
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      6033,
+      6030
+    ],
+    "script": {},
+    "id": 94142625,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ〔天命〕",
+    "detail": "対象の存在規模に応じて、与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 1000,
+      "INDIVIDUALITIE": -3086
+    },
+    "id": 94142626,
+    "buffGroup": 94142626,
+    "type": 104,
+    "name": "ハベトロットの守護",
+    "detail": "HPが0になった時、HPを回復して耐える(他のガッツ状態と重複可能)",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {
+      "DisplayPriority": 1000
+    },
+    "id": 94142627,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "ハベトロットの守護",
+    "detail": "弱体を受けなくなる",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3,
+      "DisplayPriority": 1000
+    },
+    "id": 94142628,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "ハベトロットの守護",
+    "detail": "攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3,
+      "DisplayPriority": 1000
+    },
+    "id": 94142629,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "ハベトロットの守護",
+    "detail": "ターン終了時、自身のブラックバレルのスキルチャージを1進める",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      6038
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      6038
+    ],
+    "script": {},
+    "id": 94142630,
+    "buffGroup": 94142630,
+    "type": 29,
+    "name": "裁定特権",
+    "detail": "『法則固定』による弱体を受けなくなる",
+    "iconId": 322,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6033
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142631,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "天命",
+    "detail": "天命果たすまで生き続けるモノ",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [
+      800100,
+      6043
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142632,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142633,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142634,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142635,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      6032
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      6032
+    ],
+    "script": {},
+    "id": 94142636,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "",
+    "detail": "",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      6031
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      6031
+    ],
+    "script": {},
+    "id": 94142637,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "",
+    "detail": "",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      6038
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      6038
+    ],
+    "script": {},
+    "id": 94142638,
+    "buffGroup": 94142638,
+    "type": 29,
+    "name": "？？？",
+    "detail": "？？？による弱体を受けなくなる",
+    "iconId": 322,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142639,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "天命",
+    "detail": "天命果たすまで生き続けるモノ",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142640,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "天命",
+    "detail": "天命果たすまで生き続けるモノ",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      3110
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142641,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "赤錆の呪縛",
+    "detail": "防御力をダウン",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142642,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "天命",
+    "detail": "天命果たすまで生き続けるモノ",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      6038
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      6038
+    ],
+    "script": {},
+    "id": 94142643,
+    "buffGroup": 94142643,
+    "type": 29,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142644,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、対象の攻撃力をダウン＆防御力をダウン",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4100
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94142645,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "特殊耐性アップ〔クリティカル以外〕",
+    "detail": "クリティカル以外の攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      901900
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      901900
+    ],
+    "script": {},
+    "id": 94142646,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ〔メタトロン・ジャンヌ〕",
+    "detail": "〔メタトロン・ジャンヌ〕に与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3009
+    ],
+    "tvals": [
+      901900
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      901900
+    ],
+    "script": {},
+    "id": 94142647,
+    "buffGroup": 0,
+    "type": 22,
+    "name": "ダメージアップ〔メタトロン・ジャンヌ〕",
+    "detail": "〔メタトロン・ジャンヌ〕からの被ダメージが増える(強化扱い)【デメリット】",
+    "iconId": 504,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3014,
+      3087,
+      3045,
+      6040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142648,
+    "buffGroup": 500,
+    "type": 32,
+    "name": "結界による拘束",
+    "detail": "行動不能になる",
+    "iconId": 501,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142649,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "ターン終了時、自身の最大HPをアップ＆HPを回復する",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142650,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "ターン終了時、自身の最大HPを減らす",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142651,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142652,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "特殊耐性アップ",
+    "detail": "自身がフィールドにいる間、自身を除く味方全体の全ての攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142653,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "",
+    "detail": "",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142654,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "智天賦与",
+    "detail": "攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142656,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "智天賦与",
+    "detail": "防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142658,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "真愛告知",
+    "detail": "次のエネミーターン開始時、〔真愛告知〕によって消滅した天使が階梯を上げて復活する",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6039
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142659,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142660,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6041
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142661,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      6043
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142662,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "特殊耐性アップ",
+    "detail": "全ての攻撃に対する耐性をアップ<宝具威力アップ状態が3個以上ある敵から宝具攻撃を受ける時、ダメージ前に解除>",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142663,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "ターン終了時、自身に防御無視状態または無敵貫通状態を付与",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142664,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "ターン終了時、自身の宝具威力をアップ",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142665,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "ターン終了時、自身にさまざまな強化効果をランダムで付与",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3030,
+      "INDIVIDUALITIE_COUNT_ABOVE": 3
+    },
+    "id": 94142666,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -3013
+    },
+    "id": 94142667,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "特殊耐性アップ",
+    "detail": "全ての攻撃に対する耐性をアップ ＜〔石化〕状態の時、効果が無効になる＞",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142668,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "特異点法律書",
+    "detail": "全ての攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3016
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003
+    ],
+    "script": {},
+    "id": 94142669,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "民法書",
+    "detail": "Quickカードの攻撃による被ダメージ、被NP発生量、被スター発生率が減少する",
+    "iconId": 345,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3016
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001
+    ],
+    "script": {},
+    "id": 94142670,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "判例集",
+    "detail": "Artsカードの攻撃による被ダメージ、被NP発生量、被スター発生率が減少する",
+    "iconId": 346,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3016
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {},
+    "id": 94142671,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "刑法書",
+    "detail": "Busterカードの攻撃による被ダメージ、被NP発生量、被スター発生率が減少する",
+    "iconId": 347,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142672,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "天命",
+    "detail": "天命果たすまで生き続ける者",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      3013
+    ],
+    "ckSelfIndv": [
+      3013
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142673,
+    "buffGroup": 0,
+    "type": 27,
+    "name": "石化付与アップ",
+    "detail": "石化付与率をアップ",
+    "iconId": 307,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3086
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142674,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142675,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142676,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      901900
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      901900
+    ],
+    "script": {
+      "DisplayPriority": 500
+    },
+    "id": 94142677,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ〔メタトロン・ジャンヌ〕",
+    "detail": "〔メタトロン・ジャンヌ〕に与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3009
+    ],
+    "tvals": [
+      901900
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      901900
+    ],
+    "script": {
+      "DisplayPriority": 500
+    },
+    "id": 94142678,
+    "buffGroup": 0,
+    "type": 22,
+    "name": "ダメージアップ〔メタトロン・ジャンヌ〕",
+    "detail": "〔メタトロン・ジャンヌ〕からの被ダメージが増える(強化扱い)【デメリット】",
+    "iconId": 504,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142679,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "遅延発動",
+    "detail": "ターン経過後、自身の攻撃力をダウン＆防御力をダウン",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 1100
+    },
+    "id": 94142680,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "転輪聖王",
+    "detail": "通常時は宝具を使用しないかわりに、HPゲージがBreakされた直後には必ず宝具を使用する",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142681,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "法廷の守護者",
+    "detail": "自身がやられた時、味方全体の行動回数を増やす",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 1100,
+      "relationId": 187
+    },
+    "id": 94142682,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "裁定の資格",
+    "detail": "防御時のクラス相性が〔アヴェンジャー〕に対して劣位、〔セイバー〕〔バーサーカー〕〔ルーラー〕〔フォーリナー〕〔シールダー〕〔ビースト〕に対して同位、他のクラスに対して優位になる",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 1100,
+      "relationId": 188
+    },
+    "id": 94142683,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "裁定の資格",
+    "detail": "攻撃時のクラス相性が〔アヴェンジャー〕に対して劣位、〔セイバー〕〔ルーラー〕〔フォーリナー〕〔シールダー〕〔ビースト〕に対して同位、他のクラスに対して優位になる",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142684,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時、対象の攻撃強化状態を1つ解除する",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      6042
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142685,
+    "buffGroup": 0,
+    "type": 171,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6019
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142686,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -6019
+    },
+    "id": 94142687,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "特殊耐性アップ",
+    "detail": "全ての攻撃に対する耐性をアップ＜他の味方がいる場合、効果が無効になる＞",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6019
+    },
+    "id": 94142688,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "クリティカル発生アップ",
+    "detail": "クリティカルの発生率をアップ＜他の味方がいない場合、効果が無効になる＞",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3059,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -6019
+    },
+    "id": 94142689,
+    "buffGroup": 0,
+    "type": 72,
+    "name": "無敵貫通",
+    "detail": "回避と無敵を無視して、攻撃によるダメージを与える＜他の味方がいる場合、効果が無効になる＞",
+    "iconId": 329,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3111,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6019
+    },
+    "id": 94142690,
+    "buffGroup": 0,
+    "type": 121,
+    "name": "防御無視",
+    "detail": "防御力アップを無視して、攻撃によるダメージを与える＜他の味方がいない場合、効果が無効になる＞",
+    "iconId": 351,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142691,
+    "buffGroup": 0,
+    "type": 173,
+    "name": "審理の問い",
+    "detail": "HPゲージがBreakされた時、HPを回復して耐える",
+    "iconId": 384,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3020
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142692,
+    "buffGroup": 94142692,
+    "type": 34,
+    "name": "告白の覚悟",
+    "detail": "宝具を使用できなくなる",
+    "iconId": 512,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142693,
+    "buffGroup": 0,
+    "type": 62,
+    "name": "告白の覚悟",
+    "detail": "ターン終了時にNPが減る",
+    "iconId": 519,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142694,
+    "buffGroup": 0,
+    "type": 63,
+    "name": "告白の覚悟",
+    "detail": "NP獲得量をダウン",
+    "iconId": 509,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142695,
+    "buffGroup": 0,
+    "type": 186,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142696,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、自身のチャージを3増やす",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 1000,
+      "INDIVIDUALITIE": -3086
+    },
+    "id": 94142697,
+    "buffGroup": 94142697,
+    "type": 104,
+    "name": "盾の決意",
+    "detail": "HPが0になった時、HPを回復して耐える(他のガッツ状態と重複可能)",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {
+      "DisplayPriority": 1000
+    },
+    "id": 94142698,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "盾の決意",
+    "detail": "弱体を受けなくなる",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3,
+      "DisplayPriority": 1000
+    },
+    "id": 94142699,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "盾の決意",
+    "detail": "攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3,
+      "DisplayPriority": 1000
+    },
+    "id": 94142700,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "盾の決意",
+    "detail": "防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3081
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3,
+      "DisplayPriority": 1000
+    },
+    "id": 94142701,
+    "buffGroup": 0,
+    "type": 6,
+    "name": "盾の決意",
+    "detail": "ターン終了時にスターを獲得する",
+    "iconId": 320,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142702,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "被ダメージ時、味方全体の防御力をダウン",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142703,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃時発動",
+    "detail": "攻撃時、味方全体の攻撃力をアップ",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3010,
+      3052,
+      3063
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142704,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "混乱",
+    "detail": "毎ターン高確率でスキル封印状態を付与",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142706,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "不屈の盾",
+    "detail": "攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142707,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "不屈の盾",
+    "detail": "クリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3084
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142708,
+    "buffGroup": 0,
+    "type": 93,
+    "name": "不屈の盾",
+    "detail": "被ダメージ時のNP獲得量をアップ",
+    "iconId": 335,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142709,
+    "buffGroup": 0,
+    "type": 186,
+    "name": "不屈の盾",
+    "detail": "宝具使用時、味方全体の宝具攻撃に対する耐性をアップ",
+    "iconId": 396,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142710,
+    "buffGroup": 0,
+    "type": 141,
+    "name": "不屈の盾",
+    "detail": "オーダーチェンジを使用できなくなる",
+    "iconId": 554,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030,
+      6042
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142711,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "宝具威力アップ(無法)",
+    "detail": "宝具で与えるダメージをアップ",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3022,
+      3007,
+      6042
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142712,
+    "buffGroup": 94142712,
+    "type": 26,
+    "name": "無敵(違法)",
+    "detail": "必中を無視して、攻撃によるダメージを0にする",
+    "iconId": 311,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      6042
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142713,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "特殊耐性アップ(違法)",
+    "detail": "全ての攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3094,
+      6042
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142714,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Quickアップ(違法)",
+    "detail": "Quickカードの性能をアップ",
+    "iconId": 312,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3092,
+      6042
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142715,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Artsアップ(違法)",
+    "detail": "Artsカードの性能をアップ",
+    "iconId": 313,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3093,
+      6042
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142716,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Busterアップ(違法)",
+    "detail": "Busterカードの性能をアップ",
+    "iconId": 314,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032,
+      6042
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142717,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "クリティカル発生アップ(違法)",
+    "detail": "クリティカルの発生率をアップ",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031,
+      6042
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142718,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "クリティカル威力アップ(違法)",
+    "detail": "クリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030,
+      6042
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142719,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "宝具威力アップ(違法)",
+    "detail": "宝具で与えるダメージをアップ",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3059,
+      3006,
+      6042
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142720,
+    "buffGroup": 0,
+    "type": 72,
+    "name": "無敵貫通(違法)",
+    "detail": "回避と無敵を無視して、攻撃によるダメージを与える",
+    "iconId": 329,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3111,
+      3006,
+      6042
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142721,
+    "buffGroup": 94142721,
+    "type": 121,
+    "name": "防御無視(違法)",
+    "detail": "防御力アップを無視して、攻撃によるダメージを与える",
+    "iconId": 351,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 1100
+    },
+    "id": 94142722,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "緊急停止レバー",
+    "detail": "HPゲージをBreakすると機能停止し確保できる",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142723,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時、対象の防御強化状態を1つ解除する",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -107
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -107
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94142724,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "聖なる騎士",
+    "detail": "〔シールダー〕クラス以外からの攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142725,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "攻撃ダメージ前追加効果",
+    "detail": "攻撃時、ダメージ前に対象の防御強化状態を１つ解除する",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3081
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142726,
+    "buffGroup": 0,
+    "type": 6,
+    "name": "不屈の盾",
+    "detail": "ターン終了時にスターを獲得する",
+    "iconId": 320,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142727,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、自身の宝具威力をアップ＆チャージを3増やす＆スキル封印状態を付与【デメリット】",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142728,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "宝具攻撃ダメージ前追加効果",
+    "detail": "宝具攻撃時、ダメージ前に対象の防御強化状態を解除する",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3020
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142729,
+    "buffGroup": 94142729,
+    "type": 34,
+    "name": "審理の問い",
+    "detail": "宝具を使用できなくなる",
+    "iconId": 512,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031,
+      2852
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 990
+    },
+    "id": 94142730,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "クリティカル威力アップ",
+    "detail": "Busterカードのクリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3085,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 980
+    },
+    "id": 94142731,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "ダメージカット",
+    "detail": "被ダメージを減らす",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3060
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 980
+    },
+    "id": 94142732,
+    "buffGroup": 0,
+    "type": 7,
+    "name": "毎ターンHP回復",
+    "detail": "ターン終了時にHPが回復する",
+    "iconId": 318,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142733,
+    "buffGroup": 0,
+    "type": 173,
+    "name": "裁判長の影",
+    "detail": "HPゲージがBreakされた時、HPを回復して耐える",
+    "iconId": 384,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3020
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142734,
+    "buffGroup": 94142734,
+    "type": 34,
+    "name": "裁判長の影",
+    "detail": "宝具を使用できなくなる",
+    "iconId": 512,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142735,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "最終弁論",
+    "detail": "クリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142736,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "最終弁論",
+    "detail": "宝具で与えるダメージをアップ",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142737,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "ターン終了時、自身のチャージを最大にする",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142738,
+    "buffGroup": 0,
+    "type": 74,
+    "name": "最終弁論",
+    "detail": "即死耐性をアップ",
+    "iconId": 306,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142739,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "聖なる騎士",
+    "detail": "毎ターンチャージを1増やす",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142740,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "聖なる騎士",
+    "detail": "全ての攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {},
+    "id": 94142741,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "聖なる騎士",
+    "detail": "弱体を受けなくなる",
+    "iconId": 322,
     "maxRate": 0,
     "effectId": 0
   }

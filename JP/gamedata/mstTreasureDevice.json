@@ -11486,6 +11486,150 @@
       4007
     ],
     "script": {},
+    "id": 963,
+    "seqId": 9945960,
+    "name": "焼尽の光輪",
+    "ruby": "-",
+    "rank": "なし",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
+      4007
+    ],
+    "script": {},
+    "id": 964,
+    "seqId": 9945970,
+    "name": "廻転する光輪",
+    "ruby": "-",
+    "rank": "なし",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
+      4007
+    ],
+    "script": {},
+    "id": 965,
+    "seqId": 9945980,
+    "name": "玉座の光輪",
+    "ruby": "-",
+    "rank": "なし",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
+      4007
+    ],
+    "script": {},
+    "id": 966,
+    "seqId": 9945990,
+    "name": "裁きの滅矢",
+    "ruby": "-",
+    "rank": "なし",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
+      4007
+    ],
+    "script": {},
+    "id": 967,
+    "seqId": 9946000,
+    "name": "潔白の光矢",
+    "ruby": "-",
+    "rank": "なし",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
+      4007
+    ],
+    "script": {},
+    "id": 968,
+    "seqId": 9946010,
+    "name": "閃光の鋭矢",
+    "ruby": "-",
+    "rank": "なし",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
+      4007
+    ],
+    "script": {},
+    "id": 969,
+    "seqId": 9946020,
+    "name": "始まりの光",
+    "ruby": "-",
+    "rank": "なし",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
+      4007
+    ],
+    "script": {},
+    "id": 970,
+    "seqId": 9946030,
+    "name": "懺悔の光",
+    "ruby": "-",
+    "rank": "なし",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
+      4007
+    ],
+    "script": {},
+    "id": 971,
+    "seqId": 9946040,
+    "name": "浄化の光",
+    "ruby": "-",
+    "rank": "なし",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
+      4007
+    ],
+    "script": {},
     "id": 978,
     "seqId": 9945930,
     "name": "泥中に咲く",
@@ -15318,7 +15462,8 @@
       3000,
       4002,
       4007,
-      4102
+      4102,
+      2966
     ],
     "script": {},
     "id": 300802,
@@ -16837,6 +16982,29 @@
     "typeText": "対人宝具",
     "attackAttri": 1,
     "effectFlag": 2
+  },
+  {
+    "individuality": [
+      3002,
+      4001,
+      4007,
+      4101
+    ],
+    "script": {
+      "limitSeqId_1": 305810,
+      "limitSeqId_3": 305820,
+      "limitSeqId_4": 305820,
+      "limitSeqId_2": 305810
+    },
+    "id": 305801,
+    "seqId": 305800,
+    "name": "法阿育・転輪聖王",
+    "ruby": "ダルマ＝アショーカ・チャクラ・ヴァルティン",
+    "rank": "A+",
+    "maxLv": 5,
+    "typeText": "対人／対国宝具",
+    "attackAttri": 1,
+    "effectFlag": 1
   },
   {
     "individuality": [
@@ -23379,7 +23547,8 @@
       3002,
       4001,
       4007,
-      4102
+      4102,
+      2966
     ],
     "script": {
       "randomSeqIds_1": [
@@ -23616,6 +23785,92 @@
     "name": "いまに在りし夢想の城",
     "ruby": "ロード・キャメロット",
     "rank": "C",
+    "maxLv": 5,
+    "typeText": "対人宝具",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
+      4001,
+      4007
+    ],
+    "script": {
+      "tdTypeChangeIDs": [
+        800107,
+        800108
+      ],
+      "excludeTdChangeTypes": [
+        3
+      ]
+    },
+    "id": 800107,
+    "seqId": 800190,
+    "name": "希望築く人理の盾",
+    "ruby": "ロード・カルデアス",
+    "rank": "B",
+    "maxLv": 5,
+    "typeText": "対人宝具",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
+      4002,
+      4007,
+      4101,
+      2966
+    ],
+    "script": {
+      "tdTypeChangeIDs": [
+        800107,
+        800108
+      ],
+      "excludeTdChangeTypes": [
+        3
+      ]
+    },
+    "id": 800108,
+    "seqId": 800191,
+    "name": "希望証す人理の剣",
+    "ruby": "レイプルーフ・キリエライト",
+    "rank": "EX",
+    "maxLv": 5,
+    "typeText": "対界宝具",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3002,
+      4001,
+      4007
+    ],
+    "script": {},
+    "id": 800196,
+    "seqId": 800151,
+    "name": "いまに在りし夢想の城",
+    "ruby": "ロード・キャメロット",
+    "rank": "C",
+    "maxLv": 5,
+    "typeText": "対人宝具",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
+      4001,
+      4007
+    ],
+    "script": {},
+    "id": 800197,
+    "seqId": 800199,
+    "name": "希望築く人理の盾",
+    "ruby": "ロード・カルデアス",
+    "rank": "B",
     "maxLv": 5,
     "typeText": "対人宝具",
     "attackAttri": 1,
@@ -24377,6 +24632,29 @@
     "typeText": "対人宝具",
     "attackAttri": 1,
     "effectFlag": 2
+  },
+  {
+    "individuality": [
+      3002,
+      4002,
+      4007,
+      4101
+    ],
+    "script": {
+      "limitSeqId_1": 901910,
+      "limitSeqId_3": 901920,
+      "limitSeqId_4": 901920,
+      "limitSeqId_2": 901910
+    },
+    "id": 901901,
+    "seqId": 901900,
+    "name": "司るは全知全能なりて",
+    "ruby": "ユニヴェール・イモルテル・メタトロン",
+    "rank": "EX",
+    "maxLv": 5,
+    "typeText": "対人宝具（自身）",
+    "attackAttri": 1,
+    "effectFlag": 1
   },
   {
     "individuality": [
@@ -32034,6 +32312,24 @@
   },
   {
     "individuality": [
+      3002,
+      4002,
+      4007,
+      4101
+    ],
+    "script": {},
+    "id": 9945941,
+    "seqId": 9945940,
+    "name": "",
+    "ruby": "",
+    "rank": "",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
       3000,
       4002,
       4007,
@@ -32083,6 +32379,170 @@
     "rank": "B++",
     "maxLv": 5,
     "typeText": "対軍宝具",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3002,
+      4003,
+      4007,
+      4102
+    ],
+    "script": {},
+    "id": 9946321,
+    "seqId": 9946320,
+    "name": "虚妄は闇の娘",
+    "ruby": "イシャー・ラーアー",
+    "rank": "B++",
+    "maxLv": 5,
+    "typeText": "対人宝具",
+    "attackAttri": 1,
+    "effectFlag": 2
+  },
+  {
+    "individuality": [
+      3002,
+      4003,
+      4007,
+      4102
+    ],
+    "script": {},
+    "id": 9946331,
+    "seqId": 9946330,
+    "name": "虚妄は闇の娘",
+    "ruby": "イシャー・ラーアー",
+    "rank": "B++",
+    "maxLv": 5,
+    "typeText": "対人宝具",
+    "attackAttri": 1,
+    "effectFlag": 2
+  },
+  {
+    "individuality": [
+      3002,
+      4002,
+      4007,
+      4101
+    ],
+    "script": {},
+    "id": 9946341,
+    "seqId": 9946340,
+    "name": "司るは全知全能なりて",
+    "ruby": "ユニヴェール・イモルテル・メタトロン",
+    "rank": "EX",
+    "maxLv": 5,
+    "typeText": "対人宝具（自身）",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3002,
+      4002,
+      4007,
+      4101
+    ],
+    "script": {},
+    "id": 9946351,
+    "seqId": 9946350,
+    "name": "司るは全知全能なりて",
+    "ruby": "ユニヴェール・イモルテル・メタトロン",
+    "rank": "EX",
+    "maxLv": 5,
+    "typeText": "対人宝具（自身）",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3002,
+      4003,
+      4007,
+      4102
+    ],
+    "script": {},
+    "id": 9946391,
+    "seqId": 9946390,
+    "name": "虚妄は闇の娘",
+    "ruby": "イシャー・ラーアー",
+    "rank": "B++",
+    "maxLv": 5,
+    "typeText": "対人宝具",
+    "attackAttri": 1,
+    "effectFlag": 2
+  },
+  {
+    "individuality": [
+      3002,
+      4003,
+      4007,
+      4102
+    ],
+    "script": {},
+    "id": 9946401,
+    "seqId": 9946400,
+    "name": "虚妄は闇の娘",
+    "ruby": "イシャー・ラーアー",
+    "rank": "B++",
+    "maxLv": 5,
+    "typeText": "対人宝具",
+    "attackAttri": 1,
+    "effectFlag": 2
+  },
+  {
+    "individuality": [
+      3002,
+      4003,
+      4007,
+      4102
+    ],
+    "script": {},
+    "id": 9946411,
+    "seqId": 9946410,
+    "name": "虚妄は闇の娘",
+    "ruby": "イシャー・ラーアー",
+    "rank": "B++",
+    "maxLv": 5,
+    "typeText": "対人宝具",
+    "attackAttri": 1,
+    "effectFlag": 2
+  },
+  {
+    "individuality": [
+      3002,
+      4003,
+      4007,
+      4102
+    ],
+    "script": {
+      "npNameFileSuffix": "9946419"
+    },
+    "id": 9946419,
+    "seqId": 9946320,
+    "name": "？？？",
+    "ruby": "？？？",
+    "rank": "？",
+    "maxLv": 5,
+    "typeText": "不明",
+    "attackAttri": 1,
+    "effectFlag": 2
+  },
+  {
+    "individuality": [
+      3002,
+      4001,
+      4007,
+      4101
+    ],
+    "script": {},
+    "id": 9946482,
+    "seqId": 9946480,
+    "name": "数理的悪性摘出",
+    "ruby": "マセマティカル・マリグナント・アナイアレイト",
+    "rank": "A",
+    "maxLv": 5,
+    "typeText": "対人宝具",
     "attackAttri": 1,
     "effectFlag": 1
   }
