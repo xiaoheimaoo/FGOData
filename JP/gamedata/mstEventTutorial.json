@@ -4,6 +4,152 @@
       "[]"
     ],
     "condIds": [
+      20145413
+    ],
+    "imageIds": [
+      103
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": -162,
+    "flagType": 1,
+    "num": 1,
+    "priority": 5,
+    "openType": 83,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      20145412
+    ],
+    "imageIds": [
+      103
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": -162,
+    "flagType": 1,
+    "num": 2,
+    "priority": 1,
+    "openType": 2,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      102
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": -161,
+    "flagType": 1,
+    "num": 1,
+    "priority": 0,
+    "openType": 101,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      99,
+      100,
+      101
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": -160,
+    "flagType": 1,
+    "num": 1,
+    "priority": 0,
+    "openType": 100,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      96,
+      97,
+      98
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": -159,
+    "flagType": 1,
+    "num": 1,
+    "priority": 0,
+    "openType": 99,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      20145413
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "presentClassScoreResetItemIdList": [
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": -157,
+    "flagType": 1,
+    "num": 1,
+    "priority": 6,
+    "openType": 83,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
       4000529
     ],
     "imageIds": [],
@@ -1485,7 +1631,7 @@
     "eventId": -128,
     "flagType": 69,
     "num": 4,
-    "priority": 4,
+    "priority": 2,
     "openType": 83,
     "condType": 113,
     "condValue": 0,
@@ -1510,6 +1656,12 @@
           8
         ],
         "isClassBoardRelease": true
+      },
+      {
+        "commonReleaseId": 20145409,
+        "presentClassScoreResetItemIdList": [
+          78
+        ]
       }
     ],
     "script": {},
@@ -2162,6 +2314,12 @@
           8
         ],
         "isClassBoardRelease": true
+      },
+      {
+        "commonReleaseId": 20145408,
+        "presentClassScoreResetItemIdList": [
+          78
+        ]
       }
     ],
     "script": {
@@ -2382,11 +2540,13 @@
     "script": {
       "beforeActionSetup": [
         "114",
-        "1040109,2"
+        "1040109,5"
       ],
       "beforeActionVals": [
         "300",
         "1040109,15,1000",
+        "104",
+        "1040109,1",
         "104",
         "1040109,3"
       ]
@@ -2583,6 +2743,12 @@
           9
         ],
         "isClassBoardRelease": true
+      },
+      {
+        "commonReleaseId": 20145410,
+        "presentClassScoreResetItemIdList": [
+          79
+        ]
       }
     ],
     "script": {},
@@ -2614,6 +2780,12 @@
           9
         ],
         "isClassBoardRelease": true
+      },
+      {
+        "commonReleaseId": 20145411,
+        "presentClassScoreResetItemIdList": [
+          79
+        ]
       }
     ],
     "script": {},
@@ -3103,7 +3275,7 @@
     "eventId": -67,
     "flagType": 1,
     "num": 1,
-    "priority": 6,
+    "priority": 4,
     "openType": 83,
     "condType": 1,
     "condValue": 0,
@@ -3309,7 +3481,7 @@
     "eventId": -62,
     "flagType": 3,
     "num": 2,
-    "priority": 5,
+    "priority": 3,
     "openType": 83,
     "condType": 1,
     "condValue": 0,

@@ -85740,6 +85740,260 @@
   },
   {
     "vals": [
+      3005,
+      3020
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 5842,
+    "buffGroup": 900,
+    "type": 139,
+    "name": "宝具封印",
+    "detail": "宝具を使用できなくなる<ターン終了時のチャージ進行は抑制されない>",
+    "iconId": 512,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5844,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      2019,
+      1002,
+      100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2019,
+      1002,
+      100
+    ],
+    "script": {},
+    "id": 5850,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "憤怒折伏・破邪顕正 EX",
+    "detail": "〔魔性・死霊〕特性と〔セイバー〕クラスに与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3022,
+      3007
+    ],
+    "tvals": [
+      5000,
+      4007,
+      -100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007,
+      -100
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 5851,
+    "buffGroup": 0,
+    "type": 26,
+    "name": "無空 A",
+    "detail": "必中を無視して、〔セイバー〕クラス以外の宝具攻撃によるダメージを0にする＆クリティカルの発生率をアップ",
+    "iconId": 311,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5852,
+    "buffGroup": 5852,
+    "type": 104,
+    "name": "無生",
+    "detail": "HPが0になった時、HPを回復して耐える<発動時に自身の行動回数がダウンする特殊なガッツ状態>",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      2852
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5853,
+    "buffGroup": 0,
+    "type": 116,
+    "name": "ヒット数アップ：宝具",
+    "detail": "宝具攻撃のヒット数が2倍になる",
+    "iconId": 349,
+    "maxRate": 10,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028,
+      2852
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5855,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ",
+    "detail": "宝具攻撃で与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      2852
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      4008
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5856,
+    "buffGroup": 0,
+    "type": 116,
+    "name": "第五勢 EX",
+    "detail": "通常攻撃のヒット数が2倍になる＆被ダメージを減らす",
+    "iconId": 349,
+    "maxRate": 10,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3019,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 5857,
+    "buffGroup": 0,
+    "type": 25,
+    "name": "天眼 EX",
+    "detail": "回避を無視して、攻撃によるダメージを与える＆Busterカードの性能をアップ",
+    "iconId": 309,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3020,
+      2977
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 5858,
+    "buffGroup": 900,
+    "type": 139,
+    "name": "宝具封印",
+    "detail": "宝具を使用できなくなる<ターン終了時のチャージ進行は抑制されない>",
+    "iconId": 512,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5859,
+    "buffGroup": 0,
+    "type": 119,
+    "name": "チャージ減少耐性アップ",
+    "detail": "チャージ減少効果に対する耐性をアップ",
+    "iconId": 306,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5861,
+    "buffGroup": 5861,
+    "type": 171,
+    "name": "行動回数ダウン",
+    "detail": "行動回数を減らす",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3006
     ],
@@ -86851,6 +87105,583 @@
     "name": "スキル使用後リチャージ",
     "detail": "スキル使用後に使用したスキルのチャージを1進める<スキルごとに1回限り>",
     "iconId": 404,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3100
+    ],
+    "tvals": [
+      5000,
+      4004
+    ],
+    "ckSelfIndv": [
+      4004
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30060,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Extra Attackアップ",
+    "detail": "Extra Attackカードの性能をアップ",
+    "iconId": 388,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3094
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30061,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Quickアップ",
+    "detail": "Quickカードの性能をアップ",
+    "iconId": 312,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3092
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30062,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Artsアップ",
+    "detail": "Artsカードの性能をアップ",
+    "iconId": 313,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3093
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30063,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Busterアップ",
+    "detail": "Busterカードの性能をアップ",
+    "iconId": 314,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3004,
+      3006,
+      3007,
+      3027,
+      3058,
+      3031,
+      3021,
+      3018,
+      3024,
+      3030,
+      3032,
+      3019
+    ],
+    "script": {},
+    "id": 30065,
+    "buffGroup": 0,
+    "type": 100,
+    "name": "強化解除耐性アップ",
+    "detail": "強化解除耐性をアップ",
+    "iconId": 348,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -7000
+    },
+    "id": 30066,
+    "buffGroup": 0,
+    "type": 174,
+    "name": "マスタースキル効果アップ",
+    "detail": "自身がフィールドにいる間、マスタースキルの一部の効果をアップする(このグランドサインの効果は重複せず最も効果の高いもののみが有効・サポート時は無効)",
+    "iconId": 376,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30067,
+    "buffGroup": 0,
+    "type": 64,
+    "name": "HP回復量アップ",
+    "detail": "HPの回復効果量をアップ",
+    "iconId": 328,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30068,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "攻撃ダメージ前追加効果",
+    "detail": "攻撃時、ダメージ前に自身の全てのコマンドカードの威力をアップ",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4004
+    ],
+    "ckSelfIndv": [
+      4004
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30069,
+    "buffGroup": 0,
+    "type": 1,
+    "name": "Extra Attack威力アップ",
+    "detail": "Extra Attackカードの威力をアップ",
+    "iconId": 302,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30070,
+    "buffGroup": 0,
+    "type": 1,
+    "name": "Quick威力アップ",
+    "detail": "Quickカードの威力をアップ",
+    "iconId": 356,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30071,
+    "buffGroup": 0,
+    "type": 1,
+    "name": "Arts威力アップ",
+    "detail": "Artsカードの威力をアップ",
+    "iconId": 357,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30072,
+    "buffGroup": 0,
+    "type": 1,
+    "name": "Buster威力アップ",
+    "detail": "Busterカードの威力をアップ",
+    "iconId": 358,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4104
+    ],
+    "ckSelfIndv": [
+      4104
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30073,
+    "buffGroup": 0,
+    "type": 200,
+    "name": "クイックチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むクイックチェイン成立時、自身のスター発生率をアップ＆スター集中度をアップ",
+    "iconId": 420,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4105
+    ],
+    "ckSelfIndv": [
+      4105
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30074,
+    "buffGroup": 0,
+    "type": 200,
+    "name": "アーツチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むアーツチェイン成立時、自身のNP獲得量をアップ",
+    "iconId": 421,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4106
+    ],
+    "ckSelfIndv": [
+      4106
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30075,
+    "buffGroup": 0,
+    "type": 200,
+    "name": "バスターチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むバスターチェイン成立時、自身のクリティカル威力をアップ",
+    "iconId": 422,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4107
+    ],
+    "ckSelfIndv": [
+      4107
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30076,
+    "buffGroup": 0,
+    "type": 200,
+    "name": "マイティチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むマイティチェイン成立時、自身の攻撃力をアップ",
+    "iconId": 424,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30079,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "防御力アップ",
+    "detail": "防御力をアップ",
+    "iconId": 301,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30082,
+    "buffGroup": 0,
+    "type": 186,
+    "name": "対魔力（剣）",
+    "detail": "宝具使用時、自身に敵の宝具による被ダメージをカットする状態を付与",
+    "iconId": 396,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3085,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 30083,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "ダメージカット〔宝具〕",
+    "detail": "宝具による被ダメージを減らす",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -7000
+    },
+    "id": 30084,
+    "buffGroup": 0,
+    "type": 142,
+    "name": "マスタースキルチャージ速度アップ",
+    "detail": "自身がフィールドにいる間、マスタースキルのスキルチャージ速度が2倍になる(このグランドサインの効果は重複しない・サポート時は無効)",
+    "iconId": 404,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4108
+    ],
+    "ckSelfIndv": [
+      4108
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30085,
+    "buffGroup": 0,
+    "type": 200,
+    "name": "魔力放出（剣）",
+    "detail": "自身のコマンドカードを含むブレイブチェイン成立時、自身に「攻撃時、ダメージ前に自身の全てのコマンドカードの威力をアップする状態」を付与",
+    "iconId": 423,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3083
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30086,
+    "buffGroup": 0,
+    "type": 3,
+    "name": "スター発生アップ",
+    "detail": "スター発生率をアップ",
+    "iconId": 321,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30087,
+    "buffGroup": 0,
+    "type": 2,
+    "name": "スター集中アップ",
+    "detail": "スターの集まりやすさをアップ",
+    "iconId": 325,
+    "maxRate": 500000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3084
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30088,
+    "buffGroup": 0,
+    "type": 17,
+    "name": "NP獲得アップ",
+    "detail": "NP獲得量をアップ",
+    "iconId": 303,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30089,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "クリティカル威力アップ",
+    "detail": "クリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30090,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "攻撃力アップ",
+    "detail": "攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      -4104,
+      -4105,
+      -4106,
+      -4107,
+      -4108
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 30091,
+    "buffGroup": 0,
+    "type": 200,
+    "name": "守勢の構え（剣）",
+    "detail": "チェイン不成立時、自身の防御力をアップ",
+    "iconId": 331,
     "maxRate": 0,
     "effectId": 0
   },
@@ -141527,6 +142358,721 @@
     "name": "聖なる騎士",
     "detail": "弱体を受けなくなる",
     "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6021
+    },
+    "id": 94145401,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "地",
+    "detail": "防御力をアップ<地の構えにより有効化し、Extra Attackを1回受けると無効化される>",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4004
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4004
+    ],
+    "script": {
+      "checkIndvType": 1,
+      "INDIVIDUALITIE": 6021
+    },
+    "id": 94145402,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6021
+    },
+    "id": 94145403,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026,
+      6016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94145404,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6022
+    },
+    "id": 94145405,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "水",
+    "detail": "クリティカル時のダメージをアップ<水の構えにより有効化し、Buster通常攻撃を3回受けると無効化される>",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002,
+      4008
+    ],
+    "script": {
+      "checkIndvType": 1,
+      "INDIVIDUALITIE": 6022
+    },
+    "id": 94145406,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6022
+    },
+    "id": 94145407,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6027,
+      6017
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94145408,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6023
+    },
+    "id": 94145409,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "火",
+    "detail": "攻撃力をアップ<火の構えにより有効化し、Quick通常攻撃を3回受けると無効化される>",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003,
+      4008
+    ],
+    "script": {
+      "checkIndvType": 1,
+      "INDIVIDUALITIE": 6023
+    },
+    "id": 94145410,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6023
+    },
+    "id": 94145411,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6028,
+      6018
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94145412,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6024
+    },
+    "id": 94145413,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "風",
+    "detail": "攻撃時、対象の攻撃強化状態を1つ解除＋解除成功時、対象の防御力をダウン<風の構えにより有効化し、Arts通常攻撃を3回受けると無効化される>",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001,
+      4008
+    ],
+    "script": {
+      "checkIndvType": 1,
+      "INDIVIDUALITIE": 6024
+    },
+    "id": 94145414,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6024
+    },
+    "id": 94145415,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6029,
+      6019
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94145416,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6025
+    },
+    "id": 94145417,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "空",
+    "detail": "攻撃の威力をアップ<空の構えにより有効化し、攻撃を6回受けると無効化される>",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 1,
+      "INDIVIDUALITIE": 6025
+    },
+    "id": 94145418,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6025
+    },
+    "id": 94145419,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6030,
+      6020
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94145420,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94145421,
+    "buffGroup": 94145421,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94145422,
+    "buffGroup": 94145422,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94145423,
+    "buffGroup": 94145423,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6029
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94145424,
+    "buffGroup": 94145424,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94145425,
+    "buffGroup": 94145425,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -180,
+      -3019
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94145426,
+    "buffGroup": 410,
+    "type": 155,
+    "name": "『　』",
+    "detail": "〔グランドセイバーの攻撃、または必中状態の攻撃〕を除く全ての攻撃によるダメージを0にする",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6033,
+      "INDIVIDUALITIE_COUNT_ABOVE": 5
+    },
+    "id": 94145429,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94145430,
+    "buffGroup": 94145430,
+    "type": 136,
+    "name": "特殊威力アップ",
+    "detail": "敵に与えるダメージをアップ",
+    "iconId": 359,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4004
+    ],
+    "script": {
+      "checkIndvType": 1
+    },
+    "id": 94145431,
+    "buffGroup": 94145431,
+    "type": 86,
+    "name": "地の構え",
+    "detail": "Extra Attackを1回受けると構えが解かれる",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002,
+      4008
+    ],
+    "script": {
+      "checkIndvType": 1
+    },
+    "id": 94145432,
+    "buffGroup": 94145432,
+    "type": 86,
+    "name": "水の構え",
+    "detail": "Buster通常攻撃を3回受けると構えが解かれる",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003,
+      4008
+    ],
+    "script": {
+      "checkIndvType": 1
+    },
+    "id": 94145433,
+    "buffGroup": 94145433,
+    "type": 86,
+    "name": "火の構え",
+    "detail": "Quick通常攻撃を3回受けると構えが解かれる",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001,
+      4008
+    ],
+    "script": {
+      "checkIndvType": 1
+    },
+    "id": 94145434,
+    "buffGroup": 94145434,
+    "type": 86,
+    "name": "風の構え",
+    "detail": "Arts通常攻撃を3回受けると構えが解かれる",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 1
+    },
+    "id": 94145435,
+    "buffGroup": 94145435,
+    "type": 86,
+    "name": "空の構え",
+    "detail": "攻撃を6回受けると構えが解かれる",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3034
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3020
+    },
+    "id": 94145436,
+    "buffGroup": 0,
+    "type": 12,
+    "name": "抑止の天蓋",
+    "detail": "宝具封印状態の間、与えるダメージをダウン",
+    "iconId": 505,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3020
+    },
+    "id": 94145437,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030,
+      6031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94145438,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "仏性",
+    "detail": "宝具で与えるダメージをアップ<宝具かクリティカルによる攻撃を受けると残り回数が減少>",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4100,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4100,
+      4007
+    ],
+    "script": {},
+    "id": 94145439,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
     "maxRate": 0,
     "effectId": 0
   }
