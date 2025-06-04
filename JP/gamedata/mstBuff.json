@@ -85501,6 +85501,21 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5828,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "ドラゴンリペアラー",
+    "detail": "『落涙の翼』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004
     ],
@@ -85780,6 +85795,28 @@
     "vals": [
       3004,
       3006,
+      3028,
+      6034
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 5848,
+    "buffGroup": 0,
+    "type": 136,
+    "name": "特殊威力アップ",
+    "detail": "攻撃の威力をアップ",
+    "iconId": 359,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
       3028
     ],
     "tvals": [
@@ -85974,6 +86011,21 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5860,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ",
+    "detail": "『落涙の翼』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3005,
       3008
@@ -85990,6 +86042,90 @@
     "name": "行動回数ダウン",
     "detail": "行動回数を減らす",
     "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      2980
+    ],
+    "tvals": [
+      -2981
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -2981
+    ],
+    "script": {
+      "checkIndvType": 2,
+      "UnSubStateWhenContinue": 3,
+      "IndvAddBuffPassive": 1
+    },
+    "id": 5863,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "防御機能向上",
+    "detail": "防御機能を向上させ、〔デルピュネ〕状態の相手からもダメージを受けにくくなる",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3017
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -2978,
+      "IndvAddBuffPassive": 1
+    },
+    "id": 5864,
+    "buffGroup": 0,
+    "type": 92,
+    "name": "",
+    "detail": "",
+    "iconId": 529,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2979
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5865,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "防御機能低下",
+    "detail": "防御機能を低下させ、〔灰燼灼鎧〕状態の相手にもダメージを与えやすくなる",
+    "iconId": 529,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5866,
+    "buffGroup": 0,
+    "type": 148,
+    "name": "通常攻撃ダメージ前追加効果",
+    "detail": "通常攻撃時、ダメージ前に自身のクリティカル威力をアップ＆呪い状態を付与【デメリット】",
+    "iconId": 333,
     "maxRate": 0,
     "effectId": 0
   },
@@ -142344,6 +142480,199 @@
     "name": "聖なる騎士",
     "detail": "弱体を受けなくなる",
     "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028,
+      2978,
+      2981
+    ],
+    "tvals": [
+      -2980
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -2980
+    ],
+    "script": {
+      "checkIndvType": 2,
+      "IndvAddBuffPassive": 1
+    },
+    "id": 94144701,
+    "buffGroup": 0,
+    "type": 136,
+    "name": "デルピュネ",
+    "detail": "与えるダメージをアップ",
+    "iconId": 359,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -2979,
+      "IndvAddBuffPassive": 1
+    },
+    "id": 94144702,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "灰燼灼鎧",
+    "detail": "全ての攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94144703,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "ターン終了時、自身の攻撃力をアップ",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94144704,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "撃破時追加効果",
+    "detail": "敵を倒した時、自身の攻撃力をアップ",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94144705,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "ターン終了時、自身のクリティカル発生率をアップ＆クリティカル威力をアップ",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94144706,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、対象の強化状態を1つ解除",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6021
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94144745,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3020
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94144748,
+    "buffGroup": 900,
+    "type": 34,
+    "name": "宝具■■不能",
+    "detail": "宝具を使用できなくなる",
+    "iconId": 512,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3020
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94144749,
+    "buffGroup": 900,
+    "type": 34,
+    "name": "宝具破損",
+    "detail": "宝具を使用できなくなる",
+    "iconId": 512,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 94144701
+    },
+    "id": 94144756,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "防御時のクラス相性が〔プリテンダー〕に対して同位になる",
+    "iconId": 520,
     "maxRate": 0,
     "effectId": 0
   },
