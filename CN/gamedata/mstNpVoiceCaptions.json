@@ -33986,6 +33986,50 @@
     ]
   },
   {
+    "id": 701300,
+    "voicePrefix": 11,
+    "scriptJson": [
+      {
+        "infos": [
+          {
+            "id": "11_B050",
+            "face": 1,
+            "delay": 0.0,
+            "text": "接下来我要消灭那逃跑的骗子。",
+            "form": 0
+          },
+          {
+            "id": "11_B052",
+            "face": 2,
+            "delay": 0.2,
+            "text": "转身火生三昧！",
+            "form": 0
+          }
+        ],
+        "conds": []
+      },
+      {
+        "infos": [
+          {
+            "id": "11_B800",
+            "face": 0,
+            "delay": 0.0,
+            "text": "求求你，不要从我的身边逃跑……！",
+            "form": 0
+          },
+          {
+            "id": "11_B801",
+            "face": 0,
+            "delay": 0.0,
+            "text": "转身火生三昧！",
+            "form": 0
+          }
+        ],
+        "conds": []
+      }
+    ]
+  },
+  {
     "id": 701400,
     "voicePrefix": 0,
     "scriptJson": [
@@ -44877,6 +44921,602 @@
             "face": 0,
             "delay": 0.0,
             "text": "知道了，吗——！",
+            "form": 0,
+            "changeEffect": 0
+          }
+        ],
+        "conds": []
+      }
+    ]
+  },
+  {
+    "id": 1001700,
+    "voicePrefix": 0,
+    "scriptJson": [
+      {
+        "infos": [
+          {
+            "id": "0_B050",
+            "face": 0,
+            "delay": 0.0,
+            "text": "【千键】满珠之光，充满天空。",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "0_B051",
+            "face": 0,
+            "delay": 0.24,
+            "text": "【响】干珠之光，闪耀大地。",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "0_B052",
+            "face": 0,
+            "delay": 0.48,
+            "text": "【千键】于神代阻塞之海路，",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "0_B053",
+            "face": 0,
+            "delay": 0.42,
+            "text": "【响】为两颗明珠所维系！",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "0_B055",
+            "face": 0,
+            "delay": 0.43,
+            "text": "【二人】开辟海境的满干珠！",
+            "form": 0,
+            "changeEffect": 0
+          }
+        ],
+        "conds": []
+      },
+      {
+        "overwriteName": "宝具1(战斗倍速时)",
+        "infos": [
+          {
+            "id": "0_B9050",
+            "face": 0,
+            "delay": 0.0,
+            "text": "【千键】满珠之光，充满天空。",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "0_B9051",
+            "face": 0,
+            "delay": 0.29,
+            "text": "【响】干珠之光，闪耀大地。",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "0_B9054",
+            "face": 0,
+            "delay": 0.35,
+            "text": "【二人】绵津见之神迹降临此处！",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "0_B9055",
+            "face": 0,
+            "delay": 0.27,
+            "text": "【二人】开辟海境的满干珠！",
+            "form": 0,
+            "changeEffect": 0
+          }
+        ],
+        "conds": []
+      },
+      {
+        "infos": [
+          {
+            "id": "0_B800",
+            "face": 0,
+            "delay": 0.0,
+            "text": "【千键】在吾手中舞动吧，潮满之珠。",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "0_B801",
+            "face": 0,
+            "delay": 0.44,
+            "text": "【响】在吾手中歌唱吧，潮干之珠。",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "0_B802",
+            "face": 0,
+            "delay": 0.51,
+            "text": "【千键】若祈愿充盈，则潮水满溢，",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "0_B803",
+            "face": 0,
+            "delay": 0.32,
+            "text": "【响】若祈愿关闭，则陆地显露。",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "0_B805",
+            "face": 0,
+            "delay": 0.33,
+            "text": "【二人】开辟海境的满干珠！",
+            "form": 0,
+            "changeEffect": 0
+          }
+        ],
+        "conds": []
+      },
+      {
+        "overwriteName": "宝具2(战斗倍速时)",
+        "infos": [
+          {
+            "id": "0_B9800",
+            "face": 0,
+            "delay": 0.0,
+            "text": "【千键】在吾手中舞动吧，潮满之珠。",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "0_B9801",
+            "face": 0,
+            "delay": 0.31,
+            "text": "【响】在吾手中歌唱吧，潮干之珠。",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "0_B9804",
+            "face": 0,
+            "delay": 0.45,
+            "text": "【二人】此乃绵津见之如意宝珠！",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "0_B9805",
+            "face": 0,
+            "delay": 0.27,
+            "text": "开辟海境的满干珠！",
+            "form": 0,
+            "changeEffect": 0
+          }
+        ],
+        "conds": []
+      },
+      {
+        "infos": [
+          {
+            "id": "0_B810",
+            "face": 0,
+            "delay": 0.0,
+            "text": "【响】小千，要用那个了哦！",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "0_B811",
+            "face": 0,
+            "delay": 0.25,
+            "text": "【千键】不是，不知道啊，我什么都没听说啊！",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "0_B812",
+            "face": 0,
+            "delay": 0.54,
+            "text": "【响】绵津见大门开启！　前去参拜！",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "0_B813",
+            "face": 0,
+            "delay": 0.09,
+            "text": "【响】嘿呀！　参礼光炮——！！",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "0_B814",
+            "face": 0,
+            "delay": 0.25,
+            "text": "【千键】这个名字太土了——！？",
+            "form": 0,
+            "changeEffect": 0
+          }
+        ],
+        "conds": []
+      },
+      {
+        "infos": [
+          {
+            "id": "0_B820",
+            "face": 0,
+            "delay": 0.0,
+            "text": "【二人】响千～～时间！",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "0_B821",
+            "face": 0,
+            "delay": 0.27,
+            "text": "【千键】不是啦，到底打算开始什么啊！",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "0_B822",
+            "face": 0,
+            "delay": 0.35,
+            "text": "【响】呃～，这是电子妖精打包·希发来的消息。",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "0_B823",
+            "face": 0,
+            "delay": 0.26,
+            "text": "【响】最近遇到了一些开心的事。呃～，让我看看～？",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "0_B824",
+            "face": 0,
+            "delay": 0.29,
+            "text": "【千键】现在不用聊这种事啦！　谁还……干得下去啦～～！！",
+            "form": 0,
+            "changeEffect": 0
+          }
+        ],
+        "conds": []
+      }
+    ]
+  },
+  {
+    "id": 1001700,
+    "voicePrefix": 1,
+    "scriptJson": [
+      {
+        "infos": [
+          {
+            "id": "1_B050",
+            "face": 0,
+            "delay": 0.0,
+            "text": "【千键】满珠之光，充满天空。",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "1_B051",
+            "face": 0,
+            "delay": 0.24,
+            "text": "【响】干珠之光，闪耀大地。",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "1_B052",
+            "face": 0,
+            "delay": 0.48,
+            "text": "【千键】于神代阻塞之海路，",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "1_B053",
+            "face": 0,
+            "delay": 0.42,
+            "text": "【响】为两颗明珠所维系！",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "1_B055",
+            "face": 0,
+            "delay": 0.43,
+            "text": "【二人】开辟海境的满干珠！",
+            "form": 0,
+            "changeEffect": 0
+          }
+        ],
+        "conds": []
+      },
+      {
+        "overwriteName": "宝具1(战斗倍速时)",
+        "infos": [
+          {
+            "id": "1_B9050",
+            "face": 0,
+            "delay": 0.0,
+            "text": "【千键】满珠之光，充满天空。",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "1_B9051",
+            "face": 0,
+            "delay": 0.29,
+            "text": "【响】干珠之光，闪耀大地。",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "1_B9054",
+            "face": 0,
+            "delay": 0.35,
+            "text": "【二人】绵津见之神迹降临此处！",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "1_B9055",
+            "face": 0,
+            "delay": 0.27,
+            "text": "【二人】开辟海境的满干珠！",
+            "form": 0,
+            "changeEffect": 0
+          }
+        ],
+        "conds": []
+      },
+      {
+        "infos": [
+          {
+            "id": "1_B800",
+            "face": 0,
+            "delay": 0.0,
+            "text": "【千键】在吾手中舞动吧，潮满之珠。",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "1_B801",
+            "face": 0,
+            "delay": 0.44,
+            "text": "【响】在吾手中歌唱吧，潮干之珠。",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "1_B802",
+            "face": 0,
+            "delay": 0.51,
+            "text": "【千键】若祈愿充盈，则潮水满溢，",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "1_B803",
+            "face": 0,
+            "delay": 0.32,
+            "text": "【响】若祈愿关闭，则陆地显露。",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "1_B805",
+            "face": 0,
+            "delay": 0.33,
+            "text": "【二人】开辟海境的满干珠！",
+            "form": 0,
+            "changeEffect": 0
+          }
+        ],
+        "conds": []
+      },
+      {
+        "overwriteName": "宝具2(战斗倍速时)",
+        "infos": [
+          {
+            "id": "1_B9800",
+            "face": 0,
+            "delay": 0.0,
+            "text": "【千键】在吾手中舞动吧，潮满之珠。",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "1_B9801",
+            "face": 0,
+            "delay": 0.31,
+            "text": "【响】在吾手中歌唱吧，潮干之珠。",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "1_B9804",
+            "face": 0,
+            "delay": 0.45,
+            "text": "【二人】此乃绵津见之如意宝珠！",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "1_B9805",
+            "face": 0,
+            "delay": 0.27,
+            "text": "【二人】开辟海境的满干珠！",
+            "form": 0,
+            "changeEffect": 0
+          }
+        ],
+        "conds": []
+      }
+    ]
+  },
+  {
+    "id": 1001700,
+    "voicePrefix": 2,
+    "scriptJson": [
+      {
+        "infos": [
+          {
+            "id": "2_B050",
+            "face": 0,
+            "delay": 0.0,
+            "text": "其为光辉闪耀之物。",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "2_B051",
+            "face": 0,
+            "delay": 0.94,
+            "text": "亦为索普德特，亦为卡乌鲁阿，亦为天狼。",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "2_B052",
+            "face": 0,
+            "delay": 0.96,
+            "text": "没有路标世界的指针——照耀常夜的引导之星！",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "2_B053",
+            "face": 0,
+            "delay": 0.68,
+            "text": "融化黑暗吧！　StarlitMarmalade！",
+            "form": 0,
+            "changeEffect": 0
+          }
+        ],
+        "conds": []
+      },
+      {
+        "infos": [
+          {
+            "id": "2_B800",
+            "face": 0,
+            "delay": 0.0,
+            "text": "其为焚烧焦灼之物。",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "2_B801",
+            "face": 0,
+            "delay": 0.83,
+            "text": "于破晓离去，于黄昏到来之物。",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "2_B802",
+            "face": 0,
+            "delay": 0.51,
+            "text": "自深海而出，直奔苍穹——照耀常夜的引导之星！",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "2_B803",
+            "face": 0,
+            "delay": 0.45,
+            "text": "焦灼星河！　StarlitMarmalade！",
+            "form": 0,
+            "changeEffect": 0
+          }
+        ],
+        "conds": []
+      },
+      {
+        "infos": [
+          {
+            "id": "2_B810",
+            "face": 0,
+            "delay": 0.0,
+            "text": "在考拜克·阿尔卡特拉兹的名下——",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "2_B811",
+            "face": 0,
+            "delay": 0.78,
+            "text": "安全锁解除，特莱汀模式。",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "2_B812",
+            "face": 0,
+            "delay": 0.86,
+            "text": "全功能解放，超负荷回路。",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "2_B813",
+            "face": 0,
+            "delay": 0.8,
+            "text": "夜已不复——照耀常夜的引导之星。",
+            "form": 0,
+            "changeEffect": 0
+          }
+        ],
+        "conds": []
+      },
+      {
+        "infos": [
+          {
+            "id": "2_B820",
+            "face": 0,
+            "delay": 0.0,
+            "text": "【天狼星】小千，操纵就交给你了。",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "2_B821",
+            "face": 0,
+            "delay": 0.38,
+            "text": "【千键】喂————！？　你未免太乱来了吧！",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "2_B822",
+            "face": 0,
+            "delay": 0.0,
+            "text": "【千键】可恶！　虽然不太明白，但我做还不行吗……！",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "2_B823",
+            "face": 0,
+            "delay": 0.0,
+            "text": "【千键】哎哎，就是这个按钮！　上吧！",
+            "form": 0,
+            "changeEffect": 0
+          },
+          {
+            "id": "2_B824",
+            "face": 0,
+            "delay": 0.0,
+            "text": "【天狼星】那边，好痒。",
             "form": 0,
             "changeEffect": 0
           }
