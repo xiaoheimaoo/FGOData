@@ -142677,6 +142677,43 @@
   },
   {
     "vals": [
+      6021
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94144712,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94144726,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004
     ],
     "tvals": [],
@@ -142689,6 +142726,65 @@
     "name": "毎ターン発動",
     "detail": "ターン終了時、自身のクリティカル威力をアップ",
     "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -6027
+    },
+    "id": 94144731,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "鉄壁外殻",
+    "detail": "防御力をアップ<主砲を受けると、一定ターンの間、効果が無効になる>",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -6027
+    },
+    "id": 94144732,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "尖った外殻",
+    "detail": "攻撃を受けた時、敵単体のHPを減少<主砲を受けると、一定ターンの間、効果が無効になる>",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94144733,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "外殻破損",
+    "detail": "〔鉄壁外殻〕と〔尖った外殻〕状態を無効にする",
+    "iconId": 520,
     "maxRate": 0,
     "effectId": 0
   },
@@ -142768,6 +142864,24 @@
   },
   {
     "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94144755,
+    "buffGroup": 0,
+    "type": 37,
+    "name": "ガッツ",
+    "detail": "HPが0になった時、HPを回復して耐える(他のガッツ状態と重複可能)",
+    "iconId": 304,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004
     ],
     "tvals": [],
@@ -142782,6 +142896,62 @@
     "name": "クラス相性変更",
     "detail": "防御時のクラス相性が〔プリテンダー〕に対して同位になる",
     "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94144779,
+    "buffGroup": 0,
+    "type": 119,
+    "name": "チャージ減少耐性アップ",
+    "detail": "チャージ減少効果に対する耐性をアップ",
+    "iconId": 306,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94144780,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "偏向斥力フィールド",
+    "detail": "防御力をアップ＆被ダメージを減らす",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3085,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94144781,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "",
+    "detail": "",
+    "iconId": 301,
     "maxRate": 0,
     "effectId": 0
   },

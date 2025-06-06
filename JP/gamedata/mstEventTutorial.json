@@ -30218,7 +30218,8 @@
     ],
     "imageIds": [
       1192,
-      1193
+      1193,
+      1195
     ],
     "textJson": [],
     "script": {},
@@ -30360,6 +30361,84 @@
     },
     "eventId": 80540,
     "flagType": 74,
+    "num": 1,
+    "priority": 0,
+    "openType": 18,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[8394]"
+    ],
+    "condIds": [
+      8054002
+    ],
+    "imageIds": [],
+    "textJson": [],
+    "script": {
+      "dialogPrefabName": "AddPartsDialog"
+    },
+    "eventId": 80540,
+    "flagType": 80,
+    "num": 1,
+    "priority": 0,
+    "openType": 18,
+    "condType": 67,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[8394]"
+    ],
+    "condIds": [
+      20144702
+    ],
+    "imageIds": [],
+    "textJson": [],
+    "script": {
+      "beforeActionSetup": [
+        "1200",
+        "2,94144706"
+      ],
+      "beforeActionVals": [
+        "1100",
+        "80540,1,0",
+        "1200",
+        "1,94144706"
+      ]
+    },
+    "eventId": 80540,
+    "flagType": 81,
+    "num": 1,
+    "priority": 0,
+    "openType": 18,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[8394]"
+    ],
+    "condIds": [
+      94144706
+    ],
+    "imageIds": [
+      1195
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80540,
+    "flagType": 87,
     "num": 1,
     "priority": 0,
     "openType": 18,
