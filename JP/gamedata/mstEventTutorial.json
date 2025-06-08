@@ -30545,6 +30545,115 @@
       "[8394]"
     ],
     "condIds": [
+      94144710
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "isClassBoardRelease": false,
+        "dlgBgId": 0,
+        "rects": [],
+        "ptPos": [
+          0,
+          0
+        ],
+        "isQuestRelease": false,
+        "text": "テュフォンが囚われたため\nシナリオクエストのみ、テュフォンによる\n純血竜アシストが付与されなくなりました。\n\n未実行となるテュフォンの改修クエストについても\nテュフォンを奪還するまで挑戦できなくなります。\n",
+        "textPos": [
+          0,
+          36
+        ],
+        "spacingY": 0,
+        "dlgFontSize": 26,
+        "commonReleaseId": 0,
+        "isFortification": false,
+        "isSelectBonus": false,
+        "questId": 0
+      }
+    ],
+    "script": {},
+    "eventId": 80540,
+    "flagType": 82,
+    "num": 1,
+    "priority": 0,
+    "openType": 18,
+    "condType": 46,
+    "condValue": 2,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[8394]"
+    ],
+    "condIds": [
+      8054003
+    ],
+    "imageIds": [],
+    "textJson": [],
+    "script": {
+      "dialogPrefabName": "AddPartsDialog"
+    },
+    "eventId": 80540,
+    "flagType": 85,
+    "num": 1,
+    "priority": 0,
+    "openType": 18,
+    "condType": 67,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[8394]"
+    ],
+    "condIds": [
+      8054003
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "isClassBoardRelease": false,
+        "dlgBgId": 0,
+        "rects": [],
+        "ptPos": [
+          0,
+          0
+        ],
+        "isQuestRelease": false,
+        "text": "改修ショップで行える改修可能な数が\n[FFFF00]2回[-]追加されました。\n",
+        "textPos": [
+          0,
+          28
+        ],
+        "spacingY": 0,
+        "dlgFontSize": 26,
+        "commonReleaseId": 0,
+        "isFortification": false,
+        "isSelectBonus": false,
+        "questId": 0
+      }
+    ],
+    "script": {},
+    "eventId": 80540,
+    "flagType": 86,
+    "num": 1,
+    "priority": 0,
+    "openType": 18,
+    "condType": 67,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[8394]"
+    ],
+    "condIds": [
       94144706
     ],
     "imageIds": [
