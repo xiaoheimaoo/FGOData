@@ -30588,6 +30588,93 @@
       "[8394]"
     ],
     "condIds": [
+      94144712
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "isClassBoardRelease": false,
+        "dlgBgId": 0,
+        "rects": [],
+        "ptPos": [
+          0,
+          0
+        ],
+        "isQuestRelease": false,
+        "text": "テュフォンの機能が停止したため\nシナリオクエストのみ、テュフォンによる\n純血竜アシストが付与されなくなりました。\n\n未実行となるテュフォンの改修クエストについても\n挑戦できなくなります。\n",
+        "textPos": [
+          0,
+          36
+        ],
+        "spacingY": 0,
+        "dlgFontSize": 26,
+        "commonReleaseId": 0,
+        "isFortification": false,
+        "isSelectBonus": false,
+        "questId": 0
+      }
+    ],
+    "script": {},
+    "eventId": 80540,
+    "flagType": 83,
+    "num": 1,
+    "priority": 0,
+    "openType": 18,
+    "condType": 46,
+    "condValue": 2,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[8394]"
+    ],
+    "condIds": [
+      94144713
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "isClassBoardRelease": false,
+        "dlgBgId": 0,
+        "title": "テュフォン改修リセット機能開放",
+        "ptPos": [
+          0,
+          0
+        ],
+        "isQuestRelease": false,
+        "text": "改修ショップで行った追加改修を\nリセットできるようになりました。\n\nまた、エピローグクリア後に追加された\nオーバーブースト改修も自由にリセットできます。\n※シナリオで行った改修はリセットできません。\n\n各リセットを行うと消費した\nスーパーボルトが返還されます。\n",
+        "textPos": [
+          0,
+          13
+        ],
+        "spacingY": 0,
+        "dlgFontSize": 24,
+        "commonReleaseId": 0,
+        "isFortification": false,
+        "rects": [],
+        "isSelectBonus": false,
+        "questId": 0
+      }
+    ],
+    "script": {},
+    "eventId": 80540,
+    "flagType": 84,
+    "num": 1,
+    "priority": 1,
+    "openType": 18,
+    "condType": 46,
+    "condValue": 1,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[8394]"
+    ],
+    "condIds": [
       8054003
     ],
     "imageIds": [],
@@ -30754,6 +30841,270 @@
     "openType": 18,
     "condType": 1,
     "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[8394]"
+    ],
+    "condIds": [
+      94144851
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "isClassBoardRelease": false,
+        "dlgBgId": 0,
+        "title": "オーバーブースト完了",
+        "ptPos": [
+          0,
+          0
+        ],
+        "isQuestRelease": false,
+        "text": "純血竜アシスト「主砲支援」が強化されました。\n\n＜強化前＞\n味方全体<控え含む>の宝具威力をアップ\n↓\n＜強化後＞\n味方全体<控え含む>の宝具威力をアップ ＋ \n味方全体<控え含む>の宝具威力をアップ[FFFF00]▲[-]\n",
+        "textPos": [
+          0,
+          13
+        ],
+        "spacingY": 0,
+        "dlgFontSize": 24,
+        "commonReleaseId": 0,
+        "isFortification": false,
+        "rects": [],
+        "isSelectBonus": false,
+        "questId": 0
+      }
+    ],
+    "script": {},
+    "eventId": 80540,
+    "flagType": 90,
+    "num": 1,
+    "priority": 0,
+    "openType": 18,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[8394]"
+    ],
+    "condIds": [
+      94144852
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "isClassBoardRelease": false,
+        "dlgBgId": 0,
+        "title": "オーバーブースト完了",
+        "ptPos": [
+          0,
+          0
+        ],
+        "isQuestRelease": false,
+        "text": "純血竜アシスト「副砲支援」が強化されました。\n\n＜強化前＞\n味方全体<控え含む>のクリティカル威力をアップ\n↓\n＜強化後＞\n味方全体<控え含む>のクリティカル威力をアップ ＋ \n味方全体<控え含む>のクリティカル威力をアップ[FFFF00]▲[-]\n",
+        "textPos": [
+          0,
+          13
+        ],
+        "spacingY": 0,
+        "dlgFontSize": 24,
+        "commonReleaseId": 0,
+        "isFortification": false,
+        "rects": [],
+        "isSelectBonus": false,
+        "questId": 0
+      }
+    ],
+    "script": {},
+    "eventId": 80540,
+    "flagType": 91,
+    "num": 1,
+    "priority": 0,
+    "openType": 18,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[8394]"
+    ],
+    "condIds": [
+      94144853
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "isClassBoardRelease": false,
+        "dlgBgId": 0,
+        "title": "オーバーブースト完了",
+        "ptPos": [
+          0,
+          0
+        ],
+        "isQuestRelease": false,
+        "text": "純血竜アシスト「ドラゴニックフィールド」が強化されました。\n\n＜強化前＞\n味方全体<控え含む>の防御力をアップ\n↓\n＜強化後＞\n味方全体<控え含む>の防御力をアップ ＋ \n味方全体<控え含む>に被ダメージを\n1000カットする状態を付与[FFFF00]▲[-]\n",
+        "textPos": [
+          0,
+          13
+        ],
+        "spacingY": 0,
+        "dlgFontSize": 24,
+        "commonReleaseId": 0,
+        "isFortification": false,
+        "rects": [],
+        "isSelectBonus": false,
+        "questId": 0
+      }
+    ],
+    "script": {},
+    "eventId": 80540,
+    "flagType": 92,
+    "num": 1,
+    "priority": 0,
+    "openType": 18,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[8394]"
+    ],
+    "condIds": [
+      94144854
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "isClassBoardRelease": false,
+        "dlgBgId": 0,
+        "title": "オーバーブースト完了",
+        "ptPos": [
+          0,
+          0
+        ],
+        "isQuestRelease": false,
+        "text": "純血竜アシスト「コスモスラスター」が強化されました。\n\n＜強化前＞\n味方全体<控え含む>に回避状態を付与\n↓\n＜強化後＞\n味方全体<控え含む>に回避状態を付与 ＋ \n味方全体<控え含む>に毎ターン\nスター5個獲得状態を付与[FFFF00]▲[-]\n",
+        "textPos": [
+          0,
+          13
+        ],
+        "spacingY": 0,
+        "dlgFontSize": 24,
+        "commonReleaseId": 0,
+        "isFortification": false,
+        "rects": [],
+        "isSelectBonus": false,
+        "questId": 0
+      }
+    ],
+    "script": {},
+    "eventId": 80540,
+    "flagType": 93,
+    "num": 1,
+    "priority": 0,
+    "openType": 18,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[8394]"
+    ],
+    "condIds": [
+      94144855
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "isClassBoardRelease": false,
+        "dlgBgId": 0,
+        "title": "オーバーブースト完了",
+        "ptPos": [
+          0,
+          0
+        ],
+        "isQuestRelease": false,
+        "text": "純血竜アシスト「自己修復」が強化されました。\n\n＜強化前＞\n味方全体<控え含む>に毎ターンHP回復状態を付与\n＆ガッツ状態を付与\n↓\n＜強化後＞\n味方全体<控え含む>に毎ターンHP回復状態を付与\n＆ガッツ状態を付与 ＋ \n味方全体<控え含む>に毎ターンNP10%獲得状態を付与[FFFF00]▲[-]\n",
+        "textPos": [
+          0,
+          13
+        ],
+        "spacingY": 0,
+        "dlgFontSize": 24,
+        "commonReleaseId": 0,
+        "isFortification": false,
+        "rects": [],
+        "isSelectBonus": false,
+        "questId": 0
+      }
+    ],
+    "script": {},
+    "eventId": 80540,
+    "flagType": 94,
+    "num": 1,
+    "priority": 0,
+    "openType": 18,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[8394]"
+    ],
+    "condIds": [
+      94144713
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "isClassBoardRelease": false,
+        "dlgBgId": 0,
+        "title": "オーバーブースト改修開放",
+        "ptPos": [
+          0,
+          0
+        ],
+        "isQuestRelease": false,
+        "text": "一部の純血竜アシストの機能を更に強化できる\nオーバーブースト改修クエストが開放されました。\n\n※オーバーブースト改修クエストにシナリオはありません。\n",
+        "textPos": [
+          0,
+          13
+        ],
+        "spacingY": 0,
+        "dlgFontSize": 24,
+        "commonReleaseId": 0,
+        "isFortification": false,
+        "rects": [],
+        "isSelectBonus": false,
+        "questId": 0
+      }
+    ],
+    "script": {},
+    "eventId": 80540,
+    "flagType": 95,
+    "num": 1,
+    "priority": 2,
+    "openType": 18,
+    "condType": 46,
+    "condValue": 1,
     "condValue2": 0,
     "condValue3": 0,
     "flag": 0

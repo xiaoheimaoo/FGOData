@@ -8831,8 +8831,9 @@
   {
     "individuality": [],
     "script": {
-      "ascensionAfterDialogId": 2,
-      "weaponGroup": 385
+      "effectFolder": 1,
+      "weaponGroup": 385,
+      "ascensionAfterDialogId": 2
     },
     "svtId": 403800,
     "limitCount": 11,
@@ -8849,6 +8850,7 @@
   {
     "individuality": [],
     "script": {
+      "effectFolder": 1,
       "weaponGroup": 385
     },
     "svtId": 403800,
@@ -8861,6 +8863,24 @@
     "battleCharaOffsetZ": 0,
     "svtVoiceId": 403800,
     "voicePrefix": 0,
+    "attri": -1
+  },
+  {
+    "individuality": [],
+    "script": {
+      "effectFolder": 2,
+      "weaponGroup": 385
+    },
+    "svtId": 403800,
+    "limitCount": 13,
+    "battleCharaId": 403850,
+    "fileConvertLimitCount": 0,
+    "battleCharaLimitCount": 0,
+    "battleCharaOffsetX": 0,
+    "battleCharaOffsetY": 0,
+    "battleCharaOffsetZ": 0,
+    "svtVoiceId": 403800,
+    "voicePrefix": 13,
     "attri": -1
   },
   {
@@ -24618,33 +24638,57 @@
     "attri": -1
   },
   {
-    "individuality": [],
+    "individuality": [
+      2847
+    ],
     "script": {},
     "svtId": 2801100,
     "limitCount": 3,
     "battleCharaId": 2801120,
     "fileConvertLimitCount": 3,
     "battleCharaLimitCount": 3,
-    "battleCharaOffsetX": 0,
-    "battleCharaOffsetY": 0,
-    "battleCharaOffsetZ": 0,
+    "battleCharaOffsetX": -20,
+    "battleCharaOffsetY": -70,
+    "battleCharaOffsetZ": 160,
     "svtVoiceId": 2801100,
     "voicePrefix": 2,
     "attri": -1
   },
   {
-    "individuality": [],
+    "individuality": [
+      2847
+    ],
     "script": {},
     "svtId": 2801100,
     "limitCount": 4,
     "battleCharaId": 2801120,
     "fileConvertLimitCount": 4,
     "battleCharaLimitCount": 4,
+    "battleCharaOffsetX": -20,
+    "battleCharaOffsetY": -70,
+    "battleCharaOffsetZ": 160,
+    "svtVoiceId": 2801100,
+    "voicePrefix": 2,
+    "attri": -1
+  },
+  {
+    "individuality": [
+      2847
+    ],
+    "script": {
+      "effectFolder": 2,
+      "weaponGroup": 655
+    },
+    "svtId": 2801100,
+    "limitCount": 11,
+    "battleCharaId": 2801130,
+    "fileConvertLimitCount": 0,
+    "battleCharaLimitCount": 0,
     "battleCharaOffsetX": 0,
     "battleCharaOffsetY": 0,
     "battleCharaOffsetZ": 0,
     "svtVoiceId": 2801100,
-    "voicePrefix": 2,
+    "voicePrefix": 11,
     "attri": -1
   },
   {
