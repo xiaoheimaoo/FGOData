@@ -143563,6 +143563,405 @@
   {
     "vals": [
       3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94144757,
+    "buffGroup": 0,
+    "type": 172,
+    "name": "自己修復（改）",
+    "detail": "HPゲージがBreakされた時、HPを回復して耐える",
+    "iconId": 384,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94144758,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4100
+    ],
+    "script": {},
+    "id": 94144759,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94144760,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "主砲支援",
+    "detail": "宝具で与えるダメージをアップ",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94144761,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "副砲支援",
+    "detail": "クリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94144762,
+    "buffGroup": 200,
+    "type": 24,
+    "name": "コスモスラスター",
+    "detail": "攻撃によるダメージを0にする",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3060
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94144763,
+    "buffGroup": 0,
+    "type": 7,
+    "name": "自己修復（改）",
+    "detail": "ターン終了時にHPが回復する",
+    "iconId": 318,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94144764,
+    "buffGroup": 0,
+    "type": 153,
+    "name": "ドラゴサーキット（改）",
+    "detail": "スターが発生する確率を減らす",
+    "iconId": 364,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3004,
+      3006,
+      3007,
+      3027,
+      3058,
+      3031,
+      3021,
+      3018,
+      3024,
+      3030,
+      3032,
+      3019
+    ],
+    "script": {},
+    "id": 94144765,
+    "buffGroup": 0,
+    "type": 100,
+    "name": "対ストレングスキャンセラー",
+    "detail": "強化解除耐性をアップ",
+    "iconId": 348,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94144766,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "チャージサポートユニット",
+    "detail": "毎ターンチャージを1増やす",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94144767,
+    "buffGroup": 0,
+    "type": 96,
+    "name": "パワーチャージャー",
+    "detail": "宝具発動時、オーバーチャージ段階をアップする",
+    "iconId": 336,
+    "maxRate": 5,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      3011,
+      3015,
+      3026
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94144768,
+    "buffGroup": 0,
+    "type": 127,
+    "name": "ラストインヒビター",
+    "detail": "毒・呪い・やけどの効果量ダウン",
+    "iconId": 425,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3019,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94144769,
+    "buffGroup": 0,
+    "type": 25,
+    "name": "オートホーミング（改）",
+    "detail": "回避を無視して、攻撃によるダメージを与える",
+    "iconId": 309,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94144770,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "オートホーミング（改）",
+    "detail": "クリティカルの発生率をアップ",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3043
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94144771,
+    "buffGroup": 0,
+    "type": 81,
+    "name": "エナジータンク（改）",
+    "detail": "最大HPを増やす",
+    "iconId": 330,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94144772,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "宝具攻撃時追加効果",
+    "detail": "宝具攻撃時、自身の宝具威力をアップ",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      6026
+    ],
+    "tvals": [
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94144773,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "偏向斥力フィールド〔宝具〕",
+    "detail": "宝具攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      6027
+    ],
+    "tvals": [
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4100
+    ],
+    "script": {},
+    "id": 94144774,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "偏向斥力フィールド〔クリティカル〕",
+    "detail": "クリティカル攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94144775,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時、対象にやけど状態を付与",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [
+      4100
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94144776,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "クリティカル攻撃時追加効果",
+    "detail": "クリティカル攻撃時、自身のクリティカル威力をアップ<1ターンに1回だけ発動>",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
       3018,
       3021,
       3007
@@ -143672,6 +144071,40 @@
     "name": "回避",
     "detail": "攻撃によるダメージを0にする(他の回避状態と重複可能)",
     "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94144783,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6017
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94144784,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
     "maxRate": 0,
     "effectId": 0
   },
