@@ -77687,6 +77687,36 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5361,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Demonic Combat Beauty",
+    "detail": "Increase damage dealt during \"Mystic Eyes Symphony\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5362,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Strength Up",
+    "detail": "Increase damage dealt during \"Mystic Eyes Symphony\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004
     ],
@@ -78650,6 +78680,27 @@
     "detail": "",
     "iconId": 0,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 201
+    },
+    "id": 5420,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "NP Strength Up",
+    "detail": "Increase NP damage",
+    "iconId": 310,
+    "maxRate": 5000,
     "effectId": 0
   },
   {
@@ -89367,6 +89418,2624 @@
     "name": "",
     "detail": "",
     "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085000,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Great Serpent's Pressure",
+    "detail": "Decrease DEF for all enemies at the end of each turn + Decrease DEF for all allies excluding yourself [Demerit]",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3013
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3013
+    ],
+    "script": {},
+    "id": 94085001,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "Offsetting Mystic Eyes",
+    "detail": "Immune to Petrify",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085002,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "Paralyzed on the Spot",
+    "detail": "Increase ATK & low chance to inflict Stun on yourself each turn [Demerit]",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085003,
+    "buffGroup": 0,
+    "type": 176,
+    "name": "Apply Field Trait Immune",
+    "detail": "Negate the field trait while you are on the field",
+    "iconId": 562,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085004,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect when Attacking",
+    "detail": "Decrease ATK for yourself when attacking",
+    "iconId": 549,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085005,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn",
+    "detail": "Low chance to inflict Skill Seal to all enemies at the end of each turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3014,
+      3045
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085006,
+    "buffGroup": 500,
+    "type": 32,
+    "name": "Desperately Cooking",
+    "detail": "Unable to act",
+    "iconId": 501,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3022,
+      3007,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085007,
+    "buffGroup": 0,
+    "type": 26,
+    "name": "Invincible",
+    "detail": "Ignore Sure Hit and reduce ATK damage taken to 0 <removed when attacked by NP>",
+    "iconId": 311,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3022,
+      3007,
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085008,
+    "buffGroup": 0,
+    "type": 26,
+    "name": "Invincible",
+    "detail": "Ignore Sure Hit and reduce ATK damage taken to 0 <removed when attacked by Extra Attack>",
+    "iconId": 311,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085009,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4004
+    ],
+    "ckSelfIndv": [
+      4004
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085010,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085011,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "Replenishing",
+    "detail": "Increase Charge by 2 each turn",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4100
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94085012,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Special Resist Up",
+    "detail": "Gain resistance to all attacks except Critical attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085013,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect with Noble Phantasm",
+    "detail": "Set Charge to maximum for yourself when attacking with NP",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085014,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect with Noble Phantasm",
+    "detail": "Increase Charge by 1 when attacking with NP",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085015,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn",
+    "detail": "Inflict Petrify to all enemies at the end of each turn <including sub-members>",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085016,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn",
+    "detail": "Low chance to inflict Petrify to all enemies at the end of each turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 94085000
+    },
+    "id": 94085017,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "Class Affinity Change",
+    "detail": "Gain Class advantage against Saber Class",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [
+      4008
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085018,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect with Normal Attack",
+    "detail": "Low chance to decrease Charge by 1 of target during normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085019,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate when Damaged",
+    "detail": "Apply Damage Cut to yourself when attacked",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085020,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect with Normal Attack",
+    "detail": "Inflict Curse during normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085100,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "Fleeting World, Fleeting Might",
+    "detail": "Increase ATK & decrease ATK that becomes more effective each turn [Demerit]",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3093
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085101,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Imperial Privilege (Crimson)",
+    "detail": "Increase Buster Card effectiveness",
+    "iconId": 314,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085102,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "Yellow Is Supreme",
+    "detail": "Increase NP damage",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3014,
+      3045,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085103,
+    "buffGroup": 500,
+    "type": 32,
+    "name": "Working on Manuscript",
+    "detail": "Unable to act",
+    "iconId": 501,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085104,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Working on Manuscript",
+    "detail": "Gain resistance to all attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6026
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {},
+    "id": 94085105,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "Working on Manuscript",
+    "detail": "Immune to all debuffs",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085106,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Working on Manuscript",
+    "detail": "Remove all [Working on Manuscript] for yourself at the start of turn <activated only when max Charge>",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085107,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate when Damaged",
+    "detail": "When attacked, decrease ATK of a single enemy + Apply C. Stars to all enemies [Demerit]",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085108,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn",
+    "detail": "Apply Target Focus to a single ally at the end of each turn + Apply Target Focus to a single enemy",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085109,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn",
+    "detail": "Increase Charge by 1 for all allies at the end of each turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085110,
+    "buffGroup": 0,
+    "type": 152,
+    "name": "Decrease C. Star Drop Resistance",
+    "detail": "Increase chance of C. Stars dropping",
+    "iconId": 560,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085111,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect when Attacking",
+    "detail": "Remove 2 Buffs from target when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085112,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect when Attacking",
+    "detail": "Decrease ATK of target when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085113,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate when Damaged",
+    "detail": "Absorb NP, or increase skill cooldown by 1, or absorb 1 Attack Buff from a single enemy when attacked",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085114,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "Delayed Effect",
+    "detail": "Set Charge to maximum for yourself after 1 turn",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085115,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn",
+    "detail": "At the end of each turn increase Quick effectiveness or Arts effectiveness or Buster effectiveness for yourself",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085116,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Debuff Chance Up",
+    "detail": "Increase Debuff chance rate to all allies when you are on the field",
+    "iconId": 307,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085117,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect when Attacking",
+    "detail": "Low chance to inflict Petrify to target when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085118,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate when Damaged",
+    "detail": "Decrease Quick Attack Resistance of a single enemy when attacked",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085119,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn",
+    "detail": "Inflict Curse to all enemies at the end of each turn + Absorb HP from all [Cursed] enemies",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3026
+    },
+    "id": 94085120,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 306,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085121,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect when Attacking",
+    "detail": "Remove 1 Curse from target when attacking + When successfully removed, increase MAX HP for yourself",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085122,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn",
+    "detail": "Absorb NP from all enemies after every 3 turns",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085123,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Special Resist Up",
+    "detail": "Gain resistance to all attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085124,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate when Damaged",
+    "detail": "Decrease HP of a single enemy when attacked",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085125,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn",
+    "detail": "Apply Target Focus to yourself after every 2 turns",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085126,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect with Normal Attack",
+    "detail": "Low chance to decrease NP of target during normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085127,
+    "buffGroup": 600,
+    "type": 104,
+    "name": "Craving Spiciness",
+    "detail": "When HP reaches 0, recover HP and survive & increase ATK",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085128,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Numbing Beak",
+    "detail": "Medium chance to inflict Stun when attacking (once used, 3 turns needed to reuse)",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085129,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Numbed Beak",
+    "detail": "High chance to inflict Stun when attacking (once used, 3 turns needed to reuse)",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      3014
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3014
+    ],
+    "script": {},
+    "id": 94085130,
+    "buffGroup": 0,
+    "type": 112,
+    "name": "Numbing Beak",
+    "detail": "Increase damage dealt to [Stunned] enemies",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      3014
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3014
+    ],
+    "script": {},
+    "id": 94085131,
+    "buffGroup": 0,
+    "type": 112,
+    "name": "Numbed Beak",
+    "detail": "Increase damage dealt to [Stunned] enemies",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085132,
+    "buffGroup": 200,
+    "type": 24,
+    "name": "Leaf Misting",
+    "detail": "Low chance to reduce damage taken to 0 & decrease DEF of a single enemy when taking damage",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085133,
+    "buffGroup": 200,
+    "type": 24,
+    "name": "Hidden Leaf",
+    "detail": "Low chance to reduce damage taken to 0 & increase DEF",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085134,
+    "buffGroup": 200,
+    "type": 24,
+    "name": "Different Kind of Wood",
+    "detail": "Low chance to reduce damage taken to 0 & increase Critical Strength",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085135,
+    "buffGroup": 200,
+    "type": 24,
+    "name": "Mimicry (False)",
+    "detail": "Low chance to reduce damage taken to 0 & increase Charge by 1 each turn",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085136,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "Fast-Growing Tree",
+    "detail": "Increase DEF",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -6026
+    },
+    "id": 94085137,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Timber!",
+    "detail": "When HP reaches 0, inflict Death to a single enemy",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4003,
+      4001
+    ],
+    "ckSelfIndv": [
+      4003,
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085138,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect when Attacking",
+    "detail": "Apply [Undercut] <Nullifies Timber!> to target during Quick and Arts attacks",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4002,
+      4004,
+      4007
+    ],
+    "ckSelfIndv": [
+      4002,
+      4004,
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085139,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect when Attacking",
+    "detail": "Apply [Back Cut] <Decrease DEF> to target during Buster, Extra, and NP attacks",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085140,
+    "buffGroup": 9999,
+    "type": 40,
+    "name": "Undercut",
+    "detail": "Nullify Timber!",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085141,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "Back Cut",
+    "detail": "Decrease DEF",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085142,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "ATK Up",
+    "detail": "Increase ATK that becomes more effective each turn",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085143,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Nutrient Absorption (Soil)",
+    "detail": "Medium chance to absorb HP from a single enemy at the end of each turn + When HP absorption is successful, increase DEF for yourself",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085144,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Nutrient Absorption (Leaf)",
+    "detail": "Medium chance to absorb HP from a single enemy at the end of each turn + When HP absorption is successful, increase ATK for yourself",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085145,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Nutrient Absorption (Branch)",
+    "detail": "Medium chance to absorb HP from a single enemy at the end of each turn + When HP absorption is successful, increase Charge by 1 for yourself",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085146,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "Black High Heels",
+    "detail": "Increase NP damage",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085147,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "White High Heels",
+    "detail": "Increase DEF",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085148,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "Glass Slippers",
+    "detail": "Increase Critical Hit rate",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085149,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "Muscular Feet",
+    "detail": "Increase Charge by 1 each turn",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3093
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085150,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Roman Feet",
+    "detail": "Increase Buster Card effectiveness",
+    "iconId": 314,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085151,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "Feet Fit To Burst",
+    "detail": "Increase ATK",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085152,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect with Normal Attack",
+    "detail": "Increase Quick Card effectiveness for yourself during normal attacks",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085153,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect with Normal Attack",
+    "detail": "Medium chance to apply Evade to yourself during normal attacks",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085154,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect with Normal Attack",
+    "detail": "Increase Critical Strength for yourself during normal attacks",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085155,
+    "buffGroup": 200,
+    "type": 24,
+    "name": "Drunken Stagger",
+    "detail": "Low chance to reduce damage taken to 0 & increase Critical Hit Rate",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3029
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085156,
+    "buffGroup": 0,
+    "type": 13,
+    "name": "Sea Beast's Sharp Talons",
+    "detail": "Increase damage dealt",
+    "iconId": 302,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3029
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085157,
+    "buffGroup": 0,
+    "type": 13,
+    "name": "Dinosaur's Sharp Talons",
+    "detail": "Increase damage dealt",
+    "iconId": 302,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3029
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085158,
+    "buffGroup": 0,
+    "type": 13,
+    "name": "Oni's Sharp Talons",
+    "detail": "Increase damage dealt",
+    "iconId": 302,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009
+    ],
+    "tvals": [
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4100
+    ],
+    "script": {},
+    "id": 94085159,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "Benkei's Heel",
+    "detail": "Decrease DEF against Critical Attacks & decrease ATK for yourself when sustaining Critical Attacks",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2588
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4100
+    ],
+    "script": {},
+    "id": 94085160,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085161,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Captivating Bare Feet",
+    "detail": "Increase NP Gauge of a single [Male] enemy during normal attacks",
+    "iconId": 549,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085162,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Captivating Bare Feet (Muscular)",
+    "detail": "Decrease NP Gauge & decrease ATK of a single [Male] enemy during normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [
+      4100
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085163,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect with Critical ATK",
+    "detail": "Increase Critical Strength for yourself during Critical Attacks",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085164,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect with Normal Attack",
+    "detail": "Increase Critical Strength & ATK for yourself during normal attacks",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      5000,
+      4100,
+      4008
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4100,
+      4008
+    ],
+    "script": {},
+    "id": 94085165,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Essence of Martial Arts Instruction",
+    "detail": "Gain resistance against all attacks excluding NP attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085166,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "Delayed Effect",
+    "detail": "Increase ATK for yourself after 3 turns",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085167,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Admirable Flexibility",
+    "detail": "Low chance to apply Charm to target during normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE_OR": "-3045,-3025"
+    },
+    "id": 94085701,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn",
+    "detail": "Apply [Creating Heel] <effect is nullified if Incapacitated or Skill Sealed> for yourself at the end of each turn ",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE_OR": "-3045,-3025"
+    },
+    "id": 94085702,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn",
+    "detail": "Apply [Creating Sculpture] <effect is nullified if Incapacitated or Skill Sealed> for yourself at the end of each turn ",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE_OR": "-3045,-3025"
+    },
+    "id": 94085703,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn",
+    "detail": "Apply [Creating Outfit] <effect is nullified if Incapacitated or Skill Sealed> for yourself at the end of each turn ",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085704,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Creating Heel",
+    "detail": "If 3 are accumulated, [Heel] will be complete ",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085705,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Creating Sculpture",
+    "detail": "If 3 are accumulated, [Sculpture] will be complete ",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085706,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Creating Outfit",
+    "detail": "If 3 are accumulated, [Outfit] will be complete ",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085707,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085708,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Spiked Heel",
+    "detail": "Apply [Heel] trait to yourself",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085709,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Cursed Heel",
+    "detail": "Apply [Heel] trait to yourself",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085710,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Bloody Heel",
+    "detail": "Apply [Heel] trait to yourself",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085711,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Brave Warrior Maiden Statue",
+    "detail": "Apply [Sculpture] trait to yourself",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085712,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Beautiful Goddess Statue",
+    "detail": "Apply [Sculpture] trait to yourself",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085713,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Loving Pope Statue",
+    "detail": "Apply [Sculpture] trait to yourself",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085714,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Sparkling Dress",
+    "detail": "Apply [Outfit] trait to yourself",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085715,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Diamond Veil",
+    "detail": "Apply [Outfit] trait to yourself",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085716,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Mysterious Camisole",
+    "detail": "Apply [Outfit] trait to yourself",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6027,
+      "INDIVIDUALITIE_COUNT_ABOVE": 1
+    },
+    "id": 94085717,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "Critical Strength Up",
+    "detail": "Increase Critical Hit damage <Effective if an ally other than yourself has the [Sculpture] or [Outfit] traits>",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6027,
+      "INDIVIDUALITIE_COUNT_ABOVE": 2
+    },
+    "id": 94085718,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "Critical Hit Rate Up",
+    "detail": "Increase Critical Hit rate <Effective if an ally other than yourself has both [Sculpture] and [Outfit] traits>",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [
+      4008
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085719,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect with Normal Attack",
+    "detail": "Inflict Curse to a single enemy during normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [
+      4008
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6027,
+      "INDIVIDUALITIE_COUNT_ABOVE": 1
+    },
+    "id": 94085720,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect with Normal Attack",
+    "detail": "Inflict Disastrous Curse to a single enemy during normal attacks <Effective if an ally other than yourself has the [Sculpture] or [Outfit] trait>",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      3026
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3026
+    ],
+    "script": {
+      "INDIVIDUALITIE": 6027,
+      "INDIVIDUALITIE_COUNT_ABOVE": 2
+    },
+    "id": 94085721,
+    "buffGroup": 0,
+    "type": 112,
+    "name": "Strength Up (Curse)",
+    "detail": "Increase damage dealt to [Cursed] enemies <Effective if an ally other than yourself has both [Sculpture] and [Outfit] traits>",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [
+      4008
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085722,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect with Normal Attack",
+    "detail": "Absorb HP from a single enemy during normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [
+      4008
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6027,
+      "INDIVIDUALITIE_COUNT_ABOVE": 1
+    },
+    "id": 94085723,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect with Normal Attack",
+    "detail": "Absorb HP from a single enemy during normal attacks <Effective if an ally other than yourself has the [Sculpture] or [Outfit] trait>",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [
+      4008
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6027,
+      "INDIVIDUALITIE_COUNT_ABOVE": 2
+    },
+    "id": 94085724,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect with Normal Attack",
+    "detail": "Absorb HP from a single enemy during normal attacks <Effective if an ally other than yourself has both [Sculpture] and [Outfit] traits>",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085725,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn",
+    "detail": "Decrease ATK of all enemies at the end of each turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6027,
+      "INDIVIDUALITIE_COUNT_ABOVE": 1
+    },
+    "id": 94085726,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn",
+    "detail": "Decrease ATK of all enemies at the end of each turn <Effective if an ally other than yourself has the [Heel] or [Outfit] trait>",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6027,
+      "INDIVIDUALITIE_COUNT_ABOVE": 2
+    },
+    "id": 94085727,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn",
+    "detail": "Absorb 1 ATK Buff of all enemies at the end of each turn <Effective if an ally other than yourself has both [Heel] and [Outfit] traits>",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085728,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn",
+    "detail": "Decrease DEF for all enemies at end of each turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6027,
+      "INDIVIDUALITIE_COUNT_ABOVE": 1
+    },
+    "id": 94085729,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn",
+    "detail": "Decrease DEF for all enemies at end of each turn <Effective if an ally other than yourself has the [Heel] or [Outfit] trait>",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6027,
+      "INDIVIDUALITIE_COUNT_ABOVE": 2
+    },
+    "id": 94085730,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn",
+    "detail": "Absorb 1 DEF Buff of all enemies at the end of each turn <Effective if an ally other than yourself has both [Heel] and [Outfit] traits>",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085731,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn",
+    "detail": "Decrease NP Gauge of all enemies at the end of each turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6027,
+      "INDIVIDUALITIE_COUNT_ABOVE": 1
+    },
+    "id": 94085732,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn",
+    "detail": "Decrease NP Gauge of all enemies at the end of each turn <Effective if an ally other than yourself has the [Heel] or [Outfit] trait>",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6027,
+      "INDIVIDUALITIE_COUNT_ABOVE": 2
+    },
+    "id": 94085733,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn",
+    "detail": "Inflict NP Seal to all enemies at the end of each turn <Effective if an ally other than yourself has both [Heel] and [Outfit] traits>",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6027,
+      "INDIVIDUALITIE_COUNT_ABOVE": 1
+    },
+    "id": 94085734,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "",
+    "detail": "",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3059,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6027,
+      "INDIVIDUALITIE_COUNT_ABOVE": 2
+    },
+    "id": 94085735,
+    "buffGroup": 0,
+    "type": 72,
+    "name": "",
+    "detail": "",
+    "iconId": 329,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6027,
+      "INDIVIDUALITIE_COUNT_ABOVE": 1
+    },
+    "id": 94085736,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "",
+    "detail": "",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3085,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6027,
+      "INDIVIDUALITIE_COUNT_ABOVE": 2
+    },
+    "id": 94085737,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "",
+    "detail": "",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6027,
+      "INDIVIDUALITIE_COUNT_ABOVE": 1
+    },
+    "id": 94085738,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "",
+    "detail": "",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6027,
+      "INDIVIDUALITIE_COUNT_ABOVE": 2
+    },
+    "id": 94085739,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "",
+    "detail": "",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085740,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "ATK Up",
+    "detail": "Increase all allies' ATK when you are on the field",
+    "iconId": 300,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6027,
+      "INDIVIDUALITIE_COUNT_ABOVE": 1
+    },
+    "id": 94085741,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "ATK Up",
+    "detail": "Increase ATK for all allies when you are on the field <Effective if an ally other than yourself has the [Heel] or [Sculpture] trait>",
+    "iconId": 300,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3059,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6027,
+      "INDIVIDUALITIE_COUNT_ABOVE": 2
+    },
+    "id": 94085742,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Ignore Invincible",
+    "detail": "Apply a state that ignores Evade and Invincible to deal damage to all allies when you are on the field <Effective if an ally other than yourself has both [Heel] and [Sculpture] traits>",
+    "iconId": 329,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085743,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "DEF Up",
+    "detail": "Increase DEF for all allies when you are on the field",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6027,
+      "INDIVIDUALITIE_COUNT_ABOVE": 1
+    },
+    "id": 94085744,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "DEF Up",
+    "detail": "Increase DEF for all allies when you are on the field <Effective if an ally other than yourself has the [Heel] or [Sculpture] trait>",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3085,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6027,
+      "INDIVIDUALITIE_COUNT_ABOVE": 2
+    },
+    "id": 94085745,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Damage Cut",
+    "detail": "Decrease damage taken for all allies when you are on the field <Effective if an ally other than yourself has both [Heel] and [Sculpture] traits>",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94085746,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "NP Strength Up",
+    "detail": "Increase NP damage for all allies when you are on the field ",
+    "iconId": 310,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6027,
+      "INDIVIDUALITIE_COUNT_ABOVE": 1
+    },
+    "id": 94085747,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Charge Up Each Turn",
+    "detail": "Increase Charge by 1 at end of turn for all allies when you are on the field <Effective if an ally other than yourself has the [Heel] or [Sculpture] trait>",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6027,
+      "INDIVIDUALITIE_COUNT_ABOVE": 2
+    },
+    "id": 94085748,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Charge Up Each Turn",
+    "detail": "Increase Charge by 2 at end of turn for all allies when you are on the field <Effective if an ally other than yourself has both [Heel] and [Sculpture] traits>",
+    "iconId": 319,
     "maxRate": 0,
     "effectId": 0
   },
