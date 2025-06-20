@@ -85793,6 +85793,23 @@
   },
   {
     "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5847,
+    "buffGroup": 5847,
+    "type": 188,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3006,
       3028,
@@ -86151,6 +86168,47 @@
     "detail": "通常攻撃時、ダメージ前に自身のクリティカル威力をアップ＆呪い状態を付与【デメリット】",
     "iconId": 333,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3025,
+      6039
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 5867,
+    "buffGroup": 5867,
+    "type": 33,
+    "name": "心砕",
+    "detail": "スキルを使用できなくなる<自身の宝具を使用することで解除可能>",
+    "iconId": 511,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -3086
+    },
+    "id": 5868,
+    "buffGroup": 0,
+    "type": 104,
+    "name": "ガッツ",
+    "detail": "HPが0になった時、HPを回復して耐える(他のガッツ状態と重複可能)",
+    "iconId": 304,
+    "maxRate": 1000,
     "effectId": 0
   },
   {
@@ -87437,7 +87495,8 @@
   },
   {
     "vals": [
-      3004
+      3004,
+      3082
     ],
     "tvals": [],
     "ckSelfIndv": [],
@@ -87847,7 +87906,305 @@
     "buffGroup": 0,
     "type": 200,
     "name": "守勢の構え（剣）",
-    "detail": "チェイン不成立時、自身の防御力をアップ",
+    "detail": "宝具チェインを除くチェイン不成立時、自身の防御力をアップ",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30096,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "曇らせ侍る（狂）",
+    "detail": "攻撃時、対象に〔標的破壊〕状態を付与",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30097,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "不屈の構え（狂）",
+    "detail": "ガッツ発動時、自身が最後に攻撃を受けた相手からのダメージに対する耐性をアップ",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2982
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "extendLowerLimit": 1000
+    },
+    "id": 30098,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "標的破壊",
+    "detail": "防御力をダウン",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30099,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、対象の〔標的破壊〕状態の残りターン数を1ターン延長(クリティカル時はさらに1ターン延長)",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      -4104,
+      -4105,
+      -4106,
+      -4107,
+      -4108
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 30100,
+    "buffGroup": 0,
+    "type": 200,
+    "name": "戦闘続行（狂）",
+    "detail": "宝具チェインを除くチェイン不成立時、自身にガッツ状態(強化解除不能・グランドサイン効果以外の他のガッツ状態と重複可能)を付与<1度使用すると再使用に4ターン必要>",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      4104
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30101,
+    "buffGroup": 0,
+    "type": 200,
+    "name": "クイックチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むクイックチェイン成立時、自身のQuickカードの威力をアップ<自身のHP割合が多いほど効果アップ>",
+    "iconId": 420,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      4105
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30102,
+    "buffGroup": 0,
+    "type": 200,
+    "name": "アーツチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むアーツチェイン成立時、自身のArtsカードの威力をアップ<自身のHP割合が多いほど効果アップ>",
+    "iconId": 421,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      4106
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30103,
+    "buffGroup": 0,
+    "type": 200,
+    "name": "バスターチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むバスターチェイン成立時、自身のBusterカードの威力をアップ<自身のHP割合が多いほど効果アップ>",
+    "iconId": 422,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      4107
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30104,
+    "buffGroup": 0,
+    "type": 200,
+    "name": "マイティチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むマイティチェイン成立時、自身に「攻撃時、対象の〔標的破壊〕状態の残りターン数を1ターン延長(クリティカル時はさらに1ターン延長)する状態」を付与",
+    "iconId": 424,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      2983
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30105,
+    "buffGroup": 30105,
+    "type": 104,
+    "name": "ガッツ",
+    "detail": "HPが0になった時、HPを回復して耐える(グランドサイン効果以外の他のガッツ状態と重複可能)",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [
+      4100
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30106,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      6045
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      6045
+    ],
+    "script": {},
+    "id": 30108,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "特殊耐性アップ",
+    "detail": "自身が最後に攻撃を受けた相手からのダメージに対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2985
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30111,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      2983
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30112,
+    "buffGroup": 30105,
+    "type": 104,
+    "name": "ガッツ",
+    "detail": "HPが0になった時、HPを回復して耐える(グランドサイン効果以外の他のガッツ状態と重複可能)",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      -4104,
+      -4105,
+      -4106,
+      -4107,
+      -4108
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 2,
+      "INDIVIDUALITIE": -2985
+    },
+    "id": 30113,
+    "buffGroup": 0,
+    "type": 200,
+    "name": "戦闘続行（狂）",
+    "detail": "宝具チェインを除くチェイン不成立時、自身にガッツ状態(強化解除不能・グランドサイン効果以外の他のガッツ状態と重複可能)を付与<1度使用すると再使用に4ターン必要>",
     "iconId": 331,
     "maxRate": 0,
     "effectId": 0
@@ -144921,6 +145278,561 @@
     "name": "",
     "detail": "",
     "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94146501,
+    "buffGroup": 0,
+    "type": 230,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94146502,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "射殺す百頭 EX",
+    "detail": "通常攻撃時、対象の防御力をダウン ＋ 〔セイバー・アーチャー・ランサー・ライダー〕クラスに対するクラス相性が防御優位になる",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 191
+    },
+    "id": 94146503,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94146504,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "勇猛 A+",
+    "detail": "攻撃力をアップ＆精神異常耐性をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94146505,
+    "buffGroup": 0,
+    "type": 153,
+    "name": "主神の加護",
+    "detail": "スターが発生する確率を減らす＆クリティカルの発生率をアップ",
+    "iconId": 364,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94146506,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "栄光の大剣",
+    "detail": "攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94146507,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "破壊の戦斧",
+    "detail": "防御力アップを無視して、攻撃によるダメージを与える ＋ 通常攻撃時、敵全体のHPを減らす",
+    "iconId": 351,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94146508,
+    "buffGroup": 0,
+    "type": 121,
+    "name": "",
+    "detail": "",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [
+      4100
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94146509,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "非情の剛弓",
+    "detail": "クリティカルの発生率をアップ ＋ クリティカル攻撃時、対象のNPを減らす",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94146510,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "",
+    "detail": "",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4008,
+      -4100
+    ],
+    "script": {
+      "checkIndvType": 2,
+      "INDIVIDUALITIE": -6021
+    },
+    "id": 94146511,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "勇士の武練：非クリティカル",
+    "detail": "クリティカルを除く通常攻撃を受けた時、受けた攻撃に対する防御力をアップ<グランドバーサーカーの攻撃では効果が半減し、〔狂乱〕状態が付与されている間は効果が無効になる>",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4100
+    ],
+    "script": {
+      "INDIVIDUALITIE": -6021
+    },
+    "id": 94146512,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "勇士の武練：クリティカル",
+    "detail": "クリティカル攻撃を受けた時、受けた攻撃に対する防御力をアップ<グランドバーサーカーの攻撃では効果が半減し、〔狂乱〕状態が付与されている間は効果が無効になる>",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {
+      "INDIVIDUALITIE": -6021
+    },
+    "id": 94146513,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "勇士の武練：宝具",
+    "detail": "宝具攻撃を受けた時、受けた攻撃に対する防御力をアップ<グランドバーサーカーの攻撃では効果が半減し、〔狂乱〕状態が付与されている間は効果が無効になる>",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4008,
+      -4100
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94146514,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "防御力アップ〔非クリティカル〕",
+    "detail": "クリティカルを除く通常攻撃に対する防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4008,
+      -4100,
+      -186
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94146515,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4100
+    ],
+    "script": {},
+    "id": 94146516,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "防御力アップ〔クリティカル〕",
+    "detail": "クリティカル攻撃に対する防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4100,
+      -186
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94146517,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94146518,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "防御力アップ〔宝具〕",
+    "detail": "宝具攻撃に対する防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007,
+      -186
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94146519,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94146520,
+    "buffGroup": 94146520,
+    "type": 136,
+    "name": "特殊威力アップ",
+    "detail": "敵に与えるダメージをアップ",
+    "iconId": 359,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94146521,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "狂乱",
+    "detail": "与えるダメージをアップ＆全ての攻撃に対する耐性をダウン【デメリット】＆〔勇士の武練〕状態が無効になる【デメリット】",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3017
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94146522,
+    "buffGroup": 0,
+    "type": 92,
+    "name": "",
+    "detail": "",
+    "iconId": 529,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94146523,
+    "buffGroup": 0,
+    "type": 186,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94146525,
+    "buffGroup": 0,
+    "type": 229,
+    "name": "狂気の双眸",
+    "detail": "行動回数を増やす",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94146526,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "毎ターンチャージプラス",
+    "detail": "毎ターンチャージを最大にする",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      4104,
+      4105,
+      4106
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94146527,
+    "buffGroup": 94146527,
+    "type": 200,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
     "maxRate": 0,
     "effectId": 0
   }
