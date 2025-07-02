@@ -85825,6 +85825,21 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5846,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "スカイ・コレクター",
+    "detail": "『インドラの大試練』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004
     ],
@@ -86267,6 +86282,47 @@
   },
   {
     "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4001,
+      4002
+    ],
+    "ckSelfIndv": [
+      4001,
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5872,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Arts・Buster攻撃時追加効果",
+    "detail": "ArtsまたはBuster攻撃時、自身のQuickカードの性能をアップ",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5874,
+    "buffGroup": 0,
+    "type": 208,
+    "name": "被効果時発動",
+    "detail": "HP回復効果または最大HPアップ効果を受けた時、自身のNPを少し増やす<毎ターンHP回復効果、概念礼装・コマンドコードによる効果を除く>",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3041
     ],
@@ -86299,6 +86355,23 @@
     "detail": "最大HPを増やす",
     "iconId": 330,
     "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5877,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "ターン終了時、自身のHPを回復する<「痛飲する者」「神々の王」の効果対象となる>",
+    "iconId": 343,
+    "maxRate": 0,
     "effectId": 0
   },
   {
@@ -145359,6 +145432,214 @@
     "detail": "",
     "iconId": 0,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3041,
+      2986
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94145801,
+    "buffGroup": 0,
+    "type": 79,
+    "name": "暴風の加護",
+    "detail": "最大HPを比率で増やす",
+    "iconId": 330,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94145802,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "暴風の加護",
+    "detail": "全ての攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -3086
+    },
+    "id": 94145803,
+    "buffGroup": 600,
+    "type": 104,
+    "name": "暴風の加護",
+    "detail": "HPが0になった時、HPを回復して耐える",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94145804,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "暴風の加護",
+    "detail": "攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94145805,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "暴風の加護（弱）",
+    "detail": "全ての攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94145806,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "暴風の加護（弱）",
+    "detail": "攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94145807,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "神速の矢",
+    "detail": "攻撃時、対象の攻撃力をダウン",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 189
+    },
+    "id": 94145808,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "神速の矢",
+    "detail": "〔ランサー〕クラスに対する相性不利を打ち消す",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94145810,
+    "buffGroup": 200,
+    "type": 24,
+    "name": "雲隠れ",
+    "detail": "攻撃によるダメージを低確率で0にする",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94145811,
+    "buffGroup": 200,
+    "type": 24,
+    "name": "雲隠れ（極）",
+    "detail": "攻撃によるダメージを高確率で0にする",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94145858,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "神速の矢",
+    "detail": "攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
     "effectId": 0
   },
   {

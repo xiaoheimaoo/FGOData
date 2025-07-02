@@ -2596,11 +2596,15 @@
     "script": {
       "beforeActionSetup": [
         "114",
-        "1040109,5"
+        "1040109,5",
+        "402",
+        "50100,1"
       ],
       "beforeActionVals": [
         "300",
         "1040109,15,1000",
+        "401",
+        "50100,0,1",
         "104",
         "1040109,1",
         "104",
@@ -31207,6 +31211,163 @@
     "openType": 18,
     "condType": 46,
     "condValue": 1,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      1196,
+      1197,
+      1198
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80549,
+    "flagType": 65,
+    "num": 1,
+    "priority": 0,
+    "openType": 4,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      1197,
+      1198
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80549,
+    "flagType": 66,
+    "num": 1,
+    "priority": 0,
+    "openType": 23,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      1196
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80549,
+    "flagType": 67,
+    "num": 1,
+    "priority": 0,
+    "openType": 24,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[805491, 10]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      1199
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80549,
+    "flagType": 68,
+    "num": 1,
+    "priority": 0,
+    "openType": 72,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[8397]"
+    ],
+    "condIds": [
+      94145801
+    ],
+    "imageIds": [
+      1200,
+      1201
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80549,
+    "flagType": 69,
+    "num": 1,
+    "priority": 0,
+    "openType": 104,
+    "condType": 46,
+    "condValue": 3,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      80549
+    ],
+    "imageIds": [
+      1202
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80549,
+    "flagType": 70,
+    "num": 1,
+    "priority": 0,
+    "openType": 103,
+    "condType": 119,
+    "condValue": 10,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      80549
+    ],
+    "imageIds": [
+      1202
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80549,
+    "flagType": 70,
+    "num": 2,
+    "priority": 0,
+    "openType": 4,
+    "condType": 119,
+    "condValue": 10,
     "condValue2": 0,
     "condValue3": 0,
     "flag": 0
