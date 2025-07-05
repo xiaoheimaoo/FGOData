@@ -7776,7 +7776,7 @@
     "buffGroup": 0,
     "type": 17,
     "name": "NP Gain Up",
-    "detail": "Increase NP Gain if HP is below 50%",
+    "detail": "Increase NP Gain while HP is 50% or less",
     "iconId": 303,
     "maxRate": 5000,
     "effectId": 0
@@ -7999,7 +7999,7 @@
     "buffGroup": 0,
     "type": 15,
     "name": "Super Writhe Expansion",
-    "detail": "Increase NP damage if HP is lower than 80%",
+    "detail": "Increase NP damage while HP is 80% or less",
     "iconId": 310,
     "maxRate": 5000,
     "effectId": 0
@@ -8016,7 +8016,7 @@
     "buffGroup": 0,
     "type": 15,
     "name": "Super Writhe Expansion",
-    "detail": "Increase NP damage if HP is lower than 60%",
+    "detail": "Increase NP damage while HP is 60% or less",
     "iconId": 310,
     "maxRate": 5000,
     "effectId": 0
@@ -8033,7 +8033,7 @@
     "buffGroup": 0,
     "type": 15,
     "name": "Super Writhe Expansion",
-    "detail": "Increase NP damage if HP is lower than 40%",
+    "detail": "Increase NP damage while HP is 40% or less",
     "iconId": 310,
     "maxRate": 5000,
     "effectId": 0
@@ -8050,7 +8050,7 @@
     "buffGroup": 0,
     "type": 15,
     "name": "Super Writhe Expansion",
-    "detail": "Increase NP damage if HP is lower than 20%",
+    "detail": "Increase NP damage while HP is 20% or less",
     "iconId": 310,
     "maxRate": 5000,
     "effectId": 0
@@ -14301,7 +14301,7 @@
     "buffGroup": 0,
     "type": 9,
     "name": "ATK Up",
-    "detail": "As HP gets lower, ATK increases (activated when HP is below 50%)",
+    "detail": "ATK increases the lower your HP is (activated when HP is 50% or less)",
     "iconId": 300,
     "maxRate": 5000,
     "effectId": 0
@@ -15940,7 +15940,7 @@
     "buffGroup": 0,
     "type": 40,
     "name": "Rapid Rice Ball Digestion",
-    "detail": "When HP is less than 10%, Rice Balls are rapidly digested to gain a large amount of NP",
+    "detail": "When HP reaches 10% or less, Rice Balls are rapidly digested to gain a large amount of NP",
     "iconId": 331,
     "maxRate": 0,
     "effectId": 0
@@ -20719,7 +20719,7 @@
     "buffGroup": 0,
     "type": 37,
     "name": "Man-Eating Bath Guardian",
-    "detail": "When HP reaches 0, recover HP and survive & when HP is less than 1%, apply a state to yourself where Guts is removed when sustaining an attack from Diarmuid (Saber) [Demerit] ",
+    "detail": "When HP reaches 0, recover HP and survive & when HP is 1% or less, apply a state to yourself where Guts is removed when sustaining an attack from Diarmuid (Saber) [Demerit] ",
     "iconId": 304,
     "maxRate": 0,
     "effectId": 0
@@ -21011,7 +21011,7 @@
     "buffGroup": 0,
     "type": 15,
     "name": "Man-Eating Bath Guardian",
-    "detail": "<Activated when HP Gauge is broken once> When HP reaches 0, recover HP and survive & when HP is less than 1%, Guts is removed when attacked by Diarmuid (Saber) [Demerit] ",
+    "detail": "<Activated when HP Gauge is broken once> When HP reaches 0, recover HP and survive & when HP is 1% or less, Guts is removed when attacked by Diarmuid (Saber) [Demerit] ",
     "iconId": 304,
     "maxRate": 5000,
     "effectId": 0
@@ -32118,7 +32118,7 @@
     "id": 2650,
     "buffGroup": 0,
     "type": 137,
-    "name": "Bonus Effect on Attack (Remove DEF Buff + Death)",
+    "name": "Bonus Effect when Attacking (Remove DEF Buff + Death)",
     "detail": "Remove DEF Buffs for a single enemy when attacking + Apply Death to yourself [Demerit] (Treated as Buff)",
     "iconId": 528,
     "maxRate": 0,
@@ -36146,7 +36146,7 @@
     "buffGroup": 0,
     "type": 114,
     "name": "Territoriality",
-    "detail": "Charge becomes MAX each turn if HP is lower than 30%",
+    "detail": "Charge becomes MAX each turn if HP is 30% or less",
     "iconId": 319,
     "maxRate": 0,
     "effectId": 0
@@ -36483,7 +36483,7 @@
     "buffGroup": 0,
     "type": 96,
     "name": "Overcharge Lv. Up",
-    "detail": "Increase Overcharge level when using Noble Phantasm if HP is lower than 50%",
+    "detail": "Increase Overcharge level when using Noble Phantasm if HP is 50% or less",
     "iconId": 336,
     "maxRate": 5,
     "effectId": 0
@@ -50180,7 +50180,7 @@
     "buffGroup": 0,
     "type": 37,
     "name": "Albion's Dead Flesh",
-    "detail": "When HP reaches 0, recover HP and survive & when HP is less than 0%, apply a state where \"(Albion's Dead Flesh) is removed if you sustain Support NPC's Mélusine's AOE NP attack\" [Demerit]",
+    "detail": "When HP reaches 0, recover HP and survive & when HP is 0% or less, apply a state where \"(Albion's Dead Flesh) is removed if you sustain Support NPC's Mélusine's AOE NP attack\" [Demerit]",
     "iconId": 304,
     "maxRate": 0,
     "effectId": 0
@@ -78701,6 +78701,242 @@
     "detail": "Increase NP damage",
     "iconId": 310,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "HP_LOWER": 750
+    },
+    "id": 5423,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "ATK Up",
+    "detail": "Increase ATK while HP is 75% or less",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "HP_LOWER": 500
+    },
+    "id": 5424,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "ATK Up",
+    "detail": "Increase ATK while HP is 50% or less",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "HP_LOWER": 250
+    },
+    "id": 5425,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "ATK Up",
+    "detail": "Increase ATK while HP is 25% or less",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5426,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers Each Turn",
+    "detail": "Gain C. Stars at the end of turn when all allies' HP is at 100% ",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "HP_LOWER": 500
+    },
+    "id": 5427,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "NP Strength Up",
+    "detail": "Increase NP damage while HP is 50% or less",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5428,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Buster Attack Bonus Effect",
+    "detail": "Increase NP Gauge for yourself when attacking with a Buster Card",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3088
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5429,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Marking",
+    "detail": "Become a target of \"Evade Special Attack of [William Tell's] Noble Phantasm (Treated as Debuff)\" status",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5430,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect when Attacking",
+    "detail": "Inflict Spreading Fire to target during attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "HP_LOWER": 990
+    },
+    "id": 5431,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "ATK Up",
+    "detail": "Increase ATK while HP is 99% or less",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3063
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ExcludeUnSubStateIndiv": 1,
+      "INDIVIDUALITIE": 3021
+    },
+    "id": 5436,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Evade Trap",
+    "detail": "When in an Evade state (excluded if it cannot be removed) at the end of turn, apply [Marking] to target",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5441,
+    "buffGroup": 507,
+    "type": 76,
+    "name": "Delayed Effect",
+    "detail": "Apply Death <treated as Buff> at the end of the turn [Demerit]",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5442,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect when Attacking",
+    "detail": "Remove DEF Buff of a single enemy during attack + Apply \"a state to apply Death at the end of turn\" <treated as Buff> for yourself [Demerit]",
+    "iconId": 528,
+    "maxRate": 0,
     "effectId": 0
   },
   {

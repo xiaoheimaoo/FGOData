@@ -2696,8 +2696,8 @@
   },
   {
     "id": 278551,
-    "detail": "Increase Arts Card effectiveness [{0}] (3 turns) for yourself + increase DEF [{0}] (3 turns) for all allies",
-    "detailShort": "Increase Arts Card effectiveness [{0}] (3 turns) for yourself + increase DEF [{0}] (3 turns) for all allies"
+    "detail": "Increase Arts Card effectiveness [{0}] (3 turns) for yourself + Increase DEF [{0}] (3 turns) for all allies",
+    "detailShort": "Increase Arts Card effectiveness [{0}] (3 turns) for yourself + Increase DEF [{0}] (3 turns) for all allies"
   },
   {
     "id": 279650,
@@ -2906,8 +2906,8 @@
   },
   {
     "id": 317550,
-    "detail": "Increase Buster Card effectiveness [{0}] (3 turns) & Mental Debuff Resist [{0}] (3 turns) & apply Evade (2 times) for yourself + gain a large amount of C. Stars [{0}]",
-    "detailShort": "Increase Buster Card effectiveness [{0}] (3 turns) & Mental Debuff Resist [{0}] (3 turns) & apply Evade (2 times) for yourself + gain a large amount of C. Stars [{0}]"
+    "detail": "Increase Buster Card effectiveness [{0}] (3 turns) & increase Mental Debuff Resist [{0}] (3 turns) & apply Evade (2 times) for yourself + Gain a large amount of C. Stars [{0}]",
+    "detailShort": "Increase Buster Card effectiveness [{0}] (3 turns) & increase Mental Debuff Resist [{0}] (3 turns) & apply Evade (2 times) for yourself + Gain a large amount of C. Stars [{0}]"
   },
   {
     "id": 318450,
@@ -3151,8 +3151,8 @@
   },
   {
     "id": 355551,
-    "detail": "Apply Target Focus (1 turn) & increase DEF for yourself [{0}] (1 turn) & apply a state where your ATK increases the lower your HP (activated when HP is below 50%) [{0}] (3 turns) [g][o]▲[/o][/g]",
-    "detailShort": "Apply Target Focus (1 turn) & increase DEF for yourself [{0}] (1 turn) & apply a state where your ATK increases the lower your HP (activated when HP is below 50%) [{0}] (3 turns) [g][o]▲[/o][/g]"
+    "detail": "Apply Target Focus (1 turn) & increase DEF for yourself [{0}] (1 turn) & apply a state where your ATK increases the lower your HP gets (activated when HP is 50% or less) [{0}] (3 turns) [g][o]▲[/o][/g]",
+    "detailShort": "Apply Target Focus (1 turn) & increase DEF for yourself [{0}] (1 turn) & apply a state where your ATK increases the lower your HP gets (activated when HP is 50% or less) [{0}] (3 turns) [g][o]▲[/o][/g]"
   },
   {
     "id": 356650,
@@ -3286,8 +3286,8 @@
   },
   {
     "id": 378650,
-    "detail": "Increase NP Gauge [{0}] & increase NP Gain only while your HP is below 50% [{0}] (3 turns) for yourself",
-    "detailShort": "Increase NP Gauge [{0}] & increase NP Gain only while your HP is below 50% [{0}] (3 turns) for yourself"
+    "detail": "Increase NP Gauge [{0}] & increase NP Gain while HP is 50% or less [{0}] (3 turns) for yourself",
+    "detailShort": "Increase NP Gauge [{0}] & increase NP Gain while HP is 50% or less [{0}] (3 turns) for yourself"
   },
   {
     "id": 379350,
@@ -5076,8 +5076,8 @@
   },
   {
     "id": 706350,
-    "detail": "<Useable only if HP is below 50%> Increase ATK [{0}] (1 time, 1 turn) & increase Critical Strength [{0}] (1 time, 1 turn) & apply status \"Remove DEF Buffs for a single enemy when attacking + Apply Death to yourself [Demerit] (1 turn) <Treated as Buff>\" to yourself",
-    "detailShort": "<Useable only if HP is below 50%> Increase ATK [{0}] (1 time, 1 turn) & increase Critical Strength [{0}] (1 time, 1 turn) & apply status \"Remove DEF Buffs for a single enemy when attacking + Apply Death to yourself [Demerit] (1 turn) <Treated as Buff>\" to yourself"
+    "detail": "<Usable only if HP is 50% or less> Increase ATK [{0}] (1 time, 1 turn) & increase Critical Strength [{0}] (1 time, 1 turn) & apply status \"Remove DEF Buffs for a single enemy when attacking + Apply Death to yourself [Demerit] (1 turn) <Treated as Buff>\" to yourself",
+    "detailShort": "<Usable only if HP is 50% or less> Increase ATK [{0}] (1 time, 1 turn) & increase Critical Strength [{0}] (1 time, 1 turn) & apply status \"Remove DEF Buffs for a single enemy when attacking + Apply Death to yourself [Demerit] (1 turn) <Treated as Buff>\" to yourself"
   },
   {
     "id": 707550,
@@ -26320,6 +26320,61 @@
     "detailShort": "Increase NP Gain by 3% to the engraved Card + Gain 1 C. Star when attacking with the engraved Card"
   },
   {
+    "id": 993812,
+    "detail": "Begin battle with NP charged at 50% & increase NP Charge by 1 level when using NP (1 time) & increase NP Gain by 5% for yourself",
+    "detailShort": "Begin battle with NP charged at 50% & increase NP Charge by 1 level when using NP (1 time) & increase NP Gain by 5% for yourself"
+  },
+  {
+    "id": 993813,
+    "detail": "Begin battle with NP charged at 60% & increase NP Charge by 1 level when using NP (1 time) & increase NP Gain by 10% for yourself [MAX]",
+    "detailShort": "Begin battle with NP charged at 60% & increase NP Charge by 1 level when using NP (1 time) & increase NP Gain by 10% for yourself [MAX]"
+  },
+  {
+    "id": 993814,
+    "detail": "Increase C. Star Gather Rate by 300% & restore 200 HP each turn for yourself",
+    "detailShort": "Increase C. Star Gather Rate by 300% & restore 200 HP each turn for yourself"
+  },
+  {
+    "id": 993815,
+    "detail": "Increase C. Star Gather Rate by 400% & restore 300 HP each turn for yourself [MAX]",
+    "detailShort": "Increase C. Star Gather Rate by 400% & restore 300 HP each turn for yourself [MAX]"
+  },
+  {
+    "id": 993816,
+    "detail": "Increase Buff Removal Resist by 5% & Debuff Resist by 5% for yourself",
+    "detailShort": "Increase Buff Removal Resist by 5% & Debuff Resist by 5% for yourself"
+  },
+  {
+    "id": 993817,
+    "detail": "Increase Buff Removal Resist by 10% & Debuff Resist by 10% for yourself [MAX]",
+    "detailShort": "Increase Buff Removal Resist by 10% & Debuff Resist by 10% for yourself [MAX]"
+  },
+  {
+    "id": 993818,
+    "detail": "Apply Debuff Immune (3 times) & increase Arts Card effectiveness by 8% for yourself",
+    "detailShort": "Apply Debuff Immune (3 times) & increase Arts Card effectiveness by 8% for yourself"
+  },
+  {
+    "id": 993819,
+    "detail": "Apply Debuff Immune (3 times) & increase Arts Card effectiveness by 10% for yourself [MAX]",
+    "detailShort": "Apply Debuff Immune (3 times) & increase Arts Card effectiveness by 10% for yourself [MAX]"
+  },
+  {
+    "id": 993820,
+    "detail": "Increase NP Gauge by 4% each turn & apply Damage Cut 300 for yourself",
+    "detailShort": "Increase NP Gauge by 4% each turn & apply Damage Cut 300 for yourself"
+  },
+  {
+    "id": 993821,
+    "detail": "Increase NP Gauge by 5% each turn & apply Damage Cut 400 for yourself [MAX]",
+    "detailShort": "Increase NP Gauge by 5% each turn & apply Damage Cut 400 for yourself [MAX]"
+  },
+  {
+    "id": 993822,
+    "detail": "Apply a state that \"increases NP Strength by 30% while HP is 50% or less\" for all allies only if [servantName 505300] (Caster) is equipped with this Craft Essence when she is on the field",
+    "detailShort": "Apply a state that \"increases NP Strength by 30% while HP is 50% or less\" for all allies only if [servantName 505300] (Caster) is equipped with this Craft Essence when she is on the field"
+  },
+  {
     "id": 994140,
     "detail": "Increase Bond gained for [Fate/stay night Servants] when completing quests by 10%",
     "detailShort": "Increase Bond gained for [Fate/stay night Servants] when completing quests by 10%"
@@ -27538,6 +27593,21 @@
     "id": 2237650,
     "detail": "Apply Target Focus (1 turn) & increase Critical Strength [{0}] (3 turns [g][o]▲[/o][/g]) & apply Special Attack [Divine] [{0}] (3 turns) [g][o]▲[/o][/g] & increase NP Gauge [{0}] [g][o]▲[/o][/g] for yourself",
     "detailShort": "Apply Target Focus (1 turn) & increase Critical Strength [{0}] (3 turns [g][o]▲[/o][/g]) & apply Special Attack [Divine] [{0}] (3 turns) [g][o]▲[/o][/g] & increase NP Gauge [{0}] [g][o]▲[/o][/g] for yourself"
+  },
+  {
+    "id": 2238550,
+    "detail": "Increase NP Gauge each turn [{0}] (3 turns) for all allies + Gain C. Stars each turn [{0}] (3 turns) & increase NP Gauge [{0}] & increase NP Strength [{0}] (3 turns) for yourself",
+    "detailShort": "Increase NP Gauge each turn [{0}] (3 turns) for all allies + Gain C. Stars each turn [{0}] (3 turns) & increase NP Gauge [{0}] & increase NP Strength [{0}] (3 turns) for yourself"
+  },
+  {
+    "id": 2239550,
+    "detail": "Increase ATK [{0}] (3 turns) & slightly increase ATK (3 turns) while HP is 99% or less & slightly increase ATK (3 turns) while HP is 75% or less & slightly increase ATK (3 turns) while HP is 50% or less & slightly increase ATK (3 turns) while HP is 25% or less for all allies + Apply a state that \"gains C. Stars at the end of turn when all allies' HP are at 100%\" (3 turns) for yourself",
+    "detailShort": "Increase ATK [{0}] (3 turns) & slightly increase ATK (3 turns) while HP is 99% or less & slightly increase ATK (3 turns) while HP is 75% or less & slightly increase ATK (3 turns) while HP is 50% or less & slightly increase ATK (3 turns) while HP is 25% or less for all allies + Apply a state that \"gains C. Stars at the end of turn when all allies' HP are at 100%\" (3 turns) for yourself"
+  },
+  {
+    "id": 2240550,
+    "detail": "[Cannot use at the start of battle. Requires 5 turns to Charge] Increase NP Gauge [{0}] & increase NP Strength [{0}] (3 turns) & apply Guts [{0}] (1 time, 3 turns) for all allies",
+    "detailShort": "[Cannot use at the start of battle. Requires 5 turns to Charge] Increase NP Gauge [{0}] & increase NP Strength [{0}] (3 turns) & apply Guts [{0}] (1 time, 3 turns) for all allies"
   },
   {
     "id": 3001000,
@@ -29196,6 +29266,11 @@
   },
   {
     "id": 90084005,
+    "detail": "Gain +10 Friend Points when used as Support (Stackable)",
+    "detailShort": "Gain +10 Friend Points when used as Support (Stackable)"
+  },
+  {
+    "id": 90084006,
     "detail": "Gain +10 Friend Points when used as Support (Stackable)",
     "detailShort": "Gain +10 Friend Points when used as Support (Stackable)"
   },
