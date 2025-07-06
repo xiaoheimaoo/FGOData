@@ -145748,6 +145748,319 @@
   },
   {
     "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94145819,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "奔雷",
+    "detail": "通常攻撃時、〔回避〕状態ではない対象のHPを減少",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94145820,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "奔雷",
+    "detail": "通常攻撃時、〔無敵〕状態の対象にスタン状態を付与",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      3014
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3014
+    ],
+    "script": {},
+    "id": 94145821,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "奔雷",
+    "detail": "〔スタン〕状態の敵に与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94145822,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "雷火",
+    "detail": "通常攻撃時、〔回避〕状態ではない対象にやけど状態を付与",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94145823,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "雷火",
+    "detail": "通常攻撃時、〔無敵〕状態の対象に延焼状態を付与",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3023
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94145824,
+    "buffGroup": 0,
+    "type": 38,
+    "name": "タゲ集中アップ",
+    "detail": "敵からの狙われやすさがアップ(弱体扱い)",
+    "iconId": 323,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94145825,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "力強きもの",
+    "detail": "自身がフィールドにいる間、味方全体の攻撃力をアップ",
+    "iconId": 520,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94145826,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "",
+    "detail": "",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      3110
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94145827,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "打ち砕くもの",
+    "detail": "自身がフィールドにいる間、敵全体の防御力をダウン",
+    "iconId": 520,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      3110
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94145828,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "",
+    "detail": "",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94145829,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "邪竜誅戮",
+    "detail": "攻撃時、対象にスタン状態を付与＆HPを減少",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      2002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2002
+    ],
+    "script": {},
+    "id": 94145830,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "邪竜誅戮",
+    "detail": "〔竜〕特性に与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      2019
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2019
+    ],
+    "script": {},
+    "id": 94145831,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "邪竜誅戮",
+    "detail": "〔魔性〕に与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94145834,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "邪竜燼滅",
+    "detail": "毎ターンチャージを1増やす",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      2002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2002
+    ],
+    "script": {},
+    "id": 94145835,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "邪竜燼滅",
+    "detail": "〔竜〕特性に与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      2019
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2019
+    ],
+    "script": {},
+    "id": 94145836,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "邪竜燼滅",
+    "detail": "〔魔性〕に与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3060
     ],
@@ -145761,6 +146074,80 @@
     "name": "迫りくる雨",
     "detail": "〔トラロックの姿ではない敵〕を攻撃した場合、プレイヤーターン開始時に〔トラロックの姿ではない敵〕のHPを回復",
     "iconId": 318,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94145838,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時、対象にやけど状態を付与",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6038
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94145855,
+    "buffGroup": 0,
+    "type": 10001,
+    "name": "避雷都市",
+    "detail": "心臓都市が雷を受け止めている間、〔邪竜誅戮〕によるスタン効果を無効化する",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6027
+    ],
+    "tvals": [
+      6039
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      6039
+    ],
+    "script": {},
+    "id": 94145856,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94145857,
+    "buffGroup": 0,
+    "type": 188,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
     "maxRate": 0,
     "effectId": 0
   },
