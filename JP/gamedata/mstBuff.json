@@ -88412,6 +88412,330 @@
       3004
     ],
     "tvals": [],
+    "ckSelfIndv": [
+      4107
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30115,
+    "buffGroup": 0,
+    "type": 200,
+    "name": "マイティチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むマイティチェイン成立時、自身の攻撃力をアップ<自身のHP割合が少ないほど効果アップ>",
+    "iconId": 424,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 30116,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "攻撃力アップ",
+    "detail": "攻撃力をアップ<自身のHP割合が少ないほど効果アップ>",
+    "iconId": 300,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      -4104,
+      -4105,
+      -4106,
+      -4107,
+      -4108
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 30117,
+    "buffGroup": 0,
+    "type": 200,
+    "name": "去なしの石突（槍）",
+    "detail": "宝具チェインを除くチェイン不成立時、自身に回避状態(強化解除不能・グランドサイン効果以外の他の回避状態と重複可能)を付与<1度使用すると再使用に4ターン必要>",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 0
+    },
+    "id": 30118,
+    "buffGroup": 30118,
+    "type": 24,
+    "name": "回避",
+    "detail": "攻撃によるダメージを0にする(グランドサイン効果以外の他の回避状態と重複可能)",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3021
+    },
+    "id": 30119,
+    "buffGroup": 0,
+    "type": 228,
+    "name": "不退の構え（槍）",
+    "detail": "回避状態の間、敵からの攻撃で受ける5000以上のダメージを5000に抑える",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30120,
+    "buffGroup": 0,
+    "type": 204,
+    "name": "一刺にて城を穿つ（槍）",
+    "detail": "自身の宝具使用時の効果発動前に、自身に「攻撃時のダメージ前に、ターゲットしている敵に解除可能な防御強化状態が付与されている場合、攻撃対象の防御強化状態を解除＆解除可能な防御強化状態が付与されていない場合、自身の攻撃の威力をアップする状態」を付与",
+    "iconId": 396,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30121,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "攻撃ダメージ前追加効果",
+    "detail": "攻撃時のダメージ前に、ターゲットしている敵に解除可能な防御強化状態が付与されている場合、攻撃対象の防御強化状態を解除＆解除可能な防御強化状態が付与されていない場合、自身の攻撃の威力をアップ",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 30122,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ",
+    "detail": "与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30123,
+    "buffGroup": 0,
+    "type": 181,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2992
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30124,
+    "buffGroup": 30124,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      4104
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30125,
+    "buffGroup": 0,
+    "type": 200,
+    "name": "クイックチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むクイックチェイン成立時、自身のスター発生率をアップ<自身のHP割合が少ないほど効果アップ>＆スター集中度をアップ",
+    "iconId": 420,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      4105
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30126,
+    "buffGroup": 0,
+    "type": 200,
+    "name": "アーツチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むアーツチェイン成立時、自身のNP獲得量をアップ<自身のHP割合が少ないほど効果アップ>",
+    "iconId": 421,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      4106
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30127,
+    "buffGroup": 0,
+    "type": 200,
+    "name": "バスターチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むバスターチェイン成立時、自身のクリティカル威力をアップ<自身のHP割合が少ないほど効果アップ>",
+    "iconId": 422,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3083
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30128,
+    "buffGroup": 0,
+    "type": 3,
+    "name": "スター発生アップ",
+    "detail": "スター発生率をアップ<自身のHP割合が少ないほど効果アップ>",
+    "iconId": 321,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3084
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30129,
+    "buffGroup": 0,
+    "type": 17,
+    "name": "NP獲得アップ",
+    "detail": "NP獲得量をアップ<自身のHP割合が少ないほど効果アップ>",
+    "iconId": 303,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30130,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "クリティカル威力アップ",
+    "detail": "クリティカル時のダメージをアップ<自身のHP割合が少ないほど効果アップ>",
+    "iconId": 324,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      2993
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30131,
+    "buffGroup": 30131,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
     "script": {},
@@ -147082,6 +147406,202 @@
     "detail": "",
     "iconId": 331,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94146800,
+    "buffGroup": 94146800,
+    "type": 136,
+    "name": "特殊威力アップ",
+    "detail": "敵に与えるダメージをアップ",
+    "iconId": 359,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3079,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94146801,
+    "buffGroup": 94146801,
+    "type": 10001,
+    "name": "フィールド変化〔雷轟〕",
+    "detail": "エネミーターン開始時、〔天降る雷槍〕が発動する",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3079,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94146802,
+    "buffGroup": 94146802,
+    "type": 10001,
+    "name": "フィールド変化〔雷雲〕",
+    "detail": "エネミーターン開始時、〔天降る雷槍〕が追加で発動する",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      3014
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3014
+    ],
+    "script": {
+      "DisplayPriority": 900
+    },
+    "id": 94146804,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "ヴァジュラパーニ A",
+    "detail": "スタン効果を受けなくなる",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 800,
+      "INDIVIDUALITIE": 6039
+    },
+    "id": 94146805,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "金剛の護り EX",
+    "detail": "〔ヴァジュラ・マーヤー〕がフィールドにいる間、全ての攻撃に対する耐性をアップ<フィールドにいる〔ヴァジュラ・マーヤー〕の数に応じて効果アップ>",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ckSelfCountIndividuality": "6039",
+      "DisplayPriority": 800,
+      "ckIndvCountAbove": 2
+    },
+    "id": 94146806,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94146808,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6035
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94146809,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "神酒",
+    "detail": "ターン終了時、自身のチャージを増やす＆弱体状態を1つ解除",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 700,
+      "INDIVIDUALITIE": 6040
+    },
+    "id": 94146818,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "神器接続 A",
+    "detail": "〔ヴァジュラ・マーヤー〕がフィールドにいる間、または自身が〔アイラーヴァタ〕から降りた時、宝具で与えるダメージをアップ",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 700,
+      "INDIVIDUALITIE": -6040
+    },
+    "id": 94146819,
+    "buffGroup": 0,
+    "type": 16,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 5000,
     "effectId": 0
   }
 ]
