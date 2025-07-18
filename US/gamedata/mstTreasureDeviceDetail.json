@@ -161,8 +161,8 @@
   },
   {
     "id": 102001,
-    "detail": "Increase your Arts Card effectiveness (1 turn) & deal significant damage to a single enemy [{0}] & increase damage taken (5 turns) <effect increases with Overcharge> for a single enemy",
-    "detailShort": "Increase your Arts Card effectiveness (1 turn) & deal significant damage to a single enemy [{0}] & increase damage taken (5 turns) <effect increases with Overcharge> for a single enemy"
+    "detail": "Increase Arts Card effectiveness (1 turn) for yourself + Deal significant damage to a single enemy [{0}] & increase damage taken (5 turns) <effect increases with Overcharge> for a single enemy",
+    "detailShort": "Increase Arts Card effectiveness (1 turn) for yourself + Deal significant damage to a single enemy [{0}] & increase damage taken (5 turns) <effect increases with Overcharge> for a single enemy"
   },
   {
     "id": 102002,
@@ -416,13 +416,13 @@
   },
   {
     "id": 200801,
-    "detail": "Apply Sure Hit for yourself (1 turn) + deal significant damage to a single enemy [{0}] & decrease Debuff Resist (3 turns) <effect increases with Overcharge> for a single enemy",
-    "detailShort": "Apply Sure Hit for yourself (1 turn) + deal significant damage to a single enemy [{0}] & decrease Debuff Resist (3 turns) <effect increases with Overcharge> for a single enemy"
+    "detail": "Apply Sure Hit for yourself (1 turn) + Deal significant damage to a single enemy [{0}] & decrease Debuff Resist (3 turns) <effect increases with Overcharge> for a single enemy",
+    "detailShort": "Apply Sure Hit for yourself (1 turn) + Deal significant damage to a single enemy [{0}] & decrease Debuff Resist (3 turns) <effect increases with Overcharge> for a single enemy"
   },
   {
     "id": 200802,
     "detail": "Apply Sure Hit for yourself (1 turn) + Deal significant DEF-ignoring damage to a single enemy [{0}] [g][o]▲[/o][/g] & decrease Debuff Resist (3 turns) <effect increases with Overcharge> for a single enemy",
-    "detailShort": "Apply Sure Hit for yourself (1 turn) + Deal significant DEF-ignoring damage [{0}][g][o]▲[/o][/g] & decrease Debuff Resist (3 turns) <effect increases with Overcharge> for a single enemy"
+    "detailShort": "Apply Sure Hit for yourself (1 turn) + Deal significant DEF-ignoring damage to a single enemy [{0}] [g][o]▲[/o][/g] & decrease Debuff Resist (3 turns) <effect increases with Overcharge> for a single enemy"
   },
   {
     "id": 200901,
@@ -1378,6 +1378,11 @@
     "id": 404901,
     "detail": "Increase Quick Card effectiveness (3 turns) <effect increases with Overcharge> & Arts Card effectiveness (3 turns) <effect increases with Overcharge> & Buster Card effectiveness (3 turns) <effect increases with Overcharge> for yourself + Deal significant damage to a single enemy [{0}]",
     "detailShort": "Increase Quick Card effectiveness (3 turns) <effect increases with Overcharge> & Arts Card effectiveness (3 turns) <effect increases with Overcharge> & Buster Card effectiveness (3 turns) <effect increases with Overcharge> for yourself + Deal significant damage to a single enemy [{0}]"
+  },
+  {
+    "id": 405001,
+    "detail": "Apply Ignore Invincible (1 turn) & [Lawful] Special Attack (1 turn) for yourself + Deal heavy Special Attack damage to all enemies with [Earth Attribute] [{0}] <Special Attack damage increases with Overcharge>",
+    "detailShort": "Apply Ignore Invincible (1 turn) & [Lawful] Special Attack (1 turn) for yourself + Deal heavy Special Attack damage to all enemies with [Earth Attribute] [{0}] <Special Attack damage increases with Overcharge>"
   },
   {
     "id": 500101,
@@ -2450,6 +2455,11 @@
     "detailShort": "Chance to decrease Quick Card Resistance (3 turns) <chance increases with Overcharge> & chance to decrease Arts Card Resistance (3 turns) <chance increases with Overcharge> & chance to decrease Buster Card Resistance (3 turns) <chance increases with Overcharge> & deal heavy damage [{0}] to all enemies"
   },
   {
+    "id": 704701,
+    "detail": "Apply an anti-Enforcement DEF state <disregard [Ignore Invincible] and reduce ATK damage received to 0> (1 time, 1 turn) for all allies + Apply Special Attack [Chaotic] (1 turn) <effect increases with Overcharge> & Special Attack [Divine] (1 turn) <effect increases with Overcharge> for yourself + Deal significant Special Attack [Threat to Humanity] damage [{0}] & decrease Critical Rate (3 turns) for a single enemy",
+    "detailShort": "Apply an anti-Enforcement DEF state <disregard [Ignore Invincible] and reduce ATK damage received to 0> (1 time, 1 turn) for all allies + Apply Special Attack [Chaotic] (1 turn) <effect increases with Overcharge> & Special Attack [Divine] (1 turn) <effect increases with Overcharge> for yourself + Deal significant Special Attack [Threat to Humanity] damage [{0}] & decrease Critical Rate (3 turns) for a single enemy"
+  },
+  {
     "id": 800100,
     "detail": "Unknown",
     "detailShort": "Unknown"
@@ -2780,6 +2790,11 @@
     "detailShort": "Increase NP Strength (1 turn) <effect increases with Overcharge> for yourself + Deal heavy Special Attack damage to all enemies with [Human Attribute] [{0}] & chance to inflict Death + High chance to inflict Death to all [Evil] enemies"
   },
   {
+    "id": 1101601,
+    "detail": "Increase Quick Card effectiveness (3 turns) <effect increases with Overcharge> for yourself + Deal significant damage [{0}] <damage increases based on the number of [Completed Draft] status applied to yourself (Max 10)> & decrease Charge for a single enemy",
+    "detailShort": "Increase Quick Card effectiveness (3 turns) <effect increases with Overcharge> for yourself + Deal significant damage [{0}] <damage increases based on the number of [Completed Draft] status applied to yourself (Max 10)> & decrease Charge for a single enemy"
+  },
+  {
     "id": 1700101,
     "detail": "Unknown",
     "detailShort": "Unknown"
@@ -2878,6 +2893,11 @@
     "id": 2501101,
     "detail": "Apply Special Attack [Threat to Humanity] (1 turn) for yourself + Deal heavy Special Attack damage to all enemies with [Earth attribute] [{0}] <Special Attack damage increases with Overcharge> & inflict Skill Seal (1 turn) to all enemies + Gain a large amount of C. Stars",
     "detailShort": "Apply Special Attack [Threat to Humanity] (1 turn) for yourself + Deal heavy Special Attack damage to all enemies with [Earth attribute] [{0}] <Special Attack damage increases with Overcharge> & inflict Skill Seal (1 turn) to all enemies + Gain a large amount of C. Stars"
+  },
+  {
+    "id": 2501201,
+    "detail": "Deal heavy damage [{0}] & decrease DEF (3 turns) for all enemies + Restore HP <effect increases with Overcharge> & remove Debuffs for yourself",
+    "detailShort": "Deal heavy damage [{0}] & decrease DEF (3 turns) for all enemies + Restore HP <effect increases with Overcharge> & remove Debuffs for yourself"
   },
   {
     "id": 2800101,
@@ -3593,5 +3613,20 @@
     "id": 9944841,
     "detail": "Increase Critical Strength (3 turns) for yourself + Remove Buffs & deal significant damage [{0}] & deal additional heavy damage with Overcharge <strength increases with Overcharge> to a single enemy",
     "detailShort": "Increase Critical Strength (3 turns) for yourself + Remove Buffs & deal significant damage [{0}] & deal additional heavy damage with Overcharge <strength increases with Overcharge> to a single enemy"
+  },
+  {
+    "id": 9945131,
+    "detail": "",
+    "detailShort": ""
+  },
+  {
+    "id": 9945141,
+    "detail": "",
+    "detailShort": ""
+  },
+  {
+    "id": 9945151,
+    "detail": "Deal heavy damage [{0}] & decrease DEF (3 turns) for all enemies + Restore HP <effect increases with Overcharge> & remove Debuffs for yourself",
+    "detailShort": "Deal heavy damage [{0}] & decrease DEF (3 turns) for all enemies + Restore HP <effect increases with Overcharge> & remove Debuffs for yourself"
   }
 ]
