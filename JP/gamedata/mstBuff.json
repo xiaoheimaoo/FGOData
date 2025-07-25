@@ -86432,6 +86432,130 @@
   },
   {
     "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [
+      4100
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5882,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "クリティカル攻撃時追加効果",
+    "detail": "クリティカル攻撃時、対象の防御力をダウン",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5883,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "宝具攻撃時追加効果",
+    "detail": "宝具攻撃時、敵全体のHPを減らす",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      3110
+    ],
+    "tvals": [
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 5884,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "防御力ダウン〔宝具〕",
+    "detail": "宝具攻撃に対する防御力をダウン",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      3110
+    ],
+    "tvals": [
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4100
+    ],
+    "script": {},
+    "id": 5885,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "防御力ダウン〔クリティカル〕",
+    "detail": "クリティカル攻撃に対する防御力をダウン",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5886,
+    "buffGroup": 0,
+    "type": 152,
+    "name": "被スター発生耐性ダウン",
+    "detail": "スターが発生する確率を増やす",
+    "iconId": 560,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5887,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "攻撃を受けると敵単体のNPを増やす＋敵軍のスターを10個増やす",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3006
     ],
@@ -86808,7 +86932,8 @@
       127,
       128,
       129,
-      130
+      130,
+      131
     ],
     "ckSelfIndv": [],
     "ckOpIndv": [
@@ -86834,7 +86959,8 @@
       127,
       128,
       129,
-      130
+      130,
+      131
     ],
     "script": {},
     "id": 30016,
@@ -146851,6 +146977,722 @@
     "detail": "攻撃力をアップ",
     "iconId": 300,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94146202,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "獲物を追い詰める一撃",
+    "detail": "敵を倒した時、味方全体のチャージを2増やす＆HPを回復する",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94146203,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "飢餓の大口",
+    "detail": "攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94146204,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "飢餓の大口",
+    "detail": "全ての攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      3039
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94146205,
+    "buffGroup": 0,
+    "type": 75,
+    "name": "飢餓の大口",
+    "detail": "即死耐性をダウン",
+    "iconId": 506,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94146206,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "威嚇の眼光",
+    "detail": "コマンドカード選択後の行動開始前に、敵全体にダメージを与える＆攻撃力・防御力をダウン＋自身の攻撃力・防御力をアップ＆チャージを増やす<効果発動タイミングで〔威嚇の眼光〕を付与した時と異なるパーティに変更されていた場合は発動しない>",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4003
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94146207,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "ハイヨーヨー",
+    "detail": "Quick以外の攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4100
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94146208,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "スプリットＳ",
+    "detail": "クリティカル以外の攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4007
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94146209,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "バレルロール",
+    "detail": "宝具以外の攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 193
+    },
+    "id": 94146210,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 192
+    },
+    "id": 94146211,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3041,
+      2986
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94146212,
+    "buffGroup": 0,
+    "type": 79,
+    "name": "虎嘯",
+    "detail": "最大HPを比率で増やす",
+    "iconId": 330,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94146213,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "相克の災い",
+    "detail": "コマンドカード選択後の行動開始前に、敵全体の宝具威力をダウン<付与されている〔攻撃強化〕状態(解除不能な状態は除く)が7個以上の場合、効果が無効になる>＆「被ダメージ時、高確率で即死する状態」<付与されている〔防御強化〕状態(解除不能な状態は除く)が3個以上の場合、効果が無効になる>を付与",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ExcludeUnSubStateIndiv": 1,
+      "INDIVIDUALITIE": 3007,
+      "INDIVIDUALITIE_COUNT_BELOW": 2
+    },
+    "id": 94146214,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "盾の災い",
+    "detail": "攻撃を受けた時、自身に高確率で即死を付与する＜〔防御強化〕状態(解除不能な状態は除く)が3個以上の場合、効果が無効になる＞",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3036
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ExcludeUnSubStateIndiv": 1,
+      "INDIVIDUALITIE": 3006,
+      "INDIVIDUALITIE_COUNT_BELOW": 6
+    },
+    "id": 94146215,
+    "buffGroup": 0,
+    "type": 16,
+    "name": "剣の災い",
+    "detail": "宝具で与えるダメージをダウン＜〔攻撃強化〕状態(解除不能な状態は除く)が7個以上の場合、効果が無効になる＞",
+    "iconId": 508,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3014,
+      3045
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94146216,
+    "buffGroup": 500,
+    "type": 32,
+    "name": "ぬかるみ",
+    "detail": "行動不能になる",
+    "iconId": 501,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94146217,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "ぬかるみ",
+    "detail": "攻撃を受けた時、敵単体に呪い状態を付与",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94146218,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "天運連動",
+    "detail": "プレイヤー側のサーヴァントがスキルを使用した時、自身の攻撃力・防御力・最大HPをアップ",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 3000
+    },
+    "id": 94146222,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "スタードロップ加工術式",
+    "detail": "ターン終了時、緑・青・赤のいずれかの電離反応が発生する<電離反応と同じ色のカードで攻撃するとスタードロップの加工が一時停止し、猶予ターンのカウントが進まなくなる>",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 4000
+    },
+    "id": 94146223,
+    "buffGroup": 94146223,
+    "type": 40,
+    "name": "スタードロップ加工一時停止",
+    "detail": "スタードロップが発射されるまでの猶予ターンのカウントを一時停止する",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003
+    ],
+    "script": {
+      "DisplayPriority": 4000
+    },
+    "id": 94146224,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "緑の電離反応",
+    "detail": "Quick攻撃耐性をダウン ＋ Quick攻撃を受けた時、自身に〔スタードロップ加工一時停止〕状態を付与",
+    "iconId": 539,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {
+      "DisplayPriority": 4000
+    },
+    "id": 94146225,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "赤の電離反応",
+    "detail": "Buster攻撃耐性をダウン ＋ Buster攻撃を受けた時、自身に〔スタードロップ加工一時停止〕状態を付与",
+    "iconId": 541,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001
+    ],
+    "script": {
+      "DisplayPriority": 4000
+    },
+    "id": 94146226,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "青の電離反応",
+    "detail": "Arts攻撃耐性をダウン ＋ Arts攻撃を受けた時、自身に〔スタードロップ加工一時停止〕状態を付与",
+    "iconId": 540,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3045,
+      3010
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3045,
+      3010
+    ],
+    "script": {},
+    "id": 94146227,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "地球人類への殺意",
+    "detail": "行動不能・精神異常を受けなくなる",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94146228,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "地球人類への殺意",
+    "detail": "敵を倒した時、自身の攻撃力をアップまたはクリティカル時のダメージをアップまたは宝具で与えるダメージをアップ",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94146229,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "毎ターン発動",
+    "detail": "ターン終了時、自身の攻撃力をアップ",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6029
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94146230,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "毎ターン発動",
+    "detail": "ターン終了時、自身の防御力をアップ",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -6033,
+      "DisplayPriority": 2000
+    },
+    "id": 94146236,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "希望を破壊し尽くす死の星",
+    "detail": "エネミーターン開始時、自身の弱体状態を解除＆チャージを3増やす＆「宝具攻撃時、敵全体のHPを減らす状態」を付与",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94146237,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "宝具攻撃時追加効果",
+    "detail": "宝具攻撃時、敵全体のHPを減らす",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94146238,
+    "buffGroup": 0,
+    "type": 10001,
+    "name": "星屑の欠片",
+    "detail": "プレイヤーのターン開始時とスキル使用時にスターの数が50個以上ある場合、エネミーの全ての攻撃に対する耐性をダウン＋プレイヤーのフィールドにいるパーティが全滅した場合、次のプレイヤーターンでスキルを使用するとスターを獲得する",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94146240,
+    "buffGroup": 0,
+    "type": 10001,
+    "name": "煌星の軌跡",
+    "detail": "プレイヤーのターン開始時とスキル使用時、スターの数が50個以上ある場合、〔希望を破壊し尽くす死の星〕を無効化する＆スターの数が99個以上ある場合、エネミーに「宝具攻撃を受けた時、自身の全ての攻撃に対する耐性をダウンする状態」を付与＋プレイヤーのフィールドにいるパーティが全滅した場合、次のプレイヤーターンでスキルを使用するとスターを獲得する",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6033
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 2000
+    },
+    "id": 94146243,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "希望を破壊し尽くす死の星無効",
+    "detail": "〔希望を破壊し尽くす死〕の発動を無効",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {
+      "DisplayPriority": 2000
+    },
+    "id": 94146244,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "宝具被ダメージ時発動",
+    "detail": "宝具攻撃を受けた時、自身の特殊耐性をダウン",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 194
+    },
+    "id": 94146245,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "逆風の型",
+    "detail": "クラス相性の優位・劣位が逆転する",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3017
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "extendLowerLimit": 4000
+    },
+    "id": 94146246,
+    "buffGroup": 0,
+    "type": 92,
+    "name": "特殊耐性ダウン",
+    "detail": "全ての攻撃に対する耐性をダウン",
+    "iconId": 529,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3079,
+      2039,
+      6035
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94146247,
+    "buffGroup": 0,
+    "type": 10001,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94146248,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "ターン終了時、自身の攻撃力・防御力をアップ",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 2000,
+      "relationId": 196
+    },
+    "id": 94146249,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
     "effectId": 0
   },
   {

@@ -151371,7 +151371,7 @@
       "104",
       "1040106,2",
       "900",
-      "3000"
+      "2000"
     ],
     "boardMessage": {
       "text": {
@@ -161170,7 +161170,7 @@
       "110",
       "1040109",
       "900",
-      "3000"
+      "2000"
     ],
     "boardMessage": {},
     "questId": 94094401,
@@ -188323,7 +188323,7 @@
       "104",
       "1040182,2",
       "900",
-      "3000"
+      "2000"
     ],
     "boardMessage": {},
     "questId": 94141901,
@@ -191708,6 +191708,183 @@
     "actConsume": 0,
     "flag": 2,
     "recommendLv": "1"
+  },
+  {
+    "beforeActionVals": [],
+    "afterActionVals": [],
+    "boardMessage": {
+      "text": {
+        "textString": "コンティニュー不可",
+        "offset": [
+          3,
+          -2
+        ],
+        "fontSize": 14,
+        "gradation": [
+          "#FFEC00",
+          "#FFEC00"
+        ]
+      },
+      "priority": 2,
+      "list": [
+        {
+          "image": {
+            "bannerSp": "img_quest_formlimit_01",
+            "offset": [
+              3,
+              -2
+            ]
+          },
+          "text": {
+            "textString": "編成条件あり",
+            "offset": [
+              3,
+              -2
+            ],
+            "fontSize": 14,
+            "gradation": [
+              "#FFEC00",
+              "#FFEC00"
+            ]
+          },
+          "priority": 1
+        },
+        {
+          "image": {
+            "bannerSp": "img_quest_formlimit_01",
+            "offset": [
+              3,
+              -2
+            ]
+          },
+          "text": {
+            "textString": "コンティニュー不可",
+            "offset": [
+              3,
+              -2
+            ],
+            "fontSize": 14,
+            "gradation": [
+              "#FFEC00",
+              "#FFEC00"
+            ]
+          },
+          "priority": 0
+        }
+      ],
+      "image": {
+        "bannerSp": "img_quest_formlimit_01",
+        "offset": [
+          3,
+          -2
+        ]
+      }
+    },
+    "questId": 94146201,
+    "phase": 1,
+    "spotId": 1040110,
+    "consumeType": 1,
+    "actConsume": 5,
+    "flag": 162129586607390768,
+    "recommendLv": ""
+  },
+  {
+    "beforeActionVals": [],
+    "afterActionVals": [
+      "104",
+      "1040110,4",
+      "110",
+      "1040110",
+      "900",
+      "2000"
+    ],
+    "boardMessage": {},
+    "questId": 94146201,
+    "phase": 2,
+    "spotId": 1040110,
+    "consumeType": 1,
+    "actConsume": 0,
+    "flag": 34,
+    "recommendLv": ""
+  },
+  {
+    "beforeActionVals": [],
+    "afterActionVals": [],
+    "boardMessage": {
+      "text": {
+        "textString": "コンティニュー不可",
+        "offset": [
+          3,
+          -2
+        ],
+        "fontSize": 14,
+        "gradation": [
+          "#FFEC00",
+          "#FFEC00"
+        ]
+      },
+      "priority": 2,
+      "list": [
+        {
+          "image": {
+            "bannerSp": "img_quest_formlimit_01",
+            "offset": [
+              3,
+              -2
+            ]
+          },
+          "text": {
+            "textString": "編成条件あり",
+            "offset": [
+              3,
+              -2
+            ],
+            "fontSize": 14,
+            "gradation": [
+              "#FFEC00",
+              "#FFEC00"
+            ]
+          },
+          "priority": 1
+        },
+        {
+          "image": {
+            "bannerSp": "img_quest_formlimit_01",
+            "offset": [
+              3,
+              -2
+            ]
+          },
+          "text": {
+            "textString": "コンティニュー不可",
+            "offset": [
+              3,
+              -2
+            ],
+            "fontSize": 14,
+            "gradation": [
+              "#FFEC00",
+              "#FFEC00"
+            ]
+          },
+          "priority": 0
+        }
+      ],
+      "image": {
+        "bannerSp": "img_quest_formlimit_01",
+        "offset": [
+          3,
+          -2
+        ]
+      }
+    },
+    "questId": 94146202,
+    "phase": 1,
+    "spotId": 1040110,
+    "consumeType": 1,
+    "actConsume": 5,
+    "flag": 163255761387946000,
+    "recommendLv": ""
   },
   {
     "beforeActionVals": [],
