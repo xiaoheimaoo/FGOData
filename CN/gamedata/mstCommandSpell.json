@@ -28,7 +28,11 @@
     "motion": 202,
     "name": "灵基复原",
     "priority": 100,
-    "script": "",
+    "script": {
+      "IgnoreBattlePointUp": [
+        3300200
+      ]
+    },
     "vals": [
       "[1,0]"
     ],
