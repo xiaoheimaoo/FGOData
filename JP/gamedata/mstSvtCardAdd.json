@@ -15,6 +15,11 @@
     "script": "{\"damageRate\":500,\"attackNpRate\":500,\"defenseNpRate\":1000,\"dropStarRate\":500}"
   },
   {
+    "svtId": 4000100,
+    "cardId": 104,
+    "script": "{\"damageRate\":500,\"attackNpRate\":500,\"defenseNpRate\":1000,\"dropStarRate\":500,\"overwriteRates\":\n[\n {\"condType\":\"TargetNumEqual\",\"condValue\":1,\"damageRate\":1000,\"attackNpRate\":1000,\"defenseNpRate\":1000,\"dropStarRate\":1000},\n {\"condType\":\"TargetNumBelow\",\"condValue\":2,\"damageRate\":500,\"attackNpRate\":500,\"defenseNpRate\":1000,\"dropStarRate\":500},\n {\"condType\":\"TargetNumAbove\",\"condValue\":3,\"damageRate\":500,\"attackNpRate\":500,\"defenseNpRate\":1000,\"dropStarRate\":500}\n]}"
+  },
+  {
     "svtId": 9944060,
     "cardId": 3,
     "script": "{\"damageRate\":500,\"attackNpRate\":500,\"defenseNpRate\":1000,\"dropStarRate\":500}"
