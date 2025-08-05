@@ -4402,7 +4402,7 @@
     "buffGroup": 342,
     "type": 76,
     "name": "魔力放出準備",
-    "detail": "1ターン経過後に攻撃力がアップする",
+    "detail": "1ターン経過後に自身の攻撃力をアップする",
     "iconId": 331,
     "maxRate": 0,
     "effectId": 0
@@ -86732,6 +86732,23 @@
     "detail": "NP獲得量をアップ",
     "iconId": 303,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5897,
+    "buffGroup": 5897,
+    "type": 76,
+    "name": "絶対豪運宝石圏準備",
+    "detail": "1ターン経過後に自身の攻撃力をアップ + 自身を除く味方全体にカード選出不能状態を付与する",
+    "iconId": 331,
+    "maxRate": 0,
     "effectId": 0
   },
   {
