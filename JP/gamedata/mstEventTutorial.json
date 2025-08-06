@@ -4,6 +4,154 @@
       "[]"
     ],
     "condIds": [
+      94148900
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "『冠位戴冠戦：Extra』のボードが\n『ExtraⅠ』と『ExtraⅡ』に分割されました。\n\n『冠位戴冠戦：Extra』の研鑽戦・認定戦は\n『ExtraⅠ』と『ExtraⅡ』の２系統あります。\n\n選定したグランドサーヴァントが属するグループの\n研鑽戦・認定戦に挑みましょう。",
+        "dlgFontSize": 26,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": -174,
+    "flagType": 65,
+    "num": 1,
+    "priority": 0,
+    "openType": 99,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[10009]"
+    ],
+    "condIds": [
+      20148909
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "addClassIds": [
+          10033
+        ],
+        "releaseClassBoardBaseIds": [
+          10009
+        ],
+        "isClassBoardRelease": true
+      }
+    ],
+    "script": {},
+    "eventId": -173,
+    "flagType": 65,
+    "num": 1,
+    "priority": 0,
+    "openType": 105,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      20148903
+    ],
+    "imageIds": [
+      109
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": -172,
+    "flagType": 65,
+    "num": 1,
+    "priority": 0,
+    "openType": 101,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[10008]",
+      "[10009]"
+    ],
+    "condIds": [
+      20148901
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "isClassBoardRelease": true,
+        "releaseClassBoardBaseIds": [
+          10008,
+          10009
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": -171,
+    "flagType": 1,
+    "num": 1,
+    "priority": 0,
+    "openType": 100,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      20148902
+    ],
+    "imageIds": [],
+    "textJson": [],
+    "script": {
+      "exchangeDestinationItemId": "204",
+      "exchangeOriginItemIds": [
+        "200",
+        "201",
+        "202",
+        "203"
+      ]
+    },
+    "eventId": -170,
+    "flagType": 96,
+    "num": 1,
+    "priority": 0,
+    "openType": 0,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
       94141901
     ],
     "imageIds": [],
@@ -231,27 +379,6 @@
     "priority": 1,
     "openType": 2,
     "condType": 113,
-    "condValue": 0,
-    "condValue2": 0,
-    "condValue3": 0,
-    "flag": 0
-  },
-  {
-    "targetIds": [
-      "[]"
-    ],
-    "condIds": [],
-    "imageIds": [
-      102
-    ],
-    "textJson": [],
-    "script": {},
-    "eventId": -161,
-    "flagType": 1,
-    "num": 1,
-    "priority": 0,
-    "openType": 101,
-    "condType": 0,
     "condValue": 0,
     "condValue2": 0,
     "condValue3": 0,
@@ -31811,6 +31938,25 @@
     "priority": 0,
     "openType": 45,
     "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [],
+    "textJson": [],
+    "script": {},
+    "eventId": 80571,
+    "flagType": 65,
+    "num": 1,
+    "priority": 0,
+    "openType": 0,
+    "condType": 0,
     "condValue": 0,
     "condValue2": 0,
     "condValue3": 0,
