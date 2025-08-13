@@ -30177,6 +30177,7 @@
     "ckSelfIndv": [],
     "ckOpIndv": [],
     "script": {
+      "defPriority": 2000,
       "relationId": 115
     },
     "id": 2585,
@@ -56419,6 +56420,7 @@
     "ckSelfIndv": [],
     "ckOpIndv": [],
     "script": {
+      "defPriority": 2000,
       "relationId": 135
     },
     "id": 4061,
@@ -80507,6 +80509,28 @@
     ],
     "tvals": [
       5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5575,
+    "buffGroup": 0,
+    "type": 177,
+    "name": "コマンドコード攻撃時追加効果",
+    "detail": "コマンドコードが刻印されたカードで攻撃時、追加効果を発動する",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
       4003
     ],
     "ckSelfIndv": [
@@ -86433,6 +86457,36 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5880,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "サマー・エクスペリエンサー",
+    "detail": "『カルデア・Ｕ－サマーアイランド』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5881,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ",
+    "detail": "『カルデア・Ｕ－サマーアイランド』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004
     ],
@@ -86554,6 +86608,25 @@
     "detail": "攻撃を受けると敵単体のNPを増やす＋敵軍のスターを10個増やす",
     "iconId": 525,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3120
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5888,
+    "buffGroup": 1700,
+    "type": 234,
+    "name": "ダメージ吸収",
+    "detail": "受けたダメージを吸収する",
+    "iconId": 428,
+    "maxRate": 5000,
     "effectId": 0
   },
   {
@@ -86814,6 +86887,162 @@
     "detail": "〔獣の力〕に与えるダメージをアップ",
     "iconId": 302,
     "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5903,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "攻撃を受けると自身の攻撃力をアップ",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5904,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、対象に高確率でスタン状態を付与",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5905,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "白馬の王子",
+    "detail": "クリティカル時のダメージをアップ",
+    "iconId": 430,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 5906,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "勇気の王女",
+    "detail": "宝具で与えるダメージをアップ",
+    "iconId": 429,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "defPriority": 2000,
+      "relationId": 197
+    },
+    "id": 5907,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔七騎士〕に対するクラス相性が防御優位になる",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5908,
+    "buffGroup": 0,
+    "type": 208,
+    "name": "被効果時発動",
+    "detail": "HP回復効果または最大HPアップ効果を受けた時、自身のQuickカード性能をアップ<毎ターンHP回復効果、概念礼装・コマンドコードによる効果を除く>",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3094,
+      2998
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5909,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Quickアップ〔夏の承認欲求〕",
+    "detail": "Quickカードの性能をアップ",
+    "iconId": 312,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3023
+    },
+    "id": 5919,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "〔ターゲット集中〕状態の時に攻撃を受けるとスターを獲得",
+    "iconId": 331,
+    "maxRate": 0,
     "effectId": 0
   },
   {
@@ -149424,6 +149653,57 @@
     "name": "星を奪う者",
     "detail": "副属性を〔星の力〕へ変更する ＆ クリティカル発生率アップ",
     "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94147201,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、対象の攻撃力をダウン",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94147202,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時、対象に低確率でスタン状態を付与",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6021
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94147250,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
     "maxRate": 0,
     "effectId": 0
   },

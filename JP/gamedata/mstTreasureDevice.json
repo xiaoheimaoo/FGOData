@@ -11812,6 +11812,38 @@
       4007
     ],
     "script": {},
+    "id": 995,
+    "seqId": 9946540,
+    "name": "キレーアサルト",
+    "ruby": "-",
+    "rank": "なし",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
+      4007
+    ],
+    "script": {},
+    "id": 996,
+    "seqId": 9946550,
+    "name": "サメザメビーム",
+    "ruby": "-",
+    "rank": "なし",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
+      4007
+    ],
+    "script": {},
     "id": 1005,
     "seqId": 9946260,
     "name": "汝、宙を裂く雷霆",
@@ -13181,7 +13213,8 @@
       "limitSeqId_11": 104430,
       "limitSeqId_4": 104402,
       "limitSeqId_1": 104401,
-      "limitSeqId_2": 104401
+      "limitSeqId_2": 104401,
+      "limitSeqId_12": 104440
     },
     "id": 104401,
     "seqId": 104400,
@@ -13750,6 +13783,29 @@
     "seqId": 106200,
     "name": "黒姫物語・髪流",
     "ruby": "くろひめものがたり・かみながし",
+    "rank": "B",
+    "maxLv": 5,
+    "typeText": "対人宝具",
+    "attackAttri": 1,
+    "effectFlag": 2
+  },
+  {
+    "individuality": [
+      3000,
+      4002,
+      4007,
+      4102
+    ],
+    "script": {
+      "limitSeqId_1": 106310,
+      "limitSeqId_3": 106320,
+      "limitSeqId_4": 106320,
+      "limitSeqId_2": 106310
+    },
+    "id": 106301,
+    "seqId": 106300,
+    "name": "愛が受難を招くとも",
+    "ruby": "パールヴァティー・グランシア",
     "rank": "B",
     "maxLv": 5,
     "typeText": "対人宝具",
@@ -19130,6 +19186,65 @@
   },
   {
     "individuality": [
+      3000,
+      4002,
+      4007,
+      4102
+    ],
+    "script": {
+      "randomSeqIds_1": [
+        405800,
+        405801
+      ],
+      "randomSeqIds": [
+        405800,
+        405801
+      ],
+      "randomSeqIds_3": [
+        405800,
+        405801
+      ],
+      "randomSeqIds_2": [
+        405800,
+        405801
+      ],
+      "randomWeights_3": [
+        80,
+        20
+      ],
+      "randomWeights_1": [
+        80,
+        20
+      ],
+      "randomWeights_2": [
+        80,
+        20
+      ],
+      "randomWeights": [
+        80,
+        20
+      ],
+      "randomWeights_4": [
+        80,
+        20
+      ],
+      "randomSeqIds_4": [
+        405800,
+        405801
+      ]
+    },
+    "id": 405801,
+    "seqId": 405800,
+    "name": "我が叫びに応じよ、海騎士たちよ",
+    "ruby": "リッター・デア・オツェアネ",
+    "rank": "C",
+    "maxLv": 5,
+    "typeText": "対人宝具",
+    "attackAttri": 1,
+    "effectFlag": 2
+  },
+  {
+    "individuality": [
       3002,
       4001,
       4007,
@@ -19823,7 +19938,13 @@
       4007,
       4101
     ],
-    "script": {},
+    "script": {
+      "limitSeqId_11": 502130,
+      "limitSeqId_1": 502100,
+      "limitSeqId_3": 502100,
+      "limitSeqId_4": 502100,
+      "limitSeqId_2": 502100
+    },
     "id": 502101,
     "seqId": 502100,
     "name": "灼き尽くす炎の檻",
@@ -19841,7 +19962,13 @@
       4007,
       4101
     ],
-    "script": {},
+    "script": {
+      "limitSeqId_11": 502130,
+      "limitSeqId_1": 502100,
+      "limitSeqId_3": 502100,
+      "limitSeqId_4": 502100,
+      "limitSeqId_2": 502100
+    },
     "id": 502102,
     "seqId": 502100,
     "name": "灼き尽くす炎の檻",
@@ -22431,11 +22558,12 @@
       4101
     ],
     "script": {
-      "limitSeqId_11": 604730,
-      "limitSeqId_1": 604710,
       "limitSeqId_3": 604720,
+      "limitSeqId_11": 604730,
       "limitSeqId_4": 604720,
-      "limitSeqId_2": 604710
+      "limitSeqId_1": 604710,
+      "limitSeqId_2": 604710,
+      "limitSeqId_12": 604740
     },
     "id": 604701,
     "seqId": 604700,
@@ -24203,6 +24331,24 @@
     "typeText": "対人宝具",
     "attackAttri": 1,
     "effectFlag": 2
+  },
+  {
+    "individuality": [
+      3000,
+      4003,
+      4007,
+      4101
+    ],
+    "script": {},
+    "id": 705201,
+    "seqId": 705200,
+    "name": "大降臨連環馬猛襲撃",
+    "ruby": "だいこうりんれんかんばもうしゅうげき",
+    "rank": "A",
+    "maxLv": 5,
+    "typeText": "対軍宝具",
+    "attackAttri": 1,
+    "effectFlag": 1
   },
   {
     "individuality": [
