@@ -78739,6 +78739,25 @@
   },
   {
     "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 5422,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Sunspot",
+    "detail": "Become Stunned when sustaining Noble Phantasm attacks",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3006,
       3027
@@ -79998,7 +80017,8 @@
       122,
       124,
       125,
-      126
+      126,
+      127
     ],
     "ckSelfIndv": [],
     "ckOpIndv": [
@@ -80020,7 +80040,8 @@
       122,
       124,
       125,
-      126
+      126,
+      127
     ],
     "script": {},
     "id": 30016,
@@ -94374,6 +94395,497 @@
     "detail": "Decrease NP damage",
     "iconId": 508,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94086601,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Special Resist Up [NP]",
+    "detail": "Gain resistance to NP Damage",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {},
+    "id": 94086602,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate when Damaged [Buster]",
+    "detail": "Increase Buster Card effectiveness for yourself when sustaining Buster attacks + Increase Buster Card effectiveness for one enemy [Demerit]",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      3007
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001
+    ],
+    "script": {},
+    "id": 94086603,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Special Resist Up [Arts]",
+    "detail": "Gain resistance to Arts Card attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      3007
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003
+    ],
+    "script": {},
+    "id": 94086604,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Special Resist Up [Quick]",
+    "detail": "Gain resistance to Quick Card attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94086605,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Special Resist Up",
+    "detail": "Gain resistance to all attacks <effect increases with more remaining soldiers>",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6036
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      6036
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94086606,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 334,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94086607,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect with Normal Attack",
+    "detail": "Reduce target's DEF during normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94086608,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "Activate when Guts Is Triggered",
+    "detail": "Increase Charge by 1 when Guts is activated & increase Critical Hit Rate for yourself",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3043
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94086609,
+    "buffGroup": 0,
+    "type": 81,
+    "name": "Youngster's Courage",
+    "detail": "Increase Max HP & Critical Hit Rate for Beowulf when Courageous Young Soldier is on the field",
+    "iconId": 330,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94086610,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "ATK Up",
+    "detail": "Increase ATK <effect increases with more remaining Soldiers>",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94086611,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "Critical Strength Up",
+    "detail": "Increase Critical Hit damage <effect increases with more remaining Soldiers>",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94086612,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "Critical Rate Up",
+    "detail": "Increase Critical Hit Rate <effect increases with more remaining Soldiers>",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE_OR": "-2826,-3010,-3011,-3015,-3020,-3025,-3026,-3045"
+    },
+    "id": 94087501,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "Crimson Oni",
+    "detail": "Increase Critical Hit Rate <nullified if Poisoned, Cursed, Burned, Skill Sealed, NP Sealed, affected by a Mental Debuff, Incapacitated, or Electrified>",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE_OR": "-2826,-3010,-3011,-3015,-3020,-3025,-3026,-3045"
+    },
+    "id": 94087502,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "Fire Dance",
+    "detail": "Increase Critical Hit Rate <nullified if Poisoned, Cursed, Burned, Skill Sealed, NP Sealed, affected by a Mental Debuff, Incapacitated, or Electrified>",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087503,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "Furious Attack",
+    "detail": "As HP gets lower, ATK increases",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087504,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Symphonic Rise",
+    "detail": "If you are the only one who survived at the end of turn, revive [Dual Sun]",
+    "iconId": 304,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 164
+    },
+    "id": 94087505,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "Conflagration's Anger",
+    "detail": "Increase Class Affinity between all classes except for Class Affinity changes caused by skills/Noble Phantasms and [Berserker] even more",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087506,
+    "buffGroup": 200,
+    "type": 24,
+    "name": "Mirage",
+    "detail": "Reduce ATK damage taken to 0",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087507,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Falling Stardust",
+    "detail": "Apply various effects based on the number of C. Stars at the start of the player's turn and when a skill is used",
+    "iconId": 320,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087508,
+    "buffGroup": 0,
+    "type": 167,
+    "name": "Solar Core",
+    "detail": "Convert damage from Burn into HP recovery",
+    "iconId": 374,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3015
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087509,
+    "buffGroup": 0,
+    "type": 8,
+    "name": "Burn",
+    "detail": "Lose HP at end of each turn (Treated as buff)",
+    "iconId": 513,
+    "maxRate": 0,
+    "effectId": 17122
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -3015
+    },
+    "id": 94087510,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "4000K",
+    "detail": "Gain resistance to all attacks <immune if Burned>",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087511,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "5772K",
+    "detail": "Increase Critical Hit Rate <effect increases with more Burns>",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4100
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94087512,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Special Resist Up",
+    "detail": "Gain resistance to damage other than from Critical attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      3015
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3015
+    ],
+    "script": {},
+    "id": 94087513,
+    "buffGroup": 0,
+    "type": 110,
+    "name": "2000K",
+    "detail": "Increase damage dealt against [Burned] enemies",
+    "iconId": 302,
+    "maxRate": 10000,
     "effectId": 0
   },
   {
