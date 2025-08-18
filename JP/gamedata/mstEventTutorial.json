@@ -5138,7 +5138,10 @@
       "[50028671]",
       "[50028911]",
       "[50028921]",
-      "[50028931]"
+      "[50028931]",
+      "[50030061]",
+      "[50030071]",
+      "[50030081]"
     ],
     "condIds": [],
     "imageIds": [
@@ -6389,6 +6392,49 @@
     "eventId": -6,
     "flagType": 32,
     "num": 39,
+    "priority": 0,
+    "openType": 34,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[50030061]",
+      "[50030071]",
+      "[50030081]"
+    ],
+    "condIds": [],
+    "imageIds": [],
+    "textJson": [
+      {
+        "isClassBoardRelease": false,
+        "dlgBgId": 0,
+        "title": "「OVER THE SAME SKY」特別概念礼装について",
+        "ptPos": [
+          0,
+          0
+        ],
+        "isQuestRelease": false,
+        "text": "本召喚は[FF00FF]「OVER THE SAME SKY」特別概念礼装[-]を\n召喚することができます。\n\n「OVER THE SAME SKY」特別概念礼装は、\n「OVER THE SAME SKY 英霊星行チケット\n〔AUGUST〕」を使用することで、\n[FFFF00]交換ショップにて1枚を選んで交換が可能[-]となりますので、\nご注意ください。\n\n[FFFF00]※本召喚は「確定召喚」の対象外となりますので、\nご注意ください。[-]\n",
+        "rects": [],
+        "spacingY": 0,
+        "dlgFontSize": 26,
+        "textPos": [
+          0,
+          13
+        ],
+        "isFortification": false,
+        "isSelectBonus": false,
+        "questId": 0
+      }
+    ],
+    "script": {},
+    "eventId": -6,
+    "flagType": 32,
+    "num": 40,
     "priority": 0,
     "openType": 34,
     "condType": 0,
@@ -32026,6 +32072,41 @@
     "priority": 0,
     "openType": 25,
     "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      94147216
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "玉兎の\n簡易霊衣「お忍びサングラス」開放権\nが追加されました。",
+        "dlgFontSize": 29,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80558,
+    "flagType": 69,
+    "num": 1,
+    "priority": 0,
+    "openType": 22,
+    "condType": 1,
     "condValue": 0,
     "condValue2": 0,
     "condValue3": 0,
