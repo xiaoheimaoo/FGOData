@@ -88198,7 +88198,23 @@
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
-    "script": {},
+    "script": {
+      "overwriteIconIds": [
+        {
+          "iconId": 387,
+          "priority": 1,
+          "conditions": [
+            {
+              "condType": "PLAYER_GENDER_TYPE",
+              "targetId": 2,
+              "condValues": [
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
     "id": 30042,
     "buffGroup": 30042,
     "type": 9,
@@ -88217,9 +88233,25 @@
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
-    "script": {},
+    "script": {
+      "overwriteIconIds": [
+        {
+          "iconId": 386,
+          "priority": 1,
+          "conditions": [
+            {
+              "condType": "PLAYER_GENDER_TYPE",
+              "targetId": 1,
+              "condValues": [
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
     "id": 30043,
-    "buffGroup": 30043,
+    "buffGroup": 30042,
     "type": 9,
     "name": "令呪励起",
     "detail": "攻撃力をアップ＆防御力をアップ",
@@ -88236,7 +88268,23 @@
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
-    "script": {},
+    "script": {
+      "overwriteIconIds": [
+        {
+          "iconId": 387,
+          "priority": 1,
+          "conditions": [
+            {
+              "condType": "PLAYER_GENDER_TYPE",
+              "targetId": 2,
+              "condValues": [
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
     "id": 30044,
     "buffGroup": 30044,
     "type": 42,
@@ -88474,9 +88522,25 @@
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
-    "script": {},
+    "script": {
+      "overwriteIconIds": [
+        {
+          "iconId": 386,
+          "priority": 1,
+          "conditions": [
+            {
+              "condType": "PLAYER_GENDER_TYPE",
+              "targetId": 1,
+              "condValues": [
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
     "id": 30058,
-    "buffGroup": 30058,
+    "buffGroup": 30044,
     "type": 42,
     "name": "",
     "detail": "",
