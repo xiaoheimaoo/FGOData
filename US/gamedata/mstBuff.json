@@ -78977,6 +78977,36 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5437,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "World Traveler",
+    "detail": "Increase damage dealt during \"The Great Spirit's World Tour!\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5438,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Strength Up",
+    "detail": "Increase damage dealt during \"The Great Spirit's World Tour!\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004,
       3006,
@@ -79610,6 +79640,101 @@
     "name": "Critical Hit Rate Up",
     "detail": "Increase Critical Hit Rate only on a [Near Water] or [Aerial] field",
     "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5471,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect with Normal Attacks",
+    "detail": "Apply [Spirit's Anger] to yourself when attacking",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5472,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate when Damaged",
+    "detail": "Apply [Spirit's Anger] when attacked to all [Wandjina] allies",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5473,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Spirit's Anger",
+    "detail": "The more intense the Spirit's Anger, the more NP Strength increases for yourself",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2878
+    },
+    "id": 5474,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "NP Strength Up [Aerial]",
+    "detail": "Increase NP damage when the field is [Aerial]",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 202
+    },
+    "id": 5475,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "NP Strength Up",
+    "detail": "Increase NP damage",
+    "iconId": 310,
     "maxRate": 5000,
     "effectId": 0
   },
@@ -96979,6 +97104,953 @@
     "detail": "DEF disadvantage against all Classes",
     "iconId": 520,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088801,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Sidewinder",
+    "detail": "Chance to inflict Poison to target during normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088802,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Jet Mechanism",
+    "detail": "Apply Evade for yourself at the end of turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      6026
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088803,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Star's Amulet",
+    "detail": "When HP reaches 0, apply C. Star Gain per turn on whoever defeated you",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3081
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088804,
+    "buffGroup": 0,
+    "type": 6,
+    "name": "Star's Amulet",
+    "detail": "Gain C. Stars at end of turn",
+    "iconId": 320,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      6026
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088805,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Fatal Band",
+    "detail": "When HP reaches 0, increase Critical Strength to whoever defeated you",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031,
+      6029
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088806,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "Fatal Band",
+    "detail": "Increase Critical Hit damage",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      6026
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088807,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Crushing Blow Tune",
+    "detail": "When HP reaches 0, increase Critical Strength for all enemies",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031,
+      6029
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088808,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "Crushing Blow Tune",
+    "detail": "Increase Critical Hit damage",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      6026
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088809,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Bracelet of Swiftness",
+    "detail": "When HP reaches 0, increase Quick Card effectiveness to whoever defeated you",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3094
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088810,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Bracelet of Swiftness",
+    "detail": "Increase Quick Card effectiveness",
+    "iconId": 312,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      6026
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088811,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Bracelet of Workmanship",
+    "detail": "When HP reaches 0, increase Arts Card effectiveness to whoever defeated you",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3092
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088812,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Bracelet of Workmanship",
+    "detail": "Increase Arts Card effectiveness",
+    "iconId": 313,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      6026
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088813,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Bracelet of Superhuman Strength",
+    "detail": "When HP reaches 0, increase Buster Card effectiveness to whoever defeated you",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3093
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088814,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Bracelet of Superhuman Strength",
+    "detail": "Increase Buster Card effectiveness",
+    "iconId": 314,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      6026
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088815,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Celestial Maiden's Robe",
+    "detail": "When HP reaches 0, apply NP Gain per turn to whoever defeated you",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3080
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088816,
+    "buffGroup": 0,
+    "type": 5,
+    "name": "Celestial Maiden's Robe",
+    "detail": "Gain NP at end of each turn",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      6026
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088817,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Flowery Equinox Decoration",
+    "detail": "When HP reaches 0, increase NP Strength to whoever defeated you",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088818,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "Flowery Equinox Decoration",
+    "detail": "Increase NP damage",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      6026
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088819,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Purple Haze of Surging Evil",
+    "detail": "When HP reaches 0, increase NP Strength to all enemies",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088820,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "Purple Haze of Surging Evil",
+    "detail": "Increase NP damage",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      6026
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088821,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Shield Breaking Bow",
+    "detail": "When HP reaches 0, apply [Shield-Breaker] <a state that negates critical attack resistance of the last strong enemy> to whoever defeated you",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6039
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088822,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Shield Breaker",
+    "detail": "Negate critical attack resistance of the last strong enemy",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      6026
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088823,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Bundled Arrows of Evil Resistance Reversal",
+    "detail": "When HP reaches 0, apply [Evil Resistance Reversal] <a state that negates NP resistance of the last strong enemy> to whoever defeated you",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088824,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Evil Resistance Reversal",
+    "detail": "Negate NP resistance of the last strong enemy",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      6026
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088825,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Soothing Incense",
+    "detail": "When HP reaches 0, restore HP to whoever defeated you",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      6026
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088826,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Sesshouseki Hair Accessory",
+    "detail": "When HP reaches 0, reduce skill cooldown by 2 for whoever defeated you",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      6026
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088827,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Double-Edged Halberd",
+    "detail": "When HP reaches 0, apply a state where ATK increases the lower the HP is & decrease HP [Demerit] to whoever defeated you",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088828,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "Double-Edged Halberd",
+    "detail": "As HP gets lower, ATK increases",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3044
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088829,
+    "buffGroup": 0,
+    "type": 82,
+    "name": "Minus Maximum HP",
+    "detail": "Decrease Max HP",
+    "iconId": 522,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3036
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088830,
+    "buffGroup": 0,
+    "type": 16,
+    "name": "NP Strength Down",
+    "detail": "Decrease NP damage",
+    "iconId": 508,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3033
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088831,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "ATK Down",
+    "detail": "Decrease ATK",
+    "iconId": 503,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6041
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088832,
+    "buffGroup": 0,
+    "type": 175,
+    "name": "Explorer of Spiciness",
+    "detail": "Change Debuffs into Buffs when super spicy food is consumed",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6041
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088833,
+    "buffGroup": 0,
+    "type": 175,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6041
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088834,
+    "buffGroup": 0,
+    "type": 175,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088835,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Enjoy the Food",
+    "detail": "When HP reaches 0, forcefully apply either a Buff or Debuff to whoever defeated you",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      6040
+    ],
+    "tvals": [
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94088836,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Seal of Evil Resistance",
+    "detail": "Increase resistance against Noble Phantasm Attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      6039
+    ],
+    "tvals": [
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4100
+    ],
+    "script": {},
+    "id": 94088837,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Fatality Prevention Shield",
+    "detail": "Gain resistance to damage from Critical attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      6026
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088838,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "When HP reaches 0, remove defeat triggering effects for all allies",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088839,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088840,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088841,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Activate on Defeat",
+    "detail": "When HP reaches 0, Buff effects are activated for all enemies and allies",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088842,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Activate on Defeat",
+    "detail": "When HP reaches 0, Buff effects...? are activated for all enemies and allies",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088843,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate when Damaged",
+    "detail": "Inflict 2 Curses to a single enemy when attacked",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      3026
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3026
+    ],
+    "script": {},
+    "id": 94088844,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Strength Up (Curse)",
+    "detail": "Increase damage dealt to enemies with [Curse] <Special Attack damage increases with each [Curse] (Maximum 10) on the target>",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [
+      3026
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3026
+    ],
+    "script": {},
+    "id": 94088845,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "DEF Up (Curse)",
+    "detail": "Increase DEF against [Cursed] enemies",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3019,
+      3006
+    ],
+    "tvals": [
+      3026
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3026
+    ],
+    "script": {},
+    "id": 94088846,
+    "buffGroup": 0,
+    "type": 25,
+    "name": "Sure Hit (Curse)",
+    "detail": "Ignore Evade and deal ATK damage to enemies with [Curse]",
+    "iconId": 309,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088847,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "ATK Up",
+    "detail": "The fewer allies are on the field, the larger the ATK increase for yourself",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088848,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088849,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "DEF Up",
+    "detail": "The more allies are on the field, increase DEF for yourself",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94088850,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "Critical Hit Rate Up",
+    "detail": "Increase Critical Rate for all allies when you are on the field",
+    "iconId": 327,
+    "maxRate": 5000,
     "effectId": 0
   }
 ]
