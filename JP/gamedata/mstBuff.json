@@ -86808,6 +86808,21 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5896,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ",
+    "detail": "『失われた創世 未来からの方舟』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004
     ],
@@ -87410,6 +87425,246 @@
     "name": "毎ターンスター獲得",
     "detail": "ターン終了時にスターを獲得する",
     "iconId": 320,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [
+      4100
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5933,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "クリティカル攻撃時追加効果",
+    "detail": "クリティカル攻撃時、敵全体のスターを減らす",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5934,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "トライ・アーク・ライダー",
+    "detail": "『失われた創世 未来からの方舟』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5935,
+    "buffGroup": 0,
+    "type": 182,
+    "name": "Arts攻撃時追加効果",
+    "detail": "Arts攻撃時、スターを獲得する",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 5936,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "防御力アップ〔宝具〕",
+    "detail": "宝具に対する防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4100
+    ],
+    "script": {},
+    "id": 5937,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "防御力アップ〔クリティカル〕",
+    "detail": "クリティカルに対する防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3092
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "individualityCondTargetType": 3,
+      "INDIVIDUALITIE_OR": "10002,10003,10004"
+    },
+    "id": 5938,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Artsアップ〔動物がいる間〕",
+    "detail": "動物<猛獣・魔獣型のサーヴァント・ケモノ科のサーヴァント>(一部を除く)がフィールドにいる間、Artsカードの性能をアップ",
+    "iconId": 313,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3084
+    ],
+    "tvals": [
+      2005,
+      2632,
+      2821,
+      -10000
+    ],
+    "ckSelfIndv": [
+      2005,
+      2632,
+      2821,
+      -10000
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 5939,
+    "buffGroup": 0,
+    "type": 17,
+    "name": "NP獲得アップ",
+    "detail": "NP獲得量をアップ",
+    "iconId": 303,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "individualityCondTargetType": 3,
+      "INDIVIDUALITIE_AND": "2005,-10000"
+    },
+    "id": 5940,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "individualityCondTargetType": 3,
+      "INDIVIDUALITIE_AND": "2632,-10000"
+    },
+    "id": 5941,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "individualityCondTargetType": 3,
+      "INDIVIDUALITIE_AND": "2821,-10000"
+    },
+    "id": 5942,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5943,
+    "buffGroup": 0,
+    "type": 182,
+    "name": "Arts攻撃時追加効果",
+    "detail": "Arts攻撃時、自身のクリティカル発生率をアップ",
+    "iconId": 333,
     "maxRate": 0,
     "effectId": 0
   },
@@ -151777,6 +152032,23 @@
     "name": "",
     "detail": "",
     "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94148200,
+    "buffGroup": 0,
+    "type": 187,
+    "name": "泥酔",
+    "detail": "スキルを使用した時、自身の攻撃力をダウンまたは防御力をダウンまたは強化状態を1つ解除する",
+    "iconId": 569,
     "maxRate": 0,
     "effectId": 0
   },
