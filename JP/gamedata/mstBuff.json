@@ -21388,7 +21388,9 @@
     "effectId": 0
   },
   {
-    "vals": [],
+    "vals": [
+      3124
+    ],
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
@@ -78885,7 +78887,8 @@
   },
   {
     "vals": [
-      3005
+      3005,
+      3124
     ],
     "tvals": [],
     "ckSelfIndv": [],
@@ -87432,6 +87435,61 @@
     "vals": [
       3004
     ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5930,
+    "buffGroup": 0,
+    "type": 236,
+    "name": "最大HPアップ(底上げ)",
+    "detail": "最大HPを比率で増やす(効果消滅時に増加していた分のHPが減少)",
+    "iconId": 330,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5931,
+    "buffGroup": 0,
+    "type": 237,
+    "name": "最大HPプラス(底上げ)",
+    "detail": "最大HPを増やす(効果消滅時に増加していた分のHPが減少)",
+    "iconId": 330,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      3110
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 5932,
+    "buffGroup": 0,
+    "type": 92,
+    "name": "宝具攻撃耐性ダウン",
+    "detail": "宝具攻撃耐性をダウン",
+    "iconId": 529,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
     "tvals": [
       5000,
       4100
@@ -89200,7 +89258,7 @@
     "script": {},
     "id": 30082,
     "buffGroup": 0,
-    "type": 186,
+    "type": 188,
     "name": "対魔力（剣）",
     "detail": "宝具使用時、自身に敵の宝具による被ダメージをカットする状態を付与",
     "iconId": 396,
@@ -90422,7 +90480,7 @@
     "script": {},
     "id": 30155,
     "buffGroup": 0,
-    "type": 186,
+    "type": 188,
     "name": "理の傍ら（彼方）",
     "detail": "宝具使用時、自身に「〔対極共生〕による状態効果の変換確率を100%にアップ＆〔放出残滓〕と〔増幅負荷〕が自身の耐性を無視するようになる【デメリット】状態」を付与",
     "iconId": 396,
@@ -90734,6 +90792,421 @@
     "detail": "〔対敵注視〕状態の敵からの被ダメージを減らす",
     "iconId": 301,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      4104
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30171,
+    "buffGroup": 0,
+    "type": 200,
+    "name": "クイックチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むクイックチェイン成立時、自身のスター発生率をアップ＆スター集中度をアップ＋自身が〔境域掌握〕状態の時は追加で「Quick攻撃時に味方全体のQuickカードの宝具威力をアップする状態」を付与",
+    "iconId": 420,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      4105
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30172,
+    "buffGroup": 0,
+    "type": 200,
+    "name": "アーツチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むアーツチェイン成立時、自身のNP獲得量をアップ＋自身が〔境域掌握〕状態の時は追加で「Arts攻撃時に味方全体のArtsカードの宝具威力をアップする状態」を付与",
+    "iconId": 421,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      4106
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30173,
+    "buffGroup": 0,
+    "type": 200,
+    "name": "バスターチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むバスターチェイン成立時、自身のクリティカル威力をアップ＋自身が〔境域掌握〕状態の時は追加で「Buster攻撃時に味方全体のBusterカードの宝具威力をアップする状態」を付与",
+    "iconId": 422,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      4107
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30174,
+    "buffGroup": 0,
+    "type": 200,
+    "name": "マイティチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むマイティチェイン成立時、自身の攻撃力をアップ＋自身が〔境域掌握〕状態の時は追加で味方全体の攻撃力をアップ",
+    "iconId": 424,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      4108
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30175,
+    "buffGroup": 0,
+    "type": 200,
+    "name": "駿馬、戦場を駆る（騎）",
+    "detail": "自身のコマンドカードを含むブレイブチェイン成立時、自身に「攻撃時のダメージ前に、自身のQuick・Arts・Busterカードの威力をアップする状態」を付与＋自身が〔境域掌握〕状態の時は追加で「Quick攻撃時に味方全体のQuickカードの威力をアップする状態」「Arts攻撃時に味方全体のArtsカードの威力をアップする状態」「Buster攻撃時に味方全体のBusterカードの威力をアップする状態」を付与",
+    "iconId": 423,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      -4104,
+      -4105,
+      -4106,
+      -4107,
+      -4108
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 30176,
+    "buffGroup": 0,
+    "type": 200,
+    "name": "不沈の号令（騎）",
+    "detail": "宝具チェインを除くチェイン不成立時、自身に被ダメージをカットする状態を付与<強化解除不能>＋自身が〔境域掌握〕状態の時は追加で味方全体に被ダメージをカットする状態を付与",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30177,
+    "buffGroup": 0,
+    "type": 204,
+    "name": "境域掌握（騎）",
+    "detail": "自身の宝具使用時の効果発動前に、自身に〔境域掌握〕状態を付与",
+    "iconId": 396,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30184,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "攻撃ダメージ前追加効果",
+    "detail": "攻撃時、ダメージ前に自身のQuick・Arts・Busterカードの威力をアップ",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3123
+    },
+    "id": 30185,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Quick攻撃時追加効果〔境域掌握〕",
+    "detail": "Quick攻撃時、味方全体のQuickカードの威力をアップ",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3123
+    },
+    "id": 30186,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Arts攻撃時追加効果〔境域掌握〕",
+    "detail": "Arts攻撃時、味方全体のArtsカードの威力をアップ",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3123
+    },
+    "id": 30187,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Buster攻撃時追加効果〔境域掌握〕",
+    "detail": "Buster攻撃時、味方全体のBusterカードの威力をアップ",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3085,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30188,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "ダメージカット",
+    "detail": "被ダメージを減らす",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30189,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "境域掌握",
+    "detail": "グランドサインの追加効果の発動機会を得る",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3123
+    },
+    "id": 30190,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Quick攻撃時追加効果〔境域掌握〕",
+    "detail": "Quick攻撃時、味方全体のQuickカードの宝具威力をアップ",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3123
+    },
+    "id": 30191,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Arts攻撃時追加効果〔境域掌握〕",
+    "detail": "Arts攻撃時、味方全体のArtsカードの宝具威力をアップ",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3123
+    },
+    "id": 30192,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Buster攻撃時追加効果〔境域掌握〕",
+    "detail": "Buster攻撃時、味方全体のBusterカードの宝具威力をアップ",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 30193,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "宝具威力アップ：Quick",
+    "detail": "Quickカードの宝具で与えるダメージをアップ",
+    "iconId": 310,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 30194,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "宝具威力アップ：Arts",
+    "detail": "Artsカードの宝具で与えるダメージをアップ",
+    "iconId": 310,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 30195,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "宝具威力アップ：Buster",
+    "detail": "Busterカードの宝具で与えるダメージをアップ",
+    "iconId": 310,
+    "maxRate": 50000,
     "effectId": 0
   },
   {
@@ -153067,6 +153540,829 @@
     "detail": "",
     "iconId": 504,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      7020
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94149800,
+    "buffGroup": 0,
+    "type": 188,
+    "name": "凪の訪れ",
+    "detail": "直接ダメージを与えない宝具を使用した時、敵全体の〔本能の警鐘〕を無効化する",
+    "iconId": 397,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      3005,
+      304
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005,
+      304
+    ],
+    "script": {
+      "checkIndvType": 1
+    },
+    "id": 94149801,
+    "buffGroup": 0,
+    "type": 29,
+    "name": "義人の覚悟 EX",
+    "detail": "〔悪〕特性に対する弱体耐性をアップ＆〔悪〕特性を付与されなくなる ＋ 自身がフィールドにいる間、自身を除く味方全体の攻撃力をアップ",
+    "iconId": 306,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94149802,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "オリーブの若枝 B",
+    "detail": "ターン終了時、味方全体のクリティカル威力をアップ＆宝具威力をアップ",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94149803,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "光輝の鬣",
+    "detail": "全体攻撃宝具によるダメージに対する耐性をダウン【デメリット】＆被ダメージ時のNP発生量をダウン ＋ 自身がフィールドにいる間、〔スーサ・オール〕の防御力をアップ",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94149804,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "",
+    "detail": "",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3017
+    ],
+    "tvals": [
+      7022
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      7022
+    ],
+    "script": {
+      "extendLowerLimit": 1500
+    },
+    "id": 94149805,
+    "buffGroup": 0,
+    "type": 92,
+    "name": "",
+    "detail": "",
+    "iconId": 529,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94149806,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "光輝の蹄",
+    "detail": "単体攻撃宝具によるダメージに対する耐性をダウン【デメリット】＆被ダメージ時のNP発生量をダウン ＋ 自身がフィールドにいる間、〔スース・オール〕の攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94149807,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "",
+    "detail": "",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3017
+    ],
+    "tvals": [
+      7021
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      7021
+    ],
+    "script": {
+      "extendLowerLimit": 1500
+    },
+    "id": 94149808,
+    "buffGroup": 0,
+    "type": 92,
+    "name": "",
+    "detail": "",
+    "iconId": 529,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94149809,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "光輝の爪",
+    "detail": "〔地の力を持つサーヴァント〕〔中庸属性のサーヴァント〕からの攻撃に対する耐性をダウン【デメリット】＆被ダメージ時のNP発生量をダウン＆攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3017
+    ],
+    "tvals": [
+      201,
+      305
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      201,
+      305
+    ],
+    "script": {},
+    "id": 94149810,
+    "buffGroup": 0,
+    "type": 92,
+    "name": "",
+    "detail": "",
+    "iconId": 529,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94149811,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "光輝の牙",
+    "detail": "〔人の力を持つサーヴァント〕〔善属性のサーヴァント〕からの攻撃に対する耐性をダウン【デメリット】＆被ダメージ時のNP発生量をダウン ＋ 通常攻撃時、対象に毒状態を付与＆防御力をダウン",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3017
+    ],
+    "tvals": [
+      202,
+      303
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      202,
+      303
+    ],
+    "script": {},
+    "id": 94149812,
+    "buffGroup": 0,
+    "type": 92,
+    "name": "",
+    "detail": "",
+    "iconId": 529,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94149813,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "光輝の嘴",
+    "detail": "〔天の力を持つサーヴァント〕〔悪属性のサーヴァント〕からの攻撃に対する耐性をダウン【デメリット】＆被ダメージ時のNP発生量をダウン ＋ 通常攻撃時、自身の攻撃力をアップ＆クリティカル威力をアップ",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3017
+    ],
+    "tvals": [
+      200,
+      304
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      200,
+      304
+    ],
+    "script": {},
+    "id": 94149814,
+    "buffGroup": 0,
+    "type": 92,
+    "name": "",
+    "detail": "",
+    "iconId": 529,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6043
+    },
+    "id": 94149815,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "本能の警鐘",
+    "detail": "自身がフィールドにいる間、自身と〔ノア・ゾーハル〕の最大HPを45000増やす(効果消滅時に増加していた分のHPが減少)<直接ダメージを与えない宝具が使用されると効果が無効化される>",
+    "iconId": 330,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6043
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94149816,
+    "buffGroup": 0,
+    "type": 237,
+    "name": "",
+    "detail": "",
+    "iconId": 330,
+    "maxRate": 5000000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      7020
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94149817,
+    "buffGroup": 0,
+    "type": 188,
+    "name": "再創世の試練：宝具",
+    "detail": "直接ダメージを与えない宝具を使用した時、「次のエネミーターン開始時に〔虹の約束〕が発動する状態」を付与＋敵全体の〔神託の燈火〕の残り回数を1減らす",
+    "iconId": 397,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94149818,
+    "buffGroup": 0,
+    "type": 185,
+    "name": "再創世の試練：スキル",
+    "detail": "パーティ全体でサーヴァントのスキルを累計3回以上使用すると、次のエネミーターン開始時に〔洪水の記憶〕が呼び起こされる",
+    "iconId": 569,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94149819,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "彩光の衣",
+    "detail": "エネミーターン開始時、〔虹の約束〕が発動する",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024,
+      6036
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 2,
+      "INDIVIDUALITIE": -6041
+    },
+    "id": 94149820,
+    "buffGroup": 0,
+    "type": 104,
+    "name": "神託の燈火",
+    "detail": "HPが0になった時、HPを回復して耐える<直接ダメージを与えない宝具が使用されると、残り回数が減少>",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 2,
+      "INDIVIDUALITIE": -6041
+    },
+    "id": 94149821,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、自身の攻撃力をアップ＆防御力をアップ",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6043
+    },
+    "id": 94149822,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "本能の警鐘",
+    "detail": "自身がフィールドにいる間、自身と〔ノア・ゾーハル〕の最大HPを70000増やす(効果消滅時に増加していた分のHPが減少)<直接ダメージを与えない宝具が使用されると効果が無効化される>",
+    "iconId": 330,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6043
+    },
+    "id": 94149823,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "本能の警鐘",
+    "detail": "自身がフィールドにいる間、自身と〔ノア・ゾーハル〕の最大HPを100000増やす(効果消滅時に増加していた分のHPが減少)<直接ダメージを与えない宝具が使用されると効果が無効化される>",
+    "iconId": 330,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6043
+    },
+    "id": 94149824,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "本能の警鐘",
+    "detail": "自身がフィールドにいる間、自身と〔ノア・ゾーハル〕の最大HPを130000増やす(効果消滅時に増加していた分のHPが減少)<直接ダメージを与えない宝具が使用されると効果が無効化される>",
+    "iconId": 330,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6043
+    },
+    "id": 94149825,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "本能の警鐘",
+    "detail": "自身がフィールドにいる間、自身と〔ノア・ゾーハル〕の最大HPを180000増やす(効果消滅時に増加していた分のHPが減少)<直接ダメージを与えない宝具が使用されると効果が無効化される>",
+    "iconId": 330,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6043
+    },
+    "id": 94149826,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "本能の警鐘",
+    "detail": "自身がフィールドにいる間、自身と〔ノア・ゾーハル〕の最大HPを255000増やす(効果消滅時に増加していた分のHPが減少)<直接ダメージを与えない宝具が使用されると効果が無効化される>",
+    "iconId": 330,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6043
+    },
+    "id": 94149827,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "本能の警鐘",
+    "detail": "自身がフィールドにいる間、自身と〔ノア・ゾーハル〕の最大HPを420000増やす(効果消滅時に増加していた分のHPが減少)<直接ダメージを与えない宝具が使用されると効果が無効化される>",
+    "iconId": 330,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6043
+    },
+    "id": 94149828,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "本能の警鐘",
+    "detail": "自身がフィールドにいる間、自身と〔ノア・ゾーハル〕の最大HPを20000増やす(効果消滅時に増加していた分のHPが減少)<直接ダメージを与えない宝具が使用されると効果が無効化される>",
+    "iconId": 330,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6043
+    },
+    "id": 94149829,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "本能の警鐘",
+    "detail": "自身がフィールドにいる間、自身と〔ノア・ゾーハル〕の最大HPを30000増やす(効果消滅時に増加していた分のHPが減少)<直接ダメージを与えない宝具が使用されると効果が無効化される>",
+    "iconId": 330,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6043
+    },
+    "id": 94149830,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "本能の警鐘",
+    "detail": "自身がフィールドにいる間、自身と〔ノア・ゾーハル〕の最大HPを40000増やす(効果消滅時に増加していた分のHPが減少)<直接ダメージを与えない宝具が使用されると効果が無効化される>",
+    "iconId": 330,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6043
+    },
+    "id": 94149831,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "本能の警鐘",
+    "detail": "自身がフィールドにいる間、自身と〔ノア・ゾーハル〕の最大HPを60000増やす(効果消滅時に増加していた分のHPが減少)<直接ダメージを与えない宝具が使用されると効果が無効化される>",
+    "iconId": 330,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6043
+    },
+    "id": 94149832,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "本能の警鐘",
+    "detail": "自身がフィールドにいる間、自身と〔ノア・ゾーハル〕の最大HPを90000増やす(効果消滅時に増加していた分のHPが減少)<直接ダメージを与えない宝具が使用されると効果が無効化される>",
+    "iconId": 330,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6043
+    },
+    "id": 94149833,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "本能の警鐘",
+    "detail": "自身がフィールドにいる間、自身と〔ノア・ゾーハル〕の最大HPを130000増やす(効果消滅時に増加していた分のHPが減少)<直接ダメージを与えない宝具が使用されると効果が無効化される>",
+    "iconId": 330,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6043
+    },
+    "id": 94149834,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "本能の警鐘",
+    "detail": "自身がフィールドにいる間、自身と〔ノア・ゾーハル〕の最大HPを210000増やす(効果消滅時に増加していた分のHPが減少)<直接ダメージを与えない宝具が使用されると効果が無効化される>",
+    "iconId": 330,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      3124
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3124
+    ],
+    "script": {},
+    "id": 94149835,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "",
+    "detail": "",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6043
+    },
+    "id": 94149836,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "本能の警鐘",
+    "detail": "自身がフィールドにいる間、自身と〔ノア・ゾーハル〕の最大HPを220000増やす(効果消滅時に増加していた分のHPが減少)<直接ダメージを与えない宝具が使用されると効果が無効化される>",
+    "iconId": 330,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6043
+    },
+    "id": 94149837,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "本能の警鐘",
+    "detail": "自身がフィールドにいる間、自身と〔ノア・ゾーハル〕の最大HPを110000増やす(効果消滅時に増加していた分のHPが減少)<直接ダメージを与えない宝具が使用されると効果が無効化される>",
+    "iconId": 330,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94149838,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94149839,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94149840,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "慈愛の献身",
+    "detail": "〔ノア・ゾーハル〕のHPが0になった時、自身の命を捧げ、〔ノア・ゾーハル〕を復活させる",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3079
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94149841,
+    "buffGroup": 0,
+    "type": 10001,
+    "name": "再創世の試練：マスタースキル",
+    "detail": "マスタースキルを累計3回以上使用すると、次のエネミーターン開始時に〔虹の約束〕が果たされる",
+    "iconId": 520,
+    "maxRate": 0,
     "effectId": 0
   }
 ]
