@@ -42508,7 +42508,7 @@
     "buffGroup": 0,
     "type": 137,
     "name": "Activate when Attacking (Quick Card Effectiveness Down)",
-    "detail": "Decrease Quick Card effectiveness for a single enemy during your normal attacks",
+    "detail": "Decrease Quick Card effectiveness for a single enemy during your attacks",
     "iconId": 528,
     "maxRate": 0,
     "effectId": 0
@@ -42525,7 +42525,7 @@
     "buffGroup": 0,
     "type": 137,
     "name": "Activate when Attacking (Buster Card Effectiveness Down)",
-    "detail": "Decrease Buster Card effectiveness for a single enemy during your normal attacks",
+    "detail": "Decrease Buster Card effectiveness for a single enemy during your attacks",
     "iconId": 528,
     "maxRate": 0,
     "effectId": 0
@@ -42542,7 +42542,7 @@
     "buffGroup": 0,
     "type": 137,
     "name": "Activate when Attacking (Arts Card Effectiveness Down)",
-    "detail": "Decrease Arts Card effectiveness for a single enemy during your normal attacks",
+    "detail": "Decrease Arts Card effectiveness for a single enemy during your attacks",
     "iconId": 528,
     "maxRate": 0,
     "effectId": 0
@@ -60137,7 +60137,7 @@
     "id": 4213,
     "buffGroup": 0,
     "type": 78,
-    "name": "Taisui's Misfortune",
+    "name": "Taisui's Calamity",
     "detail": "When HP reaches 0, decrease all allies' Defense & inflict Curse & inflict Disastrous Curse",
     "iconId": 543,
     "maxRate": 0,
@@ -98066,6 +98066,120 @@
     "detail": "Increase Critical Rate for all allies when you are on the field",
     "iconId": 327,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94089601,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Flesh of Immortality (Curse)",
+    "detail": "When HP reaches 0, restore HP & increase DEF for a single [Cursed] enemy",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94089602,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "DEF Down",
+    "detail": "DEF Down <effect increases with more [Cursed] states>",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94089603,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate when Damaged",
+    "detail": "Chance to inflict Curse to a single enemy when attacked",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94089604,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect with Normal Attack",
+    "detail": "Chance to inflict Curse to a single enemy during normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3033
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94089605,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "ATK Down",
+    "detail": "ATK Down <effect increases with more [Curse] states>",
+    "iconId": 503,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007,
+      4004
+    ],
+    "ckSelfIndv": [
+      4007,
+      4004
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94089606,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect with Noble Phantasm",
+    "detail": "Inflict Curse to target when attacking with Noble Phantasm",
+    "iconId": 528,
+    "maxRate": 0,
     "effectId": 0
   }
 ]
