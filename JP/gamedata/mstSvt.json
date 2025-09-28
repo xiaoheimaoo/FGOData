@@ -1385,7 +1385,8 @@
   {
     "relateQuestIds": [
       91102701,
-      94053190
+      94053190,
+      94149701
     ],
     "individuality": [
       5000,
@@ -3537,7 +3538,9 @@
     "flag": 0
   },
   {
-    "relateQuestIds": [],
+    "relateQuestIds": [
+      94149702
+    ],
     "individuality": [
       5000,
       105500,
@@ -204619,6 +204622,58 @@
     "relateQuestIds": [],
     "individuality": [
       5000,
+      5010,
+      101,
+      200,
+      2781
+    ],
+    "classPassive": [],
+    "cardIds": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "script": {
+      "cameraActionId": 2091
+    },
+    "id": 9946630,
+    "baseSvtId": 9946630,
+    "name": "人造浪士",
+    "ruby": "-",
+    "battleName": "人造浪士",
+    "classId": 3,
+    "type": 4,
+    "limitMax": 1,
+    "rewardLv": 0,
+    "friendshipId": 1000,
+    "maxFriendshipRank": 0,
+    "genderType": 3,
+    "attri": 2,
+    "combineSkillId": 0,
+    "combineLimitId": 0,
+    "sellQp": 0,
+    "sellMana": 0,
+    "sellRarePri": 0,
+    "expType": 9999,
+    "combineMaterialId": 100,
+    "cost": 0,
+    "battleSize": 4,
+    "hpGaugeY": -250,
+    "starRate": 0,
+    "deathRate": 1000,
+    "attackAttri": 1,
+    "illustratorId": 0,
+    "cvId": 0,
+    "collectionNo": 0,
+    "materialStoryPriority": 1000,
+    "flag": 0
+  },
+  {
+    "relateQuestIds": [],
+    "individuality": [
+      5000,
       9946640,
       100,
       1,
@@ -204652,9 +204707,9 @@
     },
     "id": 9946640,
     "baseSvtId": 9946640,
-    "name": "",
-    "ruby": "",
-    "battleName": "",
+    "name": "近藤勇",
+    "ruby": "コンドウイサミ",
+    "battleName": "近藤勇",
     "classId": 1,
     "type": 5,
     "limitMax": 4,
@@ -206069,6 +206124,70 @@
     "cvId": 0,
     "collectionNo": 0,
     "materialStoryPriority": 1000,
+    "flag": 0
+  },
+  {
+    "relateQuestIds": [],
+    "individuality": [
+      5000,
+      9947190,
+      110,
+      1,
+      202,
+      300,
+      303,
+      2008,
+      1000,
+      2001,
+      404,
+      2631,
+      2839
+    ],
+    "classPassive": [
+      169350,
+      170150,
+      34350
+    ],
+    "cardIds": [
+      3,
+      3,
+      1,
+      2,
+      2
+    ],
+    "script": {
+      "cameraActionId": 2143
+    },
+    "id": 9947190,
+    "baseSvtId": 9947190,
+    "name": "藤堂平助",
+    "ruby": "トウドウヘイスケ",
+    "battleName": "藤堂平助",
+    "classId": 11,
+    "type": 5,
+    "limitMax": 4,
+    "rewardLv": 80,
+    "friendshipId": 1034,
+    "maxFriendshipRank": 10,
+    "genderType": 1,
+    "attri": 1,
+    "combineSkillId": 9947190,
+    "combineLimitId": 9947190,
+    "sellQp": 2000,
+    "sellMana": 6,
+    "sellRarePri": 1,
+    "expType": 9,
+    "combineMaterialId": 4,
+    "cost": 12,
+    "battleSize": 2,
+    "hpGaugeY": -250,
+    "starRate": 60,
+    "deathRate": 90,
+    "attackAttri": 1,
+    "illustratorId": -1,
+    "cvId": -1,
+    "collectionNo": 0,
+    "materialStoryPriority": 0,
     "flag": 0
   }
 ]
