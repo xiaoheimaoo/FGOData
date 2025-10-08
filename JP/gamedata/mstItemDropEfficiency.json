@@ -81,17 +81,6 @@
   {
     "script": {},
     "itemId": 4,
-    "targetType": 0,
-    "priority": 10,
-    "title": "ログインボーナスで獲得",
-    "iconName": "",
-    "transitionParam": "0",
-    "commonReleaseId": 20101146,
-    "closedMessageId": 0
-  },
-  {
-    "script": {},
-    "itemId": 4,
     "targetType": 12,
     "priority": 30,
     "title": "サポートサーヴァントの利用で獲得",
@@ -108,6 +97,19 @@
     "title": "「レアプリズムを交換」で獲得",
     "iconName": "",
     "transitionParam": "Shop/RarePrism",
+    "commonReleaseId": 20101146,
+    "closedMessageId": 0
+  },
+  {
+    "script": {
+      "loginBonus": 1
+    },
+    "itemId": 4,
+    "targetType": 19,
+    "priority": 10,
+    "title": "ログインボーナスで獲得",
+    "iconName": "login_bonus",
+    "transitionParam": "0",
     "commonReleaseId": 20101146,
     "closedMessageId": 0
   },
@@ -252,10 +254,23 @@
   {
     "script": {},
     "itemId": 49,
-    "targetType": 0,
+    "targetType": 13,
     "priority": 10,
-    "title": "ログインボーナスで獲得",
+    "title": "「マナプリズムを交換」で獲得",
     "iconName": "",
+    "transitionParam": "Shop/ManaPrism",
+    "commonReleaseId": 20101146,
+    "closedMessageId": 0
+  },
+  {
+    "script": {
+      "loginBonus": 1
+    },
+    "itemId": 49,
+    "targetType": 19,
+    "priority": 20,
+    "title": "ログインボーナスで獲得",
+    "iconName": "login_bonus",
     "transitionParam": "0",
     "commonReleaseId": 20101146,
     "closedMessageId": 0
@@ -1246,19 +1261,8 @@
   {
     "script": {},
     "itemId": 2000,
-    "targetType": 0,
-    "priority": 10,
-    "title": "ログインボーナスで獲得",
-    "iconName": "",
-    "transitionParam": "0",
-    "commonReleaseId": 20101146,
-    "closedMessageId": 0
-  },
-  {
-    "script": {},
-    "itemId": 2000,
     "targetType": 7,
-    "priority": 40,
+    "priority": 30,
     "title": "エクストラミッションクリアで獲得",
     "iconName": "",
     "transitionParam": "Terminal/MasterMission/EXTRA",
@@ -1269,7 +1273,7 @@
     "script": {},
     "itemId": 2000,
     "targetType": 13,
-    "priority": 30,
+    "priority": 20,
     "title": "「マナプリズムを交換」で獲得",
     "iconName": "",
     "transitionParam": "Shop/ManaPrism",
@@ -1280,10 +1284,23 @@
     "script": {},
     "itemId": 2000,
     "targetType": 15,
-    "priority": 20,
+    "priority": 10,
     "title": "「レアプリズムを交換」で獲得",
     "iconName": "",
     "transitionParam": "Shop/RarePrism",
+    "commonReleaseId": 20101146,
+    "closedMessageId": 0
+  },
+  {
+    "script": {
+      "loginBonus": 1
+    },
+    "itemId": 2000,
+    "targetType": 19,
+    "priority": 40,
+    "title": "ログインボーナスで獲得",
+    "iconName": "login_bonus",
+    "transitionParam": "0",
     "commonReleaseId": 20101146,
     "closedMessageId": 0
   },
@@ -1356,22 +1373,24 @@
   {
     "script": {},
     "itemId": 4001,
-    "targetType": 0,
+    "targetType": 13,
     "priority": 10,
-    "title": "ログインボーナスで獲得",
+    "title": "「マナプリズムを交換」で獲得",
     "iconName": "",
-    "transitionParam": "0",
+    "transitionParam": "Shop/ManaPrism",
     "commonReleaseId": 20101146,
     "closedMessageId": 0
   },
   {
-    "script": {},
+    "script": {
+      "loginBonus": 1
+    },
     "itemId": 4001,
-    "targetType": 13,
+    "targetType": 19,
     "priority": 20,
-    "title": "「マナプリズムを交換」で獲得",
-    "iconName": "",
-    "transitionParam": "Shop/ManaPrism",
+    "title": "ログインボーナスで獲得",
+    "iconName": "login_bonus",
+    "transitionParam": "0",
     "commonReleaseId": 20101146,
     "closedMessageId": 0
   },
