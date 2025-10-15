@@ -2880,7 +2880,8 @@
   },
   {
     "vals": [
-      3004
+      3004,
+      3127
     ],
     "tvals": [],
     "ckSelfIndv": [],
@@ -7274,7 +7275,8 @@
   },
   {
     "vals": [
-      3004
+      3004,
+      3127
     ],
     "tvals": [
       5000,
@@ -86867,7 +86869,8 @@
   },
   {
     "vals": [
-      3004
+      3004,
+      3127
     ],
     "tvals": [
       1001
@@ -87865,6 +87868,86 @@
   },
   {
     "vals": [
+      3004
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {},
+    "id": 5950,
+    "buffGroup": 0,
+    "type": 29,
+    "name": "対魔力 E++",
+    "detail": "弱体耐性をアップ",
+    "iconId": 306,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 5951,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "気配遮断 C++",
+    "detail": "クリティカルの発生率をアップ",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5952,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "単独行動 B",
+    "detail": "クリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -6031
+    },
+    "id": 5953,
+    "buffGroup": 0,
+    "type": 73,
+    "name": "オルガナイザー A",
+    "detail": "〔夜の死〕が付与されていない時、即死効果を無効にする",
+    "iconId": 340,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3006,
       3094
@@ -88002,6 +88085,70 @@
     "name": "クリティカル威力アップ〔キャスター〕",
     "detail": "〔キャスター〕クラスに与えるクリティカル時のダメージをアップ",
     "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5961,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "Arts攻撃ダメージ前追加効果",
+    "detail": "Arts攻撃時、ダメージ前に対象の即死耐性をダウン",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {},
+    "id": 5962,
+    "buffGroup": 0,
+    "type": 29,
+    "name": "信仰の加護 A",
+    "detail": "弱体耐性をアップ＆ターン終了時にHPが回復する＆防御力をアップ＆攻撃力をアップ",
+    "iconId": 306,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      3012
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3012
+    ],
+    "script": {},
+    "id": 5963,
+    "buffGroup": 0,
+    "type": 29,
+    "name": "オルガナイザー A",
+    "detail": "魅了耐性をアップ ＋ Arts攻撃時、ダメージ前に対象の即死耐性をダウン",
+    "iconId": 306,
     "maxRate": 5000,
     "effectId": 0
   },
@@ -91486,6 +91633,530 @@
     "detail": "Busterカードの宝具で与えるダメージをアップ",
     "iconId": 310,
     "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30196,
+    "buffGroup": 0,
+    "type": 175,
+    "name": "気配遮断（殺）",
+    "detail": "自身に付与される回避効果を〔気配遮断〕状態に変化させる",
+    "iconId": 306,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 0
+    },
+    "id": 30197,
+    "buffGroup": 0,
+    "type": 24,
+    "name": "回避",
+    "detail": "攻撃によるダメージを0にする(他の回避状態と重複可能)",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007,
+      3125,
+      3109
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -3124
+    ],
+    "script": {
+      "checkIndvType": 2,
+      "ProgressSelfTurn": 0
+    },
+    "id": 30198,
+    "buffGroup": 0,
+    "type": 155,
+    "name": "気配遮断",
+    "detail": "必中・無敵貫通・対粛正防御貫通を無視して、攻撃によるダメージを0にする(他の回避状態と重複可能)",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      4104
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30199,
+    "buffGroup": 0,
+    "type": 200,
+    "name": "クイックチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むクイックチェイン成立時、自身のクリティカル攻撃時のQuickカードの威力をアップ＆即死付与成功率をアップ",
+    "iconId": 420,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      4105
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30200,
+    "buffGroup": 0,
+    "type": 200,
+    "name": "アーツチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むアーツチェイン成立時、自身のクリティカル攻撃時のArtsカードの威力をアップ＆即死付与成功率をアップ",
+    "iconId": 421,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      4106
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30201,
+    "buffGroup": 0,
+    "type": 200,
+    "name": "バスターチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むバスターチェイン成立時、自身のクリティカル攻撃時のBusterカードの威力をアップ＆即死付与成功率をアップ",
+    "iconId": 422,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      4107
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30202,
+    "buffGroup": 0,
+    "type": 200,
+    "name": "マイティチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むマイティチェイン成立時、自身のクリティカル威力をアップ＆自身に付与されている即死付与率アップ状態の効果量合計に応じてクリティカル威力をアップ",
+    "iconId": 424,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      -4104,
+      -4105,
+      -4106,
+      -4107,
+      -4108
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 30203,
+    "buffGroup": 0,
+    "type": 200,
+    "name": "無疵の間合い（殺）",
+    "detail": "宝具チェインを除くチェイン不成立時、自身に回避状態(他の回避状態と重複可能)を付与＆即死耐性をアップ",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [
+      -4100
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 30204,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "暗剣（殺）",
+    "detail": "通常攻撃時にクリティカルが発生しなかった場合、対象の即死耐性をダウン＆被スター発生耐性をダウン ＋ 通常攻撃時にクリティカルが発生した場合、対象に高確率で即死効果 ＋ このグランドサインの効果による即死失敗時、対象に付与されている即死耐性ダウン状態の数が3個以上の場合、対象のクリティカル攻撃耐性をダウン",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [
+      4100
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30205,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4003,
+      4100
+    ],
+    "ckSelfIndv": [
+      4003,
+      4100
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 1
+    },
+    "id": 30206,
+    "buffGroup": 0,
+    "type": 1,
+    "name": "Quick威力アップ〔クリティカル〕",
+    "detail": "クリティカル時のQuickカードの威力をアップ",
+    "iconId": 356,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4001,
+      4100
+    ],
+    "ckSelfIndv": [
+      4001,
+      4100
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 1
+    },
+    "id": 30207,
+    "buffGroup": 0,
+    "type": 1,
+    "name": "Arts威力アップ〔クリティカル〕",
+    "detail": "クリティカル時のArtsカードの威力をアップ",
+    "iconId": 357,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4002,
+      4100
+    ],
+    "ckSelfIndv": [
+      4002,
+      4100
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 1
+    },
+    "id": 30208,
+    "buffGroup": 0,
+    "type": 1,
+    "name": "Buster威力アップ〔クリティカル〕",
+    "detail": "クリティカル時のBusterカードの威力をアップ",
+    "iconId": 358,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "condBuffValue": [
+        {
+          "buffType": 102,
+          "condValue": ">=100",
+          "buffIndividualitie": [
+            3127
+          ],
+          "valueCondTargetType": 0
+        }
+      ]
+    },
+    "id": 30209,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "クリティカル威力アップ",
+    "detail": "自身に付与されている即死付与率アップ状態の効果量合計が10%以上の時、クリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "condBuffValue": [
+        {
+          "buffType": 102,
+          "condValue": ">=300",
+          "buffIndividualitie": [
+            3127
+          ],
+          "valueCondTargetType": 0
+        }
+      ]
+    },
+    "id": 30210,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "クリティカル威力アップ",
+    "detail": "自身に付与されている即死付与率アップ状態の効果量合計が30%以上の時、クリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "condBuffValue": [
+        {
+          "buffType": 102,
+          "condValue": ">=600",
+          "buffIndividualitie": [
+            3127
+          ],
+          "valueCondTargetType": 0
+        }
+      ]
+    },
+    "id": 30211,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "クリティカル威力アップ",
+    "detail": "自身に付与されている即死付与率アップ状態の効果量合計が60%以上の時、クリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "condBuffValue": [
+        {
+          "buffType": 102,
+          "condValue": ">=1000",
+          "buffIndividualitie": [
+            3127
+          ],
+          "valueCondTargetType": 0
+        }
+      ]
+    },
+    "id": 30212,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "クリティカル威力アップ",
+    "detail": "自身に付与されている即死付与率アップ状態の効果量合計が100%以上の時、クリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "condBuffValue": [
+        {
+          "buffType": 102,
+          "condValue": ">=1500",
+          "buffIndividualitie": [
+            3127
+          ],
+          "valueCondTargetType": 0
+        }
+      ]
+    },
+    "id": 30213,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "クリティカル威力アップ",
+    "detail": "自身に付与されている即死付与率アップ状態の効果量合計が150%以上の時、クリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4100
+    ],
+    "script": {
+      "extendLowerLimit": 1000
+    },
+    "id": 30214,
+    "buffGroup": 0,
+    "type": 106,
+    "name": "クリティカル攻撃耐性ダウン",
+    "detail": "クリティカル攻撃による被ダメージ、被NP発生量、被スター発生率が増加する",
+    "iconId": 573,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3125
+    },
+    "id": 30215,
+    "buffGroup": 0,
+    "type": 73,
+    "name": "即死無効〔気配遮断〕",
+    "detail": "〔気配遮断〕状態の間、即死効果を無効にする",
+    "iconId": 340,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      3005
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3125
+    },
+    "id": 30216,
+    "buffGroup": 0,
+    "type": 27,
+    "name": "弱体付与アップ〔気配遮断〕",
+    "detail": "〔気配遮断〕状態の間、弱体付与率をアップ",
+    "iconId": 307,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "extendLowerLimit": 2500
+    },
+    "id": 30217,
+    "buffGroup": 0,
+    "type": 152,
+    "name": "被スター発生耐性ダウン",
+    "detail": "スターが発生する確率を増やす",
+    "iconId": 560,
+    "maxRate": 5000,
     "effectId": 0
   },
   {
@@ -156471,6 +157142,568 @@
     "name": "再創世の試練：マスタースキル",
     "detail": "マスタースキルを累計3回以上使用すると、次のエネミーターン開始時に〔虹の約束〕が果たされる",
     "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150503,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "マーリクの業火",
+    "detail": "ガッツ発動時、自身に耐性を無視する特殊なやけど状態を付与 ＋ 〔鷹の巣の洗礼〕による即死効果を防いだ時、自身の攻撃力をアップ【デメリット】",
+    "iconId": 556,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150504,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "",
+    "detail": "",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      7020
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150505,
+    "buffGroup": 0,
+    "type": 188,
+    "name": "死線攪乱",
+    "detail": "直接ダメージを与えない宝具を使用した時、自身と自身を除く最後尾の味方単体の即死耐性をアップ",
+    "iconId": 396,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150508,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "境界に入る A",
+    "detail": "通常攻撃時、対象に極低確率で即死効果＆即死付与失敗時に自身のクリティカル発生率をアップ ＋ 魅了効果を受けた時、行動不能にならないかわりに自身の行動回数が1減少し、さらに次の〔鷹の巣の洗礼〕が発動しなくなる(行動回数ダウン効果は魅了扱いで重複しない)",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6029
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE_OR": "-3025,-3045,-6040"
+    },
+    "id": 94150509,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "鷹の巣の洗礼",
+    "detail": "コマンドカード選択後の行動開始前に、敵単体に高確率で即死効果<スキル封印・行動不能効果を受けると一時的に無効化される>",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "gutsText": "夜の死"
+    },
+    "id": 94150510,
+    "buffGroup": 0,
+    "type": 104,
+    "name": "",
+    "detail": "",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6031,
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150511,
+    "buffGroup": 0,
+    "type": 238,
+    "name": "夜の死",
+    "detail": "HPが0になった時、HPを回復して耐える ＋ 即死を受けた時、効果回数を消費して〔朝の死〕を発動し、HPを減らすことなく耐える",
+    "iconId": 431,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150512,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "死亡時発動",
+    "detail": "自身がやられた時、敵全体の宝具威力をアップ",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058,
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150518,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "命運",
+    "detail": "防御力をアップ ＋ HP回復効果または最大HPアップ効果を受けた時、自身の〔命運〕の残り回数を2増やす<毎ターンHP回復効果、概念礼装・コマンドコードによる効果を除く>",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150519,
+    "buffGroup": 0,
+    "type": 194,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150520,
+    "buffGroup": 0,
+    "type": 208,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3017,
+      6030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150521,
+    "buffGroup": 94150521,
+    "type": 92,
+    "name": "死相",
+    "detail": "全ての攻撃に対する耐性をダウン＆即死耐性をダウン",
+    "iconId": 529,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      3039,
+      6030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150522,
+    "buffGroup": 94150522,
+    "type": 75,
+    "name": "",
+    "detail": "",
+    "iconId": 506,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150523,
+    "buffGroup": 0,
+    "type": 208,
+    "name": "",
+    "detail": "",
+    "iconId": 306,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150524,
+    "buffGroup": 94150524,
+    "type": 171,
+    "name": "行動回数ダウン〔魅了〕",
+    "detail": "行動回数を減らす(魅了扱い)<重複不可>",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3015
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150525,
+    "buffGroup": 0,
+    "type": 8,
+    "name": "マーリクの業火",
+    "detail": "ターン終了時にHPが減る<耐性を無視する特殊なやけど状態>",
+    "iconId": 513,
+    "maxRate": 0,
+    "effectId": 17122
+  },
+  {
+    "vals": [
+      6021
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150526,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6022
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150527,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6023
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150528,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150529,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "gutsText": "夜の死"
+    },
+    "id": 94150530,
+    "buffGroup": 0,
+    "type": 173,
+    "name": "",
+    "detail": "",
+    "iconId": 384,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6031,
+      "INDIVIDUALITIE_COUNT_ABOVE": 1
+    },
+    "id": 94150531,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "鐘声",
+    "detail": "〔夜の死〕が1つ以上付与されている間、攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6031,
+      "INDIVIDUALITIE_COUNT_ABOVE": 2
+    },
+    "id": 94150532,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "宵闇",
+    "detail": "〔夜の死〕が2つ以上付与されている間、全ての攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003
+    ],
+    "script": {
+      "INDIVIDUALITIE": 6031,
+      "INDIVIDUALITIE_COUNT_ABOVE": 3
+    },
+    "id": 94150533,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "宵闇：Quick",
+    "detail": "〔夜の死〕が3つ以上付与されている間、Quickカードの攻撃による被ダメージ、被NP発生量、被スター発生率が減少する",
+    "iconId": 345,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001
+    ],
+    "script": {
+      "INDIVIDUALITIE": 6031,
+      "INDIVIDUALITIE_COUNT_ABOVE": 4
+    },
+    "id": 94150534,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "宵闇：Arts",
+    "detail": "〔夜の死〕が4つ以上付与されている間、Artsカードの攻撃による被ダメージ、被NP発生量、被スター発生率が減少する",
+    "iconId": 346,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {
+      "INDIVIDUALITIE": 6031,
+      "INDIVIDUALITIE_COUNT_ABOVE": 5
+    },
+    "id": 94150535,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "宵闇：Buster",
+    "detail": "〔夜の死〕が5つ以上付与されている間、Busterカードの攻撃による被ダメージ、被NP発生量、被スター発生率が減少する",
+    "iconId": 347,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150536,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150537,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6031,
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150538,
+    "buffGroup": 0,
+    "type": 238,
+    "name": "夜の死",
+    "detail": "HPゲージがBreakされた時、HPを回復して耐える ＋ 即死を受けた時、効果回数を消費して〔朝の死〕を発動し、HPを減らすことなく耐える",
+    "iconId": 431,
     "maxRate": 0,
     "effectId": 0
   }
