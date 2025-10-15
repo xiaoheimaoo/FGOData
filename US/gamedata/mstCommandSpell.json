@@ -33,102 +33,6 @@
   },
   {
     "funcId": [
-      1
-    ],
-    "svals": [
-      "[1,0]"
-    ],
-    "script": {},
-    "id": 3,
-    "name": "Reload Noble Phantasm",
-    "type": 0,
-    "consume": 1,
-    "detail": "Increase the NP gauge by 100% for all Servants in combat",
-    "motion": 201,
-    "priority": 100
-  },
-  {
-    "funcId": [
-      1
-    ],
-    "svals": [
-      "[1,0]"
-    ],
-    "script": {},
-    "id": 4,
-    "name": "Reload Skill",
-    "type": 0,
-    "consume": 1,
-    "detail": "Refresh all skill cooldowns for all Servants in combat",
-    "motion": 201,
-    "priority": 100
-  },
-  {
-    "funcId": [
-      1
-    ],
-    "svals": [
-      "[1,0]"
-    ],
-    "script": {},
-    "id": 5,
-    "name": "ALL Quick",
-    "type": 0,
-    "consume": 1,
-    "detail": "All command cards distributed next will be Quick",
-    "motion": 201,
-    "priority": 100
-  },
-  {
-    "funcId": [
-      1
-    ],
-    "svals": [
-      "[1,0]"
-    ],
-    "script": {},
-    "id": 6,
-    "name": "ALL Arts",
-    "type": 0,
-    "consume": 1,
-    "detail": "All command cards distributed next will be Arts",
-    "motion": 201,
-    "priority": 100
-  },
-  {
-    "funcId": [
-      1
-    ],
-    "svals": [
-      "[1,0]"
-    ],
-    "script": {},
-    "id": 7,
-    "name": "ALL Buster",
-    "type": 0,
-    "consume": 1,
-    "detail": "All command cards distributed next will be Buster",
-    "motion": 201,
-    "priority": 100
-  },
-  {
-    "funcId": [
-      1
-    ],
-    "svals": [
-      "[1,0]"
-    ],
-    "script": {},
-    "id": 8,
-    "name": "Change Members",
-    "type": 0,
-    "consume": 1,
-    "detail": "Forcefully switch a Servant in combat with a Sub-Member",
-    "motion": 201,
-    "priority": 100
-  },
-  {
-    "funcId": [
       464
     ],
     "svals": [
@@ -144,5 +48,23 @@
     "detail": "Increase one Servant's NP by 100%",
     "motion": 201,
     "priority": 200
+  },
+  {
+    "funcId": [
+      1
+    ],
+    "svals": [
+      "[1,0]"
+    ],
+    "script": {
+      "HideInDetailWindow": 1
+    },
+    "id": 20,
+    "name": "",
+    "type": 6,
+    "consume": 3,
+    "detail": "",
+    "motion": 201,
+    "priority": 0
   }
 ]

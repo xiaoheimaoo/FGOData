@@ -360,6 +360,11 @@
     "detailShort": "Apply Sure Hit (1 turn) for yourself + Deal significant DEF-ignoring damage [{0}] & decrease DEF (3 turns) <effect increases with Overcharge> for a single enemy"
   },
   {
+    "id": 105801,
+    "detail": "Increase Critical Strength (3 turns) <effect increases with Overcharge> & apply Special Attack [Demonic Beast type Servant] status (1 turn) to yourself + Deal significant Special Attack damage [{0}] to a single [Giant] enemy + Gain C. Stars",
+    "detailShort": "Increase Critical Strength (3 turns) <effect increases with Overcharge> & apply Special Attack [Demonic Beast type Servant] status (1 turn) to yourself + Deal significant Special Attack damage [{0}] to a single [Giant] enemy + Gain C. Stars"
+  },
+  {
     "id": 200101,
     "detail": "Deal heavy DEF-ignoring damage to all enemies [{0}] & decrease ATK (3 turns) <effect increases with Overcharge> for all enemies",
     "detailShort": "Deal heavy DEF-ignoring damage to all enemies [{0}] & decrease ATK (3 turns) <effect increases with Overcharge> for all enemies"
@@ -636,7 +641,7 @@
   },
   {
     "id": 203401,
-    "detail": "Apply Sure Hit to yourself (1 turn) + deal significant Special Attack damage to a single enemy with [Evade] (excluding effects that cannot be removed) [{0}] <Special Attack damage increases with Overcharge>  ",
+    "detail": "Apply Sure Hit to yourself (1 turn) + Deal significant Special Attack damage to a single enemy with [Evade] (excluding effects that cannot be removed) [{0}] <Special Attack damage increases with Overcharge>  ",
     "detailShort": "Apply Sure Hit to yourself (1 turn) + Deal significant Special Attack damage to a single enemy with [Evade] (excluding effects that cannot be removed) [{0}] <Special Attack damage increases with Overcharge>  "
   },
   {
@@ -718,6 +723,21 @@
     "id": 204998,
     "detail": "[Normal State] Increase Arts Card effectiveness (1 turn) for yourself <effect increases with Overcharge> + Deal heavy damage [{0}] & remove ATK buffs & remove Burn, Spreading Fire [Demerit] to all enemies \n[NP Change State <NP Change can be done with Skill 3. NP Rank changes to A>] Increase Arts Card effectiveness (1 turn) for yourself <effect increases with Overcharge> + Deal significant damage [{0}] & remove ATK buffs & remove Burn, Spreading Fire [Demerit]to a single enemy",
     "detailShort": "[Normal State] Increase Arts Card effectiveness (1 turn) for yourself <effect increases with Overcharge> + Deal heavy damage [{0}] & remove ATK buffs & remove Burn, Spreading Fire [Demerit] to all enemies \n[NP Change State <NP Change can be done with Skill 3. NP Rank changes to A>] Increase Arts Card effectiveness (1 turn) for yourself <effect increases with Overcharge> + Deal significant damage [{0}] & remove ATK buffs & remove Burn, Spreading Fire [Demerit]to a single enemy"
+  },
+  {
+    "id": 205001,
+    "detail": "Increase NP Strength (1 turn) <effect increases with Overcharge> & apply Ignore DEF (1 turn) for yourself + Deal significant damage [{0}] & decrease DEF (3 turns) for a single enemy",
+    "detailShort": "Increase NP Strength (1 turn) <effect increases with Overcharge> & apply Ignore DEF (1 turn) for yourself + Deal significant damage [{0}] & decrease DEF (3 turns) for a single enemy"
+  },
+  {
+    "id": 205002,
+    "detail": "Increase NP Strength (1 turn) <effect increases with Overcharge> & apply Sure Hit (1 turn) for yourself + Deal heavy damage [{0}] & decrease DEF (3 turns) for all enemies",
+    "detailShort": "Increase NP Strength (1 turn) <effect increases with Overcharge> & apply Sure Hit (1 turn) for yourself + Deal heavy damage [{0}] & decrease DEF (3 turns) for all enemies"
+  },
+  {
+    "id": 205101,
+    "detail": "High chance to apply Sure Hit (1 turn) & high chance to increase Arts Card effectiveness (1 turn) <effect increases with Overcharge> & high chance to increase Buster Card effectiveness (1 turn) <effect increases with Overcharge> & medium chance to increase NP Strength (1 turn) & medium chance to increase NP Strength (1 turn) for yourself + Deal significant damage [{0}] to a single enemy + Remove Increased Buff Success Rate for yourself [Demerit]",
+    "detailShort": "High chance to apply Sure Hit (1 turn) & high chance to increase Arts Card effectiveness (1 turn) <effect increases with Overcharge> & high chance to increase Buster Card effectiveness (1 turn) <effect increases with Overcharge> & medium chance to increase NP Strength (1 turn) & medium chance to increase NP Strength (1 turn) for yourself + Deal significant damage [{0}] to a single enemy + Remove Increased Buff Success Rate for yourself [Demerit]"
   },
   {
     "id": 300101,
@@ -921,8 +941,8 @@
   },
   {
     "id": 303101,
-    "detail": "Increase your NP Strength (1 turn) <effect increases with Overcharge> + deal heavy damage to all enemies [{0}] & inflict Burn (5 turns) to all enemies ",
-    "detailShort": "Increase your NP Strength (1 turn) <effect increases with Overcharge> + deal heavy damage to all enemies [{0}] & inflict Burn (5 turns) to all enemies "
+    "detail": "Increase your NP Strength (1 turn) <effect increases with Overcharge> + Deal heavy damage to all enemies [{0}] & inflict Burn (5 turns) to all enemies ",
+    "detailShort": "Increase your NP Strength (1 turn) <effect increases with Overcharge> + Deal heavy damage to all enemies [{0}] & inflict Burn (5 turns) to all enemies "
   },
   {
     "id": 303102,
@@ -3668,5 +3688,10 @@
     "id": 9945171,
     "detail": "Deal heavy Special Attack damage to all [Lawful] enemies [{0}] <Special Attack damage increases with Overcharge> & remove ATK buffs & inflict Sleep (1 turn) & apply Invincible (1 turn) [Demerit] to all enemies",
     "detailShort": "Deal heavy Special Attack damage to all [Lawful] enemies [{0}] <Special Attack damage increases with Overcharge> & remove ATK buffs & inflict Sleep (1 turn) & apply Invincible (1 turn) [Demerit] to all enemies"
+  },
+  {
+    "id": 9945191,
+    "detail": "",
+    "detailShort": ""
   }
 ]

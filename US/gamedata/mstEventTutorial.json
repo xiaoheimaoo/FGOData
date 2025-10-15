@@ -1,6 +1,101 @@
 [
   {
     "targetIds": [
+      "[94087002]",
+      "[94087053]",
+      "[94087054]",
+      "[94087055]"
+    ],
+    "condIds": [],
+    "imageIds": [],
+    "textJson": [
+      {
+        "scrDlgTitle": "About Party Effects",
+        "rects": [],
+        "text": "\nParty Effects will activate when there are 2 or more Servants as Party Members and will become more powerful as the number of participants increases. Some effects will be applied not only to the Player's side, but also on the enemy's side if there are 2 or more enemies participating in battle. The type of effect may vary depending on the battle.\n\n■Party Effect in this battle (1)\nIncrease ATK Strength for the entire party\n\n・2 Servants…20%\n・3 Servants…20%×2 (Total 40%)\n・4 Servants…20%×3 (Total 60%)\n・5 Servants…20%×4 (Total 80%)\n・6 Servants…20%×5 (Total 100%)\n\n■Party Effect in this battle (2)【Applied only to Player side】\nIncrease DEF for the entire party\n\n・2 or more Servants…15％\n\n■Party Effect in this battle (3)【Applied only to Player side】\nIncrease HP Recovery amount for the entire party\n\n・2 or more Servants…50％\n",
+        "textPos": [
+          0,
+          30
+        ],
+        "dlgFontSize": 26,
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": -99,
+    "flagType": 1,
+    "num": 1,
+    "priority": 0,
+    "openType": 77,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[94087001]",
+      "[94087003]",
+      "[94087004]",
+      "[94087005]"
+    ],
+    "condIds": [],
+    "imageIds": [],
+    "textJson": [
+      {
+        "scrDlgTitle": "About Party Effects",
+        "rects": [],
+        "text": "\nParty Effects will activate when there are 2 or more Servants as Party Members and will become more powerful as the number of participants increases. Some effects will be applied not only to the Player's side, but also on the enemy's side if there are 2 or more enemies participating in battle. The type of effect may vary depending on the battle.\n\n■Party Effect in this battle (1)\nIncrease ATK Strength for the entire party\n・2 Servants…20%\n・3 Servants…20%×2 (Total 40%)\n・4 Servants…20%×3 (Total 60%)\n・5 Servants…20%×4 (Total 80%)\n・6 Servants…20%×5 (Total 100%)\n\n■Party Effect in this battle (2)【Applied only to Player side】\nIncrease C. Star Drop Rate for the entire party\n・2 or more Servants…100％\n",
+        "textPos": [
+          0,
+          30
+        ],
+        "dlgFontSize": 26,
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": -98,
+    "flagType": 1,
+    "num": 1,
+    "priority": 0,
+    "openType": 77,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      1079
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": -97,
+    "flagType": 60,
+    "num": 1,
+    "priority": 1,
+    "openType": 63,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
       "[]"
     ],
     "condIds": [
@@ -979,14 +1074,7 @@
   },
   {
     "targetIds": [
-      "[94071440]",
-      "[94071401]",
-      "[94071402]",
-      "[94071403]",
-      "[94071404]",
-      "[94071405]",
-      "[94071406]",
-      "[94071407]"
+      "[8043905]"
     ],
     "condIds": [],
     "imageIds": [
@@ -998,7 +1086,7 @@
     "flagType": 61,
     "num": 4,
     "priority": 0,
-    "openType": 64,
+    "openType": 84,
     "condType": 0,
     "condValue": 0,
     "condValue2": 0,
@@ -1102,11 +1190,9 @@
   },
   {
     "targetIds": [
-      "[9134]"
+      "[8043904]"
     ],
-    "condIds": [
-      94071421
-    ],
+    "condIds": [],
     "imageIds": [
       985
     ],
@@ -1116,8 +1202,8 @@
     "flagType": 2,
     "num": 1,
     "priority": 0,
-    "openType": 18,
-    "condType": 1,
+    "openType": 84,
+    "condType": 0,
     "condValue": 0,
     "condValue2": 0,
     "condValue3": 0,
@@ -1576,28 +1662,7 @@
     "eventId": -32,
     "flagType": 61,
     "num": 3,
-    "priority": 0,
-    "openType": 64,
-    "condType": 0,
-    "condValue": 0,
-    "condValue2": 0,
-    "condValue3": 0,
-    "flag": 0
-  },
-  {
-    "targetIds": [
-      "[]"
-    ],
-    "condIds": [],
-    "imageIds": [
-      914
-    ],
-    "textJson": [],
-    "script": {},
-    "eventId": -31,
-    "flagType": 61,
-    "num": 2,
-    "priority": 0,
+    "priority": 2,
     "openType": 64,
     "condType": 0,
     "condValue": 0,
@@ -1619,7 +1684,7 @@
     "eventId": -30,
     "flagType": 61,
     "num": 1,
-    "priority": 0,
+    "priority": 3,
     "openType": 64,
     "condType": 0,
     "condValue": 0,
@@ -1640,7 +1705,7 @@
     "eventId": -29,
     "flagType": 60,
     "num": 1,
-    "priority": 0,
+    "priority": 2,
     "openType": 63,
     "condType": 0,
     "condValue": 0,
@@ -1650,7 +1715,7 @@
   },
   {
     "targetIds": [
-      "[]"
+      "[8043903]"
     ],
     "condIds": [],
     "imageIds": [
@@ -1662,7 +1727,7 @@
     "flagType": 59,
     "num": 1,
     "priority": 0,
-    "openType": 62,
+    "openType": 84,
     "condType": 0,
     "condValue": 0,
     "condValue2": 0,
@@ -1671,30 +1736,10 @@
   },
   {
     "targetIds": [
-      "[]"
-    ],
-    "condIds": [],
-    "imageIds": [
-      876
-    ],
-    "textJson": [],
-    "script": {},
-    "eventId": -27,
-    "flagType": 62,
-    "num": 1,
-    "priority": 0,
-    "openType": 65,
-    "condType": 0,
-    "condValue": 0,
-    "condValue2": 0,
-    "condValue3": 0,
-    "flag": 0
-  },
-  {
-    "targetIds": [
-      "[8359]",
-      "[9112]",
-      "[9134]"
+      "[9152]",
+      "[9153]",
+      "[9154]",
+      "[9155]"
     ],
     "condIds": [
       94055901,
@@ -1717,7 +1762,9 @@
       94071404,
       94071405,
       94071406,
-      94071407
+      94071407,
+      94086907,
+      94086957
     ],
     "imageIds": [
       881
@@ -1728,7 +1775,7 @@
     "flagType": 4,
     "num": 1,
     "priority": 0,
-    "openType": 18,
+    "openType": 1,
     "condType": 1,
     "condValue": 0,
     "condValue2": 0,
@@ -21259,6 +21306,131 @@
     "condValue2": 0,
     "condValue3": 0,
     "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      1078
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80439,
+    "flagType": 4,
+    "num": 1,
+    "priority": 0,
+    "openType": 20,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9152]",
+      "[9153]",
+      "[9154]",
+      "[9155]"
+    ],
+    "condIds": [
+      94086903
+    ],
+    "imageIds": [
+      1083
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80439,
+    "flagType": 8,
+    "num": 1,
+    "priority": 0,
+    "openType": 1,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[914701]",
+      "[914702]",
+      "[914703]",
+      "[914705]",
+      "[914706]",
+      "[914707]",
+      "[914708]",
+      "[914709]",
+      "[914710]",
+      "[914720]",
+      "[914721]",
+      "[914722]",
+      "[914723]",
+      "[914724]"
+    ],
+    "condIds": [
+      94086905
+    ],
+    "imageIds": [
+      1081
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80439,
+    "flagType": 13,
+    "num": 1,
+    "priority": 0,
+    "openType": 3,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      1078
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80439,
+    "flagType": 21,
+    "num": 1,
+    "priority": 0,
+    "openType": 23,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[8043901]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      1082
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80439,
+    "flagType": 62,
+    "num": 1,
+    "priority": 0,
+    "openType": 84,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 2
   },
   {
     "targetIds": [
