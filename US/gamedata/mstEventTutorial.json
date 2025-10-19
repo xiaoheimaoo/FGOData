@@ -1,6 +1,40 @@
 [
   {
     "targetIds": [
+      "[94087008]"
+    ],
+    "condIds": [],
+    "imageIds": [],
+    "textJson": [
+      {
+        "scrDlgTitle": "About Party Effects",
+        "rects": [],
+        "text": "\nParty Effects will activate when there are 2 or more Servants as Party Members and will become more powerful as the number of participants increases. Some effects will be applied not only to the Player's side, but also on the enemy's side if there are 2 or more enemies participating in battle. The type of effect may vary depending on the battle.\n\n■Party Effect in this battle (1)\nIncrease ATK Strength for the entire party\n・2 Servants…20%\n・3 Servants…20%×2 (Total 40%)\n・4 Servants…20%×3 (Total 60%)\n・5 Servants…20%×4 (Total 80%)\n・6 Servants…20%×5 (Total 100%)\n\n■Party Effect in this battle (2)【Applied only to Player's side】\nIncrease C. Star Drop Rate for the entire party\n・2 or more Servants…100％\n\n■Party Effect in this battle (3)【Applied only to Player's side】\nIncrease DEF for the entire party\n・2 or more Servants…15％\n\n■Party Effect in this battle (4)【Applied only to Player's side】\nIncrease HP Recovery amount for the entire party\n・2 or more Servants…50％\n",
+        "textPos": [
+          0,
+          30
+        ],
+        "dlgFontSize": 26,
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": -100,
+    "flagType": 1,
+    "num": 1,
+    "priority": 0,
+    "openType": 77,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
       "[94087002]",
       "[94087053]",
       "[94087054]",
