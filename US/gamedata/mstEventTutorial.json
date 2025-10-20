@@ -40,7 +40,8 @@
       "[94087054]",
       "[94087055]",
       "[94087056]",
-      "[94087057]"
+      "[94087057]",
+      "[94087059]"
     ],
     "condIds": [],
     "imageIds": [],
@@ -79,7 +80,8 @@
       "[94087004]",
       "[94087005]",
       "[94087006]",
-      "[94087007]"
+      "[94087007]",
+      "[94087009]"
     ],
     "condIds": [],
     "imageIds": [],
@@ -21347,6 +21349,39 @@
   },
   {
     "targetIds": [
+      "[8043902]"
+    ],
+    "condIds": [],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "If a Servant's HP reaches 0 due to a Harpe attack, when the battle ends that Servant will [00FFFF]withdraw/be removed from[-] the field even if they still have Break Points remaining.",
+        "dlgFontSize": 30,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80439,
+    "flagType": 2,
+    "num": 1,
+    "priority": 0,
+    "openType": 84,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 2
+  },
+  {
+    "targetIds": [
       "[]"
     ],
     "condIds": [],
@@ -21365,6 +21400,39 @@
     "condValue2": 0,
     "condValue3": 0,
     "flag": 0
+  },
+  {
+    "targetIds": [
+      "[8043907]"
+    ],
+    "condIds": [],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "Typhon Ephemeros will periodically use an area of effect breath attack.\n\nThe breath attack range is shown on the map, and all targets in range will sustain damage.\nFight while avoiding the breath attacks.\n\n* Breath attacks cannot be avoided with Evade or Invincible.\n* If a Servant has any effects that are activated on defeat or by Guts, these effects will not activate if they are defeated by the breath attack.",
+        "dlgFontSize": 30,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80439,
+    "flagType": 6,
+    "num": 1,
+    "priority": 0,
+    "openType": 84,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 2
   },
   {
     "targetIds": [
@@ -21448,6 +21516,27 @@
     "condValue2": 0,
     "condValue3": 0,
     "flag": 0
+  },
+  {
+    "targetIds": [
+      "[8043906]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      1080
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80439,
+    "flagType": 59,
+    "num": 1,
+    "priority": 0,
+    "openType": 84,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 2
   },
   {
     "targetIds": [
