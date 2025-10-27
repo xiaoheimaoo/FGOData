@@ -88317,6 +88317,40 @@
   },
   {
     "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5978,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "死亡時発動",
+    "detail": "自身がやられた時、自身を除く味方全体のNPを増やす",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5979,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "自焼",
+    "detail": "ターン終了時に自身のHPを減らす",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3006
     ],
@@ -157767,6 +157801,60 @@
     "name": "メモリーＥＡ細胞",
     "detail": "ターン終了時、自身の毒・蝕毒・やけど・延焼・呪い・呪厄・睡眠・スキル封印・宝具封印・精神異常・行動不能状態を解除<対象の状態異常がある時、有効>",
     "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3,
+      "relationId": 94150002
+    },
+    "id": 94150021,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔フォーリナー〕クラスに対するクラス相性が優位になる",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150022,
+    "buffGroup": 1900,
+    "type": 115,
+    "name": "毎ターンチャージマイナス",
+    "detail": "毎ターンチャージが1減る",
+    "iconId": 519,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150023,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "復活の神力",
+    "detail": "ガッツ発動時、自身のチャージを3増やす",
+    "iconId": 365,
     "maxRate": 0,
     "effectId": 0
   },
