@@ -1076,7 +1076,9 @@
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
-    "script": {},
+    "script": {
+      "ProgressSelfTurn": 0
+    },
     "id": 151,
     "buffGroup": 200,
     "type": 24,
@@ -98763,6 +98765,257 @@
     "type": 137,
     "name": "Bonus Effect with Noble Phantasm",
     "detail": "Inflict Curse to target when attacking with Noble Phantasm",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024,
+      6036
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94090701,
+    "buffGroup": 600,
+    "type": 37,
+    "name": "Kaurava's Bond",
+    "detail": "When HP reaches 0, recover HP and survive",
+    "iconId": 304,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94090702,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect with Noble Phantasm",
+    "detail": "Decrease NP Gauge & apply Nullify Buff & apply [Unscrupulous Trick] trait when attacking with Noble Phantasm",
+    "iconId": 549,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94090703,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "Confidence in Eldest Brother",
+    "detail": "Increase ATK <Effect increases each turn>",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94090704,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Unscrupulous Trick",
+    "detail": "Apply [Unscrupulous Trick] trait",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3085,
+      3040
+    ],
+    "tvals": [
+      5000,
+      6037
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      6037
+    ],
+    "script": {},
+    "id": 94090705,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "Damage Cut [Unscrupulous Trick]",
+    "detail": "Decrease damage taken from [Unscrupulous Trick]",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94090706,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect with Normal Attack",
+    "detail": "Decrease either Quick, Arts, or Buster resist of target during normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94090707,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect when Attacking",
+    "detail": "Remove 3 Buffs of target during attack",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      6027
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94090708,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003
+    ],
+    "script": {},
+    "id": 94090709,
+    "buffGroup": 0,
+    "type": 106,
+    "name": "Quick Resist Down",
+    "detail": "Increase damage taken, NP generated, and C. Star drop rate upon damage from Quick Cards",
+    "iconId": 539,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001
+    ],
+    "script": {},
+    "id": 94090710,
+    "buffGroup": 0,
+    "type": 106,
+    "name": "Arts Resist Down",
+    "detail": "Increase damage taken, NP generated, and C. Star drop rate upon damage from Arts Cards",
+    "iconId": 540,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {},
+    "id": 94090711,
+    "buffGroup": 0,
+    "type": 106,
+    "name": "Buster Resist Down",
+    "detail": "Increase damage taken, NP generated, and C. Star drop rate upon damage from Buster Cards",
+    "iconId": 541,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [
+      4008
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94090712,
+    "buffGroup": 9999,
+    "type": 148,
+    "name": "Pre-ATK Damage Bonus Effect",
+    "detail": "Decrease target's NP Gain before damage during normal attacks & decrease HP",
     "iconId": 528,
     "maxRate": 0,
     "effectId": 0
