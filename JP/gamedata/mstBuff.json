@@ -88319,6 +88319,106 @@
     "vals": [
       3004
     ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {},
+    "id": 5973,
+    "buffGroup": 0,
+    "type": 29,
+    "name": "対魔力 B",
+    "detail": "弱体耐性をアップ",
+    "iconId": 306,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 5974,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "天の楔 EX",
+    "detail": "クリティカルの発生率をアップ＆クリティカル時のダメージをアップ",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3029
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5975,
+    "buffGroup": 0,
+    "type": 13,
+    "name": "神性 A+",
+    "detail": "与えるダメージを増やす",
+    "iconId": 302,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5976,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "神代回帰 A",
+    "detail": "全ての攻撃に対する耐性をアップ＆〔星・天・地の力〕に与えるダメージをアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 5977,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "攻撃力アップ",
+    "detail": "攻撃力をアップ<フィールドにいる敵の数が多いほど効果量アップ>",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
@@ -88347,6 +88447,29 @@
     "detail": "ターン終了時に自身のHPを減らす",
     "iconId": 537,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4008
+    ],
+    "script": {},
+    "id": 5980,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "通常攻撃耐性アップ",
+    "detail": "通常攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
     "effectId": 0
   },
   {
@@ -92354,6 +92477,896 @@
     "detail": "スターが発生する確率を増やす",
     "iconId": 560,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      4104
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30218,
+    "buffGroup": 0,
+    "type": 200,
+    "name": "クイックチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むクイックチェイン成立時、自身のQuickカードの威力をアップ＆〔鈍の矢弾〕状態を消費して付与されたQuick攻撃強化状態の効果量を一時的に増大させる状態を付与",
+    "iconId": 420,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      4105
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30219,
+    "buffGroup": 0,
+    "type": 200,
+    "name": "アーツチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むアーツチェイン成立時、自身のArtsカードの威力をアップ＆〔鈍の矢弾〕状態を消費して付与されたArts攻撃強化状態の効果量を一時的に増大させる状態を付与",
+    "iconId": 421,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      4106
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30220,
+    "buffGroup": 0,
+    "type": 200,
+    "name": "バスターチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むバスターチェイン成立時、自身のBusterカードの威力をアップ＆〔鈍の矢弾〕状態を消費して付与されたBuster攻撃強化状態の効果量を一時的に増大させる状態を付与",
+    "iconId": 422,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      4107
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30221,
+    "buffGroup": 0,
+    "type": 200,
+    "name": "マイティチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むマイティチェイン成立時、自身に必中状態を付与＆〔鈍の矢弾〕状態の残り回数を増加する",
+    "iconId": 424,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      -4104,
+      -4105,
+      -4106,
+      -4107,
+      -4108
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 30222,
+    "buffGroup": 0,
+    "type": 200,
+    "name": "射て晴らすは征箭の雨（弓）",
+    "detail": "宝具チェインを除くチェイン不成立時、自身に〔見敵迎撃〕状態を付与(強化解除不能・重複不可)＆〔鈍の矢弾〕状態の残り回数を増加する",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3071
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UpBuffRateBuffIndiv": "3129"
+    },
+    "id": 30223,
+    "buffGroup": 0,
+    "type": 162,
+    "name": "Quickブースト〔鈍の矢弾〕",
+    "detail": "〔鈍の矢弾〕状態を消費して付与されたQuick攻撃強化状態の効果量を一時的に増大させる",
+    "iconId": 433,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3071
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UpBuffRateBuffIndiv": "3130"
+    },
+    "id": 30224,
+    "buffGroup": 0,
+    "type": 162,
+    "name": "Artsブースト〔鈍の矢弾〕",
+    "detail": "〔鈍の矢弾〕状態を消費して付与されたArts攻撃強化状態の効果量を一時的に増大させる",
+    "iconId": 434,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3071
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UpBuffRateBuffIndiv": "3131"
+    },
+    "id": 30225,
+    "buffGroup": 0,
+    "type": 162,
+    "name": "Busterブースト〔鈍の矢弾〕",
+    "detail": "〔鈍の矢弾〕状態を消費して付与されたBuster攻撃強化状態の効果量を一時的に増大させる",
+    "iconId": 435,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3128
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 100
+    },
+    "id": 30226,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "鈍の矢弾",
+    "detail": "特定の行動時に消費され、グランドサインの特殊効果の発動機会を得る",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      4004
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30227,
+    "buffGroup": 0,
+    "type": 179,
+    "name": "鷲の目（弓）",
+    "detail": "Quick・Arts・Buster攻撃時に〔鈍の矢弾〕状態を1回分消費して、そのコマンドカードの威力をアップ＆そのコマンドカードが必中効果を得ている時は、さらにそのコマンドカードのクリティカル威力か宝具威力をアップ ＋ Extra攻撃時に〔鈍の矢弾〕状態を1回分消費して、Extra Attackカードの威力をアップ",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [
+      4003,
+      -3019
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 3,
+      "IndvAddBuffPassive": 1
+    },
+    "id": 30228,
+    "buffGroup": 0,
+    "type": 181,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [
+      4003,
+      7023,
+      3019
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 1,
+      "IndvAddBuffPassive": 1
+    },
+    "id": 30229,
+    "buffGroup": 0,
+    "type": 179,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [
+      4003,
+      4007,
+      7021,
+      3019
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 1,
+      "IndvAddBuffPassive": 1
+    },
+    "id": 30230,
+    "buffGroup": 0,
+    "type": 181,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [
+      4003,
+      4007,
+      7022,
+      3019
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 1,
+      "IndvAddBuffPassive": 1
+    },
+    "id": 30231,
+    "buffGroup": 0,
+    "type": 181,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [
+      4003,
+      7020,
+      3019,
+      -4100
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 3,
+      "IndvAddBuffPassive": 1
+    },
+    "id": 30232,
+    "buffGroup": 0,
+    "type": 179,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [
+      4003,
+      4100,
+      7020,
+      3019
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 1,
+      "IndvAddBuffPassive": 1
+    },
+    "id": 30233,
+    "buffGroup": 0,
+    "type": 179,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [
+      4001,
+      -3019
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 3,
+      "IndvAddBuffPassive": 1
+    },
+    "id": 30234,
+    "buffGroup": 0,
+    "type": 181,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [
+      4001,
+      7023,
+      3019
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 1,
+      "IndvAddBuffPassive": 1
+    },
+    "id": 30235,
+    "buffGroup": 0,
+    "type": 179,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [
+      4001,
+      4007,
+      7021,
+      3019
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 1,
+      "IndvAddBuffPassive": 1
+    },
+    "id": 30236,
+    "buffGroup": 0,
+    "type": 181,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [
+      4001,
+      4007,
+      7022,
+      3019
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 1,
+      "IndvAddBuffPassive": 1
+    },
+    "id": 30237,
+    "buffGroup": 0,
+    "type": 181,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [
+      4001,
+      7020,
+      3019,
+      -4100
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 3,
+      "IndvAddBuffPassive": 1
+    },
+    "id": 30238,
+    "buffGroup": 0,
+    "type": 179,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [
+      4001,
+      4100,
+      7020,
+      3019
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 1,
+      "IndvAddBuffPassive": 1
+    },
+    "id": 30239,
+    "buffGroup": 0,
+    "type": 179,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [
+      4002,
+      -3019
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 3,
+      "IndvAddBuffPassive": 1
+    },
+    "id": 30240,
+    "buffGroup": 0,
+    "type": 181,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [
+      4002,
+      7023,
+      3019
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 1,
+      "IndvAddBuffPassive": 1
+    },
+    "id": 30241,
+    "buffGroup": 0,
+    "type": 179,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [
+      4002,
+      4007,
+      7021,
+      3019
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 1,
+      "IndvAddBuffPassive": 1
+    },
+    "id": 30242,
+    "buffGroup": 0,
+    "type": 181,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [
+      4002,
+      4007,
+      7022,
+      3019
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 1,
+      "IndvAddBuffPassive": 1
+    },
+    "id": 30243,
+    "buffGroup": 0,
+    "type": 181,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [
+      4002,
+      7020,
+      3019,
+      -4100
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 3,
+      "IndvAddBuffPassive": 1
+    },
+    "id": 30244,
+    "buffGroup": 0,
+    "type": 179,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [
+      4002,
+      4100,
+      7020,
+      3019
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 1,
+      "IndvAddBuffPassive": 1
+    },
+    "id": 30245,
+    "buffGroup": 0,
+    "type": 179,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30246,
+    "buffGroup": 0,
+    "type": 95,
+    "name": "単独行動（弓）",
+    "detail": "自身の登場時、自身の〔鈍の矢弾〕状態の残り回数を増加する ＋ 毎ターン終了時、自身の〔鈍の矢弾〕状態の残り回数を増加する",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30247,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      7023,
+      -7001
+    ],
+    "script": {
+      "checkIndvType": 2,
+      "INDIVIDUALITIE": 3128
+    },
+    "id": 30248,
+    "buffGroup": 30248,
+    "type": 240,
+    "name": "見敵迎撃",
+    "detail": "敵の攻撃宝具使用時の効果発動前に、〔鈍の矢弾〕状態を1回分消費して、敵全体の攻撃強化状態を1つ解除＆宝具威力をダウン<最大3回分消費して回数分の効果が発動>(見敵迎撃状態は重複不可)",
+    "iconId": 436,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3129
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30249,
+    "buffGroup": 0,
+    "type": 1,
+    "name": "Quick威力アップ",
+    "detail": "Quickカードの威力をアップ",
+    "iconId": 356,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3130
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30250,
+    "buffGroup": 0,
+    "type": 1,
+    "name": "Arts威力アップ",
+    "detail": "Artsカードの威力をアップ",
+    "iconId": 357,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3131
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30251,
+    "buffGroup": 0,
+    "type": 1,
+    "name": "Buster威力アップ",
+    "detail": "Busterカードの威力をアップ",
+    "iconId": 358,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031,
+      3129
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30252,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "クリティカル威力アップ：Quick",
+    "detail": "Quickカードのクリティカル時のダメージをアップ",
+    "iconId": 390,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031,
+      3130
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30253,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "クリティカル威力アップ：Arts",
+    "detail": "Artsカードのクリティカル時のダメージをアップ",
+    "iconId": 391,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031,
+      3131
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 30254,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "クリティカル威力アップ：Buster",
+    "detail": "Busterカードのクリティカル時のダメージをアップ",
+    "iconId": 392,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030,
+      3129
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 30255,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "宝具威力アップ：Quick",
+    "detail": "Quickカードの宝具で与えるダメージをアップ",
+    "iconId": 310,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030,
+      3130
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 30256,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "宝具威力アップ：Arts",
+    "detail": "Artsカードの宝具で与えるダメージをアップ",
+    "iconId": 310,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030,
+      3131
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 30257,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "宝具威力アップ：Buster",
+    "detail": "Busterカードの宝具で与えるダメージをアップ",
+    "iconId": 310,
+    "maxRate": 50000,
     "effectId": 0
   },
   {
@@ -158592,6 +159605,398 @@
     "detail": "HPゲージがBreakされた時、HPを回復して耐える ＋ 即死を受けた時、効果回数を消費して〔朝の死〕を発動し、HPを減らすことなく耐える",
     "iconId": 431,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 7022
+    },
+    "id": 94150800,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "弾幕交差",
+    "detail": "全体攻撃宝具による攻撃時、対象の〔財宝〕状態を解除＆1ターンの間〔バビロンの蔵〕による与ダメージが減少し、さらに〔財宝〕状態が付与されなくなる",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150801,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150802,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "バビロンの蔵 EX",
+    "detail": "〔サーヴァント〕に与えるダメージをアップ[特別な星の力を持つサーヴァントには特攻無効]<自身に付与されている〔財宝〕状態の数が多いほど効果量アップ>＆クリティカル発生率をアップ ＋ エネミーターン終了時、敵単体または敵全体にダメージを与える<自身が全体攻撃宝具を受けると1ターンの間〔バビロンの蔵〕による与ダメージが減少>",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150803,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "財宝",
+    "detail": "〔バビロンの蔵〕の特攻威力をアップ<全体攻撃宝具を受けると解除される>",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027,
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150804,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "破裂する死棘の投槍",
+    "detail": "攻撃力をアップ＆回避を無視して、攻撃によるダメージを与える ＋ 攻撃時、対象の最大HPを減らす",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027,
+      6029
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150805,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "虹の螺旋剣",
+    "detail": "攻撃力をアップ ＋ 攻撃時、ダメージ前に対象の防御力をダウン ＋ 攻撃時、低確率で対象の防御強化状態を1つ解除",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027,
+      6030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150806,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "帯電する聖仙骨",
+    "detail": "攻撃力をアップ ＋ 攻撃時、低確率で対象に帯電状態を付与",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027,
+      6031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150807,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "血啜りの魔剣",
+    "detail": "攻撃力をアップ＆ターン終了時にHPが減る【デメリット】 ＋ 攻撃時、低確率で対象のNPを少し減らす",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027,
+      6032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150808,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "毀れずの剣",
+    "detail": "攻撃力をアップ ＋ 攻撃時、自身の防御力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027,
+      6033
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150809,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "原罪",
+    "detail": "攻撃力をアップ＆毎ターンチャージを増やす ＋ 攻撃時、自身のHPを回復",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150810,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "天地乖離す開闢の星",
+    "detail": "攻撃力をアップ＆回避と無敵を無視して、攻撃によるダメージを与える＆毎ターンチャージを増やす",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150811,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150812,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "",
+    "detail": "",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150813,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150814,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150815,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150816,
+    "buffGroup": 0,
+    "type": 182,
+    "name": "",
+    "detail": "",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150817,
+    "buffGroup": 0,
+    "type": 182,
+    "name": "",
+    "detail": "",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2008
+    ],
+    "script": {},
+    "id": 94150818,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "",
+    "detail": "",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94150819,
+    "buffGroup": 0,
+    "type": 8,
+    "name": "",
+    "detail": "",
+    "iconId": 521,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94150820,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "特殊耐性アップ〔宝具〕",
+    "detail": "宝具攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
     "effectId": 0
   }
 ]
