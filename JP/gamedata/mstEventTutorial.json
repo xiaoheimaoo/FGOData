@@ -1,6 +1,136 @@
 [
   {
     "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      20151202
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "isClassBoardRelease": false,
+        "dlgBgId": 0,
+        "rects": [],
+        "ptPos": [
+          0,
+          0
+        ],
+        "isQuestRelease": false,
+        "text": "ソロモンとの決戦は\n12月3日 18:00 より\n『冠位戴冠戦：Caster』\nとして開催されます。\n\n「終章_序／終局特異点より」の\n続きのストーリーは\n『冠位戴冠戦：Caster』の\n認定戦をクリアすることで開放されます。",
+        "textPos": [
+          0,
+          30
+        ],
+        "spacingY": 2,
+        "dlgFontSize": 26,
+        "commonReleaseId": 0,
+        "isFortification": false,
+        "isSelectBonus": false,
+        "questId": 0
+      }
+    ],
+    "script": {},
+    "eventId": -201,
+    "flagType": 65,
+    "num": 1,
+    "priority": 100,
+    "openType": 83,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      20151005
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "isClassBoardRelease": false,
+        "dlgBgId": 0,
+        "rects": [],
+        "ptPos": [
+          0,
+          0
+        ],
+        "isQuestRelease": false,
+        "text": "『終章_序』\nが開放されました。",
+        "textPos": [
+          0,
+          30
+        ],
+        "spacingY": 0,
+        "dlgFontSize": 30,
+        "commonReleaseId": 0,
+        "isFortification": false,
+        "isSelectBonus": false,
+        "questId": 0
+      }
+    ],
+    "script": {
+      "beforeActionSetup": [
+        "114",
+        "1040111,0"
+      ],
+      "beforeActionVals": [
+        "900",
+        "500",
+        "300",
+        "1040111,15,1000",
+        "104",
+        "1040111,1",
+        "900",
+        "500"
+      ]
+    },
+    "eventId": -196,
+    "flagType": 1,
+    "num": 1,
+    "priority": 104,
+    "openType": 83,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      20151005
+    ],
+    "imageIds": [],
+    "textJson": [],
+    "script": {
+      "beforeActionSetup": [],
+      "beforeActionVals": [
+        "500",
+        "4000600",
+        "900",
+        "1000"
+      ]
+    },
+    "eventId": -196,
+    "flagType": 2,
+    "num": 1,
+    "priority": 103,
+    "openType": 83,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
       "[10002]"
     ],
     "condIds": [
