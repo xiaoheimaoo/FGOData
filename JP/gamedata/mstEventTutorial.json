@@ -47,6 +47,205 @@
       "[]"
     ],
     "condIds": [
+      4000600
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "isClassBoardRelease": false,
+        "dlgBgId": 0,
+        "rects": [],
+        "ptPos": [
+          0,
+          0
+        ],
+        "isQuestRelease": false,
+        "text": "『冠位戴冠戦：Caster』\nが開放されました。\n\n冠位解放戦クエストをクリアし、\n戴冠条件を満たしたキャスターの中から、\nグランドサーヴァント〔キャスター〕\nを選定しましょう。\n\n「終章_序／終局特異点より」の\n続きのストーリーは\n『冠位戴冠戦：Caster』の\n認定戦をクリアすることで開放されます。",
+        "textPos": [
+          0,
+          30
+        ],
+        "spacingY": 2,
+        "dlgFontSize": 26,
+        "commonReleaseId": 0,
+        "isFortification": false,
+        "isSelectBonus": false,
+        "questId": 0
+      }
+    ],
+    "script": {},
+    "eventId": -200,
+    "flagType": 65,
+    "num": 1,
+    "priority": 1,
+    "openType": 99,
+    "condType": 46,
+    "condValue": 1,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      4000600
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "isClassBoardRelease": false,
+        "dlgBgId": 0,
+        "rects": [],
+        "ptPos": [
+          0,
+          0
+        ],
+        "isQuestRelease": false,
+        "text": "『冠位戴冠戦：Caster』\nが開放されました。\n\n冠位解放戦クエストをクリアし、\n戴冠条件を満たしたキャスターの中から、\nグランドサーヴァント〔キャスター〕\nを選定しましょう。\n\n「終章_序／終局特異点より」の\n続きのストーリーは\n『冠位戴冠戦：Caster』の\n認定戦をクリアすることで開放されます。",
+        "textPos": [
+          0,
+          30
+        ],
+        "spacingY": 2,
+        "dlgFontSize": 26,
+        "commonReleaseId": 0,
+        "isFortification": false,
+        "isSelectBonus": false,
+        "questId": 0
+      }
+    ],
+    "script": {},
+    "eventId": -200,
+    "flagType": 65,
+    "num": 2,
+    "priority": 2,
+    "openType": 107,
+    "condType": 46,
+    "condValue": 1,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[94151210,1]"
+    ],
+    "condIds": [],
+    "imageIds": [],
+    "textJson": [
+      {
+        "commonReleaseId": 0,
+        "isClassBoardRelease": false,
+        "dlgBgId": 0,
+        "title": "グランドサーヴァントを2騎編成するクエストについて",
+        "ptPos": [
+          0,
+          0
+        ],
+        "dlgTitleFontSize": 27,
+        "isQuestRelease": false,
+        "text": "自身のグランドキャスターに加えて\nグランドサーヴァントを\nもう1騎編成する必要があります。\n\n所持サーヴァントまたは\nサポートのサーヴァントから編成できます。",
+        "rects": [],
+        "spacingY": 0,
+        "dlgFontSize": 26,
+        "textPos": [
+          0,
+          13
+        ],
+        "isFortification": false,
+        "isSelectBonus": false,
+        "questId": 0
+      }
+    ],
+    "script": {},
+    "eventId": -200,
+    "flagType": 69,
+    "num": 1,
+    "priority": 0,
+    "openType": 45,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      20151000
+    ],
+    "imageIds": [],
+    "textJson": [],
+    "script": {
+      "beforeActionSetup": [
+        "114",
+        "1040701,0"
+      ],
+      "beforeActionVals": [
+        "300",
+        "1040701,15,1000",
+        "104",
+        "1040701,1",
+        "900",
+        "1000",
+        "702",
+        "0,407",
+        "900",
+        "1000"
+      ]
+    },
+    "eventId": -198,
+    "flagType": 1,
+    "num": 1,
+    "priority": 102,
+    "openType": 83,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      4000600
+    ],
+    "imageIds": [],
+    "textJson": [],
+    "script": {
+      "beforeActionSetup": [
+        "114",
+        "1040111,1",
+        "300",
+        "1040111,15,1"
+      ],
+      "beforeActionVals": [
+        "104",
+        "1040111,0"
+      ]
+    },
+    "eventId": -197,
+    "flagType": 1,
+    "num": 1,
+    "priority": 103,
+    "openType": 83,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
       20151005
     ],
     "imageIds": [],
@@ -123,6 +322,34 @@
     "num": 1,
     "priority": 103,
     "openType": 83,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[10005]"
+    ],
+    "condIds": [
+      20151201
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "isClassBoardRelease": true,
+        "releaseClassBoardBaseIds": [
+          10005
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": -194,
+    "flagType": 1,
+    "num": 1,
+    "priority": 0,
+    "openType": 100,
     "condType": 113,
     "condValue": 0,
     "condValue2": 0,
@@ -40804,6 +41031,136 @@
     "priority": 0,
     "openType": 0,
     "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      1234,
+      1235,
+      1236
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80586,
+    "flagType": 65,
+    "num": 1,
+    "priority": 0,
+    "openType": 4,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      1234,
+      1235,
+      1236
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80586,
+    "flagType": 66,
+    "num": 1,
+    "priority": 0,
+    "openType": 23,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[805861, 10]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      1237
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80586,
+    "flagType": 68,
+    "num": 1,
+    "priority": 0,
+    "openType": 72,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[8408]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      1238
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80586,
+    "flagType": 69,
+    "num": 1,
+    "priority": 0,
+    "openType": 104,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [],
+    "textJson": [],
+    "script": {},
+    "eventId": 80587,
+    "flagType": 65,
+    "num": 1,
+    "priority": 0,
+    "openType": 0,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[8407]"
+    ],
+    "condIds": [
+      94151200
+    ],
+    "imageIds": [
+      1238
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80596,
+    "flagType": 67,
+    "num": 1,
+    "priority": 0,
+    "openType": 106,
+    "condType": 1,
     "condValue": 0,
     "condValue2": 0,
     "condValue3": 0,
