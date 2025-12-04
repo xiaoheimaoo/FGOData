@@ -98964,6 +98964,81 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94090008,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "DEF Up",
+    "detail": "Increase DEF except against Critical attacks for all allies while you are on the field",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [
+      -4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4100
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94090009,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "",
+    "detail": "",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94090010,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Critical Hit Rate Up",
+    "detail": "Increase Critical Rate for all allies when you are on the field",
+    "iconId": 327,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94090011,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "",
+    "detail": "",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3005,
       3020
@@ -98976,6 +99051,24 @@
     "buffGroup": 900,
     "type": 34,
     "name": "Arbiter of Battle",
+    "detail": "Unable to use Noble Phantasms",
+    "iconId": 512,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3020
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94090013,
+    "buffGroup": 900,
+    "type": 34,
+    "name": "What the heck, what the heck!?",
     "detail": "Unable to use Noble Phantasms",
     "iconId": 512,
     "maxRate": 0,
@@ -99013,6 +99106,57 @@
     "name": "Delayed Effect (Debuff)",
     "detail": "Apply NP Seal to yourself after 1 turn",
     "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94090016,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "I go, you go",
+    "detail": "When HP reaches 0, high chance to inflict Death to a single enemy",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94090017,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Activate on Defeat",
+    "detail": "When HP reaches 0, increase Charge by 1 for all allies",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94090018,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect with Normal Attack",
+    "detail": "Chance to inflict Death to a single enemy during normal attacks",
+    "iconId": 528,
     "maxRate": 0,
     "effectId": 0
   },
@@ -99182,6 +99326,275 @@
   },
   {
     "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94090029,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Blessing of Bishamonten",
+    "detail": "Activates \"Biten's Protection\" type effects",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3085,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6026
+    },
+    "id": 94090030,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "Biten's Amazing Protection",
+    "detail": "Decreases damage & immune to mental effects <Effect is nullified if there is no [Blessing of Bishamonten]>",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3010
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3010
+    ],
+    "script": {
+      "INDIVIDUALITIE": 6026
+    },
+    "id": 94090031,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "",
+    "detail": "",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94090032,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Biten's Amazing Protection",
+    "detail": "Remove 1 [Blessing of Bishamonten] when attacked by NP",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94090033,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94090034,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94090035,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activates when damaged by NP",
+    "detail": "Increase Charge by 1 for yourself when attacked by NP",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6026
+    },
+    "id": 94090036,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "Biten's Protection (Salt)",
+    "detail": "Increase ATK & DEF <Effect is nullified if there is no [Blessing of Bishamonten]>",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6026
+    },
+    "id": 94090037,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "",
+    "detail": "",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6026
+    },
+    "id": 94090038,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "Biten's Super Amazing Protection (God of War)",
+    "detail": "Increase DEF & ignore Evade and Invincible to deal damage <Effect is nullified if there is no [Blessing of Bishamonten]>",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3059,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6026
+    },
+    "id": 94090039,
+    "buffGroup": 0,
+    "type": 72,
+    "name": "",
+    "detail": "",
+    "iconId": 329,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6026
+    },
+    "id": 94090040,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Biten's Super Amazing Protection (God of War)",
+    "detail": "Increase Charge by 1 during normal attacks <Effect is nullified if there is no [Blessing of Bishamonten]>",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6026
+    },
+    "id": 94090041,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Biten's Super Amazing Protection (God of War)",
+    "detail": "Medium chance to inflict Fear (1 time, 3 turns) to target when attacking with NP <Effect is nullified if there is no [Blessing of Bishamonten]>",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004
     ],
     "tvals": [],
@@ -99189,6 +99602,23 @@
     "ckOpIndv": [],
     "script": {},
     "id": 94090042,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "Delayed Effect (Buff)",
+    "detail": "Set Charge to maximum for yourself at the end of turn",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94090043,
     "buffGroup": 0,
     "type": 76,
     "name": "Delayed Effect (Buff)",
