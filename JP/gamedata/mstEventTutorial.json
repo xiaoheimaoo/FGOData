@@ -13080,19 +13080,13 @@
       "[11]",
       "[12]",
       "[13]",
-      "[50032621]",
-      "[50032631]",
-      "[50032641]",
-      "[50032651]",
-      "[50032661]",
-      "[50032671]",
-      "[50032681]",
-      "[50032691]",
-      "[50032701]",
-      "[50032711]",
-      "[50032721]",
-      "[50032731]",
-      "[50032741]"
+      "[14]",
+      "[15]",
+      "[16]",
+      "[17]",
+      "[18]",
+      "[19]",
+      "[50040111]"
     ],
     "condIds": [],
     "imageIds": [
@@ -13787,49 +13781,6 @@
     "openType": 34,
     "condType": 0,
     "condValue": 0,
-    "condValue2": 0,
-    "condValue3": 0,
-    "flag": 0
-  },
-  {
-    "targetIds": [
-      "[1]",
-      "[4]",
-      "[5]",
-      "[6]",
-      "[7]",
-      "[8]",
-      "[9]",
-      "[10]",
-      "[11]",
-      "[12]",
-      "[13]"
-    ],
-    "condIds": [],
-    "imageIds": [],
-    "textJson": [
-      {
-        "text": "フレンドポイント召喚で、\n100回召喚が可能になりました。\n\n[ffff00]※連続11回以上の召喚においては、\nまれな召喚結果ほど先頭に並び替えて表示されます。[-]",
-        "dlgFontSize": 26,
-        "rects": [],
-        "textPos": [
-          0,
-          30
-        ],
-        "ptPos": [
-          0,
-          0
-        ]
-      }
-    ],
-    "script": {},
-    "eventId": -6,
-    "flagType": 32,
-    "num": 21,
-    "priority": 0,
-    "openType": 34,
-    "condType": 12,
-    "condValue": 1735657199,
     "condValue2": 0,
     "condValue3": 0,
     "flag": 0
@@ -15246,6 +15197,679 @@
     "flagType": 32,
     "num": 67,
     "priority": 0,
+    "openType": 34,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[14]"
+    ],
+    "condIds": [
+      20140803
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "isSelectBonus": false,
+        "rects": [],
+        "isFortification": false,
+        "text": "期間限定 アルトリア･ペンドラゴン〔リリィ〕\nピックアップフレンドポイント召喚について\n\n本召喚では「アルトリア･ペンドラゴン〔リリィ〕」の\n召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「アルトリア･ペンドラゴン〔リリィ〕」以外の\n★4(SR)サーヴァントは召喚されません。\n",
+        "dlgBgId": 0,
+        "textPos": [
+          0,
+          13
+        ],
+        "spacingY": 0,
+        "dlgFontSize": 26,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "ptPos": [
+          0,
+          0
+        ],
+        "isQuestRelease": false
+      }
+    ],
+    "script": {},
+    "eventId": -6,
+    "flagType": 32,
+    "num": 68,
+    "priority": 1,
+    "openType": 34,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[14]"
+    ],
+    "condIds": [
+      20140804
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "isSelectBonus": false,
+        "rects": [],
+        "isFortification": false,
+        "text": "期間限定 アルトリア･ペンドラゴン〔リリィ〕\nピックアップフレンドポイント召喚について\n\n本召喚では「アルトリア･ペンドラゴン〔リリィ〕」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「アルトリア･ペンドラゴン〔リリィ〕」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(女性)」をクリアすることで\n「岸波白野(女性)」が通常のフレンドポイント召喚に追加されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「アルトリア･ペンドラゴン〔リリィ〕」の召喚確率に\n変更はありません。[-]",
+        "dlgBgId": 0,
+        "textPos": [
+          0,
+          30
+        ],
+        "spacingY": 0,
+        "dlgFontSize": 24,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "ptPos": [
+          0,
+          0
+        ],
+        "isQuestRelease": false
+      }
+    ],
+    "script": {},
+    "eventId": -6,
+    "flagType": 32,
+    "num": 69,
+    "priority": 2,
+    "openType": 34,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[14]"
+    ],
+    "condIds": [
+      20140805
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "isSelectBonus": false,
+        "rects": [],
+        "isFortification": false,
+        "text": "期間限定 アルトリア･ペンドラゴン〔リリィ〕\nピックアップフレンドポイント召喚について\n\n本召喚では「アルトリア･ペンドラゴン〔リリィ〕」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「アルトリア･ペンドラゴン〔リリィ〕」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(男性)」をクリアすることで\n「岸波白野(男性)」が通常のフレンドポイント召喚に追加されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「アルトリア･ペンドラゴン〔リリィ〕」の召喚確率に\n変更はありません。[-]",
+        "dlgBgId": 0,
+        "textPos": [
+          0,
+          30
+        ],
+        "spacingY": 0,
+        "dlgFontSize": 24,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "ptPos": [
+          0,
+          0
+        ],
+        "isQuestRelease": false
+      }
+    ],
+    "script": {},
+    "eventId": -6,
+    "flagType": 32,
+    "num": 70,
+    "priority": 3,
+    "openType": 34,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[14]"
+    ],
+    "condIds": [
+      20140801
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "isSelectBonus": false,
+        "rects": [],
+        "isFortification": false,
+        "text": "期間限定 アルトリア･ペンドラゴン〔リリィ〕\nピックアップフレンドポイント召喚について\n\n本召喚では「アルトリア･ペンドラゴン〔リリィ〕」\nの召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n\n[FFFF00]※さらに他の★4(SR)サーヴァントも\n排出対象となっています。[-]",
+        "dlgBgId": 0,
+        "textPos": [
+          0,
+          13
+        ],
+        "spacingY": 0,
+        "dlgFontSize": 26,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "ptPos": [
+          0,
+          0
+        ],
+        "isQuestRelease": false
+      }
+    ],
+    "script": {},
+    "eventId": -6,
+    "flagType": 32,
+    "num": 71,
+    "priority": 4,
+    "openType": 34,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[15]"
+    ],
+    "condIds": [
+      20140803
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "isSelectBonus": false,
+        "rects": [],
+        "isFortification": false,
+        "text": "期間限定 ハベトロット\nピックアップフレンドポイント召喚について\n\n本召喚では「ハベトロット」の\n召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「ハベトロット」以外の\n★4(SR)サーヴァントは召喚されません。\n",
+        "dlgBgId": 0,
+        "textPos": [
+          0,
+          13
+        ],
+        "spacingY": 0,
+        "dlgFontSize": 26,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "ptPos": [
+          0,
+          0
+        ],
+        "isQuestRelease": false
+      }
+    ],
+    "script": {},
+    "eventId": -6,
+    "flagType": 32,
+    "num": 72,
+    "priority": 1,
+    "openType": 34,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[15]"
+    ],
+    "condIds": [
+      20140804
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "isSelectBonus": false,
+        "rects": [],
+        "isFortification": false,
+        "text": "期間限定 ハベトロット\nピックアップフレンドポイント召喚について\n\n本召喚では「ハベトロット」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「ハベトロット」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(女性)」をクリアすることで\n「岸波白野(女性)」が通常のフレンドポイント召喚に追加されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「ハベトロット」の召喚確率に\n変更はありません。[-]",
+        "dlgBgId": 0,
+        "textPos": [
+          0,
+          30
+        ],
+        "spacingY": 0,
+        "dlgFontSize": 24,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "ptPos": [
+          0,
+          0
+        ],
+        "isQuestRelease": false
+      }
+    ],
+    "script": {},
+    "eventId": -6,
+    "flagType": 32,
+    "num": 73,
+    "priority": 2,
+    "openType": 34,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[15]"
+    ],
+    "condIds": [
+      20140805
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "isSelectBonus": false,
+        "rects": [],
+        "isFortification": false,
+        "text": "期間限定 ハベトロット\nピックアップフレンドポイント召喚について\n\n本召喚では「ハベトロット」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「ハベトロット」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(男性)」をクリアすることで\n「岸波白野(男性)」が通常のフレンドポイント召喚に追加されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「ハベトロット」の召喚確率に\n変更はありません。[-]",
+        "dlgBgId": 0,
+        "textPos": [
+          0,
+          30
+        ],
+        "spacingY": 0,
+        "dlgFontSize": 24,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "ptPos": [
+          0,
+          0
+        ],
+        "isQuestRelease": false
+      }
+    ],
+    "script": {},
+    "eventId": -6,
+    "flagType": 32,
+    "num": 74,
+    "priority": 3,
+    "openType": 34,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[15]"
+    ],
+    "condIds": [
+      20140801
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "isSelectBonus": false,
+        "rects": [],
+        "isFortification": false,
+        "text": "期間限定 ハベトロット\nピックアップフレンドポイント召喚について\n\n本召喚では「ハベトロット」\nの召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n\n[FFFF00]※さらに他の★4(SR)サーヴァントも\n排出対象となっています。[-]",
+        "dlgBgId": 0,
+        "textPos": [
+          0,
+          13
+        ],
+        "spacingY": 0,
+        "dlgFontSize": 26,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "ptPos": [
+          0,
+          0
+        ],
+        "isQuestRelease": false
+      }
+    ],
+    "script": {},
+    "eventId": -6,
+    "flagType": 32,
+    "num": 75,
+    "priority": 4,
+    "openType": 34,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[16]"
+    ],
+    "condIds": [
+      20140804
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "isSelectBonus": false,
+        "rects": [],
+        "isFortification": false,
+        "text": "期間限定 岸波白野\nピックアップフレンドポイント召喚について\n\n本召喚では「岸波白野(男性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「岸波白野(男性)」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(女性)」をクリアすることで\n「岸波白野(女性)」が通常のフレンドポイント召喚に追加され、\n「岸波白野(女性)」のピックアップ召喚が開放されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「岸波白野(男性)」の召喚確率に\n変更はありません。[-]",
+        "dlgBgId": 0,
+        "textPos": [
+          0,
+          13
+        ],
+        "spacingY": 0,
+        "dlgFontSize": 20,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "ptPos": [
+          0,
+          0
+        ],
+        "isQuestRelease": false
+      }
+    ],
+    "script": {},
+    "eventId": -6,
+    "flagType": 32,
+    "num": 76,
+    "priority": 1,
+    "openType": 34,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[17]"
+    ],
+    "condIds": [
+      20140805
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "isSelectBonus": false,
+        "rects": [],
+        "isFortification": false,
+        "text": "期間限定 岸波白野\nピックアップフレンドポイント召喚について\n\n本召喚では「岸波白野(女性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「岸波白野(女性)」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(男性)」をクリアすることで\n「岸波白野(男性)」が通常のフレンドポイント召喚に追加され、\n「岸波白野(男性)」のピックアップ召喚が開放されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「岸波白野(女性)」の召喚確率に\n変更はありません。[-]",
+        "dlgBgId": 0,
+        "textPos": [
+          0,
+          13
+        ],
+        "spacingY": 0,
+        "dlgFontSize": 20,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "ptPos": [
+          0,
+          0
+        ],
+        "isQuestRelease": false
+      }
+    ],
+    "script": {},
+    "eventId": -6,
+    "flagType": 32,
+    "num": 77,
+    "priority": 1,
+    "openType": 34,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[16]"
+    ],
+    "condIds": [
+      20140801
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "isSelectBonus": false,
+        "rects": [],
+        "isFortification": false,
+        "text": "期間限定 岸波白野(男性)ピックアップ\nフレンドポイント召喚について\n\n本召喚では「岸波白野(男性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n\n[FFFF00]※さらに他の★4(SR)サーヴァントも\n排出対象となっています。[-]",
+        "dlgBgId": 0,
+        "textPos": [
+          0,
+          13
+        ],
+        "spacingY": 0,
+        "dlgFontSize": 24,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "ptPos": [
+          0,
+          0
+        ],
+        "isQuestRelease": false
+      }
+    ],
+    "script": {},
+    "eventId": -6,
+    "flagType": 32,
+    "num": 78,
+    "priority": 1,
+    "openType": 34,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[17]"
+    ],
+    "condIds": [
+      20140801
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "isSelectBonus": false,
+        "rects": [],
+        "isFortification": false,
+        "text": "期間限定 岸波白野(女性)ピックアップ\nフレンドポイント召喚について\n\n本召喚では「岸波白野(女性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n\n[FFFF00]※さらに他の★4(SR)サーヴァントも\n排出対象となっています。[-]",
+        "dlgBgId": 0,
+        "textPos": [
+          0,
+          13
+        ],
+        "spacingY": 0,
+        "dlgFontSize": 24,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "ptPos": [
+          0,
+          0
+        ],
+        "isQuestRelease": false
+      }
+    ],
+    "script": {},
+    "eventId": -6,
+    "flagType": 32,
+    "num": 79,
+    "priority": 1,
+    "openType": 34,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[1]"
+    ],
+    "condIds": [
+      20152501
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "isClassBoardRelease": false,
+        "dlgBgId": 0,
+        "title": "フレンドポイント召喚について",
+        "ptPos": [
+          0,
+          0
+        ],
+        "isQuestRelease": false,
+        "text": "本召喚では、現在ピックアップ中の\n「織田信勝」「メアリー･アニング」は\n排出対象外です。\n\nまた、「アルトリア･ペンドラゴン〔リリィ〕」\nは排出対象ですが、\n召喚確率は通常確率となっています。\n\n[FFFF00]※確率が3倍となっている召喚は、\n各種ピックアップ召喚となりますので、\nご注意ください。[-]",
+        "rects": [],
+        "spacingY": 0,
+        "dlgFontSize": 26,
+        "textPos": [
+          0,
+          13
+        ],
+        "isFortification": false,
+        "isSelectBonus": false,
+        "questId": 0
+      }
+    ],
+    "script": {},
+    "eventId": -6,
+    "flagType": 32,
+    "num": 80,
+    "priority": 1,
+    "openType": 34,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[1]"
+    ],
+    "condIds": [
+      20140806
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "isClassBoardRelease": false,
+        "dlgBgId": 0,
+        "title": "フレンドポイント召喚について",
+        "ptPos": [
+          0,
+          0
+        ],
+        "isQuestRelease": false,
+        "text": "本召喚では、現在ピックアップ中の\n「織田信勝」「メアリー･アニング」は\n排出対象外です。\n\nまた、「アルトリア･ペンドラゴン〔リリィ〕」\n「ハベトロット」は排出対象ですが、\n召喚確率は通常確率となっています。\n\n[FFFF00]※確率が3倍となっている召喚は、\n各種ピックアップ召喚となりますので、\nご注意ください。[-]",
+        "rects": [],
+        "spacingY": 0,
+        "dlgFontSize": 26,
+        "textPos": [
+          0,
+          13
+        ],
+        "isFortification": false,
+        "isSelectBonus": false,
+        "questId": 0
+      }
+    ],
+    "script": {},
+    "eventId": -6,
+    "flagType": 32,
+    "num": 81,
+    "priority": 1,
+    "openType": 34,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[1]"
+    ],
+    "condIds": [
+      20151403
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "isClassBoardRelease": false,
+        "dlgBgId": 0,
+        "title": "フレンドポイント召喚について",
+        "ptPos": [
+          0,
+          0
+        ],
+        "isQuestRelease": false,
+        "text": "本召喚では、現在ピックアップ中の\n「織田信勝」「メアリー･アニング」は\n排出対象外です。\n\nまた、「アルトリア･ペンドラゴン〔リリィ〕」\n「ハベトロット」「岸波白野」は排出対象ですが、\n召喚確率は通常確率となっています。\n\n[FFFF00]※確率が3倍となっている召喚は、\n各種ピックアップ召喚となりますので、\nご注意ください。[-]",
+        "rects": [],
+        "spacingY": 0,
+        "dlgFontSize": 26,
+        "textPos": [
+          0,
+          13
+        ],
+        "isFortification": false,
+        "isSelectBonus": false,
+        "questId": 0
+      }
+    ],
+    "script": {},
+    "eventId": -6,
+    "flagType": 32,
+    "num": 82,
+    "priority": 1,
+    "openType": 34,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[50040111]"
+    ],
+    "condIds": [],
+    "imageIds": [],
+    "textJson": [
+      {
+        "isSelectBonus": false,
+        "rects": [],
+        "isFortification": false,
+        "text": "「第2部 終章」限定概念礼装「英霊極点」について\n\n本召喚は概念礼装[FF00FF]「英霊極点」[-]を召喚することができます。\n\n概念礼装「英霊極点」は、\n「英霊極点交換チケット」を使用することで、\n[FFFF00]交換ショップにて2枚を選んで交換が可能[-]となりますので、\nご注意ください。\n\n[FFFF00]※本召喚は「確定召喚」の対象外となりますので、\nご注意ください。[-]\n",
+        "dlgBgId": 0,
+        "textPos": [
+          0,
+          13
+        ],
+        "spacingY": 0,
+        "dlgFontSize": 24,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "ptPos": [
+          0,
+          0
+        ],
+        "isQuestRelease": false
+      }
+    ],
+    "script": {},
+    "eventId": -6,
+    "flagType": 32,
+    "num": 83,
+    "priority": 1,
     "openType": 34,
     "condType": 0,
     "condValue": 0,
