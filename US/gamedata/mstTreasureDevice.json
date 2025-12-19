@@ -16738,6 +16738,24 @@
   },
   {
     "individuality": [
+      3000,
+      4001,
+      4007,
+      4101
+    ],
+    "script": {},
+    "id": 405301,
+    "seqId": 405300,
+    "name": "Holy Run, Nautilus",
+    "ruby": " ",
+    "rank": "B",
+    "maxLv": 5,
+    "typeText": "Anti-Army",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
       3002,
       4001,
       4007,
@@ -20172,7 +20190,12 @@
       4001,
       4007
     ],
-    "script": {},
+    "script": {
+      "limitSeqId_1": 700910,
+      "limitSeqId_3": 700910,
+      "limitSeqId_4": 700910,
+      "limitSeqId_2": 700910
+    },
     "id": 700901,
     "seqId": 700900,
     "name": "Chaos Labyrinth",
@@ -20189,7 +20212,12 @@
       4001,
       4007
     ],
-    "script": {},
+    "script": {
+      "limitSeqId_1": 700910,
+      "limitSeqId_3": 700910,
+      "limitSeqId_4": 700910,
+      "limitSeqId_2": 700910
+    },
     "id": 700902,
     "seqId": 700900,
     "name": "Chaos Labyrinth",
@@ -22267,7 +22295,48 @@
       4007,
       4101
     ],
-    "script": {},
+    "script": {
+      "randomSeqIds_1": [
+        1000310,
+        1000311
+      ],
+      "randomSeqIds": [
+        1000300,
+        1000301
+      ],
+      "randomSeqIds_3": [
+        1000320,
+        1000321
+      ],
+      "randomSeqIds_2": [
+        1000310,
+        1000311
+      ],
+      "randomWeights_3": [
+        66,
+        34
+      ],
+      "randomWeights_1": [
+        34,
+        66
+      ],
+      "randomWeights_2": [
+        34,
+        66
+      ],
+      "randomWeights": [
+        34,
+        66
+      ],
+      "randomWeights_4": [
+        66,
+        34
+      ],
+      "randomSeqIds_4": [
+        1000320,
+        1000321
+      ]
+    },
     "id": 1000301,
     "seqId": 1000300,
     "name": "Amitābha Amidala Heaven's Hole",
@@ -22285,7 +22354,48 @@
       4007,
       4101
     ],
-    "script": {},
+    "script": {
+      "randomSeqIds_1": [
+        1000310,
+        1000311
+      ],
+      "randomSeqIds": [
+        1000300,
+        1000301
+      ],
+      "randomSeqIds_3": [
+        1000320,
+        1000321
+      ],
+      "randomSeqIds_2": [
+        1000310,
+        1000311
+      ],
+      "randomWeights_3": [
+        66,
+        34
+      ],
+      "randomWeights_1": [
+        34,
+        66
+      ],
+      "randomWeights_2": [
+        34,
+        66
+      ],
+      "randomWeights": [
+        34,
+        66
+      ],
+      "randomWeights_4": [
+        66,
+        34
+      ],
+      "randomSeqIds_4": [
+        1000320,
+        1000321
+      ]
+    },
     "id": 1000302,
     "seqId": 1000300,
     "name": "Amitābha Amidala Heaven's Hole",
@@ -28067,5 +28177,41 @@
     "typeText": "Anti-Personnel",
     "attackAttri": 1,
     "effectFlag": 2
+  },
+  {
+    "individuality": [
+      3000,
+      4001,
+      4007,
+      4102
+    ],
+    "script": {},
+    "id": 9945351,
+    "seqId": 9945350,
+    "name": "Great Ram, Nautilus",
+    "ruby": " ",
+    "rank": "A",
+    "maxLv": 5,
+    "typeText": "Anti-Sea",
+    "attackAttri": 1,
+    "effectFlag": 2
+  },
+  {
+    "individuality": [
+      3000,
+      4002,
+      4007,
+      4101
+    ],
+    "script": {},
+    "id": 9945371,
+    "seqId": 9945370,
+    "name": "C.C.C.",
+    "ruby": " ",
+    "rank": "EX",
+    "maxLv": 5,
+    "typeText": "Anti-World",
+    "attackAttri": 1,
+    "effectFlag": 1
   }
 ]

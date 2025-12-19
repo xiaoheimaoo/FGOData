@@ -2651,8 +2651,8 @@
   },
   {
     "id": 268650,
-    "detail": "Apply Invincible (1 turn) & increase Critical Strength, NP Gain, Debuff Resist, and Recovery amount [{0}] (1 turn) & greatly decrease HP [Demerit] for yourself",
-    "detailShort": "Apply Invincible (1 turn) & increase Critical Strength, NP Gain, Debuff Resist, and Recovery amount [{0}] (1 turn) & greatly decrease HP [Demerit] for yourself"
+    "detail": "Apply Invincible (1 turn) & increase Critical Strength, NP Gain, Debuff Resist, and HP Recovery amount [{0}] (1 turn) & greatly decrease HP [Demerit] for yourself",
+    "detailShort": "Apply Invincible (1 turn) & increase Critical Strength, NP Gain, Debuff Resist, and HP Recovery amount [{0}] (1 turn) & greatly decrease HP [Demerit] for yourself"
   },
   {
     "id": 269550,
@@ -5631,8 +5631,13 @@
   },
   {
     "id": 804650,
-    "detail": "Increase ATK [{0}] (3 turns) & increase C. Star Gather Rate [{0}] (3 turns) for a single ally + Apply a state that \"removes 1 Curse when attacking with Quick Card & slightly increase ATK (3 turns) for yourself when removal is succesful\" (3 turns) for yourself + Absorb Curse from all enemies and allies excluding yourself [Demerit]",
-    "detailShort": "Increase ATK [{0}] (3 turns) & increase C. Star Gather Rate [{0}] (3 turns) for a single ally + Apply a state that \"removes 1 Curse when attacking with Quick Card & slightly increase ATK (3 turns) for yourself when removal is succesful\" (3 turns) for yourself + Absorb Curse from all enemies and allies excluding yourself [Demerit]"
+    "detail": "Increase ATK [{0}] (3 turns) & increase C. Star Gather Rate [{0}] (3 turns) for a single ally + Apply a state that \"removes 1 Curse when attacking with Quick Card & slightly increases ATK (3 turns) for yourself when removal is successful\" (3 turns) for yourself + Absorb Curse from all enemies and allies excluding yourself [Demerit]",
+    "detailShort": "Increase ATK [{0}] (3 turns) & increase C. Star Gather Rate [{0}] (3 turns) for a single ally + Apply a state that \"removes 1 Curse when attacking with Quick Card & slightly increases ATK (3 turns) for yourself when removal is successful\" (3 turns) for yourself + Absorb Curse from all enemies and allies excluding yourself [Demerit]"
+  },
+  {
+    "id": 805250,
+    "detail": "Slightly increase Arts Card Critical Strength & apply Incoming Damage Cut only when on [Near Water] or [Void Space] field for yourself",
+    "detailShort": "Slightly increase Arts Card Critical Strength & apply Incoming Damage Cut only when on [Near Water] or [Void Space] field for yourself"
   },
   {
     "id": 805450,
@@ -7835,6 +7840,26 @@
     "detailShort": "Increase ATK Strength by 50% for yourself [Event Only]"
   },
   {
+    "id": 940309,
+    "detail": "Increase ATK Strength by 100% in \"Merry Christmas in the Snowy Field 2025\" & increase Bond gained when completing quests by 50% for yourself [Event Only]",
+    "detailShort": "Increase ATK Strength by 100% in \"Merry Christmas in the Snowy Field 2025\" & increase Bond gained when completing quests by 50% for yourself [Event Only]"
+  },
+  {
+    "id": 940310,
+    "detail": "Increase ATK Strength by 50% in \"Merry Christmas in the Snowy Field 2025\" & increase Bond gained when completing quests by 20% for yourself [Event Only]",
+    "detailShort": "Increase ATK Strength by 50% in \"Merry Christmas in the Snowy Field 2025\" & increase Bond gained when completing quests by 20% for yourself [Event Only]"
+  },
+  {
+    "id": 940311,
+    "detail": "Increase ATK Strength by 30% in \"Merry Christmas in the Snowy Field 2025\" & increase Bond gained when completing quests by 20% for yourself [Event Only]",
+    "detailShort": "Increase ATK Strength by 30% in \"Merry Christmas in the Snowy Field 2025\" & increase Bond gained when completing quests by 20% for yourself [Event Only]"
+  },
+  {
+    "id": 940312,
+    "detail": "Increase ATK Strength by 30% for yourself in \"Merry Christmas in the Snowy Field 2025\" + Increase Bond gained for all allies <including sub-members> when completing quests in \"Merry Christmas in the Snowy Field 2025\" by 5% (No effect when equipped as Support) [Event Only]",
+    "detailShort": "Increase ATK Strength by 30% for yourself in \"Merry Christmas in the Snowy Field 2025\" + Increase Bond gained for all allies <including sub-members> when completing quests in \"Merry Christmas in the Snowy Field 2025\" by 5% (No effect when equipped as Support) [Event Only]"
+  },
+  {
     "id": 940321,
     "detail": "Increase ATK Strength by 50% for yourself [Campaign Period Only]",
     "detailShort": "Increase ATK Strength by 50% for yourself [Campaign Period Only]"
@@ -9258,6 +9283,21 @@
     "id": 980084,
     "detail": "Increase Arts Card's C. Star Gather Rate [{0}] (1 turn) & NP Gauge for one ally",
     "detailShort": "Increase Arts Card's C. Star Gather Rate [{0}] (1 turn) & NP Gauge for one ally"
+  },
+  {
+    "id": 980085,
+    "detail": "Increase NP Strength [{0}] (1 turn) & NP Gain [{0}] (1 turn) for a single ally",
+    "detailShort": "Increase NP Strength [{0}] (1 turn) & NP Gain [{0}] (1 turn) for a single ally"
+  },
+  {
+    "id": 980086,
+    "detail": "Restore HP [{0}] & remove Poison, Curse, Burn for a single ally",
+    "detailShort": "Restore HP [{0}] & remove Poison, Curse, Burn for a single ally"
+  },
+  {
+    "id": 980087,
+    "detail": "Gain C. Stars [{0}] + Slightly increase NP Gauge for all allies",
+    "detailShort": "Gain C. Stars [{0}] + Slightly increase NP Gauge for all allies"
   },
   {
     "id": 990001,
@@ -27790,6 +27830,106 @@
     "detailShort": "Increase Bond gained by 20% when completing quests for [Beast Servants] [MAX]"
   },
   {
+    "id": 994020,
+    "detail": "Apply Ignore DEF & increase Buster Card effectiveness by 8% & NP Gain by 15% for yourself",
+    "detailShort": "Apply Ignore DEF & increase Buster Card effectiveness by 8% & NP Gain by 15% for yourself"
+  },
+  {
+    "id": 994021,
+    "detail": "Apply Ignore DEF & increase Buster Card effectiveness by 10% & NP Gain by 20% for yourself [MAX]",
+    "detailShort": "Apply Ignore DEF & increase Buster Card effectiveness by 10% & NP Gain by 20% for yourself [MAX]"
+  },
+  {
+    "id": 994022,
+    "detail": "Increase Shark Pie amount per drop by 1 [Event Only]",
+    "detailShort": "Increase Shark Pie amount per drop by 1 [Event Only]"
+  },
+  {
+    "id": 994023,
+    "detail": "Increase Shark Pie amount per drop by 2 [MAX] [Event Only]",
+    "detailShort": "Increase Shark Pie amount per drop by 2 [MAX] [Event Only]"
+  },
+  {
+    "id": 994024,
+    "detail": "Increase Quick Card effectiveness by 8% & Critical Strength by 10% & C. Star drop rate by 10% for yourself",
+    "detailShort": "Increase Quick Card effectiveness by 8% & Critical Strength by 10% & C. Star drop rate by 10% for yourself"
+  },
+  {
+    "id": 994025,
+    "detail": "Increase Quick Card effectiveness by 10% & Critical Strength by 15% & C. Star drop rate by 15% for yourself [MAX]",
+    "detailShort": "Increase Quick Card effectiveness by 10% & Critical Strength by 15% & C. Star drop rate by 15% for yourself [MAX]"
+  },
+  {
+    "id": 994026,
+    "detail": "Increase Coral Cane amount per drop by 1 [Event Only]",
+    "detailShort": "Increase Coral Cane amount per drop by 1 [Event Only]"
+  },
+  {
+    "id": 994027,
+    "detail": "Increase Coral Cane amount per drop by 2 [MAX] [Event Only]",
+    "detailShort": "Increase Coral Cane amount per drop by 2 [MAX] [Event Only]"
+  },
+  {
+    "id": 994028,
+    "detail": "Increase NP Strength by 5% & NP Gain by 3% & begin battle with NP charged at 10% for yourself",
+    "detailShort": "Increase NP Strength by 5% & NP Gain by 3% & begin battle with NP charged at 10% for yourself"
+  },
+  {
+    "id": 994029,
+    "detail": "Increase NP Strength by 10% & NP Gain by 5% & begin battle with NP charged at 20% for yourself [MAX]",
+    "detailShort": "Increase NP Strength by 10% & NP Gain by 5% & begin battle with NP charged at 20% for yourself [MAX]"
+  },
+  {
+    "id": 994030,
+    "detail": "Increase Shell Cracker amount per drop by 1 [Event Only]",
+    "detailShort": "Increase Shell Cracker amount per drop by 1 [Event Only]"
+  },
+  {
+    "id": 994031,
+    "detail": "Increase Shell Cracker amount per drop by 2 [MAX] [Event Only]",
+    "detailShort": "Increase Shell Cracker amount per drop by 2 [MAX] [Event Only]"
+  },
+  {
+    "id": 994032,
+    "detail": "Increase Buff Removal Resistance by 15% & NP Strength by 10% & begin battle with NP charged at 30% for yourself",
+    "detailShort": "Increase Buff Removal Resistance by 15% & NP Strength by 10% & begin battle with NP charged at 30% for yourself"
+  },
+  {
+    "id": 994033,
+    "detail": "Increase Buff Removal Resistance by 20% & NP Strength by 15% & begin battle with NP charged at 50% for yourself",
+    "detailShort": "Increase Buff Removal Resistance by 20% & NP Strength by 15% & begin battle with NP charged at 50% for yourself"
+  },
+  {
+    "id": 994034,
+    "detail": "Increase Happy Christmas Ticket amount per drop by 1 [Event Only]",
+    "detailShort": "Increase Happy Christmas Ticket amount per drop by 1 [Event Only]"
+  },
+  {
+    "id": 994035,
+    "detail": "Increase Happy Christmas Ticket amount per drop by 2 [MAX] [Event Only]",
+    "detailShort": "Increase Happy Christmas Ticket amount per drop by 2 [MAX] [Event Only]"
+  },
+  {
+    "id": 994036,
+    "detail": "Increase NP Strength by 10% & Apply 15% Special Attack [Evil] for all allies only if [servantName 405300] (Rider) is equipped with this Craft Essence when he is on the field",
+    "detailShort": "Increase NP Strength by 10% & Apply 15% Special Attack [Evil] for all allies only if [servantName 405300] (Rider) is equipped with this Craft Essence when he is on the field"
+  },
+  {
+    "id": 994037,
+    "detail": "Gain 3 C. Stars when attacking with the engraved Card + Increase NP Gain by 5% to the engraved Card",
+    "detailShort": "Gain 3 C. Stars when attacking with the engraved Card + Increase NP Gain by 5% to the engraved Card"
+  },
+  {
+    "id": 994038,
+    "detail": "Remove one Critical Strength Up state from one enemy when attacking with the engraved Card + Increase Critical Strength by 10% to the engraved Card",
+    "detailShort": "Remove one Critical Strength Up state from one enemy when attacking with the engraved Card + Increase Critical Strength by 10% to the engraved Card"
+  },
+  {
+    "id": 994040,
+    "detail": "Gain 1 C. Star when attacking with the engraved Card + Remove 1 Seal state for yourself",
+    "detailShort": "Gain 1 C. Star when attacking with the engraved Card + Remove 1 Seal state for yourself"
+  },
+  {
     "id": 994140,
     "detail": "Increase Bond gained for [Fate/stay night Servants] when completing quests by 10%",
     "detailShort": "Increase Bond gained for [Fate/stay night Servants] when completing quests by 10%"
@@ -29363,6 +29503,21 @@
     "id": 2304250,
     "detail": "Slightly increase Arts Card effectiveness & increase Arts Card Critical Strength for yourself",
     "detailShort": "Slightly increase Arts Card effectiveness & increase Arts Card Critical Strength for yourself"
+  },
+  {
+    "id": 2305550,
+    "detail": "Increase NP Strength [{0}] (1 turn) & Critical Strength [{0}] (1 turn) & ATK [{0}] (1 turn) for all allies + Increase ATK [{0}] (3 turns) for all [Servants with multiple beings in one]",
+    "detailShort": "Increase NP Strength [{0}] (1 turn) & Critical Strength [{0}] (1 turn) & ATK [{0}] (1 turn) for all allies + Increase ATK [{0}] (3 turns) for all [Servants with multiple beings in one]"
+  },
+  {
+    "id": 2306451,
+    "detail": "Apply Guts [{0}] (1 time, 3 turns) & Debuff Immune (3 turns) & increase NP Gauge each turn (3 turns) for yourself",
+    "detailShort": "Apply Guts [{0}] (1 time, 3 turns) & Debuff Immune (3 turns) & increase NP Gauge each turn (3 turns) for yourself"
+  },
+  {
+    "id": 2307650,
+    "detail": "Increase Arts Card effectiveness [{0}] (3 turns) for yourself + Apply Evade (1 time, 3 turns) & slightly increase NP Gauge for all allies",
+    "detailShort": "Increase Arts Card effectiveness [{0}] (3 turns) for yourself + Apply Evade (1 time, 3 turns) & slightly increase NP Gauge for all allies"
   },
   {
     "id": 3001000,

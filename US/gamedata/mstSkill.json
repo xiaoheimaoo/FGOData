@@ -4097,7 +4097,7 @@
     "script": {},
     "id": 128650,
     "type": 1,
-    "name": "Saint's Gift EX",
+    "name": "Saint's Gift C+",
     "ruby": "Saint's Gift",
     "maxLv": 10,
     "iconId": 600,
@@ -13705,6 +13705,18 @@
     "effectList": [],
     "actIndividuality": [],
     "script": {},
+    "id": 805250,
+    "type": 2,
+    "name": "Protection of the Sea God D",
+    "ruby": "Protection of the Sea God",
+    "maxLv": 10,
+    "iconId": 303,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
     "id": 805450,
     "type": 2,
     "name": "Protection of the Sea God B",
@@ -19104,6 +19116,54 @@
     "maxLv": 1,
     "iconId": 301,
     "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 940309,
+    "type": 2,
+    "name": "Christmas Porter EX",
+    "ruby": "",
+    "maxLv": 1,
+    "iconId": 301,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 940310,
+    "type": 2,
+    "name": "Christmas Porter A",
+    "ruby": "",
+    "maxLv": 1,
+    "iconId": 301,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 940311,
+    "type": 2,
+    "name": "Christmas Porter B",
+    "ruby": "",
+    "maxLv": 1,
+    "iconId": 301,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 940312,
+    "type": 2,
+    "name": "Christmas Porter B",
+    "ruby": "",
+    "maxLv": 1,
+    "iconId": 301,
+    "motion": 102
   },
   {
     "effectList": [],
@@ -28927,7 +28987,7 @@
     "script": {},
     "id": 960804,
     "type": 1,
-    "name": "Daizu Shichiyakanpou",
+    "name": "Daizushichi Yakanpou",
     "ruby": "-",
     "maxLv": 1,
     "iconId": 600,
@@ -60462,7 +60522,9 @@
   {
     "effectList": [],
     "actIndividuality": [],
-    "script": {},
+    "script": {
+      "OverwriteMotion_9942300": 103
+    },
     "id": 964223,
     "type": 1,
     "name": "Authority of Love A+",
@@ -122073,7 +122135,6 @@
       "cutInMessageMode": 3,
       "cutInPrefabOffsets": "0:460:36",
       "cutInId": 90002,
-      "cutInVoices": "ChrVoice_7102400:0_E120:1",
       "cutInPrefabInfo": "e:7102400:7102400"
     },
     "id": 969938,
@@ -122091,7 +122152,6 @@
       "cutInMessageMode": 3,
       "cutInPrefabOffsets": "0:460:36",
       "cutInId": 90002,
-      "cutInVoices": "ChrVoice_7102400:0_E130:1",
       "cutInPrefabInfo": "e:7102400:7102400"
     },
     "id": 969939,
@@ -122109,7 +122169,6 @@
       "cutInMessageMode": 3,
       "cutInPrefabOffsets": "0:460:36",
       "cutInId": 90002,
-      "cutInVoices": "ChrVoice_7102400:0_E140:1",
       "cutInPrefabInfo": "e:7102410:7102410"
     },
     "id": 969940,
@@ -123367,7 +123426,6 @@
       "cutInMessageMode": 3,
       "cutInPrefabOffsets": "0:460:36",
       "cutInId": 90002,
-      "cutInVoices": "ChrVoice_7102400:0_E150:1",
       "cutInPrefabInfo": "e:7102420:7102420"
     },
     "id": 970044,
@@ -124943,7 +125001,6 @@
       "cutInMessageMode": 3,
       "cutInPrefabOffsets": "0:460:36",
       "cutInId": 90002,
-      "cutInVoices": "ChrVoice_7100700:0_E120:1",
       "cutInPrefabInfo": "e:7100730:7100730"
     },
     "id": 970181,
@@ -124961,7 +125018,6 @@
       "cutInMessageMode": 3,
       "cutInPrefabOffsets": "0:460:36",
       "cutInId": 90002,
-      "cutInVoices": "ChrVoice_7100700:0_E130:1",
       "cutInPrefabInfo": "e:7100740:7100740"
     },
     "id": 970182,
@@ -124979,7 +125035,6 @@
       "cutInMessageMode": 3,
       "cutInPrefabOffsets": "0:460:36",
       "cutInId": 90002,
-      "cutInVoices": "ChrVoice_7100700:0_E140:1",
       "cutInPrefabInfo": "e:7100740:7100740"
     },
     "id": 970183,
@@ -124997,7 +125052,6 @@
       "cutInMessageMode": 3,
       "cutInPrefabOffsets": "0:460:36",
       "cutInId": 90002,
-      "cutInVoices": "ChrVoice_7100700:0_E150:1",
       "cutInPrefabInfo": "e:7100740:7100740"
     },
     "id": 970184,
@@ -125015,7 +125069,6 @@
       "cutInMessageMode": 3,
       "cutInPrefabOffsets": "0:460:36",
       "cutInId": 90002,
-      "cutInVoices": "ChrVoice_7100700:0_E160:1",
       "cutInPrefabInfo": "e:7100740:7100740"
     },
     "id": 970185,
@@ -125033,7 +125086,6 @@
       "cutInMessageMode": 3,
       "cutInPrefabOffsets": "0:460:36",
       "cutInId": 90002,
-      "cutInVoices": "ChrVoice_7100700:0_E170:1",
       "cutInPrefabInfo": "e:7100730:7100730"
     },
     "id": 970186,
@@ -125051,7 +125103,6 @@
       "cutInMessageMode": 3,
       "cutInPrefabOffsets": "0:460:36",
       "cutInId": 90002,
-      "cutInVoices": "ChrVoice_7100700:0_E170:1",
       "cutInPrefabInfo": "e:7100700:7100700"
     },
     "id": 970187,
@@ -125069,7 +125120,6 @@
       "cutInMessageMode": 3,
       "cutInPrefabOffsets": "0:460:36",
       "cutInId": 90002,
-      "cutInVoices": "ChrVoice_7100700:0_E180:1",
       "cutInPrefabInfo": "e:7100710:7100710"
     },
     "id": 970188,
@@ -128029,6 +128079,18 @@
     "effectList": [],
     "actIndividuality": [],
     "script": {},
+    "id": 970603,
+    "type": 2,
+    "name": "",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
     "id": 980001,
     "type": 1,
     "name": "First Aid",
@@ -129031,6 +129093,42 @@
     "ruby": "Lightning Yellow",
     "maxLv": 10,
     "iconId": 309,
+    "motion": 102
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 980085,
+    "type": 1,
+    "name": "Holy Shine",
+    "ruby": "Holy Shine",
+    "maxLv": 10,
+    "iconId": 302,
+    "motion": 102
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 980086,
+    "type": 1,
+    "name": "Powder Snow",
+    "ruby": "Powder Snow",
+    "maxLv": 10,
+    "iconId": 600,
+    "motion": 102
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 980087,
+    "type": 1,
+    "name": "Little Present",
+    "ruby": "Little Present",
+    "maxLv": 10,
+    "iconId": 603,
     "motion": 102
   },
   {
@@ -176685,6 +176783,284 @@
     "effectList": [],
     "actIndividuality": [],
     "script": {},
+    "id": 994020,
+    "type": 2,
+    "name": "Octo Nautica",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 301,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 994021,
+    "type": 2,
+    "name": "Octo Nautica",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 301,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 994022,
+    "type": 2,
+    "name": "Increase amount of Shark Pie per drop",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 200,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 994023,
+    "type": 2,
+    "name": "Increase amount of Shark Pie per drop",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 200,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 994024,
+    "type": 2,
+    "name": "Comme un Sablier",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 304,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 994025,
+    "type": 2,
+    "name": "Comme un Sablier",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 304,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 994026,
+    "type": 2,
+    "name": "Increase amount of Coral Cane per drop",
+    "ruby": "",
+    "maxLv": 1,
+    "iconId": 200,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 994027,
+    "type": 2,
+    "name": "Increase amount of Coral Cane per drop",
+    "ruby": "",
+    "maxLv": 1,
+    "iconId": 200,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 994028,
+    "type": 2,
+    "name": "A Very Precious Gift",
+    "ruby": "",
+    "maxLv": 1,
+    "iconId": 302,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 994029,
+    "type": 2,
+    "name": "A Very Precious Gift",
+    "ruby": "",
+    "maxLv": 1,
+    "iconId": 302,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 994030,
+    "type": 2,
+    "name": "Increase amount of Shell Cracker per drop",
+    "ruby": "",
+    "maxLv": 1,
+    "iconId": 200,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 994031,
+    "type": 2,
+    "name": "Increase amount of Shell Cracker per drop",
+    "ruby": "",
+    "maxLv": 1,
+    "iconId": 200,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 994032,
+    "type": 2,
+    "name": "Silent Night, Holy Blue",
+    "ruby": "",
+    "maxLv": 1,
+    "iconId": 416,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 994033,
+    "type": 2,
+    "name": "Silent Night, Holy Blue",
+    "ruby": "",
+    "maxLv": 1,
+    "iconId": 416,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 994034,
+    "type": 2,
+    "name": "Increase amount of Happy Christmas Ticket per drop",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 200,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 994035,
+    "type": 2,
+    "name": "Increase amount of Happy Christmas Ticket per drop",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 200,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [
+      405300
+    ],
+    "script": {},
+    "id": 994036,
+    "type": 2,
+    "name": "Holy Run of 2025",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 302,
+    "motion": 102
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 994037,
+    "type": 2,
+    "name": "Crane's Vow and Love Poetry",
+    "ruby": "Crane's Vow and Love Poetry",
+    "maxLv": 1,
+    "iconId": 603,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 994038,
+    "type": 2,
+    "name": "Golden Trident",
+    "ruby": "Golden Trident",
+    "maxLv": 1,
+    "iconId": 512,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 994039,
+    "type": 2,
+    "name": "",
+    "ruby": "",
+    "maxLv": 1,
+    "iconId": 512,
+    "motion": 103
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 994040,
+    "type": 2,
+    "name": "Holy Night Reindeer Cap",
+    "ruby": "Holy Night Reindeer Cap",
+    "maxLv": 1,
+    "iconId": 603,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 994041,
+    "type": 2,
+    "name": "",
+    "ruby": "",
+    "maxLv": 1,
+    "iconId": 603,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 994077,
+    "type": 2,
+    "name": "",
+    "ruby": "",
+    "maxLv": 1,
+    "iconId": 603,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
     "id": 994140,
     "type": 2,
     "name": "Twilight Portrait: Saber",
@@ -180484,6 +180860,42 @@
     "maxLv": 10,
     "iconId": 103,
     "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 2305550,
+    "type": 1,
+    "name": "Driver of the Holy Night A",
+    "ruby": "Driver of the Holy Night",
+    "maxLv": 10,
+    "iconId": 302,
+    "motion": 1001
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 2306451,
+    "type": 1,
+    "name": "Undaunted Deliverer B+",
+    "ruby": "Undaunted Deliverer",
+    "maxLv": 10,
+    "iconId": 404,
+    "motion": 1002
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 2307650,
+    "type": 1,
+    "name": "Nameless Saint EX",
+    "ruby": "Nameless Saint",
+    "maxLv": 10,
+    "iconId": 305,
+    "motion": 1003
   },
   {
     "effectList": [],
@@ -202950,5 +203362,851 @@
     "maxLv": 1,
     "iconId": 600,
     "motion": 103
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94090907,
+    "type": 2,
+    "name": "",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94090908,
+    "type": 2,
+    "name": "",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "ForcedSkillSpeed": 1,
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090909,
+    "type": 1,
+    "name": "\"These hands will grasp a shining future and humanity's happiness!\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090910,
+    "type": 1,
+    "name": "\"Britomart will protect you!\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090911,
+    "type": 1,
+    "name": "\"Don't worry. Leave the defenses to me.\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 102
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090912,
+    "type": 1,
+    "name": "\"I'm going all out!\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090913,
+    "type": 1,
+    "name": "\"Back again? You imbeciles!\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090914,
+    "type": 1,
+    "name": "\"Blazing!\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94090915,
+    "type": 1,
+    "name": "",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 104
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090916,
+    "type": 1,
+    "name": "\"I'm going to keep burning!\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 104
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090917,
+    "type": 1,
+    "name": "??? \"Whoa, this is important!\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 2002
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090918,
+    "type": 1,
+    "name": "\"I do not appreciate surprise inspections☆\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "ForcedSkillSpeed": 1,
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090919,
+    "type": 1,
+    "name": "\"Gnnngh! I was trying to be nice, but now I'm getting serious!\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090920,
+    "type": 1,
+    "name": "\"Break battles are always like this!\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090921,
+    "type": 1,
+    "name": "\"What exactly do you think of me!?\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090922,
+    "type": 1,
+    "name": "\"......\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090923,
+    "type": 1,
+    "name": "\"So you're risking your life, huh?\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94090924,
+    "type": 1,
+    "name": "Blessing of Salvation",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 1003
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090925,
+    "type": 1,
+    "name": "\"This ends here. You're not getting any farther.\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 102
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090926,
+    "type": 1,
+    "name": "\"Let's talk about Altria Alter.\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 102
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090927,
+    "type": 1,
+    "name": "\"Whoa, that was a close one.\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94090928,
+    "type": 1,
+    "name": "Outrage",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 1004
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94090929,
+    "type": 1,
+    "name": "",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 103
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94090930,
+    "type": 1,
+    "name": "",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 501
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94090931,
+    "type": 2,
+    "name": "Year-End Party Host",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090932,
+    "type": 2,
+    "name": "",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090933,
+    "type": 1,
+    "name": "\"You should enjoy the party too.\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 104
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090934,
+    "type": 2,
+    "name": "",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090935,
+    "type": 1,
+    "name": "\"Tired? How about some delicious lemonade!?\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 104
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090936,
+    "type": 2,
+    "name": "",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090937,
+    "type": 1,
+    "name": "\"Sorry. I was supposed to be on Santa's side.\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 103
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090938,
+    "type": 2,
+    "name": "",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090939,
+    "type": 1,
+    "name": "\"Heh. You've bested Santam...\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 104
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090940,
+    "type": 2,
+    "name": "",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090941,
+    "type": 1,
+    "name": "\"Parties are good civilization.\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 104
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090942,
+    "type": 2,
+    "name": "",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090943,
+    "type": 1,
+    "name": "\"Let's make this much, much more exciting!\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 104
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090944,
+    "type": 2,
+    "name": "",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090945,
+    "type": 1,
+    "name": "\"Try not to go overboard.\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 104
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090946,
+    "type": 2,
+    "name": "",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090947,
+    "type": 1,
+    "name": "\"It was a good match. GG.\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 104
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090948,
+    "type": 2,
+    "name": "",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090949,
+    "type": 1,
+    "name": "\"Oh my. I need to add more dishes!\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 104
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090958,
+    "type": 1,
+    "name": "\"Merry Christmas today too!\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 104
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090959,
+    "type": 1,
+    "name": "\"Play with us!\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 104
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090960,
+    "type": 1,
+    "name": "\"Let's make this a fun party.\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 104
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090961,
+    "type": 1,
+    "name": "\"Would this turkey suffice?\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 104
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090962,
+    "type": 1,
+    "name": "\"Ho ho ho. This is fun, Master.\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 104
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090963,
+    "type": 1,
+    "name": "\"Carnival with everyone, yes!\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 104
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090964,
+    "type": 1,
+    "name": "\"Don't get carried away just because it's a party.\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 104
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090965,
+    "type": 1,
+    "name": "\"So this is where the special match will happen.\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 104
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090966,
+    "type": 1,
+    "name": "\"I made delicious dishes!\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 104
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090967,
+    "type": 1,
+    "name": "Captain: Marine, are the presents ready?",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 151
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090968,
+    "type": 1,
+    "name": "Marine: Just a bit longer!",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 151
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090969,
+    "type": 1,
+    "name": "\"All right. It's present time.\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 104
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94090970,
+    "type": 1,
+    "name": "Black Rose Key",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 1003
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94090971,
+    "type": 1,
+    "name": "Party in Full Swing",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 1002
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94090972,
+    "type": 1,
+    "name": "",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 103
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94136501,
+    "type": 1,
+    "name": "Authority of the Sea God (Ancient)",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 1004
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94136502,
+    "type": 1,
+    "name": "",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 103
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "ForcedSkillSpeed": 1
+    },
+    "id": 94136503,
+    "type": 1,
+    "name": "Temporary Aegis",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 151
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "ForcedSkillSpeed": 1
+    },
+    "id": 94136504,
+    "type": 1,
+    "name": "Conceptual Armament Aegis (True)",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 151
   }
 ]
