@@ -4,6 +4,34 @@
       "[]"
     ],
     "condIds": [
+      4000702
+    ],
+    "imageIds": [],
+    "textJson": [],
+    "script": {
+      "beforeActionVals": [
+        "300",
+        "1040705",
+        "500",
+        "4000703"
+      ]
+    },
+    "eventId": -205,
+    "flagType": 65,
+    "num": 1,
+    "priority": 30,
+    "openType": 108,
+    "condType": 46,
+    "condValue": 8,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
       20151009
     ],
     "imageIds": [
@@ -45,6 +73,155 @@
     "flagType": 1,
     "num": 2,
     "priority": 96,
+    "openType": 83,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      20151704
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "『終章』\nが開放されました。",
+        "dlgFontSize": 30,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {
+      "beforeActionSetup": [
+        "114",
+        "1040701,1"
+      ],
+      "beforeActionVals": [
+        "303",
+        "-84,95,1000,15",
+        "104",
+        "1040701,3",
+        "900",
+        "1000"
+      ]
+    },
+    "eventId": -202,
+    "flagType": 65,
+    "num": 1,
+    "priority": 35,
+    "openType": 83,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      20151705
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "『終章』\nが開放されました。",
+        "dlgFontSize": 30,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {
+      "beforeActionSetup": [
+        "403",
+        "50103,1",
+        "402",
+        "50104"
+      ],
+      "beforeActionVals": [
+        "303",
+        "-84,95,1000,15",
+        "400",
+        "50103,1",
+        "900",
+        "2100",
+        "401",
+        "50104,1,1",
+        "104",
+        "1040701,3",
+        "900",
+        "1000"
+      ]
+    },
+    "eventId": -202,
+    "flagType": 65,
+    "num": 2,
+    "priority": 45,
+    "openType": 83,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      20151719
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "『終章』\nが開放されました。",
+        "dlgFontSize": 30,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {
+      "beforeActionSetup": [],
+      "beforeActionVals": [
+        "303",
+        "-84,95,1000,15",
+        "104",
+        "1040701,3",
+        "900",
+        "1000"
+      ]
+    },
+    "eventId": -202,
+    "flagType": 65,
+    "num": 3,
+    "priority": 40,
     "openType": 83,
     "condType": 113,
     "condValue": 0,
@@ -9171,7 +9348,6 @@
     "condIds": [],
     "imageIds": [
       96,
-      97,
       98
     ],
     "textJson": [],
@@ -11021,7 +11197,14 @@
       "[4000520,3]",
       "[4000522,3]",
       "[4000527,2]",
-      "[4000528,1]"
+      "[4000528,1]",
+      "[4000702,2]",
+      "[4000702,3]",
+      "[4000702,4]",
+      "[4000702,5]",
+      "[4000702,6]",
+      "[4000702,7]",
+      "[4000702,8]"
     ],
     "condIds": [],
     "imageIds": [
