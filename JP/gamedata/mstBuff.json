@@ -88610,6 +88610,96 @@
     "vals": [
       3004,
       3007,
+      3085,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5985,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "結界作成",
+    "detail": "被ダメージを減らす",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3085,
+      3040
+    ],
+    "tvals": [
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4100
+    ],
+    "script": {},
+    "id": 5986,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3085,
+      3040
+    ],
+    "tvals": [
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 5987,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3045
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3045
+    ],
+    "script": {},
+    "id": 5988,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "結界作成",
+    "detail": "行動不能効果を受けなくなる",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
       3040,
       3058
     ],
@@ -89454,7 +89544,8 @@
       124,
       125,
       126,
-      129
+      129,
+      136
     ],
     "ckSelfIndv": [],
     "ckOpIndv": [
@@ -89470,7 +89561,8 @@
       124,
       125,
       126,
-      129
+      129,
+      136
     ],
     "script": {},
     "id": 30031,
@@ -89499,7 +89591,8 @@
       124,
       125,
       126,
-      129
+      129,
+      136
     ],
     "ckSelfIndv": [],
     "ckOpIndv": [
@@ -89515,7 +89608,8 @@
       124,
       125,
       126,
-      129
+      129,
+      136
     ],
     "script": {},
     "id": 30032,
@@ -162261,6 +162355,61 @@
     "effectId": 17123
   },
   {
+    "vals": [
+      3004,
+      3041,
+      2986
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94151757,
+    "buffGroup": 94151757,
+    "type": 79,
+    "name": "最大HPアップ",
+    "detail": "最大HPを比率で増やす",
+    "iconId": 330,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94151758,
+    "buffGroup": 0,
+    "type": 136,
+    "name": "特殊威力アップ",
+    "detail": "攻撃の威力をアップ",
+    "iconId": 359,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94151761,
+    "buffGroup": 0,
+    "type": 186,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
     "vals": [],
     "tvals": [],
     "ckSelfIndv": [],
@@ -162410,6 +162559,50 @@
     "detail": "",
     "iconId": 0,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009
+    ],
+    "tvals": [
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4100
+    ],
+    "script": {},
+    "id": 94151773,
+    "buffGroup": 0,
+    "type": 92,
+    "name": "特殊耐性ダウン〔クリティカル〕",
+    "detail": "クリティカル攻撃に対する耐性をダウン",
+    "iconId": 529,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009
+    ],
+    "tvals": [
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94151774,
+    "buffGroup": 0,
+    "type": 92,
+    "name": "特殊耐性ダウン〔宝具〕",
+    "detail": "宝具攻撃に対する耐性をダウン",
+    "iconId": 529,
+    "maxRate": 5000,
     "effectId": 0
   },
   {
@@ -162601,6 +162794,43 @@
     "detail": "HPが減少するほど即死付与率をダウン",
     "iconId": 532,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3020
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94151784,
+    "buffGroup": 900,
+    "type": 34,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3014,
+      3045
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94151785,
+    "buffGroup": 500,
+    "type": 32,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
     "effectId": 0
   },
   {

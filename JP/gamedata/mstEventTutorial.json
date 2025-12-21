@@ -4,6 +4,92 @@
       "[]"
     ],
     "condIds": [
+      4000703
+    ],
+    "imageIds": [],
+    "textJson": [],
+    "script": {
+      "beforeActionSetup": [
+        "300",
+        "1040702",
+        "110",
+        "1040703",
+        "112",
+        "1040702"
+      ],
+      "afterActionVals": [
+        "900",
+        "500",
+        "300",
+        "1040703,15,1000",
+        "104",
+        "1040703,1",
+        "112",
+        "1040703",
+        "100",
+        "1040702",
+        "900",
+        "100",
+        "500",
+        "4000703"
+      ]
+    },
+    "eventId": -207,
+    "flagType": 65,
+    "num": 1,
+    "priority": 30,
+    "openType": 108,
+    "condType": 46,
+    "condValue": 2,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      4000703
+    ],
+    "imageIds": [],
+    "textJson": [],
+    "script": {
+      "beforeActionSetup": [
+        "300",
+        "1040702",
+        "110",
+        "1040702"
+      ],
+      "afterActionVals": [
+        "300",
+        "1040702,15,1000",
+        "104",
+        "1040702,1",
+        "112",
+        "1040702",
+        "900",
+        "100",
+        "500",
+        "4000703"
+      ]
+    },
+    "eventId": -206,
+    "flagType": 65,
+    "num": 1,
+    "priority": 30,
+    "openType": 108,
+    "condType": 46,
+    "condValue": 1,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
       4000702
     ],
     "imageIds": [],
@@ -43455,6 +43541,97 @@
     "num": 1,
     "priority": 0,
     "openType": 0,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[040707]"
+    ],
+    "condIds": [
+      20151715
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "rects": [],
+        "text": "「第2部 終章」レイドバトル\n支柱七樹戦\n\n2025/12/23(火)18:00 開戦",
+        "textPos": [
+          0,
+          30
+        ],
+        "spacingY": 2,
+        "dlgFontSize": 30,
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80593,
+    "flagType": 72,
+    "num": 1,
+    "priority": 30,
+    "openType": 1,
+    "condType": 113,
+    "condValue": 2,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[4000705,2]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      1416
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80593,
+    "flagType": 75,
+    "num": 1,
+    "priority": 30,
+    "openType": 45,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[4000705,3]"
+    ],
+    "condIds": [],
+    "imageIds": [],
+    "textJson": [
+      {
+        "rects": [],
+        "text": "本クエストでは\n編成コスト上限が無制限となります。",
+        "textPos": [
+          0,
+          30
+        ],
+        "dlgFontSize": 30,
+        "title": "編成コスト無制限",
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80593,
+    "flagType": 78,
+    "num": 1,
+    "priority": 25,
+    "openType": 45,
     "condType": 0,
     "condValue": 0,
     "condValue2": 0,
