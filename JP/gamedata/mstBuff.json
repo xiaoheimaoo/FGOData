@@ -162847,5 +162847,296 @@
     "iconId": 520,
     "maxRate": 0,
     "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3017
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 3000
+    },
+    "id": 94152200,
+    "buffGroup": 0,
+    "type": 92,
+    "name": "特殊耐性ダウン",
+    "detail": "全ての攻撃に対する耐性をダウン<空想樹を切除するほど効果量アップ>",
+    "iconId": 529,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3005,
+      3009,
+      3110
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 3000,
+      "relationId": 94152200
+    },
+    "id": 94152201,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "異聞編纂",
+    "detail": "攻撃時のクラス相性が〔七騎士〕に対してより優位になる＆防御時のクラス相性が〔シールダー〕〔ビースト(エレシュキガル)〕に対して劣位になる【デメリット】",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3005,
+      3009,
+      3110
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 3000,
+      "relationId": 94152201
+    },
+    "id": 94152202,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "異聞編纂",
+    "detail": "攻撃時のクラス相性が〔セイバー〕に対して優位になる＆防御時のクラス相性が〔アヴェンジャー〕に対して劣位になる【デメリット】",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3005,
+      3009,
+      3110
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 3000,
+      "relationId": 94152202
+    },
+    "id": 94152203,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "異聞編纂",
+    "detail": "攻撃時のクラス相性が〔ランサー〕に対して優位になる＆防御時のクラス相性が〔プリテンダー〕に対して劣位になる【デメリット】",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3005,
+      3009,
+      3110
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 3000,
+      "relationId": 94152203
+    },
+    "id": 94152204,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "異聞編纂",
+    "detail": "攻撃時のクラス相性が〔アーチャー〕に対して優位になる＆防御時のクラス相性が〔ルーラー〕に対して劣位になる【デメリット】",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3005,
+      3009,
+      3110
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 3000,
+      "relationId": 94152204
+    },
+    "id": 94152205,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "異聞編纂",
+    "detail": "攻撃時のクラス相性が〔アサシン〕に対して優位になる＆防御時のクラス相性が〔フォーリナー〕に対して劣位になる【デメリット】",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3005,
+      3009,
+      3110
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 3000,
+      "relationId": 94152205
+    },
+    "id": 94152206,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "異聞編纂",
+    "detail": "攻撃時のクラス相性が〔キャスター〕に対して優位になる＆防御時のクラス相性が〔アルターエゴ〕に対して劣位になる【デメリット】",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3005,
+      3009,
+      3110
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 3000,
+      "relationId": 94152206
+    },
+    "id": 94152207,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "異聞編纂",
+    "detail": "攻撃時のクラス相性が〔ライダー〕に対して優位になる＆防御時のクラス相性が〔ムーンキャンサー〕に対して劣位になる【デメリット】",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 4000
+    },
+    "id": 94152210,
+    "buffGroup": 0,
+    "type": 188,
+    "name": "インヴェイド・ジェネシス",
+    "detail": "宝具使用時、自身のHPを減らす",
+    "iconId": 571,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 4000
+    },
+    "id": 94152211,
+    "buffGroup": 0,
+    "type": 187,
+    "name": "ハッピーエバーアフター",
+    "detail": "スキル使用時、自身を除く味方全体<控え含む>に宝具封印状態を付与＆〔ハッピーエバーアフター〕状態を解除【デメリット】",
+    "iconId": 569,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ExcludeUnSubStateIndiv": 1,
+      "INDIVIDUALITIE": 3005,
+      "DisplayPriority": 4000
+    },
+    "id": 94152212,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "ループ・レボリューション",
+    "detail": "ターン終了時、自身の攻撃力・宝具威力・防御力をダウン<他の〔弱体〕状態(解除不能な状態は除く)が付与されていない間、効果が無効になる>",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3045,
+      3010,
+      3066
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152213,
+    "buffGroup": 503,
+    "type": 32,
+    "name": "夢見る大人",
+    "detail": "行動不能になる",
+    "iconId": 558,
+    "maxRate": 0,
+    "effectId": 2001001
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      6027
+    ],
+    "tvals": [
+      -4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4100
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94152214,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "特殊耐性アップ〔クリティカル以外〕",
+    "detail": "クリティカル以外の攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
   }
 ]
