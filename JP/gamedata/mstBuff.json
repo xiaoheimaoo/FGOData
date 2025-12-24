@@ -163138,5 +163138,474 @@
     "iconId": 334,
     "maxRate": 5000,
     "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE_AND": "-10019,-10020,-10021,-10022,-10023,-10024"
+    },
+    "id": 94152217,
+    "buffGroup": 200,
+    "type": 24,
+    "name": "回避",
+    "detail": "攻撃によるダメージを0にする",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE_AND": "-3086,-10019,-10020,-10021,-10022,-10023,-10024"
+    },
+    "id": 94152218,
+    "buffGroup": 600,
+    "type": 104,
+    "name": "ガッツ",
+    "detail": "HPが0になった時、HPを回復して耐える",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE_AND": "-10019,-10020,-10021,-10022,-10023,-10024"
+    },
+    "id": 94152219,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "防御力アップ",
+    "detail": "防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152220,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "防御力ダウン〔クラス相性劣位〕",
+    "detail": "防御相性不利のクラスに対する防御力をダウン",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      3110
+    ],
+    "tvals": [
+      100,
+      102,
+      101,
+      103,
+      104,
+      105,
+      106,
+      108,
+      110,
+      115,
+      109,
+      120,
+      124,
+      107,
+      129,
+      117,
+      132
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      100,
+      102,
+      101,
+      103,
+      104,
+      105,
+      106,
+      108,
+      110,
+      115,
+      109,
+      120,
+      124,
+      107,
+      129,
+      117,
+      132
+    ],
+    "script": {},
+    "id": 94152221,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "",
+    "detail": "",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      3110
+    ],
+    "tvals": [
+      106
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      106
+    ],
+    "script": {},
+    "id": 94152222,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "",
+    "detail": "",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      3110
+    ],
+    "tvals": [
+      105,
+      110
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      105,
+      110
+    ],
+    "script": {},
+    "id": 94152223,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "",
+    "detail": "",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      3110
+    ],
+    "tvals": [
+      106,
+      109,
+      124
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      106,
+      109,
+      124
+    ],
+    "script": {},
+    "id": 94152224,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "",
+    "detail": "",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      3110
+    ],
+    "tvals": [
+      103,
+      120
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      103,
+      120
+    ],
+    "script": {},
+    "id": 94152225,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "",
+    "detail": "",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      3110
+    ],
+    "tvals": [
+      106,
+      109,
+      124
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      106,
+      109,
+      124
+    ],
+    "script": {},
+    "id": 94152226,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "",
+    "detail": "",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      3110
+    ],
+    "tvals": [
+      104,
+      108
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      104,
+      108
+    ],
+    "script": {},
+    "id": 94152227,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "",
+    "detail": "",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      3110
+    ],
+    "tvals": [
+      106,
+      109,
+      124
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      106,
+      109,
+      124
+    ],
+    "script": {},
+    "id": 94152228,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "",
+    "detail": "",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      3110
+    ],
+    "tvals": [
+      101,
+      117
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      101,
+      117
+    ],
+    "script": {},
+    "id": 94152229,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "",
+    "detail": "",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      3110
+    ],
+    "tvals": [
+      106,
+      120,
+      124
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      106,
+      120,
+      124
+    ],
+    "script": {},
+    "id": 94152230,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "",
+    "detail": "",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      3110
+    ],
+    "tvals": [
+      102,
+      109
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      102,
+      109
+    ],
+    "script": {},
+    "id": 94152231,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "",
+    "detail": "",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      3110
+    ],
+    "tvals": [
+      106,
+      120,
+      124
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      106,
+      120,
+      124
+    ],
+    "script": {},
+    "id": 94152232,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "",
+    "detail": "",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      3110
+    ],
+    "tvals": [
+      100,
+      115
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      100,
+      115
+    ],
+    "script": {},
+    "id": 94152233,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "",
+    "detail": "",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      3110
+    ],
+    "tvals": [
+      106,
+      120,
+      124
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      106,
+      120,
+      124
+    ],
+    "script": {},
+    "id": 94152234,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "",
+    "detail": "",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
   }
 ]
