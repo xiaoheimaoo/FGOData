@@ -43468,6 +43468,46 @@
       "[040707]"
     ],
     "condIds": [
+      4000748
+    ],
+    "imageIds": [],
+    "textJson": [],
+    "script": {
+      "beforeActionSetup": [
+        "1300",
+        "0,1",
+        "1312",
+        "8,8",
+        "402",
+        "40769",
+        "402",
+        "40768",
+        "402",
+        "40717",
+        "402",
+        "40753",
+        "112",
+        "40729",
+        "111",
+        "40719"
+      ]
+    },
+    "eventId": 80593,
+    "flagType": 66,
+    "num": 1,
+    "priority": 30,
+    "openType": 1,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[040707]"
+    ],
+    "condIds": [
       94151701
     ],
     "imageIds": [],
@@ -43564,76 +43604,6 @@
     "openType": 1,
     "condType": 32,
     "condValue": 5,
-    "condValue2": 0,
-    "condValue3": 0,
-    "flag": 0
-  },
-  {
-    "targetIds": [
-      "[040707]"
-    ],
-    "condIds": [
-      20151717
-    ],
-    "imageIds": [],
-    "textJson": [
-      {
-        "text": "「カルデアスメインシステム」に\n「第6節 進行度6」が追加されました。",
-        "dlgFontSize": 30,
-        "rects": [],
-        "textPos": [
-          0,
-          30
-        ],
-        "ptPos": [
-          0,
-          0
-        ]
-      }
-    ],
-    "script": {},
-    "eventId": 80593,
-    "flagType": 70,
-    "num": 1,
-    "priority": 1,
-    "openType": 1,
-    "condType": 113,
-    "condValue": 0,
-    "condValue2": 0,
-    "condValue3": 0,
-    "flag": 0
-  },
-  {
-    "targetIds": [
-      "[040707]"
-    ],
-    "condIds": [
-      20151718
-    ],
-    "imageIds": [],
-    "textJson": [
-      {
-        "text": "「カルデアスメインシステム」に\n「第6節 進行度6」が追加されました。\n\n「第6節 進行度6」をクリアするまで\n他の決断戦には一時的に挑戦できなくなります。",
-        "dlgFontSize": 30,
-        "rects": [],
-        "textPos": [
-          0,
-          30
-        ],
-        "ptPos": [
-          0,
-          0
-        ]
-      }
-    ],
-    "script": {},
-    "eventId": 80593,
-    "flagType": 70,
-    "num": 2,
-    "priority": 0,
-    "openType": 1,
-    "condType": 113,
-    "condValue": 0,
     "condValue2": 0,
     "condValue3": 0,
     "flag": 0
@@ -43902,6 +43872,41 @@
   },
   {
     "targetIds": [
+      "[040707]"
+    ],
+    "condIds": [
+      94151701
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "「カルデアス内部空域」に\n「Ｍ・スペクトラム（開始）」が追加されました。\n\n「Ｍ・スペクトラム（開始）」をクリアするまで\n他の決断戦には一時的に挑戦できなくなります。",
+        "dlgFontSize": 30,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80593,
+    "flagType": 77,
+    "num": 1,
+    "priority": 0,
+    "openType": 1,
+    "condType": 32,
+    "condValue": 4,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
       "[4000705,3]"
     ],
     "condIds": [],
@@ -43971,6 +43976,29 @@
     "flagType": 80,
     "num": 1,
     "priority": 30,
+    "openType": 1,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[040707]"
+    ],
+    "condIds": [
+      20151702
+    ],
+    "imageIds": [
+      1408
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80593,
+    "flagType": 85,
+    "num": 1,
+    "priority": 20,
     "openType": 1,
     "condType": 113,
     "condValue": 0,

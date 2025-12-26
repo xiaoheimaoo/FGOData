@@ -88843,6 +88843,40 @@
   },
   {
     "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6006,
+    "buffGroup": 0,
+    "type": 188,
+    "name": "宝具使用時追加効果",
+    "detail": "宝具使用時、自身に宝具封印状態を付与",
+    "iconId": 571,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6009,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "遅延発動",
+    "detail": "ターン経過後、自身のチャージを最大まで増やす",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3006
     ],
@@ -163038,6 +163072,30 @@
   },
   {
     "vals": [
+      3004,
+      3006,
+      3005,
+      3009,
+      3110
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 3000,
+      "relationId": 94152207
+    },
+    "id": 94152208,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "異聞編纂",
+    "detail": "攻撃時のクラス相性が〔バーサーカー〕に対してより優位になる＆防御時のクラス相性が〔エクストラクラス〕に対して劣位になる【デメリット】",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3005
     ],
     "tvals": [],
@@ -163137,6 +163195,40 @@
     "detail": "クリティカル以外の攻撃に対する耐性をアップ",
     "iconId": 334,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152215,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "攻撃を受けた時、自身の攻撃力をアップ＆最大HPをアップ＆HPを回復",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152216,
+    "buffGroup": 0,
+    "type": 187,
+    "name": "スキル使用時追加効果",
+    "detail": "スキル使用時、自身のNPが減少",
+    "iconId": 569,
+    "maxRate": 0,
     "effectId": 0
   },
   {
