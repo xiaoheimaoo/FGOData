@@ -88862,6 +88862,44 @@
     "vals": [
       3004
     ],
+    "tvals": [
+      3004
+    ],
+    "ckSelfIndv": [
+      3004
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6007,
+    "buffGroup": 0,
+    "type": 98,
+    "name": "強化解除成功率アップ",
+    "detail": "強化解除成功率をアップ",
+    "iconId": 307,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2852
+    ],
+    "script": {},
+    "id": 6008,
+    "buffGroup": 1000,
+    "type": 31,
+    "name": "",
+    "detail": "",
+    "iconId": 531,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [],
@@ -88873,6 +88911,28 @@
     "detail": "ターン経過後、自身のチャージを最大まで増やす",
     "iconId": 331,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2654,
+      "ProgressSelfTurn": 1
+    },
+    "id": 6013,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "攻撃力アップ",
+    "detail": "攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
     "effectId": 0
   },
   {
@@ -162884,6 +162944,1693 @@
   },
   {
     "vals": [
+      3004,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152102,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "フィールド効果〔毎ターン発動〕",
+    "detail": "プレイヤー側のフィールドにいるすべての対象が「解除可能な〔攻撃力アップ〕状態の間、エネミーターン終了時に最大HPをアップする効果」を受ける",
+    "iconId": 458,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152103,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "フィールド効果〔毎ターン発動〕",
+    "detail": "プレイヤー側のフィールドにいるすべての対象が「解除可能な〔攻撃力ダウン〕状態の間、エネミーターン終了時に最大HPをダウンする効果」を受ける",
+    "iconId": 604,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6026
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [
+      -4007
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94152104,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時、対象の攻撃力をダウン",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 0,
+      "defPriority": 900,
+      "relationId": 94152121
+    },
+    "id": 94152106,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔ムーンキャンサー〕クラスに対するクラス相性が優位になる",
+    "iconId": 452,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 0,
+      "defPriority": 900,
+      "relationId": 94152122
+    },
+    "id": 94152107,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔バーサーカー〕クラスに対するクラス相性が劣位になる",
+    "iconId": 589,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 0,
+      "defPriority": 900,
+      "relationId": 94152123
+    },
+    "id": 94152108,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔アヴェンジャー〕クラスに対するクラス相性が劣位になる",
+    "iconId": 591,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3022,
+      3007,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6039
+    },
+    "id": 94152110,
+    "buffGroup": 0,
+    "type": 26,
+    "name": "無敵",
+    "detail": "必中を無視して、攻撃によるダメージを0にする",
+    "iconId": 311,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6039
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152111,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152112,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "フィールド効果〔毎ターン発動〕",
+    "detail": "プレイヤー側のフィールドにいるすべての対象が「プレイヤーターン終了時に宝具で与えるダメージをダウン＆NPを増やす効果」を受ける",
+    "iconId": 604,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6026
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [
+      -4007
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94152113,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時、対象にやけど状態を付与＆スター発生率をダウン",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 0,
+      "defPriority": 900,
+      "relationId": 94152124
+    },
+    "id": 94152115,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔アーチャー〕クラスに対するクラス相性が優位になる",
+    "iconId": 444,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 0,
+      "defPriority": 900,
+      "relationId": 94152125
+    },
+    "id": 94152116,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔バーサーカー〕クラスに対するクラス相性が優位になる",
+    "iconId": 449,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 0,
+      "defPriority": 900,
+      "relationId": 94152126
+    },
+    "id": 94152117,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔プリテンダー〕クラスに対するクラス相性が優位になる",
+    "iconId": 455,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 0,
+      "defPriority": 900,
+      "relationId": 94152127
+    },
+    "id": 94152118,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔セイバー〕クラスに対するクラス相性が劣位になる",
+    "iconId": 583,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 0,
+      "defPriority": 900,
+      "relationId": 94152128
+    },
+    "id": 94152119,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔アルターエゴ〕クラスに対するクラス相性が劣位になる",
+    "iconId": 593,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152123,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "フィールド効果〔毎ターン発動〕",
+    "detail": "プレイヤー側のフィールドにいるすべての対象が「エネミーターン終了時に隊列の先頭にいた場合、次のプレイヤーターン開始時に自身を除く味方全体のNPを吸収する効果」を受ける",
+    "iconId": 604,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6026
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [
+      -4007
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94152124,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時、敵全体のNPを減らす",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 0,
+      "defPriority": 900,
+      "relationId": 94152129
+    },
+    "id": 94152126,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔キャスター〕クラスに対するクラス相性が優位になる",
+    "iconId": 447,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 0,
+      "defPriority": 900,
+      "relationId": 94152130
+    },
+    "id": 94152127,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔アヴェンジャー〕クラスに対するクラス相性が優位になる",
+    "iconId": 451,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 0,
+      "defPriority": 900,
+      "relationId": 94152131
+    },
+    "id": 94152128,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔アサシン〕クラスに対するクラス相性が劣位になる",
+    "iconId": 588,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 0,
+      "defPriority": 900,
+      "relationId": 94152132
+    },
+    "id": 94152129,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔ルーラー〕クラスに対するクラス相性が劣位になる",
+    "iconId": 590,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152130,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6040
+    },
+    "id": 94152131,
+    "buffGroup": 94152131,
+    "type": 168,
+    "name": "ターン開始時発動",
+    "detail": "ターン開始時、自身を除く味方全体のNPを吸収",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3067,
+      6032,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152132,
+    "buffGroup": 94152132,
+    "type": 140,
+    "name": "コマンドカード選出不能",
+    "detail": "コマンドカードが選出できなくなる",
+    "iconId": 555,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3020,
+      6032,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152133,
+    "buffGroup": 94152133,
+    "type": 34,
+    "name": "宝具封印",
+    "detail": "宝具を使用できなくなる",
+    "iconId": 512,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -6041
+    },
+    "id": 94152135,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "フィールド効果〔毎ターン発動〕",
+    "detail": "プレイヤー側のフィールドにいるすべての対象が「HPが100%未満の間、エネミーターン終了時に即死する効果」を受ける",
+    "iconId": 602,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152136,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "フィールド効果〔毎ターン発動〕",
+    "detail": "プレイヤー側のフィールドにいるすべての対象が「解除可能な弱体状態の間、エネミーターン終了時に防御力をダウンする効果」を受ける",
+    "iconId": 604,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6026
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [
+      -4007
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94152137,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時、自身のHPを回復<攻撃した敵の数に応じて効果が複数回発動>",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 0,
+      "defPriority": 900,
+      "relationId": 94152133
+    },
+    "id": 94152139,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔セイバー〕クラスに対するクラス相性が優位になる",
+    "iconId": 443,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 0,
+      "defPriority": 900,
+      "relationId": 94152134
+    },
+    "id": 94152140,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔ルーラー〕クラスに対するクラス相性が優位になる",
+    "iconId": 450,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 0,
+      "defPriority": 900,
+      "relationId": 94152135
+    },
+    "id": 94152141,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔ランサー〕クラスに対するクラス相性が劣位になる",
+    "iconId": 585,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 0,
+      "defPriority": 900,
+      "relationId": 94152136
+    },
+    "id": 94152142,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔ムーンキャンサー〕クラスに対するクラス相性が劣位になる",
+    "iconId": 592,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152146,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "フィールド効果〔即死無効〕",
+    "detail": "プレイヤー側のフィールドにいるすべての対象が「フィールド効果による即死を無効化する効果」を受ける",
+    "iconId": 440,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152147,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "フィールド効果〔クリティカル耐性アップ〕",
+    "detail": "プレイヤー側のフィールドにいるすべての対象が「クリティカル攻撃のダメージに対する耐性をアップする効果」を受ける",
+    "iconId": 441,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -6012
+    },
+    "id": 94152148,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      6026
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4100
+    ],
+    "script": {
+      "INDIVIDUALITIE": -6012
+    },
+    "id": 94152149,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "",
+    "detail": "",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152150,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "フィールド効果〔毎ターン発動〕",
+    "detail": "プレイヤー側のフィールドにいるすべての対象が「エネミーターン終了時に防御力をアップする効果」を受ける",
+    "iconId": 458,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6026
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [
+      -4007
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94152151,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時、対象のQuick・Arts・Busterのカード性能をダウン",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 0,
+      "defPriority": 900,
+      "relationId": 94152137
+    },
+    "id": 94152153,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔ランサー〕クラスに対するクラス相性が優位になる",
+    "iconId": 445,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 0,
+      "defPriority": 900,
+      "relationId": 94152138
+    },
+    "id": 94152154,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔アサシン〕クラスに対するクラス相性が優位になる",
+    "iconId": 448,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 0,
+      "defPriority": 900,
+      "relationId": 94152139
+    },
+    "id": 94152155,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔アーチャー〕クラスに対するクラス相性が劣位になる",
+    "iconId": 584,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 0,
+      "defPriority": 900,
+      "relationId": 94152140
+    },
+    "id": 94152156,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔ライダー〕クラスに対するクラス相性が劣位になる",
+    "iconId": 586,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152157,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "防御力アップ",
+    "detail": "防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152161,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "特性付与〔機械〕",
+    "detail": "〔機械〕特性を付与する",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -6041
+    },
+    "id": 94152162,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "ケルヌンノスの呪い",
+    "detail": "プレイヤー側のフィールドにいるすべての対象が「エネミーターン終了時に精神異常扱いの特殊な呪い状態が付与される効果」を受ける",
+    "iconId": 603,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152163,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "フィールド効果〔毎ターン発動〕",
+    "detail": "プレイヤー側のフィールドにいるすべての対象が「精神異常状態が5つ以上付与されている間、エネミーターン終了時に睡眠状態になる効果」を受ける",
+    "iconId": 604,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6026
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [
+      -4007
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94152164,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時、対象の宝具威力をダウン<精神異常扱い>",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 0,
+      "defPriority": 900,
+      "relationId": 94152141
+    },
+    "id": 94152166,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔ライダー〕クラスに対するクラス相性が優位になる",
+    "iconId": 446,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 0,
+      "defPriority": 900,
+      "relationId": 94152142
+    },
+    "id": 94152167,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔フォーリナー〕クラスに対するクラス相性が優位になる",
+    "iconId": 454,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 0,
+      "defPriority": 900,
+      "relationId": 94152143
+    },
+    "id": 94152168,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔キャスター〕クラスに対するクラス相性が劣位になる",
+    "iconId": 587,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 0,
+      "defPriority": 900,
+      "relationId": 94152144
+    },
+    "id": 94152169,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔プリテンダー〕クラスに対するクラス相性が劣位になる",
+    "iconId": 595,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3026,
+      3010,
+      3005,
+      2729,
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152170,
+    "buffGroup": 0,
+    "type": 8,
+    "name": "呪い",
+    "detail": "ターン終了時にHPが減る<精神異常扱い>",
+    "iconId": 521,
+    "maxRate": 0,
+    "effectId": 17123
+  },
+  {
+    "vals": [
+      3005,
+      3045,
+      3010,
+      3066
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ReleaseText": "睡眠解除",
+      "DamageRelease": 1
+    },
+    "id": 94152171,
+    "buffGroup": 503,
+    "type": 32,
+    "name": "睡眠",
+    "detail": "行動不能になる(攻撃を受けると解除)",
+    "iconId": 557,
+    "maxRate": 0,
+    "effectId": 2001001
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3010,
+      "INDIVIDUALITIE_COUNT_ABOVE": 5
+    },
+    "id": 94152172,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3010,
+      3036
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152173,
+    "buffGroup": 0,
+    "type": 16,
+    "name": "宝具威力ダウン",
+    "detail": "宝具で与えるダメージをダウン<精神異常扱い>",
+    "iconId": 508,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3025,
+      3010
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152174,
+    "buffGroup": 800,
+    "type": 33,
+    "name": "スキル封印",
+    "detail": "スキルを使用できなくなる<精神異常扱い>",
+    "iconId": 511,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3059,
+      3006,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152175,
+    "buffGroup": 0,
+    "type": 72,
+    "name": "無敵貫通",
+    "detail": "回避と無敵を無視して、攻撃によるダメージを与える",
+    "iconId": 329,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      6026
+    ],
+    "tvals": [
+      6028
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      6028
+    ],
+    "script": {
+      "INDIVIDUALITIE": -6013
+    },
+    "id": 94152176,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152177,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "フィールド効果〔呪い無効〕",
+    "detail": "プレイヤー側のフィールドにいるすべての対象が「〔ケルヌンノスの呪い〕の影響を受けなくなる効果」を受ける",
+    "iconId": 442,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152178,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "攻撃を受けた時、自身のHPを回復",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6026
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152179,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152180,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "フィールド効果〔毎ターン発動〕",
+    "detail": "プレイヤー側のフィールドにいるすべての対象が「エネミーターン終了時にHPを減少<回避・無敵・対粛正防御で無効化可能>またはHPを回復する効果」をターン毎に交互に受ける",
+    "iconId": 604,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6026
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [
+      -4007
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94152181,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時、対象の最大HPをダウン",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 0,
+      "defPriority": 900,
+      "relationId": 94152145
+    },
+    "id": 94152183,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔アルターエゴ〕クラスに対するクラス相性が優位になる",
+    "iconId": 453,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 0,
+      "defPriority": 900,
+      "relationId": 94152146
+    },
+    "id": 94152184,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔フォーリナー〕クラスに対するクラス相性が劣位になる",
+    "iconId": 594,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 0,
+      "defPriority": 900,
+      "relationId": 94152147
+    },
+    "id": 94152185,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔ビースト〕〔アンビースト〕クラスに対するクラス相性が劣位になる",
+    "iconId": 597,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152186,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、自身の最大HPをダウン",
+    "iconId": 549,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152187,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "攻撃を受けた時、自身の最大HPをダウン",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      100
+    ],
+    "script": {},
+    "id": 94152188,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      102
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      102
+    ],
+    "script": {},
+    "id": 94152189,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      101
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      101
+    ],
+    "script": {},
+    "id": 94152190,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      103
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      103
+    ],
+    "script": {},
+    "id": 94152191,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      105
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      105
+    ],
+    "script": {},
+    "id": 94152192,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      104
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      104
+    ],
+    "script": {},
+    "id": 94152193,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      106
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      106
+    ],
+    "script": {},
+    "id": 94152194,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6029
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152195,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6029
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152196,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6029
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152197,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6029
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152198,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6029
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152199,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3005,
       3017
     ],
@@ -163316,6 +165063,783 @@
     "detail": "全体攻撃宝具に対する防御力をダウン",
     "iconId": 504,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6029
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153400,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6029
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153401,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6016
+    },
+    "id": 94153402,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6017
+    },
+    "id": 94153403,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6018
+    },
+    "id": 94153404,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6019
+    },
+    "id": 94153405,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6020
+    },
+    "id": 94153406,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6030
+    },
+    "id": 94153407,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6031
+    },
+    "id": 94153408,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6042
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153409,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "リミットカウント99",
+    "detail": "プレイヤー側のフィールドにいるすべての対象が「NPが99%に固定される効果」を受ける<NPを増減する効果が無効化される・NPを消費して使用するスキルは使用できなくなる>",
+    "iconId": 601,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6042
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -6014
+    },
+    "id": 94153410,
+    "buffGroup": 0,
+    "type": 246,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6042
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -6014
+    },
+    "id": 94153411,
+    "buffGroup": 0,
+    "type": 247,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 0,
+      "defPriority": 900,
+      "relationId": 94152107
+    },
+    "id": 94153412,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔セイバー〕クラスに対するクラス相性が劣位になる",
+    "iconId": 583,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 0,
+      "defPriority": 900,
+      "relationId": 94152108
+    },
+    "id": 94153413,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔アーチャー〕クラスに対するクラス相性が劣位になる",
+    "iconId": 584,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 0,
+      "defPriority": 900,
+      "relationId": 94152109
+    },
+    "id": 94153414,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔ランサー〕クラスに対するクラス相性が劣位になる",
+    "iconId": 585,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 0,
+      "defPriority": 900,
+      "relationId": 94152110
+    },
+    "id": 94153415,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔ライダー〕クラスに対するクラス相性が劣位になる",
+    "iconId": 586,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 0,
+      "defPriority": 900,
+      "relationId": 94152112
+    },
+    "id": 94153416,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔アサシン〕クラスに対するクラス相性が劣位になる",
+    "iconId": 588,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 0,
+      "defPriority": 900,
+      "relationId": 94152111
+    },
+    "id": 94153417,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔キャスター〕クラスに対するクラス相性が劣位になる",
+    "iconId": 587,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 0,
+      "defPriority": 900,
+      "relationId": 94152113
+    },
+    "id": 94153418,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔バーサーカー〕クラスに対するクラス相性が劣位になる",
+    "iconId": 589,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153419,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "虚空の星",
+    "detail": "攻撃時、対象の防御強化状態の残り回数を2減らす<概念礼装など一部の効果には無効>",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -6034
+    },
+    "id": 94153420,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "虚空の星",
+    "detail": "毎ターンチャージを2増やす<宝具攻撃を受けた時、中確率で1ターンの間、無効になる>",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94153421,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024,
+      6043
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153422,
+    "buffGroup": 0,
+    "type": 173,
+    "name": "Break時ガッツ",
+    "detail": "HPゲージがBreakされた時、HPを回復して耐える",
+    "iconId": 384,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153423,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "フィールド効果〔毎ターン発動〕",
+    "detail": "エネミー側のフィールドにいるすべての対象が「解除可能な〔攻撃力アップ〕状態の間、エネミーターン終了時に最大HPをアップする効果」を受ける",
+    "iconId": 459,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153424,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "フィールド効果〔毎ターン発動〕",
+    "detail": "エネミー側のフィールドにいるすべての対象が「解除可能な〔攻撃力ダウン〕状態の間、エネミーターン終了時に最大HPをダウンする効果」を受ける",
+    "iconId": 605,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153425,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "フィールド効果〔毎ターン発動〕",
+    "detail": "エネミー側のフィールドにいるすべての対象が「エネミーターン終了時に防御力をアップする効果」を受ける",
+    "iconId": 459,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153426,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "フィールド効果〔毎ターン発動〕",
+    "detail": "プレイヤー側のフィールドにいるすべての対象が「エネミーターン終了時に隊列の先頭以外にいた場合、コマンドカードが選出できなくなる＆宝具を使用できなくなる効果」を受ける",
+    "iconId": 604,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ExcludeUnSubStateIndiv": 1,
+      "INDIVIDUALITIE": 3005
+    },
+    "id": 94153427,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "自身が解除可能な弱体状態の間、ターン終了時に自身の弱体状態を3つ解除＆解除に成功した数だけ攻撃力をアップ",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3041,
+      2986
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153428,
+    "buffGroup": 0,
+    "type": 79,
+    "name": "最大HPアップ",
+    "detail": "最大HPを比率で増やす<解除可能な〔攻撃力アップ〕状態(一部の特殊な効果を除く)の数に応じて効果量アップ>",
+    "iconId": 330,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3042
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153429,
+    "buffGroup": 0,
+    "type": 80,
+    "name": "最大HPダウン",
+    "detail": "最大HPを比率で減らす<解除可能な〔攻撃力ダウン〕状態(一部の特殊な効果を除く)の数に応じて効果量アップ>",
+    "iconId": 522,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153430,
+    "buffGroup": 0,
+    "type": 204,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153431,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153432,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153433,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153434,
+    "buffGroup": 0,
+    "type": 207,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153435,
+    "buffGroup": 0,
+    "type": 119,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3064,
+      3007,
+      6020
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153436,
+    "buffGroup": 0,
+    "type": 157,
+    "name": "対粛正防御",
+    "detail": "無敵貫通を無視して、攻撃によるダメージを0にする",
+    "iconId": 368,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153437,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "毎ターン発動",
+    "detail": "ターン終了時、最後に攻撃を受けた〔七騎士クラス〕に対するクラス相性劣位状態を付与",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3020
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3020
+    ],
+    "script": {},
+    "id": 94153438,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "虚空の星",
+    "detail": "宝具封印を受けなくなる＆自身の一部の特殊な行動に対してカウンター攻撃を受けなくなる",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153439,
+    "buffGroup": 0,
+    "type": 188,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153440,
+    "buffGroup": 0,
+    "type": 180,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153441,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、対象に毒・呪い・やけど状態を付与",
+    "iconId": 528,
+    "maxRate": 0,
     "effectId": 0
   }
 ]

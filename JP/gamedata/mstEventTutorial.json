@@ -43441,7 +43441,6 @@
       20151701
     ],
     "imageIds": [
-      1407,
       1413,
       1414
     ],
@@ -43771,6 +43770,30 @@
   },
   {
     "targetIds": [
+      "[4000707,2]",
+      "[4000720,2]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      1410,
+      1411,
+      1409
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80593,
+    "flagType": 74,
+    "num": 1,
+    "priority": 30,
+    "openType": 45,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
       "[4000705,2]"
     ],
     "condIds": [],
@@ -43941,6 +43964,41 @@
   },
   {
     "targetIds": [
+      "[4000707,2]",
+      "[4000720,2]"
+    ],
+    "condIds": [],
+    "imageIds": [],
+    "textJson": [
+      {
+        "rects": [],
+        "text": "本クエストでは\n編成コスト上限が無制限となります。",
+        "textPos": [
+          0,
+          30
+        ],
+        "dlgFontSize": 30,
+        "title": "編成コスト無制限",
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80593,
+    "flagType": 79,
+    "num": 1,
+    "priority": 25,
+    "openType": 45,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
       "[040707]"
     ],
     "condIds": [
@@ -43978,6 +44036,32 @@
     "priority": 30,
     "openType": 1,
     "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[040707]"
+    ],
+    "condIds": [
+      4000706
+    ],
+    "imageIds": [],
+    "textJson": [],
+    "script": {
+      "beforeActionVals": [
+        "560",
+        "0,40744"
+      ]
+    },
+    "eventId": 80593,
+    "flagType": 81,
+    "num": 1,
+    "priority": 30,
+    "openType": 1,
+    "condType": 1,
     "condValue": 0,
     "condValue2": 0,
     "condValue3": 0,
