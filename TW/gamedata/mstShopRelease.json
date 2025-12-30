@@ -2139,18 +2139,6 @@
     "closedItemName": "",
     "closedMessage": "由於未滿足條件，因此暫時無法進行兌換",
     "condNum": "1",
-    "condType": 36,
-    "condValues": [
-      3000320
-    ],
-    "isClosedDisp": false,
-    "priority": 0,
-    "shopId": 4000929
-  },
-  {
-    "closedItemName": "",
-    "closedMessage": "由於未滿足條件，因此暫時無法進行兌換",
-    "condNum": "1",
     "condType": 1,
     "condValues": [
       4000326
@@ -4550,6 +4538,18 @@
     "isClosedDisp": true,
     "priority": 0,
     "shopId": 6001076
+  },
+  {
+    "closedItemName": "",
+    "closedMessage": "※在沒有「CBC2024」限定概念禮裝\n兌換紀錄的情況下，才能夠進行兌換",
+    "condNum": "1",
+    "condType": 39,
+    "condValues": [
+      80463
+    ],
+    "isClosedDisp": true,
+    "priority": 0,
+    "shopId": 6001126
   },
   {
     "closedItemName": "",
@@ -66074,6 +66074,354 @@
     "isClosedDisp": true,
     "priority": 0,
     "shopId": 80460643
+  },
+  {
+    "closedItemName": "",
+    "closedMessage": "第3節任務通關後才可以兌換",
+    "condNum": "1",
+    "condType": 1,
+    "condValues": [
+      94093303
+    ],
+    "isClosedDisp": true,
+    "priority": 0,
+    "shopId": 80462001
+  },
+  {
+    "closedItemName": "",
+    "closedMessage": "主線任務通關後才能進行兌換",
+    "condNum": "1",
+    "condType": 1,
+    "condValues": [
+      94093308
+    ],
+    "isClosedDisp": false,
+    "priority": 0,
+    "shopId": 80462002
+  },
+  {
+    "closedItemName": "",
+    "closedMessage": "主線任務通關後才能進行兌換",
+    "condNum": "1",
+    "condType": 1,
+    "condValues": [
+      94093308
+    ],
+    "isClosedDisp": true,
+    "priority": 0,
+    "shopId": 80462003
+  },
+  {
+    "closedItemName": "",
+    "closedMessage": "主線任務通關後才能進行兌換",
+    "condNum": "1",
+    "condType": 1,
+    "condValues": [
+      94093308
+    ],
+    "isClosedDisp": true,
+    "priority": 0,
+    "shopId": 80462005
+  },
+  {
+    "closedItemName": "",
+    "closedMessage": "主線任務通關後才能進行兌換",
+    "condNum": "1",
+    "condType": 1,
+    "condValues": [
+      94093308
+    ],
+    "isClosedDisp": true,
+    "priority": 0,
+    "shopId": 80462006
+  },
+  {
+    "closedItemName": "",
+    "closedMessage": "主線任務通關後才能進行兌換",
+    "condNum": "1",
+    "condType": 1,
+    "condValues": [
+      94093308
+    ],
+    "isClosedDisp": false,
+    "priority": 0,
+    "shopId": 80462016
+  },
+  {
+    "closedItemName": "",
+    "closedMessage": "主線任務通關後才能進行兌換",
+    "condNum": "1",
+    "condType": 1,
+    "condValues": [
+      94093308
+    ],
+    "isClosedDisp": true,
+    "priority": 0,
+    "shopId": 80462017
+  },
+  {
+    "closedItemName": "",
+    "closedMessage": "主線任務通關後才能進行兌換",
+    "condNum": "1",
+    "condType": 1,
+    "condValues": [
+      94093308
+    ],
+    "isClosedDisp": true,
+    "priority": 0,
+    "shopId": 80462019
+  },
+  {
+    "closedItemName": "",
+    "closedMessage": "主線任務通關後才能進行兌換",
+    "condNum": "1",
+    "condType": 1,
+    "condValues": [
+      94093308
+    ],
+    "isClosedDisp": false,
+    "priority": 0,
+    "shopId": 80462029
+  },
+  {
+    "closedItemName": "",
+    "closedMessage": "主線任務通關後才能進行兌換",
+    "condNum": "1",
+    "condType": 1,
+    "condValues": [
+      94093308
+    ],
+    "isClosedDisp": true,
+    "priority": 0,
+    "shopId": 80462030
+  },
+  {
+    "closedItemName": "",
+    "closedMessage": "主線任務通關後才能進行兌換",
+    "condNum": "1",
+    "condType": 1,
+    "condValues": [
+      94093308
+    ],
+    "isClosedDisp": true,
+    "priority": 0,
+    "shopId": 80462032
+  },
+  {
+    "closedItemName": "BRD",
+    "closedMessage": "特定任務通關後才能進行兌換",
+    "condNum": "1",
+    "condType": 1,
+    "condValues": [
+      94093301
+    ],
+    "isClosedDisp": true,
+    "priority": 0,
+    "shopId": 80462101
+  },
+  {
+    "closedItemName": "變幻莫測",
+    "closedMessage": "特定任務通關後才能進行兌換",
+    "condNum": "1",
+    "condType": 1,
+    "condValues": [
+      94093301
+    ],
+    "isClosedDisp": true,
+    "priority": 0,
+    "shopId": 80462102
+  },
+  {
+    "closedItemName": "弧悅同舟",
+    "closedMessage": "特定任務通關後才能進行兌換",
+    "condNum": "1",
+    "condType": 1,
+    "condValues": [
+      94093301
+    ],
+    "isClosedDisp": true,
+    "priority": 0,
+    "shopId": 80462103
+  },
+  {
+    "closedItemName": "魔術修養",
+    "closedMessage": "特定任務通關後才能進行兌換",
+    "condNum": "1",
+    "condType": 1,
+    "condValues": [
+      94093301
+    ],
+    "isClosedDisp": true,
+    "priority": 0,
+    "shopId": 80462104
+  },
+  {
+    "closedItemName": "迦勒底刑警",
+    "closedMessage": "特定任務通關後才能進行兌換",
+    "condNum": "1",
+    "condType": 1,
+    "condValues": [
+      94093301
+    ],
+    "isClosedDisp": true,
+    "priority": 0,
+    "shopId": 80462105
+  },
+  {
+    "closedItemName": "貪婪的骰子",
+    "closedMessage": "特定任務通關後才能進行兌換",
+    "condNum": "1",
+    "condType": 1,
+    "condValues": [
+      94093301
+    ],
+    "isClosedDisp": true,
+    "priority": 0,
+    "shopId": 80462106
+  },
+  {
+    "closedItemName": "智慧的結晶",
+    "closedMessage": "特定任務通關後才能進行兌換",
+    "condNum": "1",
+    "condType": 1,
+    "condValues": [
+      94093301
+    ],
+    "isClosedDisp": true,
+    "priority": 0,
+    "shopId": 80462107
+  },
+  {
+    "closedItemName": "一帆風順",
+    "closedMessage": "特定任務通關後才能進行兌換",
+    "condNum": "1",
+    "condType": 1,
+    "condValues": [
+      94093301
+    ],
+    "isClosedDisp": true,
+    "priority": 0,
+    "shopId": 80462108
+  },
+  {
+    "closedItemName": "御主之日",
+    "closedMessage": "特定任務通關後才能進行兌換",
+    "condNum": "1",
+    "condType": 1,
+    "condValues": [
+      94093301
+    ],
+    "isClosedDisp": true,
+    "priority": 0,
+    "shopId": 80462109
+  },
+  {
+    "closedItemName": "三黑",
+    "closedMessage": "特異點F通關後才能進行兌換",
+    "condNum": "1",
+    "condType": 1,
+    "condValues": [
+      1000011
+    ],
+    "isClosedDisp": true,
+    "priority": 100,
+    "shopId": 80463001
+  },
+  {
+    "closedItemName": "永恆的羅馬",
+    "closedMessage": "特異點F通關後才能進行兌換",
+    "condNum": "1",
+    "condType": 1,
+    "condValues": [
+      1000011
+    ],
+    "isClosedDisp": true,
+    "priority": 100,
+    "shopId": 80463002
+  },
+  {
+    "closedItemName": "證明與反證",
+    "closedMessage": "特異點F通關後才能進行兌換",
+    "condNum": "1",
+    "condType": 1,
+    "condValues": [
+      1000011
+    ],
+    "isClosedDisp": true,
+    "priority": 100,
+    "shopId": 80463003
+  },
+  {
+    "closedItemName": "教授們的午餐時光",
+    "closedMessage": "特異點F通關後才能進行兌換",
+    "condNum": "1",
+    "condType": 1,
+    "condValues": [
+      1000011
+    ],
+    "isClosedDisp": true,
+    "priority": 100,
+    "shopId": 80463004
+  },
+  {
+    "closedItemName": "春陽燦燦",
+    "closedMessage": "特異點F通關後才能進行兌換",
+    "condNum": "1",
+    "condType": 1,
+    "condValues": [
+      1000011
+    ],
+    "isClosedDisp": true,
+    "priority": 100,
+    "shopId": 80463005
+  },
+  {
+    "closedItemName": "為了你的信件",
+    "closedMessage": "特異點F通關後才能進行兌換",
+    "condNum": "1",
+    "condType": 1,
+    "condValues": [
+      1000011
+    ],
+    "isClosedDisp": true,
+    "priority": 100,
+    "shopId": 80463006
+  },
+  {
+    "closedItemName": "始終燃燒",
+    "closedMessage": "特異點F通關後才能進行兌換",
+    "condNum": "1",
+    "condType": 1,
+    "condValues": [
+      1000011
+    ],
+    "isClosedDisp": true,
+    "priority": 100,
+    "shopId": 80463007
+  },
+  {
+    "closedItemName": "夜晚趣話不盡",
+    "closedMessage": "特異點F通關後才能進行兌換",
+    "condNum": "1",
+    "condType": 1,
+    "condValues": [
+      1000011
+    ],
+    "isClosedDisp": true,
+    "priority": 100,
+    "shopId": 80463008
+  },
+  {
+    "closedItemName": "夜幕燃燈",
+    "closedMessage": "特異點F通關後才能進行兌換",
+    "condNum": "1",
+    "condType": 1,
+    "condValues": [
+      1000011
+    ],
+    "isClosedDisp": true,
+    "priority": 100,
+    "shopId": 80463009
   },
   {
     "closedItemName": "",
