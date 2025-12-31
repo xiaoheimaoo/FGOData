@@ -80280,6 +80280,23 @@
   },
   {
     "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5558,
+    "buffGroup": 0,
+    "type": 122,
+    "name": "ガッツ回復量アップ",
+    "detail": "ガッツ発動によるHP回復効果量をアップ",
+    "iconId": 438,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3024,
       2914
@@ -88843,6 +88860,57 @@
   },
   {
     "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6002,
+    "buffGroup": 0,
+    "type": 245,
+    "name": "騎士叙勲",
+    "detail": "自身を除く味方全体のガッツ発動前、対象のガッツ回復量をアップ＆攻撃力をアップ",
+    "iconId": 438,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6004,
+    "buffGroup": 0,
+    "type": 8,
+    "name": "毎ターンHP減少",
+    "detail": "ターン終了時、自身のHPが減少する(強化扱い)【デメリット】",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6005,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "エニス・グイトリン",
+    "detail": "ターン経過後、自身に〔湖水の夢〕状態<特殊な睡眠状態、耐性無効・解除不能・生贄選択不能・オーダーチェンジ不能>を付与",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3005
     ],
     "tvals": [],
@@ -88912,6 +88980,52 @@
     "iconId": 331,
     "maxRate": 0,
     "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3045,
+      3010,
+      3066,
+      3076
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DamageRelease": -1
+    },
+    "id": 6011,
+    "buffGroup": 0,
+    "type": 32,
+    "name": "湖水の夢",
+    "detail": "行動不能になる(特殊な睡眠状態、耐性無効・解除不能・生贄選択不能・オーダーチェンジ不能)",
+    "iconId": 558,
+    "maxRate": 0,
+    "effectId": 2001001
+  },
+  {
+    "vals": [
+      3005,
+      3045,
+      3010,
+      3066,
+      3076
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DamageRelease": -1
+    },
+    "id": 6012,
+    "buffGroup": 0,
+    "type": 32,
+    "name": "湖水の夢",
+    "detail": "行動不能になる(特殊な睡眠状態、耐性無効・解除不能・生贄選択不能・オーダーチェンジ不能)",
+    "iconId": 558,
+    "maxRate": 0,
+    "effectId": 2001002
   },
   {
     "vals": [
@@ -165063,6 +165177,21 @@
     "detail": "全体攻撃宝具に対する防御力をダウン",
     "iconId": 504,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152601,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "正月から働かせるモノ",
+    "detail": "〔人類の脅威〕特性を付与",
+    "iconId": 520,
+    "maxRate": 0,
     "effectId": 0
   },
   {
