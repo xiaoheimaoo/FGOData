@@ -95402,6 +95402,550 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -2038
+    },
+    "id": 94087600,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Sign of a Storm",
+    "detail": "When [Sunlight] disappears, a storm arrives",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [
+      4100
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087601,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect with Critical ATK",
+    "detail": "Decrease DEF for all enemies during Critical Attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003
+    ],
+    "script": {},
+    "id": 94087602,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Shining Crown",
+    "detail": "Increase Critical Hit Rate for yourself when sustaining Quick attacks",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001
+    ],
+    "script": {},
+    "id": 94087603,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Shining Crown",
+    "detail": "Increase Charge for yourself when sustaining Arts attacks <activates once in 1 turn>",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {},
+    "id": 94087604,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Shining Crown",
+    "detail": "Increase ATK for yourself when sustaining Buster attacks",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4004
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4004
+    ],
+    "script": {},
+    "id": 94087605,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Shining Crown",
+    "detail": "Increase number of actions for yourself when sustaining Extra Attack",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087606,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect when Attacking",
+    "detail": "Take 1 Buff from target or get 1 Buff taken away when attacking",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003
+    ],
+    "script": {},
+    "id": 94087607,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Special Resist Up (Quick)",
+    "detail": "Gain resistance to damage from Quick attacks",
+    "iconId": 345,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001
+    ],
+    "script": {},
+    "id": 94087608,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Special Resist Up (Arts)",
+    "detail": "Gain resistance to damage from Arts attacks",
+    "iconId": 346,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {},
+    "id": 94087609,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Special Resist Up (Buster)",
+    "detail": "Gain resistance to damage from Buster attacks",
+    "iconId": 347,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4100
+    ],
+    "script": {},
+    "id": 94087610,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Special Resist Up (Critical)",
+    "detail": "Gain resistance to damage from Critical attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94087611,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Special Resist Up [NP]",
+    "detail": "Gain resistance to damage from Noble Phantasm attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6039
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087612,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Delayed Effect",
+    "detail": "At the end of turn, remove Buff from all enemies",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087613,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "God's Wisdom",
+    "detail": "When an enemy has a specific Buff applied, apply 1 Buff to yourself before the enemy's attack begins",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3022
+    },
+    "id": 94087614,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "ATK Up: Invincible",
+    "detail": "Increase ATK when Invincible",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6036
+    ],
+    "tvals": [
+      3010
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3010
+    ],
+    "script": {},
+    "id": 94087615,
+    "buffGroup": 0,
+    "type": 29,
+    "name": "Mental Resist Up",
+    "detail": "Increase mental effect resistance",
+    "iconId": 306,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 165
+    },
+    "id": 94087616,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "Class Affinity Change",
+    "detail": "Become class advantageous offensively against [Sabers]",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [
+      4008
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087617,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect with Normal Attack",
+    "detail": "Decrease HP of target during normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3085,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94087618,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "Damage Cut",
+    "detail": "Decrease damage taken <effect increases with more [Invincible]>",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000,
+      4003,
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003,
+      4100
+    ],
+    "script": {},
+    "id": 94087619,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate when Damaged",
+    "detail": "Decrease Death Success Rate by 40% for yourself when resistant to damage",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000,
+      4001,
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001,
+      4100
+    ],
+    "script": {},
+    "id": 94087620,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate when Damaged",
+    "detail": "Decrease Death Success Rate by 40% for yourself when resistant to damage",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000,
+      4002,
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002,
+      4100
+    ],
+    "script": {},
+    "id": 94087621,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate when Damaged",
+    "detail": "Decrease Death Success Rate by 40% for yourself when resistant to damage",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000,
+      4003,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003,
+      4007
+    ],
+    "script": {},
+    "id": 94087622,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate when Damaged",
+    "detail": "Decrease Death Success Rate by 40% for yourself when resistant to damage",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000,
+      4001,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001,
+      4007
+    ],
+    "script": {},
+    "id": 94087623,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate when Damaged",
+    "detail": "Decrease Death Success Rate by 40% for yourself when resistant to damage",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000,
+      4002,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002,
+      4007
+    ],
+    "script": {},
+    "id": 94087624,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate when Damaged",
+    "detail": "Decrease Death Success Rate by 40% for yourself when resistant to damage",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004,
       3006,
