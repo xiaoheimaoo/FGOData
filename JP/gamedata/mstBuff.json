@@ -88876,6 +88876,21 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6003,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "ブルーム・フローリスト",
+    "detail": "『カルデアン・フロラリア』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004
     ],
@@ -89047,6 +89062,321 @@
     "detail": "攻撃力をアップ",
     "iconId": 300,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6014,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、対象の攻撃力をダウン",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE_MULTI_OR": [
+        {
+          "INDIVIDUALITIE": 2121
+        },
+        {
+          "individualityCondTargetType": 3,
+          "INDIVIDUALITIE": 10027
+        }
+      ],
+      "ProgressSelfTurn": 1
+    },
+    "id": 6021,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "宝具威力アップ",
+    "detail": "灰が舞うフィールド<〔灰桜〕状態の対象がいるフィールドまたは〔炎上〕しているフィールド>で、宝具で与えるダメージをアップ",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6022,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "死亡時発動",
+    "detail": "HPが0になった時、味方全体のNPを少し増やす",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6023,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "死亡時発動",
+    "detail": "HPが0になった時、味方全体のチャージを増やす",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6024,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、味方全体のNPを少し増やす",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6025,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、味方全体のチャージを増やす",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [
+      4008
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6026,
+    "buffGroup": 0,
+    "type": 180,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時、自身に宝具使用時のチャージ段階を1段階引き上げる状態を付与",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6027,
+    "buffGroup": 0,
+    "type": 182,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、自身に呪い状態を付与",
+    "iconId": 549,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6028,
+    "buffGroup": 0,
+    "type": 180,
+    "name": "Quick通常攻撃時追加効果",
+    "detail": "Quick通常攻撃時、自身のNPを少し増やす",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6029,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "ターン終了時、味方全体に宝具使用時のチャージ段階を1段階引き上げる状態を付与",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [
+      4100
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6030,
+    "buffGroup": 0,
+    "type": 180,
+    "name": "クリティカル攻撃時追加効果",
+    "detail": "クリティカル攻撃時、自身のNPを少し増やす",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027,
+      3132
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 6031,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "フィールド効果〔攻撃力アップ〕",
+    "detail": "プレイヤー側のフィールドにいるすべての対象が「攻撃力をアップする効果」を受ける",
+    "iconId": 460,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027,
+      3132
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 6032,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "フィールド効果〔攻撃力アップ〕",
+    "detail": "エネミー側のフィールドにいるすべての対象が「攻撃力をアップする効果」を受ける",
+    "iconId": 461,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3015,
+      10027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6041,
+    "buffGroup": 0,
+    "type": 8,
+    "name": "灰桜",
+    "detail": "ターン終了時にHPが減る",
+    "iconId": 513,
+    "maxRate": 0,
+    "effectId": 17122
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6042,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6045,
+    "buffGroup": 0,
+    "type": 181,
+    "name": "Quick攻撃ダメージ前追加効果",
+    "detail": "Quick攻撃時、ダメージ前に自身のクリティカル威力をアップ",
+    "iconId": 333,
+    "maxRate": 0,
     "effectId": 0
   },
   {
@@ -165191,6 +165521,27 @@
     "name": "正月から働かせるモノ",
     "detail": "〔人類の脅威〕特性を付与",
     "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 2,
+      "INDIVIDUALITIE": -3086
+    },
+    "id": 94153001,
+    "buffGroup": 600,
+    "type": 37,
+    "name": "雑草魂",
+    "detail": "HPが0になった時、HPを回復して耐える",
+    "iconId": 304,
     "maxRate": 0,
     "effectId": 0
   },

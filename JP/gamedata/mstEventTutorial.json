@@ -14380,7 +14380,8 @@
       "[17]",
       "[18]",
       "[19]",
-      "[50040111]"
+      "[50040111]",
+      "[50040711]"
     ],
     "condIds": [],
     "imageIds": [
@@ -17034,6 +17035,46 @@
     "eventId": -6,
     "flagType": 32,
     "num": 83,
+    "priority": 1,
+    "openType": 34,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[50040711]"
+    ],
+    "condIds": [],
+    "imageIds": [],
+    "textJson": [
+      {
+        "isSelectBonus": false,
+        "rects": [],
+        "isFortification": false,
+        "text": "「★4(SR)蛇女房」の召喚分類に関する訂正とお詫び\n\n1月17日(土)の事前告知にて、\n本召喚でピックアップされている「[FFFF00]★4(SR)蛇女房[-]」を\n「[FFFF00]期間限定サーヴァント[-]」と紹介しておりましたが、\n正しくは「[FFFF00]恒常サーヴァント[-]」となります。\n\n[FFFF00]【誤】期間限定サーヴァント ★4(SR)蛇女房[-]\n↓\n[FFFF00]【正】恒常サーヴァント ★4(SR)蛇女房[-]\n\n誤った情報をお伝えしておりましたことお詫び申し上げます。\n召喚を実行する際は、上記の内容にご注意ください。\n",
+        "dlgBgId": 0,
+        "textPos": [
+          0,
+          13
+        ],
+        "spacingY": 0,
+        "dlgFontSize": 20,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "ptPos": [
+          0,
+          0
+        ],
+        "isQuestRelease": false
+      }
+    ],
+    "script": {},
+    "eventId": -6,
+    "flagType": 32,
+    "num": 84,
     "priority": 1,
     "openType": 34,
     "condType": 0,
@@ -44382,6 +44423,157 @@
     "priority": 0,
     "openType": 106,
     "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      20152809
+    ],
+    "imageIds": [
+      1418
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80599,
+    "flagType": 65,
+    "num": 1,
+    "priority": 0,
+    "openType": 4,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      1418
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80599,
+    "flagType": 66,
+    "num": 1,
+    "priority": 0,
+    "openType": 23,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      1418
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80599,
+    "flagType": 67,
+    "num": 1,
+    "priority": 0,
+    "openType": 24,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[8409]"
+    ],
+    "condIds": [
+      20152801
+    ],
+    "imageIds": [
+      1419
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80599,
+    "flagType": 68,
+    "num": 1,
+    "priority": 0,
+    "openType": 104,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [],
+    "textJson": [],
+    "script": {},
+    "eventId": 80599,
+    "flagType": 71,
+    "num": 1,
+    "priority": 0,
+    "openType": 79,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      20152810
+    ],
+    "imageIds": [
+      1418
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80599,
+    "flagType": 84,
+    "num": 1,
+    "priority": 0,
+    "openType": 4,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      20152811
+    ],
+    "imageIds": [],
+    "textJson": [],
+    "script": {},
+    "eventId": 80599,
+    "flagType": 85,
+    "num": 1,
+    "priority": 0,
+    "openType": 4,
+    "condType": 113,
     "condValue": 0,
     "condValue2": 0,
     "condValue3": 0,
