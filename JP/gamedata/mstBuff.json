@@ -165689,6 +165689,60 @@
     "ckSelfIndv": [],
     "ckOpIndv": [],
     "script": {},
+    "id": 94152814,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "攻撃を受けた時、敵単体のHPを減らす",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6026
+    },
+    "id": 94152815,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "",
+    "detail": "",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152816,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、自身のクリティカル威力をアップ",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
     "id": 94153000,
     "buffGroup": 0,
     "type": 86,
@@ -165759,6 +165813,25 @@
   {
     "vals": [
       3004,
+      3016,
+      6021
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153006,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "特殊耐性アップ",
+    "detail": "全ての攻撃に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
       3060
     ],
     "tvals": [],
@@ -165815,6 +165888,28 @@
   },
   {
     "vals": [
+      3005
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4100
+    ],
+    "script": {},
+    "id": 94153015,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動〔クリティカル〕",
+    "detail": "クリティカル攻撃を受けた時、自身の特殊耐性アップ状態を1つ解除",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3007,
       3040,
@@ -165864,6 +165959,21 @@
     "name": "葉っぱかじり",
     "detail": "通常攻撃時、対象の防御力をダウン",
     "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153028,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "大繁殖",
+    "detail": "自身がフィールドにいる間、〔目玉草〕の被ダメージを減らす",
+    "iconId": 334,
     "maxRate": 0,
     "effectId": 0
   },
