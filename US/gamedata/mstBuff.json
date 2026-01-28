@@ -102961,6 +102961,350 @@
   {
     "vals": [
       3004,
+      3018,
+      3022,
+      3007,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94093200,
+    "buffGroup": 400,
+    "type": 26,
+    "name": "Invincible",
+    "detail": "Ignore Sure Hit and reduce ATK damage to 0",
+    "iconId": 311,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3004,
+      3006,
+      3007,
+      3027,
+      3058,
+      3031,
+      3021,
+      3018,
+      3024,
+      3030,
+      3032,
+      3019
+    ],
+    "script": {},
+    "id": 94093201,
+    "buffGroup": 0,
+    "type": 100,
+    "name": "Buff Removal Resist Up",
+    "detail": "Increase resistance to buff removal",
+    "iconId": 348,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94093202,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "DEF Up",
+    "detail": "Increase DEF",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6029
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94093203,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Ambush",
+    "detail": "Inflict NP Seal & increase DEF Buff Remove Resistance by 50% [Demerit] to all enemies when you are on the field",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3020,
+      6030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94093204,
+    "buffGroup": 0,
+    "type": 34,
+    "name": "",
+    "detail": "",
+    "iconId": 512,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3007
+    ],
+    "script": {},
+    "id": 94093206,
+    "buffGroup": 0,
+    "type": 101,
+    "name": "Sea Serpent's Stranglehold",
+    "detail": "Increase chance to remove DEF Buff",
+    "iconId": 542,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94093207,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Trojan Horse",
+    "detail": "Gain C. Stars at the end of turn, but there is a chance it is a trap that activates a powerful Debuff each turn <traps can be removed>",
+    "iconId": 320,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3081,
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94093208,
+    "buffGroup": 0,
+    "type": 6,
+    "name": "",
+    "detail": "",
+    "iconId": 320,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3081,
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94093209,
+    "buffGroup": 0,
+    "type": 6,
+    "name": "",
+    "detail": "",
+    "iconId": 320,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94093210,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "",
+    "detail": "",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94093211,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "Trojan Horse",
+    "detail": "Activates a powerful Debuff after turn",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94093212,
+    "buffGroup": 94093212,
+    "type": 137,
+    "name": "Bonus Effect when Attacking",
+    "detail": "Reduce target's remaining [Trojan Horse] turn count by 1 when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94093213,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers each Turn",
+    "detail": "Decrease DEF for all allies at the end of each turn",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94093214,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3007
+    ],
+    "script": {},
+    "id": 94093215,
+    "buffGroup": 0,
+    "type": 100,
+    "name": "",
+    "detail": "",
+    "iconId": 348,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94093216,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "DEF Up",
+    "detail": "Increase DEF",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94093217,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Special Resist Up",
+    "detail": "Gain resistance to damage from all attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94093218,
+    "buffGroup": 0,
+    "type": 152,
+    "name": "Decrease C. Star Drop Resistance",
+    "detail": "Increase chance of C. Stars dropping",
+    "iconId": 560,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
       3006,
       3028
     ],
