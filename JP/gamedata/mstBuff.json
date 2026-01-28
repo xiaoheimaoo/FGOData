@@ -165743,6 +165743,23 @@
     "ckSelfIndv": [],
     "ckOpIndv": [],
     "script": {},
+    "id": 94152819,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "屍草燃ゆる",
+    "detail": "攻撃時、対象にやけど状態を付与",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
     "id": 94153000,
     "buffGroup": 0,
     "type": 86,
@@ -165827,6 +165844,41 @@
     "detail": "全ての攻撃に対する耐性をアップ",
     "iconId": 334,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153007,
+    "buffGroup": 0,
+    "type": 104,
+    "name": "開花を待つ",
+    "detail": "HPが0になった時、HPを回復して耐える",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153008,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "開花を待つ",
+    "detail": "攻撃を受けた時、敵単体のHPを減らす",
+    "iconId": 331,
+    "maxRate": 0,
     "effectId": 0
   },
   {
