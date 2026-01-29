@@ -88998,6 +88998,23 @@
   },
   {
     "vals": [
+      10026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6010,
+    "buffGroup": 6010,
+    "type": 76,
+    "name": "冥界の花園",
+    "detail": "〔冥界の花園〕状態に変身する<宝具が変化・解除不能>",
+    "iconId": 393,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3005,
       3045,
       3010,
@@ -89078,6 +89095,45 @@
     "name": "攻撃時追加効果",
     "detail": "攻撃時、対象の攻撃力をダウン",
     "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 2,
+      "INDIVIDUALITIE": -10026
+    },
+    "id": 6019,
+    "buffGroup": 0,
+    "type": 95,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      10026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 1002100,
+      "DisplayCardBottomImageName": "icon_treasure_device_change"
+    },
+    "id": 6020,
+    "buffGroup": 0,
+    "type": 145,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
     "maxRate": 0,
     "effectId": 0
   },
@@ -89320,6 +89376,126 @@
     "name": "フィールド効果〔攻撃力アップ〕",
     "detail": "エネミー側のフィールドにいるすべての対象が「攻撃力をアップする効果」を受ける",
     "iconId": 461,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      3110,
+      3133
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 0
+    },
+    "id": 6033,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "フィールド効果〔防御力ダウン〕",
+    "detail": "エネミー側のフィールドにいるすべての対象が「防御力をダウンする効果」を受ける",
+    "iconId": 607,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      3110,
+      3133
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 0
+    },
+    "id": 6034,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "フィールド効果〔防御力ダウン〕",
+    "detail": "プレイヤー側のフィールドにいるすべての対象が「防御力をダウンする効果」を受ける",
+    "iconId": 606,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      3133
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6035,
+    "buffGroup": 0,
+    "type": 217,
+    "name": "フィールド効果〔クリティカル威力耐性ダウン〕",
+    "detail": "エネミー側のフィールドにいるすべての対象が「クリティカル攻撃で受けるダメージが増える効果」を受ける",
+    "iconId": 609,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      3133
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6036,
+    "buffGroup": 0,
+    "type": 217,
+    "name": "フィールド効果〔クリティカル威力耐性ダウン〕",
+    "detail": "プレイヤー側のフィールドにいるすべての対象が「クリティカル攻撃で受けるダメージが増える効果」を受ける",
+    "iconId": 608,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      3133
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6037,
+    "buffGroup": 0,
+    "type": 219,
+    "name": "フィールド効果〔宝具威力耐性ダウン〕",
+    "detail": "エネミー側のフィールドにいるすべての対象が「宝具攻撃で受けるダメージが増える効果」を受ける",
+    "iconId": 611,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      3133
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6038,
+    "buffGroup": 0,
+    "type": 219,
+    "name": "フィールド効果〔宝具威力耐性ダウン〕",
+    "detail": "プレイヤー側のフィールドにいるすべての対象が「宝具攻撃で受けるダメージが増える効果」を受ける",
+    "iconId": 610,
     "maxRate": 5000,
     "effectId": 0
   },
@@ -94495,6 +94671,78 @@
     "name": "ターンチャージマイナス",
     "detail": "ターン毎のチャージ量を1減らす<他の同一効果と重複可能>",
     "iconId": 519,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 91505901,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時、自身の攻撃力をアップ",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 91505902,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時、自身の攻撃力をダウン",
+    "iconId": 549,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6021
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 91505903,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6022
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 91505904,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
     "maxRate": 0,
     "effectId": 0
   },
@@ -165760,6 +166008,154 @@
     "ckSelfIndv": [],
     "ckOpIndv": [],
     "script": {},
+    "id": 94152821,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "焦花爛漫",
+    "detail": "ターン終了時、自身の攻撃力をアップ＆弱体耐性をアップ",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152822,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "ターン終了時、自身に回避状態を付与",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152823,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、対象にやけど状態を付与",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3033
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3015
+    },
+    "id": 94152824,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "狂炎",
+    "detail": "〔やけど〕状態の時、攻撃力をダウン<自身のやけど状態が多いほど効果量アップ>",
+    "iconId": 503,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 0,
+      "relationId": 94152803
+    },
+    "id": 94152825,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔プリテンダー〕クラスに対するクラス相性が攻撃優位になる",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152826,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "宝具攻撃時追加効果",
+    "detail": "宝具攻撃時、味方全体の弱体耐性をアップ",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152827,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、自身の攻撃力をアップ＆チャージを1増やす",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94152828,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、自身の宝具威力をアップ",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
     "id": 94153000,
     "buffGroup": 0,
     "type": 86,
@@ -165878,6 +166274,47 @@
     "name": "開花を待つ",
     "detail": "攻撃を受けた時、敵単体のHPを減らす",
     "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 0,
+      "defPriority": 900,
+      "relationId": 94152802
+    },
+    "id": 94153009,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔プリテンダー〕クラスに対するクラス相性が優位になる",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "defPriority": 900,
+      "relationId": 94152801
+    },
+    "id": 94153010,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔キャスター〕クラスに対するクラス相性が防御優位になる",
+    "iconId": 520,
     "maxRate": 0,
     "effectId": 0
   },
@@ -166015,6 +166452,190 @@
     "effectId": 0
   },
   {
+    "vals": [
+      3004,
+      3018,
+      3022,
+      3007
+    ],
+    "tvals": [
+      -4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4100
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94153019,
+    "buffGroup": 0,
+    "type": 26,
+    "name": "無敵",
+    "detail": "必中を無視して、クリティカル攻撃を除く攻撃によるダメージを0にする",
+    "iconId": 311,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4100
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94153020,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "特殊耐性アップ",
+    "detail": "クリティカル攻撃を除く全ての攻撃に対する耐性を得る",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4100
+    ],
+    "script": {},
+    "id": 94153021,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動〔クリティカル〕",
+    "detail": "クリティカル攻撃を受けた時、自身のガッツ状態を無効にする",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153022,
+    "buffGroup": 0,
+    "type": 188,
+    "name": "宝具使用時追加効果",
+    "detail": "宝具使用時、自身を除く味方全体にスタン状態を付与",
+    "iconId": 549,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153023,
+    "buffGroup": 0,
+    "type": 171,
+    "name": "行動回数ダウン",
+    "detail": "バトル中の行動回数を減らす",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153024,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "毎ターン終了時、敵全体に毒状態を付与",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153025,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、対象に毒状態を付与",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153026,
+    "buffGroup": 0,
+    "type": 187,
+    "name": "スキル使用時追加効果",
+    "detail": "スキルを使用した時、自身にターゲット集中状態を付与",
+    "iconId": 569,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3112
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3011,
+      "INDIVIDUALITIE_COUNT_ABOVE": 5
+    },
+    "id": 94153027,
+    "buffGroup": 0,
+    "type": 193,
+    "name": "ダメージカット貫通",
+    "detail": "〔毒〕状態が5つ以上付与されている間、ダメージカットを無視して、攻撃によるダメージを与える",
+    "iconId": 351,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
     "vals": [],
     "tvals": [],
     "ckSelfIndv": [],
@@ -166027,6 +166648,106 @@
     "detail": "自身がフィールドにいる間、〔目玉草〕の被ダメージを減らす",
     "iconId": 334,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153029,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3086
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153030,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "ガッツ無効",
+    "detail": "ガッツ状態を無効にする",
+    "iconId": 531,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [
+      -3011
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -3011
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94153031,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "防御力アップ〔毒以外〕",
+    "detail": "〔毒〕状態以外の敵に対する防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3025
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -3011
+    },
+    "id": 94153032,
+    "buffGroup": 800,
+    "type": 33,
+    "name": "スキル封印",
+    "detail": "スキルを使用できなくなる<毒状態の間、効果が無効になる> ",
+    "iconId": 511,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -3086
+    },
+    "id": 94153219,
+    "buffGroup": 0,
+    "type": 104,
+    "name": "憧憬の花",
+    "detail": "HPが0になった時、HPを回復して耐える(他のガッツ状態と重複可能)",
+    "iconId": 304,
+    "maxRate": 1000,
     "effectId": 0
   },
   {
