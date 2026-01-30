@@ -166732,6 +166732,364 @@
   },
   {
     "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153201,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6035
+    ],
+    "tvals": [
+      5000,
+      4008,
+      -4100
+    ],
+    "ckSelfIndv": [
+      4008,
+      -4100
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94153202,
+    "buffGroup": 0,
+    "type": 180,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6035
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [
+      4100
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153203,
+    "buffGroup": 0,
+    "type": 180,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6035
+    ],
+    "tvals": [
+      5000,
+      4008,
+      -4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4008,
+      -4100
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94153204,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6035
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4100
+    ],
+    "script": {},
+    "id": 94153205,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6035
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94153206,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6035
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94153207,
+    "buffGroup": 0,
+    "type": 188,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6035
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153208,
+    "buffGroup": 0,
+    "type": 180,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6035
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {},
+    "id": 94153209,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6021
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 1100
+    },
+    "id": 94153210,
+    "buffGroup": 0,
+    "type": 10001,
+    "name": "荒れた大地",
+    "detail": "攻撃時と宝具使用時に土が耕され、花畑の完成に近づく",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6022
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 1100
+    },
+    "id": 94153211,
+    "buffGroup": 0,
+    "type": 10001,
+    "name": "開花を待つ大地",
+    "detail": "プレイヤーターン開始時にNPやスターが多く残っていると肥料が作られ、花畑の完成に近づく",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3060,
+      6023
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 500
+    },
+    "id": 94153212,
+    "buffGroup": 0,
+    "type": 7,
+    "name": "ブルームリソース(小)",
+    "detail": "ターン終了時にHPが回復する",
+    "iconId": 318,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3060,
+      6023
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 510
+    },
+    "id": 94153213,
+    "buffGroup": 0,
+    "type": 7,
+    "name": "ブルームリソース(中)",
+    "detail": "ターン終了時にHPが回復する",
+    "iconId": 318,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3060,
+      6023
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 520
+    },
+    "id": 94153214,
+    "buffGroup": 0,
+    "type": 7,
+    "name": "ブルームリソース(大)",
+    "detail": "ターン終了時にHPが回復する",
+    "iconId": 318,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153215,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "エネミーターン終了時、敵味方全体のHPを消費して肥料を作成する",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153216,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "エネミーターン終了時、敵全体のHPを消費して肥料を作成する",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 0,
+      "relationId": 94152804
+    },
+    "id": 94153217,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "攻撃相性変更",
+    "detail": "攻撃時のクラス相性が〔バーサーカー〕に変化する",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3024
     ],
@@ -166748,6 +167106,23 @@
     "detail": "HPが0になった時、HPを回復して耐える(他のガッツ状態と重複可能)",
     "iconId": 304,
     "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6035
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153220,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
     "effectId": 0
   },
   {
