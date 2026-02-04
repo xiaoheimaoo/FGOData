@@ -25909,8 +25909,8 @@
     "id": 1856,
     "buffGroup": 0,
     "type": 5,
-    "name": "NP Gain Per Turn ",
-    "detail": "Gain NP at end of each turn",
+    "name": "NP Gain each Turn (Near Water)",
+    "detail": "Increase NP Gauge at the end of turn only when on a [Near Water] field",
     "iconId": 319,
     "maxRate": 0,
     "effectId": 0
@@ -79708,6 +79708,21 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5511,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Choco Rafter",
+    "detail": "Increase damage dealt during \"Valentine's 2026\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004,
       3091
@@ -79830,6 +79845,74 @@
     "name": "",
     "detail": "",
     "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5521,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "Activate when Guts is Triggered",
+    "detail": "Increase ATK for yourself when Guts is triggered",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5523,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate when Damaged",
+    "detail": "Increase NP Gauge & Critical Strength for yourself when sustaining attacks",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5524,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate when Damaged",
+    "detail": "Low chance to increase Charge & Critical Strength for yourself when sustaining attacks",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5525,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate when Damaged",
+    "detail": "Decrease a single enemy's ATK when sustaining attacks",
+    "iconId": 331,
     "maxRate": 0,
     "effectId": 0
   },
@@ -102956,6 +103039,456 @@
     "detail": "",
     "iconId": 0,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94092701,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94092702,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers each Turn",
+    "detail": "Increase Critical Damage for yourself at the end of each turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94092703,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers each Turn",
+    "detail": "At the end of each turn, increase your ATK",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94092704,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers each Turn",
+    "detail": "At the end of each turn, increase your ATK",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94092705,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94092706,
+    "buffGroup": 0,
+    "type": 104,
+    "name": "Blessing of the Goddess of Slaughter",
+    "detail": "When HP reaches 0, recover HP and survive (stackable with other Guts)",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94092801,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Protection of the Underworld",
+    "detail": "Gain resistance to all attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 94092801
+    },
+    "id": 94092802,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "Class Affinity Change",
+    "detail": "Gain class advantage against [Avenger]",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94092803,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "Swirling Thoughts",
+    "detail": "Increase Critical Hit Rate & ATK",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94092804,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "",
+    "detail": "",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6039
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94092901,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94092902,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6041
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94092903,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6042
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94092904,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94092905,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94092906,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94092907,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94092908,
+    "buffGroup": 0,
+    "type": 173,
+    "name": "Studying",
+    "detail": "When HP Gauge is broken, recover HP at the end of turn and survive",
+    "iconId": 384,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3020,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94092909,
+    "buffGroup": 900,
+    "type": 34,
+    "name": "Studying",
+    "detail": "Unable to use Noble Phantasm & decrease ATK",
+    "iconId": 512,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94092910,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "NP Resist Up",
+    "detail": "Increase resistance against Noble Phantasm Attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6043
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94092911,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94092912,
+    "buffGroup": 0,
+    "type": 153,
+    "name": "C. Star Generation Resistance Up",
+    "detail": "Decrease chance of C. Stars dropping",
+    "iconId": 364,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94092913,
+    "buffGroup": 0,
+    "type": 151,
+    "name": "Critical Resistance Up",
+    "detail": "Decrease chance of sustaining Critical ATK",
+    "iconId": 363,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3033,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94092914,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "",
+    "detail": "",
+    "iconId": 503,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94092915,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Class in Session",
+    "detail": "At the end of turn, end class and leave",
+    "iconId": 331,
+    "maxRate": 0,
     "effectId": 0
   },
   {
