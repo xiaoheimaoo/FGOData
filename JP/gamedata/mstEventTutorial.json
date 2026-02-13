@@ -4,6 +4,101 @@
       "[]"
     ],
     "condIds": [
+      20154317
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "isClassBoardRelease": false,
+        "dlgBgId": 0,
+        "rects": [],
+        "ptPos": [
+          0,
+          0
+        ],
+        "dlgTitleFontSize": 0,
+        "isQuestRelease": false,
+        "text": "「アフタータイムのはじまり」をクリアしたため、\nバレンタインイベントにおける\nオルガマリーの特別メッセージが開放されました。\n\n※特別メッセージはマテリアルからも再生できます。",
+        "textPos": [
+          0,
+          30
+        ],
+        "spacingY": 5,
+        "dlgFontSize": 23,
+        "commonReleaseId": 0,
+        "isFortification": false,
+        "isSelectBonus": false,
+        "questId": 0
+      }
+    ],
+    "script": {
+      "PlayScriptInfo": {
+        "ScriptType": 1,
+        "ScriptId": "9403358340",
+        "ScriptTiming": 1
+      }
+    },
+    "eventId": -208,
+    "flagType": 65,
+    "num": 1,
+    "priority": 1,
+    "openType": 80,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [],
+    "textJson": [],
+    "script": {},
+    "eventId": -208,
+    "flagType": 66,
+    "num": 1,
+    "priority": 2,
+    "openType": 80,
+    "condType": 92,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      -208
+    ],
+    "imageIds": [],
+    "textJson": [],
+    "script": {
+      "beforeActionVals": [
+        "851",
+        "975"
+      ]
+    },
+    "eventId": -208,
+    "flagType": 67,
+    "num": 1,
+    "priority": 1,
+    "openType": 80,
+    "condType": 170,
+    "condValue": 65,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
       20151009
     ],
     "imageIds": [
@@ -44897,6 +44992,223 @@
     "priority": 0,
     "openType": 4,
     "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [],
+    "textJson": [],
+    "script": {},
+    "eventId": 80603,
+    "flagType": 65,
+    "num": 1,
+    "priority": 0,
+    "openType": 79,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      20153905
+    ],
+    "imageIds": [
+      1425
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80603,
+    "flagType": 66,
+    "num": 1,
+    "priority": 0,
+    "openType": 20,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      1428
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80603,
+    "flagType": 67,
+    "num": 1,
+    "priority": 0,
+    "openType": 22,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      1425
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80603,
+    "flagType": 68,
+    "num": 1,
+    "priority": 0,
+    "openType": 23,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      1427,
+      1426,
+      1429
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80603,
+    "flagType": 69,
+    "num": 1,
+    "priority": 0,
+    "openType": 24,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      1428,
+      1426,
+      1429
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80603,
+    "flagType": 70,
+    "num": 1,
+    "priority": 0,
+    "openType": 25,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      1425
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80603,
+    "flagType": 71,
+    "num": 1,
+    "priority": 0,
+    "openType": 44,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[8410]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      1426,
+      1429
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80603,
+    "flagType": 72,
+    "num": 1,
+    "priority": 0,
+    "openType": 104,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      20153903
+    ],
+    "imageIds": [
+      1425
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80603,
+    "flagType": 73,
+    "num": 1,
+    "priority": 0,
+    "openType": 20,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      1427
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80603,
+    "flagType": 74,
+    "num": 1,
+    "priority": 0,
+    "openType": 21,
+    "condType": 0,
     "condValue": 0,
     "condValue2": 0,
     "condValue3": 0,
