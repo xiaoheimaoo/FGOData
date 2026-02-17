@@ -89660,6 +89660,28 @@
   },
   {
     "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [
+      4100
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6047,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "クリティカル攻撃時追加効果",
+    "detail": "クリティカル攻撃時、対象に呪い状態を付与",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3006,
       3028
@@ -168259,6 +168281,71 @@
     "name": "攻撃時追加効果",
     "detail": "攻撃時、対象のHP回復量をダウン",
     "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153911,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "甘き聖杯",
+    "detail": "毎ターンチャージを増やす",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [
+      2666
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2666
+    ],
+    "script": {},
+    "id": 94153912,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "防御力アップ〔巨人〕",
+    "detail": "〔巨人〕特性に対する防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3022,
+      3007
+    ],
+    "tvals": [
+      3026
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3026
+    ],
+    "script": {},
+    "id": 94153937,
+    "buffGroup": 0,
+    "type": 26,
+    "name": "無敵〔呪い〕",
+    "detail": "必中を無視して、呪い状態の敵からの攻撃によるダメージを0にする",
+    "iconId": 311,
     "maxRate": 0,
     "effectId": 0
   }
