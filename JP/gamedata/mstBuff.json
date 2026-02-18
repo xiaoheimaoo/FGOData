@@ -168327,6 +168327,386 @@
   },
   {
     "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153913,
+    "buffGroup": 0,
+    "type": 208,
+    "name": "止まらない母心",
+    "detail": "スキル封印・行動不能効果を受けた時、自身のスキル封印・行動不能状態を解除<3ターンに1回だけ発動>",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      4007,
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007,
+      4100
+    ],
+    "script": {
+      "INDIVIDUALITIE": -3025
+    },
+    "id": 94153915,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      1001600
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      1001600
+    ],
+    "script": {},
+    "id": 94153916,
+    "buffGroup": 0,
+    "type": 208,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6040,
+      "INDIVIDUALITIE_COUNT_ABOVE": 10
+    },
+    "id": 94153917,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026,
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153919,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "強き想い",
+    "detail": "ターン終了時、想いの数に応じて〔お母さんパワー〕が増減する",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026,
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153920,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "優しき想い",
+    "detail": "ターン終了時、想いの数に応じて〔お母さんパワー〕が増減する",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -4100,
+      -4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4100,
+      -4007
+    ],
+    "script": {
+      "checkIndvType": 2,
+      "INDIVIDUALITIE": 6040
+    },
+    "id": 94153922,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "特殊耐性アップ",
+    "detail": "全ての攻撃に対する耐性をアップ<お母さんパワーの数だけ効果量アップ>",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6040,
+      "INDIVIDUALITIE_COUNT_ABOVE": 5
+    },
+    "id": 94153923,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時、対象の強化状態を1つ解除<お母さんパワーが5個以上の時、効果が有効になり、1ターンに1回だけ発動>",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6040,
+      "INDIVIDUALITIE_COUNT_ABOVE": 10
+    },
+    "id": 94153924,
+    "buffGroup": 0,
+    "type": 229,
+    "name": "行動回数アップ",
+    "detail": "行動回数を増やす<お母さんパワーが10個以上の時、効果が有効になる>",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153925,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "お母さんパワー",
+    "detail": "母なるものだけに宿る物凄い力だとか",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [
+      4100
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153926,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "クリティカル攻撃時追加効果",
+    "detail": "クリティカル攻撃時、自身の攻撃力をアップ",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153927,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153928,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6040,
+      "INDIVIDUALITIE_COUNT_ABOVE": 5
+    },
+    "id": 94153929,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "ターン終了時、味方全体のチャージを増やす<お母さんパワーが5個以上の時、効果が有効になる>",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6033
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153930,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6034
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153931,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6035
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153932,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6040,
+      "INDIVIDUALITIE_COUNT_ABOVE": 3
+    },
+    "id": 94153933,
+    "buffGroup": 600,
+    "type": 104,
+    "name": "ガッツ",
+    "detail": "HPが0になった時、HPを回復して耐える<お母さんパワーが3個以上の時、効果が有効になる>",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153934,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、自身の〔お母さんパワー〕を解除",
+    "iconId": 556,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153936,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3018,
       3022,
@@ -168347,6 +168727,151 @@
     "detail": "必中を無視して、呪い状態の敵からの攻撃によるダメージを0にする",
     "iconId": 311,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153938,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "防御力アップ",
+    "detail": "防御力をアップ<お母さんパワーの数だけ効果量アップ>",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153939,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "クリティカル発生アップ",
+    "detail": "クリティカルの発生率をアップ<お母さんパワーの数だけ効果量アップ>",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027,
+      6036
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153940,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "攻撃力アップ",
+    "detail": "攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153941,
+    "buffGroup": 0,
+    "type": 208,
+    "name": "止まらない母心",
+    "detail": "精神異常効果を受けた時、自身に想い獲得不能状態を付与<1ターンに1回だけ発動>",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      6026
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      6026
+    ],
+    "script": {},
+    "id": 94153942,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "想い獲得不能",
+    "detail": "想いを獲得できなくなる",
+    "iconId": 531,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4100
+    ],
+    "script": {
+      "INDIVIDUALITIE": 6040
+    },
+    "id": 94153943,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "",
+    "detail": "",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {
+      "INDIVIDUALITIE": 6040
+    },
+    "id": 94153944,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "",
+    "detail": "",
+    "iconId": 334,
+    "maxRate": 5000,
     "effectId": 0
   }
 ]
