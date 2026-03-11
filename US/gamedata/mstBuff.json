@@ -56485,6 +56485,27 @@
   },
   {
     "vals": [
+      3005
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {},
+    "id": 4051,
+    "buffGroup": 0,
+    "type": 29,
+    "name": "Decrease Buff Success Rate when receiving a Buff",
+    "detail": "Decrease Buff Success Rate when receiving a Buff",
+    "iconId": 506,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004
     ],
     "tvals": [
@@ -79933,6 +79954,63 @@
   },
   {
     "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5526,
+    "buffGroup": 0,
+    "type": 175,
+    "name": "Chaotic Mechanism",
+    "detail": "Change your \"ATK Up\" effect to \"ATK Down\"",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5527,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate when Damaged",
+    "detail": "Inflict Electrified to a single enemy when sustaining attacks",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      203
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      203
+    ],
+    "script": {},
+    "id": 5529,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Strength Up (Star Attribute)",
+    "detail": "Increase damage dealt against [Star Attribute]",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004
     ],
     "tvals": [
@@ -80036,6 +80114,209 @@
     "name": "Bonus Effect with Noble Phantasm",
     "detail": "Inflict Death to target when attacking with Noble Phantasm <nullify Resistance>",
     "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3095
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5537,
+    "buffGroup": 2000,
+    "type": 190,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3095
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5538,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3095
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5539,
+    "buffGroup": 0,
+    "type": 41,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5540,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect when Attacking",
+    "detail": "Inflict Burn to target when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5541,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "ATK Up",
+    "detail": "Increase ATK only when on a [Darkness] field",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5542,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "Pre-Quick ATK Damage Bonus Effect",
+    "detail": "Increase Critical Strength for yourself before sustaining damage during Quick attacks",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5543,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Quick Attack Bonus Effect",
+    "detail": "Increase NP Gauge for yourself when attacking with a Quick Card",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5544,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "Activate when Guts Is Triggered",
+    "detail": "Increase NP Gauge for yourself when Guts is activated",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5545,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect with Normal Attack",
+    "detail": "Decrease Buff Success Rate of target during normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5546,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate when Damaged",
+    "detail": "Increase NP Gauge for yourself when sustaining attacks",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5547,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "Activate when Guts Is Triggered",
+    "detail": "Increase Charge for yourself when Guts is activated",
+    "iconId": 365,
     "maxRate": 0,
     "effectId": 0
   },
@@ -82489,20 +82770,25 @@
   },
   {
     "vals": [
-      3005,
-      3009,
-      3110
+      3004,
+      3007,
+      3040,
+      3058
     ],
-    "tvals": [],
+    "tvals": [
+      304
+    ],
     "ckSelfIndv": [],
-    "ckOpIndv": [],
+    "ckOpIndv": [
+      304
+    ],
     "script": {},
     "id": 94080061,
     "buffGroup": 0,
-    "type": 43,
-    "name": "Back Cut",
-    "detail": "Decrease DEF",
-    "iconId": 504,
+    "type": 42,
+    "name": "DEF Up [Evil]",
+    "detail": "Increase DEF against [Evil]",
+    "iconId": 301,
     "maxRate": 5000,
     "effectId": 0
   },
@@ -92151,7 +92437,8 @@
   {
     "vals": [
       3005,
-      3009
+      3009,
+      3110
     ],
     "tvals": [],
     "ckSelfIndv": [],
@@ -92484,7 +92771,8 @@
   {
     "vals": [
       3005,
-      3009
+      3009,
+      3110
     ],
     "tvals": [
       4100
@@ -97814,25 +98102,19 @@
   },
   {
     "vals": [
-      3005,
-      3009,
-      3110
+      3004
     ],
-    "tvals": [
-      2007
-    ],
+    "tvals": [],
     "ckSelfIndv": [],
-    "ckOpIndv": [
-      2007
-    ],
+    "ckOpIndv": [],
     "script": {},
     "id": 94087975,
     "buffGroup": 0,
-    "type": 43,
-    "name": "DEF Down (Altria Face)",
-    "detail": "Decrease DEF against [Altria faces]",
-    "iconId": 504,
-    "maxRate": 5000,
+    "type": 137,
+    "name": "Ember of Evil",
+    "detail": "Apply [Evil] trait to target when attacking",
+    "iconId": 528,
+    "maxRate": 0,
     "effectId": 0
   },
   {
@@ -98282,7 +98564,8 @@
   {
     "vals": [
       3005,
-      3009
+      3009,
+      3110
     ],
     "tvals": [
       2007
@@ -104534,6 +104817,3206 @@
     "detail": "",
     "iconId": 539,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -110
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -110
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94094801,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Soot Fragment A",
+    "detail": "Increase resistance against attacks other than from [Avenger] class",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -110
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -110
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94094802,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Soot Armor A",
+    "detail": "Increase resistance against attacks other than from [Avenger] class",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -110
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -110
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94094803,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Soot Robe A",
+    "detail": "Increase resistance against attacks other than from [Avenger] class",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094804,
+    "buffGroup": 0,
+    "type": 136,
+    "name": "???",
+    "detail": "Increase damage dealt",
+    "iconId": 359,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094805,
+    "buffGroup": 0,
+    "type": 136,
+    "name": "Fangs of Humanity",
+    "detail": "Increase damage dealt",
+    "iconId": 359,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094807,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "???",
+    "detail": "Increase resistance to all attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -110
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -110
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94094808,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Eternal Night",
+    "detail": "Increase resistance against attacks other than from [Avenger] class",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094809,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "Wailing Fortress",
+    "detail": "Increase DEF & immune to all debuffs",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094810,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "Smoldering Ember",
+    "detail": "Increase ATK and DEF & immune to all debuffs",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      4004
+    ],
+    "ckSelfIndv": [
+      4004
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094811,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Resentful Flame",
+    "detail": "Apply [Collapse] [Stun] to target when attacking with Extra Attack + Apply [Grudge of Vengeance] to yourself",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -6027
+    },
+    "id": 94094812,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Blessing of Earth",
+    "detail": "Gain resistance to all attacks <effect is nullified if in Collapsed state>",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094813,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Collapse",
+    "detail": "Temporarily nullify [Blessing of Earth]",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      4100
+    ],
+    "ckSelfIndv": [
+      4100
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094814,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Resentful Flame",
+    "detail": "Apply [Collapse] to target during Critical attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094815,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "Giant Adamant Blade",
+    "detail": "Before inflicting damage from attacks, remove DEF Buffs excluding [Evade] from the target",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094816,
+    "buffGroup": 0,
+    "type": 136,
+    "name": "Fiery Love, Burning Hate",
+    "detail": "Increase damage dealt",
+    "iconId": 359,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094817,
+    "buffGroup": 0,
+    "type": 136,
+    "name": "Scorching Heat",
+    "detail": "Increase damage dealt",
+    "iconId": 359,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094818,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Massacre",
+    "detail": "Increase damage dealt",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094819,
+    "buffGroup": 0,
+    "type": 185,
+    "name": "Oath to Forgo Skills",
+    "detail": "When an ally Servant's skill is used, apply [Breach] to Nitocris Alter on the player's side <A special effect is gained if the Oath is kept without breaching it>",
+    "iconId": 569,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094820,
+    "buffGroup": 0,
+    "type": 186,
+    "name": "Oath to Forgo Noble Phantasms",
+    "detail": "When an ally Servant's Noble Phantasm is used, apply [Breach] to Nitocris Alter on the player's side <A special effect is gained if the Oath is kept without breaching it>",
+    "iconId": 571,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094821,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "Oath to Forgo Killing",
+    "detail": "When an ally defeats an enemy, apply [Breach] to Nitocris Alter on the player's side <A special effect is gained if the Oath is kept without breaching it>",
+    "iconId": 536,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094822,
+    "buffGroup": 9999,
+    "type": 40,
+    "name": "Breach",
+    "detail": "A State of Breaking an Oath",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094823,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Guardian Divine Beast of the Underworld",
+    "detail": "Increase DEF of enemy Nitocris Alter when you are on the field",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 1101500
+    },
+    "id": 94094824,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "",
+    "detail": "",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094825,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Tears of the Great River",
+    "detail": "The more allies there are on the field, gain resistance to all attacks & increase Debuff Resistance",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {},
+    "id": 94094826,
+    "buffGroup": 0,
+    "type": 29,
+    "name": "",
+    "detail": "",
+    "iconId": 306,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094827,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Tears of the Underworld",
+    "detail": "Attacking with a Noble Phantasm will cause the target's [Underworld Scales] to reduce the Death countdown by 5 turns",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      6030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94094828,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "Underworld Scales",
+    "detail": "After a turn, apply Death to yourself <Ignoring resistance, defeating an enemy reduces the Death countdown by 3 turns>",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94094829,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "",
+    "detail": "",
+    "iconId": 536,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094830,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Summon Seal",
+    "detail": "Army of Death and Night will not be summonable",
+    "iconId": 511,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094831,
+    "buffGroup": 0,
+    "type": 140,
+    "name": "Command Card Unselectable",
+    "detail": "Cannot select Command Cards",
+    "iconId": 555,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6029
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094832,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094833,
+    "buffGroup": 0,
+    "type": 186,
+    "name": "",
+    "detail": "",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094834,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094835,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094837,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094838,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -110
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -110
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94094839,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Soot Fragment B",
+    "detail": "Increase resistance against attacks other than from [Avenger] class",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -110
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -110
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94094840,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Soot Fragment C",
+    "detail": "Increase resistance against attacks other than from [Avenger] class",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -110
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -110
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94094841,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Soot Fragment D",
+    "detail": "Increase resistance against attacks other than from [Avenger] class",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -110
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -110
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94094842,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Soot Fragment E",
+    "detail": "Increase resistance against attacks other than from [Avenger] class",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -110
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -110
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94094843,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Soot Armor B",
+    "detail": "Increase resistance against attacks other than from [Avenger] class",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -110
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -110
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94094844,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Soot Armor C",
+    "detail": "Increase resistance against attacks other than from [Avenger] class",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -110
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -110
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94094845,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Soot Armor D",
+    "detail": "Increase resistance against attacks other than from [Avenger] class",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -110
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -110
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94094846,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Soot Armor E",
+    "detail": "Increase resistance against attacks other than from [Avenger] class",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -110
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -110
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94094847,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Soot Robe B",
+    "detail": "Increase resistance against attacks other than from [Avenger] class",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -110
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -110
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94094848,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Soot Robe C",
+    "detail": "Increase resistance against attacks other than from [Avenger] class",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -110
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -110
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94094849,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Soot Robe D",
+    "detail": "Increase resistance against attacks other than from [Avenger] class",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -110
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -110
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94094850,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Soot Robe E",
+    "detail": "Increase resistance against attacks other than from [Avenger] class",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {},
+    "id": 94094851,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "",
+    "detail": "",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094852,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094853,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Royal Authority of Despair",
+    "detail": "[Curse] effects applied by you cannot be removed",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094854,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Cagliostro's Grand Fraud",
+    "detail": "When defeated, Marie Antoinette Alter appears",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094855,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094856,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "Storm Forces",
+    "detail": "Increase ATK",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3020
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094857,
+    "buffGroup": 0,
+    "type": 34,
+    "name": "Unshakable Stance",
+    "detail": "Unable to use Noble Phantasms",
+    "iconId": 512,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3045
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3045
+    ],
+    "script": {},
+    "id": 94094858,
+    "buffGroup": 0,
+    "type": 29,
+    "name": "Death Storm King",
+    "detail": "Immune to incapacitation, mental effects",
+    "iconId": 322,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3045
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3045
+    ],
+    "script": {},
+    "id": 94094859,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "Death Storm King",
+    "detail": "Immune to incapacitation, mental effects",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3010
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3010
+    ],
+    "script": {},
+    "id": 94094860,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "",
+    "detail": "",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [
+      4100
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094861,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Death Storm King",
+    "detail": "Increase DEF for yourself during Critical attacks",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -6026
+    },
+    "id": 94094862,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Annihilating Beast",
+    "detail": "A bonus attack will be done after the action",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "tvals": [
+      6028
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      6028
+    ],
+    "script": {},
+    "id": 94094863,
+    "buffGroup": 200,
+    "type": 24,
+    "name": "Chance to Evade",
+    "detail": "Very low chance to reduce damage taken to 0 by an enemy with [Illusory Fire]",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3015,
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094864,
+    "buffGroup": 0,
+    "type": 8,
+    "name": "Illusory Fire",
+    "detail": "Decrease NP damage & decrease HP at the end of turn <treated as Buff>",
+    "iconId": 513,
+    "maxRate": 0,
+    "effectId": 17122
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094865,
+    "buffGroup": 0,
+    "type": 16,
+    "name": "",
+    "detail": "",
+    "iconId": 508,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094866,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007,
+      3026
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007,
+      3026
+    ],
+    "script": {
+      "checkIndvType": 1
+    },
+    "id": 94094867,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate when Damaged",
+    "detail": "Increase Charge for yourself when attacked by a [Cursed] enemy's NP",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094868,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate when Damaged",
+    "detail": "Inflict [Illusory Fire] to a single enemy when sustaining attack + When inflict is successful, decrease Charge for yourself [Demerit]",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3025
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6028
+    },
+    "id": 94094869,
+    "buffGroup": 800,
+    "type": 33,
+    "name": "Skill Seal",
+    "detail": "Unable to use skills when in [Illusory Fire] state",
+    "iconId": 511,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094870,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "Delayed Effect",
+    "detail": "Increase ATK for all allies after turn",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3014,
+      3045
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6028
+    },
+    "id": 94094871,
+    "buffGroup": 500,
+    "type": 32,
+    "name": "Stun",
+    "detail": "Unable to act when in [Illusory Fire] state",
+    "iconId": 501,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094872,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "Delayed Effect",
+    "detail": "Increase ATK for all allies after turn",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094873,
+    "buffGroup": 0,
+    "type": 71,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028,
+      6010
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094874,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Firewood of Resolve",
+    "detail": "Increase damage dealt & as HP gets lower, ATK increases & begin battle with HP decreased by 2000 [Demerit]",
+    "iconId": 300,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3041
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094875,
+    "buffGroup": 0,
+    "type": 79,
+    "name": "Defiant Fangs",
+    "detail": "Increase Max HP by a percentage & increase damage dealt",
+    "iconId": 330,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094876,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "",
+    "detail": "",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094877,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Defiant Fangs",
+    "detail": "Reduce DEF & low chance to inflict [Beast Hunting] to target during normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094878,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Defiant Fangs",
+    "detail": "Inflict [Beast Hunting] to target when attacking with Noble Phantasm",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094879,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Beast Hunting",
+    "detail": "Seal additional attacks from [Annihilating Beast]",
+    "iconId": 564,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094880,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Reminiscent Divine Strength",
+    "detail": "Increase DEF for all allies when you are on the field",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3041
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094881,
+    "buffGroup": 0,
+    "type": 79,
+    "name": "Reminiscent Divine Strength",
+    "detail": "Increase Max HP by a percentage & increase damage dealt",
+    "iconId": 330,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094882,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "",
+    "detail": "",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094883,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Reminiscent Divine Strength",
+    "detail": "Inflict [Beast Hunting] to target when attacking with Noble Phantasm",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094884,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Reminiscent Divine Strength",
+    "detail": "Seal [Unseen Storm] & ignore Nullify Incapacitation to be able to inflict [Petrify]",
+    "iconId": 506,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094887,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "Omen of Destruction",
+    "detail": "Increase Charge to maximum for yourself & increase NP Strength at end of player's turn",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094888,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "Omen of Destruction",
+    "detail": "Set Charge to 0 yourself after turn",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094889,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers each Turn",
+    "detail": "Increase Critical Hit Rate for yourself at end of turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094890,
+    "buffGroup": 0,
+    "type": 136,
+    "name": "Fiery Love, Burning Hate",
+    "detail": "Increase damage dealt",
+    "iconId": 359,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094891,
+    "buffGroup": 0,
+    "type": 12,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094892,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Temporary Surge and Integration of Magic Circuits",
+    "detail": "Increase damage dealt",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      3010
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3010
+    ],
+    "script": {},
+    "id": 94094893,
+    "buffGroup": 0,
+    "type": 30,
+    "name": "Mental Debuff Resist Down",
+    "detail": "Decrease mental status resistance",
+    "iconId": 506,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3010
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094894,
+    "buffGroup": 0,
+    "type": 4,
+    "name": "C. Star Drop Rate Down",
+    "detail": "Decrease C. Star drop rate (Treated as Mental Debuff)",
+    "iconId": 510,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -110
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -110
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94094895,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Soot Cloak EX",
+    "detail": "Increase resistance against attacks other than from [Avenger] class & increase resistance attacks from opponents in [Blaze of Vengeance]",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      6026
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      6026
+    ],
+    "script": {},
+    "id": 94094896,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Drawing the Blazing Sword",
+    "detail": "Increase damage dealt to [Blaze of Vengeance] enemies",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094897,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Drawing the Blazing Sword",
+    "detail": "Inflict [Blaze of Vengeance] to target when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3026,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094898,
+    "buffGroup": 0,
+    "type": 8,
+    "name": "Blaze of Vengeance",
+    "detail": "Decrease HP & decrease DEF Buff Success Chance & increase ATK [Demerit] <a state where a special Curse that ignores resistance> at end of turn",
+    "iconId": 521,
+    "maxRate": 0,
+    "effectId": 17123
+  },
+  {
+    "vals": [],
+    "tvals": [
+      3007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3007
+    ],
+    "script": {},
+    "id": 94094899,
+    "buffGroup": 0,
+    "type": 29,
+    "name": "",
+    "detail": "",
+    "iconId": 506,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094900,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "",
+    "detail": "",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 2000,
+      "relationId": 166
+    },
+    "id": 94094901,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {},
+    "id": 94094902,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "Conflagration of Love and Hate",
+    "detail": "Immune to all debuffs & gain class advantage defensively against opponents in [Blaze of Vengeance]",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6035,
+      6029
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094903,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6035,
+      6030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094904,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6035,
+      6031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094905,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061,
+      6028
+    ],
+    "tvals": [
+      6026
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      6026
+    ],
+    "script": {},
+    "id": 94094906,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "Nullify Blaze of Vengeance",
+    "detail": "Become immune to [Blaze of Vengeance]",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3021
+    },
+    "id": 94094907,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "Critical Hit Rate Up",
+    "detail": "Increase Critical Hit Rate <effect is effective while in Evade state>",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094908,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Kindling Love and Hate",
+    "detail": "At the start of the next enemy turn, special skills will be used based on the total number of [Blaze of Vengeance] that are applied to the player's Servants on the field",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094909,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect when Attacking",
+    "detail": "Inflict [Blaze of Vengeance] to target when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094910,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094911,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "Black Lily of Love and Hate",
+    "detail": "Increase NP damage & ignore Evade and deal ATK damage",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3019,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094912,
+    "buffGroup": 0,
+    "type": 25,
+    "name": "",
+    "detail": "",
+    "iconId": 309,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094913,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Black Lily of Love and Hate",
+    "detail": "Increase NP Gauge for yourself during attacks",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094914,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Black Lily of Love and Hate",
+    "detail": "Slightly increase NP Gauge for yourself when sustaining attacks",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094915,
+    "buffGroup": 0,
+    "type": 168,
+    "name": "Black Lily of Love and Hate",
+    "detail": "Remove three [Illusory Fire] from yourself at the beginning of the turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      2019
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2019
+    ],
+    "script": {},
+    "id": 94094916,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Avenger's Trace",
+    "detail": "Increase damage dealt against [Demonic]",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094917,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Avenger's Trace",
+    "detail": "Increase resistance to all attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094918,
+    "buffGroup": 600,
+    "type": 37,
+    "name": "Avenger's Trace",
+    "detail": "When HP reaches 0, recover HP and survive",
+    "iconId": 304,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      2004
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2004
+    ],
+    "script": {},
+    "id": 94094919,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Avenger's Trace",
+    "detail": "Increase damage dealt against [Rome]",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094920,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Avenger's Trace",
+    "detail": "Low chance to inflict Death to [Evil] targets when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3059,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094921,
+    "buffGroup": 0,
+    "type": 72,
+    "name": "Avenger's Trace",
+    "detail": "Ignore Evade and Invincible to deal damage",
+    "iconId": 329,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094922,
+    "buffGroup": 200,
+    "type": 24,
+    "name": "Avenger's Trace",
+    "detail": "Reduce ATK damage taken to 0",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3041
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094923,
+    "buffGroup": 0,
+    "type": 79,
+    "name": "Avenger's Trace",
+    "detail": "Increase Max HP by percentage",
+    "iconId": 330,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094924,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Avenger's Trace",
+    "detail": "Increase damage dealt",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094925,
+    "buffGroup": 0,
+    "type": 170,
+    "name": "Avenger's Trace",
+    "detail": "Increase number of actions & unable to use Noble Phantasms [Demerit]",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3020
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094926,
+    "buffGroup": 0,
+    "type": 34,
+    "name": "",
+    "detail": "",
+    "iconId": 512,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094927,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "Avenger's Trace",
+    "detail": "Increase Critical Hit rate",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094928,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "Avenger's Trace",
+    "detail": "Increase Critical Hit damage",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094929,
+    "buffGroup": 0,
+    "type": 10001,
+    "name": "???",
+    "detail": "???",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094930,
+    "buffGroup": 0,
+    "type": 10001,
+    "name": "Those Living Now",
+    "detail": "When an ally Servant attacks, reduce Master Skill cooldown by 1 for <SKILL 1> & chance to reduce Master Skill cooldown by 1 for <SKILL 1> during Critical attacks & reduce Master Skill cooldown by 2 for <SKILL 2> when NP is used & reduce Master Skill cooldown by 1 for <SKILL 3> when skill is used",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094934,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [
+      4100
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094935,
+    "buffGroup": 0,
+    "type": 182,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094936,
+    "buffGroup": 0,
+    "type": 186,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094937,
+    "buffGroup": 0,
+    "type": 185,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 2000,
+      "INDIVIDUALITIE": -6026,
+      "relationId": 167
+    },
+    "id": 94094938,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "Class Affinity Change",
+    "detail": "Gain class advantage offensively against [Avengers] <effect is nullified when in a Blaze of Vengeance state>",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -6029
+    },
+    "id": 94094939,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Malignant Propagation",
+    "detail": "Recover HP for yourself & increase HP Recovery amount when attacked",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3045
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3045
+    ],
+    "script": {
+      "INDIVIDUALITIE": -6029
+    },
+    "id": 94094940,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "Malignant Propagation",
+    "detail": "Nullify incapacitation",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6029
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094941,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Douman's Talisman",
+    "detail": "Seal Malignant Propagation",
+    "iconId": 511,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094942,
+    "buffGroup": 0,
+    "type": 136,
+    "name": "Inferno of Love and Hate",
+    "detail": "Increase damage dealt",
+    "iconId": 359,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094943,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094944,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094945,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094946,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094947,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094948,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "Delayed Effect",
+    "detail": "Increase Charge to maximum for yourself at end of player turn",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094949,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "???",
+    "detail": "???",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3020
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094950,
+    "buffGroup": 0,
+    "type": 34,
+    "name": "Magical Energy Provision Interruption",
+    "detail": "Unable to use NP & decrease ATK",
+    "iconId": 512,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3033
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094951,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "",
+    "detail": "",
+    "iconId": 503,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094952,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Aŋra Mainiiu's Support",
+    "detail": "Increase damage dealt & increase DEF",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094953,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "",
+    "detail": "",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 168
+    },
+    "id": 94094954,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "Class Affinity Change",
+    "detail": "Gain class advantage against [Pretender] class",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {},
+    "id": 94094955,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "Debuff Immune",
+    "detail": "Immune to all debuffs",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094956,
+    "buffGroup": 600,
+    "type": 104,
+    "name": "Guts",
+    "detail": "When HP reaches 0, recover HP and survive",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094957,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "",
+    "detail": "",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      3013
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3013
+    ],
+    "script": {},
+    "id": 94094958,
+    "buffGroup": 0,
+    "type": 30,
+    "name": "",
+    "detail": "",
+    "iconId": 322,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -110
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -110
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94094959,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Soot Fragment D",
+    "detail": "???",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -110
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -110
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94094960,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Soot Fragment E",
+    "detail": "???",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -110
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -110
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94094961,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Soot Armor A",
+    "detail": "???",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -110
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -110
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94094962,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Soot Armor D",
+    "detail": "???",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094963,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "Giant Adamant Blade",
+    "detail": "Tremendously increase ATK & decrease number of actions [Demerit]",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094964,
+    "buffGroup": 0,
+    "type": 171,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      6026
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      6026
+    ],
+    "script": {},
+    "id": 94094965,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3080
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094966,
+    "buffGroup": 0,
+    "type": 5,
+    "name": "Aŋra Mainiiu's Support",
+    "detail": "Gain NP at end of each turn",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094967,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "",
+    "detail": "",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094968,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "Avenger's Trace",
+    "detail": "Increase charge each turn",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      6026
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      6026
+    ],
+    "script": {},
+    "id": 94094969,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "",
+    "detail": "",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094970,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094971,
+    "buffGroup": 0,
+    "type": 180,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094972,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Drawing the Blazing Sword",
+    "detail": "Inflict [Blaze of Vengeance] to target when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094973,
+    "buffGroup": 0,
+    "type": 180,
+    "name": "Drawing the Blazing Sword",
+    "detail": "Inflict [Blaze of Vengeance] to target when attacking",
+    "iconId": 528,
+    "maxRate": 0,
     "effectId": 0
   },
   {
