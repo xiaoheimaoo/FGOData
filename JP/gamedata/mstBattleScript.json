@@ -2668,5 +2668,59 @@
     "playOrder": 3,
     "idx": 1,
     "battleScriptAction": 1
+  },
+  {
+    "script": {},
+    "id": 94154401,
+    "playOrder": 1,
+    "idx": 1,
+    "battleScriptAction": 7
+  },
+  {
+    "script": {
+      "cameraTargetData": [
+        {
+          "targetType": 2,
+          "targetIndividualities": [
+            5000
+          ],
+          "targetNodeName": "en_Head",
+          "setVariableName": "Target_Actor"
+        }
+      ],
+      "eventName": "CHARA_UP"
+    },
+    "id": 94154401,
+    "playOrder": 2,
+    "idx": 1,
+    "battleScriptAction": 4
+  },
+  {
+    "script": {
+      "dispTime": 2000,
+      "messageText": "お母様が連れ去られてしまった…"
+    },
+    "id": 94154401,
+    "playOrder": 3,
+    "idx": 1,
+    "battleScriptAction": 5
+  },
+  {
+    "script": {
+      "aiActId": 94154403
+    },
+    "id": 94154401,
+    "playOrder": 4,
+    "idx": 1,
+    "battleScriptAction": 1
+  },
+  {
+    "script": {
+      "aiActId": 1009
+    },
+    "id": 94154401,
+    "playOrder": 5,
+    "idx": 1,
+    "battleScriptAction": 1
   }
 ]

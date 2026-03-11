@@ -89681,6 +89681,21 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6048,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "サスペンス・アクター",
+    "detail": "『CBC2026 マイ・カインド・オブ・アブダクション』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004,
       3006,
@@ -89723,6 +89738,25 @@
     "name": "ガッツ時発動",
     "detail": "ガッツ発動時、自身のNPを少し増やす",
     "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6053,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "攻撃ダメージ前追加効果",
+    "detail": "攻撃時、ダメージ前に対象にやけど状態を付与",
+    "iconId": 528,
     "maxRate": 0,
     "effectId": 0
   },
@@ -167299,6 +167333,67 @@
     "detail": "",
     "iconId": 0,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94153222,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6026
+    },
+    "id": 94153223,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "憑依暴走",
+    "detail": "〔呪憑霊〕がフィールドにいる間、自身の攻撃力をアップ＆精神異常耐性をダウン【デメリット】",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      3010
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3010
+    ],
+    "script": {
+      "INDIVIDUALITIE": 6026
+    },
+    "id": 94153224,
+    "buffGroup": 0,
+    "type": 30,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 5000,
     "effectId": 0
   },
   {
