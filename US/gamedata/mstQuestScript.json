@@ -1,6 +1,15 @@
 [
   {
     "script": {},
+    "id": 0,
+    "name": "Olga Marie Quest",
+    "folderType": 4,
+    "materialFolderId": 90001,
+    "parentWarId": 14000,
+    "priority": 90001
+  },
+  {
+    "script": {},
     "id": 1000817,
     "name": "Section 10: At the Throne",
     "folderType": 0,
@@ -10622,6 +10631,19 @@
     "priority": 14001
   },
   {
+    "script": {
+      "startAction": "Q93040150",
+      "noneQuest": 1,
+      "maxPhase": 1
+    },
+    "id": 94086403,
+    "name": "Olga Marie Quest_1",
+    "folderType": 0,
+    "materialFolderId": 0,
+    "parentWarId": 90001,
+    "priority": 907299
+  },
+  {
     "script": {},
     "id": 94086900,
     "name": "Prologue",
@@ -11260,5 +11282,16 @@
     "materialFolderId": 80462,
     "parentWarId": 0,
     "priority": 0
+  },
+  {
+    "script": {
+      "materialLatestClear": 1
+    },
+    "id": 94094401,
+    "name": "Olga Marie Quest_2",
+    "folderType": 0,
+    "materialFolderId": 0,
+    "parentWarId": 90001,
+    "priority": 907297
   }
 ]

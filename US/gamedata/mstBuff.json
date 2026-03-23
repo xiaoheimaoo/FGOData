@@ -80324,6 +80324,62 @@
     "vals": [
       3004
     ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5553,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect with Normal Attack",
+    "detail": "Remove 1 Buff of target during normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5554,
+    "buffGroup": 0,
+    "type": 121,
+    "name": "Ignore DEF",
+    "detail": "Ignore DEF Up and deal damage",
+    "iconId": 351,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      4008
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5555,
+    "buffGroup": 9999,
+    "type": 116,
+    "name": "Hit Count Up",
+    "detail": "Double the number of hits of normal attacks and decrease hit strength proportionally",
+    "iconId": 349,
+    "maxRate": 10,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
     "tvals": [],
     "ckSelfIndv": [
       4008
@@ -104821,6 +104877,443 @@
   },
   {
     "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094450,
+    "buffGroup": 0,
+    "type": 114,
+    "name": "Presidential Badge",
+    "detail": "Increase ATK & Charge each turn",
+    "iconId": 319,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094451,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers each Turn",
+    "detail": "Apply Target Focus to one enemy at the end of turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3022,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094452,
+    "buffGroup": 400,
+    "type": 26,
+    "name": "Chance for Invincible",
+    "detail": "Ignore Sure Hit and medium chance to reduce damage taken to 0",
+    "iconId": 311,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094453,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Paranormal Phenomena",
+    "detail": "Decrease ATK, NP Gain, or inflict Confusion to one enemy when attacked",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094454,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "Rejection Armor",
+    "detail": "Increase DEF",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094455,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "Frozen Armor",
+    "detail": "Increase DEF",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094456,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "Conch Armor",
+    "detail": "Increase DEF",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094457,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Absorb Gain",
+    "detail": "Increase your Max HP when attacked",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3043,
+      6035
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094458,
+    "buffGroup": 0,
+    "type": 81,
+    "name": "Max HP Plus",
+    "detail": "Increase Max HP",
+    "iconId": 330,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3017
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094459,
+    "buffGroup": 0,
+    "type": 92,
+    "name": "Special Resist Down",
+    "detail": "Decrease resistance to all attacks <effect increases the more Max HP gained from Absorb Gain>",
+    "iconId": 529,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094460,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Aqua Ether",
+    "detail": "When receiving Quick, Arts, or Buster attacks, change [Aqua Ether] according to the received attack",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3060
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094461,
+    "buffGroup": 0,
+    "type": 7,
+    "name": "Aqua Ether, Vortex",
+    "detail": "Recover HP at the end of turn",
+    "iconId": 318,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094462,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "Aqua Ether, Hardening",
+    "detail": "Increase DEF",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094463,
+    "buffGroup": 0,
+    "type": 63,
+    "name": "Aqua Ether, Chi",
+    "detail": "Decrease NP Gain",
+    "iconId": 509,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003
+    ],
+    "script": {},
+    "id": 94094464,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001
+    ],
+    "script": {},
+    "id": 94094465,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {},
+    "id": 94094466,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094467,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Primal Aqua",
+    "detail": "Apply [Aqua Ether] to yourself when attacking",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {},
+    "id": 94094468,
+    "buffGroup": 0,
+    "type": 29,
+    "name": "Primal Aqua",
+    "detail": "Increase debuff resistance",
+    "iconId": 306,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3033
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE_COUNT_ABOVE": 15,
+      "INDIVIDUALITIE": 3006,
+      "ExcludeUnSubStateIndiv": 1
+    },
+    "id": 94094469,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "ATK Down",
+    "detail": "Greatly decrease ATK <Effect activates while there are 15 or more removable attack buffs on you>",
+    "iconId": 503,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "HP_HIGHER": 900
+    },
+    "id": 94094470,
+    "buffGroup": 0,
+    "type": 22,
+    "name": "Damage Up",
+    "detail": "Increase damage taken <Effect activates while your HP is over 90%>",
+    "iconId": 504,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094471,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Ultra Cyclone",
+    "detail": "At the end of turn, remove 2 Buffs & decrease HP <activates once in 2 turns> for yourself",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3043
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94094472,
+    "buffGroup": 0,
+    "type": 81,
+    "name": "Primal Aqua",
+    "detail": "Increase Max HP <effect increases the more Aqua Ethers there are>",
+    "iconId": 330,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3016
     ],
@@ -108016,6 +108509,667 @@
     "name": "Drawing the Blazing Sword",
     "detail": "Inflict [Blaze of Vengeance] to target when attacking",
     "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3045
+    },
+    "id": 94095301,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Pirate's Opening",
+    "detail": "1 [Supreme Treasure] gets stolen from you when attacked <effect activates while incapacitated>",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [
+      3045
+    ],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94095302,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94095303,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Carelessness Is Dangerous",
+    "detail": "Receive 1 of the opponent's [Cursed Treasure] when hit by a Noble Phantasm",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      -6031
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -6031
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94095304,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Treasure???",
+    "detail": "When defeated, apply either [Supreme Treasure] or [Cursed Treasure] to a single enemy",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      -6031
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -6031
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94095305,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Treasure???",
+    "detail": "When defeated, apply either [Supreme Treasure] or [Cursed Treasure] to a single enemy",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      6030,
+      6026
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94095306,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Supreme Treasure \"Sparkling Emerald\"",
+    "detail": "Increase Quick Card effectiveness",
+    "iconId": 312,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      6030,
+      6026
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94095307,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Supreme Treasure \"Sparkling Sapphire\"",
+    "detail": "Increase Arts Card effectiveness",
+    "iconId": 313,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      6030,
+      6026
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94095308,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "Supreme Treasure \"Sparkling Ruby\"",
+    "detail": "Increase Buster Card effectiveness",
+    "iconId": 314,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      6030,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94095309,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "Supreme Treasure \"Silver Shield\"",
+    "detail": "Increase DEF",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031,
+      6030,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94095310,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "Supreme Treasure \"Night Vision Earrings\"",
+    "detail": "Increase Critical damage",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027,
+      6030,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94095311,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "Supreme Treasure \"Phantom Gold\"",
+    "detail": "Increase ATK & Overcharge level when using Noble Phantasm",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94095312,
+    "buffGroup": 0,
+    "type": 96,
+    "name": "",
+    "detail": "",
+    "iconId": 336,
+    "maxRate": 5,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      6030,
+      6027
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003
+    ],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94095313,
+    "buffGroup": 0,
+    "type": 106,
+    "name": "Cursed Treasure \"Bloody Emerald\"",
+    "detail": "Increase damage taken, NP generated, and C. Star drop rate upon damage from Quick Cards",
+    "iconId": 539,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      6030,
+      6027
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001
+    ],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94095314,
+    "buffGroup": 0,
+    "type": 106,
+    "name": "Cursed Treasure \"Bloody Sapphire\"",
+    "detail": "Increase damage taken, NP generated, and C. Star drop rate upon damage from Arts Cards",
+    "iconId": 540,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      6030,
+      6027
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94095315,
+    "buffGroup": 0,
+    "type": 106,
+    "name": "Cursed Treasure \"Bloody Ruby\"",
+    "detail": "Increase damage taken, NP generated, and C. Star drop rate upon damage from Buster Cards",
+    "iconId": 541,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3033,
+      6030,
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94095316,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "Cursed Treasure \"Evil God's Treasured Sword\"",
+    "detail": "Decrease ATK",
+    "iconId": 503,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3036,
+      6030,
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94095317,
+    "buffGroup": 0,
+    "type": 16,
+    "name": "Cursed Treasure \"Eerie Luminous Diamond\"",
+    "detail": "Decrease damage from NP attacks & decrease Critical Hit damage",
+    "iconId": 508,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3037
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94095318,
+    "buffGroup": 0,
+    "type": 19,
+    "name": "",
+    "detail": "",
+    "iconId": 514,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94095319,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Loot Treasure",
+    "detail": "Take 1 [Supreme Treasure] of target with NP attacks",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94095320,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4008
+    ],
+    "ckSelfIndv": [
+      4008
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94095321,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect with Normal Attack",
+    "detail": "Chance of forcing 1 [Cursed Treasure] to target during normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94095322,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Loot Treasure",
+    "detail": "Take 1 [Supreme Treasure] of target with NP attacks",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3034,
+      6028
+    ],
+    "tvals": [
+      400800
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      400800
+    ],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94095323,
+    "buffGroup": 0,
+    "type": 12,
+    "name": "Prioritizing Search",
+    "detail": "Decrease damage dealt to Teach",
+    "iconId": 505,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94095324,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Seize Treasure",
+    "detail": "When an enemy is defeated, seize all of target's treasures + Increase NP Strength for yourself",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      2067
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94095326,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Triggers each Turn",
+    "detail": "Increase Critical Hit Rate & Critical Strength for yourself at the end of turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [
+      4100
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94095327,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Loot Treasure",
+    "detail": "Take 1 [Supreme Treasure] of target during Critical attacks",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      6031
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      6031
+    ],
+    "script": {},
+    "id": 94095328,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      6031
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      6031
+    ],
+    "script": {},
+    "id": 94095329,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3045
+    ],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94097406,
+    "buffGroup": 0,
+    "type": 180,
+    "name": "",
+    "detail": "",
+    "iconId": 333,
     "maxRate": 0,
     "effectId": 0
   },
