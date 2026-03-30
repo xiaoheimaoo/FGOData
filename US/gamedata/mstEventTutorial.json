@@ -1,6 +1,111 @@
 [
   {
     "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      81
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": -119,
+    "flagType": 37,
+    "num": 1,
+    "priority": 0,
+    "openType": 89,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      82
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": -117,
+    "flagType": 44,
+    "num": 2,
+    "priority": 0,
+    "openType": 87,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      82
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": -117,
+    "flagType": 44,
+    "num": 3,
+    "priority": 0,
+    "openType": 88,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      79
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": -116,
+    "flagType": 33,
+    "num": 1,
+    "priority": 0,
+    "openType": 86,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      80
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": -115,
+    "flagType": 35,
+    "num": 1,
+    "priority": 0,
+    "openType": 85,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
       "[94094401]",
       "[94094402]"
     ],
@@ -257,7 +362,7 @@
     "condValue": 0,
     "condValue2": 0,
     "condValue3": 0,
-    "flag": 0
+    "flag": 1
   },
   {
     "targetIds": [
@@ -3184,7 +3289,7 @@
   },
   {
     "targetIds": [
-      "[]"
+      "[94095603,1,1]"
     ],
     "condIds": [],
     "imageIds": [
@@ -23308,6 +23413,953 @@
     "priority": 0,
     "openType": 24,
     "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9166]"
+    ],
+    "condIds": [
+      94095605
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "Go through the inn and investigate any suspicious locations!",
+        "dlgFontSize": 30,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80472,
+    "flagType": 6,
+    "num": 1,
+    "priority": 0,
+    "openType": 1,
+    "condType": 46,
+    "condValue": 2,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[94095630,1]"
+    ],
+    "condIds": [
+      94095630
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "There might still be other suspicious locations that haven't been investigated...\n\nDo you really want to investigate this room?",
+        "dlgFontSize": 30,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80472,
+    "flagType": 13,
+    "num": 1,
+    "priority": 0,
+    "openType": 13,
+    "condType": 106,
+    "condValue": 1,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 2
+  },
+  {
+    "targetIds": [
+      "[9166]"
+    ],
+    "condIds": [
+      20095620
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "There might be a massive outbreak of monsters somewhere...\n\nScan the map to find locations and times where monsters might emerge in masses!",
+        "dlgFontSize": 30,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80472,
+    "flagType": 21,
+    "num": 1,
+    "priority": 1,
+    "openType": 90,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9166]"
+    ],
+    "condIds": [
+      20095621
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "There might be a massive outbreak of monsters somewhere...\n\nScan the map to find locations and times where monsters might emerge in masses!",
+        "dlgFontSize": 30,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80472,
+    "flagType": 22,
+    "num": 1,
+    "priority": 1,
+    "openType": 90,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9166]"
+    ],
+    "condIds": [
+      94095904
+    ],
+    "imageIds": [
+      1113
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80472,
+    "flagType": 23,
+    "num": 1,
+    "priority": 1,
+    "openType": 1,
+    "condType": 50,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9166]"
+    ],
+    "condIds": [
+      20095617
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "There might be a massive outbreak of monsters somewhere...\n\nScan the map to find locations and times where monsters might emerge in masses!",
+        "dlgFontSize": 30,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80472,
+    "flagType": 25,
+    "num": 1,
+    "priority": 1,
+    "openType": 90,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9166]"
+    ],
+    "condIds": [
+      20095618
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "There might be a massive outbreak of monsters somewhere...\n\nScan the map to find locations and times where monsters might emerge in masses!",
+        "dlgFontSize": 30,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80472,
+    "flagType": 26,
+    "num": 1,
+    "priority": 1,
+    "openType": 90,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9166]"
+    ],
+    "condIds": [
+      20095619
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "There might be a massive outbreak of monsters somewhere...\n\nScan the map to find locations and times where monsters might emerge in masses!",
+        "dlgFontSize": 30,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80472,
+    "flagType": 27,
+    "num": 1,
+    "priority": 1,
+    "openType": 90,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9166]"
+    ],
+    "condIds": [
+      20095629
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "A new investigation site has been unlocked.\n\nGo through the inn and investigate any suspicious locations!",
+        "dlgFontSize": 30,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80472,
+    "flagType": 31,
+    "num": 1,
+    "priority": 0,
+    "openType": 1,
+    "condType": 113,
+    "condValue": 2,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      1102,
+      1103,
+      1104,
+      1105
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80472,
+    "flagType": 65,
+    "num": 1,
+    "priority": 0,
+    "openType": 4,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      1102,
+      1103,
+      1104,
+      1105
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80472,
+    "flagType": 66,
+    "num": 1,
+    "priority": 0,
+    "openType": 23,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      1102,
+      1103,
+      1104,
+      1105
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80472,
+    "flagType": 67,
+    "num": 1,
+    "priority": 0,
+    "openType": 24,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9166]"
+    ],
+    "condIds": [
+      94095602
+    ],
+    "imageIds": [
+      1107,
+      1108
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80472,
+    "flagType": 68,
+    "num": 1,
+    "priority": 2,
+    "openType": 90,
+    "condType": 46,
+    "condValue": 1,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9166]"
+    ],
+    "condIds": [
+      20095602
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "There might be a massive outbreak of monsters somewhere...\n\nScan the map to find locations and times where monsters might emerge in masses!",
+        "dlgFontSize": 30,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80472,
+    "flagType": 69,
+    "num": 1,
+    "priority": 1,
+    "openType": 90,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[916612]"
+    ],
+    "condIds": [
+      94095630
+    ],
+    "imageIds": [
+      1112
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80472,
+    "flagType": 70,
+    "num": 1,
+    "priority": 0,
+    "openType": 3,
+    "condType": 106,
+    "condValue": 1,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9166]"
+    ],
+    "condIds": [
+      20095603
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "There might be a massive outbreak of monsters somewhere...\n\nScan the map to find locations and times where monsters might emerge in masses!",
+        "dlgFontSize": 30,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80472,
+    "flagType": 71,
+    "num": 1,
+    "priority": 1,
+    "openType": 90,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9166]"
+    ],
+    "condIds": [
+      20095604
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "There might be a massive outbreak of monsters somewhere...\n\nScan the map to find locations and times where monsters might emerge in masses!",
+        "dlgFontSize": 30,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80472,
+    "flagType": 72,
+    "num": 1,
+    "priority": 1,
+    "openType": 90,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9166]"
+    ],
+    "condIds": [
+      20095605
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "There might be a massive outbreak of monsters somewhere...\n\nScan the map to find locations and times where monsters might emerge in masses!",
+        "dlgFontSize": 30,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80472,
+    "flagType": 73,
+    "num": 1,
+    "priority": 1,
+    "openType": 90,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9166]"
+    ],
+    "condIds": [
+      20095606
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "There might be a massive outbreak of monsters somewhere...\n\nScan the map to find locations and times where monsters might emerge in masses!",
+        "dlgFontSize": 30,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80472,
+    "flagType": 74,
+    "num": 1,
+    "priority": 1,
+    "openType": 90,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9166]"
+    ],
+    "condIds": [
+      20095607
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "There might be a massive outbreak of monsters somewhere...\n\nScan the map to find locations and times where monsters might emerge in masses!",
+        "dlgFontSize": 30,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80472,
+    "flagType": 75,
+    "num": 1,
+    "priority": 1,
+    "openType": 90,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9166]"
+    ],
+    "condIds": [
+      20095608
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "There might be a massive outbreak of monsters somewhere...\n\nScan the map to find locations and times where monsters might emerge in masses!",
+        "dlgFontSize": 30,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80472,
+    "flagType": 76,
+    "num": 1,
+    "priority": 1,
+    "openType": 90,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9166]"
+    ],
+    "condIds": [
+      20095609
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "There might be a massive outbreak of monsters somewhere...\n\nScan the map to find locations and times where monsters might emerge in masses!",
+        "dlgFontSize": 30,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80472,
+    "flagType": 77,
+    "num": 1,
+    "priority": 1,
+    "openType": 90,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9166]"
+    ],
+    "condIds": [
+      20095610
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "There might be a massive outbreak of monsters somewhere...\n\nScan the map to find locations and times where monsters might emerge in masses!",
+        "dlgFontSize": 30,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80472,
+    "flagType": 78,
+    "num": 1,
+    "priority": 1,
+    "openType": 90,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9166]"
+    ],
+    "condIds": [
+      20095611
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "There might be a massive outbreak of monsters somewhere...\n\nScan the map to find locations and times where monsters might emerge in masses!",
+        "dlgFontSize": 30,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80472,
+    "flagType": 79,
+    "num": 1,
+    "priority": 1,
+    "openType": 90,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9166]"
+    ],
+    "condIds": [
+      20095612
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "There might be a massive outbreak of monsters somewhere...\n\nScan the map to find locations and times where monsters might emerge in masses!",
+        "dlgFontSize": 30,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80472,
+    "flagType": 80,
+    "num": 1,
+    "priority": 1,
+    "openType": 90,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9166]"
+    ],
+    "condIds": [
+      20095613
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "There might be a massive outbreak of monsters somewhere...\n\nScan the map to find locations and times where monsters might emerge in masses!",
+        "dlgFontSize": 30,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80472,
+    "flagType": 81,
+    "num": 1,
+    "priority": 1,
+    "openType": 90,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9166]"
+    ],
+    "condIds": [
+      20095614
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "There might be a massive outbreak of monsters somewhere...\n\nScan the map to find locations and times where monsters might emerge in masses!",
+        "dlgFontSize": 30,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80472,
+    "flagType": 82,
+    "num": 1,
+    "priority": 1,
+    "openType": 90,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9166]"
+    ],
+    "condIds": [
+      20095615
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "There might be a massive outbreak of monsters somewhere...\n\nScan the map to find locations and times where monsters might emerge in masses!",
+        "dlgFontSize": 30,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80472,
+    "flagType": 83,
+    "num": 1,
+    "priority": 1,
+    "openType": 90,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9166]"
+    ],
+    "condIds": [
+      20095616
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "There might be a massive outbreak of monsters somewhere...\n\nScan the map to find locations and times where monsters might emerge in masses!",
+        "dlgFontSize": 30,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80472,
+    "flagType": 84,
+    "num": 1,
+    "priority": 1,
+    "openType": 90,
+    "condType": 113,
     "condValue": 0,
     "condValue2": 0,
     "condValue3": 0,
