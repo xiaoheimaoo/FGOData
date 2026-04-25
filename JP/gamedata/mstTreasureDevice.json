@@ -11630,6 +11630,22 @@
       4007
     ],
     "script": {},
+    "id": 975,
+    "seqId": 9946160,
+    "name": "は、ぜ、る",
+    "ruby": "-",
+    "rank": "なし",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
+      4007
+    ],
+    "script": {},
     "id": 978,
     "seqId": 9945930,
     "name": "泥中に咲く",
@@ -12584,7 +12600,7 @@
     "script": {},
     "id": 1053,
     "seqId": 9947280,
-    "name": "蛇眼視",
+    "name": "開葉眼",
     "ruby": "-",
     "rank": "なし",
     "maxLv": 5,
@@ -12892,7 +12908,7 @@
     "script": {},
     "id": 1078,
     "seqId": 9947550,
-    "name": "焔蔓旋",
+    "name": "焼蔓旋",
     "ruby": "-",
     "rank": "なし",
     "maxLv": 5,
@@ -12908,7 +12924,7 @@
     "script": {},
     "id": 1079,
     "seqId": 9947560,
-    "name": "神眼視",
+    "name": "開花眼",
     "ruby": "-",
     "rank": "なし",
     "maxLv": 5,
@@ -20852,6 +20868,24 @@
   },
   {
     "individuality": [
+      3000,
+      4002,
+      4007,
+      4102
+    ],
+    "script": {},
+    "id": 405601,
+    "seqId": 405600,
+    "name": "傲慢覆す怒り",
+    "ruby": "ヒュブリン・アナトレポーン・エリーニュエス",
+    "rank": "B++",
+    "maxLv": 5,
+    "typeText": "対軍宝具",
+    "attackAttri": 1,
+    "effectFlag": 2
+  },
+  {
+    "individuality": [
       3002,
       4001,
       4007,
@@ -22728,6 +22762,199 @@
     "rank": "A+",
     "maxLv": 5,
     "typeText": "対人宝具",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3002,
+      4001,
+      4007
+    ],
+    "script": {
+      "randomWeights_1": [
+        40,
+        40,
+        20
+      ],
+      "randomWeights_2": [
+        40,
+        40,
+        20
+      ],
+      "randomWeights": [
+        40,
+        40,
+        20
+      ],
+      "randomSeqIds_4": [
+        505620,
+        505621,
+        505622
+      ],
+      "randomSeqIds": [
+        505600,
+        505601,
+        505602
+      ],
+      "randomSeqIds_2": [
+        505610,
+        505611,
+        505612
+      ],
+      "randomSeqIds_1": [
+        505610,
+        505611,
+        505612
+      ],
+      "groupSeqIDs": [
+        505600,
+        505601,
+        505602
+      ],
+      "randomSeqIds_3": [
+        505620,
+        505621,
+        505622
+      ],
+      "randomWeights_3": [
+        40,
+        40,
+        20
+      ],
+      "groupSeqIDs_4": [
+        505600,
+        505601,
+        505602
+      ],
+      "groupSeqIDs_1": [
+        505600,
+        505601,
+        505602
+      ],
+      "groupSeqIDs_3": [
+        505600,
+        505601,
+        505602
+      ],
+      "groupSeqIDs_2": [
+        505600,
+        505601,
+        505602
+      ],
+      "randomWeights_4": [
+        40,
+        40,
+        20
+      ]
+    },
+    "id": 505601,
+    "seqId": 505600,
+    "name": "螺湮城は存在せず、故に世の狂気に果ては無し",
+    "ruby": "グランド・イリュージョン",
+    "rank": "A",
+    "maxLv": 5,
+    "typeText": "対軍宝具",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
+      4001,
+      4007,
+      4101
+    ],
+    "script": {
+      "randomWeights_1": [
+        40,
+        40,
+        20
+      ],
+      "randomWeights_2": [
+        40,
+        40,
+        20
+      ],
+      "randomWeights": [
+        40,
+        40,
+        20
+      ],
+      "randomSeqIds_4": [
+        505720,
+        505721,
+        505722,
+        505723
+      ],
+      "randomSeqIds": [
+        505700,
+        505701,
+        505702
+      ],
+      "randomSeqIds_2": [
+        505710,
+        505711,
+        505712
+      ],
+      "randomSeqIds_1": [
+        505710,
+        505711,
+        505712
+      ],
+      "groupSeqIDs": [
+        505700,
+        505701,
+        505702
+      ],
+      "randomSeqIds_3": [
+        505720,
+        505721,
+        505722,
+        505723
+      ],
+      "randomWeights_3": [
+        30,
+        30,
+        20,
+        20
+      ],
+      "groupSeqIDs_4": [
+        505700,
+        505701,
+        505702,
+        505723
+      ],
+      "groupSeqIDs_1": [
+        505700,
+        505701,
+        505702
+      ],
+      "groupSeqIDs_3": [
+        505700,
+        505701,
+        505702,
+        505723
+      ],
+      "groupSeqIDs_2": [
+        505700,
+        505701,
+        505702
+      ],
+      "randomWeights_4": [
+        30,
+        30,
+        20,
+        20
+      ]
+    },
+    "id": 505701,
+    "seqId": 505700,
+    "name": "女神はここに溶け消え、故に人の愚行を言祝ぐ",
+    "ruby": "ホロス・ティス・セアス・ティス・トレラス",
+    "rank": "B+",
+    "maxLv": 5,
+    "typeText": "対理宝具",
     "attackAttri": 1,
     "effectFlag": 1
   },

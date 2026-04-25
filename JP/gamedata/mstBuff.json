@@ -89791,6 +89791,36 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6054,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "stranger Folklore",
+    "detail": "『Fate/strange Fakeコラボイベント』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6055,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ",
+    "detail": "『Fate/strange Fakeコラボイベント』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004,
       3007,
@@ -89809,6 +89839,62 @@
     "name": "防御力アップ",
     "detail": "無敵状態の間、防御力をアップ",
     "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6057,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、対象に呪い状態を付与＋自身に呪い状態を付与【デメリット】",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6059,
+    "buffGroup": 0,
+    "type": 219,
+    "name": "宝具威力耐性ダウン",
+    "detail": "宝具攻撃で受けるダメージが増える",
+    "iconId": 574,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2
+    },
+    "id": 6062,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "クリティカル威力アップ",
+    "detail": "クリティカル時のダメージをアップ",
+    "iconId": 324,
     "maxRate": 5000,
     "effectId": 0
   },
@@ -169143,6 +169229,24 @@
     "detail": "",
     "iconId": 334,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3025
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94155601,
+    "buffGroup": 0,
+    "type": 161,
+    "name": "幻術使用不能",
+    "detail": "何かと都合があるんだよね",
+    "iconId": 511,
+    "maxRate": 0,
     "effectId": 0
   }
 ]
