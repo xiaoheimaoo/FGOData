@@ -89904,6 +89904,29 @@
     "vals": [
       3004,
       3006,
+      3028
+    ],
+    "tvals": [
+      302
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      302
+    ],
+    "script": {},
+    "id": 6060,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ〔中立〕",
+    "detail": "〔中立〕特性に与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
       3031
     ],
     "tvals": [],
@@ -89918,6 +89941,24 @@
     "name": "クリティカル威力アップ",
     "detail": "クリティカル時のダメージをアップ",
     "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6065,
+    "buffGroup": 0,
+    "type": 216,
+    "name": "クリティカル威力耐性アップ",
+    "detail": "クリティカル攻撃で受けるダメージを減らす",
+    "iconId": 414,
     "maxRate": 5000,
     "effectId": 0
   },
@@ -169386,6 +169427,76 @@
     "name": "攻撃時追加効果",
     "detail": "攻撃時、対象の攻撃力をダウン",
     "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94155609,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "ターン終了時、敵全体に攻撃力ダウン・防御力ダウン・呪い付与のいずれかの効果が発動",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6023
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94155610,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94155611,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "ターン終了時、自身の攻撃力をアップ",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 94155601
+    },
+    "id": 94155612,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔セイバー〕〔アーチャー〕〔ランサー〕クラスに対するクラス相性が防御劣位になる",
+    "iconId": 520,
     "maxRate": 0,
     "effectId": 0
   }
