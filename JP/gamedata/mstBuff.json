@@ -169499,5 +169499,151 @@
     "iconId": 520,
     "maxRate": 0,
     "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3029
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94155613,
+    "buffGroup": 0,
+    "type": 13,
+    "name": "女神の神核（狂気）",
+    "detail": "与えるダメージを増やす＆精神異常耐性をアップ",
+    "iconId": 302,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      3010
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3010
+    ],
+    "script": {},
+    "id": 94155614,
+    "buffGroup": 0,
+    "type": 29,
+    "name": "",
+    "detail": "",
+    "iconId": 306,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94155615,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "攻撃を受けた時、敵単体に「攻撃時に自身のHPを減少＆NP獲得量をダウンする状態」を付与",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94155616,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、自身のHPを減少＆NP獲得量をダウン",
+    "iconId": 549,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94155617,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "攻撃を受けた時、敵単体に混乱状態を付与<1ターンに1回だけ発動>",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      3110
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3052
+    },
+    "id": 94155618,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "防御力ダウン〔混乱〕",
+    "detail": "〔混乱〕状態の時に防御力をダウン",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94155619,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時、対象の弱体耐性をダウン<1ターンに1回だけ発動>",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94155620,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時、「対象のクリティカル威力をダウン＆宝具威力をアップ【デメリット】する効果」か「対象の宝具威力をダウン＆クリティカル威力をアップ【デメリット】する効果」のどちらかが発動<1ターンに1回だけ発動>",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
   }
 ]
