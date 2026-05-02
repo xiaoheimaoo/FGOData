@@ -89925,6 +89925,25 @@
   },
   {
     "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6061,
+    "buffGroup": 0,
+    "type": 181,
+    "name": "攻撃ダメージ前追加効果",
+    "detail": "攻撃時、ダメージ前に自身のクリティカル威力をアップ",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3006,
       3031
@@ -169643,6 +169662,79 @@
     "name": "通常攻撃時追加効果",
     "detail": "通常攻撃時、「対象のクリティカル威力をダウン＆宝具威力をアップ【デメリット】する効果」か「対象の宝具威力をダウン＆クリティカル威力をアップ【デメリット】する効果」のどちらかが発動<1ターンに1回だけ発動>",
     "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94155621,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時、対象の防御強化状態を1つ解除＆防御力をダウン",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94155622,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時、対象の強化付与率か弱体付与率をダウン",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94155623,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "宝具攻撃時追加効果",
+    "detail": "宝具攻撃時、自身のNPを増やす",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94155625,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動",
+    "detail": "攻撃を受けた時、敵単体に呪い状態を付与",
+    "iconId": 331,
     "maxRate": 0,
     "effectId": 0
   }
