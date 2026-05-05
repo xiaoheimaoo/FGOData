@@ -85741,8 +85741,7 @@
   {
     "vals": [
       3004,
-      3007,
-      3040
+      3007
     ],
     "tvals": [
       1000
@@ -169809,6 +169808,100 @@
     "detail": "クリティカルの発生率をアップ",
     "iconId": 327,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94155630,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 94155602
+    },
+    "id": 94155631,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔ライダー〕クラスに対するクラス相性が攻撃優位になる",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 94155603
+    },
+    "id": 94155632,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔ライダー〕クラスに対するクラス相性の防御不利を打ち消す",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94155633,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "反す",
+    "detail": "通常攻撃時、対象の強化付与率か弱体付与率をダウン",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94155634,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時、「対象の強化付与率と弱体付与率をダウンする効果」か「対象の強化解除成功率と弱体解除成功率をダウンする効果」のどちらかが発動",
+    "iconId": 528,
+    "maxRate": 0,
     "effectId": 0
   }
 ]
