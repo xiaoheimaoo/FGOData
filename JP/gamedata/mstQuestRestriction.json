@@ -36122,6 +36122,96 @@
   },
   {
     "script": {},
+    "questId": 94155718,
+    "phase": 3,
+    "restrictionId": 94155614,
+    "priority": 0,
+    "frequencyType": 0,
+    "dialogMessage": "クエストを開始するためには、\nスターティングメンバーに\n2騎のサーヴァントが必要です。",
+    "noticeMessage": "",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 94155718,
+    "phase": 3,
+    "restrictionId": 94155619,
+    "priority": 0,
+    "frequencyType": 1,
+    "dialogMessage": "ギルガメッシュ(アーチャー)を\nスターティングメンバーに設定してください。",
+    "noticeMessage": "ギルガメッシュ、エルキドゥをスターティングメンバーに設定してください",
+    "title": "ギルガメッシュ"
+  },
+  {
+    "script": {},
+    "questId": 94155718,
+    "phase": 3,
+    "restrictionId": 94155620,
+    "priority": 0,
+    "frequencyType": 1,
+    "dialogMessage": "エルキドゥを\nスターティングメンバーに設定してください。",
+    "noticeMessage": "",
+    "title": "エルキドゥ"
+  },
+  {
+    "script": {},
+    "questId": 94155718,
+    "phase": 4,
+    "restrictionId": 94155601,
+    "priority": 0,
+    "frequencyType": 1,
+    "dialogMessage": "ヒッポリュテを\nスターティングメンバーに設定してください。",
+    "noticeMessage": "ヒッポリュテをスターティングメンバーに設定してください",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 94155718,
+    "phase": 4,
+    "restrictionId": 94155623,
+    "priority": 0,
+    "frequencyType": 0,
+    "dialogMessage": "クエストを開始するためには、\nスターティングメンバーに\n3騎のサーヴァントが必要です。",
+    "noticeMessage": "",
+    "title": ""
+  },
+  {
+    "script": {
+      "overwriteRestrictionErrorDialogConditionName": "ヒッポリュテ編成不可"
+    },
+    "questId": 94155790,
+    "phase": 5,
+    "restrictionId": 94155621,
+    "priority": 0,
+    "frequencyType": 1,
+    "dialogMessage": "このクエストでは、\nヒッポリュテは\n編成できません。",
+    "noticeMessage": "ヒッポリュテ編成不可",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 94155790,
+    "phase": 5,
+    "restrictionId": 94155624,
+    "priority": 0,
+    "frequencyType": 0,
+    "dialogMessage": "",
+    "noticeMessage": "",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 94155791,
+    "phase": 5,
+    "restrictionId": 94155624,
+    "priority": 0,
+    "frequencyType": 0,
+    "dialogMessage": "",
+    "noticeMessage": "",
+    "title": ""
+  },
+  {
+    "script": {},
     "questId": 911000701,
     "phase": 1,
     "restrictionId": 91000109,
