@@ -2644,7 +2644,7 @@
   },
   {
     "bgImageId": 3,
-    "detail": "【技能强化＆灵基再临素材】\nいにしえの遺物を収めた小箱。\n固く閉ざされたその箱の中身を\n知る者はもはやいない。",
+    "detail": "【技能强化＆灵基再临素材】\n收纳着古老遗物的小盒子。\n已无人知晓被牢牢锁起的盒中\n究竟藏着什么了。",
     "dropPriority": 8514,
     "endedAt": "2145888000",
     "id": 6563,
@@ -2653,7 +2653,7 @@
       20096
     ],
     "isSell": true,
-    "name": "遺霊箱",
+    "name": "遗灵盒",
     "priority": 291,
     "script": "",
     "sellQp": 2500,
@@ -31662,7 +31662,9 @@
     "isSell": false,
     "name": "占星茶壶",
     "priority": 200000002,
-    "script": "",
+    "script": {
+      "questUseItemGroupId": 1
+    },
     "sellQp": -1,
     "startedAt": "1764518400",
     "type": 30,
@@ -31680,7 +31682,9 @@
     "isSell": false,
     "name": "占星茶壶",
     "priority": 200000003,
-    "script": "",
+    "script": {
+      "questUseItemGroupId": 1
+    },
     "sellQp": -1,
     "startedAt": "1767196800",
     "type": 30,
@@ -32083,9 +32087,7 @@
     "isSell": false,
     "name": "占月茶壶",
     "priority": 94138905,
-    "script": {
-      "questUseItemGroupId": 1
-    },
+    "script": "",
     "sellQp": -1,
     "startedAt": "1766469600",
     "type": 30,
@@ -32787,7 +32789,7 @@
     "bgImageId": 3,
     "detail": "【活动兑换道具】\n可获得剑阶强化素材的兑换券。",
     "dropPriority": 9001,
-    "endedAt": "2145888000",
+    "endedAt": "1780761599",
     "id": 94145401,
     "imageId": 94138506,
     "individuality": [],
@@ -32795,18 +32797,18 @@
     "name": "剑士养成兑换券",
     "priority": 200,
     "script": {
-      "overwritePresentboxDetail": "セイバーピース、セイバーモニュメント、剣の輝石、剣の魔石、剣の秘石の中から一つと交換ができます。",
+      "overwritePresentboxDetail": "可从剑阶银棋、剑阶金像、剑之辉石、剑之魔石、剑之秘石中选择一种进行兑换。",
       "isPresent": 1
     },
     "sellQp": -1,
-    "startedAt": "2145888000",
+    "startedAt": "1778342400",
     "type": 24,
     "unit": "",
     "value": 0
   },
   {
     "bgImageId": 1,
-    "detail": "【活动收集道具】\n『インドラの大試練』で手に入れた、\n雨模様の大空を飛ぶ紙飛行機。\n耐水仕様で雨でもへっちゃら。",
+    "detail": "【活动收集道具】\n在『因陀罗的大试炼』中获得的\n能在下雨的天空飞行的纸飞机。\n做了防水处理，连雨天都不在话下。",
     "dropPriority": 2001,
     "endedAt": "2145888000",
     "id": 94145801,
@@ -32815,7 +32817,7 @@
       10944
     ],
     "isSell": false,
-    "name": "レイニーグライダー",
+    "name": "雨天滑翔机",
     "priority": 94145801,
     "script": "",
     "sellQp": -1,
@@ -32826,7 +32828,7 @@
   },
   {
     "bgImageId": 2,
-    "detail": "【活动收集道具】\n『インドラの大試練』で手に入れた、\n曇天の大空を漂う風船。\nどこから来てどこへ行くのか。",
+    "detail": "【活动收集道具】\n在『因陀罗的大试炼』中获得的\n在多云的天空飘荡的气球。\n究竟从何而来，又会去往何方。",
     "dropPriority": 2002,
     "endedAt": "2145888000",
     "id": 94145802,
@@ -32835,7 +32837,7 @@
       10945
     ],
     "isSell": false,
-    "name": "クラウディバルーン",
+    "name": "多云气球",
     "priority": 94145802,
     "script": "",
     "sellQp": -1,
@@ -32846,7 +32848,7 @@
   },
   {
     "bgImageId": 3,
-    "detail": "【活动收集道具】\n『インドラの大試練』で手に入れた、\n快晴の大空を舞う羽根。\n太陽の温もりを感じる。",
+    "detail": "【活动收集道具】\n在『因陀罗的大试炼』中获得的\n在晴朗的天空飞舞的羽毛。\n能令人感受到阳光的温暖。",
     "dropPriority": 2003,
     "endedAt": "2145888000",
     "id": 94145803,
@@ -32855,7 +32857,7 @@
       10946
     ],
     "isSell": false,
-    "name": "サニーフェザー",
+    "name": "晴朗羽毛",
     "priority": 94145803,
     "script": "",
     "sellQp": -1,
@@ -32866,7 +32868,7 @@
   },
   {
     "bgImageId": 3,
-    "detail": "【活动收集道具】\n『インドラの大試練』で手に入れた、\n空の概念の破片。",
+    "detail": "【活动收集道具】\n在『因陀罗的大试炼』中获得的\n空の概念の破片。",
     "dropPriority": 2004,
     "endedAt": "2145888000",
     "id": 94145804,
@@ -32875,7 +32877,7 @@
       10947
     ],
     "isSell": false,
-    "name": "空の砕片",
+    "name": "空之碎片",
     "priority": 94145804,
     "script": "",
     "sellQp": -1,
@@ -32886,7 +32888,7 @@
   },
   {
     "bgImageId": 3,
-    "detail": "【活动兑换道具】\n『インドラの大試練』で\nインドラから貰った特別な交換券。",
+    "detail": "【活动兑换道具】\n在『因陀罗的大试炼』中\n从因陀罗处获得的特殊兑换券。",
     "dropPriority": 9001,
     "endedAt": "2145888000",
     "id": 94145805,
@@ -32895,10 +32897,10 @@
       10948
     ],
     "isSell": false,
-    "name": "インドラチケット",
+    "name": "因陀罗兑换券",
     "priority": 94145805,
     "script": {
-      "overwritePresentboxDetail": "天命の聖水、煌星のカケラ、真理の卵、精霊根、竜の逆鱗の中から一つと交換ができます。",
+      "overwritePresentboxDetail": "可从天命圣水、煌星碎片、真理之卵、精灵根、龙之逆鳞中选择一种进行兑换。",
       "isPresent": 1
     },
     "sellQp": -1,
@@ -32909,7 +32911,7 @@
   },
   {
     "bgImageId": 3,
-    "detail": "【？？？】\n宝物庫から出てくる謎のお酒。",
+    "detail": "【？？？】\n从宝物库中取出的神秘美酒。",
     "dropPriority": 9001,
     "endedAt": "2145888000",
     "id": 94145806,
@@ -32918,7 +32920,7 @@
       10948
     ],
     "isSell": false,
-    "name": "美味い酒",
+    "name": "美酒",
     "priority": 94145806,
     "script": "",
     "sellQp": -1,
@@ -32929,7 +32931,7 @@
   },
   {
     "bgImageId": 3,
-    "detail": "【？？？】\n宝物庫から出てくる謎のお酒。\nたいそう美味しいらしく、\nインドラチケットと交換してもらえる。",
+    "detail": "【？？？】\n从宝物库中取出的神秘美酒。\n好像非常好喝，\n能兑换因陀罗兑换券。",
     "dropPriority": 9001,
     "endedAt": "2145888000",
     "id": 94145807,
@@ -32938,7 +32940,7 @@
       10948
     ],
     "isSell": false,
-    "name": "美味い酒",
+    "name": "美酒",
     "priority": 94145807,
     "script": "",
     "sellQp": -1,
@@ -32959,7 +32961,7 @@
     "name": "狂战士养成兑换券",
     "priority": 200,
     "script": {
-      "overwritePresentboxDetail": "バーサーカーピース、バーサーカーモニュメント、狂の輝石、狂の魔石、狂の秘石の中から一つと交換ができます。",
+      "overwritePresentboxDetail": "可从狂阶银棋、狂阶金像、狂之辉石、狂之魔石、狂之秘石中选择一种进行兑换。",
       "isPresent": 1
     },
     "sellQp": -1,
@@ -32970,14 +32972,14 @@
   },
   {
     "bgImageId": 3,
-    "detail": "【活动兑换道具】\n『OVER THE SAME SKY』\nで届けられたチケット。\nダ・ヴィンチ工房で英霊星行概念礼装と交換できる。\n\n※交換期限は2025/7/21(月) 12:59までです。",
+    "detail": "【活动兑换道具】\n『OVER THE SAME SKY』\n中收到的兑换券。\n可在达·芬奇工房兑换英灵星行概念礼装。\n\n※兑换期限截至2025/7/21(周二) 13:59。",
     "dropPriority": 9001,
     "endedAt": "2145888000",
     "id": 94146601,
     "imageId": 94146601,
     "individuality": [],
     "isSell": false,
-    "name": "OVER THE SAME SKY 英霊星行チケット〔JUNE〕",
+    "name": "OVER THE SAME SKY 英灵星行兑换券〔JUNE〕",
     "priority": 94146601,
     "script": "",
     "sellQp": -1,
@@ -32988,17 +32990,17 @@
   },
   {
     "bgImageId": 3,
-    "detail": "【活动兑换道具】\nランサークラスの強化素材を\n獲得できる交換券。",
+    "detail": "【活动兑换道具】\n可获得枪阶强化素材的兑换券。",
     "dropPriority": 9001,
     "endedAt": "2145888000",
     "id": 94146801,
     "imageId": 94138506,
     "individuality": [],
     "isSell": false,
-    "name": "ランサー养成兑换券",
+    "name": "枪兵养成兑换券",
     "priority": 200,
     "script": {
-      "overwritePresentboxDetail": "ランサーピース、ランサーモニュメント、槍の輝石、槍の魔石、槍の秘石の中から一つと交換ができます。",
+      "overwritePresentboxDetail": "可从枪阶银棋、枪阶金像、枪之辉石、枪之魔石、枪之秘石中选择一种进行兑换。",
       "isPresent": 1
     },
     "sellQp": -1,
