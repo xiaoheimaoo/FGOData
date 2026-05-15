@@ -63134,8 +63134,8 @@
     "id": 4407,
     "buffGroup": 0,
     "type": 149,
-    "name": "Activate when Guts IS Triggered (NP Strength Up & Remove Debuff)",
-    "detail": "Increase NP Strength & remove debuffs when Guts is activated",
+    "name": "Activate when Guts is Triggered (NP Strength Up & Remove Debuff)",
+    "detail": "Increase NP Strength and remove Debuffs for yourself when Guts is triggered",
     "iconId": 365,
     "maxRate": 0,
     "effectId": 0
@@ -81788,6 +81788,36 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5632,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Strength Up",
+    "detail": "Increase damage dealt during \"Revival: Spiral Proof World, Lilim Harlot\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5633,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Proof of Existence",
+    "detail": "Increase damage dealt during \"Revival: Spiral Proof World, Lilim Harlot\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004,
       3064,
@@ -81803,6 +81833,23 @@
     "name": "Anti-Enforcement DEF",
     "detail": "Disregard Ignore Invincible and reduce ATK damage to 0 (stackable with other Anti-Enforcement DEF)",
     "iconId": 368,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5642,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect when Attacking",
+    "detail": "Slightly increase NP Gauge for yourself during attacks",
+    "iconId": 333,
     "maxRate": 0,
     "effectId": 0
   },
