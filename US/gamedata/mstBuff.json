@@ -81820,6 +81820,75 @@
   {
     "vals": [
       3004,
+      3007
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003
+    ],
+    "script": {},
+    "id": 5635,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "Quick Card Resist",
+    "detail": "Decrease damage taken, NP generate, and C. Star drop rate upon damage from Quick Card",
+    "iconId": 345,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001
+    ],
+    "script": {},
+    "id": 5636,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "Arts Card Resist",
+    "detail": "Decrease damage taken, NP generate, and C. Star drop rate upon damage from Arts Card",
+    "iconId": 346,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {},
+    "id": 5637,
+    "buffGroup": 0,
+    "type": 105,
+    "name": "Buster Card Resist",
+    "detail": "Decrease damage taken, NP generate, and C. Star drop rate upon damage from Buster Card",
+    "iconId": 347,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
       3064,
       3007
     ],
@@ -112046,6 +112115,160 @@
     "vals": [
       3004
     ],
+    "tvals": [
+      -3060
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -3060
+    ],
+    "script": {
+      "checkIndvType": 2,
+      "IndvAddBuffPassive": 1
+    },
+    "id": 94097400,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Voracity",
+    "detail": "Absorb target's HP when attacking <effect is nullified against targets in HP Recover Each Turn state>",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      -3060
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -3060
+    ],
+    "script": {
+      "checkIndvType": 2,
+      "IndvAddBuffPassive": 1
+    },
+    "id": 94097401,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Voracity",
+    "detail": "Absorb a single enemy's HP when attacked <effect is nullified against targets in HP Recover Each Turn state>",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      4007,
+      4100,
+      -3060
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007,
+      4100,
+      -3060
+    ],
+    "script": {
+      "checkIndvType": 2,
+      "IndvAddBuffPassive": 1
+    },
+    "id": 94097402,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Voracity",
+    "detail": "Increase resistance to Noble Phantasm and Critical attacks <effect is nullified against targets in HP Recover Each Turn state>",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      -3060
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -3060
+    ],
+    "script": {
+      "checkIndvType": 2,
+      "IndvAddBuffPassive": 1
+    },
+    "id": 94097403,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Gluttony",
+    "detail": "Absorb target's HP when attacking <effect is nullified against targets in HP Recover Each Turn state>",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      -3060
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -3060
+    ],
+    "script": {
+      "checkIndvType": 2,
+      "IndvAddBuffPassive": 1
+    },
+    "id": 94097404,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Gluttony",
+    "detail": "Absorb a single enemy's HP when attacked <effect is nullified against targets in HP Recover Each Turn state>",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      4007,
+      4100,
+      -3060
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007,
+      4100,
+      -3060
+    ],
+    "script": {
+      "checkIndvType": 2,
+      "IndvAddBuffPassive": 1
+    },
+    "id": 94097405,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Gluttony",
+    "detail": "Increase resistance to Noble Phantasm and Critical attacks <effect is nullified against targets in HP Recover Each Turn state>",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
     "tvals": [],
     "ckSelfIndv": [],
     "ckOpIndv": [
@@ -112060,6 +112283,477 @@
     "name": "",
     "detail": "",
     "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097407,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "Activate when Guts Is Triggered",
+    "detail": "Remove Debuffs & increase resistance to attacks that reduce HP to 0 when Guts is activated <for Extra Attacks, increase resistance to Quick, Arts, and Buster>",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097408,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097409,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097410,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097411,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [
+      4100
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097412,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Bonus Effect with Critical ATK",
+    "detail": "Inflict [Hydra Venom] to target with Critical attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3011
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097413,
+    "buffGroup": 94097413,
+    "type": 85,
+    "name": "Hydra Venom",
+    "detail": "Remove 1 Buff & decrease ATK for yourself at the end of the turn",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097414,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect when Attacking",
+    "detail": "Absorb target's HP + Remove 1 Debuff from yourself when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097416,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "Activate when Guts Is Triggered",
+    "detail": "Increase Charge by 2 & increase Buster Card effectiveness for yourself when Guts is activated",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097417,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect when Attacking",
+    "detail": "Reduce target's DEF Buff stacks by 1 when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4004
+    ],
+    "ckSelfIndv": [
+      4004
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097418,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6021
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097419,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097420,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "Delayed Effect",
+    "detail": "Decrease DEF for yourself after turn",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94097421,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "Activates every 2 turns",
+    "detail": "Reduce skill cooldown by 1 <activates once every 2 turns> for yourself at the end of the turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097422,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097423,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097424,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6029
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097425,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024,
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097426,
+    "buffGroup": 0,
+    "type": 104,
+    "name": "Life Support Unit",
+    "detail": "When HP reaches 0, recover HP and survive",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097427,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097428,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "Price of Power",
+    "detail": "Inflict Death to yourself after turn",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3033
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097429,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "ATK Down",
+    "detail": "Decrease ATK that becomes more effective each turn",
+    "iconId": 503,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      3110
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097430,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "DEF Down",
+    "detail": "Decrease DEF that becomes more effective each turn",
+    "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097431,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect with ATK",
+    "detail": "Inflict Stun to target when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3011
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097432,
+    "buffGroup": 94097432,
+    "type": 8,
+    "name": "Hydra Venom",
+    "detail": "Lose HP at the end of turn",
+    "iconId": 500,
+    "maxRate": 0,
+    "effectId": 17119
+  },
+  {
+    "vals": [
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94097433,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
     "maxRate": 0,
     "effectId": 0
   },
