@@ -10748,6 +10748,85 @@
   },
   {
     "script": {},
+    "questId": 5000103,
+    "phase": 1,
+    "restrictionId": 5000102,
+    "priority": 0,
+    "frequencyType": 0,
+    "dialogMessage": "",
+    "noticeMessage": "",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 5000105,
+    "phase": 2,
+    "restrictionId": 5000101,
+    "priority": 0,
+    "frequencyType": 1,
+    "dialogMessage": "マシュを\nスターティングメンバーに設定してください。",
+    "noticeMessage": "マシュをスターティングメンバーに設定してください",
+    "title": "マシュ"
+  },
+  {
+    "script": {},
+    "questId": 5000105,
+    "phase": 3,
+    "restrictionId": 5000101,
+    "priority": 0,
+    "frequencyType": 1,
+    "dialogMessage": "マシュを\nスターティングメンバーに設定してください。",
+    "noticeMessage": "マシュ、清姫(バーサーカー)をスターティングメンバーに設定してください",
+    "title": "マシュ"
+  },
+  {
+    "script": {},
+    "questId": 5000105,
+    "phase": 3,
+    "restrictionId": 5000112,
+    "priority": 0,
+    "frequencyType": 1,
+    "dialogMessage": "清姫(バーサーカー)を\nスターティングメンバーに設定してください。",
+    "noticeMessage": "",
+    "title": "清姫"
+  },
+  {
+    "script": {
+      "overwriteRestrictionErrorDialogConditionName": "マシュ編成不可"
+    },
+    "questId": 5000106,
+    "phase": 1,
+    "restrictionId": 5000110,
+    "priority": 0,
+    "frequencyType": 1,
+    "dialogMessage": "このクエストでは、\nマシュは\n編成できません。",
+    "noticeMessage": "マシュ編成不可",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 5000108,
+    "phase": 2,
+    "restrictionId": 5000109,
+    "priority": 0,
+    "frequencyType": 1,
+    "dialogMessage": "このクエストでは、\nグランドサーヴァントを\n所持サーヴァントから2騎、\nサポートサーヴァントから1騎\nまで編成できます。",
+    "noticeMessage": "",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 5000151,
+    "phase": 2,
+    "restrictionId": 5000102,
+    "priority": 0,
+    "frequencyType": 0,
+    "dialogMessage": "",
+    "noticeMessage": "",
+    "title": ""
+  },
+  {
+    "script": {},
     "questId": 91102701,
     "phase": 1,
     "restrictionId": 91000107,
