@@ -19965,8 +19965,8 @@
     "id": 1445,
     "buffGroup": 0,
     "type": 89,
-    "name": "攻撃時発動（天魔大殺界）",
-    "detail": "自身の通常攻撃時に敵単体のNPを確率で減らす",
+    "name": "通常攻撃時追加効果(NP減少)",
+    "detail": "通常攻撃時、敵単体のNPを確率で減らす",
     "iconId": 528,
     "maxRate": 0,
     "effectId": 0
@@ -19998,8 +19998,8 @@
     "id": 1447,
     "buffGroup": 0,
     "type": 89,
-    "name": "攻撃時発動（虎の祟り）",
-    "detail": "自身の通常攻撃時に敵単体に攻撃力ダウン状態を付与＆最大HPダウン状態を付与",
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時、敵単体の攻撃力をダウン＆最大HPをダウン",
     "iconId": 528,
     "maxRate": 0,
     "effectId": 0
@@ -20017,15 +20017,16 @@
     "id": 1448,
     "buffGroup": 0,
     "type": 86,
-    "name": "被ダメージ時発動(猿の祟り)",
-    "detail": "攻撃を受けると敵単体にNP獲得ダウン＆スター発生率ダウン効果を付与",
-    "iconId": 543,
+    "name": "被ダメージ時発動",
+    "detail": "攻撃を受けると敵単体のNP獲得量をダウン＆スター発生率をダウン",
+    "iconId": 331,
     "maxRate": 0,
     "effectId": 0
   },
   {
     "vals": [
-      2375
+      2375,
+      3109
     ],
     "tvals": [
       5000,
@@ -20039,7 +20040,7 @@
     "id": 1449,
     "buffGroup": 200,
     "type": 24,
-    "name": "とらつぐみのよる：Quick",
+    "name": "回避：Quick",
     "detail": "Quick攻撃によるダメージを0にする",
     "iconId": 305,
     "maxRate": 0,
@@ -20047,7 +20048,8 @@
   },
   {
     "vals": [
-      2375
+      2375,
+      3109
     ],
     "tvals": [
       5000,
@@ -20061,7 +20063,7 @@
     "id": 1450,
     "buffGroup": 200,
     "type": 24,
-    "name": "とらつぐみのよる：Arts",
+    "name": "回避：Arts",
     "detail": "Arts攻撃によるダメージを0にする",
     "iconId": 305,
     "maxRate": 0,
@@ -20069,7 +20071,8 @@
   },
   {
     "vals": [
-      2375
+      2375,
+      3109
     ],
     "tvals": [
       5000,
@@ -20083,7 +20086,7 @@
     "id": 1451,
     "buffGroup": 200,
     "type": 24,
-    "name": "とらつぐみのよる：Buster",
+    "name": "回避：Buster",
     "detail": "Buster攻撃によるダメージを0にする",
     "iconId": 305,
     "maxRate": 0,
@@ -20103,7 +20106,7 @@
     "id": 1452,
     "buffGroup": 400,
     "type": 26,
-    "name": "かえらずのよる：Quick",
+    "name": "無敵：Quick",
     "detail": "必中を無視して、Quick攻撃によるダメージを0にする",
     "iconId": 311,
     "maxRate": 0,
@@ -20123,7 +20126,7 @@
     "id": 1453,
     "buffGroup": 400,
     "type": 26,
-    "name": "かえらずのよる：Arts",
+    "name": "無敵：Arts",
     "detail": "必中を無視して、Arts攻撃によるダメージを0にする",
     "iconId": 311,
     "maxRate": 0,
@@ -20143,7 +20146,7 @@
     "id": 1454,
     "buffGroup": 400,
     "type": 26,
-    "name": "かえらずのよる：Buster",
+    "name": "無敵：Buster",
     "detail": "必中を無視して、Buster攻撃によるダメージを0にする",
     "iconId": 311,
     "maxRate": 0,
@@ -90059,6 +90062,36 @@
     "detail": "クリティカル攻撃に対する耐性をアップ",
     "iconId": 334,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6068,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "おもてなし力",
+    "detail": "『夏予習版:雀のお宿の活動日誌～閻魔亭繁盛記～』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6069,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ",
+    "detail": "『夏予習版:雀のお宿の活動日誌～閻魔亭繁盛記～』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
     "effectId": 0
   },
   {
