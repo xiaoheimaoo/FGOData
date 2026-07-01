@@ -90095,6 +90095,36 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6070,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "カルデニア・クルー",
+    "detail": "『春の終わりに君を待つ』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6071,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ",
+    "detail": "『春の終わりに君を待つ』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004
     ],
@@ -90160,6 +90190,106 @@
     "detail": "",
     "iconId": 0,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2667
+    },
+    "id": 6078,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "宝具威力アップ",
+    "detail": "宝具で与えるダメージをアップ",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2667
+    },
+    "id": 6079,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "カルデニア・クルー",
+    "detail": "『春の終わりに君を待つ』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [
+      4100
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6080,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "クリティカル攻撃時追加効果",
+    "detail": "クリティカル攻撃時、対象に〔急所判明〕状態を付与",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6081,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "遅延発動",
+    "detail": "ターン経過後、自身に即死効果(ガッツ無視・耐性無効・解除不能)",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      3039
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3039
+    ],
+    "script": {},
+    "id": 6083,
+    "buffGroup": 0,
+    "type": 110,
+    "name": "威力アップ〔即死耐性ダウン〕",
+    "detail": "〔即死耐性ダウン〕状態の敵に与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
     "effectId": 0
   },
   {
@@ -172343,6 +172473,192 @@
     "detail": "ターン経過後、自身のHPが回復 ＋ 〔運命の糸〕状態の敵全体のNPを減らす＆スターを減らす",
     "iconId": 331,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {},
+    "id": 94158101,
+    "buffGroup": 0,
+    "type": 106,
+    "name": "Busterの音色",
+    "detail": "Busterカードの攻撃による被ダメージ、被NP発生量、被スター発生率が増加する",
+    "iconId": 541,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003
+    ],
+    "script": {},
+    "id": 94158102,
+    "buffGroup": 0,
+    "type": 106,
+    "name": "Quickの音色",
+    "detail": "Quickカードの攻撃による被ダメージ、被NP発生量、被スター発生率が増加する",
+    "iconId": 539,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001
+    ],
+    "script": {},
+    "id": 94158103,
+    "buffGroup": 0,
+    "type": 106,
+    "name": "Artsの音色",
+    "detail": "Artsカードの攻撃による被ダメージ、被NP発生量、被スター発生率が増加する",
+    "iconId": 540,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94158104,
+    "buffGroup": 0,
+    "type": 24,
+    "name": "逃げ足",
+    "detail": "攻撃によるダメージを低確率で0にする",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94158105,
+    "buffGroup": 0,
+    "type": 24,
+    "name": "逃げ足（重）",
+    "detail": "攻撃によるダメージを極低確率で0にする",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3093,
+      3132
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [
+      -90000
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94158201,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "職業スキル：匠の相槌",
+    "detail": "プレイヤー側のフィールドにいるすべての対象が「Busterカードの性能をアップする効果」を受ける",
+    "iconId": 314,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3092,
+      3132
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [
+      -90000
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94158202,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "職業スキル：小さな夜の連弾",
+    "detail": "プレイヤー側のフィールドにいるすべての対象が「Artsカードの性能をアップする効果」を受ける",
+    "iconId": 313,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3083,
+      3132
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94158203,
+    "buffGroup": 0,
+    "type": 3,
+    "name": "職業スキル：猟師の勘",
+    "detail": "プレイヤー側のフィールドにいるすべての対象が「スター発生率をアップする効果」を受ける",
+    "iconId": 321,
+    "maxRate": 5000,
     "effectId": 0
   }
 ]
