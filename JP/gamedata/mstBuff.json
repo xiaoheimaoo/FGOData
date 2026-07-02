@@ -90276,6 +90276,31 @@
       3028
     ],
     "tvals": [
+      1002,
+      1000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      1002,
+      1000
+    ],
+    "script": {},
+    "id": 6082,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ〔霊体〕",
+    "detail": "〔霊体(死霊またはサーヴァント)〕に与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
       3039
     ],
     "ckSelfIndv": [],
@@ -172478,6 +172503,77 @@
   {
     "vals": [
       3005,
+      3020
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94158001,
+    "buffGroup": 900,
+    "type": 34,
+    "name": "（手加減してって言ってましたし……）",
+    "detail": "宝具を使用できなくなる",
+    "iconId": 512,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94158002,
+    "buffGroup": 0,
+    "type": 141,
+    "name": "オーダーチェンジ不能",
+    "detail": "オーダーチェンジを使用できなくなる",
+    "iconId": 554,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6034
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94158015,
+    "buffGroup": 0,
+    "type": 32,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94158016,
+    "buffGroup": 0,
+    "type": 168,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
       3009
     ],
     "tvals": [
@@ -172658,6 +172754,26 @@
     "name": "職業スキル：猟師の勘",
     "detail": "プレイヤー側のフィールドにいるすべての対象が「スター発生率をアップする効果」を受ける",
     "iconId": 321,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      3110,
+      3133
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94158204,
+    "buffGroup": 0,
+    "type": 43,
+    "name": "職業スキル：サブマシンガントーク",
+    "detail": "エネミー側のフィールドにいるすべての対象が「防御力をダウンする効果」を受ける",
+    "iconId": 504,
     "maxRate": 5000,
     "effectId": 0
   }

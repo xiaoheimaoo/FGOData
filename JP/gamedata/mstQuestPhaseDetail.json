@@ -213915,7 +213915,28 @@
   },
   {
     "beforeActionVals": [],
-    "afterActionVals": [],
+    "afterActionVals": [
+      "305",
+      "920209,15,0,1",
+      "520",
+      "3,1",
+      "900",
+      "1000",
+      "305",
+      "920209,15,3000,2",
+      "900",
+      "1000",
+      "308",
+      "1024,0,3000,15,2",
+      "900",
+      "1000",
+      "305",
+      "920208,15,1500,1",
+      "101",
+      "920208",
+      "102",
+      "920208"
+    ],
     "boardMessage": {
       "text": {
         "textString": "編成条件あり",
@@ -213942,8 +213963,211 @@
     "spotId": 920201,
     "consumeType": 1,
     "actConsume": 5,
-    "flag": 562949957615616,
+    "flag": 562950242828288,
     "recommendLv": "70"
+  },
+  {
+    "beforeActionVals": [],
+    "afterActionVals": [
+      "300",
+      "920208",
+      "304",
+      "1,0,15",
+      "520",
+      "0",
+      "305",
+      "920209,15,800,1",
+      "101",
+      "920209",
+      "102",
+      "920209",
+      "510",
+      "920209"
+    ],
+    "boardMessage": {},
+    "questId": 94158003,
+    "phase": 2,
+    "spotId": 920208,
+    "consumeType": 1,
+    "actConsume": 5,
+    "flag": 562949957615616,
+    "recommendLv": "75"
+  },
+  {
+    "beforeActionVals": [],
+    "afterActionVals": [
+      "300",
+      "920209",
+      "304",
+      "1,0,15",
+      "520",
+      "0",
+      "305",
+      "920210,15,800,1",
+      "101",
+      "920210",
+      "102",
+      "920210",
+      "510",
+      "920210"
+    ],
+    "boardMessage": {},
+    "questId": 94158003,
+    "phase": 3,
+    "spotId": 920209,
+    "consumeType": 1,
+    "actConsume": 0,
+    "flag": 2,
+    "recommendLv": "1"
+  },
+  {
+    "beforeActionVals": [],
+    "afterActionVals": [
+      "300",
+      "920210",
+      "304",
+      "1,0,15",
+      "520",
+      "0",
+      "305",
+      "920209,15,800,1",
+      "510",
+      "920209"
+    ],
+    "boardMessage": {
+      "text": {
+        "textString": "コンティニュー不可",
+        "offset": [
+          3,
+          -2
+        ],
+        "fontSize": 14,
+        "gradation": [
+          "#FFEC00",
+          "#FFEC00"
+        ]
+      },
+      "priority": 2,
+      "list": [
+        {
+          "image": {
+            "bannerSp": "img_quest_formlimit_01",
+            "offset": [
+              3,
+              -2
+            ]
+          },
+          "text": {
+            "textString": "編成条件あり",
+            "offset": [
+              3,
+              -2
+            ],
+            "fontSize": 14,
+            "gradation": [
+              "#FFEC00",
+              "#FFEC00"
+            ]
+          },
+          "priority": 1
+        },
+        {
+          "image": {
+            "bannerSp": "img_quest_formlimit_01",
+            "offset": [
+              3,
+              -2
+            ]
+          },
+          "text": {
+            "textString": "コンティニュー不可",
+            "offset": [
+              3,
+              -2
+            ],
+            "fontSize": 14,
+            "gradation": [
+              "#FFEC00",
+              "#FFEC00"
+            ]
+          },
+          "priority": 0
+        }
+      ],
+      "image": {
+        "bannerSp": "img_quest_formlimit_01",
+        "offset": [
+          3,
+          -2
+        ]
+      }
+    },
+    "questId": 94158004,
+    "phase": 1,
+    "spotId": 920210,
+    "consumeType": 1,
+    "actConsume": 5,
+    "flag": 562950242828304,
+    "recommendLv": "70"
+  },
+  {
+    "beforeActionVals": [],
+    "afterActionVals": [
+      "305",
+      "920201,15,0,1",
+      "510",
+      "920201",
+      "520",
+      "0",
+      "305",
+      "920203,15,800,1",
+      "101",
+      "920203",
+      "102",
+      "920203",
+      "510",
+      "920203"
+    ],
+    "boardMessage": {},
+    "questId": 94158004,
+    "phase": 2,
+    "spotId": 920209,
+    "consumeType": 1,
+    "actConsume": 0,
+    "flag": 2,
+    "recommendLv": "1"
+  },
+  {
+    "beforeActionVals": [],
+    "afterActionVals": [],
+    "boardMessage": {
+      "text": {
+        "textString": "編成条件あり",
+        "offset": [
+          3,
+          -2
+        ],
+        "fontSize": 14,
+        "gradation": [
+          "#FFEC00",
+          "#FFEC00"
+        ]
+      },
+      "image": {
+        "bannerSp": "img_quest_formlimit_01",
+        "offset": [
+          3,
+          -2
+        ]
+      }
+    },
+    "questId": 94158005,
+    "phase": 1,
+    "spotId": 920203,
+    "consumeType": 1,
+    "actConsume": 5,
+    "flag": 562949957615616,
+    "recommendLv": "80"
   },
   {
     "beforeActionVals": [],
