@@ -172541,6 +172541,38 @@
   },
   {
     "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94158003,
+    "buffGroup": 0,
+    "type": 180,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時、対象の強化状態を1つ解除",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94158004,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "リビルドフロー",
+    "detail": "自身がフィールドにいる間、味方全体の被ダメージを減らす",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       6034
     ],
     "tvals": [],
@@ -172683,6 +172715,252 @@
   {
     "vals": [
       3004,
+      3016
+    ],
+    "tvals": [
+      -4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4002
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94158106,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "インパクトのあるヤツがほしいわあ！",
+    "detail": "？？？攻撃以外に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4001
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94158107,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "気の利いたおしゃれな靴を！",
+    "detail": "？？？攻撃以外に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4003
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94158108,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "スポーティな速く走れるやつを！",
+    "detail": "？？？攻撃以外に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4007
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94158109,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "ゴージャスなお宝の靴をちょうだい！",
+    "detail": "？？？攻撃以外に対する耐性をアップ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94158110,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94158111,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94158112,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3025
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94158113,
+    "buffGroup": 800,
+    "type": 33,
+    "name": "？？？",
+    "detail": "スキルを使用できなくなる",
+    "iconId": 511,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3020
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94158114,
+    "buffGroup": 900,
+    "type": 34,
+    "name": "？？？",
+    "detail": "宝具を使用できなくなる",
+    "iconId": 512,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94158115,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "未来管理（スロット）",
+    "detail": "人類の勝ち目を、小数点以下のミニミニにしてあげます♡",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94158116,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "未来管理無効",
+    "detail": "〔未来管理（スロット）〕によるＢＢスロットの出目操作ができなくなる",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94158117,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94158118,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
       3006,
       3093,
       3132
@@ -172774,6 +173052,133 @@
     "name": "職業スキル：サブマシンガントーク",
     "detail": "エネミー側のフィールドにいるすべての対象が「防御力をダウンする効果」を受ける",
     "iconId": 504,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3094,
+      3132
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [
+      -90000
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94158205,
+    "buffGroup": 0,
+    "type": 52,
+    "name": "職業スキル：シンデレラフィット",
+    "detail": "プレイヤー側のフィールドにいるすべての対象が「Quickカードの性能をアップする効果」を受ける",
+    "iconId": 312,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3132
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94158206,
+    "buffGroup": 0,
+    "type": 17,
+    "name": "職業スキル：でばっぐこまんど",
+    "detail": "プレイヤー側のフィールドにいるすべての対象が「NP獲得量をアップする効果」を受ける",
+    "iconId": 303,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3037,
+      3133
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94158207,
+    "buffGroup": 0,
+    "type": 19,
+    "name": "職業スキル：ブラッドファーザー",
+    "detail": "エネミー側のフィールドにいるすべての対象が「クリティカル時のダメージをダウンする効果」を受ける",
+    "iconId": 514,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3133
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {},
+    "id": 94158208,
+    "buffGroup": 0,
+    "type": 30,
+    "name": "職業スキル：マッド・トリアージ",
+    "detail": "エネミー側のフィールドにいるすべての対象が「弱体耐性をダウンする効果」を受ける",
+    "iconId": 506,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      3133
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94158209,
+    "buffGroup": 0,
+    "type": 217,
+    "name": "職業スキル：キャンセル・チート・クレジット",
+    "detail": "エネミー側のフィールドにいるすべての対象が「クリティカル攻撃で受けるダメージが増える効果」を受ける",
+    "iconId": 575,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      3133
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94158210,
+    "buffGroup": 0,
+    "type": 219,
+    "name": "職業スキル：『アイアイ、キャプテン』",
+    "detail": "エネミー側のフィールドにいるすべての対象が「宝具攻撃で受けるダメージが増える効果」を受ける",
+    "iconId": 574,
     "maxRate": 5000,
     "effectId": 0
   }
