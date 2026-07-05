@@ -172573,6 +172573,45 @@
   },
   {
     "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 94158001
+    },
+    "id": 94158005,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔セイバー〕クラスに対するクラス相性が劣位になる",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "atkPriority": 2000,
+      "relationId": 94158002
+    },
+    "id": 94158006,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔ランサー〕クラスに対するクラス相性が劣位になる",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       6034
     ],
     "tvals": [],
@@ -172600,6 +172639,25 @@
     "name": "",
     "detail": "",
     "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3025,
+      6033
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94158017,
+    "buffGroup": 0,
+    "type": 161,
+    "name": "帰らずの柘榴 使用不能",
+    "detail": "スキル「帰らずの柘榴」を使用できなくなる",
+    "iconId": 511,
     "maxRate": 0,
     "effectId": 0
   },
