@@ -4009,5 +4009,45 @@
     "message": "……データニナイ施設ノ反応増加。至急調査セヨ。",
     "dispOrder": 6,
     "probability": 100
+  },
+  {
+    "script": [
+      {
+        "followId": 415
+      }
+    ],
+    "id": 414,
+    "eventId": 80612,
+    "message": "デメテル・オリジンから散った余剰魔力により、施設復旧中。",
+    "dispOrder": 1,
+    "probability": 100
+  },
+  {
+    "script": [
+      {
+        "followId": 416
+      }
+    ],
+    "id": 415,
+    "eventId": 80612,
+    "message": "カルデニアの執事、アスです！　カルデニア園内放送、再開します！",
+    "dispOrder": 2,
+    "probability": 0
+  },
+  {
+    "script": null,
+    "id": 416,
+    "eventId": 80612,
+    "message": "全施設、稼働しています！　皆様、最高の職業体験を！",
+    "dispOrder": 2,
+    "probability": 0
+  },
+  {
+    "script": null,
+    "id": 417,
+    "eventId": 80612,
+    "message": "これまで記録的なペースでほぼ全ての職業体験を制覇してきたビショーネ氏へのインタビュー―――「て、転職とかは全然考えていません、ホントですよ！？　ただいろんなお仕事に興味があるだけです！」",
+    "dispOrder": 3,
+    "probability": 100
   }
 ]
