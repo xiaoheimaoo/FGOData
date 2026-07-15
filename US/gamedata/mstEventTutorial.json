@@ -22,6 +22,59 @@
   },
   {
     "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      20099501
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "rects": [],
+        "text": "\"Ordeal Call III: Bellum Novae Humanitatis, Archetype Inception,\" the second half of the Limited Time Event \"BB Presents☆Celeb Summer Experience! Dubai's Counterattack,\" is now available.\n\n[FFFF00]* Ordeal Call III will be unlocked on 07/29/2026 01:00 PDT.\nIt will be available for a limited time only.\nAvailable until 09/30/2026 20:59 PDT[-]",
+        "textPos": [
+          0,
+          30
+        ],
+        "spacingY": 1,
+        "dlgFontSize": 24,
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {
+      "beforeActionSetup": [
+        "1012",
+        "50101,0",
+        "114",
+        "1040501,0"
+      ],
+      "beforeActionVals": [
+        "1002",
+        "50101,1",
+        "104",
+        "1040501,1",
+        "104",
+        "1040501,3",
+        "101",
+        "1040501"
+      ]
+    },
+    "eventId": -128,
+    "flagType": 68,
+    "num": 1,
+    "priority": 1,
+    "openType": 83,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
       "[1000005,2]",
       "[1000008,5]",
       "[1000009,3]",
@@ -1033,7 +1086,7 @@
     "eventId": -89,
     "flagType": 1,
     "num": 2,
-    "priority": 0,
+    "priority": 7,
     "openType": 83,
     "condType": 0,
     "condValue": 0,
@@ -1118,7 +1171,7 @@
     "eventId": -86,
     "flagType": 1,
     "num": 1,
-    "priority": 0,
+    "priority": 6,
     "openType": 83,
     "condType": 0,
     "condValue": 0,
@@ -1454,7 +1507,7 @@
     "eventId": -67,
     "flagType": 1,
     "num": 1,
-    "priority": 0,
+    "priority": 5,
     "openType": 83,
     "condType": 1,
     "condValue": 0,
@@ -1660,7 +1713,7 @@
     "eventId": -62,
     "flagType": 3,
     "num": 2,
-    "priority": 0,
+    "priority": 4,
     "openType": 83,
     "condType": 1,
     "condValue": 0,
@@ -25329,6 +25382,467 @@
     "num": 1,
     "priority": 0,
     "openType": 45,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      1127,
+      1128
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80485,
+    "flagType": 65,
+    "num": 1,
+    "priority": 0,
+    "openType": 20,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      1127,
+      1128
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80485,
+    "flagType": 66,
+    "num": 1,
+    "priority": 0,
+    "openType": 24,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      1127,
+      1128
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80485,
+    "flagType": 67,
+    "num": 1,
+    "priority": 0,
+    "openType": 23,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9171]"
+    ],
+    "condIds": [
+      94099502
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "A Special Tourism Quest has appeared in \"Downtown.\"\nComplete it to build up your Joy Counter!",
+        "dlgFontSize": 26,
+        "rects": [],
+        "textPos": [
+          0,
+          38
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {
+      "beforeActionVals": [
+        "300",
+        "917104",
+        "304",
+        "1.5,0,15",
+        "520",
+        "0",
+        "300",
+        "917102"
+      ]
+    },
+    "eventId": 80485,
+    "flagType": 70,
+    "num": 1,
+    "priority": 0,
+    "openType": 90,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9171]"
+    ],
+    "condIds": [
+      94099503
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "A Special Tourism Quest has appeared \nin \"Dubai Beach.\"\nComplete it to build up your Joy Counter!",
+        "dlgFontSize": 26,
+        "rects": [],
+        "textPos": [
+          0,
+          38
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80485,
+    "flagType": 71,
+    "num": 1,
+    "priority": 0,
+    "openType": 1,
+    "condType": 46,
+    "condValue": 6,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9171]"
+    ],
+    "condIds": [
+      94099504
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "A Special Tourism Quest has appeared \nin \"Dubai Mall.\"\nComplete it to build up your Joy Counter!",
+        "dlgFontSize": 26,
+        "rects": [],
+        "textPos": [
+          0,
+          38
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80485,
+    "flagType": 72,
+    "num": 1,
+    "priority": 0,
+    "openType": 1,
+    "condType": 46,
+    "condValue": 3,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9171]"
+    ],
+    "condIds": [
+      94099505
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "A Special Tourism Quest has appeared \nin \"Dubai Beach.\"\nComplete it to build up your Joy Counter!",
+        "dlgFontSize": 26,
+        "rects": [],
+        "textPos": [
+          0,
+          38
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80485,
+    "flagType": 73,
+    "num": 1,
+    "priority": 0,
+    "openType": 1,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9171]"
+    ],
+    "condIds": [
+      94099507
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "A Special Tourism Quest has appeared in the \"Business District.\"\nComplete it to build up your Joy Counter!",
+        "dlgFontSize": 26,
+        "rects": [],
+        "textPos": [
+          0,
+          38
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80485,
+    "flagType": 74,
+    "num": 1,
+    "priority": 0,
+    "openType": 1,
+    "condType": 46,
+    "condValue": 1,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9171]"
+    ],
+    "condIds": [
+      94099508
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "A Special Tourism Quest has appeared in the \"Suburban Desert.\"\nComplete it to build up your Joy Counter!",
+        "dlgFontSize": 26,
+        "rects": [],
+        "textPos": [
+          0,
+          38
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80485,
+    "flagType": 75,
+    "num": 1,
+    "priority": 0,
+    "openType": 1,
+    "condType": 46,
+    "condValue": 2,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9171]"
+    ],
+    "condIds": [
+      94099509
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "A Special Tourism Quest has appeared in the \"Suburban Desert.\"\nComplete it to build up your Joy Counter!",
+        "dlgFontSize": 26,
+        "rects": [],
+        "textPos": [
+          0,
+          38
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80485,
+    "flagType": 76,
+    "num": 1,
+    "priority": 0,
+    "openType": 1,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9171]"
+    ],
+    "condIds": [
+      94099510
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "A Special Tourism Quest has appeared \nin \"Old Dubai.\"\nComplete it to build up your Joy Counter!",
+        "dlgFontSize": 26,
+        "rects": [],
+        "textPos": [
+          0,
+          38
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80485,
+    "flagType": 77,
+    "num": 1,
+    "priority": 0,
+    "openType": 1,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9171]"
+    ],
+    "condIds": [
+      94099512
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "A Special Tourism Quest has appeared in \"Marion Hotel.\"\nComplete it to build up your Joy Counter!",
+        "dlgFontSize": 26,
+        "rects": [],
+        "textPos": [
+          0,
+          38
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80485,
+    "flagType": 78,
+    "num": 1,
+    "priority": 0,
+    "openType": 1,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9171]"
+    ],
+    "condIds": [
+      20099504
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "rects": [],
+        "text": "\"Ordeal Call III: Bellum Novae Humanitatis, Archetype Inception,\" the second half of the Limited Time Event \"BB Presents☆Celeb Summer Experience! Dubai's Counterattack,\" will become available when you complete the \"Ordeal Call 0\" main scenario.\n\n[FFFF00]* Ordeal Call III will be available for a limited time only.\nAvailable until 09/30/2026 20:59 PDT[-]",
+        "textPos": [
+          0,
+          30
+        ],
+        "spacingY": 1,
+        "dlgFontSize": 24,
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80485,
+    "flagType": 79,
+    "num": 1,
+    "priority": 0,
+    "openType": 1,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "[FFFF00]Note on Ordeal Call III unlock period[-]\n\nYou must complete the \"BB Presents☆Celeb Summer Experience! Dubai's Counterattack\" Limited Time Event in order to access \"Ordeal Call III,\" due for release 07/29/2026 01:00 PDT.\n\nYou will not have access to \"Ordeal Call III\" until you complete the event within the availability period.\nEvent available until 09/01/2026 20:59 PDT",
+        "dlgFontSize": 22,
+        "rects": [],
+        "textPos": [
+          0,
+          38
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80485,
+    "flagType": 80,
+    "num": 1,
+    "priority": 0,
+    "openType": 2,
     "condType": 0,
     "condValue": 0,
     "condValue2": 0,
