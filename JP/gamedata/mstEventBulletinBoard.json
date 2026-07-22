@@ -4049,5 +4049,49 @@
     "message": "これまで記録的なペースでほぼ全ての職業体験を制覇してきたビショーネ氏へのインタビュー―――「て、転職とかは全然考えていません、ホントですよ！？　ただいろんなお仕事に興味があるだけです！」",
     "dispOrder": 3,
     "probability": 100
+  },
+  {
+    "script": [
+      {
+        "followId": 419
+      }
+    ],
+    "id": 418,
+    "eventId": 80612,
+    "message": "カルデニアの執事、アスです。あなたがこのカルデニアを出ても、いつだって、どこだって、呼んでもらえれば執事は駆けつけますから！",
+    "dispOrder": 1,
+    "probability": 100
+  },
+  {
+    "script": [
+      {
+        "followId": 420
+      }
+    ],
+    "id": 419,
+    "eventId": 80612,
+    "message": "カルデニアより閉園のお知らせです。なりたいものにはなれましたか？",
+    "dispOrder": 2,
+    "probability": 0
+  },
+  {
+    "script": [
+      {
+        "followId": 421
+      }
+    ],
+    "id": 420,
+    "eventId": 80612,
+    "message": "裏カルデニアより閉園のお知らせです。なりたいものにならなくても、きっとあなたは大丈夫です。",
+    "dispOrder": 3,
+    "probability": 0
+  },
+  {
+    "script": null,
+    "id": 421,
+    "eventId": 80612,
+    "message": "※　※　※　放送終了　※　※　※",
+    "dispOrder": 3,
+    "probability": 0
   }
 ]
