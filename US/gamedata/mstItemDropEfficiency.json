@@ -252,22 +252,33 @@
   {
     "script": {},
     "itemId": 50,
-    "targetType": 2,
-    "priority": 20,
-    "title": "Clear Bleached Earth Quests",
-    "iconName": "",
-    "transitionParam": "Terminal/War/401",
+    "targetType": 0,
+    "priority": 10,
+    "title": "Clear Extra Missions",
+    "iconName": "master_mission",
+    "transitionParam": "Terminal/MasterMission/EXTRA",
     "commonReleaseId": 20101146,
     "closedMessageId": 0
   },
   {
     "script": {},
     "itemId": 50,
-    "targetType": 7,
-    "priority": 10,
-    "title": "Clear Extra Missions",
+    "targetType": 0,
+    "priority": 20,
+    "title": "Clear quests outside the Bleached Earth using Storm Pods",
+    "iconName": "war_9999",
+    "transitionParam": "Terminal",
+    "commonReleaseId": 20101146,
+    "closedMessageId": 0
+  },
+  {
+    "script": {},
+    "itemId": 50,
+    "targetType": 2,
+    "priority": 30,
+    "title": "Clear Bleached Earth Quests",
     "iconName": "",
-    "transitionParam": "Terminal/MasterMission/EXTRA",
+    "transitionParam": "Terminal/War/401",
     "commonReleaseId": 20101146,
     "closedMessageId": 0
   },
@@ -6630,6 +6641,28 @@
     "title": "Get in \"Exchange Pure Prisms\"",
     "iconName": "",
     "transitionParam": "Shop/PurePrismExchange",
+    "commonReleaseId": 20101146,
+    "closedMessageId": 0
+  },
+  {
+    "script": {},
+    "itemId": 6559,
+    "targetType": 0,
+    "priority": 10,
+    "title": "Events, etc.",
+    "iconName": "",
+    "transitionParam": "0",
+    "commonReleaseId": 20101146,
+    "closedMessageId": 0
+  },
+  {
+    "script": {},
+    "itemId": 6560,
+    "targetType": 0,
+    "priority": 10,
+    "title": "Events, etc.",
+    "iconName": "",
+    "transitionParam": "0",
     "commonReleaseId": 20101146,
     "closedMessageId": 0
   },
@@ -18264,6 +18297,28 @@
   },
   {
     "script": {},
+    "itemId": 230060001,
+    "targetType": 0,
+    "priority": 10,
+    "title": "Raise Servant Bond Levels",
+    "iconName": "",
+    "transitionParam": "0",
+    "commonReleaseId": 20101146,
+    "closedMessageId": 0
+  },
+  {
+    "script": {},
+    "itemId": 230060001,
+    "targetType": 16,
+    "priority": 20,
+    "title": "Summon copies of the Servant in question (Limited Time Servants can only be summoned from specific Limited Time Summons)",
+    "iconName": "",
+    "transitionParam": "Summon/0",
+    "commonReleaseId": 20101146,
+    "closedMessageId": 0
+  },
+  {
+    "script": {},
     "itemId": 230090001,
     "targetType": 0,
     "priority": 10,
@@ -18276,6 +18331,28 @@
   {
     "script": {},
     "itemId": 230090001,
+    "targetType": 16,
+    "priority": 20,
+    "title": "Summon copies of the Servant in question (Limited Time Servants can only be summoned from specific Limited Time Summons)",
+    "iconName": "",
+    "transitionParam": "Summon/0",
+    "commonReleaseId": 20101146,
+    "closedMessageId": 0
+  },
+  {
+    "script": {},
+    "itemId": 230100001,
+    "targetType": 0,
+    "priority": 10,
+    "title": "Raise Servant Bond Levels",
+    "iconName": "",
+    "transitionParam": "0",
+    "commonReleaseId": 20101146,
+    "closedMessageId": 0
+  },
+  {
+    "script": {},
+    "itemId": 230100001,
     "targetType": 16,
     "priority": 20,
     "title": "Summon copies of the Servant in question (Limited Time Servants can only be summoned from specific Limited Time Summons)",
@@ -18595,6 +18672,28 @@
   {
     "script": {},
     "itemId": 250140001,
+    "targetType": 16,
+    "priority": 20,
+    "title": "Summon copies of the Servant in question (Limited Time Servants can only be summoned from specific Limited Time Summons)",
+    "iconName": "",
+    "transitionParam": "Summon/0",
+    "commonReleaseId": 20101146,
+    "closedMessageId": 0
+  },
+  {
+    "script": {},
+    "itemId": 250160001,
+    "targetType": 0,
+    "priority": 10,
+    "title": "Raise Servant Bond Levels",
+    "iconName": "",
+    "transitionParam": "0",
+    "commonReleaseId": 20101146,
+    "closedMessageId": 0
+  },
+  {
+    "script": {},
+    "itemId": 250160001,
     "targetType": 16,
     "priority": 20,
     "title": "Summon copies of the Servant in question (Limited Time Servants can only be summoned from specific Limited Time Summons)",

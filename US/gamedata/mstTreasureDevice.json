@@ -10831,6 +10831,54 @@
   },
   {
     "individuality": [
+      3002,
+      4007
+    ],
+    "script": {},
+    "id": 921,
+    "seqId": 9945510,
+    "name": "Warp Shot",
+    "ruby": "-",
+    "rank": "None",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
+      4007
+    ],
+    "script": {},
+    "id": 925,
+    "seqId": 9945550,
+    "name": "Convergent Destruction Cannon",
+    "ruby": "-",
+    "rank": "None",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
+      4007
+    ],
+    "script": {},
+    "id": 926,
+    "seqId": 9945560,
+    "name": "Desert Storm",
+    "ruby": "-",
+    "rank": "None",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
       4007,
       4102,
       4004
@@ -10872,6 +10920,22 @@
     "id": 931,
     "seqId": 9945490,
     "name": "Cramped Poverty Hook",
+    "ruby": "-",
+    "rank": "None",
+    "maxLv": 5,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3001,
+      4007
+    ],
+    "script": {},
+    "id": 932,
+    "seqId": 9945670,
+    "name": "Open Fire",
     "ruby": "-",
     "rank": "None",
     "maxLv": 5,
@@ -24856,6 +24920,214 @@
   {
     "individuality": [
       3002,
+      4001,
+      4007,
+      4101
+    ],
+    "script": {
+      "tdTypeChangeIDs": [
+        2300601,
+        2300698
+      ],
+      "randomWeights_1": [
+        50,
+        50
+      ],
+      "randomWeights_2": [
+        50,
+        50
+      ],
+      "randomWeights": [
+        100
+      ],
+      "randomSeqIds_4": [
+        2300620,
+        2300622,
+        2300623,
+        2300624,
+        2300625
+      ],
+      "randomSeqIds": [
+        2300600
+      ],
+      "randomSeqIds_2": [
+        2300610,
+        2300612
+      ],
+      "excludeTdChangeTypes": [
+        3
+      ],
+      "randomSeqIds_1": [
+        2300610,
+        2300612
+      ],
+      "groupSeqIDs": [
+        23006000
+      ],
+      "randomSeqIds_3": [
+        2300620,
+        2300622,
+        2300623,
+        2300624,
+        2300625
+      ],
+      "randomWeights_3": [
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "groupSeqIDs_4": [
+        2300620,
+        2300622,
+        2300620,
+        2300624,
+        2300624
+      ],
+      "groupSeqIDs_1": [
+        2300610,
+        2300612
+      ],
+      "groupSeqIDs_3": [
+        2300620,
+        2300622,
+        2300620,
+        2300624,
+        2300624
+      ],
+      "groupSeqIDs_2": [
+        2300610,
+        2300612
+      ],
+      "randomWeights_4": [
+        20,
+        20,
+        20,
+        20,
+        20
+      ]
+    },
+    "id": 2300601,
+    "seqId": 2300600,
+    "name": "C.C.C.",
+    "ruby": " ",
+    "rank": "EX",
+    "maxLv": 5,
+    "typeText": "Anti-World",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3002,
+      4001,
+      4007
+    ],
+    "script": {
+      "tdTypeChangeIDs": [
+        2300601,
+        2300698
+      ],
+      "randomWeights_1": [
+        34,
+        33,
+        33
+      ],
+      "randomWeights_2": [
+        34,
+        33,
+        33
+      ],
+      "randomWeights": [
+        100
+      ],
+      "randomSeqIds_4": [
+        2300621,
+        2300626,
+        2300627,
+        2300628,
+        2300629
+      ],
+      "randomSeqIds": [
+        2300601
+      ],
+      "randomSeqIds_2": [
+        2300611,
+        2300613,
+        2300614
+      ],
+      "excludeTdChangeTypes": [
+        3
+      ],
+      "randomSeqIds_1": [
+        2300611,
+        2300613,
+        2300614
+      ],
+      "npNameFileSuffix": "2300610",
+      "groupSeqIDs": [
+        2300601
+      ],
+      "randomSeqIds_3": [
+        2300621,
+        2300626,
+        2300627,
+        2300628,
+        2300629
+      ],
+      "randomWeights_3": [
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "groupSeqIDs_4": [
+        2300621,
+        2300626,
+        2300627,
+        2300621,
+        2300627
+      ],
+      "groupSeqIDs_1": [
+        2300611,
+        2300613,
+        2300614
+      ],
+      "groupSeqIDs_3": [
+        2300621,
+        2300626,
+        2300627,
+        2300621,
+        2300627
+      ],
+      "groupSeqIDs_2": [
+        2300611,
+        2300613,
+        2300614
+      ],
+      "randomWeights_4": [
+        20,
+        20,
+        20,
+        20,
+        20
+      ]
+    },
+    "id": 2300698,
+    "seqId": 2300601,
+    "name": "G.G.G.",
+    "ruby": " ",
+    "rank": "EX",
+    "maxLv": 5,
+    "typeText": "Anti-World",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
       4002,
       4007,
       4102
@@ -24929,6 +25201,29 @@
     "typeText": "Anti-Personnel",
     "attackAttri": 1,
     "effectFlag": 2
+  },
+  {
+    "individuality": [
+      3000,
+      4003,
+      4007,
+      4101
+    ],
+    "script": {
+      "limitSeqId_1": 2301010,
+      "limitSeqId_3": 2301020,
+      "limitSeqId_4": 2301020,
+      "limitSeqId_2": 2301010
+    },
+    "id": 2301001,
+    "seqId": 2301000,
+    "name": "Armored Tenochtitlan",
+    "ruby": " ",
+    "rank": "B+",
+    "maxLv": 5,
+    "typeText": "Anti-Personnel/Anti-Robot",
+    "attackAttri": 1,
+    "effectFlag": 1
   },
   {
     "individuality": [
@@ -25742,6 +26037,29 @@
     "typeText": "Anti-Army",
     "attackAttri": 1,
     "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3002,
+      4002,
+      4007,
+      4102
+    ],
+    "script": {
+      "limitSeqId_1": 2501610,
+      "limitSeqId_3": 2501620,
+      "limitSeqId_4": 2501620,
+      "limitSeqId_2": 2501610
+    },
+    "id": 2501601,
+    "seqId": 2501600,
+    "name": "Genesis Flash, Disorder into Chaos",
+    "ruby": " ",
+    "rank": "A+",
+    "maxLv": 5,
+    "typeText": "Anti-Personnel",
+    "attackAttri": 1,
+    "effectFlag": 2
   },
   {
     "individuality": [
@@ -29919,5 +30237,74 @@
     "typeText": "Anti-Personnel",
     "attackAttri": 1,
     "effectFlag": 2
+  },
+  {
+    "individuality": [
+      3002,
+      4001,
+      4007,
+      4101
+    ],
+    "script": {
+      "tdTypeChangeIDs": [
+        9945782,
+        9945781
+      ],
+      "excludeTdChangeTypes": [
+        3
+      ]
+    },
+    "id": 9945781,
+    "seqId": 9945780,
+    "name": "C.C.C.",
+    "ruby": " ",
+    "rank": "EX",
+    "maxLv": 5,
+    "typeText": "Anti-World",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3002,
+      4001,
+      4007
+    ],
+    "script": {
+      "tdTypeChangeIDs": [
+        9945782,
+        9945781
+      ],
+      "excludeTdChangeTypes": [
+        3
+      ]
+    },
+    "id": 9945782,
+    "seqId": 9945781,
+    "name": "G.G.G.",
+    "ruby": " ",
+    "rank": "EX",
+    "maxLv": 5,
+    "typeText": "Anti-World",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3000,
+      4002,
+      4007,
+      4101
+    ],
+    "script": {},
+    "id": 9945831,
+    "seqId": 9945830,
+    "name": "Brynhild Romantia",
+    "ruby": " ",
+    "rank": "C+",
+    "maxLv": 5,
+    "typeText": "Anti-Personnel",
+    "attackAttri": 1,
+    "effectFlag": 1
   }
 ]

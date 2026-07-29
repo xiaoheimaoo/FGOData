@@ -4521,13 +4521,13 @@
   },
   {
     "id": 574350,
-    "detail": "Apply [Infinite Growth] to yourself, which applies [Growth] (Increase your Max HP [{0}]) each turn for 10 turns <[Growth] state can be applied up to 10>",
-    "detailShort": "Apply [Infinite Growth] to yourself, which applies [Growth] (Increase your Max HP [{0}]) each turn for 10 turns <[Growth] state can be applied up to 10>"
+    "detail": "Apply [Infinite Growth] to yourself, which applies [Growth] (Increase your Max HP [{0}] each turn for 10 turns) <up to 10 [Growth] can be stacked>",
+    "detailShort": "Apply [Infinite Growth] to yourself, which applies [Growth] (Increase your Max HP [{0}] each turn for 10 turns) <up to 10 [Growth] can be stacked>"
   },
   {
     "id": 574351,
-    "detail": "Apply [Infinite Growth] to yourself, which applies [Growth] (Increase your Max HP [g][o]▲[/o][/g][{0}]) & increase NP ATK Resistance ([Growth] removal can be applied) [g][o]▲[/o][/g] each turn for 10 turns <up to 10 [Growth] and NP ATK Resistance/Growth can be stacked>",
-    "detailShort": "Apply [Infinite Growth] to yourself, which applies [Growth] (Increase your Max HP [g][o]▲[/o][/g][{0}]) & increase NP ATK Resistance ([Growth] removal can be applied) [g][o]▲[/o][/g] each turn for 10 turns <up to 10 [Growth] and NP ATK Resistance/Growth can be stacked>"
+    "detail": "Apply [Infinite Growth] to yourself, which applies [Growth] (Increase your Max HP [g][o]▲[/o][/g] [{0}] & increase NP ATK Resist (affected by [Growth] removal) each turn for 10 turns [g][o]▲[/o][/g]) <up to 10 [Growth] and NP ATK Resist/Growth can be stacked>",
+    "detailShort": "Apply [Infinite Growth] to yourself, which applies [Growth] (Increase your Max HP [g][o]▲[/o][/g] [{0}] & increase NP ATK Resist (affected by [Growth] removal) each turn for 10 turns [g][o]▲[/o][/g]) <up to 10 [Growth] and NP ATK Resist/Growth can be stacked>"
   },
   {
     "id": 575350,
@@ -29585,19 +29585,34 @@
     "detailShort": "Increase Dubai Tourism Points amount per drop by 60% [MAX] [Event Only]"
   },
   {
+    "id": 994333,
+    "detail": "Apply 20% Special Attack [Non-Protectee] for yourself only if [servantName 2300600] (Moon Cancer) is equipped with this Craft Essence when she is on the field + Increase NP Gain 20% for all [Protectee] allies excluding yourself",
+    "detailShort": "Apply 20% Special Attack [Non-Protectee] for yourself only if [servantName 2300600] (Moon Cancer) is equipped with this Craft Essence when she is on the field + Increase NP Gain 20% for all [Protectee] allies excluding yourself"
+  },
+  {
     "id": 994334,
     "detail": "Increase NP Strength by 30% & increase NP Gauge by 5% each turn & restore 500 HP each turn for yourself only if [servantName 2300900] (Moon Cancer) is equipped with this Craft Essence",
     "detailShort": "Increase NP Strength by 30% & increase NP Gauge by 5% each turn & restore 500 HP each turn for yourself only if [servantName 2300900] (Moon Cancer) is equipped with this Craft Essence"
   },
   {
     "id": 994335,
-    "detail": "Apply 10% Special Attack [Dragon] & 10% Special Attack [Enemies with Earth Attribute] to all allies only if [servantName 305500] (Lancer) is equipped with this Craft Essence when you are on the field",
-    "detailShort": "Apply 10% Special Attack [Dragon] & 10% Special Attack [Enemies with Earth Attribute] to all allies only if [servantName 305500] (Lancer) is equipped with this Craft Essence when you are on the field"
+    "detail": "Apply 10% Special Attack [Dragon] & 10% Special Attack [Enemies with Earth Attribute] to all allies only if [servantName 305500] is equipped with this Craft Essence when you are on the field",
+    "detailShort": "Apply 10% Special Attack [Dragon] & 10% Special Attack [Enemies with Earth Attribute] to all allies only if [servantName 305500] is equipped with this Craft Essence when you are on the field"
   },
   {
     "id": 994336,
-    "detail": "Increase NP Strength by 10% & apply 10% Special Attack [Enemies with Human Attribute] to all allies only if [servantName 1101900] (Avenger) is equipped with this Craft Essence when you are on the field",
-    "detailShort": "Increase NP Strength by 10% & apply 10% Special Attack [Enemies with Human Attribute] to all allies only if [servantName 1101900] (Avenger) is equipped with this Craft Essence when you are on the field"
+    "detail": "Increase NP Strength by 10% & apply 10% Special Attack [Enemies with Human Attribute] to all allies only if [servantName 1101900] is equipped with this Craft Essence when you are on the field",
+    "detailShort": "Increase NP Strength by 10% & apply 10% Special Attack [Enemies with Human Attribute] to all allies only if [servantName 1101900] is equipped with this Craft Essence when you are on the field"
+  },
+  {
+    "id": 994337,
+    "detail": "Increase NP Strength by 10% & apply 15% Special Attack [Super Giant] to all allies only if [servantName 2301000] is equipped with this Craft Essence when she is on the field.",
+    "detailShort": "Increase NP Strength by 10% & apply 15% Special Attack [Super Giant] to all allies only if [servantName 2301000] is equipped with this Craft Essence when she is on the field."
+  },
+  {
+    "id": 994338,
+    "detail": "Apply 15% Special Attack [Lawful] & 15% Special Attack [Good] to all allies only if [servantName 2501600] (Foreigner) is equipped with this Craft Essence when she is on the field.",
+    "detailShort": "Apply 15% Special Attack [Lawful] & 15% Special Attack [Good] to all allies only if [servantName 2501600] (Foreigner) is equipped with this Craft Essence when she is on the field."
   },
   {
     "id": 994339,
@@ -29903,6 +29918,26 @@
     "id": 994400,
     "detail": "Increase the amount of Master EXP gained by 50 when a quest is cleared",
     "detailShort": "Increase the amount of Master EXP gained by 50 when a quest is cleared"
+  },
+  {
+    "id": 994405,
+    "detail": "Increase Arts Card effectiveness by 8% & begin battle with NP charged at 40% & increase NP Charge by 2 levels when using NP (1 time) for yourself",
+    "detailShort": "Increase Arts Card effectiveness by 8% & begin battle with NP charged at 40% & increase NP Charge by 2 levels when using NP (1 time) for yourself"
+  },
+  {
+    "id": 994406,
+    "detail": "Increase Arts Card effectiveness by 10% & begin battle with NP charged at 50% & increase NP Charge by 2 levels when using NP (1 time) for yourself [MAX]",
+    "detailShort": "Increase Arts Card effectiveness by 10% & begin battle with NP charged at 50% & increase NP Charge by 2 levels when using NP (1 time) for yourself [MAX]"
+  },
+  {
+    "id": 994407,
+    "detail": "Increase Arts Card C. Star Gather Rate by 300% & apply Damage Cut 300 for yourself",
+    "detailShort": "Increase Arts Card C. Star Gather Rate by 300% & apply Damage Cut 300 for yourself"
+  },
+  {
+    "id": 994408,
+    "detail": "Increase Arts Card C. Star Gather Rate by 400% & apply Damage Cut 400 for yourself [MAX]",
+    "detailShort": "Increase Arts Card C. Star Gather Rate by 400% & apply Damage Cut 400 for yourself [MAX]"
   },
   {
     "id": 994528,
@@ -31948,6 +31983,36 @@
     "id": 2397550,
     "detail": "Increase Death Success Rate [{0}] (3 turns) & NP Strength [{0}] (3 turns) & apply Special Attack [Poison] (3 turns) & Special Attack [Curse] (3 turns) & Special Attack [Burn] (3 turns) for yourself",
     "detailShort": "Increase NP Gauge & restore HP each turn [{0}] (3 turns) & increase ATK [{0}] (3 turns) for all allies + Increase ATK (3 turns) for all enemies [Demerit]"
+  },
+  {
+    "id": 2398550,
+    "detail": "Increase Critical Resistance & slightly increase C. Star Gather Rate for yourself",
+    "detailShort": "Increase Critical Resistance & slightly increase C. Star Gather Rate for yourself"
+  },
+  {
+    "id": 2399450,
+    "detail": "Increase ATK against [Evil], [Targets with Special Attack: Good], and [Non-Servant] enemies for yourself",
+    "detailShort": "Increase ATK against [Evil], [Targets with Special Attack: Good], and [Non-Servant] enemies for yourself"
+  },
+  {
+    "id": 2400450,
+    "detail": "Increase DEF against [Lawful], [Targets with Special Attack: Evil], and [Servant] enemy attacks for yourself",
+    "detailShort": "Increase DEF against [Lawful], [Targets with Special Attack: Evil], and [Servant] enemy attacks for yourself"
+  },
+  {
+    "id": 2401650,
+    "detail": "Increase Arts Card effectiveness [{0}] (3 turns) & NP Gauge [{0}] for all allies + Apply [Protectee] trait (3 turns) for all allies excluding yourself + Increase NP Strength [{0}] (3 turns) & NP Gain [{0}] (3 turns) for all [Moon Cancer] class allies and [Modern Human] allies",
+    "detailShort": "Increase Arts Card effectiveness [{0}] (3 turns) & NP Gauge [{0}] for all allies + Apply [Protectee] trait (3 turns) for all allies excluding yourself + Increase NP Strength [{0}] (3 turns) & NP Gain [{0}] (3 turns) for all [Moon Cancer] class allies and [Modern Human] allies"
+  },
+  {
+    "id": 2402650,
+    "detail": "Remove Buffs & decrease ATK [{0}] (1 turn) & Arts Card Resist [{0}] (3 turns) & apply [Non-Protectee] trait (3 turns) for all enemies + Increase C. Star Drop Rate [{0}] (3 turns) & Critical Strength [{0}] (3 turns) for all [Moon Cancer] class allies and [Modern Human] allies",
+    "detailShort": "Remove Buffs & decrease ATK [{0}] (1 turn) & Arts Card Resist [{0}] (3 turns) & apply [Non-Protectee] trait (3 turns) for all enemies + Increase C. Star Drop Rate [{0}] (3 turns) & Critical Strength [{0}] (3 turns) for all [Moon Cancer] class allies and [Modern Human] allies"
+  },
+  {
+    "id": 2403650,
+    "detail": "Reduce skill cooldown by 1 & increase NP Gauge [{0}] & select NP Type to change to (3 turns) for yourself",
+    "detailShort": "Reduce skill cooldown by 1 & increase NP Gauge [{0}] & select NP Type to change to (3 turns) for yourself"
   },
   {
     "id": 2404450,
