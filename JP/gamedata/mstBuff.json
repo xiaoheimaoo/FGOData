@@ -523,6 +523,7 @@
     "vals": [
       3005,
       3026,
+      3140,
       2729
     ],
     "tvals": [],
@@ -56085,6 +56086,7 @@
   {
     "vals": [
       3026,
+      3140,
       2729
     ],
     "tvals": [],
@@ -90315,6 +90317,128 @@
     "detail": "〔即死耐性ダウン〕状態の敵に与えるダメージをアップ",
     "iconId": 302,
     "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3063,
+      10047
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6089,
+    "buffGroup": 6089,
+    "type": 248,
+    "name": "死の渇き",
+    "detail": "ターン毎にカウントダウンしカウント0で高確率で即死効果＆カウント0による即死が失敗した時は防御力をダウン",
+    "iconId": 616,
+    "maxRate": 0,
+    "effectId": 2001007
+  },
+  {
+    "vals": [
+      3005,
+      3063,
+      10047
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6090,
+    "buffGroup": 6090,
+    "type": 248,
+    "name": "死の渇き",
+    "detail": "ターン毎にカウントダウンしカウント0で高確率で即死効果＆カウント0による即死が失敗した時は防御力をダウン",
+    "iconId": 616,
+    "maxRate": 0,
+    "effectId": 2001008
+  },
+  {
+    "vals": [
+      3005,
+      3063
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6091,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "ターン終了時、自身の防御力をダウン＆即死耐性をダウン",
+    "iconId": 537,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6092,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "Arts攻撃ダメージ前追加効果",
+    "detail": "Arts攻撃時、ダメージ前に対象の即死耐性をダウン",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4004
+    ],
+    "ckSelfIndv": [
+      4004
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6093,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Extra Attack時追加効果",
+    "detail": "Extra Attack時、対象の即死耐性をダウン",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [
+      4100
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6094,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "クリティカル攻撃時追加効果",
+    "detail": "クリティカル攻撃時、対象の即死耐性をダウン",
+    "iconId": 528,
+    "maxRate": 0,
     "effectId": 0
   },
   {
@@ -147646,6 +147770,48 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [
+      204300
+    ],
+    "ckSelfIndv": [
+      -3140
+    ],
+    "ckOpIndv": [
+      204300
+    ],
+    "script": {
+      "checkIndvType": 2,
+      "IndvAddBuffPassive": 1
+    },
+    "id": 94142541,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94142543,
+    "buffGroup": 0,
+    "type": 8,
+    "name": "呪い",
+    "detail": "ターン終了時にHPが減る",
+    "iconId": 521,
+    "maxRate": 0,
+    "effectId": 17123
+  },
+  {
     "vals": [
       3004,
       3081
@@ -174555,6 +174721,66 @@
     "ckSelfIndv": [],
     "ckOpIndv": [],
     "script": {
+      "INDIVIDUALITIE_AND": "-3025,-3045",
+      "checkIndvType": 2
+    },
+    "id": 94158800,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "花の幻惑",
+    "detail": "自身がフィールドにいる間、味方全体に無敵状態を付与<自身が行動不能・スキル封印状態の間、効果が無効になる>",
+    "iconId": 311,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3022,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "individualityCondTargetType": 1,
+      "INDIVIDUALITIE": 6026
+    },
+    "id": 94158801,
+    "buffGroup": 0,
+    "type": 26,
+    "name": "",
+    "detail": "",
+    "iconId": 311,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE_AND": "-3025,-3045"
+    },
+    "id": 94158802,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
       "relationId": 94158800
     },
     "id": 94158803,
@@ -174563,6 +174789,58 @@
     "name": "クラス相性変更",
     "detail": "全てのクラスに対するクラス相性が攻撃優位になる",
     "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [
+      4100
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94158804,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94158806,
+    "buffGroup": 0,
+    "type": 208,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94158807,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
     "maxRate": 0,
     "effectId": 0
   },
@@ -174586,6 +174864,26 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94158809,
+    "buffGroup": 0,
+    "type": 186,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004,
       3006,
@@ -174605,6 +174903,29 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [
+      6028
+    ],
+    "ckSelfIndv": [
+      -3026
+    ],
+    "ckOpIndv": [
+      6028
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94158811,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
     "vals": [
       3005
     ],
@@ -174619,6 +174940,48 @@
     "detail": "HPが0になった時、〔絶対不変の生徒会長〕の主催者権限の回数を8減らす",
     "iconId": 543,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94158813,
+    "buffGroup": 0,
+    "type": 74,
+    "name": "即死耐性アップ",
+    "detail": "即死耐性をアップ ＋ 自身を除く味方全体の即死耐性をダウン【デメリット】",
+    "iconId": 338,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      3039
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "individualityCondTargetType": 1,
+      "INDIVIDUALITIE": 6026
+    },
+    "id": 94158814,
+    "buffGroup": 0,
+    "type": 75,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 10000,
     "effectId": 0
   }
 ]
