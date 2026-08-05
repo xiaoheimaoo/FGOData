@@ -7957,7 +7957,7 @@
     "ruby": "Breast Valley",
     "maxLv": 10,
     "iconId": 400,
-    "motion": 101
+    "motion": 1003
   },
   {
     "effectList": [],
@@ -7969,7 +7969,7 @@
     "ruby": "Breast Valley",
     "maxLv": 10,
     "iconId": 400,
-    "motion": 101
+    "motion": 1003
   },
   {
     "effectList": [],
@@ -11038,18 +11038,6 @@
     "id": 574351,
     "type": 1,
     "name": "Huge Scale C+",
-    "ruby": "Huge Scale",
-    "maxLv": 10,
-    "iconId": 412,
-    "motion": 1001
-  },
-  {
-    "effectList": [],
-    "actIndividuality": [],
-    "script": {},
-    "id": 574450,
-    "type": 1,
-    "name": "{{mst_skill;574450}}",
     "ruby": "Huge Scale",
     "maxLv": 10,
     "iconId": 412,
@@ -129955,7 +129943,7 @@
     "script": {},
     "id": 970509,
     "type": 1,
-    "name": "{{mst_skill;970509}}",
+    "name": "Protection Mode",
     "ruby": "-",
     "maxLv": 1,
     "iconId": 600,
@@ -129967,7 +129955,7 @@
     "script": {},
     "id": 970510,
     "type": 1,
-    "name": "{{mst_skill;970510}}",
+    "name": "Target Lock",
     "ruby": "-",
     "maxLv": 1,
     "iconId": 600,
@@ -129979,7 +129967,7 @@
     "script": {},
     "id": 970511,
     "type": 1,
-    "name": "{{mst_skill;970511}}",
+    "name": "Target Search",
     "ruby": "-",
     "maxLv": 1,
     "iconId": 600,
@@ -189057,8 +189045,8 @@
     "script": {},
     "id": 2411550,
     "type": 2,
-    "name": "{{mst_skill;2411550}}",
-    "ruby": "{{mst_skill;2411550}}",
+    "name": "Code Cast A",
+    "ruby": "Code Cast",
     "maxLv": 10,
     "iconId": 315,
     "motion": 101
@@ -189069,8 +189057,8 @@
     "script": {},
     "id": 2412650,
     "type": 2,
-    "name": "{{mst_skill;2412650}}",
-    "ruby": "{{mst_skill;2412650}}",
+    "name": "Moon Regalia EX",
+    "ruby": "Moon Regalia",
     "maxLv": 10,
     "iconId": 300,
     "motion": 101
@@ -189081,8 +189069,8 @@
     "script": {},
     "id": 2413450,
     "type": 1,
-    "name": "{{mst_skill;2413450}}",
-    "ruby": "{{mst_skill;2413450}}",
+    "name": "Sparks Route ∞ B",
+    "ruby": "Sparks Route",
     "maxLv": 10,
     "iconId": 703,
     "motion": 1001
@@ -189093,8 +189081,8 @@
     "script": {},
     "id": 2414650,
     "type": 1,
-    "name": "{{mst_skill;2414650}}",
-    "ruby": "{{mst_skill;2414650}}",
+    "name": "Checkmate Interceptor EX",
+    "ruby": "Checkmate Interceptor",
     "maxLv": 10,
     "iconId": 317,
     "motion": 1002
@@ -189105,8 +189093,8 @@
     "script": {},
     "id": 2415451,
     "type": 1,
-    "name": "{{mst_skill;2415451}}",
-    "ruby": "{{mst_skill;2415451}}",
+    "name": "C³ Punishment B+",
+    "ruby": "C³ Punishment",
     "maxLv": 10,
     "iconId": 301,
     "motion": 1003
@@ -232102,6 +232090,842 @@
     "maxLv": 1,
     "iconId": 600,
     "motion": 104
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94101601,
+    "type": 2,
+    "name": "Knock Off",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94101602,
+    "type": 1,
+    "name": "",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 103
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94101603,
+    "type": 2,
+    "name": "Ominous Claws",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94101604,
+    "type": 1,
+    "name": "",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 103
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94101606,
+    "type": 1,
+    "name": "",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 152
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94101609,
+    "type": 2,
+    "name": "Growth CK",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94101610,
+    "type": 1,
+    "name": "\"If I May, Then\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94101611,
+    "type": 1,
+    "name": "\"Let's Take a Short Rest\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 104
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94101612,
+    "type": 1,
+    "name": "\"Getting Into It Now, Are We?\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94101613,
+    "type": 1,
+    "name": "",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 2003
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94101614,
+    "type": 1,
+    "name": "",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94101615,
+    "type": 1,
+    "name": "",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94101616,
+    "type": 1,
+    "name": "BuMooooo!!!",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94101617,
+    "type": 1,
+    "name": "\"Enjoy Our Explosions!\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 102
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94101618,
+    "type": 1,
+    "name": "\"Come On! I'll Blow You Up All Over!\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 151
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94101619,
+    "type": 1,
+    "name": "New Jamming: \"Anti-Spa System\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 151
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94101620,
+    "type": 1,
+    "name": "Cerulean Ride (Imitation)",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94101621,
+    "type": 1,
+    "name": "\"Eliminating\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94101622,
+    "type": 1,
+    "name": "\"Wiping Out\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94101623,
+    "type": 1,
+    "name": "\"I Won't Defy You\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94101624,
+    "type": 1,
+    "name": "\"Following Orders\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94101625,
+    "type": 1,
+    "name": "\"Please Forgive Me\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94101626,
+    "type": 1,
+    "name": "\"Do Not Crush Me\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94101627,
+    "type": 1,
+    "name": "\"Bring It Back to Normal\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94101628,
+    "type": 1,
+    "name": "\"Ahhhhhh...!\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94101629,
+    "type": 1,
+    "name": "\"No, No, No, No, No\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94101630,
+    "type": 1,
+    "name": "\"Please, Just Release Me\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94101631,
+    "type": 1,
+    "name": "Roar of Terror",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 104
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94101632,
+    "type": 1,
+    "name": "\"There Are Still Operating Units?\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94101633,
+    "type": 1,
+    "name": "\"Release Pseudo-Ether!\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94101634,
+    "type": 1,
+    "name": "Green Space Corruption",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 103
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94101635,
+    "type": 1,
+    "name": "Spiritron Predation",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 104
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94101636,
+    "type": 1,
+    "name": "Spread Toxic Substance",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 103
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94101637,
+    "type": 1,
+    "name": "Dimensional Film",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94101638,
+    "type": 1,
+    "name": "",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 103
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "ForcedSkillSpeed": 1
+    },
+    "id": 94101639,
+    "type": 1,
+    "name": "Film Breakdown",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 152
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94101640,
+    "type": 1,
+    "name": "\"I Caaaaaan't!\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94101641,
+    "type": 1,
+    "name": "\"Okay, I Got This\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94101642,
+    "type": 1,
+    "name": "\"Cupcakes! Cupcakes!\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94101643,
+    "type": 1,
+    "name": "\"We'll Have To Break That Out...\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "BeforeFieldCallEffect": 0,
+      "AfterFieldCallEffect": 0
+    },
+    "id": 94101644,
+    "type": 1,
+    "name": "Directly from X: Saber Ninja Art: Multiple Rows",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 2002
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "ForcedSkillSpeed": 1,
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94101645,
+    "type": 1,
+    "name": "\"This Is Five-Star Quality\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 1002
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94101646,
+    "type": 1,
+    "name": "\"Peace to This Pitch-Black World!\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94101647,
+    "type": 1,
+    "name": "",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 104
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94101648,
+    "type": 1,
+    "name": "",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 104
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94101649,
+    "type": 1,
+    "name": "\"Palter Is Interested in the Cake...\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 151
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94101650,
+    "type": 1,
+    "name": "\"Hmm, So I Can Get Serious?\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94101651,
+    "type": 1,
+    "name": "\"This Flitting Around Annoys Me!\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94101652,
+    "type": 1,
+    "name": "\"I...Can...Still Do It!\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94101653,
+    "type": 1,
+    "name": "",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 151
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94101654,
+    "type": 1,
+    "name": "\"Come At Me Any Way You Want!\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94101655,
+    "type": 1,
+    "name": "\"Hoh, Not Bad...\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 104
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94101656,
+    "type": 1,
+    "name": "\"Let Me End Your Journey\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 104
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {
+      "OverWriteSkillInfoId": 3
+    },
+    "id": 94101657,
+    "type": 1,
+    "name": "\"Not Bad. But You're At Your Limit!\"",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94101658,
+    "type": 1,
+    "name": "",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 104
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94101659,
+    "type": 1,
+    "name": "",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 104
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94101660,
+    "type": 1,
+    "name": "Moon Meteorite",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 478
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94101661,
+    "type": 1,
+    "name": "",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94101662,
+    "type": 2,
+    "name": "Anti-Magecraft EX",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 411,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94101663,
+    "type": 1,
+    "name": "",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 1201
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94101664,
+    "type": 2,
+    "name": "Independent Manifestation E-",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 101,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94101665,
+    "type": 1,
+    "name": "",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94101666,
+    "type": 1,
+    "name": "",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
+  },
+  {
+    "effectList": [],
+    "actIndividuality": [],
+    "script": {},
+    "id": 94101667,
+    "type": 1,
+    "name": "",
+    "ruby": "-",
+    "maxLv": 1,
+    "iconId": 600,
+    "motion": 101
   },
   {
     "effectList": [],
