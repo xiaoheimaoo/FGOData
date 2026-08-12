@@ -13460,6 +13460,38 @@
   },
   {
     "individuality": [
+      3002,
+      4007
+    ],
+    "script": {},
+    "id": 1114,
+    "seqId": 9947770,
+    "name": "怪し火",
+    "ruby": "-",
+    "rank": "なし",
+    "maxLv": 1,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
+      4007
+    ],
+    "script": {},
+    "id": 1115,
+    "seqId": 9947780,
+    "name": "王冠：叡智の光 A+",
+    "ruby": "-",
+    "rank": "なし",
+    "maxLv": 1,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
       3000,
       4007
     ],
@@ -13611,6 +13643,22 @@
     "id": 1127,
     "seqId": 9947980,
     "name": "祭火",
+    "ruby": "-",
+    "rank": "なし",
+    "maxLv": 1,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
+      4007
+    ],
+    "script": {},
+    "id": 1128,
+    "seqId": 9947900,
+    "name": "王冠：叡智の光 A+",
     "ruby": "-",
     "rank": "なし",
     "maxLv": 1,
@@ -13979,7 +14027,14 @@
       4007,
       4102
     ],
-    "script": {},
+    "script": {
+      "limitSeqId_3": 101200,
+      "limitSeqId_11": 101200,
+      "limitSeqId_4": 101200,
+      "limitSeqId_1": 101200,
+      "limitSeqId_2": 101200,
+      "limitSeqId_12": 101240
+    },
     "id": 101201,
     "seqId": 101200,
     "name": "剣を摂れ、銀色の腕",
@@ -13997,7 +14052,14 @@
       4007,
       4102
     ],
-    "script": {},
+    "script": {
+      "limitSeqId_3": 101200,
+      "limitSeqId_11": 101200,
+      "limitSeqId_4": 101200,
+      "limitSeqId_1": 101200,
+      "limitSeqId_2": 101200,
+      "limitSeqId_12": 101240
+    },
     "id": 101202,
     "seqId": 101200,
     "name": "剣を摂れ、銀色の腕",
@@ -23500,6 +23562,29 @@
   },
   {
     "individuality": [
+      3002,
+      4001,
+      4007,
+      4101
+    ],
+    "script": {
+      "limitSeqId_1": 506010,
+      "limitSeqId_3": 506020,
+      "limitSeqId_4": 506020,
+      "limitSeqId_2": 506010
+    },
+    "id": 506001,
+    "seqId": 506000,
+    "name": "竜牙幻想・播かれたる者",
+    "ruby": "ドラコニック・スパルトイ",
+    "rank": "B",
+    "maxLv": 5,
+    "typeText": "対軍宝具",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
       3000,
       4003,
       4007,
@@ -25107,6 +25192,7 @@
       4101
     ],
     "script": {
+      "limitSeqId_11": 605030,
       "limitSeqId_1": 605010,
       "limitSeqId_3": 605020,
       "limitSeqId_4": 605020,
@@ -26952,6 +27038,29 @@
   },
   {
     "individuality": [
+      3000,
+      4001,
+      4007,
+      4101
+    ],
+    "script": {
+      "limitSeqId_1": 705310,
+      "limitSeqId_3": 705320,
+      "limitSeqId_4": 705320,
+      "limitSeqId_2": 705310
+    },
+    "id": 705301,
+    "seqId": 705300,
+    "name": "十王満腹・葛籠の宴海",
+    "ruby": "じゅうおうまんぷく・つづらのえんかい",
+    "rank": "EX",
+    "maxLv": 5,
+    "typeText": "対人宝具",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
       3002,
       4001,
       4007
@@ -27061,6 +27170,7 @@
       4007
     ],
     "script": {
+      "limitSeqId_20": 800210,
       "tdTypeChangeIDs": [
         800107,
         800108
@@ -27088,6 +27198,7 @@
       2966
     ],
     "script": {
+      "limitSeqId_20": 800211,
       "tdTypeChangeIDs": [
         800107,
         800108
@@ -27097,6 +27208,60 @@
       ]
     },
     "id": 800108,
+    "seqId": 800191,
+    "name": "希望証す人理の剣",
+    "ruby": "レイプルーフ・キリエライト",
+    "rank": "EX",
+    "maxLv": 5,
+    "typeText": "対界宝具",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3002,
+      4001,
+      4007
+    ],
+    "script": {
+      "limitSeqId_20": 800210,
+      "tdTypeChangeIDs": [
+        800107,
+        800108
+      ],
+      "excludeTdChangeTypes": [
+        3
+      ]
+    },
+    "id": 800194,
+    "seqId": 800190,
+    "name": "希望築く人理の盾",
+    "ruby": "ロード・カルデアス",
+    "rank": "B",
+    "maxLv": 5,
+    "typeText": "対人宝具",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
+      4002,
+      4007,
+      4101,
+      2966
+    ],
+    "script": {
+      "limitSeqId_20": 800211,
+      "tdTypeChangeIDs": [
+        800107,
+        800108
+      ],
+      "excludeTdChangeTypes": [
+        3
+      ]
+    },
+    "id": 800195,
     "seqId": 800191,
     "name": "希望証す人理の剣",
     "ruby": "レイプルーフ・キリエライト",
@@ -28558,7 +28723,8 @@
     "individuality": [
       3002,
       4001,
-      4007
+      4007,
+      10050
     ],
     "script": {},
     "id": 1100101,
@@ -30618,6 +30784,29 @@
       3000,
       4002,
       4007,
+      4101
+    ],
+    "script": {
+      "limitSeqId_1": 2301210,
+      "limitSeqId_3": 2301220,
+      "limitSeqId_4": 2301220,
+      "limitSeqId_2": 2301210
+    },
+    "id": 2301201,
+    "seqId": 2301200,
+    "name": "巨影、南海の空より墜ちる",
+    "ruby": "ダイボッチ・キングダイブ",
+    "rank": "Ｃ",
+    "maxLv": 5,
+    "typeText": "対界宝具",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3000,
+      4002,
+      4007,
       4102
     ],
     "script": {
@@ -31746,10 +31935,66 @@
       4101
     ],
     "script": {
-      "limitSeqId_1": 2801010,
-      "limitSeqId_3": 2801020,
-      "limitSeqId_4": 2801020,
-      "limitSeqId_2": 2801010
+      "randomSeqIds_11": [
+        2801030,
+        2801031,
+        2801032
+      ],
+      "randomWeights_1": [
+        100
+      ],
+      "randomWeights_2": [
+        100
+      ],
+      "randomWeights": [
+        100
+      ],
+      "randomSeqIds_4": [
+        2801020
+      ],
+      "randomSeqIds": [
+        2801000
+      ],
+      "randomSeqIds_2": [
+        2801010
+      ],
+      "randomWeights_11": [
+        34,
+        33,
+        33
+      ],
+      "randomSeqIds_1": [
+        2801010
+      ],
+      "groupSeqIDs": [
+        2801000
+      ],
+      "randomSeqIds_3": [
+        2801020
+      ],
+      "groupSeqIDs_11": [
+        280130,
+        280130,
+        280130
+      ],
+      "randomWeights_3": [
+        100
+      ],
+      "groupSeqIDs_4": [
+        2801020
+      ],
+      "groupSeqIDs_1": [
+        2801000
+      ],
+      "groupSeqIDs_3": [
+        2801020
+      ],
+      "groupSeqIDs_2": [
+        2801000
+      ],
+      "randomWeights_4": [
+        100
+      ]
     },
     "id": 2801001,
     "seqId": 2801000,
@@ -36915,6 +37160,24 @@
     "rank": "D+",
     "maxLv": 5,
     "typeText": "対人宝具",
+    "attackAttri": 1,
+    "effectFlag": 2
+  },
+  {
+    "individuality": [
+      3002,
+      4002,
+      4007,
+      4102
+    ],
+    "script": {},
+    "id": 9947741,
+    "seqId": 9947740,
+    "name": "？？？",
+    "ruby": "",
+    "rank": "？",
+    "maxLv": 5,
+    "typeText": "？？？",
     "attackAttri": 1,
     "effectFlag": 2
   },
