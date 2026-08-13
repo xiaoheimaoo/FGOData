@@ -90907,6 +90907,51 @@
   },
   {
     "vals": [
+      3005
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6117,
+    "buffGroup": 0,
+    "type": 186,
+    "name": "宝具使用時追加効果",
+    "detail": "宝具を使用後、自身に即死効果(ガッツ無視・即死耐性無視)",
+    "iconId": 582,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      3052
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3052
+    ],
+    "script": {},
+    "id": 6118,
+    "buffGroup": 0,
+    "type": 112,
+    "name": "威力アップ〔混乱〕",
+    "detail": "〔混乱〕状態の敵に与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3006
     ],
@@ -175525,6 +175570,102 @@
   {
     "vals": [
       3004,
+      3018,
+      3021,
+      3007,
+      3109
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -3124
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94159006,
+    "buffGroup": 0,
+    "type": 155,
+    "name": "神マヤーのお告げ",
+    "detail": "必中・無敵貫通・対粛正防御貫通を無視して、攻撃によるダメージを0にする(他の回避状態と重複可能)",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3005
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3005
+    ],
+    "script": {},
+    "id": 94159007,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "神マヤーのお告げ",
+    "detail": "弱体を受けなくなる",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94159008,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6039
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94159009,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "童話砲準備",
+    "detail": "ターン経過後、〔童話砲〕が発動する",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94159011,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
       3006,
       3028
     ],
@@ -175543,6 +175684,201 @@
     "detail": "〔魔性〕に与えるダメージをアップ",
     "iconId": 302,
     "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      6039
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94159028,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "妖怪襲名：神マヤー",
+    "detail": "自身がフィールドにいる間、敵全体の防御力をアップ",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "individualityCondTargetType": 2,
+      "INDIVIDUALITIE": 6039
+    },
+    "id": 94159029,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "",
+    "detail": "",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94159030,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "大人な苦み",
+    "detail": "自身がやられた時、敵単体の攻撃力をダウン＆防御力をアップ【デメリット】",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94159031,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "旨味しみしみ",
+    "detail": "自身がやられた時、敵単体の攻撃力をダウン＆毎ターンNP獲得状態を付与【デメリット】",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94159032,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "磯の香り",
+    "detail": "自身がやられた時、敵単体の攻撃力をダウン＆毎ターンHP回復状態を付与【デメリット】",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94159033,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "熟成された味わい",
+    "detail": "自身がやられた時、敵単体の攻撃力をダウン＆毎ターンスター獲得状態を付与【デメリット】",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94159034,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "ピリッとした辛味",
+    "detail": "自身がやられた時、敵単体の攻撃力をダウン＆弱体耐性をアップ【デメリット】",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94159035,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "スパイシーな風味",
+    "detail": "自身がやられた時、敵単体の攻撃力をダウン＆クリティカル威力をアップ【デメリット】",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94159036,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "サクサクほろほろ",
+    "detail": "自身がやられた時、敵単体の攻撃力をダウン ＋ スターを獲得【デメリット】",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94159037,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "上品な甘み",
+    "detail": "自身がやられた時、敵単体の攻撃力をダウン＆NPを増やす【デメリット】",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94159038,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "もっちりした食感",
+    "detail": "自身がやられた時、敵単体の攻撃力をダウン＆HPを回復【デメリット】",
+    "iconId": 350,
+    "maxRate": 0,
     "effectId": 0
   },
   {
