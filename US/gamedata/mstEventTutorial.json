@@ -208,6 +208,37 @@
   },
   {
     "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      4000426
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "addClassIds": [
+          23
+        ],
+        "releaseClassBoardBaseIds": [
+          8
+        ],
+        "isClassBoardRelease": true
+      }
+    ],
+    "script": {},
+    "eventId": -127,
+    "flagType": 1,
+    "num": 2,
+    "priority": 12,
+    "openType": 83,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
       "[1000005,2]",
       "[1000008,5]",
       "[1000009,3]",
@@ -697,7 +728,8 @@
       "[]"
     ],
     "condIds": [
-      4000326
+      4000326,
+      4000426
     ],
     "imageIds": [],
     "textJson": [
@@ -712,7 +744,7 @@
     "eventId": -111,
     "flagType": 1,
     "num": 1,
-    "priority": 0,
+    "priority": 13,
     "openType": 83,
     "condType": 1,
     "condValue": 0,
@@ -25959,7 +25991,9 @@
     "targetIds": [
       "[]"
     ],
-    "condIds": [],
+    "condIds": [
+      94099513
+    ],
     "imageIds": [],
     "textJson": [
       {
@@ -25978,11 +26012,84 @@
     ],
     "script": {},
     "eventId": 80485,
-    "flagType": 80,
+    "flagType": 81,
     "num": 1,
     "priority": 0,
     "openType": 2,
-    "condType": 0,
+    "condType": 36,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      20100702
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "Now that you've cleared \"Ordeal Call III: Bellum Novae Humanitatis, Archetype Inception,\" a new Free Quest has been added to the \"Arabian Area\" of the Bleached Earth.\n\nIn this new Free Quest, you can obtain the Skill Up and Ascension Materials that debuted in Ordeal Call III.\n\n[FFFF00]*The Free Quests on the \"Ordeal Call III: Bellum Novae Humanitatis, Archetype Inception\" map will be unlocked in a future update when \"BB Presents☆Celeb Summer Experience! Dubai's Counterattack\" is added to Main Interlude.[-]",
+        "dlgFontSize": 22,
+        "rects": [],
+        "textPos": [
+          0,
+          38
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {
+      "beforeActionSetup": [
+        "110",
+        "1040200"
+      ],
+      "beforeActionVals": [
+        "300",
+        "1040200,15,1000",
+        "102",
+        "1040200"
+      ]
+    },
+    "eventId": 80491,
+    "flagType": 65,
+    "num": 1,
+    "priority": 11,
+    "openType": 83,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      20100705
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "isSelectBonus": true
+      }
+    ],
+    "script": {
+      "resumeTransitionWar": 401
+    },
+    "eventId": 80495,
+    "flagType": 65,
+    "num": 1,
+    "priority": 6,
+    "openType": 93,
+    "condType": 113,
     "condValue": 0,
     "condValue2": 0,
     "condValue3": 0,
