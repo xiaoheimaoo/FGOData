@@ -90567,6 +90567,41 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "popupEffectId": 4001031
+    },
+    "id": 6095,
+    "buffGroup": 0,
+    "type": 26,
+    "name": "巨人の庇護",
+    "detail": "自身以外の味方にも発動する特殊な無敵状態",
+    "iconId": 311,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6096,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "巨人の庇護",
+    "detail": "自身以外の味方にも発動する特殊な無敵状態",
+    "iconId": 311,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004,
       3024
@@ -90907,6 +90942,52 @@
   },
   {
     "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [
+      3012
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3012
+    ],
+    "script": {},
+    "id": 6115,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "クリティカル威力アップ",
+    "detail": "〔魅了〕状態の敵に与えるクリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [
+      3052
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3052
+    ],
+    "script": {},
+    "id": 6116,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "クリティカル威力アップ",
+    "detail": "〔混乱〕状態の敵に与えるクリティカル時のダメージをアップ",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3005
     ],
     "tvals": [
@@ -90948,6 +91029,50 @@
     "detail": "〔混乱〕状態の敵に与えるダメージをアップ",
     "iconId": 302,
     "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      -2076
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -2076
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 6119,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ〔非超巨大〕",
+    "detail": "〔非超巨大〕特性に与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6121,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "宝具威力アップ",
+    "detail": "〔都市〕または〔水辺〕のあるフィールドにおいてのみ、宝具で与えるダメージをアップ",
+    "iconId": 310,
+    "maxRate": 5000,
     "effectId": 0
   },
   {
@@ -175666,6 +175791,26 @@
   {
     "vals": [
       3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -3011
+    },
+    "id": 94159012,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "特殊耐性アップ",
+    "detail": "全ての攻撃に対する耐性をアップ<毒状態の間、効果が無効になる> ",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
       3006,
       3028
     ],
@@ -175883,6 +176028,80 @@
   },
   {
     "vals": [
+      3004,
+      3127
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94159039,
+    "buffGroup": 0,
+    "type": 102,
+    "name": "妖怪襲名：片耳豚",
+    "detail": "即死付与率をアップ",
+    "iconId": 337,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94159048,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "選んでもらった新しいキーホルダー",
+    "detail": "防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94159049,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "綺麗な椿の花",
+    "detail": "攻撃時、中確率で対象の攻撃力をダウン<1ターンに1回だけ発動>",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94159050,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "マスターの手",
+    "detail": "攻撃力をアップ",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004
     ],
     "tvals": [],
@@ -175935,6 +176154,30 @@
     "detail": "攻撃の威力をアップ",
     "iconId": 359,
     "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [
+      115
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      115
+    ],
+    "script": {},
+    "id": 94159057,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "防御力アップ〔ムーンキャンサー〕",
+    "detail": "〔ムーンキャンサー〕に対する防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
     "effectId": 0
   }
 ]
