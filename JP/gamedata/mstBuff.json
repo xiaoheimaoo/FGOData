@@ -175953,6 +175953,137 @@
   },
   {
     "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94159020,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "冷たいご褒美",
+    "detail": "自身がやられた時、敵単体のHPを回復する",
+    "iconId": 543,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      3021
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3021
+    ],
+    "script": {},
+    "id": 94159021,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "威力アップ〔回避〕",
+    "detail": "〔回避〕状態の敵に与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94159022,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "ターン終了時、自身の攻撃力をアップ",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94159023,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "ターン終了時、自身の防御力をアップ",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94159024,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "ターン終了時、自身のクリティカル発生率をアップ",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3079,
+      2038
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94159025,
+    "buffGroup": 0,
+    "type": 10001,
+    "name": "フィールド変化〔陽射し〕",
+    "detail": "フィールドを〔陽射し〕状態にする",
+    "iconId": 352,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 2038
+    },
+    "id": 94159026,
+    "buffGroup": 0,
+    "type": 24,
+    "name": "確率で回避",
+    "detail": "〔陽射し〕のあるフィールドにおいてのみ、攻撃によるダメージを高確率で0にする(他の回避状態と重複可能)",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3006,
       3028
@@ -176257,6 +176388,26 @@
     "name": "妖怪襲名：鞍野郎",
     "detail": "クリティカル時のダメージをアップ",
     "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3089
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      3015
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94159044,
+    "buffGroup": 0,
+    "type": 126,
+    "name": "妖怪襲名：雪ん子",
+    "detail": "やけどの効果量アップ",
+    "iconId": 546,
     "maxRate": 5000,
     "effectId": 0
   },
