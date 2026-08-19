@@ -91113,6 +91113,67 @@
   },
   {
     "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6124,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "攻撃ダメージ前追加効果",
+    "detail": "攻撃時、ダメージ前に対象に電蝕状態<特殊なクリティカル威力耐性ダウン状態>を付与",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3009,
+      10052
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6125,
+    "buffGroup": 0,
+    "type": 217,
+    "name": "電蝕",
+    "detail": "クリティカル攻撃で受けるダメージが増える",
+    "iconId": 575,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      10052
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      10052
+    ],
+    "script": {},
+    "id": 6126,
+    "buffGroup": 0,
+    "type": 112,
+    "name": "威力アップ〔電蝕〕",
+    "detail": "〔電蝕〕状態の敵に与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004,
       3006
     ],
@@ -176794,6 +176855,268 @@
     "detail": "防御力をダウン",
     "iconId": 504,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94159300,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "海の家の料理人",
+    "detail": "プレイヤーターン開始時に色々な料理を作り、料理に応じた効果で味方を強化する",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94159301,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "肉料理配膳中",
+    "detail": "攻撃時、対象に〔試食堪能中〕状態を3つ付与＆Busterカード性能をアップ【デメリット】",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94159302,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "魚料理配膳中",
+    "detail": "攻撃時、対象に〔試食堪能中〕状態を3つ付与＆Artsカード性能をアップ【デメリット】",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94159303,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "野菜料理配膳中",
+    "detail": "攻撃時、対象に〔試食堪能中〕状態を3つ付与＆Quickカード性能をアップ【デメリット】",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94159304,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "試食堪能中",
+    "detail": "10個付与されると特殊な魅了状態になる<耐性無視>",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94159305,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "ちょっぴりドジなホール担当",
+    "detail": "〔世を忍ぶ仮の看板娘〕がやられた時、撤退する",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94159306,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "ちょっと怖いホール担当",
+    "detail": "〔世界一大きな看板娘〕がやられた時、撤退する",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94159307,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "カツ丼配膳中",
+    "detail": "攻撃時、対象に〔試食堪能中〕状態を3つ付与＆防御力をダウン＆攻撃力をアップ【デメリット】",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94159308,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "スペシャルカツ丼に変更中",
+    "detail": "攻撃時、対象に〔試食堪能中〕状態を3つ付与＆防御力をダウン＆攻撃力をアップ【デメリット】",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94159309,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "右手にお箸",
+    "detail": "攻撃時、〔試食堪能中〕状態を1つ解除",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94159310,
+    "buffGroup": 0,
+    "type": 187,
+    "name": "左手にレンゲ",
+    "detail": "スキル使用時、〔試食堪能中〕状態を1つ解除",
+    "iconId": 394,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6026,
+      "INDIVIDUALITIE_COUNT_ABOVE": 10
+    },
+    "id": 94159311,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      6026
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      6026
+    ],
+    "script": {},
+    "id": 94159312,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3010,
+      3012,
+      3045
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94159313,
+    "buffGroup": 501,
+    "type": 32,
+    "name": "舌鼓を打つ",
+    "detail": "行動不能になる＆〔試食堪能中〕状態を受けなくなる",
+    "iconId": 502,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94159314,
+    "buffGroup": 0,
+    "type": 229,
+    "name": "行動回数アップ",
+    "detail": "行動回数を増やす",
+    "iconId": 520,
+    "maxRate": 0,
     "effectId": 0
   }
 ]
