@@ -37341,7 +37341,7 @@
     "buffGroup": 0,
     "type": 78,
     "name": "時間経過",
-    "detail": "HPが0になった時、暴れん坊キッズの「無限の体力(キッズ)」の回数を2減らす(1回以下にはならない）",
+    "detail": "HPが0になった時、味方全体<控え含む>の〔暴れん坊キッズ〕の「無限の体力(キッズ)」の回数を2減らす(1回以下にはならない）",
     "iconId": 543,
     "maxRate": 0,
     "effectId": 0
@@ -37358,7 +37358,7 @@
     "buffGroup": 0,
     "type": 78,
     "name": "時間経過",
-    "detail": "HPが0になった時、暴れん坊キッズの「無限の体力(キッズ)」の回数を5減らす(1回以下にはならない）",
+    "detail": "HPが0になった時、味方全体<控え含む>の〔暴れん坊キッズ〕の「無限の体力(キッズ)」の回数を5減らす(1回以下にはならない）",
     "iconId": 543,
     "maxRate": 0,
     "effectId": 0
@@ -177116,6 +177116,268 @@
     "name": "行動回数アップ",
     "detail": "行動回数を増やす",
     "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94161700,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "被ダメージ時発動〔宝具〕",
+    "detail": "宝具攻撃を受けた時、自身の宝具威力をダウン",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      4007,
+      5000
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94161701,
+    "buffGroup": 0,
+    "type": 160,
+    "name": "宝具攻撃ダメージ前追加効果",
+    "detail": "宝具攻撃時のダメージ前に、対象の防御強化状態を解除する",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      4007,
+      5000
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94161702,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "宝具攻撃時追加効果",
+    "detail": "宝具攻撃時、自身の「無限の体力(キッズ)」の回数を1減らす(1回以下にはならない）",
+    "iconId": 549,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      4007,
+      5000
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94161703,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "宝具攻撃時追加効果",
+    "detail": "宝具攻撃時、自身の攻撃力をダウン",
+    "iconId": 549,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94161704,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、自身のチャージを3増やす",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94161705,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "死亡時発動",
+    "detail": "HPが0になった時、味方全体<控え含む>の〔暴れん坊キッズ〕〔キャンパーキング〕のチャージを3増やす",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94161750,
+    "buffGroup": 0,
+    "type": 208,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94161752,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94161753,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007,
+      701500
+    ],
+    "script": {
+      "checkIndvType": 1
+    },
+    "id": 94161754,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6033
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94161755,
+    "buffGroup": 0,
+    "type": 186,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6034
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94161756,
+    "buffGroup": 0,
+    "type": 186,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6035
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94161757,
+    "buffGroup": 0,
+    "type": 186,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
     "maxRate": 0,
     "effectId": 0
   }

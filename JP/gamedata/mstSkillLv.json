@@ -318217,7 +318217,7 @@
       1309
     ],
     "svals": [
-      "[5000,20801,1,CheckDead:1]",
+      "[5000,20801,1,Priority:200,CheckDead:1]",
       "[5000,5,-1,10000,SetPassiveFrame:1,IgnoreIndividuality:1]",
       "[5000,5]"
     ],
@@ -318238,7 +318238,7 @@
       2576
     ],
     "svals": [
-      "[5000,20802,1,CheckDead:1,Value2:1]",
+      "[5000,20802,1,CheckDead:1,Value2:1,Priority:200]",
       "[1000,420]",
       "[1000,1,-1,500,SetPassiveFrame:1,IgnoreIndividuality:1]",
       "[1000,2,-1,300,SetPassiveFrame:1,IgnoreIndividuality:1]",
@@ -525779,6 +525779,34 @@
   },
   {
     "funcId": [
+      23585
+    ],
+    "svals": [
+      "[2,40,0]"
+    ],
+    "script": {},
+    "skillId": 995433,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 995433,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      23585
+    ],
+    "svals": [
+      "[2,200,0]"
+    ],
+    "script": {},
+    "skillId": 995434,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 995434,
+    "priority": 0
+  },
+  {
+    "funcId": [
       116,
       206,
       759
@@ -661804,7 +661832,7 @@
       "[1000,3,-1,970930,Value2:1]",
       "[1000,3000]",
       "[1000,1]",
-      "[1000,3,-1,100,CheckBattlePointPhaseRange_705300:<=1]"
+      "[1000,3,-1,100,TriggeredTargetBattlePointRateRange_705300:<=499,HideNoEffect:1]"
     ],
     "script": {},
     "skillId": 2657650,
@@ -661826,7 +661854,7 @@
       "[1000,3,-1,970930,Value2:1]",
       "[1000,3200]",
       "[1000,1]",
-      "[1000,3,-1,110,CheckBattlePointPhaseRange_705300:<=1]"
+      "[1000,3,-1,110,TriggeredTargetBattlePointRateRange_705300:<=499,HideNoEffect:1]"
     ],
     "script": {},
     "skillId": 2657650,
@@ -661848,7 +661876,7 @@
       "[1000,3,-1,970930,Value2:1]",
       "[1000,3400]",
       "[1000,1]",
-      "[1000,3,-1,120,CheckBattlePointPhaseRange_705300:<=1]"
+      "[1000,3,-1,120,TriggeredTargetBattlePointRateRange_705300:<=499,HideNoEffect:1]"
     ],
     "script": {},
     "skillId": 2657650,
@@ -661870,7 +661898,7 @@
       "[1000,3,-1,970930,Value2:1]",
       "[1000,3600]",
       "[1000,1]",
-      "[1000,3,-1,130,CheckBattlePointPhaseRange_705300:<=1]"
+      "[1000,3,-1,130,TriggeredTargetBattlePointRateRange_705300:<=499,HideNoEffect:1]"
     ],
     "script": {},
     "skillId": 2657650,
@@ -661892,7 +661920,7 @@
       "[1000,3,-1,970930,Value2:1]",
       "[1000,3800]",
       "[1000,1]",
-      "[1000,3,-1,140,CheckBattlePointPhaseRange_705300:<=1]"
+      "[1000,3,-1,140,TriggeredTargetBattlePointRateRange_705300:<=499,HideNoEffect:1]"
     ],
     "script": {},
     "skillId": 2657650,
@@ -661914,7 +661942,7 @@
       "[1000,3,-1,970930,Value2:1]",
       "[1000,4000]",
       "[1000,1]",
-      "[1000,3,-1,150,CheckBattlePointPhaseRange_705300:<=1]"
+      "[1000,3,-1,150,TriggeredTargetBattlePointRateRange_705300:<=499,HideNoEffect:1]"
     ],
     "script": {},
     "skillId": 2657650,
@@ -661936,7 +661964,7 @@
       "[1000,3,-1,970930,Value2:1]",
       "[1000,4200]",
       "[1000,1]",
-      "[1000,3,-1,160,CheckBattlePointPhaseRange_705300:<=1]"
+      "[1000,3,-1,160,TriggeredTargetBattlePointRateRange_705300:<=499,HideNoEffect:1]"
     ],
     "script": {},
     "skillId": 2657650,
@@ -661958,7 +661986,7 @@
       "[1000,3,-1,970930,Value2:1]",
       "[1000,4400]",
       "[1000,1]",
-      "[1000,3,-1,170,CheckBattlePointPhaseRange_705300:<=1]"
+      "[1000,3,-1,170,TriggeredTargetBattlePointRateRange_705300:<=499,HideNoEffect:1]"
     ],
     "script": {},
     "skillId": 2657650,
@@ -661980,7 +662008,7 @@
       "[1000,3,-1,970930,Value2:1]",
       "[1000,4600]",
       "[1000,1]",
-      "[1000,3,-1,180,CheckBattlePointPhaseRange_705300:<=1]"
+      "[1000,3,-1,180,TriggeredTargetBattlePointRateRange_705300:<=499,HideNoEffect:1]"
     ],
     "script": {},
     "skillId": 2657650,
@@ -662002,7 +662030,7 @@
       "[1000,3,-1,970930,Value2:1]",
       "[1000,5000]",
       "[1000,1]",
-      "[1000,3,-1,200,CheckBattlePointPhaseRange_705300:<=1]"
+      "[1000,3,-1,200,TriggeredTargetBattlePointRateRange_705300:<=499,HideNoEffect:1]"
     ],
     "script": {},
     "skillId": 2657650,
@@ -662597,9 +662625,9 @@
     ],
     "svals": [
       "[1000,-1,-1,200]",
-      "[5000,-1,-1,10042,HideMiss:1,HideNoEffect:1]",
-      "[5000,-1,-1,970917,Value2:1,HideMiss:1,HideNoEffect:1,ShowState:-1,ForceAddState:1,UnSubState:1,SelfTurnProgressGroup:705300]",
-      "[5000,-1,-1,970917,Value2:1,HideMiss:1,HideNoEffect:1,ShowState:-1,ForceAddState:1,UnSubState:1,SelfTurnProgressGroup:705300]",
+      "[5000,-1,-1,10042,HideMiss:1,HideNoEffect:1,NotRemoveOnShift:1]",
+      "[5000,-1,-1,970917,Value2:1,HideMiss:1,HideNoEffect:1,ShowState:-1,ForceAddState:1,UnSubState:1,SelfTurnProgressGroup:705300,NotRemoveOnShift:1]",
+      "[5000,-1,-1,970917,Value2:1,HideMiss:1,HideNoEffect:1,ShowState:-1,ForceAddState:1,UnSubState:1,SelfTurnProgressGroup:705300,NotRemoveOnShift:1]",
       "[1000,-1,-1,1,HideMiss:1,HideNoEffect:1,ShowState:-1,ForceAddState:1,UnSubState:1,CheckDead:1]"
     ],
     "script": {},
@@ -819524,6 +819552,615 @@
     ],
     "script": {},
     "skillId": 94159329,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      3486
+    ],
+    "svals": [
+      "[5000,-1,1,94159337,Value2:1,ShowState:-1]"
+    ],
+    "script": {},
+    "skillId": 94159336,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      22312
+    ],
+    "svals": [
+      "[1000,1,-1,ShowState:-1,UnSubState:1,ForceAddState:1,ShortenBuffHalfTurnInPartyTurn:1]"
+    ],
+    "script": {},
+    "skillId": 94159337,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 50
+  },
+  {
+    "funcId": [
+      94161705,
+      94161702,
+      94161701,
+      94161703,
+      94161700,
+      94161706,
+      2130
+    ],
+    "svals": [
+      "[5000,-1,-1,94161701,Value2:1,ShowState:1,SetPassiveFrame:1,UnSubState:1,ForceAddState:1,HideMiss:1,HideNoEffect:1]",
+      "[5000,-1,-1,94161705,Value2:1,ShowState:1,SetPassiveFrame:1,UnSubState:1,ForceAddState:1,HideMiss:1,HideNoEffect:1]",
+      "[5000,-1,-1,94161702,Value2:1,ShowState:1,SetPassiveFrame:1,UnSubState:1,ForceAddState:1,HideMiss:1,HideNoEffect:1]",
+      "[5000,-1,-1,94161706,Value2:1,ShowState:1,SetPassiveFrame:1,UnSubState:1,ForceAddState:1,HideMiss:1,HideNoEffect:1]",
+      "[5000,-1,-1,94161703,Value2:1,ShowState:1,SetPassiveFrame:1,UnSubState:1,ForceAddState:1,HideMiss:1,HideNoEffect:1]",
+      "[5000,-1,-1,94161707,Value2:1,ShowState:1,SetPassiveFrame:1,UnSubState:1,ForceAddState:1,HideMiss:1,HideNoEffect:1]",
+      "[5000,-1,-1,3000,ShowState:1,SetPassiveFrame:1,UnSubState:1,ForceAddState:1]"
+    ],
+    "script": {
+      "additionalSkillId": 94161704,
+      "additionalSkillActorType": 1
+    },
+    "skillId": 94161700,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      470
+    ],
+    "svals": [
+      "[1000,3]"
+    ],
+    "script": {},
+    "skillId": 94161701,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      1542
+    ],
+    "svals": [
+      "[1000,CheckDuplicate:1]"
+    ],
+    "script": {},
+    "skillId": 94161702,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      9777
+    ],
+    "svals": [
+      "[1000,1,-1,400]"
+    ],
+    "script": {},
+    "skillId": 94161703,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      8846
+    ],
+    "svals": [
+      "[5000,HideMiss:1,HideNoEffect:1]"
+    ],
+    "script": {},
+    "skillId": 94161704,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      94161704
+    ],
+    "svals": [
+      "[1000,1,-1,TargetList:2712,HideNoEffect:1,CheckDuplicate:1]"
+    ],
+    "script": {},
+    "skillId": 94161705,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      161
+    ],
+    "svals": [
+      "[1000,1,-1,300,CheckDuplicate:1]"
+    ],
+    "script": {},
+    "skillId": 94161706,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      94161707
+    ],
+    "svals": [
+      "[1000,3,DisplayNoEffectCauses:Avoided]"
+    ],
+    "script": {},
+    "skillId": 94161707,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      94161778
+    ],
+    "svals": [
+      "[1000,-1,-1,94161751,Value2:1,ShowState:-1,HideMiss:1,HideNoEffect:1,UnSubState:1,CheckDead:1]"
+    ],
+    "script": {},
+    "skillId": 94161750,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      94161754
+    ],
+    "svals": [
+      "[1000,CheckDead:1]"
+    ],
+    "script": {},
+    "skillId": 94161751,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      94161755
+    ],
+    "svals": [
+      "[1000,CheckDead:1]"
+    ],
+    "script": {},
+    "skillId": 94161752,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      94161780,
+      94161752
+    ],
+    "svals": [
+      "[1000,-1,-1,94161786,Value2:1,ShowState:-1,HideMiss:1,HideNoEffect:1,UnSubState:1,CheckDead:1]",
+      "[1000,-1,-1,94161758,Value2:1,ShowState:-1,HideMiss:1,HideNoEffect:1,UnSubState:1,CheckDead:1]"
+    ],
+    "script": {},
+    "skillId": 94161757,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      94161758
+    ],
+    "svals": [
+      "[1000,CheckDuplicate:1,CheckDead:1]"
+    ],
+    "script": {},
+    "skillId": 94161758,
+    "lv": 1,
+    "chargeTurn": 8,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      94161753
+    ],
+    "svals": [
+      "[1000,-1,-1,94161760,Value2:1,ShowState:-1,HideMiss:1,HideNoEffect:1,UnSubState:1,ProcActive:1]"
+    ],
+    "script": {},
+    "skillId": 94161759,
+    "lv": 1,
+    "chargeTurn": 8,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      94161759
+    ],
+    "svals": [
+      "[1000,CheckDead:1]"
+    ],
+    "script": {},
+    "skillId": 94161760,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      94161760
+    ],
+    "svals": [
+      "[1000,CheckDead:1]"
+    ],
+    "script": {},
+    "skillId": 94161761,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      94161761
+    ],
+    "svals": [
+      "[1000,CheckDead:1]"
+    ],
+    "script": {},
+    "skillId": 94161762,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      94161762
+    ],
+    "svals": [
+      "[1000,CheckDead:1]"
+    ],
+    "script": {},
+    "skillId": 94161763,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      94161763
+    ],
+    "svals": [
+      "[1000,CheckDead:1]"
+    ],
+    "script": {},
+    "skillId": 94161764,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      94161764
+    ],
+    "svals": [
+      "[1000,CheckDead:1]"
+    ],
+    "script": {},
+    "skillId": 94161765,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      94161765
+    ],
+    "svals": [
+      "[1000,CheckDead:1]"
+    ],
+    "script": {},
+    "skillId": 94161766,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      94161766
+    ],
+    "svals": [
+      "[1000,CheckDead:1]"
+    ],
+    "script": {},
+    "skillId": 94161767,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      94161767
+    ],
+    "svals": [
+      "[1000,CheckDead:1]"
+    ],
+    "script": {},
+    "skillId": 94161768,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      94161772
+    ],
+    "svals": [
+      "[1000,CheckDead:1]"
+    ],
+    "script": {},
+    "skillId": 94161773,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      94161773
+    ],
+    "svals": [
+      "[1000,CheckDead:1]"
+    ],
+    "script": {},
+    "skillId": 94161774,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      94161774
+    ],
+    "svals": [
+      "[1000,CheckDead:1]"
+    ],
+    "script": {},
+    "skillId": 94161775,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      94161750
+    ],
+    "svals": [
+      "[5000,-1,-1,94161777,Value2:1,TargetFunctionIndividuality:3107/3108,TargetBuffIndividuality:3030,ShowState:-1,HideMiss:1,HideNoEffect:1,UnSubState:1,SkipCheckAlive:1]"
+    ],
+    "script": {},
+    "skillId": 94161776,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      94161775
+    ],
+    "svals": [
+      "[1000,CheckDead:1]"
+    ],
+    "script": {},
+    "skillId": 94161777,
+    "lv": 1,
+    "chargeTurn": 8,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      94161776
+    ],
+    "svals": [
+      "[1000,CheckDead:1]"
+    ],
+    "script": {},
+    "skillId": 94161778,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      94161781
+    ],
+    "svals": [
+      "[5000,-1,-1,94161781,Value2:1,ShowState:-1,HideMiss:1,HideNoEffect:1,UnSubState:1,CheckDead:1]"
+    ],
+    "script": {},
+    "skillId": 94161780,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      94161786
+    ],
+    "svals": [
+      "[1000,CheckDuplicate:1,CheckDead:1]"
+    ],
+    "script": {},
+    "skillId": 94161781,
+    "lv": 1,
+    "chargeTurn": 8,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      94161783,
+      94161784
+    ],
+    "svals": [
+      "[5000,-1,-1,94161783,Value2:1,ShowState:-1,HideMiss:1,HideNoEffect:1,UnSubState:1,CheckDead:1]",
+      "[5000,ForceSubState:1,HideMiss:1,HideNoEffect:1]"
+    ],
+    "script": {},
+    "skillId": 94161782,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      94161788
+    ],
+    "svals": [
+      "[1000,CheckDuplicate:1,CheckDead:1]"
+    ],
+    "script": {},
+    "skillId": 94161783,
+    "lv": 1,
+    "chargeTurn": 8,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      94161782,
+      94161785
+    ],
+    "svals": [
+      "[5000,-1,-1,94161785,Value2:1,ShowState:-1,HideMiss:1,HideNoEffect:1,UnSubState:1,CheckDead:1]",
+      "[5000,ForceSubState:1,HideMiss:1,HideNoEffect:1]"
+    ],
+    "script": {},
+    "skillId": 94161784,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      94161787
+    ],
+    "svals": [
+      "[1000,CheckDuplicate:1,CheckDead:1]"
+    ],
+    "script": {},
+    "skillId": 94161785,
+    "lv": 1,
+    "chargeTurn": 8,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      94161779
+    ],
+    "svals": [
+      "[1000,CheckDuplicate:1,CheckDead:1]"
+    ],
+    "script": {},
+    "skillId": 94161786,
+    "lv": 1,
+    "chargeTurn": 8,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      94161789
+    ],
+    "svals": [
+      "[1000,CheckDead:1]"
+    ],
+    "script": {},
+    "skillId": 94161787,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      94161791
+    ],
+    "svals": [
+      "[1000,CheckDead:1]"
+    ],
+    "script": {},
+    "skillId": 94161788,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      94161790
+    ],
+    "svals": [
+      "[1000,CheckDead:1]"
+    ],
+    "script": {},
+    "skillId": 94161789,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      94161792
+    ],
+    "svals": [
+      "[1000,CheckDead:1]"
+    ],
+    "script": {},
+    "skillId": 94161790,
     "lv": 1,
     "chargeTurn": 0,
     "skillDetailId": 1,
