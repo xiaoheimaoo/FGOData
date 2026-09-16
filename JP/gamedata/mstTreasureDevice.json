@@ -13736,9 +13736,57 @@
       4007
     ],
     "script": {},
+    "id": 1129,
+    "seqId": 9947910,
+    "name": "破壊の虐殺",
+    "ruby": "-",
+    "rank": "なし",
+    "maxLv": 1,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
+      4007
+    ],
+    "script": {},
     "id": 1137,
     "seqId": 9947750,
     "name": "",
+    "ruby": "-",
+    "rank": "なし",
+    "maxLv": 1,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
+      4007
+    ],
+    "script": {},
+    "id": 1149,
+    "seqId": 9947910,
+    "name": "破壊の虐殺",
+    "ruby": "-",
+    "rank": "なし",
+    "maxLv": 1,
+    "typeText": "",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3000,
+      4007
+    ],
+    "script": {},
+    "id": 1153,
+    "seqId": 9941500,
+    "name": "地断打",
     "ruby": "-",
     "rank": "なし",
     "maxLv": 1,
@@ -15114,6 +15162,7 @@
       4102
     ],
     "script": {
+      "limitSeqId_11": 104730,
       "limitSeqId_1": 104701,
       "limitSeqId_3": 104702,
       "limitSeqId_4": 104702,
@@ -17032,10 +17081,11 @@
       4102
     ],
     "script": {
-      "limitSeqId_1": 204310,
       "limitSeqId_3": 204320,
       "delayEnd": 1,
+      "limitSeqId_11": 204330,
       "limitSeqId_4": 204320,
+      "limitSeqId_1": 204310,
       "limitSeqId_2": 204310
     },
     "id": 204301,
@@ -17056,10 +17106,11 @@
       4102
     ],
     "script": {
-      "limitSeqId_1": 204310,
       "limitSeqId_3": 204320,
       "delayEnd": 1,
+      "limitSeqId_11": 204330,
       "limitSeqId_4": 204320,
+      "limitSeqId_1": 204310,
       "limitSeqId_2": 204310
     },
     "id": 204302,
@@ -17439,6 +17490,7 @@
       4102
     ],
     "script": {
+      "limitSeqId_11": 205330,
       "limitSeqId_1": 205310,
       "limitSeqId_3": 205320,
       "limitSeqId_4": 205320,
@@ -17462,10 +17514,11 @@
       4102
     ],
     "script": {
+      "limitSeqId_3": 205320,
+      "limitSeqId_11": 205330,
+      "limitSeqId_4": 205320,
       "npNameFileSuffix": "205301",
       "limitSeqId_1": 205310,
-      "limitSeqId_3": 205320,
-      "limitSeqId_4": 205320,
       "limitSeqId_2": 205310
     },
     "id": 205302,
@@ -17486,10 +17539,11 @@
       4102
     ],
     "script": {
-      "ForcedOnlyFirstOneSpeed": 1,
-      "limitSeqId_1": 205310,
       "limitSeqId_3": 205320,
+      "limitSeqId_11": 205330,
       "limitSeqId_4": 205320,
+      "limitSeqId_1": 205310,
+      "ForcedOnlyFirstOneSpeed": 1,
       "limitSeqId_2": 205310
     },
     "id": 205398,
@@ -23862,7 +23916,13 @@
       4007,
       4102
     ],
-    "script": {},
+    "script": {
+      "limitSeqId_11": 600530,
+      "limitSeqId_1": 600500,
+      "limitSeqId_3": 600500,
+      "limitSeqId_4": 600500,
+      "limitSeqId_2": 600500
+    },
     "id": 600501,
     "seqId": 600500,
     "name": "解体聖母",
@@ -23880,7 +23940,13 @@
       4007,
       4102
     ],
-    "script": {},
+    "script": {
+      "limitSeqId_11": 600530,
+      "limitSeqId_1": 600500,
+      "limitSeqId_3": 600500,
+      "limitSeqId_4": 600500,
+      "limitSeqId_2": 600500
+    },
     "id": 600502,
     "seqId": 600500,
     "name": "解体聖母",
@@ -27220,6 +27286,29 @@
     "rank": "EX",
     "maxLv": 5,
     "typeText": "対人宝具",
+    "attackAttri": 1,
+    "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3000,
+      4002,
+      4007,
+      4101
+    ],
+    "script": {
+      "limitSeqId_1": 705410,
+      "limitSeqId_3": 705420,
+      "limitSeqId_4": 705420,
+      "limitSeqId_2": 705410
+    },
+    "id": 705401,
+    "seqId": 705400,
+    "name": "再び飛べ、不壊の翼",
+    "ruby": "イカロス・アセンズ・アゲイン",
+    "rank": "A+",
+    "maxLv": 5,
+    "typeText": "対軍宝具",
     "attackAttri": 1,
     "effectFlag": 1
   },
@@ -31520,6 +31609,7 @@
       4101
     ],
     "script": {
+      "limitSeqId_11": 2501130,
       "limitSeqId_1": 2501110,
       "limitSeqId_3": 2501120,
       "limitSeqId_4": 2501120,
@@ -37623,5 +37713,73 @@
     "typeText": "対人宝具",
     "attackAttri": 1,
     "effectFlag": 1
+  },
+  {
+    "individuality": [
+      3002,
+      4002,
+      4007
+    ],
+    "script": {},
+    "id": 9948181,
+    "seqId": 9948180,
+    "name": "密やかなる罪の遊戯",
+    "ruby": "デンジャラス・ゲーム",
+    "rank": "C",
+    "maxLv": 5,
+    "typeText": "対人宝具",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
+      4002,
+      4007
+    ],
+    "script": {},
+    "id": 9948182,
+    "seqId": 9948180,
+    "name": "密やかなる罪の遊戯",
+    "ruby": "デンジャラス・ゲーム",
+    "rank": "C+",
+    "maxLv": 5,
+    "typeText": "対人宝具",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
+      4002,
+      4007
+    ],
+    "script": {},
+    "id": 9948191,
+    "seqId": 9948190,
+    "name": "密やかなる罪の遊戯",
+    "ruby": "デンジャラス・ゲーム",
+    "rank": "C",
+    "maxLv": 5,
+    "typeText": "対人宝具",
+    "attackAttri": 1,
+    "effectFlag": 0
+  },
+  {
+    "individuality": [
+      3002,
+      4002,
+      4007
+    ],
+    "script": {},
+    "id": 9948192,
+    "seqId": 9948190,
+    "name": "密やかなる罪の遊戯",
+    "ruby": "デンジャラス・ゲーム",
+    "rank": "C+",
+    "maxLv": 5,
+    "typeText": "対人宝具",
+    "attackAttri": 1,
+    "effectFlag": 0
   }
 ]

@@ -3991,5 +3991,35 @@
     "playOrder": 4,
     "idx": 1,
     "battleScriptAction": 5
+  },
+  {
+    "script": {
+      "dispTime": 3000,
+      "messageText": "司令塔エネミーを倒した！"
+    },
+    "id": 94160900,
+    "playOrder": 1,
+    "idx": 1,
+    "battleScriptAction": 5
+  },
+  {
+    "script": {
+      "aiActId": 94160905,
+      "type": 1
+    },
+    "id": 94160900,
+    "playOrder": 2,
+    "idx": 1,
+    "battleScriptAction": 1
+  },
+  {
+    "script": {
+      "aiActId": 94160906,
+      "type": 1
+    },
+    "id": 94160900,
+    "playOrder": 3,
+    "idx": 1,
+    "battleScriptAction": 1
   }
 ]

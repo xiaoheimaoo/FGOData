@@ -32411,19 +32411,6 @@
   {
     "svtId": 600500,
     "voicePrefix": -1,
-    "voiceId": "B840",
-    "condType": 92,
-    "targetId": 0,
-    "condGroup": 0,
-    "condValue": 0,
-    "priority": 1,
-    "closedType": 2,
-    "condPriority": 50,
-    "closedMessageId": 0
-  },
-  {
-    "svtId": 600500,
-    "voicePrefix": -1,
     "voiceId": "H1800",
     "condType": 1,
     "targetId": 1000822,
@@ -32446,6 +32433,19 @@
     "closedType": 1,
     "condPriority": 90,
     "closedMessageId": 12
+  },
+  {
+    "svtId": 600500,
+    "voicePrefix": 0,
+    "voiceId": "B840",
+    "condType": 92,
+    "targetId": 0,
+    "condGroup": 0,
+    "condValue": 0,
+    "priority": 1,
+    "closedType": 2,
+    "condPriority": 50,
+    "closedMessageId": 0
   },
   {
     "svtId": 600710,
@@ -44008,6 +44008,32 @@
     "svtId": 705300,
     "voicePrefix": 2,
     "voiceId": "H290",
+    "condType": 92,
+    "targetId": 0,
+    "condGroup": 0,
+    "condValue": 0,
+    "priority": 1,
+    "closedType": 2,
+    "condPriority": 50,
+    "closedMessageId": 0
+  },
+  {
+    "svtId": 705400,
+    "voicePrefix": -1,
+    "voiceId": "N010",
+    "condType": 92,
+    "targetId": 0,
+    "condGroup": 0,
+    "condValue": 0,
+    "priority": 1,
+    "closedType": 2,
+    "condPriority": 50,
+    "closedMessageId": 0
+  },
+  {
+    "svtId": 705400,
+    "voicePrefix": -1,
+    "voiceId": "N020",
     "condType": 92,
     "targetId": 0,
     "condGroup": 0,

@@ -91093,6 +91093,21 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6122,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "南瓜を狩る者",
+    "detail": "『くたばれ！ パンプキンファーム・スローター』において与えるダメージをアップ",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004
     ],
@@ -91170,6 +91185,87 @@
     "detail": "〔電蝕〕状態の敵に与えるダメージをアップ",
     "iconId": 302,
     "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6130,
+    "buffGroup": 0,
+    "type": 182,
+    "name": "Quick攻撃時追加効果",
+    "detail": "Quick攻撃時、味方全体に宝具使用時のチャージ段階を1段階引き上げる状態を付与",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6131,
+    "buffGroup": 0,
+    "type": 182,
+    "name": "Arts攻撃時追加効果",
+    "detail": "Arts攻撃時、味方全体の攻撃力をアップ",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6132,
+    "buffGroup": 0,
+    "type": 182,
+    "name": "Buster攻撃時追加効果",
+    "detail": "Buster攻撃時、味方全体のクリティカル威力をアップ",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 6133,
+    "buffGroup": 0,
+    "type": 204,
+    "name": "",
+    "detail": "",
+    "iconId": 331,
+    "maxRate": 0,
     "effectId": 0
   },
   {
@@ -177116,6 +177212,201 @@
     "name": "行動回数アップ",
     "detail": "行動回数を増やす",
     "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      2972
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4008,
+      -6044
+    ],
+    "script": {
+      "CounterMessage": "カウンター発動",
+      "checkIndvType": 4
+    },
+    "id": 94160900,
+    "buffGroup": 506,
+    "type": 165,
+    "name": "護衛専心",
+    "detail": "敵の攻撃の対象になった時、敵の行動後に特殊なBusterカードで反撃する",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3023
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94160901,
+    "buffGroup": 0,
+    "type": 38,
+    "name": "護衛専心",
+    "detail": "敵からの狙われやすさをアップ",
+    "iconId": 323,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3056,
+      3045
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003,
+      -4007
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94160902,
+    "buffGroup": 40,
+    "type": 134,
+    "name": "護衛専心",
+    "detail": "通常攻撃が行えなくなる",
+    "iconId": 564,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3020
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94160903,
+    "buffGroup": 900,
+    "type": 34,
+    "name": "護衛専心",
+    "detail": "宝具を使用できなくなる",
+    "iconId": 512,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3014,
+      3045,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94160904,
+    "buffGroup": 500,
+    "type": 32,
+    "name": "探知中",
+    "detail": "行動不能になる",
+    "iconId": 501,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3014,
+      3045
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94160905,
+    "buffGroup": 0,
+    "type": 32,
+    "name": "行動不能",
+    "detail": "行動不能になる",
+    "iconId": 501,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [
+      6026
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94160906,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94160907,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94160931,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "ターン終了時、自身のチャージを最大にする",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94160933,
+    "buffGroup": 0,
+    "type": 226,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
     "maxRate": 0,
     "effectId": 0
   },
