@@ -177543,6 +177543,208 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94160919,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "",
+    "detail": "",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94160920,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、敵全体に呪い状態を付与",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94160921,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "彼の隻眼に宿れ樫鳴",
+    "detail": "プレイヤーターン開始時、エネミー全体に「チャージ減少」「強化解除」「防御力ダウン」のいずれかの効果が発動",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -6035
+    },
+    "id": 94160923,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "ターン終了時、自身の攻撃力をアップ＆クリティカル発生率をアップ",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94160924,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6026,
+      6027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 2000
+    },
+    "id": 94160925,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "援護モード",
+    "detail": "確率で〔リカバリー・シーケンス〕を使用する状態",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6026,
+      6028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 2000
+    },
+    "id": 94160926,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃モード",
+    "detail": "攻撃時、味方全体の攻撃力をアップ",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6026,
+      6029
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 2000
+    },
+    "id": 94160927,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "防御モード",
+    "detail": "攻撃を受けた時、味方全体の防御力をアップ",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3023,
+      6026,
+      6029
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "DisplayPriority": 2000
+    },
+    "id": 94160928,
+    "buffGroup": 0,
+    "type": 38,
+    "name": "防御モード",
+    "detail": "自身にターゲットを固定する",
+    "iconId": 323,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3,
+      "INDIVIDUALITIE": -3049
+    },
+    "id": 94160929,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "恐怖への超克",
+    "detail": "ターン終了時、自身の弱体状態を解除＆攻撃力をアップ＆防御力をアップ<恐怖状態の時、効果が無効になる>",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94160930,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "ターン終了時、自身の攻撃力をアップ＆NPを増やす",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004
     ],
@@ -177560,6 +177762,25 @@
     "effectId": 0
   },
   {
+    "vals": [
+      6036
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94160932,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
     "vals": [],
     "tvals": [],
     "ckSelfIndv": [],
@@ -177572,6 +177793,81 @@
     "detail": "",
     "iconId": 0,
     "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94160934,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "防御力アップ",
+    "detail": "エネミーの〔渡辺綱〕がフィールドにいる間、自身を除く味方全体の防御力をアップ",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94160935,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "ターン終了時、自身のチャージを最大にする",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3010,
+      3049,
+      3063
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94160936,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "恐怖",
+    "detail": "毎ターン確率でスタン状態を付与",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94160937,
+    "buffGroup": 0,
+    "type": 119,
+    "name": "チャージ減少耐性アップ",
+    "detail": "チャージ減少効果に対する耐性をアップ",
+    "iconId": 306,
+    "maxRate": 5000,
     "effectId": 0
   },
   {
