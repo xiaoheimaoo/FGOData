@@ -227,9 +227,9 @@
     "flagType": 1,
     "imageIds": [],
     "num": 2,
-    "openType": 83,
+    "openType": 18,
     "targetIds": [
-      "[]"
+      "[401]"
     ],
     "textJson": [
       {
@@ -492,31 +492,59 @@
       "[3000320,1]",
       "[3000320,2]",
       "[3000320,4]",
+      "[3000404,2]",
       "[3000404,4]",
+      "[3000405,4]",
+      "[3000409,1]",
+      "[3000411,1]",
       "[3000411,2]",
+      "[3000414,3]",
       "[3000414,4]",
       "[3000420,1]",
       "[3000420,5]",
       "[3000505,1]",
+      "[3000516,1]",
+      "[3000521,4]",
       "[3000522,1]",
+      "[3000526,1]",
+      "[3000526,2]",
+      "[3000527,5]",
       "[3000528,3]",
+      "[3000531,2]",
+      "[3000531,3]",
       "[3000531,4]",
       "[3000612,3]",
       "[3000614,2]",
+      "[3000618,2]",
       "[3000618,3]",
+      "[3000621,1]",
       "[3000621,4]",
       "[3000624,3]",
+      "[3000804,7]",
       "[3000808,4]",
+      "[3000810,5]",
+      "[3000905,5]",
       "[3000905,6]",
       "[3000908,6]",
+      "[3000911,3]",
+      "[3000916,2]",
       "[3000920,2]",
       "[3000920,4]",
       "[3001007,2]",
       "[3001303,5]",
       "[3001311,2]",
       "[3001311,5]",
+      "[3001312,5]",
+      "[3001314,3]",
       "[3001320,6]",
-      "[3001326,1]"
+      "[3001323,1]",
+      "[3001326,1]",
+      "[4000205,3]",
+      "[4000206,5]",
+      "[4000208,3]",
+      "[4000210,2]",
+      "[4000212,1]",
+      "[4000214,3]"
     ],
     "textJson": ""
   },
@@ -754,9 +782,9 @@
     "flagType": 1,
     "imageIds": [],
     "num": 1,
-    "openType": 83,
+    "openType": 18,
     "targetIds": [
-      "[]"
+      "[401]"
     ],
     "textJson": [
       {
@@ -769,9 +797,9 @@
   },
   {
     "condIds": [
-      4000326
+      50141905
     ],
-    "condType": 1,
+    "condType": 113,
     "condValue": 0,
     "condValue2": 0,
     "condValue3": 0,
@@ -781,7 +809,7 @@
     "num": 2,
     "openType": 83,
     "targetIds": [
-      "[]"
+      "[401]"
     ],
     "textJson": [
       {
@@ -1090,9 +1118,9 @@
     "flagType": 1,
     "imageIds": [],
     "num": 1,
-    "openType": 83,
+    "openType": 18,
     "targetIds": [
-      "[]"
+      "[401]"
     ],
     "textJson": [
       {
@@ -1115,9 +1143,9 @@
     "flagType": 1,
     "imageIds": [],
     "num": 2,
-    "openType": 83,
+    "openType": 18,
     "targetIds": [
-      "[]"
+      "[401]"
     ],
     "textJson": [
       {
@@ -1143,9 +1171,9 @@
     "flagType": 65,
     "imageIds": [],
     "num": 2,
-    "openType": 83,
+    "openType": 18,
     "targetIds": [
-      "[]"
+      "[401]"
     ],
     "textJson": [
       {
@@ -1363,7 +1391,7 @@
           0,
           24
         ],
-        "text": "\n總體戰中登場的ORT持有極高的HP。\n對其造成傷害降低其「HP」，\n而所減少的HP將延續至下一場戰鬥。\n\n此外，即便戰鬥全滅無法接關，\n所減少的「HP」也將延續至下一場戰鬥中。\n\n如果在戰鬥中撤退，所減少的「HP」便無法延續至下一場戰鬥，\n「HP」將回復至該場戰鬥開始前的數值。",
+        "text": "\n總體戰中登場的ORT持有極高的HP。\n對其造成傷害降低其「HP」，\n而所減少的HP將延續至下一場戰鬥。\n\n此外，即便戰鬥全滅無法接關，\n所減少的「HP」也將延續至下一場戰鬥中。\n\n如果在戰鬥中撤退，所減少的「HP」便無法延續至下一場戰鬥，\n「HP」將恢復至該場戰鬥開始前的數值。",
         "ptPos": [
           0,
           0
@@ -2912,7 +2940,13 @@
     "targetIds": [
       "[1]",
       "[2]",
-      "[3]"
+      "[3]",
+      "[4]",
+      "[5]",
+      "[6]",
+      "[50028581]",
+      "[50028631]",
+      "[50028671]"
     ],
     "textJson": ""
   },
@@ -2961,23 +2995,46 @@
     "eventId": -6,
     "flagType": 2,
     "imageIds": [
-      2012
+      2018
     ],
     "num": 14,
     "openType": 34,
     "targetIds": [
-      "[50021861]",
-      "[50021871]",
-      "[50021881]",
-      "[50021891]",
-      "[50021901]",
-      "[50021911]",
-      "[50021921]",
-      "[50021931]",
-      "[50021941]",
-      "[50021951]",
-      "[50021961]",
-      "[50021971]"
+      "[5003017]",
+      "[5003018]",
+      "[5003019]",
+      "[5003020]",
+      "[5003021]",
+      "[5003022]",
+      "[5003023]",
+      "[5003024]",
+      "[5003025]",
+      "[5003026]",
+      "[5003027]",
+      "[5003028]",
+      "[5003029]",
+      "[5003030]",
+      "[5003031]",
+      "[5003032]",
+      "[5003033]",
+      "[5003034]",
+      "[5003035]",
+      "[5003036]",
+      "[5003037]",
+      "[5003038]",
+      "[5003039]",
+      "[5003040]",
+      "[5003041]",
+      "[5003042]",
+      "[5003043]",
+      "[5003044]",
+      "[5003045]",
+      "[5003046]",
+      "[5003047]",
+      "[5003048]",
+      "[5003049]",
+      "[5003050]",
+      "[5003051]"
     ],
     "textJson": ""
   },
@@ -3365,7 +3422,7 @@
     "num": 15,
     "openType": 34,
     "targetIds": [
-      "[5002931]"
+      "[50024111]"
     ],
     "textJson": ""
   },
@@ -3383,7 +3440,7 @@
     "num": 16,
     "openType": 34,
     "targetIds": [
-      "[5002931]"
+      "[50024111]"
     ],
     "textJson": ""
   },
@@ -3401,65 +3458,25 @@
     "num": 17,
     "openType": 34,
     "targetIds": [
-      "[5002914]",
-      "[5002915]",
-      "[5002916]",
-      "[5002917]",
-      "[5002918]",
-      "[5002919]",
-      "[5002920]",
-      "[5002921]",
-      "[5002922]",
-      "[5002923]",
-      "[5002924]",
-      "[5002925]",
-      "[5002926]",
-      "[5002927]",
-      "[5002928]",
-      "[5002929]",
-      "[5002930]"
+      "[50024201]",
+      "[50024211]",
+      "[50024221]",
+      "[50024231]",
+      "[50024241]",
+      "[50024251]",
+      "[50024261]",
+      "[50024271]",
+      "[50024281]",
+      "[50024291]",
+      "[50024301]",
+      "[50024311]",
+      "[50024321]",
+      "[50024331]",
+      "[50024341]",
+      "[50024351]",
+      "[50024361]"
     ],
     "textJson": ""
-  },
-  {
-    "condIds": [
-      4000426
-    ],
-    "condType": 1,
-    "condValue": 0,
-    "condValue2": 0,
-    "condValue3": 0,
-    "eventId": -6,
-    "flagType": 32,
-    "imageIds": [],
-    "num": 18,
-    "openType": 34,
-    "targetIds": [
-      "[1]"
-    ],
-    "textJson": [
-      {
-        "rects": [],
-        "textPos": [
-          0,
-          13
-        ],
-        "text": "\n本召喚是通常的友情點數召喚。\n「岸波白野」的召喚機率為[ffff00]通常機率[-]。\n\n[ffff00]限時「岸波白野」召喚機率3倍的召喚為\n「限時岸波白野PICKUP友情點數召喚」\n請務必注意。[-]",
-        "ptPos": [
-          0,
-          0
-        ],
-        "dlgFontSize": 26,
-        "dlgBgId": 0,
-        "spacingY": 0,
-        "title": "請注意",
-        "isFortification": false,
-        "isClassBoardRelease": false,
-        "isQuestRelease": false,
-        "questId": 0,
-        "isSelectBonus": false
-      }
-    ]
   },
   {
     "condIds": [],
@@ -3564,7 +3581,10 @@
     "num": 21,
     "openType": 34,
     "targetIds": [
-      "[1]"
+      "[1]",
+      "[4]",
+      "[5]",
+      "[6]"
     ],
     "textJson": [
       {
@@ -4078,7 +4098,7 @@
     "num": 1,
     "openType": 66,
     "targetIds": [
-      "[10840]"
+      "[10921]"
     ],
     "textJson": ""
   },
@@ -4133,6 +4153,42 @@
     "openType": 20240122,
     "targetIds": [
       "[59000003]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 71523,
+    "flagType": 1,
+    "imageIds": [
+      1182,
+      1183,
+      1184
+    ],
+    "num": 1,
+    "openType": 74,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 71558,
+    "flagType": 65,
+    "imageIds": [],
+    "num": 1,
+    "openType": 0,
+    "targetIds": [
+      "[]"
     ],
     "textJson": ""
   },
@@ -5222,7 +5278,7 @@
           0,
           24
         ],
-        "text": "在「復刻:鬼哭醉夢魔京羅生門短程版」的討伐戰中，\n即使戰鬥失敗，也能獲得以下獎勵。\n『傷害點數』『羈絆點數』『御主經驗』\n『魔術禮裝經驗』『友情點數』『戰利品』\n\n此外，具體獎勵內容取決於戰鬥中\n對強大敵人造成的傷害量。",
+        "text": "在「復刻：鬼哭醉夢魔京羅生門短程版」的討伐戰中，\n即使戰鬥失敗，也能獲得以下獎勵。\n『傷害點數』『羈絆點數』『御主經驗』\n『魔術禮裝經驗』『友情點數』『戰利品』\n\n此外，具體獎勵內容取決於戰鬥中\n對強大敵人造成的傷害量。",
         "ptPos": [
           0,
           0
@@ -14774,7 +14830,7 @@
           30
         ],
         "dlgFontSize": 26,
-        "text": "【復刻:Grand尼祿祭～2023EarlySummer～】\n為復刻活動。\n\n若在過去的【尼祿祭再臨～2019Autumn～】中\n獲得過靈衣「奧林匹亞體操服」開放權，\n則在本次活動中將被替換成\n『稀有魔力稜鏡1個』",
+        "text": "【復刻：Grand尼祿祭～2023EarlySummer～】\n為復刻活動。\n\n若在過去的【尼祿祭再臨～2019Autumn～】中\n獲得過靈衣「奧林匹亞體操服」開放權，\n則在本次活動中將被替換成\n『稀有魔力稜鏡1個』",
         "ptPos": [
           0,
           0
@@ -24396,6 +24452,118 @@
     "textJson": ""
   },
   {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80514,
+    "flagType": 65,
+    "imageIds": [
+      1175,
+      1176,
+      1177
+    ],
+    "num": 1,
+    "openType": 4,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80514,
+    "flagType": 66,
+    "imageIds": [
+      1178
+    ],
+    "num": 1,
+    "openType": 22,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80514,
+    "flagType": 67,
+    "imageIds": [
+      1175
+    ],
+    "num": 1,
+    "openType": 23,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80514,
+    "flagType": 68,
+    "imageIds": [
+      1177,
+      1176
+    ],
+    "num": 1,
+    "openType": 24,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80514,
+    "flagType": 69,
+    "imageIds": [
+      1178,
+      1176
+    ],
+    "num": 1,
+    "openType": 25,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80514,
+    "flagType": 70,
+    "imageIds": [
+      1175
+    ],
+    "num": 1,
+    "openType": 44,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
     "condIds": [
       20140702
     ],
@@ -24426,5 +24594,1601 @@
         ]
       }
     ]
+  },
+  {
+    "condIds": [
+      94141202
+    ],
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80518,
+    "flagType": 65,
+    "imageIds": [
+      1179
+    ],
+    "num": 1,
+    "openType": 1,
+    "targetIds": [
+      "[9189]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [
+      94141202
+    ],
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80518,
+    "flagType": 66,
+    "imageIds": [],
+    "num": 1,
+    "openType": 1,
+    "targetIds": [
+      "[9189]"
+    ],
+    "textJson": [
+      {
+        "rects": [],
+        "textPos": [
+          0,
+          38
+        ],
+        "dlgFontSize": 26,
+        "text": "在「市中心」\n出現了特別觀光任務。\n\n通關特別觀光任務，\n提升幸福計數點數吧！",
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "condIds": [
+      94141203
+    ],
+    "condType": 46,
+    "condValue": 6,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80518,
+    "flagType": 67,
+    "imageIds": [],
+    "num": 1,
+    "openType": 1,
+    "targetIds": [
+      "[9189]"
+    ],
+    "textJson": [
+      {
+        "rects": [],
+        "textPos": [
+          0,
+          38
+        ],
+        "dlgFontSize": 26,
+        "text": "在「杜拜海灘」\n出現了特別觀光任務。\n\n通關特別觀光任務，\n提升幸福計數點數吧！",
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "condIds": [
+      94141204
+    ],
+    "condType": 46,
+    "condValue": 3,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80518,
+    "flagType": 68,
+    "imageIds": [],
+    "num": 1,
+    "openType": 1,
+    "targetIds": [
+      "[9189]"
+    ],
+    "textJson": [
+      {
+        "rects": [],
+        "textPos": [
+          0,
+          38
+        ],
+        "dlgFontSize": 26,
+        "text": "在「杜拜購物中心」\n出現了特別觀光任務。\n\n通關特別觀光任務，\n提升幸福計數點數吧！",
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "condIds": [
+      94141205
+    ],
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80518,
+    "flagType": 69,
+    "imageIds": [],
+    "num": 1,
+    "openType": 1,
+    "targetIds": [
+      "[9189]"
+    ],
+    "textJson": [
+      {
+        "rects": [],
+        "textPos": [
+          0,
+          38
+        ],
+        "dlgFontSize": 26,
+        "text": "在「杜拜海灘」\n出現了特別觀光任務。\n\n通關特別觀光任務，\n提升幸福計數點數吧！",
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "condIds": [
+      94141207
+    ],
+    "condType": 46,
+    "condValue": 1,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80518,
+    "flagType": 70,
+    "imageIds": [],
+    "num": 1,
+    "openType": 1,
+    "targetIds": [
+      "[9189]"
+    ],
+    "textJson": [
+      {
+        "rects": [],
+        "textPos": [
+          0,
+          38
+        ],
+        "dlgFontSize": 26,
+        "text": "在「商業街」\n出現了特別觀光任務。\n\n通關特別觀光任務，\n提升幸福計數點數吧！",
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "condIds": [
+      94141208
+    ],
+    "condType": 46,
+    "condValue": 2,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80518,
+    "flagType": 71,
+    "imageIds": [],
+    "num": 1,
+    "openType": 1,
+    "targetIds": [
+      "[9189]"
+    ],
+    "textJson": [
+      {
+        "rects": [],
+        "textPos": [
+          0,
+          38
+        ],
+        "dlgFontSize": 26,
+        "text": "在「郊外的沙漠」\n出現了特別觀光任務。\n\n通關特別觀光任務，\n提升幸福計數點數吧！",
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "condIds": [
+      94141209
+    ],
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80518,
+    "flagType": 72,
+    "imageIds": [],
+    "num": 1,
+    "openType": 1,
+    "targetIds": [
+      "[9189]"
+    ],
+    "textJson": [
+      {
+        "rects": [],
+        "textPos": [
+          0,
+          38
+        ],
+        "dlgFontSize": 26,
+        "text": "在「郊外的沙漠」\n出現了特別觀光任務。\n\n通關特別觀光任務，\n提升幸福計數點數吧！",
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "condIds": [
+      94141210
+    ],
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80518,
+    "flagType": 73,
+    "imageIds": [],
+    "num": 1,
+    "openType": 1,
+    "targetIds": [
+      "[9189]"
+    ],
+    "textJson": [
+      {
+        "rects": [],
+        "textPos": [
+          0,
+          38
+        ],
+        "dlgFontSize": 26,
+        "text": "在「舊杜拜」\n出現了特別觀光任務。\n\n通關特別觀光任務，\n提升幸福計數點數吧！",
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "condIds": [
+      94141212
+    ],
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80518,
+    "flagType": 74,
+    "imageIds": [],
+    "num": 1,
+    "openType": 1,
+    "targetIds": [
+      "[9189]"
+    ],
+    "textJson": [
+      {
+        "rects": [],
+        "textPos": [
+          0,
+          38
+        ],
+        "dlgFontSize": 26,
+        "text": "在「馬里昂飯店」\n出現了特別觀光任務。\n\n通關特別觀光任務，\n提升幸福計數點數吧！",
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80520,
+    "flagType": 65,
+    "imageIds": [
+      1180
+    ],
+    "num": 1,
+    "openType": 20,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80520,
+    "flagType": 66,
+    "imageIds": [
+      1181
+    ],
+    "num": 1,
+    "openType": 21,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80520,
+    "flagType": 67,
+    "imageIds": [
+      1180
+    ],
+    "num": 1,
+    "openType": 23,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80520,
+    "flagType": 68,
+    "imageIds": [
+      1181
+    ],
+    "num": 1,
+    "openType": 24,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [
+      20142102
+    ],
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80523,
+    "flagType": 65,
+    "imageIds": [],
+    "num": 1,
+    "openType": 2,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": [
+      {
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "dlgFontSize": 20,
+        "text": "「奏章Ⅱ」通關支援活動回顧任務開放！\n\n由於「奏章Ⅱ不可逆廢棄孔本我」已通關，\n[FFA500]「奏章Ⅱ不可逆廢棄孔本我」的地圖內[-]\n已開放「回顧任務」。\n\n在「回顧任務」中，\n可以同時回顧「奏章Ⅱ不可逆廢棄孔本我」中\n[FFA500]讓人印象深刻任務的劇情與戰鬥部分[-]。\n\n另外，將「回顧任務」的難度調整為面向高手的\n超高難度的「超級回顧任務」也會登場！\n對自己的實力有自信的御主請務必挑戰！\n\n",
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "condIds": [
+      20143204
+    ],
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80530,
+    "flagType": 65,
+    "imageIds": [],
+    "num": 1,
+    "openType": 2,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": [
+      {
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "dlgFontSize": 20,
+        "text": "「奏章Ⅲ」通關支援活動回顧任務開放！\n\n由於「奏章Ⅲ新靈長後繼戰原型肇始」已通關，\n[FFA500]「奏章Ⅲ新靈長後繼戰原型肇始」的地圖內[-]\n已開放「回顧任務」。\n\n在「回顧任務」中，\n可以同時回顧「奏章Ⅲ新靈長後繼戰原型肇始」中\n[FFA500]讓人印象深刻任務的劇情與戰鬥部分[-]。\n\n另外，將「回顧任務」的難度調整為面向高手的\n超高難度的「超級回顧任務」也會登場！\n對自己的實力有自信的御主請務必挑戰！\n\n",
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80534,
+    "flagType": 1,
+    "imageIds": [
+      1185
+    ],
+    "num": 1,
+    "openType": 4,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80534,
+    "flagType": 18,
+    "imageIds": [
+      1189
+    ],
+    "num": 1,
+    "openType": 20,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80534,
+    "flagType": 19,
+    "imageIds": [
+      1185,
+      1186,
+      1187
+    ],
+    "num": 1,
+    "openType": 21,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80534,
+    "flagType": 21,
+    "imageIds": [
+      1189
+    ],
+    "num": 1,
+    "openType": 23,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80534,
+    "flagType": 22,
+    "imageIds": [
+      1186,
+      1187,
+      1188
+    ],
+    "num": 1,
+    "openType": 24,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80534,
+    "flagType": 23,
+    "imageIds": [
+      1185
+    ],
+    "num": 1,
+    "openType": 25,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80540,
+    "flagType": 43,
+    "imageIds": [
+      1190
+    ],
+    "num": 1,
+    "openType": 45,
+    "targetIds": [
+      "[94144700,2]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80540,
+    "flagType": 65,
+    "imageIds": [
+      1191
+    ],
+    "num": 1,
+    "openType": 4,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [
+      94144703
+    ],
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80540,
+    "flagType": 66,
+    "imageIds": [
+      1192,
+      1193
+    ],
+    "num": 1,
+    "openType": 18,
+    "targetIds": [
+      "[8394]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80540,
+    "flagType": 67,
+    "imageIds": [
+      1191
+    ],
+    "num": 1,
+    "openType": 23,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [
+      94144703
+    ],
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80540,
+    "flagType": 68,
+    "imageIds": [
+      1192,
+      1193,
+      1195
+    ],
+    "num": 1,
+    "openType": 24,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80540,
+    "flagType": 69,
+    "imageIds": [
+      1191
+    ],
+    "num": 1,
+    "openType": 25,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [
+      94144710
+    ],
+    "condType": 51,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80540,
+    "flagType": 70,
+    "imageIds": [],
+    "num": 1,
+    "openType": 18,
+    "targetIds": [
+      "[8394]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [
+      94144801
+    ],
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80540,
+    "flagType": 71,
+    "imageIds": [],
+    "num": 1,
+    "openType": 18,
+    "targetIds": [
+      "[8394]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [
+      94144802
+    ],
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80540,
+    "flagType": 72,
+    "imageIds": [],
+    "num": 1,
+    "openType": 18,
+    "targetIds": [
+      "[8394]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [
+      94144803
+    ],
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80540,
+    "flagType": 73,
+    "imageIds": [],
+    "num": 1,
+    "openType": 18,
+    "targetIds": [
+      "[8394]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [
+      94144804
+    ],
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80540,
+    "flagType": 74,
+    "imageIds": [],
+    "num": 1,
+    "openType": 18,
+    "targetIds": [
+      "[8394]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [
+      94144711
+    ],
+    "condType": 51,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80540,
+    "flagType": 75,
+    "imageIds": [],
+    "num": 1,
+    "openType": 18,
+    "targetIds": [
+      "[8394]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [
+      94144805
+    ],
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80540,
+    "flagType": 76,
+    "imageIds": [],
+    "num": 1,
+    "openType": 18,
+    "targetIds": [
+      "[8394]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [
+      94144806
+    ],
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80540,
+    "flagType": 77,
+    "imageIds": [],
+    "num": 1,
+    "openType": 18,
+    "targetIds": [
+      "[8394]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [
+      94144807
+    ],
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80540,
+    "flagType": 78,
+    "imageIds": [],
+    "num": 1,
+    "openType": 18,
+    "targetIds": [
+      "[8394]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [
+      94144808
+    ],
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80540,
+    "flagType": 79,
+    "imageIds": [],
+    "num": 1,
+    "openType": 18,
+    "targetIds": [
+      "[8394]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [
+      8054002
+    ],
+    "condType": 67,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80540,
+    "flagType": 80,
+    "imageIds": [],
+    "num": 1,
+    "openType": 18,
+    "targetIds": [
+      "[8394]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [
+      20144702
+    ],
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80540,
+    "flagType": 81,
+    "imageIds": [],
+    "num": 1,
+    "openType": 18,
+    "targetIds": [
+      "[8394]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [
+      94144710
+    ],
+    "condType": 46,
+    "condValue": 2,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80540,
+    "flagType": 82,
+    "imageIds": [],
+    "num": 1,
+    "openType": 18,
+    "targetIds": [
+      "[8394]"
+    ],
+    "textJson": [
+      {
+        "rects": [],
+        "textPos": [
+          0,
+          36
+        ],
+        "text": "由於堤豐遭到囚禁，\n在劇情任務中，堤豐將\n無法賦予純血龍支援。\n\n在奪回堤豐之前，尚未執行的\n提豐翻修任務也將暫時無法挑戰。\n",
+        "ptPos": [
+          0,
+          0
+        ],
+        "dlgFontSize": 26,
+        "dlgBgId": 0,
+        "spacingY": 0,
+        "isFortification": false,
+        "isClassBoardRelease": false,
+        "isQuestRelease": false,
+        "commonReleaseId": 0,
+        "questId": 0,
+        "isSelectBonus": false
+      }
+    ]
+  },
+  {
+    "condIds": [
+      94144712
+    ],
+    "condType": 46,
+    "condValue": 2,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80540,
+    "flagType": 83,
+    "imageIds": [],
+    "num": 1,
+    "openType": 18,
+    "targetIds": [
+      "[8394]"
+    ],
+    "textJson": [
+      {
+        "rects": [],
+        "textPos": [
+          0,
+          36
+        ],
+        "text": "由於堤豐停止運行，\n在劇情任務中，堤豐將\n無法賦予純血龍支援。\n\n尚未執行的提豐翻修任務\n也將暫時無法挑戰。\n",
+        "ptPos": [
+          0,
+          0
+        ],
+        "dlgFontSize": 26,
+        "dlgBgId": 0,
+        "spacingY": 0,
+        "isFortification": false,
+        "isClassBoardRelease": false,
+        "isQuestRelease": false,
+        "commonReleaseId": 0,
+        "questId": 0,
+        "isSelectBonus": false
+      }
+    ]
+  },
+  {
+    "condIds": [
+      94144713
+    ],
+    "condType": 46,
+    "condValue": 1,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80540,
+    "flagType": 84,
+    "imageIds": [],
+    "num": 1,
+    "openType": 18,
+    "targetIds": [
+      "[8394]"
+    ],
+    "textJson": [
+      {
+        "rects": [],
+        "title": "堤豐翻修重置功能開放",
+        "textPos": [
+          0,
+          13
+        ],
+        "text": "在翻修商店進行的追加翻修\n可以重置了。\n\n另外，通關尾聲後追加的\n增壓翻修也可以自由重置。\n※劇情進行的翻修不可重置。\n\n各翻修消耗的超級螺栓將被歸還。\n",
+        "ptPos": [
+          0,
+          0
+        ],
+        "dlgFontSize": 24,
+        "dlgBgId": 0,
+        "spacingY": 0,
+        "isFortification": false,
+        "isClassBoardRelease": false,
+        "isQuestRelease": false,
+        "commonReleaseId": 0,
+        "questId": 0,
+        "isSelectBonus": false
+      }
+    ]
+  },
+  {
+    "condIds": [
+      8054003
+    ],
+    "condType": 67,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80540,
+    "flagType": 85,
+    "imageIds": [],
+    "num": 1,
+    "openType": 18,
+    "targetIds": [
+      "[8394]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [
+      8054003
+    ],
+    "condType": 67,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80540,
+    "flagType": 86,
+    "imageIds": [],
+    "num": 1,
+    "openType": 18,
+    "targetIds": [
+      "[8394]"
+    ],
+    "textJson": [
+      {
+        "rects": [],
+        "textPos": [
+          0,
+          28
+        ],
+        "text": "可在翻修商店進行的翻修數量\n增加[FFFF00]2次[-]。\n",
+        "ptPos": [
+          0,
+          0
+        ],
+        "dlgFontSize": 26,
+        "dlgBgId": 0,
+        "spacingY": 0,
+        "isFortification": false,
+        "isClassBoardRelease": false,
+        "isQuestRelease": false,
+        "commonReleaseId": 0,
+        "questId": 0,
+        "isSelectBonus": false
+      }
+    ]
+  },
+  {
+    "condIds": [
+      94144706
+    ],
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80540,
+    "flagType": 87,
+    "imageIds": [
+      1195
+    ],
+    "num": 1,
+    "openType": 18,
+    "targetIds": [
+      "[8394]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [
+      94144703
+    ],
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80540,
+    "flagType": 88,
+    "imageIds": [],
+    "num": 1,
+    "openType": 18,
+    "targetIds": [
+      "[8394]"
+    ],
+    "textJson": [
+      {
+        "rects": [],
+        "textPos": [
+          0,
+          36
+        ],
+        "text": "～注意～\n\n通關任一堤豐的翻修任務後，\n在透過下一個開放的主線任務之前，\n將暫時無法挑戰其他翻修任務。\n",
+        "ptPos": [
+          0,
+          0
+        ],
+        "dlgFontSize": 26,
+        "dlgBgId": 0,
+        "spacingY": 0,
+        "isFortification": false,
+        "isClassBoardRelease": false,
+        "isQuestRelease": false,
+        "commonReleaseId": 0,
+        "questId": 0,
+        "isSelectBonus": false
+      }
+    ]
+  },
+  {
+    "condIds": [
+      94144707
+    ],
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80540,
+    "flagType": 89,
+    "imageIds": [],
+    "num": 1,
+    "openType": 18,
+    "targetIds": [
+      "[8394]"
+    ],
+    "textJson": [
+      {
+        "rects": [],
+        "textPos": [
+          0,
+          36
+        ],
+        "text": "～注意～\n\n通關任一堤豐的翻修任務後，\n在透過下一個開放的主線任務之前，\n將暫時無法挑戰其他翻修任務。\n",
+        "ptPos": [
+          0,
+          0
+        ],
+        "dlgFontSize": 26,
+        "dlgBgId": 0,
+        "spacingY": 0,
+        "isFortification": false,
+        "isClassBoardRelease": false,
+        "isQuestRelease": false,
+        "commonReleaseId": 0,
+        "questId": 0,
+        "isSelectBonus": false
+      }
+    ]
+  },
+  {
+    "condIds": [
+      94144851
+    ],
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80540,
+    "flagType": 90,
+    "imageIds": [],
+    "num": 1,
+    "openType": 18,
+    "targetIds": [
+      "[8394]"
+    ],
+    "textJson": [
+      {
+        "rects": [],
+        "title": "增壓完成",
+        "textPos": [
+          0,
+          13
+        ],
+        "text": "純血龍支援「主砲支援」已完成強化。\n\n＜強化前＞\n我方全體<包括替補>的寶具威力提升\n↓\n＜強化後＞\n我方全體<包括替補>的寶具威力提升＋\n我方全體<包括替補>的寶具威力提升[FFFF00]▲[-]\n",
+        "ptPos": [
+          0,
+          0
+        ],
+        "dlgFontSize": 24,
+        "dlgBgId": 0,
+        "spacingY": 0,
+        "isFortification": false,
+        "isClassBoardRelease": false,
+        "isQuestRelease": false,
+        "commonReleaseId": 0,
+        "questId": 0,
+        "isSelectBonus": false
+      }
+    ]
+  },
+  {
+    "condIds": [
+      94144852
+    ],
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80540,
+    "flagType": 91,
+    "imageIds": [],
+    "num": 1,
+    "openType": 18,
+    "targetIds": [
+      "[8394]"
+    ],
+    "textJson": [
+      {
+        "rects": [],
+        "title": "增壓完成",
+        "textPos": [
+          0,
+          13
+        ],
+        "text": "純血龍支援「副砲支援」已完成強化。\n\n＜強化前＞\n我方全體<包括替補>的爆擊威力提升\n↓\n＜強化後＞\n我方全體<包括替補>的爆擊威力提升＋\n我方全體<包括替補>的爆擊威力提升[FFFF00]▲[-]\n",
+        "ptPos": [
+          0,
+          0
+        ],
+        "dlgFontSize": 24,
+        "dlgBgId": 0,
+        "spacingY": 0,
+        "isFortification": false,
+        "isClassBoardRelease": false,
+        "isQuestRelease": false,
+        "commonReleaseId": 0,
+        "questId": 0,
+        "isSelectBonus": false
+      }
+    ]
+  },
+  {
+    "condIds": [
+      94144853
+    ],
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80540,
+    "flagType": 92,
+    "imageIds": [],
+    "num": 1,
+    "openType": 18,
+    "targetIds": [
+      "[8394]"
+    ],
+    "textJson": [
+      {
+        "rects": [],
+        "title": "增壓完成",
+        "textPos": [
+          0,
+          13
+        ],
+        "text": "純血龍支援「龍之場域」已完成強化。\n\n＜強化前＞\n我方全體<包括替補>的防禦力提升\n↓\n＜強化後＞\n我方全體<包括替補>的防禦力提升＋\n賦予我方全體<包括替補>的被傷害\n減免1000的狀態[FFFF00]▲[-]\n",
+        "ptPos": [
+          0,
+          0
+        ],
+        "dlgFontSize": 24,
+        "dlgBgId": 0,
+        "spacingY": 0,
+        "isFortification": false,
+        "isClassBoardRelease": false,
+        "isQuestRelease": false,
+        "commonReleaseId": 0,
+        "questId": 0,
+        "isSelectBonus": false
+      }
+    ]
+  },
+  {
+    "condIds": [
+      94144854
+    ],
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80540,
+    "flagType": 93,
+    "imageIds": [],
+    "num": 1,
+    "openType": 18,
+    "targetIds": [
+      "[8394]"
+    ],
+    "textJson": [
+      {
+        "rects": [],
+        "title": "增壓完成",
+        "textPos": [
+          0,
+          13
+        ],
+        "text": "純血龍支援「宇宙光柵」已完成強化。\n\n＜強化前＞\n賦予我方全體<包括替補>迴避狀態\n↓\n＜強化後＞\n賦予我方全體<包括替補>迴避狀態＋\n賦予我方全體<包括替補>每回合\n獲得5個爆擊星的狀態[FFFF00]▲[-]\n",
+        "ptPos": [
+          0,
+          0
+        ],
+        "dlgFontSize": 24,
+        "dlgBgId": 0,
+        "spacingY": 0,
+        "isFortification": false,
+        "isClassBoardRelease": false,
+        "isQuestRelease": false,
+        "commonReleaseId": 0,
+        "questId": 0,
+        "isSelectBonus": false
+      }
+    ]
+  },
+  {
+    "condIds": [
+      94144855
+    ],
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80540,
+    "flagType": 94,
+    "imageIds": [],
+    "num": 1,
+    "openType": 18,
+    "targetIds": [
+      "[8394]"
+    ],
+    "textJson": [
+      {
+        "rects": [],
+        "title": "增壓完成",
+        "textPos": [
+          0,
+          13
+        ],
+        "text": "純血龍支援「自我修復」已完成強化。\n\n＜強化前＞\n賦予我方全體<包括替補>每回合恢復HP的狀態\n＆賦予毅力狀態\n↓\n＜強化後＞\n賦予我方全體<包括替補>每回合恢復HP的狀態\n＆賦予毅力狀態＋\n賦予我方全體<包括替補>每回合獲得10%NP的狀態[FFFF00]▲[-]\n",
+        "ptPos": [
+          0,
+          0
+        ],
+        "dlgFontSize": 24,
+        "dlgBgId": 0,
+        "spacingY": 0,
+        "isFortification": false,
+        "isClassBoardRelease": false,
+        "isQuestRelease": false,
+        "commonReleaseId": 0,
+        "questId": 0,
+        "isSelectBonus": false
+      }
+    ]
+  },
+  {
+    "condIds": [
+      94144713
+    ],
+    "condType": 46,
+    "condValue": 1,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80540,
+    "flagType": 95,
+    "imageIds": [],
+    "num": 1,
+    "openType": 18,
+    "targetIds": [
+      "[8394]"
+    ],
+    "textJson": [
+      {
+        "rects": [],
+        "title": "增壓翻修開放",
+        "textPos": [
+          0,
+          13
+        ],
+        "text": "可進一步強化部分純血龍支援功能的\n增壓翻修任務開放了。\n\n※增壓翻修任務沒有劇情。\n",
+        "ptPos": [
+          0,
+          0
+        ],
+        "dlgFontSize": 24,
+        "dlgBgId": 0,
+        "spacingY": 0,
+        "isFortification": false,
+        "isClassBoardRelease": false,
+        "isQuestRelease": false,
+        "commonReleaseId": 0,
+        "questId": 0,
+        "isSelectBonus": false
+      }
+    ]
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80543,
+    "flagType": 65,
+    "imageIds": [],
+    "num": 1,
+    "openType": 0,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80549,
+    "flagType": 65,
+    "imageIds": [
+      1196,
+      1197,
+      1198
+    ],
+    "num": 1,
+    "openType": 4,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80549,
+    "flagType": 66,
+    "imageIds": [
+      1197,
+      1198
+    ],
+    "num": 1,
+    "openType": 23,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80549,
+    "flagType": 67,
+    "imageIds": [
+      1196
+    ],
+    "num": 1,
+    "openType": 24,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80549,
+    "flagType": 68,
+    "imageIds": [
+      1199
+    ],
+    "num": 1,
+    "openType": 72,
+    "targetIds": [
+      "[805491, 10]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [
+      94145801
+    ],
+    "condType": 46,
+    "condValue": 3,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80549,
+    "flagType": 69,
+    "imageIds": [
+      1200,
+      1201
+    ],
+    "num": 1,
+    "openType": 104,
+    "targetIds": [
+      "[8397]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [
+      80549
+    ],
+    "condType": 119,
+    "condValue": 10,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80549,
+    "flagType": 70,
+    "imageIds": [
+      1202
+    ],
+    "num": 1,
+    "openType": 103,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [
+      80549
+    ],
+    "condType": 119,
+    "condValue": 10,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80549,
+    "flagType": 70,
+    "imageIds": [
+      1202
+    ],
+    "num": 2,
+    "openType": 4,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80551,
+    "flagType": 65,
+    "imageIds": [],
+    "num": 1,
+    "openType": 0,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
+  },
+  {
+    "condIds": [],
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "eventId": 80555,
+    "flagType": 65,
+    "imageIds": [],
+    "num": 1,
+    "openType": 0,
+    "targetIds": [
+      "[]"
+    ],
+    "textJson": ""
   }
 ]
