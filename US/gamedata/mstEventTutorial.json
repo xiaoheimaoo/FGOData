@@ -69,6 +69,75 @@
       "[]"
     ],
     "condIds": [
+      20137404
+    ],
+    "imageIds": [
+      1147
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": -130,
+    "flagType": 1,
+    "num": 2,
+    "priority": 1,
+    "openType": 2,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      20137401
+    ],
+    "imageIds": [
+      1146
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": -129,
+    "flagType": 1,
+    "num": 1,
+    "priority": 0,
+    "openType": 2,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      20137402
+    ],
+    "imageIds": [
+      1147
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": -129,
+    "flagType": 1,
+    "num": 2,
+    "priority": 1,
+    "openType": 2,
+    "condType": 113,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
       20099501
     ],
     "imageIds": [],
@@ -3747,6 +3816,91 @@
     "flagType": 32,
     "num": 17,
     "priority": 0,
+    "openType": 34,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[1]"
+    ],
+    "condIds": [
+      4000426
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "isClassBoardRelease": false,
+        "dlgBgId": 0,
+        "title": "Warning",
+        "ptPos": [
+          0,
+          0
+        ],
+        "isQuestRelease": false,
+        "text": "\nThis summon is the normal Friend Point Summon. Kishinami Hakuno is summonable with the [ffff00]normal drop rate.[-]\n\n[ffff00]The summon where Kishinami Hakuno is available with a 3x drop rate for a limited time is the \"Limited Time Kishinami Hakuno Pickup Friend Point Summon\".[-]",
+        "rects": [],
+        "spacingY": 0,
+        "dlgFontSize": 26,
+        "textPos": [
+          0,
+          13
+        ],
+        "isFortification": false,
+        "isSelectBonus": false,
+        "questId": 0
+      }
+    ],
+    "script": {},
+    "eventId": -6,
+    "flagType": 32,
+    "num": 18,
+    "priority": 2,
+    "openType": 34,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[2]",
+      "[3]"
+    ],
+    "condIds": [],
+    "imageIds": [],
+    "textJson": [
+      {
+        "isClassBoardRelease": false,
+        "dlgBgId": 0,
+        "rects": [],
+        "ptPos": [
+          0,
+          0
+        ],
+        "isQuestRelease": false,
+        "text": "Limited Time Kishinami Hakuno Pickup Friend Point Summon\n\nIn this summon, the chance to summon \"Kishinami Hakuno\" is three times higher than in a standard Friend Point Summon!\n* No other ★4 (SR) Servants will be summoned.\n\n[Kishinami Hakuno's Gender]\n* The Spirit Origin of the \"Kishinami Hakuno\" summoned will be limited to the gender you selected after completing \"Ordeal Call III: Bellum Novae Humanitatis, Archetype Inception.\"\n[ffff00]* The Spirit Origin of the gender you did not select will not be summoned.[-]\n",
+        "spacingY": 0,
+        "dlgFontSize": 23,
+        "textPos": [
+          0,
+          36
+        ],
+        "messageWidgetSizeX": "720",
+        "isFortification": false,
+        "isSelectBonus": false,
+        "questId": 0
+      }
+    ],
+    "script": {},
+    "eventId": -6,
+    "flagType": 32,
+    "num": 19,
+    "priority": 2,
     "openType": 34,
     "condType": 0,
     "condValue": 0,
@@ -26045,6 +26199,1408 @@
     "priority": 0,
     "openType": 2,
     "condType": 36,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      1134,
+      1135,
+      1140,
+      1136,
+      1137
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 65,
+    "num": 1,
+    "priority": 0,
+    "openType": 4,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      1134,
+      1135,
+      1140,
+      1136,
+      1137
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 66,
+    "num": 1,
+    "priority": 0,
+    "openType": 23,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      1134,
+      1135,
+      1140,
+      1136,
+      1137
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 67,
+    "num": 1,
+    "priority": 0,
+    "openType": 24,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9172]"
+    ],
+    "condIds": [],
+    "imageIds": [
+      1139
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 68,
+    "num": 1,
+    "priority": 0,
+    "openType": 1,
+    "condType": 0,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9172]"
+    ],
+    "condIds": [
+      94101207
+    ],
+    "imageIds": [
+      1141
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 69,
+    "num": 1,
+    "priority": 1,
+    "openType": 1,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9172]"
+    ],
+    "condIds": [
+      94101217
+    ],
+    "imageIds": [
+      1142
+    ],
+    "textJson": [],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 70,
+    "num": 1,
+    "priority": 2,
+    "openType": 1,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[917202]"
+    ],
+    "condIds": [
+      94101201
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "[Father Race Progress Mission]\n\"Complete 'Faerie Sugoroku Insect Cage Game' Free Quests 3 times\" has been unlocked.\n\nClear the mission to move your piece forward!",
+        "dlgFontSize": 25,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 71,
+    "num": 1,
+    "priority": 0,
+    "openType": 3,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9172]"
+    ],
+    "condIds": [
+      94101201
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "[Father Race Progress Mission]\n\"Complete 'Faerie Sugoroku Insect Cage Game' Free Quests 3 times\" has been unlocked.\n\nClear the mission to move your piece forward!",
+        "dlgFontSize": 25,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 71,
+    "num": 2,
+    "priority": 0,
+    "openType": 1,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[917203]"
+    ],
+    "condIds": [
+      94101202
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "[Father Race Progress Mission]\n\"Defeat 3 Chicken-type enemies\" has been unlocked.\n\nClear the mission to move your piece forward!",
+        "dlgFontSize": 25,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 72,
+    "num": 1,
+    "priority": 0,
+    "openType": 3,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9172]"
+    ],
+    "condIds": [
+      94101202
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "[Father Race Progress Mission]\n\"Defeat 3 Chicken-type enemies\" has been unlocked.\n\nClear the mission to move your piece forward!",
+        "dlgFontSize": 25,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 72,
+    "num": 2,
+    "priority": 0,
+    "openType": 1,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[917204]"
+    ],
+    "condIds": [
+      94101203
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "[Father Race Progress Mission]\n\"Defeat 20 Archer-class enemies\" has been unlocked.\n\nClear the mission to move your piece forward!",
+        "dlgFontSize": 25,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 73,
+    "num": 1,
+    "priority": 0,
+    "openType": 3,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9172]"
+    ],
+    "condIds": [
+      94101203
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "[Father Race Progress Mission]\n\"Defeat 20 Archer-class enemies\" has been unlocked.\n\nClear the mission to move your piece forward!",
+        "dlgFontSize": 25,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 73,
+    "num": 2,
+    "priority": 0,
+    "openType": 1,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[917205]"
+    ],
+    "condIds": [
+      94101204
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "[Father Race Progress Mission]\n\"Defeat 30 'Slimy' enemies\" has been unlocked.\n\nClear the mission to move your piece forward!",
+        "dlgFontSize": 25,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 74,
+    "num": 1,
+    "priority": 0,
+    "openType": 3,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9172]"
+    ],
+    "condIds": [
+      94101204
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "[Father Race Progress Mission]\n\"Defeat 30 'Slimy' enemies\" has been unlocked.\n\nClear the mission to move your piece forward!",
+        "dlgFontSize": 25,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 74,
+    "num": 2,
+    "priority": 0,
+    "openType": 1,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[917206]"
+    ],
+    "condIds": [
+      94101205
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "[Father Race Progress Mission]\n\"Defeat 8 Maid Doll-type enemies\" has been unlocked.\n\nClear the mission to move your piece forward!",
+        "dlgFontSize": 25,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 75,
+    "num": 1,
+    "priority": 0,
+    "openType": 3,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9172]"
+    ],
+    "condIds": [
+      94101205
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "[Father Race Progress Mission]\n\"Defeat 8 Maid Doll-type enemies\" has been unlocked.\n\nClear the mission to move your piece forward!",
+        "dlgFontSize": 25,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 75,
+    "num": 2,
+    "priority": 0,
+    "openType": 1,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[917201]"
+    ],
+    "condIds": [
+      94101207
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "[Father Race Progress Mission]\n\"Defeat 7 'Humanoid' enemies\" has been unlocked.\n\nClear the mission to move your piece forward!",
+        "dlgFontSize": 25,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 76,
+    "num": 1,
+    "priority": 0,
+    "openType": 3,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9172]"
+    ],
+    "condIds": [
+      94101207
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "[Father Race Progress Mission]\n\"Defeat 7 'Humanoid' enemies\" has been unlocked.\n\nClear the mission to move your piece forward!",
+        "dlgFontSize": 25,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 76,
+    "num": 2,
+    "priority": 0,
+    "openType": 1,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[917202]"
+    ],
+    "condIds": [
+      94101208
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "[Father Race Progress Mission]\n\"Defeat 4 'Super Giant' enemies\" has been unlocked.\n\nClear the mission to move your piece forward!",
+        "dlgFontSize": 25,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 77,
+    "num": 1,
+    "priority": 0,
+    "openType": 3,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9172]"
+    ],
+    "condIds": [
+      94101208
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "[Father Race Progress Mission]\n\"Defeat 4 'Super Giant' enemies\" has been unlocked.\n\nClear the mission to move your piece forward!",
+        "dlgFontSize": 25,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 77,
+    "num": 2,
+    "priority": 0,
+    "openType": 1,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[917203]"
+    ],
+    "condIds": [
+      94101209
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "[Father Race Progress Mission]\n\"Defeat 30 Hermit Crab-type enemies\" has been unlocked.\n\nClear the mission to move your piece forward!",
+        "dlgFontSize": 25,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 78,
+    "num": 1,
+    "priority": 0,
+    "openType": 3,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9172]"
+    ],
+    "condIds": [
+      94101209
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "[Father Race Progress Mission]\n\"Defeat 30 Hermit Crab-type enemies\" has been unlocked.\n\nClear the mission to move your piece forward!",
+        "dlgFontSize": 25,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 78,
+    "num": 2,
+    "priority": 0,
+    "openType": 1,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[917205]"
+    ],
+    "condIds": [
+      94101210
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "[Father Race Progress Mission]\n\"Defeat 20 'Machine' enemies\" has been unlocked.\n\nClear the mission to move your piece forward!",
+        "dlgFontSize": 25,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 79,
+    "num": 1,
+    "priority": 0,
+    "openType": 3,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9172]"
+    ],
+    "condIds": [
+      94101210
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "[Father Race Progress Mission]\n\"Defeat 20 'Machine' enemies\" has been unlocked.\n\nClear the mission to move your piece forward!",
+        "dlgFontSize": 25,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 79,
+    "num": 2,
+    "priority": 0,
+    "openType": 1,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[917201]"
+    ],
+    "condIds": [
+      94101211
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "[Father Race Progress Mission]\n\"Defeat 30 Rugged Robot-type enemies\" has been unlocked.\n\nClear the mission to move your piece forward!",
+        "dlgFontSize": 25,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 80,
+    "num": 1,
+    "priority": 0,
+    "openType": 3,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9172]"
+    ],
+    "condIds": [
+      94101211
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "[Father Race Progress Mission]\n\"Defeat 30 Rugged Robot-type enemies\" has been unlocked.\n\nClear the mission to move your piece forward!",
+        "dlgFontSize": 25,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 80,
+    "num": 2,
+    "priority": 0,
+    "openType": 1,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[917203]"
+    ],
+    "condIds": [
+      94101212
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "[Father Race Progress Mission]\n\"Defeat 55 'Machine' enemies\" has been unlocked.\n\nClear the mission to move your piece forward!",
+        "dlgFontSize": 25,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 81,
+    "num": 1,
+    "priority": 0,
+    "openType": 3,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9172]"
+    ],
+    "condIds": [
+      94101212
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "[Father Race Progress Mission]\n\"Defeat 55 'Machine' enemies\" has been unlocked.\n\nClear the mission to move your piece forward!",
+        "dlgFontSize": 25,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 81,
+    "num": 2,
+    "priority": 0,
+    "openType": 1,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[917205]"
+    ],
+    "condIds": [
+      94101213
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "[Father Race Progress Mission]\n\"Defeat 10 'Humanoid' enemies\" has been unlocked.\n\nClear the mission to move your piece forward!",
+        "dlgFontSize": 25,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 82,
+    "num": 1,
+    "priority": 0,
+    "openType": 3,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9172]"
+    ],
+    "condIds": [
+      94101213
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "[Father Race Progress Mission]\n\"Defeat 10 'Humanoid' enemies\" has been unlocked.\n\nClear the mission to move your piece forward!",
+        "dlgFontSize": 25,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 82,
+    "num": 2,
+    "priority": 0,
+    "openType": 1,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[917201]"
+    ],
+    "condIds": [
+      94101214
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "[Father Race Progress Mission]\n\"Defeat 35 Rider-class enemies\" has been unlocked.\n\nClear the mission to move your piece forward!",
+        "dlgFontSize": 25,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 83,
+    "num": 1,
+    "priority": 0,
+    "openType": 3,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9172]"
+    ],
+    "condIds": [
+      94101214
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "[Father Race Progress Mission]\n\"Defeat 35 Rider-class enemies\" has been unlocked.\n\nClear the mission to move your piece forward!",
+        "dlgFontSize": 25,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 83,
+    "num": 2,
+    "priority": 0,
+    "openType": 1,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[917202]"
+    ],
+    "condIds": [
+      94101215
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "[Father Race Progress Mission]\n\"Defeat 110 'Armed' enemies\" has been unlocked.\n\nClear the mission to move your piece forward!",
+        "dlgFontSize": 25,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 84,
+    "num": 1,
+    "priority": 0,
+    "openType": 3,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9172]"
+    ],
+    "condIds": [
+      94101215
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "[Father Race Progress Mission]\n\"Defeat 110 'Armed' enemies\" has been unlocked.\n\nClear the mission to move your piece forward!",
+        "dlgFontSize": 25,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 84,
+    "num": 2,
+    "priority": 0,
+    "openType": 1,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[917203]"
+    ],
+    "condIds": [
+      94101216
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "[Father Race Progress Mission]\n\"Defeat 105 'Tailed' enemies\" has been unlocked.\n\nClear the mission to move your piece forward!",
+        "dlgFontSize": 25,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 85,
+    "num": 1,
+    "priority": 0,
+    "openType": 3,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9172]"
+    ],
+    "condIds": [
+      94101216
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "[Father Race Progress Mission]\n\"Defeat 105 'Tailed' enemies\" has been unlocked.\n\nClear the mission to move your piece forward!",
+        "dlgFontSize": 25,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 85,
+    "num": 2,
+    "priority": 0,
+    "openType": 1,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[917204]"
+    ],
+    "condIds": [
+      94101217
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "[Father Race Progress Mission]\n\"Defeat 7 Book-type enemies\" has been unlocked.\n\nClear the mission to move your piece forward!",
+        "dlgFontSize": 25,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 86,
+    "num": 1,
+    "priority": 0,
+    "openType": 3,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9172]"
+    ],
+    "condIds": [
+      94101217
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "[Father Race Progress Mission]\n\"Defeat 7 Book-type enemies\" has been unlocked.\n\nClear the mission to move your piece forward!",
+        "dlgFontSize": 25,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 86,
+    "num": 2,
+    "priority": 0,
+    "openType": 1,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[917205]"
+    ],
+    "condIds": [
+      94101218
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "[Father Race Progress Mission]\n\"Defeat 10 'Super Giant' enemies\" has been unlocked.\n\nClear the mission to move your piece forward!",
+        "dlgFontSize": 25,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 87,
+    "num": 1,
+    "priority": 0,
+    "openType": 3,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9172]"
+    ],
+    "condIds": [
+      94101218
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "[Father Race Progress Mission]\n\"Defeat 10 'Super Giant' enemies\" has been unlocked.\n\nClear the mission to move your piece forward!",
+        "dlgFontSize": 25,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 87,
+    "num": 2,
+    "priority": 0,
+    "openType": 1,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[917206]"
+    ],
+    "condIds": [
+      94101219
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "[Father Race Progress Mission]\n\"Defeat 100 enemies with the Heaven attribute\" has been unlocked.\n\nClear the mission to move your piece forward!",
+        "dlgFontSize": 25,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 88,
+    "num": 1,
+    "priority": 0,
+    "openType": 3,
+    "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[9172]"
+    ],
+    "condIds": [
+      94101219
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "[Father Race Progress Mission]\n\"Defeat 100 enemies with the Heaven attribute\" has been unlocked.\n\nClear the mission to move your piece forward!",
+        "dlgFontSize": 25,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80490,
+    "flagType": 88,
+    "num": 2,
+    "priority": 0,
+    "openType": 1,
+    "condType": 1,
     "condValue": 0,
     "condValue2": 0,
     "condValue3": 0,
