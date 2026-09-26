@@ -415000,6 +415000,82 @@
   },
   {
     "npcDeckIds": [
+      94101207,
+      1000
+    ],
+    "script": {
+      "aiFieldIds": [
+        {
+          "id": 94137804
+        },
+        {
+          "id": 94137806
+        }
+      ]
+    },
+    "stageCutinGroupIds": [],
+    "questId": 94101203,
+    "questPhase": 1,
+    "wave": 1,
+    "enemyInfo": 1,
+    "bgmId": 863,
+    "startEffectId": 1
+  },
+  {
+    "npcDeckIds": [
+      94101208,
+      1000
+    ],
+    "script": {
+      "aiFieldIds": [
+        {
+          "id": 94137806
+        }
+      ]
+    },
+    "stageCutinGroupIds": [],
+    "questId": 94101203,
+    "questPhase": 1,
+    "wave": 2,
+    "enemyInfo": 1,
+    "bgmId": 863,
+    "startEffectId": 1
+  },
+  {
+    "npcDeckIds": [
+      94101210,
+      1000
+    ],
+    "script": {
+      "enemyFieldPosCount": 6,
+      "aiFieldIds": [
+        {
+          "id": 94136236
+        },
+        {
+          "id": 94136238
+        }
+      ],
+      "aiAllocations": [
+        {
+          "aiIds": [
+            94136200
+          ],
+          "individuality": 2800100,
+          "applySvtType": 4
+        }
+      ]
+    },
+    "stageCutinGroupIds": [],
+    "questId": 94101204,
+    "questPhase": 1,
+    "wave": 1,
+    "enemyInfo": 1,
+    "bgmId": 286,
+    "startEffectId": 2
+  },
+  {
+    "npcDeckIds": [
       94101301,
       1000
     ],
@@ -415123,6 +415199,81 @@
     "enemyInfo": 1,
     "bgmId": 286,
     "startEffectId": 2
+  },
+  {
+    "npcDeckIds": [
+      94101310,
+      1000
+    ],
+    "script": {},
+    "stageCutinGroupIds": [],
+    "questId": 94101304,
+    "questPhase": 1,
+    "wave": 1,
+    "enemyInfo": 1,
+    "bgmId": 863,
+    "startEffectId": 1
+  },
+  {
+    "npcDeckIds": [
+      94101311,
+      1000
+    ],
+    "script": {},
+    "stageCutinGroupIds": [],
+    "questId": 94101304,
+    "questPhase": 1,
+    "wave": 2,
+    "enemyInfo": 1,
+    "bgmId": 863,
+    "startEffectId": 1
+  },
+  {
+    "npcDeckIds": [
+      94101312,
+      1000
+    ],
+    "script": {},
+    "stageCutinGroupIds": [],
+    "questId": 94101304,
+    "questPhase": 1,
+    "wave": 3,
+    "enemyInfo": 1,
+    "bgmId": 286,
+    "startEffectId": 2
+  },
+  {
+    "npcDeckIds": [
+      94101501,
+      1000
+    ],
+    "script": {
+      "call": [
+        94101258,
+        94101257
+      ],
+      "aiFieldIds": [
+        {
+          "id": 94137824
+        },
+        {
+          "id": 94137826
+        },
+        {
+          "id": 94137828
+        },
+        {
+          "id": 94137864
+        }
+      ]
+    },
+    "stageCutinGroupIds": [],
+    "questId": 94101501,
+    "questPhase": 1,
+    "wave": 1,
+    "enemyInfo": 1,
+    "bgmId": 147,
+    "startEffectId": 1
   },
   {
     "npcDeckIds": [
