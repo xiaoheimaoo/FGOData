@@ -178520,5 +178520,127 @@
     "iconId": 0,
     "maxRate": 0,
     "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94162200,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "ターン終了時、敵全体の〔死霊〕に呪い状態を付与＆呪厄状態を付与",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 131
+    },
+    "id": 94162201,
+    "buffGroup": 94162201,
+    "type": 144,
+    "name": "クラス相性変更",
+    "detail": "〔ランサー〕クラスに対する相性不利を打ち消す",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {
+      "INDIVIDUALITIE": -3086
+    },
+    "id": 94162203,
+    "buffGroup": 0,
+    "type": 104,
+    "name": "ガッツ",
+    "detail": "宝具攻撃によりHPが0になった時、HPを回復して耐える(他のガッツ状態と重複可能)",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      7023,
+      -7001
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94162204,
+    "buffGroup": 0,
+    "type": 240,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3048
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      3026
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94162205,
+    "buffGroup": 0,
+    "type": 126,
+    "name": "呪厄",
+    "detail": "呪いの効果量アップ",
+    "iconId": 547,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3096
+    ],
+    "script": {
+      "INDIVIDUALITIE": -3086
+    },
+    "id": 94162206,
+    "buffGroup": 0,
+    "type": 104,
+    "name": "即死時ガッツ",
+    "detail": "即死効果(デメリットなど一部の効果を除く)を受けた時、HPを回復して耐える",
+    "iconId": 402,
+    "maxRate": 0,
+    "effectId": 0
   }
 ]
