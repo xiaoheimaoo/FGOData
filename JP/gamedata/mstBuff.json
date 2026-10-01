@@ -178523,6 +178523,437 @@
   },
   {
     "vals": [
+      3004,
+      3006,
+      6039
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94162000,
+    "buffGroup": 0,
+    "type": 1,
+    "name": "Quick威力アップ",
+    "detail": "Quickカードの威力をアップ",
+    "iconId": 356,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      6040
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94162001,
+    "buffGroup": 0,
+    "type": 1,
+    "name": "Arts威力アップ",
+    "detail": "Artsカードの威力をアップ",
+    "iconId": 357,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      6041
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94162002,
+    "buffGroup": 0,
+    "type": 1,
+    "name": "Buster威力アップ",
+    "detail": "Busterカードの威力をアップ",
+    "iconId": 358,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94162003,
+    "buffGroup": 0,
+    "type": 10001,
+    "name": "戦女神の加護（槍）",
+    "detail": "マイティチェイン成立時、味方全体のQuick・Arts・Busterカードの威力をアップ＆「攻撃時、〔戦女神の加護（盾）〕の効果で付与された防御力アップ状態の残り回数を1減らす状態」を付与",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058,
+      6034
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94162004,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "防御力アップ",
+    "detail": "防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94162007,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "戦女神の加護（盾）",
+    "detail": "ターン終了時、自身の防御力をアップ＆被ダメージカット状態を付与<4ターンに1回だけ発動>",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94162030,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6033
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [
+      4003
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6039,
+      "INDIVIDUALITIE_COUNT_ABOVE": 2
+    },
+    "id": 94162032,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6033
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [
+      4001
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6040,
+      "INDIVIDUALITIE_COUNT_ABOVE": 2
+    },
+    "id": 94162034,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6033
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6041,
+      "INDIVIDUALITIE_COUNT_ABOVE": 2
+    },
+    "id": 94162036,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [
+      3058
+    ],
+    "ckOpIndv": [
+      3111
+    ],
+    "script": {
+      "IndvAddBuffPassive": 1
+    },
+    "id": 94162037,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000,
+      3110
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3110
+    ],
+    "script": {},
+    "id": 94162038,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6035
+    ],
+    "tvals": [
+      5000,
+      3059,
+      3019
+    ],
+    "ckSelfIndv": [
+      3059,
+      3019
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "IndvAddBuffPassive": 1
+    },
+    "id": 94162039,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6035
+    ],
+    "tvals": [
+      5000,
+      -3059,
+      -3019
+    ],
+    "ckSelfIndv": [
+      -3059,
+      -3019
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "checkIndvType": 2,
+      "IndvAddBuffPassive": 1
+    },
+    "id": 94162040,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      -6034
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -6034
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94162041,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94162042,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、〔戦女神の加護（盾）〕の効果で付与された防御力アップ状態の残り回数を1減らす",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      4007,
+      403800
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007,
+      403800
+    ],
+    "script": {
+      "checkIndvType": 1
+    },
+    "id": 94162043,
+    "buffGroup": 0,
+    "type": 208,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94162045,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94162046,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      104
+    ],
+    "script": {},
+    "id": 94162047,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
       3004
     ],
     "tvals": [],
