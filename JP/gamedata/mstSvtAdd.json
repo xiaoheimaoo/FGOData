@@ -419,8 +419,8 @@
   },
   {
     "script": {
-      "overWriteServantShortName": "ビショーネ",
-      "svtProfileLimit": 2
+      "svtProfileLimit": 2,
+      "overWriteServantShortName": "ビショーネ"
     },
     "svtId": 305700
   },
@@ -655,20 +655,20 @@
   },
   {
     "script": {
-      "overwriteServantRecordName": "プレラーティ",
-      "overwriteServantRecordRuby": "プレラーティ",
-      "overwriteProfileName": "フランソワ（フランチェスカ）・プレラーティ",
+      "overwriteServantCoinName": "プレラーティ",
       "commonName": "プレラーティ",
-      "overwriteServantCoinName": "プレラーティ"
+      "overwriteProfileName": "フランソワ（フランチェスカ）・プレラーティ",
+      "overwriteServantRecordName": "プレラーティ",
+      "overwriteServantRecordRuby": "プレラーティ"
     },
     "svtId": 505600
   },
   {
     "script": {
       "overwriteServantRecordName": "プレラーティ",
-      "overwriteServantRecordRuby": "プレラーティ",
+      "commonName": "プレラーティ",
       "overwriteProfileName": "フランソワ（フランチェスカ）・プレラーティ",
-      "commonName": "プレラーティ"
+      "overwriteServantRecordRuby": "プレラーティ"
     },
     "svtId": 505700
   },
@@ -782,10 +782,10 @@
   },
   {
     "script": {
+      "overwriteGrandGraphImageLimitCount": 0,
       "additionExpandImage": [
         3
-      ],
-      "overwriteGrandGraphImageLimitCount": 0
+      ]
     },
     "svtId": 604700
   },
@@ -1183,17 +1183,17 @@
   },
   {
     "script": {
-      "overwriteGrandGraphImageLimitCount": 0,
       "presentDialogMessageId": 2301200,
-      "addIdentifyText": "男性"
+      "addIdentifyText": "男性",
+      "overwriteGrandGraphImageLimitCount": 0
     },
     "svtId": 2300700
   },
   {
     "script": {
-      "overwriteGrandGraphImageLimitCount": 0,
       "presentDialogMessageId": 2301201,
-      "addIdentifyText": "女性"
+      "addIdentifyText": "女性",
+      "overwriteGrandGraphImageLimitCount": 0
     },
     "svtId": 2300800
   },
@@ -1306,8 +1306,8 @@
   },
   {
     "script": {
-      "overwriteGrandGraphImageLimitCount": 1,
-      "overwriteGrandGraphImage": "[[3,3,10151706],[4,4,10151706]]"
+      "overwriteGrandGraphImage": "[[3,3,10151706],[4,4,10151706]]",
+      "overwriteGrandGraphImageLimitCount": 1
     },
     "svtId": 4000100
   },
