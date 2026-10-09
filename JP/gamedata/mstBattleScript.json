@@ -8,6 +8,7 @@
   },
   {
     "script": {
+      "eventName": "CHARA_UP",
       "cameraTargetData": [
         {
           "targetType": 2,
@@ -17,8 +18,7 @@
           "targetNodeName": "en_Head",
           "setVariableName": "Target_Actor"
         }
-      ],
-      "eventName": "CHARA_UP"
+      ]
     },
     "id": 94151200,
     "playOrder": 2,
@@ -63,6 +63,7 @@
   },
   {
     "script": {
+      "eventName": "CHARA_UP",
       "cameraTargetData": [
         {
           "targetType": 2,
@@ -72,8 +73,7 @@
           "targetNodeName": "en_Head",
           "setVariableName": "Target_Actor"
         }
-      ],
-      "eventName": "CHARA_UP"
+      ]
     },
     "id": 94151201,
     "playOrder": 2,
@@ -91,8 +91,8 @@
   },
   {
     "script": {
-      "dispTime": 3060,
-      "messageText": "「攻め時だ。ぞんぶんにやるがいい」"
+      "messageText": "「攻め時だ。ぞんぶんにやるがいい」",
+      "dispTime": 3060
     },
     "id": 94151201,
     "playOrder": 2,
@@ -110,9 +110,9 @@
   },
   {
     "script": {
+      "individuality": 9947230,
       "type": 2,
-      "aiActId": 94151213,
-      "individuality": 9947230
+      "aiActId": 94151213
     },
     "id": 94151201,
     "playOrder": 4,
@@ -121,9 +121,9 @@
   },
   {
     "script": {
+      "individuality": 9947230,
       "type": 2,
-      "aiActId": 94151213,
-      "individuality": 9947230
+      "aiActId": 94151213
     },
     "id": 94151201,
     "playOrder": 5,
@@ -141,6 +141,7 @@
   },
   {
     "script": {
+      "eventName": "CHARA_UP",
       "cameraTargetData": [
         {
           "targetType": 2,
@@ -150,8 +151,7 @@
           "targetNodeName": "en_Head",
           "setVariableName": "Target_Actor"
         }
-      ],
-      "eventName": "CHARA_UP"
+      ]
     },
     "id": 94151202,
     "playOrder": 2,
@@ -169,8 +169,8 @@
   },
   {
     "script": {
-      "dispTime": 2770,
-      "messageText": "「聖剣、抜刀―――」"
+      "messageText": "「聖剣、抜刀―――」",
+      "dispTime": 2770
     },
     "id": 94151202,
     "playOrder": 2,
@@ -188,9 +188,9 @@
   },
   {
     "script": {
+      "individuality": 9947230,
       "type": 2,
-      "aiActId": 1008,
-      "individuality": 9947230
+      "aiActId": 1008
     },
     "id": 94151202,
     "playOrder": 4,
@@ -208,6 +208,7 @@
   },
   {
     "script": {
+      "eventName": "CHARA_UP",
       "cameraTargetData": [
         {
           "targetType": 2,
@@ -217,8 +218,7 @@
           "targetNodeName": "en_Head",
           "setVariableName": "Target_Actor"
         }
-      ],
-      "eventName": "CHARA_UP"
+      ]
     },
     "id": 94151203,
     "playOrder": 2,
@@ -236,8 +236,8 @@
   },
   {
     "script": {
-      "dispTime": 3060,
-      "messageText": "「霊基の欠片ぐらいは残してやれ」"
+      "messageText": "「霊基の欠片ぐらいは残してやれ」",
+      "dispTime": 3060
     },
     "id": 94151203,
     "playOrder": 2,
@@ -255,9 +255,9 @@
   },
   {
     "script": {
+      "individuality": 9947230,
       "type": 2,
-      "aiActId": 94151213,
-      "individuality": 9947230
+      "aiActId": 94151213
     },
     "id": 94151203,
     "playOrder": 4,
@@ -266,9 +266,9 @@
   },
   {
     "script": {
+      "individuality": 9947230,
       "type": 2,
-      "aiActId": 94151213,
-      "individuality": 9947230
+      "aiActId": 94151213
     },
     "id": 94151203,
     "playOrder": 5,
@@ -418,9 +418,9 @@
   },
   {
     "script": {
+      "individuality": 2076,
       "type": 2,
-      "aiActId": 94151759,
-      "individuality": 2076
+      "aiActId": 94151759
     },
     "id": 94151705,
     "playOrder": 2,
@@ -429,9 +429,9 @@
   },
   {
     "script": {
+      "individuality": 2076,
       "type": 2,
-      "aiActId": 94151778,
-      "individuality": 2076
+      "aiActId": 94151778
     },
     "id": 94151705,
     "playOrder": 3,
@@ -440,9 +440,9 @@
   },
   {
     "script": {
+      "individuality": 2076,
       "type": 2,
-      "aiActId": 94151761,
-      "individuality": 2076
+      "aiActId": 94151761
     },
     "id": 94151705,
     "playOrder": 4,
@@ -485,12 +485,12 @@
   },
   {
     "script": {
+      "aiActId": 94152104,
       "aiScript": {
         "cameraIds": [
           2
         ]
-      },
-      "aiActId": 94152104
+      }
     },
     "id": 94152100,
     "playOrder": 6,
@@ -499,13 +499,13 @@
   },
   {
     "script": {
+      "aiActId": 94152103,
       "aiScript": {
         "motionIds": [
           130,
           136
         ]
-      },
-      "aiActId": 94152103
+      }
     },
     "id": 94152100,
     "playOrder": 7,
@@ -557,12 +557,12 @@
   },
   {
     "script": {
+      "aiActId": 94152104,
       "aiScript": {
         "cameraIds": [
           3
         ]
-      },
-      "aiActId": 94152104
+      }
     },
     "id": 94152101,
     "playOrder": 5,
@@ -571,13 +571,13 @@
   },
   {
     "script": {
+      "aiActId": 94152103,
       "aiScript": {
         "motionIds": [
           131,
           136
         ]
-      },
-      "aiActId": 94152103
+      }
     },
     "id": 94152101,
     "playOrder": 6,
@@ -629,12 +629,12 @@
   },
   {
     "script": {
+      "aiActId": 94152104,
       "aiScript": {
         "cameraIds": [
           4
         ]
-      },
-      "aiActId": 94152104
+      }
     },
     "id": 94152102,
     "playOrder": 5,
@@ -643,13 +643,13 @@
   },
   {
     "script": {
+      "aiActId": 94152103,
       "aiScript": {
         "motionIds": [
           132,
           136
         ]
-      },
-      "aiActId": 94152103
+      }
     },
     "id": 94152102,
     "playOrder": 6,
@@ -701,12 +701,12 @@
   },
   {
     "script": {
+      "aiActId": 94152104,
       "aiScript": {
         "cameraIds": [
           5
         ]
-      },
-      "aiActId": 94152104
+      }
     },
     "id": 94152103,
     "playOrder": 5,
@@ -715,13 +715,13 @@
   },
   {
     "script": {
+      "aiActId": 94152103,
       "aiScript": {
         "motionIds": [
           133,
           136
         ]
-      },
-      "aiActId": 94152103
+      }
     },
     "id": 94152103,
     "playOrder": 6,
@@ -773,12 +773,12 @@
   },
   {
     "script": {
+      "aiActId": 94152104,
       "aiScript": {
         "cameraIds": [
           6
         ]
-      },
-      "aiActId": 94152104
+      }
     },
     "id": 94152104,
     "playOrder": 5,
@@ -787,13 +787,13 @@
   },
   {
     "script": {
+      "aiActId": 94152103,
       "aiScript": {
         "motionIds": [
           134,
           136
         ]
-      },
-      "aiActId": 94152103
+      }
     },
     "id": 94152104,
     "playOrder": 6,
@@ -845,12 +845,12 @@
   },
   {
     "script": {
+      "aiActId": 94152104,
       "aiScript": {
         "cameraIds": [
           7
         ]
-      },
-      "aiActId": 94152104
+      }
     },
     "id": 94152105,
     "playOrder": 5,
@@ -859,13 +859,13 @@
   },
   {
     "script": {
+      "aiActId": 94152103,
       "aiScript": {
         "motionIds": [
           135,
           136
         ]
-      },
-      "aiActId": 94152103
+      }
     },
     "id": 94152105,
     "playOrder": 6,
@@ -1062,9 +1062,9 @@
   },
   {
     "script": {
+      "individuality": 9947110,
       "type": 4,
-      "aiActId": 94153401,
-      "individuality": 9947110
+      "aiActId": 94153401
     },
     "id": 94152153,
     "playOrder": 6,
@@ -1073,9 +1073,9 @@
   },
   {
     "script": {
+      "individuality": 9947540,
       "type": 4,
-      "aiActId": 94153406,
-      "individuality": 9947540
+      "aiActId": 94153406
     },
     "id": 94152153,
     "playOrder": 7,
@@ -1084,9 +1084,9 @@
   },
   {
     "script": {
+      "individuality": 9947540,
       "type": 4,
-      "aiActId": 94152122,
-      "individuality": 9947540
+      "aiActId": 94152122
     },
     "id": 94152153,
     "playOrder": 8,
@@ -1249,9 +1249,9 @@
   },
   {
     "script": {
+      "individuality": 9947440,
       "type": 4,
-      "aiActId": 94153404,
-      "individuality": 9947440
+      "aiActId": 94153404
     },
     "id": 94152160,
     "playOrder": 5,
@@ -1294,9 +1294,9 @@
   },
   {
     "script": {
+      "individuality": 9947440,
       "type": 4,
-      "aiActId": 94153404,
-      "individuality": 9947440
+      "aiActId": 94153404
     },
     "id": 94152161,
     "playOrder": 4,
@@ -1330,9 +1330,9 @@
   },
   {
     "script": {
+      "individuality": 9947130,
       "type": 4,
-      "aiActId": 94152174,
-      "individuality": 9947130
+      "aiActId": 94152174
     },
     "id": 94152163,
     "playOrder": 4,
@@ -1375,9 +1375,9 @@
   },
   {
     "script": {
+      "individuality": 9947060,
       "type": 4,
-      "aiActId": 94152160,
-      "individuality": 9947060
+      "aiActId": 94152160
     },
     "id": 94152170,
     "playOrder": 5,
@@ -1386,9 +1386,9 @@
   },
   {
     "script": {
+      "individuality": 9947070,
       "type": 4,
-      "aiActId": 94152148,
-      "individuality": 9947070
+      "aiActId": 94152148
     },
     "id": 94152170,
     "playOrder": 6,
@@ -1406,9 +1406,9 @@
   },
   {
     "script": {
+      "individuality": 9947070,
       "type": 4,
-      "aiActId": 94152123,
-      "individuality": 9947070
+      "aiActId": 94152123
     },
     "id": 94152170,
     "playOrder": 8,
@@ -1451,9 +1451,9 @@
   },
   {
     "script": {
+      "individuality": 9947080,
       "type": 4,
-      "aiActId": 94152164,
-      "individuality": 9947080
+      "aiActId": 94152164
     },
     "id": 94152171,
     "playOrder": 5,
@@ -1487,9 +1487,9 @@
   },
   {
     "script": {
+      "individuality": 9947090,
       "type": 4,
-      "aiActId": 94152151,
-      "individuality": 9947090
+      "aiActId": 94152151
     },
     "id": 94152172,
     "playOrder": 4,
@@ -1498,9 +1498,9 @@
   },
   {
     "script": {
+      "individuality": 9947090,
       "type": 4,
-      "aiActId": 94153469,
-      "individuality": 9947090
+      "aiActId": 94153469
     },
     "id": 94152172,
     "playOrder": 5,
@@ -1509,9 +1509,9 @@
   },
   {
     "script": {
+      "individuality": 9947090,
       "type": 4,
-      "aiActId": 94152145,
-      "individuality": 9947090
+      "aiActId": 94152145
     },
     "id": 94152172,
     "playOrder": 6,
@@ -1545,9 +1545,9 @@
   },
   {
     "script": {
+      "individuality": 9947110,
       "type": 4,
-      "aiActId": 94153401,
-      "individuality": 9947110
+      "aiActId": 94153401
     },
     "id": 94152173,
     "playOrder": 4,
@@ -1556,9 +1556,9 @@
   },
   {
     "script": {
+      "individuality": 9947540,
       "type": 4,
-      "aiActId": 94153406,
-      "individuality": 9947540
+      "aiActId": 94153406
     },
     "id": 94152173,
     "playOrder": 5,
@@ -1567,9 +1567,9 @@
   },
   {
     "script": {
+      "individuality": 9947540,
       "type": 4,
-      "aiActId": 94152122,
-      "individuality": 9947540
+      "aiActId": 94152122
     },
     "id": 94152173,
     "playOrder": 6,
@@ -1578,9 +1578,9 @@
   },
   {
     "script": {
+      "individuality": 9947100,
       "type": 4,
-      "aiActId": 94152170,
-      "individuality": 9947100
+      "aiActId": 94152170
     },
     "id": 94152173,
     "playOrder": 7,
@@ -1614,9 +1614,9 @@
   },
   {
     "script": {
+      "individuality": 9947120,
       "type": 4,
-      "aiActId": 94152173,
-      "individuality": 9947120
+      "aiActId": 94152173
     },
     "id": 94152174,
     "playOrder": 5,
@@ -1659,9 +1659,9 @@
   },
   {
     "script": {
+      "individuality": 9947160,
       "type": 4,
-      "aiActId": 94152178,
-      "individuality": 9947160
+      "aiActId": 94152178
     },
     "id": 94152175,
     "playOrder": 5,
@@ -1713,9 +1713,9 @@
   },
   {
     "script": {
+      "individuality": 9947180,
       "type": 4,
-      "aiActId": 94152186,
-      "individuality": 9947180
+      "aiActId": 94152186
     },
     "id": 94152176,
     "playOrder": 6,
@@ -1749,9 +1749,9 @@
   },
   {
     "script": {
+      "individuality": 9947440,
       "type": 4,
-      "aiActId": 94153404,
-      "individuality": 9947440
+      "aiActId": 94153404
     },
     "id": 94152177,
     "playOrder": 4,
@@ -1794,9 +1794,9 @@
   },
   {
     "script": {
+      "individuality": 9947440,
       "type": 4,
-      "aiActId": 94153404,
-      "individuality": 9947440
+      "aiActId": 94153404
     },
     "id": 94152178,
     "playOrder": 4,
@@ -1896,9 +1896,9 @@
   },
   {
     "script": {
+      "individuality": 9947540,
       "type": 4,
-      "aiActId": 94153406,
-      "individuality": 9947540
+      "aiActId": 94153406
     },
     "id": 94153400,
     "playOrder": 2,
@@ -1907,9 +1907,9 @@
   },
   {
     "script": {
+      "individuality": 9947540,
       "type": 4,
-      "aiActId": 94152122,
-      "individuality": 9947540
+      "aiActId": 94152122
     },
     "id": 94153400,
     "playOrder": 3,
@@ -1925,9 +1925,9 @@
   },
   {
     "script": {
+      "individuality": 9947520,
       "type": 4,
-      "aiActId": 94153467,
-      "individuality": 9947520
+      "aiActId": 94153467
     },
     "id": 94153401,
     "playOrder": 2,
@@ -1936,9 +1936,9 @@
   },
   {
     "script": {
+      "individuality": 9947520,
       "type": 4,
-      "aiActId": 94152121,
-      "individuality": 9947520
+      "aiActId": 94152121
     },
     "id": 94153401,
     "playOrder": 3,
@@ -1954,9 +1954,9 @@
   },
   {
     "script": {
+      "individuality": 9947090,
       "type": 4,
-      "aiActId": 94152151,
-      "individuality": 9947090
+      "aiActId": 94152151
     },
     "id": 94153402,
     "playOrder": 2,
@@ -1965,9 +1965,9 @@
   },
   {
     "script": {
+      "individuality": 9947090,
       "type": 4,
-      "aiActId": 94153469,
-      "individuality": 9947090
+      "aiActId": 94153469
     },
     "id": 94153402,
     "playOrder": 3,
@@ -1976,9 +1976,9 @@
   },
   {
     "script": {
+      "individuality": 9947090,
       "type": 4,
-      "aiActId": 94152145,
-      "individuality": 9947090
+      "aiActId": 94152145
     },
     "id": 94153402,
     "playOrder": 4,
@@ -2003,9 +2003,9 @@
   },
   {
     "script": {
+      "individuality": 9947180,
       "type": 4,
-      "aiActId": 94152186,
-      "individuality": 9947180
+      "aiActId": 94152186
     },
     "id": 94153403,
     "playOrder": 3,
@@ -2048,9 +2048,9 @@
   },
   {
     "script": {
+      "individuality": 9947060,
       "type": 4,
-      "aiActId": 94152160,
-      "individuality": 9947060
+      "aiActId": 94152160
     },
     "id": 94153430,
     "playOrder": 5,
@@ -2059,9 +2059,9 @@
   },
   {
     "script": {
+      "individuality": 9947070,
       "type": 4,
-      "aiActId": 94152148,
-      "individuality": 9947070
+      "aiActId": 94152148
     },
     "id": 94153430,
     "playOrder": 6,
@@ -2079,9 +2079,9 @@
   },
   {
     "script": {
+      "individuality": 9947070,
       "type": 4,
-      "aiActId": 94152123,
-      "individuality": 9947070
+      "aiActId": 94152123
     },
     "id": 94153430,
     "playOrder": 8,
@@ -2133,9 +2133,9 @@
   },
   {
     "script": {
+      "individuality": 9947080,
       "type": 4,
-      "aiActId": 94152164,
-      "individuality": 9947080
+      "aiActId": 94152164
     },
     "id": 94153431,
     "playOrder": 5,
@@ -2178,9 +2178,9 @@
   },
   {
     "script": {
+      "individuality": 9947090,
       "type": 4,
-      "aiActId": 94152151,
-      "individuality": 9947090
+      "aiActId": 94152151
     },
     "id": 94153432,
     "playOrder": 4,
@@ -2189,9 +2189,9 @@
   },
   {
     "script": {
+      "individuality": 9947090,
       "type": 4,
-      "aiActId": 94153469,
-      "individuality": 9947090
+      "aiActId": 94153469
     },
     "id": 94153432,
     "playOrder": 5,
@@ -2200,9 +2200,9 @@
   },
   {
     "script": {
+      "individuality": 9947090,
       "type": 4,
-      "aiActId": 94152145,
-      "individuality": 9947090
+      "aiActId": 94152145
     },
     "id": 94153432,
     "playOrder": 6,
@@ -2245,9 +2245,9 @@
   },
   {
     "script": {
+      "individuality": 9947110,
       "type": 4,
-      "aiActId": 94153401,
-      "individuality": 9947110
+      "aiActId": 94153401
     },
     "id": 94153433,
     "playOrder": 4,
@@ -2256,9 +2256,9 @@
   },
   {
     "script": {
+      "individuality": 9947540,
       "type": 4,
-      "aiActId": 94153406,
-      "individuality": 9947540
+      "aiActId": 94153406
     },
     "id": 94153433,
     "playOrder": 5,
@@ -2267,9 +2267,9 @@
   },
   {
     "script": {
+      "individuality": 9947540,
       "type": 4,
-      "aiActId": 94152122,
-      "individuality": 9947540
+      "aiActId": 94152122
     },
     "id": 94153433,
     "playOrder": 6,
@@ -2278,9 +2278,9 @@
   },
   {
     "script": {
+      "individuality": 9947100,
       "type": 4,
-      "aiActId": 94152170,
-      "individuality": 9947100
+      "aiActId": 94152170
     },
     "id": 94153433,
     "playOrder": 7,
@@ -2323,9 +2323,9 @@
   },
   {
     "script": {
+      "individuality": 9947120,
       "type": 4,
-      "aiActId": 94152173,
-      "individuality": 9947120
+      "aiActId": 94152173
     },
     "id": 94153434,
     "playOrder": 5,
@@ -2377,9 +2377,9 @@
   },
   {
     "script": {
+      "individuality": 9947160,
       "type": 4,
-      "aiActId": 94152178,
-      "individuality": 9947160
+      "aiActId": 94152178
     },
     "id": 94153435,
     "playOrder": 5,
@@ -2440,9 +2440,9 @@
   },
   {
     "script": {
+      "individuality": 9947180,
       "type": 4,
-      "aiActId": 94152186,
-      "individuality": 9947180
+      "aiActId": 94152186
     },
     "id": 94153436,
     "playOrder": 6,
@@ -2485,9 +2485,9 @@
   },
   {
     "script": {
+      "individuality": 9947440,
       "type": 4,
-      "aiActId": 94153404,
-      "individuality": 9947440
+      "aiActId": 94153404
     },
     "id": 94153437,
     "playOrder": 4,
@@ -2539,9 +2539,9 @@
   },
   {
     "script": {
+      "individuality": 9947440,
       "type": 4,
-      "aiActId": 94153404,
-      "individuality": 9947440
+      "aiActId": 94153404
     },
     "id": 94153438,
     "playOrder": 4,
@@ -2593,9 +2593,9 @@
   },
   {
     "script": {
+      "individuality": 9947440,
       "type": 4,
-      "aiActId": 94153404,
-      "individuality": 9947440
+      "aiActId": 94153404
     },
     "id": 94153439,
     "playOrder": 4,
@@ -2622,8 +2622,8 @@
   },
   {
     "script": {
-      "fov": 50,
-      "eventName": "CAMERA_END"
+      "eventName": "CAMERA_END",
+      "fov": 50
     },
     "id": 94153900,
     "playOrder": 2,
@@ -2651,8 +2651,8 @@
   },
   {
     "script": {
-      "fov": 50,
-      "eventName": "CAMERA_END"
+      "eventName": "CAMERA_END",
+      "fov": 50
     },
     "id": 94153901,
     "playOrder": 2,
@@ -2678,6 +2678,7 @@
   },
   {
     "script": {
+      "eventName": "CHARA_UP",
       "cameraTargetData": [
         {
           "targetType": 2,
@@ -2687,8 +2688,7 @@
           "targetNodeName": "en_Head",
           "setVariableName": "Target_Actor"
         }
-      ],
-      "eventName": "CHARA_UP"
+      ]
     },
     "id": 94154401,
     "playOrder": 2,
@@ -2697,8 +2697,8 @@
   },
   {
     "script": {
-      "dispTime": 2000,
-      "messageText": "お母様が連れ去られてしまった…"
+      "messageText": "お母様が連れ去られてしまった…",
+      "dispTime": 2000
     },
     "id": 94154401,
     "playOrder": 3,
@@ -2734,9 +2734,9 @@
   },
   {
     "script": {
+      "individuality": 300800,
       "type": 2,
-      "aiActId": 94156001,
-      "individuality": 300800
+      "aiActId": 94156001
     },
     "id": 94156001,
     "playOrder": 2,
@@ -2754,9 +2754,9 @@
   },
   {
     "script": {
+      "individuality": 300800,
       "type": 2,
-      "aiActId": 94156003,
-      "individuality": 300800
+      "aiActId": 94156003
     },
     "id": 94156002,
     "playOrder": 2,
@@ -2774,9 +2774,9 @@
   },
   {
     "script": {
+      "individuality": 300800,
       "type": 2,
-      "aiActId": 94156005,
-      "individuality": 300800
+      "aiActId": 94156005
     },
     "id": 94156003,
     "playOrder": 2,
@@ -2794,9 +2794,9 @@
   },
   {
     "script": {
+      "individuality": 300800,
       "type": 2,
-      "aiActId": 94156007,
-      "individuality": 300800
+      "aiActId": 94156007
     },
     "id": 94156004,
     "playOrder": 2,
@@ -2814,9 +2814,9 @@
   },
   {
     "script": {
+      "individuality": 200200,
       "type": 2,
-      "aiActId": 94156009,
-      "individuality": 200200
+      "aiActId": 94156009
     },
     "id": 94156005,
     "playOrder": 2,
@@ -2834,9 +2834,9 @@
   },
   {
     "script": {
+      "individuality": 200200,
       "type": 2,
-      "aiActId": 94156011,
-      "individuality": 200200
+      "aiActId": 94156011
     },
     "id": 94156006,
     "playOrder": 2,
@@ -2854,9 +2854,9 @@
   },
   {
     "script": {
+      "individuality": 200200,
       "type": 2,
-      "aiActId": 94156013,
-      "individuality": 200200
+      "aiActId": 94156013
     },
     "id": 94156007,
     "playOrder": 2,
@@ -2872,9 +2872,9 @@
   },
   {
     "script": {
+      "individuality": 205500,
       "type": 2,
-      "aiActId": 94156608,
-      "individuality": 205500
+      "aiActId": 94156608
     },
     "id": 94156600,
     "playOrder": 2,
@@ -2883,9 +2883,9 @@
   },
   {
     "script": {
+      "individuality": 205500,
       "type": 2,
-      "aiActId": 94156669,
-      "individuality": 205500
+      "aiActId": 94156669
     },
     "id": 94156600,
     "playOrder": 3,
@@ -2910,9 +2910,9 @@
   },
   {
     "script": {
+      "individuality": 205500,
       "type": 2,
-      "aiActId": 94156614,
-      "individuality": 205500
+      "aiActId": 94156614
     },
     "id": 94156601,
     "playOrder": 2,
@@ -2921,9 +2921,9 @@
   },
   {
     "script": {
+      "individuality": 205500,
       "type": 2,
-      "aiActId": 94156669,
-      "individuality": 205500
+      "aiActId": 94156669
     },
     "id": 94156601,
     "playOrder": 3,
@@ -2948,8 +2948,8 @@
   },
   {
     "script": {
-      "dispTime": 2000,
-      "messageText": "「さあ、やり直しましょう」"
+      "messageText": "「さあ、やり直しましょう」",
+      "dispTime": 2000
     },
     "id": 94156602,
     "playOrder": 2,
@@ -3083,9 +3083,9 @@
   },
   {
     "script": {
+      "individuality": 4000100,
       "type": 2,
-      "aiActId": 94158022,
-      "individuality": 4000100
+      "aiActId": 94158022
     },
     "id": 94158000,
     "playOrder": 1,
@@ -3094,9 +3094,9 @@
   },
   {
     "script": {
+      "individuality": 1002200,
       "type": 2,
-      "aiActId": 94158023,
-      "individuality": 1002200
+      "aiActId": 94158023
     },
     "id": 94158000,
     "playOrder": 2,
@@ -3105,9 +3105,9 @@
   },
   {
     "script": {
+      "individuality": 6010,
       "type": 3,
-      "aiActId": 94158024,
-      "individuality": 6010
+      "aiActId": 94158024
     },
     "id": 94158000,
     "playOrder": 3,
@@ -3116,9 +3116,9 @@
   },
   {
     "script": {
+      "individuality": 6011,
       "type": 3,
-      "aiActId": 94158026,
-      "individuality": 6011
+      "aiActId": 94158026
     },
     "id": 94158000,
     "playOrder": 4,
@@ -3127,9 +3127,9 @@
   },
   {
     "script": {
+      "individuality": 106700,
       "type": 2,
-      "aiActId": 94158025,
-      "individuality": 106700
+      "aiActId": 94158025
     },
     "id": 94158001,
     "playOrder": 1,
@@ -3138,9 +3138,9 @@
   },
   {
     "script": {
+      "individuality": 102900,
       "type": 2,
-      "aiActId": 94158026,
-      "individuality": 102900
+      "aiActId": 94158026
     },
     "id": 94158001,
     "playOrder": 2,
@@ -3149,9 +3149,9 @@
   },
   {
     "script": {
+      "individuality": 6011,
       "type": 3,
-      "aiActId": 94158022,
-      "individuality": 6011
+      "aiActId": 94158022
     },
     "id": 94158001,
     "playOrder": 3,
@@ -3160,9 +3160,9 @@
   },
   {
     "script": {
+      "individuality": 6010,
       "type": 3,
-      "aiActId": 94158023,
-      "individuality": 6010
+      "aiActId": 94158023
     },
     "id": 94158001,
     "playOrder": 4,
@@ -3171,9 +3171,9 @@
   },
   {
     "script": {
+      "individuality": 306400,
       "type": 2,
-      "aiActId": 94158038,
-      "individuality": 306400
+      "aiActId": 94158038
     },
     "id": 94158002,
     "playOrder": 1,
@@ -3182,9 +3182,9 @@
   },
   {
     "script": {
+      "individuality": 302000,
       "type": 2,
-      "aiActId": 94158039,
-      "individuality": 302000
+      "aiActId": 94158039
     },
     "id": 94158002,
     "playOrder": 2,
@@ -3193,9 +3193,9 @@
   },
   {
     "script": {
+      "individuality": 6011,
       "type": 3,
-      "aiActId": 94158040,
-      "individuality": 6011
+      "aiActId": 94158040
     },
     "id": 94158002,
     "playOrder": 3,
@@ -3204,9 +3204,9 @@
   },
   {
     "script": {
+      "individuality": 6010,
       "type": 3,
-      "aiActId": 94158041,
-      "individuality": 6010
+      "aiActId": 94158041
     },
     "id": 94158002,
     "playOrder": 4,
@@ -3234,9 +3234,9 @@
   },
   {
     "script": {
+      "individuality": 306400,
       "type": 2,
-      "aiActId": 94158041,
-      "individuality": 306400
+      "aiActId": 94158041
     },
     "id": 94158003,
     "playOrder": 1,
@@ -3245,9 +3245,9 @@
   },
   {
     "script": {
+      "individuality": 102900,
       "type": 2,
-      "aiActId": 94158040,
-      "individuality": 102900
+      "aiActId": 94158040
     },
     "id": 94158003,
     "playOrder": 2,
@@ -3256,9 +3256,9 @@
   },
   {
     "script": {
+      "individuality": 6011,
       "type": 3,
-      "aiActId": 94158039,
-      "individuality": 6011
+      "aiActId": 94158039
     },
     "id": 94158003,
     "playOrder": 3,
@@ -3267,9 +3267,9 @@
   },
   {
     "script": {
+      "individuality": 6010,
       "type": 3,
-      "aiActId": 94158042,
-      "individuality": 6010
+      "aiActId": 94158042
     },
     "id": 94158003,
     "playOrder": 4,
@@ -3297,9 +3297,9 @@
   },
   {
     "script": {
+      "individuality": 6000,
       "type": 2,
-      "aiActId": 94158062,
-      "individuality": 6000
+      "aiActId": 94158062
     },
     "id": 94158004,
     "playOrder": 1,
@@ -3308,9 +3308,9 @@
   },
   {
     "script": {
+      "individuality": 6010,
       "type": 3,
-      "aiActId": 94158063,
-      "individuality": 6010
+      "aiActId": 94158063
     },
     "id": 94158004,
     "playOrder": 2,
@@ -3319,9 +3319,9 @@
   },
   {
     "script": {
+      "individuality": 6000,
       "type": 2,
-      "aiActId": 94158064,
-      "individuality": 6000
+      "aiActId": 94158064
     },
     "id": 94158004,
     "playOrder": 3,
@@ -3330,9 +3330,9 @@
   },
   {
     "script": {
+      "individuality": 6000,
       "type": 2,
-      "aiActId": 1008,
-      "individuality": 6000
+      "aiActId": 1008
     },
     "id": 94158004,
     "playOrder": 4,
@@ -3449,9 +3449,9 @@
   },
   {
     "script": {
+      "individuality": 1101000,
       "type": 2,
-      "aiActId": 94158501,
-      "individuality": 1101000
+      "aiActId": 94158501
     },
     "id": 94158500,
     "playOrder": 1,
@@ -3460,9 +3460,9 @@
   },
   {
     "script": {
+      "individuality": 1100900,
       "type": 2,
-      "aiActId": 94158504,
-      "individuality": 1100900
+      "aiActId": 94158504
     },
     "id": 94158501,
     "playOrder": 2,
@@ -3481,9 +3481,9 @@
   },
   {
     "script": {
+      "individuality": 403600,
       "type": 2,
-      "aiActId": 94159023,
-      "individuality": 403600
+      "aiActId": 94159023
     },
     "id": 94159000,
     "playOrder": 2,
@@ -3492,9 +3492,9 @@
   },
   {
     "script": {
+      "individuality": 403600,
       "type": 2,
-      "aiActId": 94159024,
-      "individuality": 403600
+      "aiActId": 94159024
     },
     "id": 94159000,
     "playOrder": 3,
@@ -3724,9 +3724,9 @@
   },
   {
     "script": {
+      "individuality": 6011,
       "type": 3,
-      "aiActId": 94159104,
-      "individuality": 6011
+      "aiActId": 94159104
     },
     "id": 94159007,
     "playOrder": 1,
@@ -3762,9 +3762,9 @@
   },
   {
     "script": {
+      "individuality": 705300,
       "type": 2,
-      "aiActId": 94159500,
-      "individuality": 705300
+      "aiActId": 94159500
     },
     "id": 94159500,
     "playOrder": 1,
@@ -3773,9 +3773,9 @@
   },
   {
     "script": {
+      "individuality": 2301200,
       "type": 2,
-      "aiActId": 94159508,
-      "individuality": 2301200
+      "aiActId": 94159508
     },
     "id": 94159500,
     "playOrder": 2,
@@ -3784,9 +3784,9 @@
   },
   {
     "script": {
+      "individuality": 1102300,
       "type": 2,
-      "aiActId": 94159510,
-      "individuality": 1102300
+      "aiActId": 94159510
     },
     "id": 94159500,
     "playOrder": 3,
@@ -3795,9 +3795,9 @@
   },
   {
     "script": {
+      "individuality": 705300,
       "type": 2,
-      "aiActId": 94159505,
-      "individuality": 705300
+      "aiActId": 94159505
     },
     "id": 94159500,
     "playOrder": 4,
@@ -3806,8 +3806,8 @@
   },
   {
     "script": {
-      "dispTime": 2000,
-      "messageText": "「もうおなかいっぱいですか…？」"
+      "messageText": "「もうおなかいっぱいですか…？」",
+      "dispTime": 2000
     },
     "id": 94159501,
     "playOrder": 1,
@@ -3816,9 +3816,9 @@
   },
   {
     "script": {
+      "individuality": 1102300,
       "type": 2,
-      "aiActId": 94159511,
-      "individuality": 1102300
+      "aiActId": 94159511
     },
     "id": 94159501,
     "playOrder": 3,
@@ -3827,9 +3827,9 @@
   },
   {
     "script": {
+      "individuality": 705300,
       "type": 2,
-      "aiActId": 94159507,
-      "individuality": 705300
+      "aiActId": 94159507
     },
     "id": 94159501,
     "playOrder": 4,
@@ -3848,9 +3848,9 @@
   },
   {
     "script": {
+      "individuality": 405900,
       "type": 2,
-      "aiActId": 94159512,
-      "individuality": 405900
+      "aiActId": 94159512
     },
     "id": 94159501,
     "playOrder": 6,
@@ -3859,8 +3859,8 @@
   },
   {
     "script": {
-      "dispTime": 2000,
-      "messageText": "「私が運んだ料理が食べられないっていうの？」"
+      "messageText": "「私が運んだ料理が食べられないっていうの？」",
+      "dispTime": 2000
     },
     "id": 94159502,
     "playOrder": 1,
@@ -3869,9 +3869,9 @@
   },
   {
     "script": {
+      "individuality": 2301200,
       "type": 2,
-      "aiActId": 94159509,
-      "individuality": 2301200
+      "aiActId": 94159509
     },
     "id": 94159502,
     "playOrder": 3,
@@ -3880,9 +3880,9 @@
   },
   {
     "script": {
+      "individuality": 705300,
       "type": 2,
-      "aiActId": 94159507,
-      "individuality": 705300
+      "aiActId": 94159507
     },
     "id": 94159502,
     "playOrder": 4,
@@ -3901,9 +3901,9 @@
   },
   {
     "script": {
+      "individuality": 405900,
       "type": 2,
-      "aiActId": 94159512,
-      "individuality": 405900
+      "aiActId": 94159512
     },
     "id": 94159502,
     "playOrder": 6,
@@ -3912,8 +3912,8 @@
   },
   {
     "script": {
-      "dispTime": 2000,
-      "messageText": "「もうおなかいっぱいですか…？」"
+      "messageText": "「もうおなかいっぱいですか…？」",
+      "dispTime": 2000
     },
     "id": 94159503,
     "playOrder": 1,
@@ -3922,8 +3922,8 @@
   },
   {
     "script": {
-      "dispTime": 2000,
-      "messageText": "「私が運んだ料理が食べられないっていうの？」"
+      "messageText": "「私が運んだ料理が食べられないっていうの？」",
+      "dispTime": 2000
     },
     "id": 94159503,
     "playOrder": 3,
@@ -3932,9 +3932,9 @@
   },
   {
     "script": {
+      "individuality": 705300,
       "type": 2,
-      "aiActId": 94159507,
-      "individuality": 705300
+      "aiActId": 94159507
     },
     "id": 94159503,
     "playOrder": 5,
@@ -3953,9 +3953,9 @@
   },
   {
     "script": {
+      "individuality": 405900,
       "type": 2,
-      "aiActId": 94159512,
-      "individuality": 405900
+      "aiActId": 94159512
     },
     "id": 94159503,
     "playOrder": 7,
@@ -3964,8 +3964,8 @@
   },
   {
     "script": {
-      "dispTime": 2000,
-      "messageText": "「やっぱデザートにカツ丼は重たいかー」"
+      "messageText": "「やっぱデザートにカツ丼は重たいかー」",
+      "dispTime": 2000
     },
     "id": 94159504,
     "playOrder": 1,
@@ -3984,8 +3984,8 @@
   },
   {
     "script": {
-      "dispTime": 2000,
-      "messageText": "「おまたせしまちた！　お飲み物をどうぞでち！」"
+      "messageText": "「おまたせしまちた！　お飲み物をどうぞでち！」",
+      "dispTime": 2000
     },
     "id": 94159504,
     "playOrder": 4,
@@ -3994,8 +3994,8 @@
   },
   {
     "script": {
-      "dispTime": 3000,
-      "messageText": "司令塔エネミーを倒した！"
+      "messageText": "司令塔エネミーを倒した！",
+      "dispTime": 3000
     },
     "id": 94160900,
     "playOrder": 1,
@@ -4042,8 +4042,8 @@
   },
   {
     "script": {
-      "dispTime": 3000,
-      "messageText": "ジキルがジャックを引き付け\nバーヴァン・シー？を攻撃できるようになった！"
+      "messageText": "ジキルがジャックを引き付け\nバーヴァン・シー？を攻撃できるようになった！",
+      "dispTime": 3000
     },
     "id": 94160901,
     "playOrder": 3,
@@ -4070,8 +4070,8 @@
   },
   {
     "script": {
-      "dispTime": 3000,
-      "messageText": "渡辺綱がジャックを引き付け\nバーヴァン・シー？を攻撃できるようになった！"
+      "messageText": "渡辺綱がジャックを引き付け\nバーヴァン・シー？を攻撃できるようになった！",
+      "dispTime": 3000
     },
     "id": 94160902,
     "playOrder": 3,
@@ -4098,8 +4098,8 @@
   },
   {
     "script": {
-      "dispTime": 3000,
-      "messageText": "ツタンカーメンがジャックを引き付け\nバーヴァン・シー？を攻撃できるようになった！"
+      "messageText": "ツタンカーメンがジャックを引き付け\nバーヴァン・シー？を攻撃できるようになった！",
+      "dispTime": 3000
     },
     "id": 94160903,
     "playOrder": 3,
@@ -4126,8 +4126,8 @@
   },
   {
     "script": {
-      "dispTime": 3000,
-      "messageText": "ジャックが守っていて\nバーヴァン・シー？を攻撃できない！"
+      "messageText": "ジャックが守っていて\nバーヴァン・シー？を攻撃できない！",
+      "dispTime": 3000
     },
     "id": 94160904,
     "playOrder": 3,
@@ -4145,9 +4145,9 @@
   },
   {
     "script": {
+      "individuality": 6026,
       "type": 2,
-      "aiActId": 94160966,
-      "individuality": 6026
+      "aiActId": 94160966
     },
     "id": 94161200,
     "playOrder": 2,
@@ -4165,9 +4165,9 @@
   },
   {
     "script": {
+      "individuality": 6026,
       "type": 2,
-      "aiActId": 94160966,
-      "individuality": 6026
+      "aiActId": 94160966
     },
     "id": 94161201,
     "playOrder": 2,
