@@ -629,9 +629,9 @@
     ],
     "bossColor": 5905782,
     "script": {
-      "ui_end_quest_id": 94045221,
       "ui_hidden": 1,
-      "ui_start_quest_id": 94045110
+      "ui_start_quest_id": 94045110,
+      "ui_end_quest_id": 94045221
     },
     "eventId": 80273,
     "id": 1,
@@ -650,9 +650,9 @@
     ],
     "bossColor": 5905782,
     "script": {
-      "ui_end_quest_id": 94045223,
       "ui_hidden": 1,
-      "ui_start_quest_id": 94045130
+      "ui_start_quest_id": 94045130,
+      "ui_end_quest_id": 94045223
     },
     "eventId": 80273,
     "id": 2,
@@ -671,9 +671,9 @@
     ],
     "bossColor": 5905782,
     "script": {
-      "ui_end_quest_id": 94045225,
       "ui_hidden": 1,
-      "ui_start_quest_id": 94045150
+      "ui_start_quest_id": 94045150,
+      "ui_end_quest_id": 94045225
     },
     "eventId": 80273,
     "id": 3,
@@ -692,9 +692,9 @@
     ],
     "bossColor": 5905782,
     "script": {
-      "ui_end_quest_id": 94045227,
       "ui_hidden": 1,
-      "ui_start_quest_id": 94045170
+      "ui_start_quest_id": 94045170,
+      "ui_end_quest_id": 94045227
     },
     "eventId": 80273,
     "id": 4,
@@ -713,9 +713,9 @@
     ],
     "bossColor": 5905782,
     "script": {
-      "ui_end_quest_id": 94045229,
       "ui_hidden": 1,
-      "ui_start_quest_id": 94045190
+      "ui_start_quest_id": 94045190,
+      "ui_end_quest_id": 94045229
     },
     "eventId": 80273,
     "id": 5,
@@ -734,9 +734,9 @@
     ],
     "bossColor": 5905782,
     "script": {
-      "ui_end_quest_id": 94045221,
       "ui_hidden": 1,
-      "ui_start_quest_id": 94045110
+      "ui_start_quest_id": 94045110,
+      "ui_end_quest_id": 94045221
     },
     "eventId": 80318,
     "id": 1,
@@ -755,9 +755,9 @@
     ],
     "bossColor": 5905782,
     "script": {
-      "ui_end_quest_id": 94045223,
       "ui_hidden": 1,
-      "ui_start_quest_id": 94045130
+      "ui_start_quest_id": 94045130,
+      "ui_end_quest_id": 94045223
     },
     "eventId": 80318,
     "id": 2,
@@ -776,9 +776,9 @@
     ],
     "bossColor": 5905782,
     "script": {
-      "ui_end_quest_id": 94045225,
       "ui_hidden": 1,
-      "ui_start_quest_id": 94045150
+      "ui_start_quest_id": 94045150,
+      "ui_end_quest_id": 94045225
     },
     "eventId": 80318,
     "id": 3,
@@ -797,9 +797,9 @@
     ],
     "bossColor": 5905782,
     "script": {
-      "ui_end_quest_id": 94045227,
       "ui_hidden": 1,
-      "ui_start_quest_id": 94045170
+      "ui_start_quest_id": 94045170,
+      "ui_end_quest_id": 94045227
     },
     "eventId": 80318,
     "id": 4,
@@ -818,9 +818,9 @@
     ],
     "bossColor": 5905782,
     "script": {
-      "ui_end_quest_id": 94045229,
       "ui_hidden": 1,
-      "ui_start_quest_id": 94045190
+      "ui_start_quest_id": 94045190,
+      "ui_end_quest_id": 94045229
     },
     "eventId": 80318,
     "id": 5,
@@ -959,11 +959,22 @@
           3002908
         ]
       ],
-      "hideSplitHp": 1,
-      "ui_hidden": 1,
+      "chooseSuperBossValues": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
       "ui_start_quest_id": 3001324,
+      "ui_end_quest_id": 3001324,
       "ui_end_quest_phase": 7,
+      "hideSplitHp": 1,
       "ui_start_quest_phase": 1,
+      "ui_hidden": 1,
       "breakGaugeHp": [
         1000000,
         1000000,
@@ -976,17 +987,6 @@
         1000000,
         1000000,
         1000000
-      ],
-      "ui_end_quest_id": 3001324,
-      "chooseSuperBossValues": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
       ]
     },
     "eventId": 80421,
@@ -1064,21 +1064,6 @@
           3002308
         ]
       ],
-      "hideSplitHp": 1,
-      "ui_hidden": 1,
-      "ui_start_quest_id": 3001325,
-      "ui_end_quest_phase": 7,
-      "ui_start_quest_phase": 1,
-      "breakGaugeHp": [
-        1200000,
-        1200000,
-        1200000,
-        1200000,
-        1200000,
-        2000000,
-        3000000
-      ],
-      "ui_end_quest_id": 3001325,
       "chooseSuperBossValues": [
         1,
         2,
@@ -1088,6 +1073,21 @@
         6,
         7,
         8
+      ],
+      "ui_start_quest_id": 3001325,
+      "ui_end_quest_id": 3001325,
+      "ui_end_quest_phase": 7,
+      "hideSplitHp": 1,
+      "ui_start_quest_phase": 1,
+      "ui_hidden": 1,
+      "breakGaugeHp": [
+        1200000,
+        1200000,
+        1200000,
+        1200000,
+        1200000,
+        2000000,
+        3000000
       ]
     },
     "eventId": 80421,
