@@ -293,7 +293,6 @@
   },
   {
     "script": {
-      "overwriteGrandGraphImageLimitCount": 0,
       "overwriteClassImageId": [
         [
           40,
@@ -302,7 +301,8 @@
         [
           41
         ]
-      ]
+      ],
+      "overwriteGrandGraphImageLimitCount": 0
     },
     "svtId": 205500
   },
@@ -656,19 +656,19 @@
   {
     "script": {
       "overwriteServantRecordRuby": "プレラーティ",
-      "overwriteServantCoinName": "プレラーティ",
+      "commonName": "プレラーティ",
       "overwriteServantRecordName": "プレラーティ",
-      "overwriteProfileName": "フランソワ（フランチェスカ）・プレラーティ",
-      "commonName": "プレラーティ"
+      "overwriteServantCoinName": "プレラーティ",
+      "overwriteProfileName": "フランソワ（フランチェスカ）・プレラーティ"
     },
     "svtId": 505600
   },
   {
     "script": {
       "overwriteServantRecordRuby": "プレラーティ",
+      "commonName": "プレラーティ",
       "overwriteServantRecordName": "プレラーティ",
-      "overwriteProfileName": "フランソワ（フランチェスカ）・プレラーティ",
-      "commonName": "プレラーティ"
+      "overwriteProfileName": "フランソワ（フランチェスカ）・プレラーティ"
     },
     "svtId": 505700
   },
@@ -782,10 +782,10 @@
   },
   {
     "script": {
-      "overwriteGrandGraphImageLimitCount": 0,
       "additionExpandImage": [
         3
-      ]
+      ],
+      "overwriteGrandGraphImageLimitCount": 0
     },
     "svtId": 604700
   },
@@ -1170,8 +1170,8 @@
   },
   {
     "script": {
-      "overwriteGrandGraphImageLimitCount": 0,
-      "ClassImageId": 123
+      "ClassImageId": 123,
+      "overwriteGrandGraphImageLimitCount": 0
     },
     "svtId": 2300400
   },
@@ -1183,17 +1183,17 @@
   },
   {
     "script": {
+      "addIdentifyText": "男性",
       "overwriteGrandGraphImageLimitCount": 0,
-      "presentDialogMessageId": 2301200,
-      "addIdentifyText": "男性"
+      "presentDialogMessageId": 2301200
     },
     "svtId": 2300700
   },
   {
     "script": {
+      "addIdentifyText": "女性",
       "overwriteGrandGraphImageLimitCount": 0,
-      "presentDialogMessageId": 2301201,
-      "addIdentifyText": "女性"
+      "presentDialogMessageId": 2301201
     },
     "svtId": 2300800
   },
@@ -1306,8 +1306,8 @@
   },
   {
     "script": {
-      "overwriteGrandGraphImage": "[[3,3,10151706],[4,4,10151706]]",
-      "overwriteGrandGraphImageLimitCount": 1
+      "overwriteGrandGraphImageLimitCount": 1,
+      "overwriteGrandGraphImage": "[[3,3,10151706],[4,4,10151706]]"
     },
     "svtId": 4000100
   },
