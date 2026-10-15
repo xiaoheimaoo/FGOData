@@ -3141,26 +3141,26 @@
     "imageIds": [],
     "textJson": [
       {
-        "isSelectBonus": false,
-        "dlgTitleFontSize": 0,
-        "text": "「アフタータイムのはじまり」をクリアしたため、\nバレンタインイベントにおける\nオルガマリーの特別メッセージが開放されました。\n\n※特別メッセージはマテリアルからも再生できます。",
-        "dlgBgId": 0,
-        "spacingY": 5,
+        "isQuestRelease": false,
         "ptPos": [
           0,
           0
         ],
-        "isFortification": false,
         "dlgFontSize": 23,
-        "isQuestRelease": false,
-        "isClassBoardRelease": false,
-        "rects": [],
-        "questId": 0,
-        "commonReleaseId": 0,
+        "isSelectBonus": false,
+        "spacingY": 5,
+        "dlgTitleFontSize": 0,
         "textPos": [
           0,
           30
-        ]
+        ],
+        "isFortification": false,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "text": "「アフタータイムのはじまり」をクリアしたため、\nバレンタインイベントにおける\nオルガマリーの特別メッセージが開放されました。\n\n※特別メッセージはマテリアルからも再生できます。",
+        "rects": [],
+        "commonReleaseId": 0,
+        "dlgBgId": 0
       }
     ],
     "script": {
@@ -3711,10 +3711,6 @@
       }
     ],
     "script": {
-      "beforeActionSetup": [
-        "114",
-        "1040701,1"
-      ],
       "beforeActionVals": [
         "303",
         "-84,95,1000,15",
@@ -3722,6 +3718,10 @@
         "1040701,3",
         "900",
         "1000"
+      ],
+      "beforeActionSetup": [
+        "114",
+        "1040701,1"
       ]
     },
     "eventId": -202,
@@ -3759,12 +3759,6 @@
       }
     ],
     "script": {
-      "beforeActionSetup": [
-        "403",
-        "50103,1",
-        "402",
-        "50104"
-      ],
       "beforeActionVals": [
         "303",
         "-84,95,1000,15",
@@ -3778,6 +3772,12 @@
         "1040701,3",
         "900",
         "1000"
+      ],
+      "beforeActionSetup": [
+        "403",
+        "50103,1",
+        "402",
+        "50104"
       ]
     },
     "eventId": -202,
@@ -3815,7 +3815,6 @@
       }
     ],
     "script": {
-      "beforeActionSetup": [],
       "beforeActionVals": [
         "303",
         "-84,95,1000,15",
@@ -3823,7 +3822,8 @@
         "1040701,3",
         "900",
         "1000"
-      ]
+      ],
+      "beforeActionSetup": []
     },
     "eventId": -202,
     "flagType": 65,
@@ -3846,25 +3846,25 @@
     "imageIds": [],
     "textJson": [
       {
-        "isSelectBonus": false,
-        "text": "ソロモンとの決戦は\n12月3日 18:00 より\n『冠位戴冠戦：Caster』\nとして開催されます。\n\n「終章_序／終局特異点より」の\n続きのストーリーは\n『冠位戴冠戦：Caster』の\n認定戦をクリアすることで開放されます。",
-        "dlgBgId": 0,
-        "spacingY": 2,
+        "isQuestRelease": false,
         "ptPos": [
           0,
           0
         ],
-        "isFortification": false,
         "dlgFontSize": 26,
-        "isQuestRelease": false,
-        "isClassBoardRelease": false,
-        "rects": [],
-        "questId": 0,
-        "commonReleaseId": 0,
+        "isSelectBonus": false,
+        "spacingY": 2,
         "textPos": [
           0,
           30
-        ]
+        ],
+        "isFortification": false,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "text": "ソロモンとの決戦は\n12月3日 18:00 より\n『冠位戴冠戦：Caster』\nとして開催されます。\n\n「終章_序／終局特異点より」の\n続きのストーリーは\n『冠位戴冠戦：Caster』の\n認定戦をクリアすることで開放されます。",
+        "rects": [],
+        "commonReleaseId": 0,
+        "dlgBgId": 0
       }
     ],
     "script": {},
@@ -3889,25 +3889,25 @@
     "imageIds": [],
     "textJson": [
       {
-        "isSelectBonus": false,
-        "text": "『冠位戴冠戦：Caster』\nが開放されました。\n\n冠位解放戦クエストをクリアし、\n戴冠条件を満たしたキャスターの中から、\nグランドサーヴァント〔キャスター〕\nを選定しましょう。\n\n「終章_序／終局特異点より」の\n続きのストーリーは\n『冠位戴冠戦：Caster』の\n認定戦をクリアすることで開放されます。",
-        "dlgBgId": 0,
-        "spacingY": 2,
+        "isQuestRelease": false,
         "ptPos": [
           0,
           0
         ],
-        "isFortification": false,
         "dlgFontSize": 26,
-        "isQuestRelease": false,
-        "isClassBoardRelease": false,
-        "rects": [],
-        "questId": 0,
-        "commonReleaseId": 0,
+        "isSelectBonus": false,
+        "spacingY": 2,
         "textPos": [
           0,
           30
-        ]
+        ],
+        "isFortification": false,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "text": "『冠位戴冠戦：Caster』\nが開放されました。\n\n冠位解放戦クエストをクリアし、\n戴冠条件を満たしたキャスターの中から、\nグランドサーヴァント〔キャスター〕\nを選定しましょう。\n\n「終章_序／終局特異点より」の\n続きのストーリーは\n『冠位戴冠戦：Caster』の\n認定戦をクリアすることで開放されます。",
+        "rects": [],
+        "commonReleaseId": 0,
+        "dlgBgId": 0
       }
     ],
     "script": {},
@@ -3932,25 +3932,25 @@
     "imageIds": [],
     "textJson": [
       {
-        "isSelectBonus": false,
-        "text": "『冠位戴冠戦：Caster』\nが開放されました。\n\n冠位解放戦クエストをクリアし、\n戴冠条件を満たしたキャスターの中から、\nグランドサーヴァント〔キャスター〕\nを選定しましょう。\n\n「終章_序／終局特異点より」の\n続きのストーリーは\n『冠位戴冠戦：Caster』の\n認定戦をクリアすることで開放されます。",
-        "dlgBgId": 0,
-        "spacingY": 2,
+        "isQuestRelease": false,
         "ptPos": [
           0,
           0
         ],
-        "isFortification": false,
         "dlgFontSize": 26,
-        "isQuestRelease": false,
-        "isClassBoardRelease": false,
-        "rects": [],
-        "questId": 0,
-        "commonReleaseId": 0,
+        "isSelectBonus": false,
+        "spacingY": 2,
         "textPos": [
           0,
           30
-        ]
+        ],
+        "isFortification": false,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "text": "『冠位戴冠戦：Caster』\nが開放されました。\n\n冠位解放戦クエストをクリアし、\n戴冠条件を満たしたキャスターの中から、\nグランドサーヴァント〔キャスター〕\nを選定しましょう。\n\n「終章_序／終局特異点より」の\n続きのストーリーは\n『冠位戴冠戦：Caster』の\n認定戦をクリアすることで開放されます。",
+        "rects": [],
+        "commonReleaseId": 0,
+        "dlgBgId": 0
       }
     ],
     "script": {},
@@ -3973,27 +3973,27 @@
     "imageIds": [],
     "textJson": [
       {
-        "isSelectBonus": false,
-        "dlgTitleFontSize": 27,
-        "text": "自身のグランドキャスターに加えて\nグランドサーヴァントを\nもう1騎編成する必要があります。\n\n所持サーヴァントまたは\nサポートのサーヴァントから編成できます。",
-        "dlgBgId": 0,
-        "spacingY": 0,
+        "isQuestRelease": false,
         "ptPos": [
           0,
           0
         ],
-        "isFortification": false,
         "dlgFontSize": 26,
-        "isQuestRelease": false,
-        "isClassBoardRelease": false,
-        "rects": [],
-        "questId": 0,
-        "commonReleaseId": 0,
-        "title": "グランドサーヴァントを2騎編成するクエストについて",
+        "isSelectBonus": false,
+        "spacingY": 0,
+        "dlgTitleFontSize": 27,
         "textPos": [
           0,
           13
-        ]
+        ],
+        "commonReleaseId": 0,
+        "isFortification": false,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "text": "自身のグランドキャスターに加えて\nグランドサーヴァントを\nもう1騎編成する必要があります。\n\n所持サーヴァントまたは\nサポートのサーヴァントから編成できます。",
+        "rects": [],
+        "dlgBgId": 0,
+        "title": "グランドサーヴァントを2騎編成するクエストについて"
       }
     ],
     "script": {},
@@ -4018,12 +4018,6 @@
     "imageIds": [],
     "textJson": [],
     "script": {
-      "beforeActionSetup": [
-        "403",
-        "50103,1",
-        "402",
-        "50104"
-      ],
       "beforeActionVals": [
         "303",
         "-84,95,1000,15",
@@ -4033,6 +4027,12 @@
         "2100",
         "401",
         "50104,1,1"
+      ],
+      "beforeActionSetup": [
+        "403",
+        "50103,1",
+        "402",
+        "50104"
       ]
     },
     "eventId": -199,
@@ -4056,15 +4056,15 @@
     "imageIds": [],
     "textJson": [],
     "script": {
-      "beforeActionSetup": [
-        "114",
-        "1040701,0"
-      ],
       "beforeActionVals": [
         "300",
         "1040701,15,1000",
         "104",
         "1040701,1"
+      ],
+      "beforeActionSetup": [
+        "114",
+        "1040701,0"
       ]
     },
     "eventId": -198,
@@ -4088,15 +4088,15 @@
     "imageIds": [],
     "textJson": [],
     "script": {
+      "beforeActionVals": [
+        "104",
+        "1040111,0"
+      ],
       "beforeActionSetup": [
         "114",
         "1040111,1",
         "300",
         "1040111,15,1"
-      ],
-      "beforeActionVals": [
-        "104",
-        "1040111,0"
       ]
     },
     "eventId": -197,
@@ -4120,32 +4120,28 @@
     "imageIds": [],
     "textJson": [
       {
-        "isSelectBonus": false,
-        "text": "『終章_序』\nが開放されました。",
-        "dlgBgId": 0,
-        "spacingY": 0,
+        "isQuestRelease": false,
         "ptPos": [
           0,
           0
         ],
-        "isFortification": false,
         "dlgFontSize": 30,
-        "isQuestRelease": false,
-        "isClassBoardRelease": false,
-        "rects": [],
-        "questId": 0,
-        "commonReleaseId": 0,
+        "isSelectBonus": false,
+        "spacingY": 0,
         "textPos": [
           0,
           30
-        ]
+        ],
+        "isFortification": false,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "text": "『終章_序』\nが開放されました。",
+        "rects": [],
+        "commonReleaseId": 0,
+        "dlgBgId": 0
       }
     ],
     "script": {
-      "beforeActionSetup": [
-        "114",
-        "1040111,0"
-      ],
       "beforeActionVals": [
         "900",
         "500",
@@ -4155,6 +4151,10 @@
         "1040111,1",
         "900",
         "500"
+      ],
+      "beforeActionSetup": [
+        "114",
+        "1040111,0"
       ]
     },
     "eventId": -196,
@@ -4178,13 +4178,13 @@
     "imageIds": [],
     "textJson": [],
     "script": {
-      "beforeActionSetup": [],
       "beforeActionVals": [
         "500",
         "4000600",
         "900",
         "1000"
-      ]
+      ],
+      "beforeActionSetup": []
     },
     "eventId": -196,
     "flagType": 2,
@@ -4207,10 +4207,10 @@
     "imageIds": [],
     "textJson": [
       {
+        "isClassBoardRelease": true,
         "releaseClassBoardBaseIds": [
           10005
-        ],
-        "isClassBoardRelease": true
+        ]
       }
     ],
     "script": {},
@@ -4235,10 +4235,10 @@
     "imageIds": [],
     "textJson": [
       {
+        "isClassBoardRelease": true,
         "releaseClassBoardBaseIds": [
           10002
-        ],
-        "isClassBoardRelease": true
+        ]
       }
     ],
     "script": {},
@@ -8162,10 +8162,10 @@
     "imageIds": [],
     "textJson": [
       {
+        "isClassBoardRelease": true,
         "releaseClassBoardBaseIds": [
           10006
-        ],
-        "isClassBoardRelease": true
+        ]
       }
     ],
     "script": {},
@@ -12530,10 +12530,10 @@
     "imageIds": [],
     "textJson": [
       {
+        "isClassBoardRelease": true,
         "releaseClassBoardBaseIds": [
           10004
-        ],
-        "isClassBoardRelease": true
+        ]
       }
     ],
     "script": {},
@@ -12616,13 +12616,13 @@
     "imageIds": [],
     "textJson": [
       {
-        "releaseClassBoardBaseIds": [
-          10009
-        ],
         "addClassIds": [
           10033
         ],
-        "isClassBoardRelease": true
+        "isClassBoardRelease": true,
+        "releaseClassBoardBaseIds": [
+          10009
+        ]
       }
     ],
     "script": {},
@@ -12671,11 +12671,11 @@
     "imageIds": [],
     "textJson": [
       {
+        "isClassBoardRelease": true,
         "releaseClassBoardBaseIds": [
           10008,
           10009
-        ],
-        "isClassBoardRelease": true
+        ]
       }
     ],
     "script": {},
@@ -12700,13 +12700,13 @@
     "imageIds": [],
     "textJson": [],
     "script": {
+      "exchangeDestinationItemId": "204",
       "exchangeOriginItemIds": [
         "200",
         "201",
         "202",
         "203"
-      ],
-      "exchangeDestinationItemId": "204"
+      ]
     },
     "eventId": -170,
     "flagType": 96,
@@ -12743,10 +12743,6 @@
       }
     ],
     "script": {
-      "beforeActionSetup": [
-        "114",
-        "1040110,4"
-      ],
       "beforeActionVals": [
         "300",
         "1040110,15,1000",
@@ -12756,6 +12752,10 @@
         "1040110,3",
         "900",
         "1000"
+      ],
+      "beforeActionSetup": [
+        "114",
+        "1040110,4"
       ]
     },
     "eventId": -169,
@@ -12779,13 +12779,13 @@
     "imageIds": [],
     "textJson": [
       {
-        "releaseClassBoardBaseIds": [
-          9
-        ],
         "addClassIds": [
           33
         ],
-        "isClassBoardRelease": true
+        "isClassBoardRelease": true,
+        "releaseClassBoardBaseIds": [
+          9
+        ]
       }
     ],
     "script": {},
@@ -12810,10 +12810,10 @@
     "imageIds": [],
     "textJson": [
       {
+        "isClassBoardRelease": true,
         "releaseClassBoardBaseIds": [
           10003
-        ],
-        "isClassBoardRelease": true
+        ]
       }
     ],
     "script": {},
@@ -12864,10 +12864,10 @@
     "imageIds": [],
     "textJson": [
       {
+        "isClassBoardRelease": true,
         "releaseClassBoardBaseIds": [
           10007
-        ],
-        "isClassBoardRelease": true
+        ]
       }
     ],
     "script": {},
@@ -12892,10 +12892,10 @@
     "imageIds": [],
     "textJson": [
       {
+        "isClassBoardRelease": true,
         "releaseClassBoardBaseIds": [
           10001
-        ],
-        "isClassBoardRelease": true
+        ]
       }
     ],
     "script": {},
@@ -13172,26 +13172,22 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "マシュのサーヴァントコインが獲得できる\nクエストが以下のスポットに開放されました。\n\n第1部 第6章 キャメロット『王城』\n第2部 第6章 アヴァロン・ル・フェ『キャメロット』\n\n[FFFF00]マシュのサーヴァント詳細画面から\nクエストへ移動できます。[-]",
+        "title": "クエスト開放",
         "textPos": [
           0,
           15
         ],
-        "text": "マシュのサーヴァントコインが獲得できる\nクエストが以下のスポットに開放されました。\n\n第1部 第6章 キャメロット『王城』\n第2部 第6章 アヴァロン・ル・フェ『キャメロット』\n\n[FFFF00]マシュのサーヴァント詳細画面から\nクエストへ移動できます。[-]",
-        "dlgFontSize": 28,
         "rects": [],
-        "title": "クエスト開放",
         "ptPos": [
           0,
           0
         ],
+        "dlgFontSize": 28,
         "spacingY": 1
       }
     ],
     "script": {
-      "beforeActionSetup": [
-        "402",
-        "50102"
-      ],
       "beforeActionVals": [
         "560",
         "0,401001,1",
@@ -13205,6 +13201,10 @@
         "0,4000529",
         "300",
         "1040401,15,1000"
+      ],
+      "beforeActionSetup": [
+        "402",
+        "50102"
       ]
     },
     "eventId": -151,
@@ -13228,18 +13228,18 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "各リコレクションクエストでは、\n元のクエストがオススメサポート対象だった場合、\n元のクエストに設定されたオススメサポートを\n使用できます。\n\nリコレクションクエストで使えるオススメサポートを\n設定したい場合は元のクエストに対して\nオススメサポートを設定してください。",
+        "title": "オススメサポートについて",
         "textPos": [
           0,
           30
         ],
-        "text": "各リコレクションクエストでは、\n元のクエストがオススメサポート対象だった場合、\n元のクエストに設定されたオススメサポートを\n使用できます。\n\nリコレクションクエストで使えるオススメサポートを\n設定したい場合は元のクエストに対して\nオススメサポートを設定してください。",
-        "dlgFontSize": 26,
         "rects": [],
-        "title": "オススメサポートについて",
         "ptPos": [
           0,
           0
-        ]
+        ],
+        "dlgFontSize": 26
       }
     ],
     "script": {},
@@ -13287,14 +13287,14 @@
     "imageIds": [],
     "textJson": [
       {
-        "releaseClassBoardBaseIds": [
-          8
-        ],
         "addClassIds": [
           9,
           8
         ],
-        "isClassBoardRelease": true
+        "isClassBoardRelease": true,
+        "releaseClassBoardBaseIds": [
+          8
+        ]
       }
     ],
     "script": {},
@@ -13333,15 +13333,15 @@
       }
     ],
     "script": {
-      "beforeActionSetup": [
-        "114",
-        "1040401,5"
-      ],
       "beforeActionVals": [
         "300",
         "1040401,15,1000",
         "104",
         "1040401,6"
+      ],
+      "beforeActionSetup": [
+        "114",
+        "1040401,5"
       ]
     },
     "eventId": -146,
@@ -13388,13 +13388,13 @@
     "imageIds": [],
     "textJson": [
       {
-        "releaseClassBoardBaseIds": [
-          9
-        ],
         "addClassIds": [
           25
         ],
-        "isClassBoardRelease": true
+        "isClassBoardRelease": true,
+        "releaseClassBoardBaseIds": [
+          9
+        ]
       }
     ],
     "script": {},
@@ -13419,17 +13419,17 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "チャレンジクエスト\n『オルガマリークエスト_３・やや本気』が開放されました。\nより高難易度のグランマリーとの再戦に挑んでみましょう！\n\n※『オルガマリークエスト_３・やや本気』には\n　アドベンチャーパートはありません。",
         "textPos": [
           0,
           36
         ],
-        "text": "チャレンジクエスト\n『オルガマリークエスト_３・やや本気』が開放されました。\nより高難易度のグランマリーとの再戦に挑んでみましょう！\n\n※『オルガマリークエスト_３・やや本気』には\n　アドベンチャーパートはありません。",
-        "dlgFontSize": 21,
         "rects": [],
         "ptPos": [
           0,
           0
         ],
+        "dlgFontSize": 21,
         "spacingY": 2
       }
     ],
@@ -13499,10 +13499,6 @@
       }
     ],
     "script": {
-      "beforeActionSetup": [
-        "114",
-        "1040182,4"
-      ],
       "beforeActionVals": [
         "300",
         "1040182,15,1000",
@@ -13512,6 +13508,10 @@
         "1040182,3",
         "900",
         "1000"
+      ],
+      "beforeActionSetup": [
+        "114",
+        "1040182,4"
       ]
     },
     "eventId": -141,
@@ -13944,18 +13944,18 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "各リコレクションクエストでは、\n元のクエストがオススメサポート対象だった場合、\n元のクエストに設定されたオススメサポートを\n使用できます。\n\nリコレクションクエストで使えるオススメサポートを\n設定したい場合は元のクエストに対して\nオススメサポートを設定してください。",
+        "title": "オススメサポートについて",
         "textPos": [
           0,
           30
         ],
-        "text": "各リコレクションクエストでは、\n元のクエストがオススメサポート対象だった場合、\n元のクエストに設定されたオススメサポートを\n使用できます。\n\nリコレクションクエストで使えるオススメサポートを\n設定したい場合は元のクエストに対して\nオススメサポートを設定してください。",
-        "dlgFontSize": 26,
         "rects": [],
-        "title": "オススメサポートについて",
         "ptPos": [
           0,
           0
-        ]
+        ],
+        "dlgFontSize": 26
       }
     ],
     "script": {},
@@ -14094,18 +14094,18 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "各リコレクションクエストでは、\n元のクエストがオススメサポート対象だった場合、\n元のクエストに設定されたオススメサポートを\n使用できます。\n\nリコレクションクエストで使えるオススメサポートを\n設定したい場合は元のクエストに対して\nオススメサポートを設定してください。",
+        "title": "オススメサポートについて",
         "textPos": [
           0,
           30
         ],
-        "text": "各リコレクションクエストでは、\n元のクエストがオススメサポート対象だった場合、\n元のクエストに設定されたオススメサポートを\n使用できます。\n\nリコレクションクエストで使えるオススメサポートを\n設定したい場合は元のクエストに対して\nオススメサポートを設定してください。",
-        "dlgFontSize": 26,
         "rects": [],
-        "title": "オススメサポートについて",
         "ptPos": [
           0,
           0
-        ]
+        ],
+        "dlgFontSize": 26
       }
     ],
     "script": {},
@@ -14130,18 +14130,18 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "各リコレクションクエストでは、\n元のクエストがオススメサポート対象だった場合、\n元のクエストに設定されたオススメサポートを\n使用できます。\n\nリコレクションクエストで使えるオススメサポートを\n設定したい場合は元のクエストに対して\nオススメサポートを設定してください。",
+        "title": "オススメサポートについて",
         "textPos": [
           0,
           30
         ],
-        "text": "各リコレクションクエストでは、\n元のクエストがオススメサポート対象だった場合、\n元のクエストに設定されたオススメサポートを\n使用できます。\n\nリコレクションクエストで使えるオススメサポートを\n設定したい場合は元のクエストに対して\nオススメサポートを設定してください。",
-        "dlgFontSize": 26,
         "rects": [],
-        "title": "オススメサポートについて",
         "ptPos": [
           0,
           0
-        ]
+        ],
+        "dlgFontSize": 26
       }
     ],
     "script": {},
@@ -14187,18 +14187,18 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "各リコレクションクエストでは、\n元のクエストがオススメサポート対象だった場合、\n元のクエストに設定されたオススメサポートを\n使用できます。\n\nリコレクションクエストで使えるオススメサポートを\n設定したい場合は元のクエストに対して\nオススメサポートを設定してください。",
+        "title": "オススメサポートについて",
         "textPos": [
           0,
           30
         ],
-        "text": "各リコレクションクエストでは、\n元のクエストがオススメサポート対象だった場合、\n元のクエストに設定されたオススメサポートを\n使用できます。\n\nリコレクションクエストで使えるオススメサポートを\n設定したい場合は元のクエストに対して\nオススメサポートを設定してください。",
-        "dlgFontSize": 26,
         "rects": [],
-        "title": "オススメサポートについて",
         "ptPos": [
           0,
           0
-        ]
+        ],
+        "dlgFontSize": 26
       }
     ],
     "script": {},
@@ -14292,27 +14292,21 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "期間限定イベント\n「ＢＢプレゼンツ☆セレブサマー・エクスペリエンス！\n～逆襲のドバイ～」の後編となる\n「奏章Ⅲ　新霊長後継戦　\nアーキタイプ・インセプション」\nが出現しました。\n\n[FFFF00]※奏章Ⅲは2024年8月28日(水) 18:00に開放されます。\nまた、奏章Ⅲには開放期間があり、\n開放期間終了後はプレイできなくなります。\nご注意ください。\n開放期間：2024年10月31日(木) 12:59まで[-]",
         "textPos": [
           0,
           30
         ],
-        "text": "期間限定イベント\n「ＢＢプレゼンツ☆セレブサマー・エクスペリエンス！\n～逆襲のドバイ～」の後編となる\n「奏章Ⅲ　新霊長後継戦　\nアーキタイプ・インセプション」\nが出現しました。\n\n[FFFF00]※奏章Ⅲは2024年8月28日(水) 18:00に開放されます。\nまた、奏章Ⅲには開放期間があり、\n開放期間終了後はプレイできなくなります。\nご注意ください。\n開放期間：2024年10月31日(木) 12:59まで[-]",
-        "dlgFontSize": 24,
         "rects": [],
         "ptPos": [
           0,
           0
         ],
+        "dlgFontSize": 24,
         "spacingY": 1
       }
     ],
     "script": {
-      "beforeActionSetup": [
-        "1012",
-        "50101,0",
-        "114",
-        "1040501,0"
-      ],
       "beforeActionVals": [
         "1002",
         "50101,1",
@@ -14322,6 +14316,12 @@
         "1040501,3",
         "101",
         "1040501"
+      ],
+      "beforeActionSetup": [
+        "1012",
+        "50101,0",
+        "114",
+        "1040501,0"
       ]
     },
     "eventId": -128,
@@ -14345,27 +14345,21 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "期間限定イベント\n「ＢＢプレゼンツ☆セレブサマー・エクスペリエンス！\n～逆襲のドバイ～」の後編となる\n「奏章Ⅲ　新霊長後継戦　\nアーキタイプ・インセプション」\nが開放されました。\n\n[FFFF00]※奏章Ⅲには開放期間があり、\n開放期間終了後はプレイできなくなります。\nご注意ください。\n開放期間：2024年10月31日(木) 12:59まで[-]",
         "textPos": [
           0,
           30
         ],
-        "text": "期間限定イベント\n「ＢＢプレゼンツ☆セレブサマー・エクスペリエンス！\n～逆襲のドバイ～」の後編となる\n「奏章Ⅲ　新霊長後継戦　\nアーキタイプ・インセプション」\nが開放されました。\n\n[FFFF00]※奏章Ⅲには開放期間があり、\n開放期間終了後はプレイできなくなります。\nご注意ください。\n開放期間：2024年10月31日(木) 12:59まで[-]",
-        "dlgFontSize": 24,
         "rects": [],
         "ptPos": [
           0,
           0
         ],
+        "dlgFontSize": 24,
         "spacingY": 1
       }
     ],
     "script": {
-      "beforeActionSetup": [
-        "1012",
-        "50101,0",
-        "114",
-        "1040501,0"
-      ],
       "beforeActionVals": [
         "1002",
         "50101,1",
@@ -14375,6 +14369,12 @@
         "1040501,3",
         "101",
         "1040501"
+      ],
+      "beforeActionSetup": [
+        "1012",
+        "50101,0",
+        "114",
+        "1040501,0"
       ]
     },
     "eventId": -128,
@@ -14398,17 +14398,17 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "期間限定イベント\n「ＢＢプレゼンツ☆セレブサマー・エクスペリエンス！\n～逆襲のドバイ～」の後編となる\n「奏章Ⅲ　新霊長後継戦　\nアーキタイプ・インセプション」\nが開放されました。\n\n[FFFF00]※奏章Ⅲには開放期間があり、\n開放期間終了後はプレイできなくなります。\nご注意ください。\n開放期間：2024年10月31日(木) 12:59まで[-]",
         "textPos": [
           0,
           30
         ],
-        "text": "期間限定イベント\n「ＢＢプレゼンツ☆セレブサマー・エクスペリエンス！\n～逆襲のドバイ～」の後編となる\n「奏章Ⅲ　新霊長後継戦　\nアーキタイプ・インセプション」\nが開放されました。\n\n[FFFF00]※奏章Ⅲには開放期間があり、\n開放期間終了後はプレイできなくなります。\nご注意ください。\n開放期間：2024年10月31日(木) 12:59まで[-]",
-        "dlgFontSize": 24,
         "rects": [],
         "ptPos": [
           0,
           0
         ],
+        "dlgFontSize": 24,
         "spacingY": 1
       }
     ],
@@ -14448,12 +14448,6 @@
       }
     ],
     "script": {
-      "beforeActionSetup": [
-        "1012",
-        "50101,0",
-        "114",
-        "1040501,0"
-      ],
       "beforeActionVals": [
         "1002",
         "50101,1",
@@ -14463,6 +14457,12 @@
         "1040501,3",
         "101",
         "1040501"
+      ],
+      "beforeActionSetup": [
+        "1012",
+        "50101,0",
+        "114",
+        "1040501,0"
       ]
     },
     "eventId": -128,
@@ -14486,13 +14486,13 @@
     "imageIds": [],
     "textJson": [
       {
-        "releaseClassBoardBaseIds": [
-          8
-        ],
         "addClassIds": [
           23
         ],
-        "isClassBoardRelease": true
+        "isClassBoardRelease": true,
+        "releaseClassBoardBaseIds": [
+          8
+        ]
       },
       {
         "presentClassScoreResetItemIdList": [
@@ -14898,23 +14898,23 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "「阿曇磯良（ひびき＆千鍵）」の\n第三再臨の封印が解放されました。",
+        "title": "霊基再臨の封印解放",
         "textPos": [
           0,
           0
         ],
-        "isFortification": false,
-        "text": "「阿曇磯良（ひびき＆千鍵）」の\n第三再臨の封印が解放されました。",
-        "dlgFontSize": 30,
         "rects": [],
-        "title": "霊基再臨の封印解放",
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
         "questId": 0,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 30,
+        "spacingY": 0,
+        "isClassBoardRelease": false
       }
     ],
     "script": {},
@@ -15104,20 +15104,20 @@
     "imageIds": [],
     "textJson": [
       {
-        "isQuestRelease": true,
         "text": "オーディール・コールの日本エリアに\n奏章Ⅱ 不可逆廃棄孔 イド\n『appendix』\nが追加されました。\n",
-        "dlgFontSize": 28,
+        "textPos": [
+          0,
+          30
+        ],
         "rects": [],
         "ptPos": [
           0,
           0
         ],
         "questId": 4000327,
-        "textPos": [
-          0,
-          30
-        ],
-        "spacingY": 5
+        "dlgFontSize": 28,
+        "spacingY": 5,
+        "isQuestRelease": true
       }
     ],
     "script": {},
@@ -15143,10 +15143,10 @@
     "imageIds": [],
     "textJson": [
       {
+        "isClassBoardRelease": true,
         "releaseClassBoardBaseIds": [
           8
-        ],
-        "isClassBoardRelease": true
+        ]
       }
     ],
     "script": {},
@@ -15171,13 +15171,13 @@
     "imageIds": [],
     "textJson": [
       {
-        "releaseClassBoardBaseIds": [
-          8
-        ],
         "addClassIds": [
           11
         ],
-        "isClassBoardRelease": true
+        "isClassBoardRelease": true,
+        "releaseClassBoardBaseIds": [
+          8
+        ]
       },
       {
         "presentClassScoreResetItemIdList": [
@@ -15215,13 +15215,13 @@
     "imageIds": [],
     "textJson": [
       {
-        "releaseClassBoardBaseIds": [
-          8
-        ],
         "addClassIds": [
           11
         ],
-        "isClassBoardRelease": true
+        "isClassBoardRelease": true,
+        "releaseClassBoardBaseIds": [
+          8
+        ]
       }
     ],
     "script": {},
@@ -15325,23 +15325,23 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "「巌窟王　モンテ・クリスト」の\n第三再臨の封印が解放されました。",
+        "title": "霊基再臨の封印解放",
         "textPos": [
           0,
           0
         ],
-        "isFortification": false,
-        "text": "「巌窟王　モンテ・クリスト」の\n第三再臨の封印が解放されました。",
-        "dlgFontSize": 30,
         "rects": [],
-        "title": "霊基再臨の封印解放",
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
         "questId": 0,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 30,
+        "spacingY": 0,
+        "isClassBoardRelease": false
       }
     ],
     "script": {},
@@ -15402,12 +15402,6 @@
       }
     ],
     "script": {
-      "beforeActionSetup": [
-        "114",
-        "1040109,5",
-        "402",
-        "50100,1"
-      ],
       "beforeActionVals": [
         "300",
         "1040109,15,1000",
@@ -15419,6 +15413,12 @@
         "1040109,3",
         "900",
         "1000"
+      ],
+      "beforeActionSetup": [
+        "114",
+        "1040109,5",
+        "402",
+        "50100,1"
       ]
     },
     "eventId": -103,
@@ -15440,18 +15440,18 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "\nバトルに参加するパーティメンバーが２騎以上だと発生し、\n参加数が増えるごとに効果が強力になります。\n一部の効果はプレイヤー側だけでなく、\nバトルに参加するエネミーが２体以上であれば\nエネミー側にも発生します。\n効果の種類は戦線によって変化する場合があります。\n\n■この戦線のパーティ効果(1)\nパーティ全体の攻撃の威力をアップ\n・2騎…20%\n・3騎…20%×2(計40%)\n・4騎…20%×3(計60%)\n・5騎…20%×4(計80%)\n・6騎…20%×5(計100%)\n\n■この戦線のパーティ効果(2)【プレイヤー側にのみ適用】\nパーティ全体のスター発生率をアップ\n・2騎以上…100％\n\n■この戦線のパーティ効果(3)【プレイヤー側にのみ適用】\nパーティ全体の防御力をアップ\n・2騎以上…15％\n\n■この戦線のパーティ効果(4)【プレイヤー側にのみ適用】\nパーティ全体のHP回復量をアップ\n・2騎以上…50％\n",
         "textPos": [
           0,
           30
         ],
-        "text": "\nバトルに参加するパーティメンバーが２騎以上だと発生し、\n参加数が増えるごとに効果が強力になります。\n一部の効果はプレイヤー側だけでなく、\nバトルに参加するエネミーが２体以上であれば\nエネミー側にも発生します。\n効果の種類は戦線によって変化する場合があります。\n\n■この戦線のパーティ効果(1)\nパーティ全体の攻撃の威力をアップ\n・2騎…20%\n・3騎…20%×2(計40%)\n・4騎…20%×3(計60%)\n・5騎…20%×4(計80%)\n・6騎…20%×5(計100%)\n\n■この戦線のパーティ効果(2)【プレイヤー側にのみ適用】\nパーティ全体のスター発生率をアップ\n・2騎以上…100％\n\n■この戦線のパーティ効果(3)【プレイヤー側にのみ適用】\nパーティ全体の防御力をアップ\n・2騎以上…15％\n\n■この戦線のパーティ効果(4)【プレイヤー側にのみ適用】\nパーティ全体のHP回復量をアップ\n・2騎以上…50％\n",
-        "dlgFontSize": 26,
         "rects": [],
-        "scrDlgTitle": "パーティ効果について",
         "ptPos": [
           0,
           0
-        ]
+        ],
+        "dlgFontSize": 26,
+        "scrDlgTitle": "パーティ効果について"
       }
     ],
     "script": {},
@@ -15480,18 +15480,18 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "\nバトルに参加するパーティメンバーが２騎以上だと発生し、\n参加数が増えるごとに効果が強力になります。\n一部の効果はプレイヤー側だけでなく、\nバトルに参加するエネミーが２体以上であれば\nエネミー側にも発生します。\n効果の種類は戦線によって変化する場合があります。\n\n■この戦線のパーティ効果(1)\nパーティ全体の攻撃の威力をアップ\n・2騎…20%\n・3騎…20%×2(計40%)\n・4騎…20%×3(計60%)\n・5騎…20%×4(計80%)\n・6騎…20%×5(計100%)\n\n■この戦線のパーティ効果(2)【プレイヤー側にのみ適用】\nパーティ全体の防御力をアップ\n・2騎以上…15％\n\n■この戦線のパーティ効果(3)【プレイヤー側にのみ適用】\nパーティ全体のHP回復量をアップ\n・2騎以上…50％\n",
         "textPos": [
           0,
           30
         ],
-        "text": "\nバトルに参加するパーティメンバーが２騎以上だと発生し、\n参加数が増えるごとに効果が強力になります。\n一部の効果はプレイヤー側だけでなく、\nバトルに参加するエネミーが２体以上であれば\nエネミー側にも発生します。\n効果の種類は戦線によって変化する場合があります。\n\n■この戦線のパーティ効果(1)\nパーティ全体の攻撃の威力をアップ\n・2騎…20%\n・3騎…20%×2(計40%)\n・4騎…20%×3(計60%)\n・5騎…20%×4(計80%)\n・6騎…20%×5(計100%)\n\n■この戦線のパーティ効果(2)【プレイヤー側にのみ適用】\nパーティ全体の防御力をアップ\n・2騎以上…15％\n\n■この戦線のパーティ効果(3)【プレイヤー側にのみ適用】\nパーティ全体のHP回復量をアップ\n・2騎以上…50％\n",
-        "dlgFontSize": 26,
         "rects": [],
-        "scrDlgTitle": "パーティ効果について",
         "ptPos": [
           0,
           0
-        ]
+        ],
+        "dlgFontSize": 26,
+        "scrDlgTitle": "パーティ効果について"
       }
     ],
     "script": {},
@@ -15520,18 +15520,18 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "\nバトルに参加するパーティメンバーが２騎以上だと発生し、\n参加数が増えるごとに効果が強力になります。\n一部の効果はプレイヤー側だけでなく、\nバトルに参加するエネミーが２体以上であれば\nエネミー側にも発生します。\n効果の種類は戦線によって変化する場合があります。\n\n■この戦線のパーティ効果(1)\nパーティ全体の攻撃の威力をアップ\n・2騎…20%\n・3騎…20%×2(計40%)\n・4騎…20%×3(計60%)\n・5騎…20%×4(計80%)\n・6騎…20%×5(計100%)\n\n■この戦線のパーティ効果(2)【プレイヤー側にのみ適用】\nパーティ全体のスター発生率をアップ\n・2騎以上…100％\n",
         "textPos": [
           0,
           30
         ],
-        "text": "\nバトルに参加するパーティメンバーが２騎以上だと発生し、\n参加数が増えるごとに効果が強力になります。\n一部の効果はプレイヤー側だけでなく、\nバトルに参加するエネミーが２体以上であれば\nエネミー側にも発生します。\n効果の種類は戦線によって変化する場合があります。\n\n■この戦線のパーティ効果(1)\nパーティ全体の攻撃の威力をアップ\n・2騎…20%\n・3騎…20%×2(計40%)\n・4騎…20%×3(計60%)\n・5騎…20%×4(計80%)\n・6騎…20%×5(計100%)\n\n■この戦線のパーティ効果(2)【プレイヤー側にのみ適用】\nパーティ全体のスター発生率をアップ\n・2騎以上…100％\n",
-        "dlgFontSize": 26,
         "rects": [],
-        "scrDlgTitle": "パーティ効果について",
         "ptPos": [
           0,
           0
-        ]
+        ],
+        "dlgFontSize": 26,
+        "scrDlgTitle": "パーティ効果について"
       }
     ],
     "script": {},
@@ -15578,10 +15578,10 @@
     "imageIds": [],
     "textJson": [
       {
+        "isClassBoardRelease": true,
         "releaseClassBoardBaseIds": [
           9
-        ],
-        "isClassBoardRelease": true
+        ]
       }
     ],
     "script": {},
@@ -15606,13 +15606,13 @@
     "imageIds": [],
     "textJson": [
       {
-        "releaseClassBoardBaseIds": [
-          9
-        ],
         "addClassIds": [
           10
         ],
-        "isClassBoardRelease": true
+        "isClassBoardRelease": true,
+        "releaseClassBoardBaseIds": [
+          9
+        ]
       },
       {
         "presentClassScoreResetItemIdList": [
@@ -15643,13 +15643,13 @@
     "imageIds": [],
     "textJson": [
       {
-        "releaseClassBoardBaseIds": [
-          9
-        ],
         "addClassIds": [
           28
         ],
-        "isClassBoardRelease": true
+        "isClassBoardRelease": true,
+        "releaseClassBoardBaseIds": [
+          9
+        ]
       },
       {
         "presentClassScoreResetItemIdList": [
@@ -15680,23 +15680,23 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "「ドゥルガー」の\n第三再臨の封印が解放されました。",
+        "title": "霊基再臨の封印解放",
         "textPos": [
           0,
           0
         ],
-        "isFortification": false,
-        "text": "「ドゥルガー」の\n第三再臨の封印が解放されました。",
-        "dlgFontSize": 30,
         "rects": [],
-        "title": "霊基再臨の封印解放",
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
         "questId": 0,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 30,
+        "spacingY": 0,
+        "isClassBoardRelease": false
       }
     ],
     "script": {},
@@ -15876,13 +15876,13 @@
     "textJson": [
       {
         "text": "\n総力戦で登場するORTは極大なHPを持っています。\nダメージを与えると「HP」が減っていき、\n減らしたHPは次のバトルに引き継がれます。\n\nなお、パーティが全滅してもコンティニューは出来ませんが、\n減らした「HP」は次のバトルに引き継がれます。\n\n撤退した場合、減らした「HP」は次のバトルに引き継がれず、\nバトル開始前の「HP」に戻ります。",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": [
           {
@@ -16177,15 +16177,15 @@
       }
     ],
     "script": {
-      "beforeActionSetup": [
-        "114",
-        "1040301,5"
-      ],
       "beforeActionVals": [
         "300",
         "1040301,15,1000",
         "104",
         "1040301,6"
+      ],
+      "beforeActionSetup": [
+        "114",
+        "1040301,5"
       ]
     },
     "eventId": -67,
@@ -16337,10 +16337,6 @@
       }
     ],
     "script": {
-      "beforeActionSetup": [
-        "114",
-        "1040106,2"
-      ],
       "beforeActionVals": [
         "300",
         "1040106,15,1000",
@@ -16348,6 +16344,10 @@
         "1040106,3",
         "900",
         "1000"
+      ],
+      "beforeActionSetup": [
+        "114",
+        "1040106,2"
       ]
     },
     "eventId": -62,
@@ -16369,18 +16369,18 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "バトルに参加するパーティメンバーが２騎以上だと発生し、\n参加数が増えるごとに効果が強力になります。\nこの効果はプレイヤー側だけでなく、\nバトルに参加するエネミーが２体以上であれば\nエネミー側にも発生します。\n効果の種類は戦線によって変化する場合があります。\n\n■この戦線のパーティ効果(1)\nパーティ全体の攻撃の威力をアップ\n・2騎…20%\n・3騎…20%×2(計40%)\n・4騎…20%×3(計60%)\n・5騎…20%×4(計80%)\n・6騎…20%×5(計100%)\n\n■この戦線のパーティ効果(2)\nパーティ全体の弱体耐性をアップ\n・2騎以上…50％",
         "textPos": [
           0,
           30
         ],
-        "text": "バトルに参加するパーティメンバーが２騎以上だと発生し、\n参加数が増えるごとに効果が強力になります。\nこの効果はプレイヤー側だけでなく、\nバトルに参加するエネミーが２体以上であれば\nエネミー側にも発生します。\n効果の種類は戦線によって変化する場合があります。\n\n■この戦線のパーティ効果(1)\nパーティ全体の攻撃の威力をアップ\n・2騎…20%\n・3騎…20%×2(計40%)\n・4騎…20%×3(計60%)\n・5騎…20%×4(計80%)\n・6騎…20%×5(計100%)\n\n■この戦線のパーティ効果(2)\nパーティ全体の弱体耐性をアップ\n・2騎以上…50％",
-        "dlgFontSize": 26,
         "rects": [],
-        "scrDlgTitle": "パーティ効果について",
         "ptPos": [
           0,
           0
-        ]
+        ],
+        "dlgFontSize": 26,
+        "scrDlgTitle": "パーティ効果について"
       }
     ],
     "script": {},
@@ -16403,18 +16403,18 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "バトルに参加するパーティメンバーが２騎以上だと発生し、\n参加数が増えるごとに効果が強力になります。\nこの効果はプレイヤー側だけでなく、\nバトルに参加するエネミーが２体以上であれば\nエネミー側にも発生します。\n効果の種類は戦線によって変化する場合があります。\n\n■この戦線のパーティ効果(1)\nパーティ全体の攻撃の威力をアップ\n・2騎…20%\n・3騎…20%×2(計40%)\n・4騎…20%×3(計60%)\n・5騎…20%×4(計80%)\n・6騎…20%×5(計100%)\n\n■この戦線のパーティ効果(2)\nパーティ全体の被クリティカル発生耐性をアップ\n（敵の場合は被スター発生耐性をアップ）\n・2騎以上…50％\n\n■この戦線のパーティ効果(3)\nパーティ全体の強化解除耐性をアップ\n・2騎以上…50％",
         "textPos": [
           0,
           30
         ],
-        "text": "バトルに参加するパーティメンバーが２騎以上だと発生し、\n参加数が増えるごとに効果が強力になります。\nこの効果はプレイヤー側だけでなく、\nバトルに参加するエネミーが２体以上であれば\nエネミー側にも発生します。\n効果の種類は戦線によって変化する場合があります。\n\n■この戦線のパーティ効果(1)\nパーティ全体の攻撃の威力をアップ\n・2騎…20%\n・3騎…20%×2(計40%)\n・4騎…20%×3(計60%)\n・5騎…20%×4(計80%)\n・6騎…20%×5(計100%)\n\n■この戦線のパーティ効果(2)\nパーティ全体の被クリティカル発生耐性をアップ\n（敵の場合は被スター発生耐性をアップ）\n・2騎以上…50％\n\n■この戦線のパーティ効果(3)\nパーティ全体の強化解除耐性をアップ\n・2騎以上…50％",
-        "dlgFontSize": 26,
         "rects": [],
-        "scrDlgTitle": "パーティ効果について",
         "ptPos": [
           0,
           0
-        ]
+        ],
+        "dlgFontSize": 26,
+        "scrDlgTitle": "パーティ効果について"
       }
     ],
     "script": {},
@@ -16437,18 +16437,18 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "バトルに参加するパーティメンバーが２騎以上だと発生し、\n参加数が増えるごとに効果が強力になります。\nこの効果はプレイヤー側だけでなく、\nバトルに参加するエネミーが２体以上であれば\nエネミー側にも発生します。\n効果の種類は戦線によって変化する場合があります。\n\n■この戦線のパーティ効果(1)\nパーティ全体の攻撃の威力をアップ\n・2騎…20%\n・3騎…20%×2(計40%)\n・4騎…20%×3(計60%)\n・5騎…20%×4(計80%)\n・6騎…20%×5(計100%)\n\n■この戦線のパーティ効果(2)\nパーティ全体の強化解除耐性をアップ\n・2騎以上…50％",
         "textPos": [
           0,
           30
         ],
-        "text": "バトルに参加するパーティメンバーが２騎以上だと発生し、\n参加数が増えるごとに効果が強力になります。\nこの効果はプレイヤー側だけでなく、\nバトルに参加するエネミーが２体以上であれば\nエネミー側にも発生します。\n効果の種類は戦線によって変化する場合があります。\n\n■この戦線のパーティ効果(1)\nパーティ全体の攻撃の威力をアップ\n・2騎…20%\n・3騎…20%×2(計40%)\n・4騎…20%×3(計60%)\n・5騎…20%×4(計80%)\n・6騎…20%×5(計100%)\n\n■この戦線のパーティ効果(2)\nパーティ全体の強化解除耐性をアップ\n・2騎以上…50％",
-        "dlgFontSize": 26,
         "rects": [],
-        "scrDlgTitle": "パーティ効果について",
         "ptPos": [
           0,
           0
-        ]
+        ],
+        "dlgFontSize": 26,
+        "scrDlgTitle": "パーティ効果について"
       }
     ],
     "script": {},
@@ -16471,18 +16471,18 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "バトルに参加するパーティメンバーが２騎以上だと発生し、\n参加数が増えるごとに効果が強力になります。\nこの効果はプレイヤー側だけでなく、\nバトルに参加するエネミーが２体以上であれば\nエネミー側にも発生します。\n効果の種類は戦線によって変化する場合があります。\n\n■この戦線のパーティ効果(1)\nパーティ全体の攻撃の威力をアップ\n・2騎…20%\n・3騎…20%×2(計40%)\n・4騎…20%×3(計60%)\n・5騎…20%×4(計80%)\n・6騎…20%×5(計100%)\n\n■この戦線のパーティ効果(2)\nパーティ全体の被クリティカル発生耐性をアップ\n（敵の場合は被スター発生耐性をアップ）\n・2騎以上…50％",
         "textPos": [
           0,
           30
         ],
-        "text": "バトルに参加するパーティメンバーが２騎以上だと発生し、\n参加数が増えるごとに効果が強力になります。\nこの効果はプレイヤー側だけでなく、\nバトルに参加するエネミーが２体以上であれば\nエネミー側にも発生します。\n効果の種類は戦線によって変化する場合があります。\n\n■この戦線のパーティ効果(1)\nパーティ全体の攻撃の威力をアップ\n・2騎…20%\n・3騎…20%×2(計40%)\n・4騎…20%×3(計60%)\n・5騎…20%×4(計80%)\n・6騎…20%×5(計100%)\n\n■この戦線のパーティ効果(2)\nパーティ全体の被クリティカル発生耐性をアップ\n（敵の場合は被スター発生耐性をアップ）\n・2騎以上…50％",
-        "dlgFontSize": 26,
         "rects": [],
-        "scrDlgTitle": "パーティ効果について",
         "ptPos": [
           0,
           0
-        ]
+        ],
+        "dlgFontSize": 26,
+        "scrDlgTitle": "パーティ効果について"
       }
     ],
     "script": {},
@@ -16505,18 +16505,18 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "バトルに参加するパーティメンバーが２騎以上だと発生し、\n参加数が増えるごとに効果が強力になります。\nこの効果はプレイヤー側だけでなく、\nバトルに参加するエネミーが２体以上であれば\nエネミー側にも発生します。\n効果の種類は戦線によって変化する場合があります。\n\n■この戦線のパーティ効果\nパーティ全体の攻撃の威力をアップ\n・2騎…20%\n・3騎…20%×2(計40%)\n・4騎…20%×3(計60%)\n・5騎…20%×4(計80%)\n・6騎…20%×5(計100%)",
         "textPos": [
           0,
           30
         ],
-        "text": "バトルに参加するパーティメンバーが２騎以上だと発生し、\n参加数が増えるごとに効果が強力になります。\nこの効果はプレイヤー側だけでなく、\nバトルに参加するエネミーが２体以上であれば\nエネミー側にも発生します。\n効果の種類は戦線によって変化する場合があります。\n\n■この戦線のパーティ効果\nパーティ全体の攻撃の威力をアップ\n・2騎…20%\n・3騎…20%×2(計40%)\n・4騎…20%×3(計60%)\n・5騎…20%×4(計80%)\n・6騎…20%×5(計100%)",
-        "dlgFontSize": 26,
         "rects": [],
-        "scrDlgTitle": "パーティ効果について",
         "ptPos": [
           0,
           0
-        ]
+        ],
+        "dlgFontSize": 26,
+        "scrDlgTitle": "パーティ効果について"
       }
     ],
     "script": {},
@@ -16539,18 +16539,18 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "バトルに参加するパーティメンバーが２騎以上だと発生し、\n参加数が増えるごとに効果が強力になります。\nこの効果はプレイヤー側だけでなく、\nバトルに参加するエネミーが２体以上であれば\nエネミー側にも発生します。\n効果の種類は戦線によって変化する場合があります。\n\n■この戦線のパーティ効果\nパーティ全体の攻撃の威力をアップ\n・2騎…20%\n・3騎…20%×2(計40%)\n・4騎…20%×3(計60%)\n・5騎…20%×4(計80%)\n・6騎…20%×5(計100%)",
         "textPos": [
           0,
           30
         ],
-        "text": "バトルに参加するパーティメンバーが２騎以上だと発生し、\n参加数が増えるごとに効果が強力になります。\nこの効果はプレイヤー側だけでなく、\nバトルに参加するエネミーが２体以上であれば\nエネミー側にも発生します。\n効果の種類は戦線によって変化する場合があります。\n\n■この戦線のパーティ効果\nパーティ全体の攻撃の威力をアップ\n・2騎…20%\n・3騎…20%×2(計40%)\n・4騎…20%×3(計60%)\n・5騎…20%×4(計80%)\n・6騎…20%×5(計100%)",
-        "dlgFontSize": 26,
         "rects": [],
-        "scrDlgTitle": "パーティ効果について",
         "ptPos": [
           0,
           0
-        ]
+        ],
+        "dlgFontSize": 26,
+        "scrDlgTitle": "パーティ効果について"
       }
     ],
     "script": {},
@@ -16573,18 +16573,18 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "バトルに参加するパーティメンバーが２騎以上だと発生し、\n参加数が増えるごとに効果が強力になります。\nこの効果はプレイヤー側だけでなく、\nバトルに参加するエネミーが２体以上であれば\nエネミー側にも発生します。\n効果の種類は戦線によって変化する場合があります。\n\n■この戦線のパーティ効果\nパーティ全体の攻撃の威力をアップ\n・2騎…20%\n・3騎…20%×2(計40%)",
         "textPos": [
           0,
           30
         ],
-        "text": "バトルに参加するパーティメンバーが２騎以上だと発生し、\n参加数が増えるごとに効果が強力になります。\nこの効果はプレイヤー側だけでなく、\nバトルに参加するエネミーが２体以上であれば\nエネミー側にも発生します。\n効果の種類は戦線によって変化する場合があります。\n\n■この戦線のパーティ効果\nパーティ全体の攻撃の威力をアップ\n・2騎…20%\n・3騎…20%×2(計40%)",
-        "dlgFontSize": 26,
         "rects": [],
-        "scrDlgTitle": "パーティ効果について",
         "ptPos": [
           0,
           0
-        ]
+        ],
+        "dlgFontSize": 26,
+        "scrDlgTitle": "パーティ効果について"
       }
     ],
     "script": {},
@@ -16607,18 +16607,18 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "バトルに参加するパーティメンバーが２騎以上だと発生し、\n参加数が増えるごとに効果が強力になります。\nこの効果はプレイヤー側だけでなく、\nバトルに参加するエネミーが２体以上であれば\nエネミー側にも発生します。\n効果の種類は戦線によって変化する場合があります。\n\n■この戦線のパーティ効果\nパーティ全体の攻撃の威力をアップ\n・2騎…20%\n・3騎…20%×2(計40%)\n・4騎…20%×3(計60%)\n・5騎…20%×4(計80%)\n・6騎…20%×5(計100%)",
         "textPos": [
           0,
           30
         ],
-        "text": "バトルに参加するパーティメンバーが２騎以上だと発生し、\n参加数が増えるごとに効果が強力になります。\nこの効果はプレイヤー側だけでなく、\nバトルに参加するエネミーが２体以上であれば\nエネミー側にも発生します。\n効果の種類は戦線によって変化する場合があります。\n\n■この戦線のパーティ効果\nパーティ全体の攻撃の威力をアップ\n・2騎…20%\n・3騎…20%×2(計40%)\n・4騎…20%×3(計60%)\n・5騎…20%×4(計80%)\n・6騎…20%×5(計100%)",
-        "dlgFontSize": 26,
         "rects": [],
-        "scrDlgTitle": "パーティ効果について",
         "ptPos": [
           0,
           0
-        ]
+        ],
+        "dlgFontSize": 26,
+        "scrDlgTitle": "パーティ効果について"
       }
     ],
     "script": {},
@@ -17474,11 +17474,11 @@
     "textJson": [
       {
         "text": "李書文（アサシン）の霊衣開放権\n「簡易霊衣：グラスレス（第一再臨）」\n「簡易霊衣：グラスレス（第二再臨）」\nが、ダ・ヴィンチ工房の「霊衣縫製」に\n開放されました。",
-        "textPos": [
+        "ptPos": [
           0,
           0
         ],
-        "ptPos": [
+        "textPos": [
           0,
           0
         ],
@@ -18345,25 +18345,25 @@
     "imageIds": [],
     "textJson": [
       {
-        "isSelectBonus": false,
-        "text": "期間限定 岸波白野ピックアップフレンドポイント召喚について\n\n本召喚では「岸波白野」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「岸波白野」以外のSR★4サーヴァントは召喚されません。\n\n【岸波白野の性別について】\n※召喚される「岸波白野」の霊基は\n「奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション」\nクリア後に選択した性別の霊基のみとなります。\n[ffff00]※選択しなかった性別の霊基は召喚されませんのでご注意ください。[-]\n",
-        "dlgBgId": 0,
-        "spacingY": 0,
-        "isClassBoardRelease": false,
+        "isQuestRelease": false,
         "ptPos": [
           0,
           0
         ],
-        "isFortification": false,
         "dlgFontSize": 23,
-        "isQuestRelease": false,
-        "messageWidgetSizeX": "720",
-        "rects": [],
-        "questId": 0,
+        "isSelectBonus": false,
+        "spacingY": 0,
         "textPos": [
           0,
           36
-        ]
+        ],
+        "isFortification": false,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "text": "期間限定 岸波白野ピックアップフレンドポイント召喚について\n\n本召喚では「岸波白野」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「岸波白野」以外のSR★4サーヴァントは召喚されません。\n\n【岸波白野の性別について】\n※召喚される「岸波白野」の霊基は\n「奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション」\nクリア後に選択した性別の霊基のみとなります。\n[ffff00]※選択しなかった性別の霊基は召喚されませんのでご注意ください。[-]\n",
+        "rects": [],
+        "messageWidgetSizeX": "720",
+        "dlgBgId": 0
       }
     ],
     "script": {},
@@ -18474,25 +18474,25 @@
     "imageIds": [],
     "textJson": [
       {
-        "isSelectBonus": false,
-        "text": "本召喚は[FF00FF]「OVER THE SAME SKY」特別概念礼装[-]を\n召喚することができます。\n\n「OVER THE SAME SKY」特別概念礼装は、\n「OVER THE SAME SKY 英霊星行チケット\n〔OCTOBER〕」を使用することで、\n[FFFF00]交換ショップにて1枚を選んで交換が可能[-]となりますので、\nご注意ください。\n\n[FFFF00]※本召喚は「確定召喚」の対象外となりますので、\nご注意ください。[-]\n",
-        "dlgBgId": 0,
-        "spacingY": 0,
+        "isQuestRelease": false,
         "ptPos": [
           0,
           0
         ],
-        "isFortification": false,
         "dlgFontSize": 26,
-        "isQuestRelease": false,
-        "isClassBoardRelease": false,
-        "rects": [],
-        "questId": 0,
-        "title": "「OVER THE SAME SKY」特別概念礼装について",
+        "isSelectBonus": false,
+        "spacingY": 0,
         "textPos": [
           0,
           13
-        ]
+        ],
+        "isFortification": false,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "text": "本召喚は[FF00FF]「OVER THE SAME SKY」特別概念礼装[-]を\n召喚することができます。\n\n「OVER THE SAME SKY」特別概念礼装は、\n「OVER THE SAME SKY 英霊星行チケット\n〔OCTOBER〕」を使用することで、\n[FFFF00]交換ショップにて1枚を選んで交換が可能[-]となりますので、\nご注意ください。\n\n[FFFF00]※本召喚は「確定召喚」の対象外となりますので、\nご注意ください。[-]\n",
+        "rects": [],
+        "dlgBgId": 0,
+        "title": "「OVER THE SAME SKY」特別概念礼装について"
       }
     ],
     "script": {},
@@ -18517,24 +18517,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 岸波白野(男性)ピックアップ\nフレンドポイント召喚について\n\n本召喚では「岸波白野(男性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「岸波白野(男性)」以外の★4(SR)サーヴァントは\n召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(女性)」をクリアすることで\n「岸波白野(女性)」が通常のフレンドポイント召喚に追加され、\n「岸波白野(女性)」のピックアップ召喚が開放されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「岸波白野(男性)」の召喚確率に変更はありません。[-]",
         "textPos": [
           0,
           30
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 岸波白野(男性)ピックアップ\nフレンドポイント召喚について\n\n本召喚では「岸波白野(男性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「岸波白野(男性)」以外の★4(SR)サーヴァントは\n召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(女性)」をクリアすることで\n「岸波白野(女性)」が通常のフレンドポイント召喚に追加され、\n「岸波白野(女性)」のピックアップ召喚が開放されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「岸波白野(男性)」の召喚確率に変更はありません。[-]",
-        "dlgFontSize": 24,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 24,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -18559,24 +18559,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 岸波白野(男性)ピックアップ\nフレンドポイント召喚について\n\n本召喚では「岸波白野(男性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n\n[FFFF00]※さらに他の★4(SR)サーヴァントも\n排出対象となっています。[-]",
         "textPos": [
           0,
           13
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 岸波白野(男性)ピックアップ\nフレンドポイント召喚について\n\n本召喚では「岸波白野(男性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n\n[FFFF00]※さらに他の★4(SR)サーヴァントも\n排出対象となっています。[-]",
-        "dlgFontSize": 26,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 26,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -18601,24 +18601,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 岸波白野(女性)ピックアップ\nフレンドポイント召喚について\n\n本召喚では「岸波白野(女性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「岸波白野(女性)」以外の★4(SR)サーヴァントは\n召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(男性)」をクリアすることで\n「岸波白野(男性)」が通常のフレンドポイント召喚に追加され、\n「岸波白野(男性)」のピックアップ召喚が開放されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「岸波白野(女性)」の召喚確率に変更はありません。[-]",
         "textPos": [
           0,
           30
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 岸波白野(女性)ピックアップ\nフレンドポイント召喚について\n\n本召喚では「岸波白野(女性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「岸波白野(女性)」以外の★4(SR)サーヴァントは\n召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(男性)」をクリアすることで\n「岸波白野(男性)」が通常のフレンドポイント召喚に追加され、\n「岸波白野(男性)」のピックアップ召喚が開放されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「岸波白野(女性)」の召喚確率に変更はありません。[-]",
-        "dlgFontSize": 24,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 24,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -18643,24 +18643,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 岸波白野(女性)ピックアップ\nフレンドポイント召喚について\n\n本召喚では「岸波白野(女性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n\n[FFFF00]※さらに他の★4(SR)サーヴァントも\n排出対象となっています。\n[-]",
         "textPos": [
           0,
           13
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 岸波白野(女性)ピックアップ\nフレンドポイント召喚について\n\n本召喚では「岸波白野(女性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n\n[FFFF00]※さらに他の★4(SR)サーヴァントも\n排出対象となっています。\n[-]",
-        "dlgFontSize": 26,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 26,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -18685,24 +18685,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 アルトリア･ペンドラゴン〔リリィ〕\nピックアップフレンドポイント召喚について\n\n本召喚では「アルトリア･ペンドラゴン〔リリィ〕」の\n召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「アルトリア･ペンドラゴン〔リリィ〕」以外の\n★4(SR)サーヴァントは召喚されません。\n",
         "textPos": [
           0,
           13
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 アルトリア･ペンドラゴン〔リリィ〕\nピックアップフレンドポイント召喚について\n\n本召喚では「アルトリア･ペンドラゴン〔リリィ〕」の\n召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「アルトリア･ペンドラゴン〔リリィ〕」以外の\n★4(SR)サーヴァントは召喚されません。\n",
-        "dlgFontSize": 26,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 26,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -18727,24 +18727,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 アルトリア･ペンドラゴン〔リリィ〕\nピックアップフレンドポイント召喚について\n\n本召喚では「アルトリア･ペンドラゴン〔リリィ〕」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「アルトリア･ペンドラゴン〔リリィ〕」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(男性)」をクリアすることで\n「岸波白野(男性)」が通常のフレンドポイント召喚に追加されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「アルトリア･ペンドラゴン〔リリィ〕」の召喚確率に\n変更はありません。[-]",
         "textPos": [
           0,
           30
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 アルトリア･ペンドラゴン〔リリィ〕\nピックアップフレンドポイント召喚について\n\n本召喚では「アルトリア･ペンドラゴン〔リリィ〕」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「アルトリア･ペンドラゴン〔リリィ〕」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(男性)」をクリアすることで\n「岸波白野(男性)」が通常のフレンドポイント召喚に追加されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「アルトリア･ペンドラゴン〔リリィ〕」の召喚確率に\n変更はありません。[-]",
-        "dlgFontSize": 24,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 24,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -18769,24 +18769,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 アルトリア･ペンドラゴン〔リリィ〕\nピックアップフレンドポイント召喚について\n\n本召喚では「アルトリア･ペンドラゴン〔リリィ〕」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「アルトリア･ペンドラゴン〔リリィ〕」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(女性)」をクリアすることで\n「岸波白野(女性)」が通常のフレンドポイント召喚に追加されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「アルトリア･ペンドラゴン〔リリィ〕」の召喚確率に\n変更はありません。[-]",
         "textPos": [
           0,
           30
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 アルトリア･ペンドラゴン〔リリィ〕\nピックアップフレンドポイント召喚について\n\n本召喚では「アルトリア･ペンドラゴン〔リリィ〕」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「アルトリア･ペンドラゴン〔リリィ〕」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(女性)」をクリアすることで\n「岸波白野(女性)」が通常のフレンドポイント召喚に追加されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「アルトリア･ペンドラゴン〔リリィ〕」の召喚確率に\n変更はありません。[-]",
-        "dlgFontSize": 24,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 24,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -18811,24 +18811,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 アルトリア･ペンドラゴン〔リリィ〕\nピックアップフレンドポイント召喚について\n\n本召喚では「アルトリア･ペンドラゴン〔リリィ〕」\nの召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n\n[FFFF00]※さらに他の★4(SR)サーヴァントも\n排出対象となっています。[-]",
         "textPos": [
           0,
           13
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 アルトリア･ペンドラゴン〔リリィ〕\nピックアップフレンドポイント召喚について\n\n本召喚では「アルトリア･ペンドラゴン〔リリィ〕」\nの召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n\n[FFFF00]※さらに他の★4(SR)サーヴァントも\n排出対象となっています。[-]",
-        "dlgFontSize": 26,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 26,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -18853,25 +18853,25 @@
     "imageIds": [],
     "textJson": [
       {
-        "isSelectBonus": false,
-        "text": "本召喚は[FF00FF]「OVER THE SAME SKY」特別概念礼装[-]を\n召喚することができます。\n\n「OVER THE SAME SKY」特別概念礼装は、\n「OVER THE SAME SKY 英霊星行チケット〔JUNE〕」を\n使用することで、\n[FFFF00]交換ショップにて1枚を選んで交換が可能[-]となりますので、\nご注意ください。\n\n[FFFF00]※本召喚は「確定召喚」の対象外となりますので、\nご注意ください。[-]\n",
-        "dlgBgId": 0,
-        "spacingY": 0,
+        "isQuestRelease": false,
         "ptPos": [
           0,
           0
         ],
-        "isFortification": false,
         "dlgFontSize": 26,
-        "isQuestRelease": false,
-        "isClassBoardRelease": false,
-        "rects": [],
-        "questId": 0,
-        "title": "「OVER THE SAME SKY」特別概念礼装について",
+        "isSelectBonus": false,
+        "spacingY": 0,
         "textPos": [
           0,
           13
-        ]
+        ],
+        "isFortification": false,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "text": "本召喚は[FF00FF]「OVER THE SAME SKY」特別概念礼装[-]を\n召喚することができます。\n\n「OVER THE SAME SKY」特別概念礼装は、\n「OVER THE SAME SKY 英霊星行チケット〔JUNE〕」を\n使用することで、\n[FFFF00]交換ショップにて1枚を選んで交換が可能[-]となりますので、\nご注意ください。\n\n[FFFF00]※本召喚は「確定召喚」の対象外となりますので、\nご注意ください。[-]\n",
+        "rects": [],
+        "dlgBgId": 0,
+        "title": "「OVER THE SAME SKY」特別概念礼装について"
       }
     ],
     "script": {},
@@ -18896,25 +18896,25 @@
     "imageIds": [],
     "textJson": [
       {
-        "isSelectBonus": false,
-        "text": "本召喚は[FF00FF]「OVER THE SAME SKY」特別概念礼装[-]を\n召喚することができます。\n\n「OVER THE SAME SKY」特別概念礼装は、\n「OVER THE SAME SKY 英霊星行チケット〔JULY〕」を\n使用することで、\n[FFFF00]交換ショップにて1枚を選んで交換が可能[-]となりますので、\nご注意ください。\n\n[FFFF00]※本召喚は「確定召喚」の対象外となりますので、\nご注意ください。[-]\n",
-        "dlgBgId": 0,
-        "spacingY": 0,
+        "isQuestRelease": false,
         "ptPos": [
           0,
           0
         ],
-        "isFortification": false,
         "dlgFontSize": 26,
-        "isQuestRelease": false,
-        "isClassBoardRelease": false,
-        "rects": [],
-        "questId": 0,
-        "title": "「OVER THE SAME SKY」特別概念礼装について",
+        "isSelectBonus": false,
+        "spacingY": 0,
         "textPos": [
           0,
           13
-        ]
+        ],
+        "isFortification": false,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "text": "本召喚は[FF00FF]「OVER THE SAME SKY」特別概念礼装[-]を\n召喚することができます。\n\n「OVER THE SAME SKY」特別概念礼装は、\n「OVER THE SAME SKY 英霊星行チケット〔JULY〕」を\n使用することで、\n[FFFF00]交換ショップにて1枚を選んで交換が可能[-]となりますので、\nご注意ください。\n\n[FFFF00]※本召喚は「確定召喚」の対象外となりますので、\nご注意ください。[-]\n",
+        "rects": [],
+        "dlgBgId": 0,
+        "title": "「OVER THE SAME SKY」特別概念礼装について"
       }
     ],
     "script": {},
@@ -19041,25 +19041,25 @@
     "imageIds": [],
     "textJson": [
       {
-        "isSelectBonus": false,
-        "text": "本召喚は[FF00FF]「OVER THE SAME SKY」特別概念礼装[-]を\n召喚することができます。\n\n「OVER THE SAME SKY」特別概念礼装は、\n「OVER THE SAME SKY 英霊星行チケット\n〔AUGUST〕」を使用することで、\n[FFFF00]交換ショップにて1枚を選んで交換が可能[-]となりますので、\nご注意ください。\n\n[FFFF00]※本召喚は「確定召喚」の対象外となりますので、\nご注意ください。[-]\n",
-        "dlgBgId": 0,
-        "spacingY": 0,
+        "isQuestRelease": false,
         "ptPos": [
           0,
           0
         ],
-        "isFortification": false,
         "dlgFontSize": 26,
-        "isQuestRelease": false,
-        "isClassBoardRelease": false,
-        "rects": [],
-        "questId": 0,
-        "title": "「OVER THE SAME SKY」特別概念礼装について",
+        "isSelectBonus": false,
+        "spacingY": 0,
         "textPos": [
           0,
           13
-        ]
+        ],
+        "isFortification": false,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "text": "本召喚は[FF00FF]「OVER THE SAME SKY」特別概念礼装[-]を\n召喚することができます。\n\n「OVER THE SAME SKY」特別概念礼装は、\n「OVER THE SAME SKY 英霊星行チケット\n〔AUGUST〕」を使用することで、\n[FFFF00]交換ショップにて1枚を選んで交換が可能[-]となりますので、\nご注意ください。\n\n[FFFF00]※本召喚は「確定召喚」の対象外となりますので、\nご注意ください。[-]\n",
+        "rects": [],
+        "dlgBgId": 0,
+        "title": "「OVER THE SAME SKY」特別概念礼装について"
       }
     ],
     "script": {},
@@ -19084,24 +19084,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 ハベトロット\nピックアップフレンドポイント召喚について\n\n本召喚では「ハベトロット」の\n召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「ハベトロット」以外の\n★4(SR)サーヴァントは召喚されません。\n",
         "textPos": [
           0,
           13
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 ハベトロット\nピックアップフレンドポイント召喚について\n\n本召喚では「ハベトロット」の\n召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「ハベトロット」以外の\n★4(SR)サーヴァントは召喚されません。\n",
-        "dlgFontSize": 26,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 26,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -19126,24 +19126,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 ハベトロット\nピックアップフレンドポイント召喚について\n\n本召喚では「ハベトロット」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「ハベトロット」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(男性)」をクリアすることで\n「岸波白野(男性)」が通常のフレンドポイント召喚に追加されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「ハベトロット」の召喚確率に\n変更はありません。[-]",
         "textPos": [
           0,
           30
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 ハベトロット\nピックアップフレンドポイント召喚について\n\n本召喚では「ハベトロット」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「ハベトロット」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(男性)」をクリアすることで\n「岸波白野(男性)」が通常のフレンドポイント召喚に追加されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「ハベトロット」の召喚確率に\n変更はありません。[-]",
-        "dlgFontSize": 24,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 24,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -19168,24 +19168,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 ハベトロット\nピックアップフレンドポイント召喚について\n\n本召喚では「ハベトロット」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「ハベトロット」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(女性)」をクリアすることで\n「岸波白野(女性)」が通常のフレンドポイント召喚に追加されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「ハベトロット」の召喚確率に\n変更はありません。[-]",
         "textPos": [
           0,
           30
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 ハベトロット\nピックアップフレンドポイント召喚について\n\n本召喚では「ハベトロット」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「ハベトロット」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(女性)」をクリアすることで\n「岸波白野(女性)」が通常のフレンドポイント召喚に追加されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「ハベトロット」の召喚確率に\n変更はありません。[-]",
-        "dlgFontSize": 24,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 24,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -19210,24 +19210,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 ハベトロット\nピックアップフレンドポイント召喚について\n\n本召喚では「ハベトロット」\nの召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n\n[FFFF00]※さらに他の★4(SR)サーヴァントも\n排出対象となっています。[-]",
         "textPos": [
           0,
           13
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 ハベトロット\nピックアップフレンドポイント召喚について\n\n本召喚では「ハベトロット」\nの召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n\n[FFFF00]※さらに他の★4(SR)サーヴァントも\n排出対象となっています。[-]",
-        "dlgFontSize": 26,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 26,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -19262,25 +19262,25 @@
     "imageIds": [],
     "textJson": [
       {
-        "isSelectBonus": false,
-        "text": "本召喚は[FF00FF]「OVER THE SAME SKY」特別概念礼装[-]を\n召喚することができます。\n\n「OVER THE SAME SKY」特別概念礼装は、\n「OVER THE SAME SKY 英霊星行チケット\n〔SEPTEMBER〕」を使用することで、\n[FFFF00]交換ショップにて1枚を選んで交換が可能[-]となりますので、\nご注意ください。\n\n[FFFF00]※本召喚は「確定召喚」の対象外となりますので、\nご注意ください。[-]\n",
-        "dlgBgId": 0,
-        "spacingY": 0,
+        "isQuestRelease": false,
         "ptPos": [
           0,
           0
         ],
-        "isFortification": false,
         "dlgFontSize": 26,
-        "isQuestRelease": false,
-        "isClassBoardRelease": false,
-        "rects": [],
-        "questId": 0,
-        "title": "「OVER THE SAME SKY」特別概念礼装について",
+        "isSelectBonus": false,
+        "spacingY": 0,
         "textPos": [
           0,
           13
-        ]
+        ],
+        "isFortification": false,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "text": "本召喚は[FF00FF]「OVER THE SAME SKY」特別概念礼装[-]を\n召喚することができます。\n\n「OVER THE SAME SKY」特別概念礼装は、\n「OVER THE SAME SKY 英霊星行チケット\n〔SEPTEMBER〕」を使用することで、\n[FFFF00]交換ショップにて1枚を選んで交換が可能[-]となりますので、\nご注意ください。\n\n[FFFF00]※本召喚は「確定召喚」の対象外となりますので、\nご注意ください。[-]\n",
+        "rects": [],
+        "dlgBgId": 0,
+        "title": "「OVER THE SAME SKY」特別概念礼装について"
       }
     ],
     "script": {},
@@ -19305,24 +19305,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 アルトリア･ペンドラゴン〔リリィ〕\nピックアップフレンドポイント召喚について\n\n本召喚では「アルトリア･ペンドラゴン〔リリィ〕」の\n召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「アルトリア･ペンドラゴン〔リリィ〕」以外の\n★4(SR)サーヴァントは召喚されません。\n",
         "textPos": [
           0,
           13
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 アルトリア･ペンドラゴン〔リリィ〕\nピックアップフレンドポイント召喚について\n\n本召喚では「アルトリア･ペンドラゴン〔リリィ〕」の\n召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「アルトリア･ペンドラゴン〔リリィ〕」以外の\n★4(SR)サーヴァントは召喚されません。\n",
-        "dlgFontSize": 26,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 26,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -19347,24 +19347,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 アルトリア･ペンドラゴン〔リリィ〕\nピックアップフレンドポイント召喚について\n\n本召喚では「アルトリア･ペンドラゴン〔リリィ〕」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「アルトリア･ペンドラゴン〔リリィ〕」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(男性)」をクリアすることで\n「岸波白野(男性)」が通常のフレンドポイント召喚に追加されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「アルトリア･ペンドラゴン〔リリィ〕」の召喚確率に\n変更はありません。[-]",
         "textPos": [
           0,
           30
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 アルトリア･ペンドラゴン〔リリィ〕\nピックアップフレンドポイント召喚について\n\n本召喚では「アルトリア･ペンドラゴン〔リリィ〕」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「アルトリア･ペンドラゴン〔リリィ〕」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(男性)」をクリアすることで\n「岸波白野(男性)」が通常のフレンドポイント召喚に追加されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「アルトリア･ペンドラゴン〔リリィ〕」の召喚確率に\n変更はありません。[-]",
-        "dlgFontSize": 24,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 24,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -19389,24 +19389,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 アルトリア･ペンドラゴン〔リリィ〕\nピックアップフレンドポイント召喚について\n\n本召喚では「アルトリア･ペンドラゴン〔リリィ〕」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「アルトリア･ペンドラゴン〔リリィ〕」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(女性)」をクリアすることで\n「岸波白野(女性)」が通常のフレンドポイント召喚に追加されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「アルトリア･ペンドラゴン〔リリィ〕」の召喚確率に\n変更はありません。[-]",
         "textPos": [
           0,
           30
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 アルトリア･ペンドラゴン〔リリィ〕\nピックアップフレンドポイント召喚について\n\n本召喚では「アルトリア･ペンドラゴン〔リリィ〕」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「アルトリア･ペンドラゴン〔リリィ〕」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(女性)」をクリアすることで\n「岸波白野(女性)」が通常のフレンドポイント召喚に追加されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「アルトリア･ペンドラゴン〔リリィ〕」の召喚確率に\n変更はありません。[-]",
-        "dlgFontSize": 24,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 24,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -19431,24 +19431,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 アルトリア･ペンドラゴン〔リリィ〕\nピックアップフレンドポイント召喚について\n\n本召喚では「アルトリア･ペンドラゴン〔リリィ〕」\nの召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n\n[FFFF00]※さらに他の★4(SR)サーヴァントも\n排出対象となっています。[-]",
         "textPos": [
           0,
           13
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 アルトリア･ペンドラゴン〔リリィ〕\nピックアップフレンドポイント召喚について\n\n本召喚では「アルトリア･ペンドラゴン〔リリィ〕」\nの召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n\n[FFFF00]※さらに他の★4(SR)サーヴァントも\n排出対象となっています。[-]",
-        "dlgFontSize": 26,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 26,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -19473,24 +19473,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 岸波白野\nピックアップフレンドポイント召喚について\n\n本召喚では「岸波白野(男性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「岸波白野(男性)」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(女性)」をクリアすることで\n「岸波白野(女性)」が通常のフレンドポイント召喚に追加され、\n「岸波白野(女性)」のピックアップ召喚が開放されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「岸波白野(男性)」の召喚確率に\n変更はありません。[-]",
         "textPos": [
           0,
           13
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 岸波白野\nピックアップフレンドポイント召喚について\n\n本召喚では「岸波白野(男性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「岸波白野(男性)」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(女性)」をクリアすることで\n「岸波白野(女性)」が通常のフレンドポイント召喚に追加され、\n「岸波白野(女性)」のピックアップ召喚が開放されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「岸波白野(男性)」の召喚確率に\n変更はありません。[-]",
-        "dlgFontSize": 20,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 20,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -19515,24 +19515,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 岸波白野\nピックアップフレンドポイント召喚について\n\n本召喚では「岸波白野(女性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「岸波白野(女性)」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(男性)」をクリアすることで\n「岸波白野(男性)」が通常のフレンドポイント召喚に追加され、\n「岸波白野(男性)」のピックアップ召喚が開放されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「岸波白野(女性)」の召喚確率に\n変更はありません。[-]",
         "textPos": [
           0,
           13
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 岸波白野\nピックアップフレンドポイント召喚について\n\n本召喚では「岸波白野(女性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「岸波白野(女性)」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(男性)」をクリアすることで\n「岸波白野(男性)」が通常のフレンドポイント召喚に追加され、\n「岸波白野(男性)」のピックアップ召喚が開放されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「岸波白野(女性)」の召喚確率に\n変更はありません。[-]",
-        "dlgFontSize": 20,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 20,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -19557,24 +19557,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 岸波白野(男性)ピックアップ\nフレンドポイント召喚について\n\n本召喚では「岸波白野(男性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n\n[FFFF00]※さらに他の★4(SR)サーヴァントも\n排出対象となっています。[-]",
         "textPos": [
           0,
           13
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 岸波白野(男性)ピックアップ\nフレンドポイント召喚について\n\n本召喚では「岸波白野(男性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n\n[FFFF00]※さらに他の★4(SR)サーヴァントも\n排出対象となっています。[-]",
-        "dlgFontSize": 24,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 24,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -19599,24 +19599,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 岸波白野(女性)ピックアップ\nフレンドポイント召喚について\n\n本召喚では「岸波白野(女性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n\n[FFFF00]※さらに他の★4(SR)サーヴァントも\n排出対象となっています。[-]",
         "textPos": [
           0,
           13
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 岸波白野(女性)ピックアップ\nフレンドポイント召喚について\n\n本召喚では「岸波白野(女性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n\n[FFFF00]※さらに他の★4(SR)サーヴァントも\n排出対象となっています。[-]",
-        "dlgFontSize": 24,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 24,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -19641,24 +19641,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 ハベトロット\nピックアップフレンドポイント召喚について\n\n本召喚では「ハベトロット」の\n召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「ハベトロット」以外の\n★4(SR)サーヴァントは召喚されません。\n",
         "textPos": [
           0,
           13
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 ハベトロット\nピックアップフレンドポイント召喚について\n\n本召喚では「ハベトロット」の\n召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「ハベトロット」以外の\n★4(SR)サーヴァントは召喚されません。\n",
-        "dlgFontSize": 26,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 26,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -19683,24 +19683,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 ハベトロット\nピックアップフレンドポイント召喚について\n\n本召喚では「ハベトロット」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「ハベトロット」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(男性)」をクリアすることで\n「岸波白野(男性)」が通常のフレンドポイント召喚に追加されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「ハベトロット」の召喚確率に\n変更はありません。[-]",
         "textPos": [
           0,
           30
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 ハベトロット\nピックアップフレンドポイント召喚について\n\n本召喚では「ハベトロット」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「ハベトロット」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(男性)」をクリアすることで\n「岸波白野(男性)」が通常のフレンドポイント召喚に追加されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「ハベトロット」の召喚確率に\n変更はありません。[-]",
-        "dlgFontSize": 24,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 24,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -19725,24 +19725,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 ハベトロット\nピックアップフレンドポイント召喚について\n\n本召喚では「ハベトロット」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「ハベトロット」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(女性)」をクリアすることで\n「岸波白野(女性)」が通常のフレンドポイント召喚に追加されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「ハベトロット」の召喚確率に\n変更はありません。[-]",
         "textPos": [
           0,
           30
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 ハベトロット\nピックアップフレンドポイント召喚について\n\n本召喚では「ハベトロット」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「ハベトロット」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(女性)」をクリアすることで\n「岸波白野(女性)」が通常のフレンドポイント召喚に追加されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「ハベトロット」の召喚確率に\n変更はありません。[-]",
-        "dlgFontSize": 24,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 24,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -19767,24 +19767,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 ハベトロット\nピックアップフレンドポイント召喚について\n\n本召喚では「ハベトロット」\nの召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n\n[FFFF00]※さらに他の★4(SR)サーヴァントも\n排出対象となっています。[-]",
         "textPos": [
           0,
           13
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 ハベトロット\nピックアップフレンドポイント召喚について\n\n本召喚では「ハベトロット」\nの召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n\n[FFFF00]※さらに他の★4(SR)サーヴァントも\n排出対象となっています。[-]",
-        "dlgFontSize": 26,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 26,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -19819,25 +19819,25 @@
     "imageIds": [],
     "textJson": [
       {
-        "isSelectBonus": false,
-        "text": "本召喚は[FF00FF]「OVER THE SAME SKY」特別概念礼装[-]を\n召喚することができます。\n\n「OVER THE SAME SKY」特別概念礼装は、\n「OVER THE SAME SKY 英霊星行チケット\n〔NOVEMBER〕」を使用することで、\n[FFFF00]交換ショップにて1枚を選んで交換が可能[-]となりますので、\nご注意ください。\n\n[FFFF00]※本召喚は「確定召喚」の対象外となりますので、\nご注意ください。[-]\n",
-        "dlgBgId": 0,
-        "spacingY": 0,
+        "isQuestRelease": false,
         "ptPos": [
           0,
           0
         ],
-        "isFortification": false,
         "dlgFontSize": 26,
-        "isQuestRelease": false,
-        "isClassBoardRelease": false,
-        "rects": [],
-        "questId": 0,
-        "title": "「OVER THE SAME SKY」特別概念礼装について",
+        "isSelectBonus": false,
+        "spacingY": 0,
         "textPos": [
           0,
           13
-        ]
+        ],
+        "isFortification": false,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "text": "本召喚は[FF00FF]「OVER THE SAME SKY」特別概念礼装[-]を\n召喚することができます。\n\n「OVER THE SAME SKY」特別概念礼装は、\n「OVER THE SAME SKY 英霊星行チケット\n〔NOVEMBER〕」を使用することで、\n[FFFF00]交換ショップにて1枚を選んで交換が可能[-]となりますので、\nご注意ください。\n\n[FFFF00]※本召喚は「確定召喚」の対象外となりますので、\nご注意ください。[-]\n",
+        "rects": [],
+        "dlgBgId": 0,
+        "title": "「OVER THE SAME SKY」特別概念礼装について"
       }
     ],
     "script": {},
@@ -19862,24 +19862,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 アルトリア･ペンドラゴン〔リリィ〕\nピックアップフレンドポイント召喚について\n\n本召喚では「アルトリア･ペンドラゴン〔リリィ〕」の\n召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「アルトリア･ペンドラゴン〔リリィ〕」以外の\n★4(SR)サーヴァントは召喚されません。\n",
         "textPos": [
           0,
           13
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 アルトリア･ペンドラゴン〔リリィ〕\nピックアップフレンドポイント召喚について\n\n本召喚では「アルトリア･ペンドラゴン〔リリィ〕」の\n召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「アルトリア･ペンドラゴン〔リリィ〕」以外の\n★4(SR)サーヴァントは召喚されません。\n",
-        "dlgFontSize": 26,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 26,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -19904,24 +19904,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 アルトリア･ペンドラゴン〔リリィ〕\nピックアップフレンドポイント召喚について\n\n本召喚では「アルトリア･ペンドラゴン〔リリィ〕」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「アルトリア･ペンドラゴン〔リリィ〕」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(女性)」をクリアすることで\n「岸波白野(女性)」が通常のフレンドポイント召喚に追加されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「アルトリア･ペンドラゴン〔リリィ〕」の召喚確率に\n変更はありません。[-]",
         "textPos": [
           0,
           30
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 アルトリア･ペンドラゴン〔リリィ〕\nピックアップフレンドポイント召喚について\n\n本召喚では「アルトリア･ペンドラゴン〔リリィ〕」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「アルトリア･ペンドラゴン〔リリィ〕」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(女性)」をクリアすることで\n「岸波白野(女性)」が通常のフレンドポイント召喚に追加されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「アルトリア･ペンドラゴン〔リリィ〕」の召喚確率に\n変更はありません。[-]",
-        "dlgFontSize": 24,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 24,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -19946,24 +19946,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 アルトリア･ペンドラゴン〔リリィ〕\nピックアップフレンドポイント召喚について\n\n本召喚では「アルトリア･ペンドラゴン〔リリィ〕」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「アルトリア･ペンドラゴン〔リリィ〕」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(男性)」をクリアすることで\n「岸波白野(男性)」が通常のフレンドポイント召喚に追加されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「アルトリア･ペンドラゴン〔リリィ〕」の召喚確率に\n変更はありません。[-]",
         "textPos": [
           0,
           30
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 アルトリア･ペンドラゴン〔リリィ〕\nピックアップフレンドポイント召喚について\n\n本召喚では「アルトリア･ペンドラゴン〔リリィ〕」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「アルトリア･ペンドラゴン〔リリィ〕」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(男性)」をクリアすることで\n「岸波白野(男性)」が通常のフレンドポイント召喚に追加されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「アルトリア･ペンドラゴン〔リリィ〕」の召喚確率に\n変更はありません。[-]",
-        "dlgFontSize": 24,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 24,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -19988,24 +19988,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 アルトリア･ペンドラゴン〔リリィ〕\nピックアップフレンドポイント召喚について\n\n本召喚では「アルトリア･ペンドラゴン〔リリィ〕」\nの召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n\n[FFFF00]※さらに他の★4(SR)サーヴァントも\n排出対象となっています。[-]",
         "textPos": [
           0,
           13
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 アルトリア･ペンドラゴン〔リリィ〕\nピックアップフレンドポイント召喚について\n\n本召喚では「アルトリア･ペンドラゴン〔リリィ〕」\nの召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n\n[FFFF00]※さらに他の★4(SR)サーヴァントも\n排出対象となっています。[-]",
-        "dlgFontSize": 26,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 26,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -20030,24 +20030,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 ハベトロット\nピックアップフレンドポイント召喚について\n\n本召喚では「ハベトロット」の\n召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「ハベトロット」以外の\n★4(SR)サーヴァントは召喚されません。\n",
         "textPos": [
           0,
           13
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 ハベトロット\nピックアップフレンドポイント召喚について\n\n本召喚では「ハベトロット」の\n召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「ハベトロット」以外の\n★4(SR)サーヴァントは召喚されません。\n",
-        "dlgFontSize": 26,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 26,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -20072,24 +20072,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 ハベトロット\nピックアップフレンドポイント召喚について\n\n本召喚では「ハベトロット」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「ハベトロット」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(女性)」をクリアすることで\n「岸波白野(女性)」が通常のフレンドポイント召喚に追加されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「ハベトロット」の召喚確率に\n変更はありません。[-]",
         "textPos": [
           0,
           30
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 ハベトロット\nピックアップフレンドポイント召喚について\n\n本召喚では「ハベトロット」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「ハベトロット」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(女性)」をクリアすることで\n「岸波白野(女性)」が通常のフレンドポイント召喚に追加されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「ハベトロット」の召喚確率に\n変更はありません。[-]",
-        "dlgFontSize": 24,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 24,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -20114,24 +20114,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 ハベトロット\nピックアップフレンドポイント召喚について\n\n本召喚では「ハベトロット」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「ハベトロット」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(男性)」をクリアすることで\n「岸波白野(男性)」が通常のフレンドポイント召喚に追加されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「ハベトロット」の召喚確率に\n変更はありません。[-]",
         "textPos": [
           0,
           30
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 ハベトロット\nピックアップフレンドポイント召喚について\n\n本召喚では「ハベトロット」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「ハベトロット」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(男性)」をクリアすることで\n「岸波白野(男性)」が通常のフレンドポイント召喚に追加されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「ハベトロット」の召喚確率に\n変更はありません。[-]",
-        "dlgFontSize": 24,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 24,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -20156,24 +20156,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 ハベトロット\nピックアップフレンドポイント召喚について\n\n本召喚では「ハベトロット」\nの召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n\n[FFFF00]※さらに他の★4(SR)サーヴァントも\n排出対象となっています。[-]",
         "textPos": [
           0,
           13
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 ハベトロット\nピックアップフレンドポイント召喚について\n\n本召喚では「ハベトロット」\nの召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n\n[FFFF00]※さらに他の★4(SR)サーヴァントも\n排出対象となっています。[-]",
-        "dlgFontSize": 26,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 26,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -20198,24 +20198,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 岸波白野\nピックアップフレンドポイント召喚について\n\n本召喚では「岸波白野(男性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「岸波白野(男性)」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(女性)」をクリアすることで\n「岸波白野(女性)」が通常のフレンドポイント召喚に追加され、\n「岸波白野(女性)」のピックアップ召喚が開放されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「岸波白野(男性)」の召喚確率に\n変更はありません。[-]",
         "textPos": [
           0,
           13
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 岸波白野\nピックアップフレンドポイント召喚について\n\n本召喚では「岸波白野(男性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「岸波白野(男性)」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(女性)」をクリアすることで\n「岸波白野(女性)」が通常のフレンドポイント召喚に追加され、\n「岸波白野(女性)」のピックアップ召喚が開放されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「岸波白野(男性)」の召喚確率に\n変更はありません。[-]",
-        "dlgFontSize": 20,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 20,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -20240,24 +20240,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 岸波白野\nピックアップフレンドポイント召喚について\n\n本召喚では「岸波白野(女性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「岸波白野(女性)」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(男性)」をクリアすることで\n「岸波白野(男性)」が通常のフレンドポイント召喚に追加され、\n「岸波白野(男性)」のピックアップ召喚が開放されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「岸波白野(女性)」の召喚確率に\n変更はありません。[-]",
         "textPos": [
           0,
           13
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 岸波白野\nピックアップフレンドポイント召喚について\n\n本召喚では「岸波白野(女性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「岸波白野(女性)」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(男性)」をクリアすることで\n「岸波白野(男性)」が通常のフレンドポイント召喚に追加され、\n「岸波白野(男性)」のピックアップ召喚が開放されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「岸波白野(女性)」の召喚確率に\n変更はありません。[-]",
-        "dlgFontSize": 20,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 20,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -20282,24 +20282,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 岸波白野(男性)ピックアップ\nフレンドポイント召喚について\n\n本召喚では「岸波白野(男性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n\n[FFFF00]※さらに他の★4(SR)サーヴァントも\n排出対象となっています。[-]",
         "textPos": [
           0,
           13
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 岸波白野(男性)ピックアップ\nフレンドポイント召喚について\n\n本召喚では「岸波白野(男性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n\n[FFFF00]※さらに他の★4(SR)サーヴァントも\n排出対象となっています。[-]",
-        "dlgFontSize": 24,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 24,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -20324,24 +20324,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 岸波白野(女性)ピックアップ\nフレンドポイント召喚について\n\n本召喚では「岸波白野(女性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n\n[FFFF00]※さらに他の★4(SR)サーヴァントも\n排出対象となっています。[-]",
         "textPos": [
           0,
           13
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 岸波白野(女性)ピックアップ\nフレンドポイント召喚について\n\n本召喚では「岸波白野(女性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n\n[FFFF00]※さらに他の★4(SR)サーヴァントも\n排出対象となっています。[-]",
-        "dlgFontSize": 24,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 24,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -20364,24 +20364,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "「第2部 終章」限定概念礼装「英霊極点」について\n\n本召喚は概念礼装[FF00FF]「英霊極点」[-]を召喚することができます。\n\n概念礼装「英霊極点」は、\n「英霊極点交換チケット」を使用することで、\n[FFFF00]交換ショップにて2枚を選んで交換が可能[-]となりますので、\nご注意ください。\n\n[FFFF00]※本召喚は「確定召喚」の対象外となりますので、\nご注意ください。[-]\n",
         "textPos": [
           0,
           13
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "「第2部 終章」限定概念礼装「英霊極点」について\n\n本召喚は概念礼装[FF00FF]「英霊極点」[-]を召喚することができます。\n\n概念礼装「英霊極点」は、\n「英霊極点交換チケット」を使用することで、\n[FFFF00]交換ショップにて2枚を選んで交換が可能[-]となりますので、\nご注意ください。\n\n[FFFF00]※本召喚は「確定召喚」の対象外となりますので、\nご注意ください。[-]\n",
-        "dlgFontSize": 24,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 24,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -20404,24 +20404,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "「★4(SR)蛇女房」の召喚分類に関する訂正とお詫び\n\n1月17日(土)の事前告知にて、\n本召喚でピックアップされている「[FFFF00]★4(SR)蛇女房[-]」を\n「[FFFF00]期間限定サーヴァント[-]」と紹介しておりましたが、\n正しくは「[FFFF00]恒常サーヴァント[-]」となります。\n\n[FFFF00]【誤】期間限定サーヴァント ★4(SR)蛇女房[-]\n↓\n[FFFF00]【正】恒常サーヴァント ★4(SR)蛇女房[-]\n\n誤った情報をお伝えしておりましたことお詫び申し上げます。\n召喚を実行する際は、上記の内容にご注意ください。\n",
         "textPos": [
           0,
           13
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "「★4(SR)蛇女房」の召喚分類に関する訂正とお詫び\n\n1月17日(土)の事前告知にて、\n本召喚でピックアップされている「[FFFF00]★4(SR)蛇女房[-]」を\n「[FFFF00]期間限定サーヴァント[-]」と紹介しておりましたが、\n正しくは「[FFFF00]恒常サーヴァント[-]」となります。\n\n[FFFF00]【誤】期間限定サーヴァント ★4(SR)蛇女房[-]\n↓\n[FFFF00]【正】恒常サーヴァント ★4(SR)蛇女房[-]\n\n誤った情報をお伝えしておりましたことお詫び申し上げます。\n召喚を実行する際は、上記の内容にご注意ください。\n",
-        "dlgFontSize": 20,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 20,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -20508,24 +20508,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 アルトリア･ペンドラゴン〔リリィ〕\nピックアップフレンドポイント召喚について\n\n本召喚では「アルトリア･ペンドラゴン〔リリィ〕」の\n召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「アルトリア･ペンドラゴン〔リリィ〕」以外の\n★4(SR)サーヴァントは召喚されません。\n",
         "textPos": [
           0,
           13
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 アルトリア･ペンドラゴン〔リリィ〕\nピックアップフレンドポイント召喚について\n\n本召喚では「アルトリア･ペンドラゴン〔リリィ〕」の\n召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「アルトリア･ペンドラゴン〔リリィ〕」以外の\n★4(SR)サーヴァントは召喚されません。\n",
-        "dlgFontSize": 26,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 26,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -20550,24 +20550,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 アルトリア･ペンドラゴン〔リリィ〕\nピックアップフレンドポイント召喚について\n\n本召喚では「アルトリア･ペンドラゴン〔リリィ〕」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「アルトリア･ペンドラゴン〔リリィ〕」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(女性)」をクリアすることで\n「岸波白野(女性)」が通常のフレンドポイント召喚に追加されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「アルトリア･ペンドラゴン〔リリィ〕」の召喚確率に\n変更はありません。[-]\n",
         "textPos": [
           0,
           30
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 アルトリア･ペンドラゴン〔リリィ〕\nピックアップフレンドポイント召喚について\n\n本召喚では「アルトリア･ペンドラゴン〔リリィ〕」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「アルトリア･ペンドラゴン〔リリィ〕」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(女性)」をクリアすることで\n「岸波白野(女性)」が通常のフレンドポイント召喚に追加されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「アルトリア･ペンドラゴン〔リリィ〕」の召喚確率に\n変更はありません。[-]\n",
-        "dlgFontSize": 24,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 24,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -20592,24 +20592,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 アルトリア･ペンドラゴン〔リリィ〕\nピックアップフレンドポイント召喚について\n\n本召喚では「アルトリア･ペンドラゴン〔リリィ〕」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「アルトリア･ペンドラゴン〔リリィ〕」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(男性)」をクリアすることで\n「岸波白野(男性)」が通常のフレンドポイント召喚に追加されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「アルトリア･ペンドラゴン〔リリィ〕」の召喚確率に\n変更はありません。[-]",
         "textPos": [
           0,
           30
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 アルトリア･ペンドラゴン〔リリィ〕\nピックアップフレンドポイント召喚について\n\n本召喚では「アルトリア･ペンドラゴン〔リリィ〕」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「アルトリア･ペンドラゴン〔リリィ〕」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(男性)」をクリアすることで\n「岸波白野(男性)」が通常のフレンドポイント召喚に追加されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「アルトリア･ペンドラゴン〔リリィ〕」の召喚確率に\n変更はありません。[-]",
-        "dlgFontSize": 24,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 24,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -20634,24 +20634,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 アルトリア･ペンドラゴン〔リリィ〕\nピックアップフレンドポイント召喚について\n\n本召喚では「アルトリア･ペンドラゴン〔リリィ〕」\nの召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n\n[FFFF00]※さらに他の★4(SR)サーヴァントも\n排出対象となっています。[-]",
         "textPos": [
           0,
           13
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 アルトリア･ペンドラゴン〔リリィ〕\nピックアップフレンドポイント召喚について\n\n本召喚では「アルトリア･ペンドラゴン〔リリィ〕」\nの召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n\n[FFFF00]※さらに他の★4(SR)サーヴァントも\n排出対象となっています。[-]",
-        "dlgFontSize": 26,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 26,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -20676,24 +20676,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 ハベトロット\nピックアップフレンドポイント召喚について\n\n本召喚では「ハベトロット」の\n召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「ハベトロット」以外の\n★4(SR)サーヴァントは召喚されません。\n",
         "textPos": [
           0,
           13
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 ハベトロット\nピックアップフレンドポイント召喚について\n\n本召喚では「ハベトロット」の\n召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「ハベトロット」以外の\n★4(SR)サーヴァントは召喚されません。\n",
-        "dlgFontSize": 26,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 26,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -20718,24 +20718,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 ハベトロット\nピックアップフレンドポイント召喚について\n\n本召喚では「ハベトロット」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「ハベトロット」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(女性)」をクリアすることで\n「岸波白野(女性)」が通常のフレンドポイント召喚に追加されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「ハベトロット」の召喚確率に\n変更はありません。[-]",
         "textPos": [
           0,
           30
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 ハベトロット\nピックアップフレンドポイント召喚について\n\n本召喚では「ハベトロット」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「ハベトロット」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(女性)」をクリアすることで\n「岸波白野(女性)」が通常のフレンドポイント召喚に追加されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「ハベトロット」の召喚確率に\n変更はありません。[-]",
-        "dlgFontSize": 24,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 24,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -20760,24 +20760,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 ハベトロット\nピックアップフレンドポイント召喚について\n\n本召喚では「ハベトロット」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「ハベトロット」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(男性)」をクリアすることで\n「岸波白野(男性)」が通常のフレンドポイント召喚に追加されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「ハベトロット」の召喚確率に\n変更はありません。[-]",
         "textPos": [
           0,
           30
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 ハベトロット\nピックアップフレンドポイント召喚について\n\n本召喚では「ハベトロット」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「ハベトロット」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(男性)」をクリアすることで\n「岸波白野(男性)」が通常のフレンドポイント召喚に追加されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「ハベトロット」の召喚確率に\n変更はありません。[-]",
-        "dlgFontSize": 24,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 24,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -20802,24 +20802,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 ハベトロット\nピックアップフレンドポイント召喚について\n\n本召喚では「ハベトロット」\nの召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n\n[FFFF00]※さらに他の★4(SR)サーヴァントも\n排出対象となっています。[-]",
         "textPos": [
           0,
           13
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 ハベトロット\nピックアップフレンドポイント召喚について\n\n本召喚では「ハベトロット」\nの召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n\n[FFFF00]※さらに他の★4(SR)サーヴァントも\n排出対象となっています。[-]",
-        "dlgFontSize": 26,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 26,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -20844,24 +20844,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 岸波白野\nピックアップフレンドポイント召喚について\n\n本召喚では「岸波白野(男性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「岸波白野(男性)」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(女性)」をクリアすることで\n「岸波白野(女性)」が通常のフレンドポイント召喚に追加され、\n「岸波白野(女性)」のピックアップ召喚が開放されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「岸波白野(男性)」の召喚確率に\n変更はありません。[-]",
         "textPos": [
           0,
           13
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 岸波白野\nピックアップフレンドポイント召喚について\n\n本召喚では「岸波白野(男性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「岸波白野(男性)」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(女性)」をクリアすることで\n「岸波白野(女性)」が通常のフレンドポイント召喚に追加され、\n「岸波白野(女性)」のピックアップ召喚が開放されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「岸波白野(男性)」の召喚確率に\n変更はありません。[-]",
-        "dlgFontSize": 20,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 20,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -20886,24 +20886,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 岸波白野\nピックアップフレンドポイント召喚について\n\n本召喚では「岸波白野(女性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「岸波白野(女性)」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(男性)」をクリアすることで\n「岸波白野(男性)」が通常のフレンドポイント召喚に追加され、\n「岸波白野(男性)」のピックアップ召喚が開放されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「岸波白野(女性)」の召喚確率に\n変更はありません。[-]",
         "textPos": [
           0,
           13
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 岸波白野\nピックアップフレンドポイント召喚について\n\n本召喚では「岸波白野(女性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「岸波白野(女性)」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(男性)」をクリアすることで\n「岸波白野(男性)」が通常のフレンドポイント召喚に追加され、\n「岸波白野(男性)」のピックアップ召喚が開放されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「岸波白野(女性)」の召喚確率に\n変更はありません。[-]",
-        "dlgFontSize": 20,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 20,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -20928,24 +20928,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 岸波白野(男性)ピックアップ\nフレンドポイント召喚について\n\n本召喚では「岸波白野(男性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n\n[FFFF00]※さらに他の★4(SR)サーヴァントも\n排出対象となっています。[-]",
         "textPos": [
           0,
           13
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 岸波白野(男性)ピックアップ\nフレンドポイント召喚について\n\n本召喚では「岸波白野(男性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n\n[FFFF00]※さらに他の★4(SR)サーヴァントも\n排出対象となっています。[-]",
-        "dlgFontSize": 24,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 24,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -20970,24 +20970,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 岸波白野(女性)ピックアップ\nフレンドポイント召喚について\n\n本召喚では「岸波白野(女性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n\n[FFFF00]※さらに他の★4(SR)サーヴァントも\n排出対象となっています。[-]",
         "textPos": [
           0,
           13
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 岸波白野(女性)ピックアップ\nフレンドポイント召喚について\n\n本召喚では「岸波白野(女性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n\n[FFFF00]※さらに他の★4(SR)サーヴァントも\n排出対象となっています。[-]",
-        "dlgFontSize": 24,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 24,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -21131,24 +21131,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 岸波白野\nピックアップフレンドポイント召喚について\n\n本召喚では「岸波白野(男性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「岸波白野(男性)」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(女性)」をクリアすることで\n「岸波白野(女性)」が通常のフレンドポイント召喚に追加されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「岸波白野(男性)」の召喚確率に\n変更はありません。\n※期間限定概念礼装は 排出対象外となります。[-]",
         "textPos": [
           0,
           13
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 岸波白野\nピックアップフレンドポイント召喚について\n\n本召喚では「岸波白野(男性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「岸波白野(男性)」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(女性)」をクリアすることで\n「岸波白野(女性)」が通常のフレンドポイント召喚に追加されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「岸波白野(男性)」の召喚確率に\n変更はありません。\n※期間限定概念礼装は 排出対象外となります。[-]",
-        "dlgFontSize": 20,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 20,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -21173,24 +21173,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 岸波白野\nピックアップフレンドポイント召喚について\n\n本召喚では「岸波白野(女性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「岸波白野(女性)」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(男性)」をクリアすることで\n「岸波白野(男性)」が通常のフレンドポイント召喚に追加されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「岸波白野(女性)」の召喚確率に\n変更はありません。\n※期間限定概念礼装は 排出対象外となります。[-]",
         "textPos": [
           0,
           13
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 岸波白野\nピックアップフレンドポイント召喚について\n\n本召喚では「岸波白野(女性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n※「岸波白野(女性)」以外の\n★4(SR)サーヴァントは召喚されません。\n\n[FFFF00]※「霊基獲得クエスト 岸波白野(男性)」をクリアすることで\n「岸波白野(男性)」が通常のフレンドポイント召喚に追加されます。\nさらにその追加確率分、本召喚において他の★4(SR)サーヴァントが\n排出されるようになります。\nその際、「岸波白野(女性)」の召喚確率に\n変更はありません。\n※期間限定概念礼装は 排出対象外となります。[-]",
-        "dlgFontSize": 20,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 20,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -21215,24 +21215,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 岸波白野(男性)ピックアップ\nフレンドポイント召喚について\n\n本召喚では「岸波白野(男性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n\n[FFFF00]※さらに他の★4(SR)サーヴァントも\n排出対象となっています。\n\n※期間限定概念礼装は 排出対象外となります。[-]",
         "textPos": [
           0,
           13
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 岸波白野(男性)ピックアップ\nフレンドポイント召喚について\n\n本召喚では「岸波白野(男性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n\n[FFFF00]※さらに他の★4(SR)サーヴァントも\n排出対象となっています。\n\n※期間限定概念礼装は 排出対象外となります。[-]",
-        "dlgFontSize": 24,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 24,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -21257,24 +21257,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "期間限定 岸波白野(女性)ピックアップ\nフレンドポイント召喚について\n\n本召喚では「岸波白野(女性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n\n[FFFF00]※さらに他の★4(SR)サーヴァントも\n排出対象となっています。\n\n※期間限定概念礼装は 排出対象外となります。[-]",
         "textPos": [
           0,
           13
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "期間限定 岸波白野(女性)ピックアップ\nフレンドポイント召喚について\n\n本召喚では「岸波白野(女性)」の召喚確率が、\n通常のフレンドポイント召喚の3倍となります！\n\n[FFFF00]※さらに他の★4(SR)サーヴァントも\n排出対象となっています。\n\n※期間限定概念礼装は 排出対象外となります。[-]",
-        "dlgFontSize": 24,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 24,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -21299,25 +21299,25 @@
     "imageIds": [],
     "textJson": [
       {
-        "isSelectBonus": false,
-        "text": "フレンドポイント召喚について\n\n本召喚は通常のフレンドポイント召喚です。\n「岸波白野」の召喚確率は[FFFF00]通常確率[-]となっています。\n\n[FFFF00]期間限定で「岸波白野」の召喚確率が\n3倍となっている召喚は、\n「期間限定 岸波白野ピックアップフレンドポイント召喚」\nご注意ください。[-]",
-        "dlgBgId": 0,
-        "spacingY": 0,
+        "isQuestRelease": false,
         "ptPos": [
           0,
           0
         ],
-        "isFortification": false,
         "dlgFontSize": 26,
-        "isQuestRelease": false,
-        "isClassBoardRelease": false,
-        "rects": [],
-        "questId": 0,
-        "title": "フレンドポイント召喚について",
+        "isSelectBonus": false,
+        "spacingY": 0,
         "textPos": [
           0,
           13
-        ]
+        ],
+        "isFortification": false,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "text": "フレンドポイント召喚について\n\n本召喚は通常のフレンドポイント召喚です。\n「岸波白野」の召喚確率は[FFFF00]通常確率[-]となっています。\n\n[FFFF00]期間限定で「岸波白野」の召喚確率が\n3倍となっている召喚は、\n「期間限定 岸波白野ピックアップフレンドポイント召喚」\nご注意ください。[-]",
+        "rects": [],
+        "dlgBgId": 0,
+        "title": "フレンドポイント召喚について"
       }
     ],
     "script": {},
@@ -22058,13 +22058,13 @@
     "textJson": [
       {
         "text": "魔法少女とのバトルではターン制限があります\n残りターンが０になると、状況問わずバトル終了となります\n\nなお、全滅した場合はコンティニューが出来ませんが、\nバトルで減らした｢Episode Countdown｣は反映され、\n以下の報酬が発生します\n｢絆ポイント｣、｢マスターEXP｣、｢魔術礼装EXP｣\n｢フレンドポイントの獲得｣、｢戦利品の獲得｣\n\n撤退した場合は減らした｢Episode Countdown｣は反映されず、\n報酬は発生しないのでご注意ください",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": []
       }
@@ -22126,13 +22126,13 @@
     "textJson": [
       {
         "text": "このイベントの｢World End Match｣では、\n敗北時でも減らした｢Episode Countdown｣は反映され、\n以下の報酬獲得が発生します\n｢絆ポイント｣、｢マスターEXP｣、｢魔術礼装EXP｣\n｢フレンドポイントの獲得｣、｢戦利品の獲得｣\n\nなお、獲得できる報酬の量は、与えたダメージに応じて変化します",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": []
       }
@@ -22517,13 +22517,13 @@
     "textJson": [
       {
         "text": "魔神柱を撃破してもゲージが残っている限り繰り返し復活します。\n\n画面上部には撃破した回数とゲージが表示されており、\n撃破するごとにゲージが減っていきます。\nまた、他のマスターが撃破した数がバトル中も随時反映されます。\n\nゲージを減らしきるまで皆で魔神柱を倒しましょう！",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": []
       }
@@ -23127,13 +23127,13 @@
     "textJson": [
       {
         "text": "茨木童子は、戦闘ごとにリセットされる「HP」以外に、\n「Total HP」を持っています。\n\n「Total HP」は、すべてのマスターで共有されており、\n減らした「Total HP」は次回の戦闘にも引き継がれます。",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": []
       }
@@ -23186,13 +23186,13 @@
     "textJson": [
       {
         "text": "茨木童子との戦闘には、ターン制限があります。\n\n残りターンが０になると、\n敵味方の状況を問わず戦闘終了となり\nそれまでに与えたダメージが\n「ダメージポイント」として手に入ります。\n\nなお、全滅した場合はコンティニューが出来ず、\n撤退時にはダメージポイントが手に入らないのでご注意ください。",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": []
       }
@@ -23245,13 +23245,13 @@
     "textJson": [
       {
         "text": "「復刻:鬼哭酔夢魔京 羅生門 ショート版」の討伐戦では、\n敗北時にも以下の報酬獲得が発生します。\n「ダメージポイントの獲得」\n｢絆ポイント｣、｢マスターEXP｣、｢魔術礼装EXP｣\n｢フレンドポイントの獲得｣、｢戦利品の獲得｣\n\nなお、獲得できる報酬の量は、\n強大な敵に与えたダメージ量に応じて変化します。",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": []
       }
@@ -23450,13 +23450,13 @@
     "textJson": [
       {
         "text": "風越丸は、戦闘ごとにリセットされる「HP」以外に、\n「Total HP」を持っています。\n\n「Total HP」は、すべてのマスターで共有されており、\n減らした「Total HP」は次回の戦闘にも引き継がれます。",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": []
       }
@@ -23491,13 +23491,13 @@
     "textJson": [
       {
         "text": "技喰丸は、戦闘ごとにリセットされる「HP」以外に、\n「Total HP」を持っています。\n\n「Total HP」は、すべてのマスターで共有されており、\n減らした「Total HP」は次回の戦闘にも引き継がれます。",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": []
       }
@@ -23532,13 +23532,13 @@
     "textJson": [
       {
         "text": "轟力丸は、戦闘ごとにリセットされる「HP」以外に、\n「Total HP」を持っています。\n\n「Total HP」は、すべてのマスターで共有されており、\n減らした「Total HP」は次回の戦闘にも引き継がれます。",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": []
       }
@@ -23568,13 +23568,13 @@
     "textJson": [
       {
         "text": "丑御前は、戦闘ごとにリセットされる「HP」以外に、\n「Total HP」を持っています。\n\n「Total HP」は、すべてのマスターで共有されており、\n減らした「Total HP」は次回の戦闘にも引き継がれます。",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": []
       }
@@ -23609,13 +23609,13 @@
     "textJson": [
       {
         "text": "風越丸との戦闘には、ターン制限があります。\n\n残りターンが０になると、\n敵味方の状況を問わず戦闘終了となり\nそれまでに与えたダメージが\n「ダメージポイント」として手に入ります。\n\nなお、全滅した場合はコンティニューが出来ず、\n撤退時にはダメージポイントが手に入らないのでご注意ください。",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": []
       }
@@ -23650,13 +23650,13 @@
     "textJson": [
       {
         "text": "技喰丸との戦闘には、ターン制限があります。\n\n残りターンが０になると、\n敵味方の状況を問わず戦闘終了となり\nそれまでに与えたダメージが\n「ダメージポイント」として手に入ります。\n\nなお、全滅した場合はコンティニューが出来ず、\n撤退時にはダメージポイントが手に入らないのでご注意ください。",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": []
       }
@@ -23691,13 +23691,13 @@
     "textJson": [
       {
         "text": "轟力丸との戦闘には、ターン制限があります。\n\n残りターンが０になると、\n敵味方の状況を問わず戦闘終了となり\nそれまでに与えたダメージが\n「ダメージポイント」として手に入ります。\n\nなお、全滅した場合はコンティニューが出来ず、\n撤退時にはダメージポイントが手に入らないのでご注意ください。",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": []
       }
@@ -23727,13 +23727,13 @@
     "textJson": [
       {
         "text": "丑御前との戦闘には、ターン制限があります。\n\n残りターンが０になると、\n敵味方の状況を問わず戦闘終了となり\nそれまでに与えたダメージが\n「ダメージポイント」として手に入ります。\n\nなお、全滅した場合はコンティニューが出来ず、\n撤退時にはダメージポイントが手に入らないのでご注意ください。",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": []
       }
@@ -23793,13 +23793,13 @@
     "textJson": [
       {
         "text": "「復刻:天魔御伽草子 鬼ヶ島 ライト版」の討伐戦では、\n敗北時にも以下の報酬獲得が発生します。\n「ダメージポイントの獲得」\n「絆ポイント」、「マスターEXP」、「魔術礼装EXP」、\n「フレンドポイントの獲得」、「戦利品の獲得」\n\nなお、獲得できる報酬の量は、\n強大な敵に与えたダメージ量に応じて変化します。",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": []
       }
@@ -24284,13 +24284,13 @@
     "textJson": [
       {
         "text": "～エキシビションクエストについて～\n\n「エキシビションクエスト」は\n上級者向けの[FF0000]超高難易度クエスト[-]です。\n\nクリアするには、敵の行動をよく観察した上で、\n「パーティ編成」「魔術礼装」「スキル」「宝具」等\nあらゆる要素を駆使する必要があります。\n\n[FF9800]あきらめずに何度も挑戦し、攻略法を見つけ出して下さい。[-]",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": []
       }
@@ -26461,13 +26461,13 @@
     "textJson": [
       {
         "text": "実行できる同人誌制作クエストがない為、 \n「サバフェス会場」に\n 「【ループ】演劇的魔人のメランコリー」が開放されました。\n このクエストを実行して先に進めてください。\n\n ※ループのためクエストクリア報酬は発生しません。",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": []
       }
@@ -26496,13 +26496,13 @@
     "textJson": [
       {
         "text": "「Sacrilege Tetrahedron」で登場するエネミーは\n膨大なHP=｢Total HP｣を持っています\nエネミーにダメージを与えると、 HPと同時に｢Total HP｣も減っていきます\n減らした｢Total HP｣は次のバトルに引き継がれます",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": [
           {
@@ -26538,13 +26538,13 @@
     "textJson": [
       {
         "text": "「Sacrilege Tetrahedron」でのエネミーとのバトルでは\nターン制限があります。\n残りターンが0になると、状況を問わずバトル終了となります\n\nなお、全滅した場合はコンティニュー出来ませんが、\nバトルで減らした「Total HP」は反映され、\n以下の報酬が発生します\n\n｢マスターEXP｣｢魔術礼装EXP｣ ｢フレンドポイント｣\n撤退した場合は減らした「Total HP」は反映されず、\n報酬は発生しないのでご注意ください",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": []
       }
@@ -26582,13 +26582,13 @@
     "textJson": [
       {
         "text": "「Sacrilege Tetrahedron」でのエネミーとのバトルでは、\n敗北時にも以下の報酬が発生します。\n\n「マスターEXP」「魔術礼装EXP」「フレンドポイント」",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": []
       }
@@ -26855,13 +26855,13 @@
     "textJson": [
       {
         "text": "～エキシビションクエストについて～\n\n「エキシビションクエスト」は\n上級者向けの[FF0000]超高難易度クエスト[-]です。\n\nクリアするには、敵の行動をよく観察した上で、\n「パーティ編成」「魔術礼装」「スキル」「宝具」等\nあらゆる要素を駆使する必要があります。\n\n[FF9800]あきらめずに何度も挑戦し、攻略法を見つけ出して下さい。[-]",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": []
       }
@@ -27091,13 +27091,13 @@
     "textJson": [
       {
         "text": "鬼王朱裸を撃退してもゲージが残っている限り\n繰り返し復活します。\n\n画面上部には残り戦闘数とゲージが表示されており、\n撃退するごとにゲージが減っていきます。\nまた、他のマスターが撃退した数がバトル中も随時反映されます。\n\n\nゲージを減らしきるまで皆で鬼王朱裸を倒しましょう！",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": [
           {
@@ -27412,11 +27412,11 @@
     "textJson": [
       {
         "text": "奉納ポイント報酬を受け取ることで、\n新たなシナリオクエストが開放されます。\n\nイベント報酬画面に行って\n奉納ポイント報酬を受け取りましょう！",
-        "textPos": [
+        "ptPos": [
           0,
           0
         ],
-        "ptPos": [
+        "textPos": [
           0,
           0
         ],
@@ -27446,11 +27446,11 @@
     "textJson": [
       {
         "text": "奉納ポイント報酬を受け取ることで、\n新たなシナリオクエストが開放されます。\n\nイベント報酬画面に行って\n奉納ポイント報酬を受け取りましょう！",
-        "textPos": [
+        "ptPos": [
           0,
           0
         ],
-        "ptPos": [
+        "textPos": [
           0,
           0
         ],
@@ -27480,11 +27480,11 @@
     "textJson": [
       {
         "text": "奉納ポイント報酬を受け取ることで、\n新たなシナリオクエストが開放されます。\n\nイベント報酬画面に行って\n奉納ポイント報酬を受け取りましょう！",
-        "textPos": [
+        "ptPos": [
           0,
           0
         ],
-        "ptPos": [
+        "textPos": [
           0,
           0
         ],
@@ -27768,13 +27768,13 @@
     "textJson": [
       {
         "text": "魔法少女は膨大なHP=｢Episode Countdown｣を持っています\n魔法少女にダメージを与えると、\nHPと同時に｢Episode Countdown｣も減っていきます\n減らした｢Episode Countdown｣は次のバトルに引き継がれます",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": [
           {
@@ -27787,13 +27787,13 @@
       },
       {
         "text": "魔法少女には｢Quick｣、｢Arts｣、｢Buster｣の\nコマンドカードの攻撃に対する｢弱点｣があります\n\n｢弱点｣に合ったコマンドカードで攻撃することで\n通常より大きなダメージを与えられます",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": []
       }
@@ -27853,13 +27853,13 @@
     "textJson": [
       {
         "text": "魔法少女とのバトルではターン制限があります\n残りターンが０になると、状況問わずバトル終了となります\n\nなお、全滅した場合はコンティニューが出来ませんが、\nバトルで減らした｢Episode Countdown｣は反映され、\n以下の報酬が発生します\n｢絆ポイント｣、｢マスターEXP｣、｢魔術礼装EXP｣\n｢フレンドポイントの獲得｣、｢戦利品の獲得｣\n\n撤退した場合は減らした｢Episode Countdown｣は反映されず、\n報酬は発生しないのでご注意ください",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": []
       }
@@ -27919,13 +27919,13 @@
     "textJson": [
       {
         "text": "このイベントの｢World End Match｣では、\n敗北時でも減らした｢Episode Countdown｣は反映され、\n以下の報酬獲得が発生します\n｢絆ポイント｣、｢マスターEXP｣、｢魔術礼装EXP｣\n｢フレンドポイントの獲得｣、｢戦利品の獲得｣\n\nなお、獲得できる報酬の量は、与えたダメージに応じて変化します",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": []
       }
@@ -28712,13 +28712,13 @@
     "textJson": [
       {
         "text": "管制室バルバトスを撃破しても\nゲージが残っている限り繰り返し復活します。\n\n画面上部には撃破した回数とゲージが表示されており、\n撃破するごとにゲージが減っていきます。\nまた、他のマスターが撃破した数がバトル中も随時反映されます。\n\n\nゲージを減らしきるまで皆で管制室バルバトスを倒しましょう！",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": [
           {
@@ -29033,13 +29033,13 @@
     "textJson": [
       {
         "text": "実行できる同人誌制作クエストがない為、 \n「サバフェス会場」に\n 「【ループ】演劇的魔人のメランコリー」が開放されました。\n このクエストを実行して先に進めてください。\n\n ※ループのためクエストクリア報酬は発生しません。",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": []
       }
@@ -29068,13 +29068,13 @@
     "textJson": [
       {
         "text": "「Sacrilege Tetrahedron」で登場するエネミーは\n膨大なHP=｢Total HP｣を持っています\nエネミーにダメージを与えると、\nHPと同時に｢Total HP｣も減っていきます\n減らした｢Total HP｣は次のバトルに引き継がれます",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": [
           {
@@ -29110,13 +29110,13 @@
     "textJson": [
       {
         "text": "「Sacrilege Tetrahedron」でのエネミーとのバトルでは\nターン制限があります。\n残りターンが0になると、状況を問わずバトル終了となります\n\nなお、全滅した場合はコンティニュー出来ませんが、\nバトルで減らした「Total HP」は反映され、\n以下の報酬が発生します\n\n｢マスターEXP｣｢魔術礼装EXP｣ ｢フレンドポイント｣\n撤退した場合は減らした「Total HP」は反映されず、\n報酬は発生しないのでご注意ください",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": []
       }
@@ -29154,13 +29154,13 @@
     "textJson": [
       {
         "text": "「Sacrilege Tetrahedron」でのエネミーとのバトルでは、\n敗北時にも以下の報酬が発生します。\n\n「マスターEXP」「魔術礼装EXP」「フレンドポイント」",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": []
       }
@@ -29461,13 +29461,13 @@
     "textJson": [
       {
         "text": "～エキシビションクエストについて～\n\n「エキシビションクエスト」は\n上級者向けの[FF0000]超高難易度クエスト[-]です。\n\nクリアするには、敵の行動をよく観察した上で、\n「パーティ編成」「魔術礼装」「スキル」「宝具」等\nあらゆる要素を駆使する必要があります。\n\n[FF9800]あきらめずに何度も挑戦し、攻略法を見つけ出して下さい。[-]",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": []
       }
@@ -29739,13 +29739,13 @@
     "textJson": [
       {
         "text": "鬼王朱裸を撃退してもゲージが残っている限り\n繰り返し復活します。\n\n画面上部には残り戦闘数とゲージが表示されており、\n撃退するごとにゲージが減っていきます。\nまた、他のマスターが撃退した数がバトル中も随時反映されます。\n\n\nゲージを減らしきるまで皆で鬼王朱裸を倒しましょう！",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": [
           {
@@ -29954,11 +29954,11 @@
     "textJson": [
       {
         "text": "奉納ポイント報酬を受け取ることで、\n新たなシナリオクエストが開放されます。\n\nイベント報酬画面に行って\n奉納ポイント報酬を受け取りましょう！",
-        "textPos": [
+        "ptPos": [
           0,
           0
         ],
-        "ptPos": [
+        "textPos": [
           0,
           0
         ],
@@ -29988,11 +29988,11 @@
     "textJson": [
       {
         "text": "奉納ポイント報酬を受け取ることで、\n新たなシナリオクエストが開放されます。\n\nイベント報酬画面に行って\n奉納ポイント報酬を受け取りましょう！",
-        "textPos": [
+        "ptPos": [
           0,
           0
         ],
-        "ptPos": [
+        "textPos": [
           0,
           0
         ],
@@ -30022,11 +30022,11 @@
     "textJson": [
       {
         "text": "奉納ポイント報酬を受け取ることで、\n新たなシナリオクエストが開放されます。\n\nイベント報酬画面に行って\n奉納ポイント報酬を受け取りましょう！",
-        "textPos": [
+        "ptPos": [
           0,
           0
         ],
-        "ptPos": [
+        "textPos": [
           0,
           0
         ],
@@ -31449,13 +31449,13 @@
     "textJson": [
       {
         "text": "凶つ神を一度撃退してもゲージが残っている限り\n侵攻は止まりません。\n\n画面上部には残っている凶つ神の数とゲージが表示されており、\n撃退するごとにゲージが減っていきます。\nまた、他のマスターが撃退した数がバトル中も随時反映されます。\n\n\nゲージを減らしきるまで皆で凶つ神を倒しましょう！",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": [
           {
@@ -33912,13 +33912,13 @@
     "textJson": [
       {
         "text": "～エキシビションクエストについて～\n\n「エキシビションクエスト」は\nコンティニュー不可、上級者向けの[FF0000]超高難易度クエスト[-]です。\n\nクリアするには、敵の行動をよく観察した上で、\n「パーティ編成」「魔術礼装」「スキル」「宝具」等\nあらゆる要素を駆使する必要があります。\n\n[FF9800]あきらめずに何度も挑戦し、攻略法を見つけ出して下さい。[-]",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": []
       }
@@ -34305,13 +34305,13 @@
     "textJson": [
       {
         "text": "凶つ神を一度撃退してもゲージが残っている限り\n侵攻は止まりません。\n\n画面上部には残っている凶つ神の数とゲージが表示されており、\n撃退するごとにゲージが減っていきます。\nまた、他のマスターが撃退した数がバトル中も随時反映されます。\n\n\nゲージを減らしきるまで皆で凶つ神を倒しましょう！",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": [
           {
@@ -34869,13 +34869,13 @@
     "textJson": [
       {
         "text": "敵を撃退してもレイドゲージが残っている限り\n繰り返し復活します。\n\n画面上部にはレイドゲージが表示されており、\n撃退するごとにレイドゲージが減っていきます。\nまた、他のマスターが撃退した数がバトル中も随時反映されます。\n\nレイドゲージを減らしきるまで皆で強大な敵を倒しましょう！",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": [
           {
@@ -35022,13 +35022,13 @@
     "textJson": [
       {
         "text": "管制室バルバトスを撃破しても\nゲージが残っている限り繰り返し復活します。\n\n画面上部には撃破した回数とゲージが表示されており、\n撃破するごとにゲージが減っていきます。\nまた、他のマスターが撃破した数がバトル中も随時反映されます。\n\n\nゲージを減らしきるまで皆で管制室バルバトスを倒しましょう！",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": [
           {
@@ -35465,13 +35465,13 @@
     "textJson": [
       {
         "text": "～エキシビションクエストについて～\n\n「エキシビションクエスト」は\nコンティニュー不可、上級者向けの[FF0000]超高難易度クエスト[-]です。\n\nクリアするには、敵の行動をよく観察した上で、\n「パーティ編成」「魔術礼装」「スキル」「宝具」等\nあらゆる要素を駆使する必要があります。\n\n[FF9800]あきらめずに何度も挑戦し、攻略法を見つけ出して下さい。[-]",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": []
       }
@@ -35498,13 +35498,13 @@
     "textJson": [
       {
         "text": "～[FF0000]【超絶難易度】[-]エキシビションクエストについて～\n\n「[FF0000]【超絶難易度】[-]エキシビションクエスト」は\n超高難易度クエストを難しくした、\nコンティニュー不可、超上級者向けの[FF0000]超絶難易度[-]クエストです。\n\nクリアするには、超高難易度クエスト以上に、\n敵の行動をよく観察した上で、\n「パーティ編成」「魔術礼装」「スキル」「宝具」等\nあらゆる要素を駆使する必要があります。\n\n[FF9800]あきらめずに何度も挑戦し、攻略法を見つけ出して下さい。[-]",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": []
       }
@@ -35976,18 +35976,18 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "遠征に\n八犬士「ドウセツ」\n八犬士「コブンゴ」\nが追加されました。",
         "textPos": [
           0,
           38
         ],
-        "text": "遠征に\n八犬士「ドウセツ」\n八犬士「コブンゴ」\nが追加されました。",
-        "dlgFontSize": 30,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
+        "dlgBgId": 0,
+        "dlgFontSize": 30,
         "spacingY": 5
       }
     ],
@@ -36013,18 +36013,18 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "遠征に\n八犬士「ダイカク」\n八犬士「ゲンパチ」\nが追加されました。",
         "textPos": [
           0,
           38
         ],
-        "text": "遠征に\n八犬士「ダイカク」\n八犬士「ゲンパチ」\nが追加されました。",
-        "dlgFontSize": 30,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
+        "dlgBgId": 0,
+        "dlgFontSize": 30,
         "spacingY": 5
       }
     ],
@@ -36071,18 +36071,18 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "遠征に\n八犬士「ケノ」\nが追加されました。",
         "textPos": [
           0,
           38
         ],
-        "text": "遠征に\n八犬士「ケノ」\nが追加されました。",
-        "dlgFontSize": 30,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
+        "dlgBgId": 0,
+        "dlgFontSize": 30,
         "spacingY": 5
       }
     ],
@@ -36192,18 +36192,18 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "遠征に\n八犬士「シンベエ」\nが追加されました。",
         "textPos": [
           0,
           38
         ],
-        "text": "遠征に\n八犬士「シンベエ」\nが追加されました。",
-        "dlgFontSize": 30,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
+        "dlgBgId": 0,
+        "dlgFontSize": 30,
         "spacingY": 5
       }
     ],
@@ -36571,18 +36571,18 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "「お茶を淹れる」に\n「抹茶」\nが追加されました。",
         "textPos": [
           0,
           38
         ],
-        "text": "「お茶を淹れる」に\n「抹茶」\nが追加されました。",
-        "dlgFontSize": 30,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
+        "dlgBgId": 0,
+        "dlgFontSize": 30,
         "spacingY": 5
       }
     ],
@@ -36608,18 +36608,18 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "「お茶を淹れる」に\n「ノブ茶」\nが追加されました。",
         "textPos": [
           0,
           38
         ],
-        "text": "「お茶を淹れる」に\n「ノブ茶」\nが追加されました。",
-        "dlgFontSize": 30,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
+        "dlgBgId": 0,
+        "dlgFontSize": 30,
         "spacingY": 5
       }
     ],
@@ -36645,18 +36645,18 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "「お茶を淹れる」に\n「コーラ茶」\nが追加されました。",
         "textPos": [
           0,
           38
         ],
-        "text": "「お茶を淹れる」に\n「コーラ茶」\nが追加されました。",
-        "dlgFontSize": 30,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
+        "dlgBgId": 0,
+        "dlgFontSize": 30,
         "spacingY": 5
       }
     ],
@@ -36682,18 +36682,18 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "「お茶を淹れる」に\n「沢庵茶」\nが追加されました。",
         "textPos": [
           0,
           38
         ],
-        "text": "「お茶を淹れる」に\n「沢庵茶」\nが追加されました。",
-        "dlgFontSize": 30,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
+        "dlgBgId": 0,
+        "dlgFontSize": 30,
         "spacingY": 5
       }
     ],
@@ -36719,18 +36719,18 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "「お茶を淹れる」に\n「キュケ茶」\nが追加されました。",
         "textPos": [
           0,
           38
         ],
-        "text": "「お茶を淹れる」に\n「キュケ茶」\nが追加されました。",
-        "dlgFontSize": 30,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
+        "dlgBgId": 0,
+        "dlgFontSize": 30,
         "spacingY": 5
       }
     ],
@@ -36756,18 +36756,18 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "「お茶を淹れる」に\n「ハーゲン茶」\nが追加されました。",
         "textPos": [
           0,
           38
         ],
-        "text": "「お茶を淹れる」に\n「ハーゲン茶」\nが追加されました。",
-        "dlgFontSize": 30,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
+        "dlgBgId": 0,
+        "dlgFontSize": 30,
         "spacingY": 5
       }
     ],
@@ -36793,18 +36793,18 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "「お茶を淹れる」に\n「邪馬台茶」\nが追加されました。",
         "textPos": [
           0,
           38
         ],
-        "text": "「お茶を淹れる」に\n「邪馬台茶」\nが追加されました。",
-        "dlgFontSize": 30,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
+        "dlgBgId": 0,
+        "dlgFontSize": 30,
         "spacingY": 5
       }
     ],
@@ -36893,18 +36893,18 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "壱与の宝具中に\nBGMが流れるようになりました。",
         "textPos": [
           0,
           38
         ],
-        "text": "壱与の宝具中に\nBGMが流れるようになりました。",
-        "dlgFontSize": 30,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
+        "dlgBgId": 0,
+        "dlgFontSize": 30,
         "spacingY": 5
       }
     ],
@@ -36930,18 +36930,18 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "「お茶を淹れる」に\n「新選茶」\nが追加されました。",
         "textPos": [
           0,
           38
         ],
-        "text": "「お茶を淹れる」に\n「新選茶」\nが追加されました。",
-        "dlgFontSize": 30,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
+        "dlgBgId": 0,
+        "dlgFontSize": 30,
         "spacingY": 5
       }
     ],
@@ -37096,8 +37096,8 @@
     "imageIds": [],
     "textJson": [
       {
-        "isFortification": true,
-        "text": "チェイテ梁山泊への参加者増加により\n任命可能な宿星が増えました。"
+        "text": "チェイテ梁山泊への参加者増加により\n任命可能な宿星が増えました。",
+        "isFortification": true
       }
     ],
     "script": {},
@@ -37122,8 +37122,8 @@
     "imageIds": [],
     "textJson": [
       {
-        "isFortification": true,
-        "text": "チェイテ梁山泊への参加者増加により\n任命可能な宿星が増えました。"
+        "text": "チェイテ梁山泊への参加者増加により\n任命可能な宿星が増えました。",
+        "isFortification": true
       }
     ],
     "script": {},
@@ -37148,8 +37148,8 @@
     "imageIds": [],
     "textJson": [
       {
-        "isFortification": true,
-        "text": "チェイテ梁山泊への参加者増加により\n任命可能な宿星が増えました。"
+        "text": "チェイテ梁山泊への参加者増加により\n任命可能な宿星が増えました。",
+        "isFortification": true
       }
     ],
     "script": {},
@@ -37174,8 +37174,8 @@
     "imageIds": [],
     "textJson": [
       {
-        "isFortification": true,
-        "text": "チェイテ梁山泊への参加者増加により\n任命可能な宿星が増えました。"
+        "text": "チェイテ梁山泊への参加者増加により\n任命可能な宿星が増えました。",
+        "isFortification": true
       }
     ],
     "script": {},
@@ -37200,8 +37200,8 @@
     "imageIds": [],
     "textJson": [
       {
-        "isFortification": true,
-        "text": "チェイテ梁山泊への参加者増加により\n任命可能な宿星が増えました。"
+        "text": "チェイテ梁山泊への参加者増加により\n任命可能な宿星が増えました。",
+        "isFortification": true
       }
     ],
     "script": {},
@@ -37226,8 +37226,8 @@
     "imageIds": [],
     "textJson": [
       {
-        "isFortification": true,
-        "text": "チェイテ梁山泊への参加者増加により\n任命可能な宿星が増えました。"
+        "text": "チェイテ梁山泊への参加者増加により\n任命可能な宿星が増えました。",
+        "isFortification": true
       }
     ],
     "script": {},
@@ -37252,8 +37252,8 @@
     "imageIds": [],
     "textJson": [
       {
-        "isFortification": true,
-        "text": "チェイテ梁山泊への参加者増加により\n任命可能な宿星が増えました。"
+        "text": "チェイテ梁山泊への参加者増加により\n任命可能な宿星が増えました。",
+        "isFortification": true
       }
     ],
     "script": {},
@@ -37278,8 +37278,8 @@
     "imageIds": [],
     "textJson": [
       {
-        "isFortification": true,
-        "text": "チェイテ梁山泊への参加者増加により\n任命可能な宿星が増えました。"
+        "text": "チェイテ梁山泊への参加者増加により\n任命可能な宿星が増えました。",
+        "isFortification": true
       }
     ],
     "script": {},
@@ -37346,8 +37346,8 @@
     "imageIds": [],
     "textJson": [
       {
-        "isFortification": true,
-        "text": "チェイテ梁山泊への参加者増加により\n任命可能な宿星が増えました。"
+        "text": "チェイテ梁山泊への参加者増加により\n任命可能な宿星が増えました。",
+        "isFortification": true
       }
     ],
     "script": {},
@@ -37372,8 +37372,8 @@
     "imageIds": [],
     "textJson": [
       {
-        "isFortification": true,
-        "text": "チェイテ梁山泊への参加者増加により\n任命可能な宿星が増えました。"
+        "text": "チェイテ梁山泊への参加者増加により\n任命可能な宿星が増えました。",
+        "isFortification": true
       }
     ],
     "script": {},
@@ -37398,8 +37398,8 @@
     "imageIds": [],
     "textJson": [
       {
-        "isFortification": true,
-        "text": "チェイテ梁山泊への参加者増加により\n任命可能な宿星が増えました。"
+        "text": "チェイテ梁山泊への参加者増加により\n任命可能な宿星が増えました。",
+        "isFortification": true
       }
     ],
     "script": {},
@@ -37450,13 +37450,13 @@
     "textJson": [
       {
         "text": "～エキシビションクエストについて～\n\n「エキシビションクエスト」は\nコンティニュー不可、上級者向けの[FF0000]超高難易度クエスト[-]です。\n\nクリアするには、敵の行動をよく観察した上で、\n「パーティ編成」「魔術礼装」「スキル」「宝具」等\nあらゆる要素を駆使する必要があります。\n\n[FF9800]あきらめずに何度も挑戦し、攻略法を見つけ出して下さい。[-]",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": []
       }
@@ -39688,13 +39688,13 @@
     "textJson": [
       {
         "text": "今魔川軍を倒してもレイドゲージが残っている限り\n繰り返し復活します。\n\n画面上部にはレイドゲージが表示されており、\n倒すごとにレイドゲージが減っていきます。\nまた、他のマスターが倒した数がバトル中も随時反映されます。\n\nレイドゲージを減らしきるまで皆で今魔川軍を倒しましょう！",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": [
           {
@@ -42361,17 +42361,17 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "期間限定イベント\n「ＢＢプレゼンツ☆セレブサマー・エクスペリエンス！\n～逆襲のドバイ～」の後編となる\n「奏章Ⅲ　新霊長後継戦　\nアーキタイプ・インセプション」\nはメインシナリオ「オーディール・コール 0」\nをクリアすることで開放されます。\n\n[FFFF00]※奏章Ⅲには開放期間があり、\n開放期間終了後はプレイできなくなります。\nご注意ください。\n開放期間：2024年10月31日(木) 12:59まで[-]",
         "textPos": [
           0,
           30
         ],
-        "text": "期間限定イベント\n「ＢＢプレゼンツ☆セレブサマー・エクスペリエンス！\n～逆襲のドバイ～」の後編となる\n「奏章Ⅲ　新霊長後継戦　\nアーキタイプ・インセプション」\nはメインシナリオ「オーディール・コール 0」\nをクリアすることで開放されます。\n\n[FFFF00]※奏章Ⅲには開放期間があり、\n開放期間終了後はプレイできなくなります。\nご注意ください。\n開放期間：2024年10月31日(木) 12:59まで[-]",
-        "dlgFontSize": 24,
         "rects": [],
         "ptPos": [
           0,
           0
         ],
+        "dlgFontSize": 24,
         "spacingY": 1
       }
     ],
@@ -43848,14 +43848,14 @@
       }
     ],
     "script": {
-      "beforeActionSetup": [
-        "110",
-        "1040200"
-      ],
       "beforeActionVals": [
         "300",
         "1040200,15,1000",
         "102",
+        "1040200"
+      ],
+      "beforeActionSetup": [
+        "110",
         "1040200"
       ]
     },
@@ -44308,13 +44308,13 @@
     "textJson": [
       {
         "text": "キングサンタを撃退してもゲージが残っている限り\n繰り返し復活します。\n\n画面上部にはゲージが表示されており、\n撃退するごとにゲージが減っていきます。\nまた、他のマスターが撃退した数がバトル中も随時反映されます。\n\nゲージを減らしきるまで皆でキングサンタを倒しましょう！",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": [
           {
@@ -44351,13 +44351,13 @@
     "textJson": [
       {
         "text": "ネコ１０８を撃退してもゲージが残っている限り\n繰り返し復活します。\n\n画面上部にはゲージが表示されており、\n撃退するごとにゲージが減っていきます。\nまた、他のマスターが撃退した数がバトル中も随時反映されます。\n\nゲージを減らしきるまで皆でネコ１０８を倒しましょう！",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": [
           {
@@ -46017,15 +46017,15 @@
     "imageIds": [],
     "textJson": [],
     "script": {
-      "beforeActionSetup": [
-        "1200",
-        "2,94144706"
-      ],
       "beforeActionVals": [
         "1100",
         "80540,1,0",
         "1200",
         "1,94144706"
+      ],
+      "beforeActionSetup": [
+        "1200",
+        "2,94144706"
       ]
     },
     "eventId": 80540,
@@ -46049,25 +46049,25 @@
     "imageIds": [],
     "textJson": [
       {
-        "isSelectBonus": false,
-        "text": "テュフォンが囚われたため\nシナリオクエストのみ、テュフォンによる\n純血竜アシストが付与されなくなりました。\n\n未実行となるテュフォンの改修クエストについても\nテュフォンを奪還するまで挑戦できなくなります。\n",
-        "dlgBgId": 0,
-        "spacingY": 0,
+        "isQuestRelease": false,
         "ptPos": [
           0,
           0
         ],
-        "isFortification": false,
         "dlgFontSize": 26,
-        "isQuestRelease": false,
-        "isClassBoardRelease": false,
-        "rects": [],
-        "questId": 0,
-        "commonReleaseId": 0,
+        "isSelectBonus": false,
+        "spacingY": 0,
         "textPos": [
           0,
           36
-        ]
+        ],
+        "isFortification": false,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "text": "テュフォンが囚われたため\nシナリオクエストのみ、テュフォンによる\n純血竜アシストが付与されなくなりました。\n\n未実行となるテュフォンの改修クエストについても\nテュフォンを奪還するまで挑戦できなくなります。\n",
+        "rects": [],
+        "commonReleaseId": 0,
+        "dlgBgId": 0
       }
     ],
     "script": {},
@@ -46092,25 +46092,25 @@
     "imageIds": [],
     "textJson": [
       {
-        "isSelectBonus": false,
-        "text": "テュフォンの機能が停止したため\nシナリオクエストのみ、テュフォンによる\n純血竜アシストが付与されなくなりました。\n\n未実行となるテュフォンの改修クエストについても\n挑戦できなくなります。\n",
-        "dlgBgId": 0,
-        "spacingY": 0,
+        "isQuestRelease": false,
         "ptPos": [
           0,
           0
         ],
-        "isFortification": false,
         "dlgFontSize": 26,
-        "isQuestRelease": false,
-        "isClassBoardRelease": false,
-        "rects": [],
-        "questId": 0,
-        "commonReleaseId": 0,
+        "isSelectBonus": false,
+        "spacingY": 0,
         "textPos": [
           0,
           36
-        ]
+        ],
+        "isFortification": false,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "text": "テュフォンの機能が停止したため\nシナリオクエストのみ、テュフォンによる\n純血竜アシストが付与されなくなりました。\n\n未実行となるテュフォンの改修クエストについても\n挑戦できなくなります。\n",
+        "rects": [],
+        "commonReleaseId": 0,
+        "dlgBgId": 0
       }
     ],
     "script": {},
@@ -46135,26 +46135,26 @@
     "imageIds": [],
     "textJson": [
       {
-        "isSelectBonus": false,
-        "text": "改修ショップで行った追加改修を\nリセットできるようになりました。\n\nまた、エピローグクリア後に追加された\nオーバーブースト改修も自由にリセットできます。\n※シナリオで行った改修はリセットできません。\n\n各リセットを行うと消費した\nスーパーボルトが返還されます。\n",
-        "dlgBgId": 0,
-        "spacingY": 0,
+        "isQuestRelease": false,
         "ptPos": [
           0,
           0
         ],
-        "isFortification": false,
-        "dlgFontSize": 24,
-        "isQuestRelease": false,
-        "isClassBoardRelease": false,
-        "rects": [],
-        "questId": 0,
-        "commonReleaseId": 0,
         "title": "テュフォン改修リセット機能開放",
+        "dlgFontSize": 24,
+        "isSelectBonus": false,
+        "spacingY": 0,
         "textPos": [
           0,
           13
-        ]
+        ],
+        "isFortification": false,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "text": "改修ショップで行った追加改修を\nリセットできるようになりました。\n\nまた、エピローグクリア後に追加された\nオーバーブースト改修も自由にリセットできます。\n※シナリオで行った改修はリセットできません。\n\n各リセットを行うと消費した\nスーパーボルトが返還されます。\n",
+        "rects": [],
+        "commonReleaseId": 0,
+        "dlgBgId": 0
       }
     ],
     "script": {},
@@ -46202,25 +46202,25 @@
     "imageIds": [],
     "textJson": [
       {
-        "isSelectBonus": false,
-        "text": "改修ショップで行える改修可能な数が\n[FFFF00]2回[-]追加されました。\n",
-        "dlgBgId": 0,
-        "spacingY": 0,
+        "isQuestRelease": false,
         "ptPos": [
           0,
           0
         ],
-        "isFortification": false,
         "dlgFontSize": 26,
-        "isQuestRelease": false,
-        "isClassBoardRelease": false,
-        "rects": [],
-        "questId": 0,
-        "commonReleaseId": 0,
+        "isSelectBonus": false,
+        "spacingY": 0,
         "textPos": [
           0,
           28
-        ]
+        ],
+        "isFortification": false,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "text": "改修ショップで行える改修可能な数が\n[FFFF00]2回[-]追加されました。\n",
+        "rects": [],
+        "commonReleaseId": 0,
+        "dlgBgId": 0
       }
     ],
     "script": {},
@@ -46268,25 +46268,25 @@
     "imageIds": [],
     "textJson": [
       {
-        "isSelectBonus": false,
-        "text": "～ 注意 ～\n\nいずれかのテュフォンの改修クエストを\nクリアすると、次に開放されるメインクエストを\nクリアするまでの間、一時的に\n他の改修クエストに挑戦できなくなります。\n",
-        "dlgBgId": 0,
-        "spacingY": 0,
+        "isQuestRelease": false,
         "ptPos": [
           0,
           0
         ],
-        "isFortification": false,
         "dlgFontSize": 26,
-        "isQuestRelease": false,
-        "isClassBoardRelease": false,
-        "rects": [],
-        "questId": 0,
-        "commonReleaseId": 0,
+        "isSelectBonus": false,
+        "spacingY": 0,
         "textPos": [
           0,
           36
-        ]
+        ],
+        "isFortification": false,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "text": "～ 注意 ～\n\nいずれかのテュフォンの改修クエストを\nクリアすると、次に開放されるメインクエストを\nクリアするまでの間、一時的に\n他の改修クエストに挑戦できなくなります。\n",
+        "rects": [],
+        "commonReleaseId": 0,
+        "dlgBgId": 0
       }
     ],
     "script": {},
@@ -46311,25 +46311,25 @@
     "imageIds": [],
     "textJson": [
       {
-        "isSelectBonus": false,
-        "text": "～ 注意 ～\n\nいずれかのテュフォンの改修クエストを\nクリアすると、次に開放されるメインクエストを\nクリアするまでの間、一時的に\n他の改修クエストに挑戦できなくなります。\n",
-        "dlgBgId": 0,
-        "spacingY": 0,
+        "isQuestRelease": false,
         "ptPos": [
           0,
           0
         ],
-        "isFortification": false,
         "dlgFontSize": 26,
-        "isQuestRelease": false,
-        "isClassBoardRelease": false,
-        "rects": [],
-        "questId": 0,
-        "commonReleaseId": 0,
+        "isSelectBonus": false,
+        "spacingY": 0,
         "textPos": [
           0,
           36
-        ]
+        ],
+        "isFortification": false,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "text": "～ 注意 ～\n\nいずれかのテュフォンの改修クエストを\nクリアすると、次に開放されるメインクエストを\nクリアするまでの間、一時的に\n他の改修クエストに挑戦できなくなります。\n",
+        "rects": [],
+        "commonReleaseId": 0,
+        "dlgBgId": 0
       }
     ],
     "script": {},
@@ -46354,26 +46354,26 @@
     "imageIds": [],
     "textJson": [
       {
-        "isSelectBonus": false,
-        "text": "純血竜アシスト「主砲支援」が強化されました。\n\n＜強化前＞\n味方全体<控え含む>の宝具威力をアップ\n↓\n＜強化後＞\n味方全体<控え含む>の宝具威力をアップ ＋ \n味方全体<控え含む>の宝具威力をアップ[FFFF00]▲[-]\n",
-        "dlgBgId": 0,
-        "spacingY": 0,
+        "isQuestRelease": false,
         "ptPos": [
           0,
           0
         ],
-        "isFortification": false,
-        "dlgFontSize": 24,
-        "isQuestRelease": false,
-        "isClassBoardRelease": false,
-        "rects": [],
-        "questId": 0,
-        "commonReleaseId": 0,
         "title": "オーバーブースト完了",
+        "dlgFontSize": 24,
+        "isSelectBonus": false,
+        "spacingY": 0,
         "textPos": [
           0,
           13
-        ]
+        ],
+        "isFortification": false,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "text": "純血竜アシスト「主砲支援」が強化されました。\n\n＜強化前＞\n味方全体<控え含む>の宝具威力をアップ\n↓\n＜強化後＞\n味方全体<控え含む>の宝具威力をアップ ＋ \n味方全体<控え含む>の宝具威力をアップ[FFFF00]▲[-]\n",
+        "rects": [],
+        "commonReleaseId": 0,
+        "dlgBgId": 0
       }
     ],
     "script": {},
@@ -46398,26 +46398,26 @@
     "imageIds": [],
     "textJson": [
       {
-        "isSelectBonus": false,
-        "text": "純血竜アシスト「副砲支援」が強化されました。\n\n＜強化前＞\n味方全体<控え含む>のクリティカル威力をアップ\n↓\n＜強化後＞\n味方全体<控え含む>のクリティカル威力をアップ ＋ \n味方全体<控え含む>のクリティカル威力をアップ[FFFF00]▲[-]\n",
-        "dlgBgId": 0,
-        "spacingY": 0,
+        "isQuestRelease": false,
         "ptPos": [
           0,
           0
         ],
-        "isFortification": false,
-        "dlgFontSize": 24,
-        "isQuestRelease": false,
-        "isClassBoardRelease": false,
-        "rects": [],
-        "questId": 0,
-        "commonReleaseId": 0,
         "title": "オーバーブースト完了",
+        "dlgFontSize": 24,
+        "isSelectBonus": false,
+        "spacingY": 0,
         "textPos": [
           0,
           13
-        ]
+        ],
+        "isFortification": false,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "text": "純血竜アシスト「副砲支援」が強化されました。\n\n＜強化前＞\n味方全体<控え含む>のクリティカル威力をアップ\n↓\n＜強化後＞\n味方全体<控え含む>のクリティカル威力をアップ ＋ \n味方全体<控え含む>のクリティカル威力をアップ[FFFF00]▲[-]\n",
+        "rects": [],
+        "commonReleaseId": 0,
+        "dlgBgId": 0
       }
     ],
     "script": {},
@@ -46442,26 +46442,26 @@
     "imageIds": [],
     "textJson": [
       {
-        "isSelectBonus": false,
-        "text": "純血竜アシスト「ドラゴニックフィールド」が強化されました。\n\n＜強化前＞\n味方全体<控え含む>の防御力をアップ\n↓\n＜強化後＞\n味方全体<控え含む>の防御力をアップ ＋ \n味方全体<控え含む>に被ダメージを\n1000カットする状態を付与[FFFF00]▲[-]\n",
-        "dlgBgId": 0,
-        "spacingY": 0,
+        "isQuestRelease": false,
         "ptPos": [
           0,
           0
         ],
-        "isFortification": false,
-        "dlgFontSize": 24,
-        "isQuestRelease": false,
-        "isClassBoardRelease": false,
-        "rects": [],
-        "questId": 0,
-        "commonReleaseId": 0,
         "title": "オーバーブースト完了",
+        "dlgFontSize": 24,
+        "isSelectBonus": false,
+        "spacingY": 0,
         "textPos": [
           0,
           13
-        ]
+        ],
+        "isFortification": false,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "text": "純血竜アシスト「ドラゴニックフィールド」が強化されました。\n\n＜強化前＞\n味方全体<控え含む>の防御力をアップ\n↓\n＜強化後＞\n味方全体<控え含む>の防御力をアップ ＋ \n味方全体<控え含む>に被ダメージを\n1000カットする状態を付与[FFFF00]▲[-]\n",
+        "rects": [],
+        "commonReleaseId": 0,
+        "dlgBgId": 0
       }
     ],
     "script": {},
@@ -46486,26 +46486,26 @@
     "imageIds": [],
     "textJson": [
       {
-        "isSelectBonus": false,
-        "text": "純血竜アシスト「コスモスラスター」が強化されました。\n\n＜強化前＞\n味方全体<控え含む>に回避状態を付与\n↓\n＜強化後＞\n味方全体<控え含む>に回避状態を付与 ＋ \n味方全体<控え含む>に毎ターン\nスター5個獲得状態を付与[FFFF00]▲[-]\n",
-        "dlgBgId": 0,
-        "spacingY": 0,
+        "isQuestRelease": false,
         "ptPos": [
           0,
           0
         ],
-        "isFortification": false,
-        "dlgFontSize": 24,
-        "isQuestRelease": false,
-        "isClassBoardRelease": false,
-        "rects": [],
-        "questId": 0,
-        "commonReleaseId": 0,
         "title": "オーバーブースト完了",
+        "dlgFontSize": 24,
+        "isSelectBonus": false,
+        "spacingY": 0,
         "textPos": [
           0,
           13
-        ]
+        ],
+        "isFortification": false,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "text": "純血竜アシスト「コスモスラスター」が強化されました。\n\n＜強化前＞\n味方全体<控え含む>に回避状態を付与\n↓\n＜強化後＞\n味方全体<控え含む>に回避状態を付与 ＋ \n味方全体<控え含む>に毎ターン\nスター5個獲得状態を付与[FFFF00]▲[-]\n",
+        "rects": [],
+        "commonReleaseId": 0,
+        "dlgBgId": 0
       }
     ],
     "script": {},
@@ -46530,26 +46530,26 @@
     "imageIds": [],
     "textJson": [
       {
-        "isSelectBonus": false,
-        "text": "純血竜アシスト「自己修復」が強化されました。\n\n＜強化前＞\n味方全体<控え含む>に毎ターンHP回復状態を付与\n＆ガッツ状態を付与\n↓\n＜強化後＞\n味方全体<控え含む>に毎ターンHP回復状態を付与\n＆ガッツ状態を付与 ＋ \n味方全体<控え含む>に毎ターンNP10%獲得状態を付与[FFFF00]▲[-]\n",
-        "dlgBgId": 0,
-        "spacingY": 0,
+        "isQuestRelease": false,
         "ptPos": [
           0,
           0
         ],
-        "isFortification": false,
-        "dlgFontSize": 24,
-        "isQuestRelease": false,
-        "isClassBoardRelease": false,
-        "rects": [],
-        "questId": 0,
-        "commonReleaseId": 0,
         "title": "オーバーブースト完了",
+        "dlgFontSize": 24,
+        "isSelectBonus": false,
+        "spacingY": 0,
         "textPos": [
           0,
           13
-        ]
+        ],
+        "isFortification": false,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "text": "純血竜アシスト「自己修復」が強化されました。\n\n＜強化前＞\n味方全体<控え含む>に毎ターンHP回復状態を付与\n＆ガッツ状態を付与\n↓\n＜強化後＞\n味方全体<控え含む>に毎ターンHP回復状態を付与\n＆ガッツ状態を付与 ＋ \n味方全体<控え含む>に毎ターンNP10%獲得状態を付与[FFFF00]▲[-]\n",
+        "rects": [],
+        "commonReleaseId": 0,
+        "dlgBgId": 0
       }
     ],
     "script": {},
@@ -46574,26 +46574,26 @@
     "imageIds": [],
     "textJson": [
       {
-        "isSelectBonus": false,
-        "text": "一部の純血竜アシストの機能を更に強化できる\nオーバーブースト改修クエストが開放されました。\n\n※オーバーブースト改修クエストにシナリオはありません。\n",
-        "dlgBgId": 0,
-        "spacingY": 0,
+        "isQuestRelease": false,
         "ptPos": [
           0,
           0
         ],
-        "isFortification": false,
-        "dlgFontSize": 24,
-        "isQuestRelease": false,
-        "isClassBoardRelease": false,
-        "rects": [],
-        "questId": 0,
-        "commonReleaseId": 0,
         "title": "オーバーブースト改修開放",
+        "dlgFontSize": 24,
+        "isSelectBonus": false,
+        "spacingY": 0,
         "textPos": [
           0,
           13
-        ]
+        ],
+        "isFortification": false,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "text": "一部の純血竜アシストの機能を更に強化できる\nオーバーブースト改修クエストが開放されました。\n\n※オーバーブースト改修クエストにシナリオはありません。\n",
+        "rects": [],
+        "commonReleaseId": 0,
+        "dlgBgId": 0
       }
     ],
     "script": {},
@@ -47060,13 +47060,13 @@
     "textJson": [
       {
         "text": "ノアズ・アークを撃退してもゲージが残っている限り\n繰り返し復活します。\n\n画面上部にはゲージが表示されており、\n撃退するごとにゲージが減っていきます。\nまた、他のマスターが撃退した数がバトル中も随時反映されます。\n\nゲージを減らしきるまで皆でノアズ・アークを倒しましょう！",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": [
           {
@@ -48142,28 +48142,6 @@
     "imageIds": [],
     "textJson": [],
     "script": {
-      "beforeActionSetup": [
-        "1300",
-        "8059301,1",
-        "1312",
-        "0,0,1,1",
-        "110",
-        "40712",
-        "110",
-        "40713",
-        "110",
-        "40714",
-        "110",
-        "40715",
-        "110",
-        "40716",
-        "110",
-        "40717",
-        "110",
-        "40718",
-        "305",
-        "40720,15,0,1,1"
-      ],
       "afterActionVals": [
         "510",
         "40728",
@@ -48221,6 +48199,28 @@
         "8059301,1",
         "1311",
         "0,0,1,1"
+      ],
+      "beforeActionSetup": [
+        "1300",
+        "8059301,1",
+        "1312",
+        "0,0,1,1",
+        "110",
+        "40712",
+        "110",
+        "40713",
+        "110",
+        "40714",
+        "110",
+        "40715",
+        "110",
+        "40716",
+        "110",
+        "40717",
+        "110",
+        "40718",
+        "305",
+        "40720,15,0,1,1"
       ]
     },
     "eventId": 80593,
@@ -48244,17 +48244,17 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "「第2部 終章」レイドバトル\n支柱七樹戦\n\n2025/12/23(火)18:00 開戦",
         "textPos": [
           0,
           30
         ],
-        "text": "「第2部 終章」レイドバトル\n支柱七樹戦\n\n2025/12/23(火)18:00 開戦",
-        "dlgFontSize": 30,
         "rects": [],
         "ptPos": [
           0,
           0
         ],
+        "dlgFontSize": 30,
         "spacingY": 2
       }
     ],
@@ -48388,13 +48388,13 @@
     "textJson": [
       {
         "text": "空想樹を撃破してもゲージが残っている限り\n繰り返し復活します。\n\n画面上部にはゲージが表示されており、\n撃破するごとにゲージが減っていきます。\nまた、他のマスターが撃破した数がバトル中も随時反映されます。\n\nゲージを減らしきるまで皆で空想樹を倒しましょう！",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": [
           {
@@ -48461,18 +48461,18 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "本クエストでは\n編成コスト上限が無制限となります。",
+        "title": "編成コスト無制限",
         "textPos": [
           0,
           30
         ],
-        "text": "本クエストでは\n編成コスト上限が無制限となります。",
-        "dlgFontSize": 30,
         "rects": [],
-        "title": "編成コスト無制限",
         "ptPos": [
           0,
           0
-        ]
+        ],
+        "dlgFontSize": 30
       }
     ],
     "script": {},
@@ -48496,18 +48496,18 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "本クエストでは\n編成コスト上限が無制限となります。",
+        "title": "編成コスト無制限",
         "textPos": [
           0,
           30
         ],
-        "text": "本クエストでは\n編成コスト上限が無制限となります。",
-        "dlgFontSize": 30,
         "rects": [],
-        "title": "編成コスト無制限",
         "ptPos": [
           0,
           0
-        ]
+        ],
+        "dlgFontSize": 30
       }
     ],
     "script": {},
@@ -49568,13 +49568,13 @@
     "textJson": [
       {
         "text": "女神アーテーを撃退してもゲージが残っている限り\n繰り返し復活します。\n\n画面上部にはゲージが表示されており、\n撃退するごとにゲージが減っていきます。\nまた、他のマスターが撃退した数がバトル中も随時反映されます。\n\nゲージを減らしきるまで皆で女神アーテーを倒しましょう！",
-        "textPos": [
-          0,
-          24
-        ],
         "ptPos": [
           0,
           0
+        ],
+        "textPos": [
+          0,
+          24
         ],
         "rects": [
           {
@@ -49661,11 +49661,11 @@
     "textJson": [
       {
         "text": "奉納ポイント報酬を受け取ることで、\n新たなシナリオクエストが開放されます。\n\nイベント報酬画面に行って\n奉納ポイント報酬を受け取りましょう！",
-        "textPos": [
+        "ptPos": [
           0,
           0
         ],
-        "ptPos": [
+        "textPos": [
           0,
           0
         ],
@@ -49695,11 +49695,11 @@
     "textJson": [
       {
         "text": "奉納ポイント報酬を受け取ることで、\n新たなシナリオクエストが開放されます。\n\nイベント報酬画面に行って\n奉納ポイント報酬を受け取りましょう！",
-        "textPos": [
+        "ptPos": [
           0,
           0
         ],
-        "ptPos": [
+        "textPos": [
           0,
           0
         ],
@@ -49729,11 +49729,11 @@
     "textJson": [
       {
         "text": "奉納ポイント報酬を受け取ることで、\n新たなシナリオクエストが開放されます。\n\nイベント報酬画面に行って\n奉納ポイント報酬を受け取りましょう！",
-        "textPos": [
+        "ptPos": [
           0,
           0
         ],
-        "ptPos": [
+        "textPos": [
           0,
           0
         ],
@@ -50314,24 +50314,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "フリークエスト全開放\n\n全てのフリークエストが開放されました。\nこれまでのシナリオ中に選ばなかった\n職業体験施設のフリークエストにも挑戦ができ、\nクリアすることで職業レベルを上げることができます。\n\n[FFFF00]※選ばなかった職業の職業体験クエストは\nシナリオクリア後に開放されます。[-]\n\n",
         "textPos": [
           0,
           13
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "フリークエスト全開放\n\n全てのフリークエストが開放されました。\nこれまでのシナリオ中に選ばなかった\n職業体験施設のフリークエストにも挑戦ができ、\nクリアすることで職業レベルを上げることができます。\n\n[FFFF00]※選ばなかった職業の職業体験クエストは\nシナリオクリア後に開放されます。[-]\n\n",
-        "dlgFontSize": 26,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 26,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -50425,24 +50425,24 @@
     "imageIds": [],
     "textJson": [
       {
-        "isClassBoardRelease": false,
+        "text": "\n職業体験クエストとフリークエストのバトルで\n「グレイ・リリィ(セイバー)」\n「グレイ・リリィ(ランサー)」\nが力を貸してくれるようになったよ！\n\nクラスごとに能力が異なるので\n力を借りてみてどんな能力か確認しよう！\n\n[FFFF00]※力を貸してくれるのは\nメインクエスト第9節クリア前までなので注意！[-]\n",
         "textPos": [
           0,
           13
         ],
-        "isFortification": false,
-        "isSelectBonus": false,
-        "text": "\n職業体験クエストとフリークエストのバトルで\n「グレイ・リリィ(セイバー)」\n「グレイ・リリィ(ランサー)」\nが力を貸してくれるようになったよ！\n\nクラスごとに能力が異なるので\n力を借りてみてどんな能力か確認しよう！\n\n[FFFF00]※力を貸してくれるのは\nメインクエスト第9節クリア前までなので注意！[-]\n",
-        "dlgFontSize": 26,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
-        "questId": 0,
         "isQuestRelease": false,
-        "spacingY": 0
+        "isFortification": false,
+        "dlgBgId": 0,
+        "dlgFontSize": 26,
+        "spacingY": 0,
+        "isClassBoardRelease": false,
+        "questId": 0,
+        "isSelectBonus": false
       }
     ],
     "script": {},
@@ -50882,18 +50882,18 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "\n海の家で作ることができる料理のレシピに\n「ドクロアンダギー」\nが追加されました。",
         "textPos": [
           0,
           38
         ],
-        "text": "\n海の家で作ることができる料理のレシピに\n「ドクロアンダギー」\nが追加されました。",
-        "dlgFontSize": 30,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
+        "dlgBgId": 0,
+        "dlgFontSize": 30,
         "spacingY": 5
       }
     ],
@@ -50919,18 +50919,18 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "\n海の家で作ることができる料理のレシピに\n「オニオニソーキそば」\nが追加されました。",
         "textPos": [
           0,
           38
         ],
-        "text": "\n海の家で作ることができる料理のレシピに\n「オニオニソーキそば」\nが追加されました。",
-        "dlgFontSize": 30,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
+        "dlgBgId": 0,
+        "dlgFontSize": 30,
         "spacingY": 5
       }
     ],
@@ -50956,18 +50956,18 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "\n海の家で作ることができる料理のレシピに\n「ちまみれポテト」\nが追加されました。",
         "textPos": [
           0,
           38
         ],
-        "text": "\n海の家で作ることができる料理のレシピに\n「ちまみれポテト」\nが追加されました。",
-        "dlgFontSize": 30,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
+        "dlgBgId": 0,
+        "dlgFontSize": 30,
         "spacingY": 5
       }
     ],
@@ -50993,18 +50993,18 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "\n海の家で作ることができる料理のレシピに\n「九尾てんぷらー」\nが追加されました。",
         "textPos": [
           0,
           38
         ],
-        "text": "\n海の家で作ることができる料理のレシピに\n「九尾てんぷらー」\nが追加されました。",
-        "dlgFontSize": 30,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
+        "dlgBgId": 0,
+        "dlgFontSize": 30,
         "spacingY": 5
       }
     ],
@@ -51030,18 +51030,18 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "\n海の家で作ることができる料理のレシピに\n「深淵タコライス」\nが追加されました。",
         "textPos": [
           0,
           38
         ],
-        "text": "\n海の家で作ることができる料理のレシピに\n「深淵タコライス」\nが追加されました。",
-        "dlgFontSize": 30,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
+        "dlgBgId": 0,
+        "dlgFontSize": 30,
         "spacingY": 5
       }
     ],
@@ -51067,18 +51067,18 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "\n海の家で作ることができる料理のレシピに\n「鐘楼ヒージャー汁」\nが追加されました。",
         "textPos": [
           0,
           38
         ],
-        "text": "\n海の家で作ることができる料理のレシピに\n「鐘楼ヒージャー汁」\nが追加されました。",
-        "dlgFontSize": 30,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
+        "dlgBgId": 0,
+        "dlgFontSize": 30,
         "spacingY": 5
       }
     ],
@@ -51104,18 +51104,18 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "\n海の家で作ることができる料理のレシピに\n「城壁ラフテー」\nが追加されました。",
         "textPos": [
           0,
           38
         ],
-        "text": "\n海の家で作ることができる料理のレシピに\n「城壁ラフテー」\nが追加されました。",
-        "dlgFontSize": 30,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
+        "dlgBgId": 0,
+        "dlgFontSize": 30,
         "spacingY": 5
       }
     ],
@@ -51141,18 +51141,18 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "\n海の家で作ることができる料理のレシピに\n「底なし沼カレー」\nが追加されました。",
         "textPos": [
           0,
           38
         ],
-        "text": "\n海の家で作ることができる料理のレシピに\n「底なし沼カレー」\nが追加されました。",
-        "dlgFontSize": 30,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
+        "dlgBgId": 0,
+        "dlgFontSize": 30,
         "spacingY": 5
       }
     ],
@@ -51178,18 +51178,18 @@
     "imageIds": [],
     "textJson": [
       {
+        "text": "\n海の家で作ることができる料理のレシピに\n「目玉ぜんざい」\nが追加されました。",
         "textPos": [
           0,
           38
         ],
-        "text": "\n海の家で作ることができる料理のレシピに\n「目玉ぜんざい」\nが追加されました。",
-        "dlgFontSize": 30,
         "rects": [],
-        "dlgBgId": 0,
         "ptPos": [
           0,
           0
         ],
+        "dlgBgId": 0,
+        "dlgFontSize": 30,
         "spacingY": 5
       }
     ],
