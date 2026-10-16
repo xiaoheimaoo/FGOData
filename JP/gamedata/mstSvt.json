@@ -956,7 +956,8 @@
   {
     "relateQuestIds": [
       94052293,
-      94078401
+      94078401,
+      94163100
     ],
     "individuality": [
       5000,
@@ -7496,9 +7497,9 @@
       2
     ],
     "script": {
+      "cameraActionId": 400,
       "coinRoomCheck": 1,
-      "HideInAnimNode": "en_body",
-      "cameraActionId": 400
+      "HideInAnimNode": "en_body"
     },
     "id": 204100,
     "baseSvtId": 204100,
@@ -8118,12 +8119,12 @@
       2
     ],
     "script": {
-      "HideInAnimNode": "en_body",
+      "supportLimitCountToDispLimitCount": 1,
       "cameraActionId": 574,
+      "HideInAnimNode": "en_body",
       "assumedEffectId": [
         2050001
-      ],
-      "supportLimitCountToDispLimitCount": 1
+      ]
     },
     "id": 205000,
     "baseSvtId": 205000,
@@ -11785,9 +11786,9 @@
       2
     ],
     "script": {
-      "HideInAnimNode": "en_body",
+      "supportLimitCountToDispLimitCount": 1,
       "cameraActionId": 444,
-      "supportLimitCountToDispLimitCount": 1
+      "HideInAnimNode": "en_body"
     },
     "id": 304800,
     "baseSvtId": 304800,
@@ -11849,9 +11850,9 @@
       2
     ],
     "script": {
+      "cameraActionId": 467,
       "coinRoomCheck": 1,
-      "HideInAnimNode": "en_body",
-      "cameraActionId": 467
+      "HideInAnimNode": "en_body"
     },
     "id": 304900,
     "baseSvtId": 304900,
@@ -12816,9 +12817,9 @@
       2
     ],
     "script": {
-      "isRegistFirstGetTime": 1,
+      "supportLimitCountToDispLimitCount": 1,
       "cameraActionId": 687,
-      "supportLimitCountToDispLimitCount": 1
+      "isRegistFirstGetTime": 1
     },
     "id": 306200,
     "baseSvtId": 306200,
@@ -20972,9 +20973,6 @@
     ],
     "script": {
       "cameraActionId": 650,
-      "assumedEffectId": [
-        5056001
-      ],
       "transformInfo": {
         "saveTransform": 505700,
         "saveTransformDefault": 505600,
@@ -20983,7 +20981,10 @@
         "condLabelTitle": "フランソワ・プレラーティ時",
         "isNotSkillChange": 1,
         "isNotProfileParameterChange": 1
-      }
+      },
+      "assumedEffectId": [
+        5056001
+      ]
     },
     "id": 505600,
     "baseSvtId": 505600,
@@ -21053,9 +21054,6 @@
     ],
     "script": {
       "cameraActionId": 651,
-      "assumedEffectId": [
-        5056001
-      ],
       "transformInfo": {
         "saveTransform": 505600,
         "saveTransformDefault": 505600,
@@ -21064,7 +21062,10 @@
         "condLabelTitle": "フランチェスカ・プレラーティ時",
         "isNotSkillChange": 1,
         "isNotProfileParameterChange": 1
-      }
+      },
+      "assumedEffectId": [
+        5056001
+      ]
     },
     "id": 505700,
     "baseSvtId": 505700,
@@ -21620,11 +21621,11 @@
       2
     ],
     "script": {
-      "HideInAnimNode": "en_body",
       "cameraActionId": 556,
       "assumedEffectId": [
         6007001
-      ]
+      ],
+      "HideInAnimNode": "en_body"
     },
     "id": 600700,
     "baseSvtId": 600700,
@@ -28805,11 +28806,6 @@
     ],
     "script": {
       "SkillRankUp": "[[2476450],[2550,2477450],[133550]]",
-      "lvLimitUpCondMaterial": [
-        90,
-        3001009,
-        1
-      ],
       "cameraActionId": 287,
       "costumeCondInMaxLimitCount": [
         17,
@@ -28822,7 +28818,12 @@
         3000124,
         3
       ],
-      "supportLimitCountToDispLimitCount": 1
+      "supportLimitCountToDispLimitCount": 1,
+      "lvLimitUpCondMaterial": [
+        90,
+        3001009,
+        1
+      ]
     },
     "id": 800100,
     "baseSvtId": 800100,
@@ -28886,11 +28887,6 @@
     ],
     "script": {
       "SkillRankUp": "[[2476450],[2550,2477450],[133550]]",
-      "lvLimitUpCondMaterial": [
-        90,
-        3001009,
-        1
-      ],
       "cameraActionId": 287,
       "costumeCondInMaxLimitCount": [
         17,
@@ -28903,7 +28899,12 @@
         3000124,
         3
       ],
-      "supportLimitCountToDispLimitCount": 1
+      "supportLimitCountToDispLimitCount": 1,
+      "lvLimitUpCondMaterial": [
+        90,
+        3001009,
+        1
+      ]
     },
     "id": 800101,
     "baseSvtId": 800101,
@@ -28967,11 +28968,6 @@
     ],
     "script": {
       "SkillRankUp": "[[2476450],[2550,2477450],[133550]]",
-      "lvLimitUpCondMaterial": [
-        90,
-        3001009,
-        1
-      ],
       "cameraActionId": 287,
       "costumeCondInMaxLimitCount": [
         17,
@@ -28984,7 +28980,12 @@
         3000124,
         3
       ],
-      "supportLimitCountToDispLimitCount": 1
+      "supportLimitCountToDispLimitCount": 1,
+      "lvLimitUpCondMaterial": [
+        90,
+        3001009,
+        1
+      ]
     },
     "id": 800102,
     "baseSvtId": 800102,
@@ -30568,9 +30569,9 @@
       2
     ],
     "script": {
-      "isRegistFirstGetTime": 1,
       "cameraActionId": 647,
-      "limitCountUpResultServantLimitCount": 1
+      "limitCountUpResultServantLimitCount": 1,
+      "isRegistFirstGetTime": 1
     },
     "id": 901900,
     "baseSvtId": 901900,
@@ -31281,9 +31282,9 @@
       2
     ],
     "script": {
-      "HideInAnimNode": "en_body",
       "cameraActionId": 330,
-      "battleHeight": 6000
+      "battleHeight": 6000,
+      "HideInAnimNode": "en_body"
     },
     "id": 1000900,
     "baseSvtId": 1000900,
@@ -31431,8 +31432,8 @@
     ],
     "script": {
       "svtBuffTurnExtend": 1,
-      "HideInAnimNode": "en_Head",
-      "cameraActionId": 479
+      "cameraActionId": 479,
+      "HideInAnimNode": "en_Head"
     },
     "id": 1001100,
     "baseSvtId": 1001100,
@@ -34013,12 +34014,12 @@
       2
     ],
     "script": {
-      "voiceEffect": 1,
       "cameraActionId": 1024,
+      "battleHeight": 10000,
+      "voiceEffect": 1,
       "assumedEffectId": [
         4001031
-      ],
-      "battleHeight": 10000
+      ]
     },
     "id": 1102300,
     "baseSvtId": 1102300,
@@ -34577,14 +34578,14 @@
           50
         ]
       },
-      "HideInAnimNode": "en_body",
-      "cameraActionId": 611,
-      "assumedEffectId": [
-        23006001
-      ],
       "tdSeqUnitCond": [
         40153902,
         40153901
+      ],
+      "cameraActionId": 611,
+      "HideInAnimNode": "en_body",
+      "assumedEffectId": [
+        23006001
       ]
     },
     "id": 2300600,
@@ -34996,8 +34997,8 @@
       2
     ],
     "script": {
-      "voiceEffect": 1,
       "cameraActionId": 1026,
+      "voiceEffect": 1,
       "battleHeight": 10000
     },
     "id": 2301200,
@@ -37641,9 +37642,9 @@
       2
     ],
     "script": {
-      "HideInAnimNode": "en_body",
+      "supportLimitCountToDispLimitCount": 1,
       "cameraActionId": 665,
-      "supportLimitCountToDispLimitCount": 1
+      "HideInAnimNode": "en_body"
     },
     "id": 4000100,
     "baseSvtId": 4000100,
@@ -190265,9 +190266,9 @@
       2
     ],
     "script": {
-      "HideInAnimNode": "en_Head",
       "cameraActionId": 330,
-      "battleHeight": 6000
+      "battleHeight": 6000,
+      "HideInAnimNode": "en_Head"
     },
     "id": 9941810,
     "baseSvtId": 9941810,
@@ -212148,14 +212149,14 @@
       3
     ],
     "script": {
-      "AddWeakCardIds": [
-        21,
-        22
-      ],
-      "cameraActionId": 994,
       "AddWeakCardWeights": [
         0,
         0
+      ],
+      "cameraActionId": 994,
+      "AddWeakCardIds": [
+        21,
+        22
       ]
     },
     "id": 9945620,
@@ -219471,14 +219472,14 @@
       3
     ],
     "script": {
-      "AddWeakCardIds": [
-        21,
-        22
-      ],
-      "cameraActionId": 2106,
       "AddWeakCardWeights": [
         0,
         0
+      ],
+      "cameraActionId": 2106,
+      "AddWeakCardIds": [
+        21,
+        22
       ]
     },
     "id": 9946800,
@@ -226221,11 +226222,11 @@
       2
     ],
     "script": {
-      "HideInAnimNode": "en_body",
       "cameraActionId": 2222,
       "assumedEffectId": [
         6007001
-      ]
+      ],
+      "HideInAnimNode": "en_body"
     },
     "id": 9948180,
     "baseSvtId": 9948180,

@@ -1207,9 +1207,9 @@
       10844
     ],
     "script": {
+      "battleAppearEffectId": 4001008,
       "battleAppearItemWait": 100,
-      "battleGetEffectId": 4001009,
-      "battleAppearEffectId": 4001008
+      "battleGetEffectId": 4001009
     },
     "eventId": 0,
     "eventGroupId": 0,
@@ -30652,8 +30652,8 @@
       10523
     ],
     "script": {
-      "event_item_board_description": "1~6の目が出るごく普通のダイス。",
-      "diceType": 1
+      "diceType": 1,
+      "event_item_board_description": "1~6の目が出るごく普通のダイス。"
     },
     "eventId": 0,
     "eventGroupId": 0,
@@ -30681,8 +30681,8 @@
       10524
     ],
     "script": {
-      "event_item_board_description": "1、2、3の目しか出ない特殊なダイス。",
-      "diceType": 2
+      "diceType": 2,
+      "event_item_board_description": "1、2、3の目しか出ない特殊なダイス。"
     },
     "eventId": 0,
     "eventGroupId": 0,
@@ -30710,8 +30710,8 @@
       10525
     ],
     "script": {
-      "event_item_board_description": "4、5、6の目しか出ない特殊なダイス。",
-      "diceType": 3
+      "diceType": 3,
+      "event_item_board_description": "4、5、6の目しか出ない特殊なダイス。"
     },
     "eventId": 0,
     "eventGroupId": 0,
@@ -30739,8 +30739,8 @@
       10526
     ],
     "script": {
-      "event_item_board_description": "1の目しか出ない貴重なダイス。",
-      "diceType": 4
+      "diceType": 4,
+      "event_item_board_description": "1の目しか出ない貴重なダイス。"
     },
     "eventId": 0,
     "eventGroupId": 0,
@@ -30768,8 +30768,8 @@
       10527
     ],
     "script": {
-      "event_item_board_description": "2の目しか出ない貴重なダイス。",
-      "diceType": 5
+      "diceType": 5,
+      "event_item_board_description": "2の目しか出ない貴重なダイス。"
     },
     "eventId": 0,
     "eventGroupId": 0,
@@ -30797,8 +30797,8 @@
       10528
     ],
     "script": {
-      "event_item_board_description": "3の目しか出ない貴重なダイス。",
-      "diceType": 6
+      "diceType": 6,
+      "event_item_board_description": "3の目しか出ない貴重なダイス。"
     },
     "eventId": 0,
     "eventGroupId": 0,
@@ -42748,8 +42748,8 @@
       10902
     ],
     "script": {
-      "tradePickupTime": 86400,
-      "eventId": 80494
+      "eventId": 80494,
+      "tradePickupTime": 86400
     },
     "eventId": 80494,
     "eventGroupId": 0,
@@ -45539,9 +45539,9 @@
       10955
     ],
     "script": {
-      "eventGroupId": 0,
+      "playEffect": 1,
       "eventId": 80558,
-      "playEffect": 1
+      "eventGroupId": 0
     },
     "eventId": 80558,
     "eventGroupId": 0,
@@ -46363,13 +46363,13 @@
       10976
     ],
     "script": {
+      "anotherPayName": "母なるロックオン",
+      "effectId": 1,
       "skillList": [
         940429,
         940430,
         940431
-      ],
-      "anotherPayName": "母なるロックオン",
-      "effectId": 1
+      ]
     },
     "eventId": 0,
     "eventGroupId": 0,
