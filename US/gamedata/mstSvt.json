@@ -8250,7 +8250,9 @@
       2,
       2
     ],
-    "script": {},
+    "script": {
+      "cameraActionId": 664
+    },
     "id": 300700,
     "baseSvtId": 300700,
     "name": "Cú Chulainn (Prototype)",
@@ -11752,12 +11754,14 @@
       1,
       2
     ],
-    "script": {},
+    "script": {
+      "cameraActionId": 662
+    },
     "id": 400900,
     "baseSvtId": 400900,
     "name": "Anne Bonny & Mary Read",
     "ruby": "Anne Bonny & Mary Read",
-    "battleName": "Mary",
+    "battleName": "Anne & Mary",
     "classId": 4,
     "type": 1,
     "limitMax": 4,
@@ -15329,7 +15333,9 @@
       1,
       2
     ],
-    "script": {},
+    "script": {
+      "cameraActionId": 605
+    },
     "id": 500700,
     "baseSvtId": 500700,
     "name": "William Shakespeare",
@@ -18242,7 +18248,9 @@
     "flag": 0
   },
   {
-    "relateQuestIds": [],
+    "relateQuestIds": [
+      94144101
+    ],
     "individuality": [
       5000,
       504900,
@@ -19601,7 +19609,9 @@
       1,
       2
     ],
-    "script": {},
+    "script": {
+      "cameraActionId": 663
+    },
     "id": 601400,
     "baseSvtId": 601400,
     "name": "Mata Hari",
@@ -23054,7 +23064,9 @@
       2,
       2
     ],
-    "script": {},
+    "script": {
+      "cameraActionId": 625
+    },
     "id": 701100,
     "baseSvtId": 701100,
     "name": "Darius III",
@@ -31114,7 +31126,8 @@
       2631,
       2795,
       2924,
-      2731
+      2731,
+      2923
     ],
     "classPassive": [
       434250,
@@ -142638,7 +142651,9 @@
       3,
       3
     ],
-    "script": {},
+    "script": {
+      "cameraActionId": 128
+    },
     "id": 9935700,
     "baseSvtId": 9935700,
     "name": "Bicorn",
@@ -154574,7 +154589,8 @@
       2631,
       2654,
       2835,
-      2858
+      2858,
+      2924
     ],
     "classPassive": [
       34550,
@@ -160318,7 +160334,8 @@
       2005,
       2113,
       2040,
-      2019
+      2019,
+      2923
     ],
     "classPassive": [],
     "cardIds": [
@@ -160328,7 +160345,9 @@
       3,
       3
     ],
-    "script": {},
+    "script": {
+      "cameraActionId": 128
+    },
     "id": 9941960,
     "baseSvtId": 9941960,
     "name": "Uchchaihshravas",
@@ -168172,12 +168191,13 @@
     "relateQuestIds": [],
     "individuality": [
       5000,
-      5010,
+      1000,
       1,
       105,
       202,
+      302,
+      304,
       2001,
-      1000,
       2008,
       2858
     ],
@@ -168868,12 +168888,13 @@
     "relateQuestIds": [],
     "individuality": [
       5000,
-      5010,
+      1000,
       1,
       106,
       202,
+      302,
+      304,
       2001,
-      1000,
       2008,
       2858
     ],
@@ -169143,15 +169164,20 @@
       9943520,
       101,
       1,
-      202,
-      302,
-      305,
+      200,
+      2011,
+      2037,
+      2851,
+      301,
+      304,
       2008,
       1000,
       2001,
       405,
+      2000,
       2009,
       1110,
+      2040,
       2631,
       2858,
       2881
@@ -169183,7 +169209,7 @@
     "friendshipId": 1043,
     "maxFriendshipRank": 10,
     "genderType": 1,
-    "attri": 1,
+    "attri": 2,
     "combineSkillId": 9943520,
     "combineLimitId": 9943520,
     "sellQp": 5000,

@@ -81,17 +81,6 @@
   {
     "script": {},
     "itemId": 4,
-    "targetType": 0,
-    "priority": 10,
-    "title": "Login Bonuses",
-    "iconName": "",
-    "transitionParam": "0",
-    "commonReleaseId": 20101146,
-    "closedMessageId": 0
-  },
-  {
-    "script": {},
-    "itemId": 4,
     "targetType": 12,
     "priority": 30,
     "title": "Use Support Servants",
@@ -108,6 +97,19 @@
     "title": "Get in \"Exchange Rare Prisms\"",
     "iconName": "",
     "transitionParam": "Shop/RarePrism",
+    "commonReleaseId": 20101146,
+    "closedMessageId": 0
+  },
+  {
+    "script": {
+      "loginBonus": 1
+    },
+    "itemId": 4,
+    "targetType": 19,
+    "priority": 10,
+    "title": "Login Bonuses",
+    "iconName": "login_bonus",
+    "transitionParam": "0",
     "commonReleaseId": 20101146,
     "closedMessageId": 0
   },
@@ -250,12 +252,14 @@
     "closedMessageId": 0
   },
   {
-    "script": {},
+    "script": {
+      "loginBonus": 1
+    },
     "itemId": 49,
-    "targetType": 0,
-    "priority": 10,
+    "targetType": 19,
+    "priority": 20,
     "title": "Login Bonuses",
-    "iconName": "",
+    "iconName": "login_bonus",
     "transitionParam": "0",
     "commonReleaseId": 20101146,
     "closedMessageId": 0
@@ -465,19 +469,8 @@
   {
     "script": {},
     "itemId": 2000,
-    "targetType": 0,
-    "priority": 10,
-    "title": "Login Bonuses",
-    "iconName": "",
-    "transitionParam": "0",
-    "commonReleaseId": 20101146,
-    "closedMessageId": 0
-  },
-  {
-    "script": {},
-    "itemId": 2000,
     "targetType": 7,
-    "priority": 40,
+    "priority": 30,
     "title": "Clear Extra Missions",
     "iconName": "",
     "transitionParam": "Terminal/MasterMission/EXTRA",
@@ -488,7 +481,7 @@
     "script": {},
     "itemId": 2000,
     "targetType": 13,
-    "priority": 30,
+    "priority": 20,
     "title": "Get in \"Exchange Mana Prisms\"",
     "iconName": "",
     "transitionParam": "Shop/ManaPrism",
@@ -499,7 +492,7 @@
     "script": {},
     "itemId": 2000,
     "targetType": 15,
-    "priority": 20,
+    "priority": 10,
     "title": "Get in \"Exchange Rare Prisms\"",
     "iconName": "",
     "transitionParam": "Shop/RarePrism",
@@ -507,12 +500,14 @@
     "closedMessageId": 0
   },
   {
-    "script": {},
-    "itemId": 4001,
-    "targetType": 0,
-    "priority": 10,
+    "script": {
+      "loginBonus": 1
+    },
+    "itemId": 2000,
+    "targetType": 19,
+    "priority": 40,
     "title": "Login Bonuses",
-    "iconName": "",
+    "iconName": "login_bonus",
     "transitionParam": "0",
     "commonReleaseId": 20101146,
     "closedMessageId": 0
@@ -521,10 +516,23 @@
     "script": {},
     "itemId": 4001,
     "targetType": 13,
-    "priority": 20,
+    "priority": 10,
     "title": "Get in \"Exchange Mana Prisms\"",
     "iconName": "",
     "transitionParam": "Shop/ManaPrism",
+    "commonReleaseId": 20101146,
+    "closedMessageId": 0
+  },
+  {
+    "script": {
+      "loginBonus": 1
+    },
+    "itemId": 4001,
+    "targetType": 19,
+    "priority": 20,
+    "title": "Login Bonuses",
+    "iconName": "login_bonus",
+    "transitionParam": "0",
     "commonReleaseId": 20101146,
     "closedMessageId": 0
   },
@@ -18638,6 +18646,61 @@
   },
   {
     "script": {},
+    "itemId": 94138201,
+    "targetType": 0,
+    "priority": 10,
+    "title": "Campaigns, etc.",
+    "iconName": "",
+    "transitionParam": "0",
+    "commonReleaseId": 20101146,
+    "closedMessageId": 0
+  },
+  {
+    "script": {},
+    "itemId": 94138201,
+    "targetType": 13,
+    "priority": 20,
+    "title": "Get in \"Exchange Mana Prisms\"",
+    "iconName": "",
+    "transitionParam": "Shop/ManaPrism",
+    "commonReleaseId": 20101146,
+    "closedMessageId": 0
+  },
+  {
+    "script": {},
+    "itemId": 94143701,
+    "targetType": 0,
+    "priority": 10,
+    "title": "Events, etc.",
+    "iconName": "",
+    "transitionParam": "0",
+    "commonReleaseId": 20101146,
+    "closedMessageId": 0
+  },
+  {
+    "script": {},
+    "itemId": 94143702,
+    "targetType": 0,
+    "priority": 10,
+    "title": "Events, etc.",
+    "iconName": "",
+    "transitionParam": "0",
+    "commonReleaseId": 20101146,
+    "closedMessageId": 0
+  },
+  {
+    "script": {},
+    "itemId": 94143703,
+    "targetType": 0,
+    "priority": 10,
+    "title": "Events, etc.",
+    "iconName": "",
+    "transitionParam": "0",
+    "commonReleaseId": 20101146,
+    "closedMessageId": 0
+  },
+  {
+    "script": {},
     "itemId": 94564705,
     "targetType": 0,
     "priority": 10,
@@ -19306,6 +19369,17 @@
     "transitionParam": "0",
     "commonReleaseId": 20101146,
     "closedMessageId": 0
+  },
+  {
+    "script": {},
+    "itemId": 110120001,
+    "targetType": 1,
+    "priority": 100,
+    "title": "Earned by exchanging for {0} event items",
+    "iconName": "",
+    "transitionParam": "EventReward",
+    "commonReleaseId": 20101146,
+    "closedMessageId": 10137801
   },
   {
     "script": {},
