@@ -152,9 +152,9 @@
   {
     "script": {
       "overwriteBaseActionPoint": 50,
-      "overwriteMoveCost": 20,
       "overwriteRecoverDonotActCost": 20,
-      "overwriteAttackCost": 15
+      "overwriteAttackCost": 15,
+      "overwriteMoveCost": 20
     },
     "overwriteBaseActionPoint": 50,
     "overwriteAttackCost": 15,
@@ -185,9 +185,9 @@
   {
     "script": {
       "overwriteBaseActionPoint": 50,
-      "overwriteMoveCost": 15,
       "overwriteRecoverDonotActCost": 20,
-      "overwriteAttackCost": 20
+      "overwriteAttackCost": 20,
+      "overwriteMoveCost": 15
     },
     "overwriteBaseActionPoint": 50,
     "overwriteAttackCost": 20,
@@ -218,9 +218,9 @@
   {
     "script": {
       "overwriteBaseActionPoint": 50,
-      "overwriteMoveCost": 25,
       "overwriteRecoverDonotActCost": 30,
-      "overwriteAttackCost": 30
+      "overwriteAttackCost": 30,
+      "overwriteMoveCost": 25
     },
     "overwriteBaseActionPoint": 50,
     "overwriteAttackCost": 30,
@@ -236,9 +236,9 @@
   {
     "script": {
       "overwriteBaseActionPoint": 50,
-      "overwriteMoveCost": 25,
       "overwriteRecoverDonotActCost": 30,
-      "overwriteAttackCost": 30
+      "overwriteAttackCost": 30,
+      "overwriteMoveCost": 25
     },
     "overwriteBaseActionPoint": 50,
     "overwriteAttackCost": 30,
@@ -254,9 +254,9 @@
   {
     "script": {
       "overwriteBaseActionPoint": 50,
-      "overwriteMoveCost": 20,
       "overwriteRecoverDonotActCost": 20,
-      "overwriteAttackCost": 15
+      "overwriteAttackCost": 15,
+      "overwriteMoveCost": 20
     },
     "overwriteBaseActionPoint": 50,
     "overwriteAttackCost": 15,
@@ -272,9 +272,9 @@
   {
     "script": {
       "overwriteBaseActionPoint": 50,
-      "overwriteMoveCost": 15,
       "overwriteRecoverDonotActCost": 20,
-      "overwriteAttackCost": 20
+      "overwriteAttackCost": 20,
+      "overwriteMoveCost": 15
     },
     "overwriteBaseActionPoint": 50,
     "overwriteAttackCost": 20,
@@ -305,9 +305,9 @@
   {
     "script": {
       "overwriteBaseActionPoint": 60,
-      "overwriteMoveCost": 20,
       "overwriteRecoverDonotActCost": 20,
-      "overwriteAttackCost": 20
+      "overwriteAttackCost": 20,
+      "overwriteMoveCost": 20
     },
     "overwriteBaseActionPoint": 60,
     "overwriteAttackCost": 20,
@@ -623,12 +623,12 @@
   },
   {
     "script": {
-      "overwriteMoveCost": 30,
-      "overwriteAttackCost": 20,
-      "overwriteBaseActionPoint": 50,
+      "overwriteWallAttackCost": 15,
       "deadEffect": 1,
       "overwriteRecoverDonotActCost": 40,
-      "overwriteWallAttackCost": 15
+      "overwriteMoveCost": 30,
+      "overwriteAttackCost": 20,
+      "overwriteBaseActionPoint": 50
     },
     "overwriteBaseActionPoint": 50,
     "overwriteAttackCost": 20,
@@ -718,13 +718,13 @@
   },
   {
     "script": {
+      "overwriteBaseActionPoint": 50,
+      "overwriteWallAttackCost": 15,
+      "noMovedAfterDefend": 1,
+      "overwriteRecoverDonotActCost": 10,
       "overwriteMoveCost": 20,
       "overwriteAttackCost": 20,
-      "noMoveAfterAttack": 1,
-      "overwriteBaseActionPoint": 50,
-      "overwriteRecoverDonotActCost": 10,
-      "noMovedAfterDefend": 1,
-      "overwriteWallAttackCost": 15
+      "noMoveAfterAttack": 1
     },
     "overwriteBaseActionPoint": 50,
     "overwriteAttackCost": 20,
@@ -739,11 +739,11 @@
   },
   {
     "script": {
-      "overwriteRecoverDonotActCost": 30,
       "overwriteBaseActionPoint": 50,
-      "overwriteMoveCost": 15,
+      "overwriteRecoverDonotActCost": 30,
+      "overwriteAttackCost": 30,
       "overwriteWallAttackCost": 15,
-      "overwriteAttackCost": 30
+      "overwriteMoveCost": 15
     },
     "overwriteBaseActionPoint": 50,
     "overwriteAttackCost": 30,
@@ -758,11 +758,11 @@
   },
   {
     "script": {
-      "overwriteRecoverDonotActCost": 30,
       "overwriteBaseActionPoint": 50,
-      "overwriteMoveCost": 15,
+      "overwriteRecoverDonotActCost": 30,
+      "overwriteAttackCost": 30,
       "overwriteWallAttackCost": 15,
-      "overwriteAttackCost": 30
+      "overwriteMoveCost": 15
     },
     "overwriteBaseActionPoint": 50,
     "overwriteAttackCost": 30,
@@ -1033,12 +1033,12 @@
   },
   {
     "script": {
-      "overwriteMoveCost": 30,
-      "overwriteAttackCost": 20,
-      "overwriteBaseActionPoint": 50,
+      "overwriteWallAttackCost": 15,
       "deadEffect": 1,
       "overwriteRecoverDonotActCost": 40,
-      "overwriteWallAttackCost": 15
+      "overwriteMoveCost": 30,
+      "overwriteAttackCost": 20,
+      "overwriteBaseActionPoint": 50
     },
     "overwriteBaseActionPoint": 50,
     "overwriteAttackCost": 20,
@@ -1083,13 +1083,13 @@
   },
   {
     "script": {
+      "overwriteBaseActionPoint": 50,
+      "overwriteWallAttackCost": 15,
+      "noMovedAfterDefend": 1,
+      "overwriteRecoverDonotActCost": 10,
       "overwriteMoveCost": 20,
       "overwriteAttackCost": 20,
-      "noMoveAfterAttack": 1,
-      "overwriteBaseActionPoint": 50,
-      "overwriteRecoverDonotActCost": 10,
-      "noMovedAfterDefend": 1,
-      "overwriteWallAttackCost": 15
+      "noMoveAfterAttack": 1
     },
     "overwriteBaseActionPoint": 50,
     "overwriteAttackCost": 20,
@@ -1104,11 +1104,11 @@
   },
   {
     "script": {
-      "overwriteRecoverDonotActCost": 30,
       "overwriteBaseActionPoint": 50,
-      "overwriteMoveCost": 15,
+      "overwriteRecoverDonotActCost": 30,
+      "overwriteAttackCost": 30,
       "overwriteWallAttackCost": 15,
-      "overwriteAttackCost": 30
+      "overwriteMoveCost": 15
     },
     "overwriteBaseActionPoint": 50,
     "overwriteAttackCost": 30,
@@ -1123,11 +1123,11 @@
   },
   {
     "script": {
-      "overwriteRecoverDonotActCost": 30,
       "overwriteBaseActionPoint": 50,
-      "overwriteMoveCost": 15,
+      "overwriteRecoverDonotActCost": 30,
+      "overwriteAttackCost": 30,
       "overwriteWallAttackCost": 15,
-      "overwriteAttackCost": 30
+      "overwriteMoveCost": 15
     },
     "overwriteBaseActionPoint": 50,
     "overwriteAttackCost": 30,
