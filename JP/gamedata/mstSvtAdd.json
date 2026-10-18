@@ -293,6 +293,7 @@
   },
   {
     "script": {
+      "overwriteGrandGraphImageLimitCount": 0,
       "overwriteClassImageId": [
         [
           40,
@@ -301,8 +302,7 @@
         [
           41
         ]
-      ],
-      "overwriteGrandGraphImageLimitCount": 0
+      ]
     },
     "svtId": 205500
   },
@@ -419,8 +419,8 @@
   },
   {
     "script": {
-      "svtProfileLimit": 2,
-      "overWriteServantShortName": "ビショーネ"
+      "overWriteServantShortName": "ビショーネ",
+      "svtProfileLimit": 2
     },
     "svtId": 305700
   },
@@ -500,8 +500,8 @@
   },
   {
     "script": {
-      "presentDialogMessageId": 1,
-      "overwriteGrandGraphImageLimitCount": 0
+      "overwriteGrandGraphImageLimitCount": 0,
+      "presentDialogMessageId": 1
     },
     "svtId": 404200
   },
@@ -655,20 +655,20 @@
   },
   {
     "script": {
+      "overwriteServantRecordRuby": "プレラーティ",
       "overwriteServantCoinName": "プレラーティ",
-      "commonName": "プレラーティ",
-      "overwriteProfileName": "フランソワ（フランチェスカ）・プレラーティ",
       "overwriteServantRecordName": "プレラーティ",
-      "overwriteServantRecordRuby": "プレラーティ"
+      "overwriteProfileName": "フランソワ（フランチェスカ）・プレラーティ",
+      "commonName": "プレラーティ"
     },
     "svtId": 505600
   },
   {
     "script": {
-      "commonName": "プレラーティ",
+      "overwriteServantRecordRuby": "プレラーティ",
       "overwriteProfileName": "フランソワ（フランチェスカ）・プレラーティ",
       "overwriteServantRecordName": "プレラーティ",
-      "overwriteServantRecordRuby": "プレラーティ"
+      "commonName": "プレラーティ"
     },
     "svtId": 505700
   },
@@ -1183,16 +1183,16 @@
   },
   {
     "script": {
-      "addIdentifyText": "男性",
       "overwriteGrandGraphImageLimitCount": 0,
+      "addIdentifyText": "男性",
       "presentDialogMessageId": 2301200
     },
     "svtId": 2300700
   },
   {
     "script": {
-      "addIdentifyText": "女性",
       "overwriteGrandGraphImageLimitCount": 0,
+      "addIdentifyText": "女性",
       "presentDialogMessageId": 2301201
     },
     "svtId": 2300800

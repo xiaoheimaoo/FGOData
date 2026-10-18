@@ -147,11 +147,11 @@
   },
   {
     "script": {
-      "jobListSkillName": "味方全体NP獲得量アップ20%",
       "jobConfirmSkillName": "■■■■■■■■",
-      "jobListSecretName": "？？？",
+      "jobListSkillName": "味方全体NP獲得量アップ20%",
       "passportSkillDetail": "味方フィールドにNP獲得量を\n20%アップする状態を付与",
-      "passportSkillName": "でばっぐこまんど"
+      "passportSkillName": "でばっぐこまんど",
+      "jobListSecretName": "？？？"
     },
     "eventId": 80612,
     "id": 8061207,
@@ -295,10 +295,10 @@
   },
   {
     "script": {
-      "jobListSkillName": "味方全体〔セイバー〕攻撃力アップ15%",
+      "hideJobNameCommonReleaseId": 20158002,
       "passportSkillDetail": "味方フィールドに〔セイバー〕の\n攻撃力を15%アップする状態を付与",
       "passportSkillName": "一之太刀",
-      "hideJobNameCommonReleaseId": 20158002
+      "jobListSkillName": "味方全体〔セイバー〕攻撃力アップ15%"
     },
     "eventId": 80612,
     "id": 8061213,
@@ -346,9 +346,6 @@
   },
   {
     "script": {
-      "jobListSkillName": "マスタースキル効果アップ20%",
-      "jobListSecretName": "？？？",
-      "passportSkillDetail": "味方フィールドにマスタースキルの\n一部の効果を20%アップする状態を\n付与",
       "overWritePhotoImageIds": [
         {
           "imageId": 8061216,
@@ -363,7 +360,10 @@
           "commonReleaseId": 20158025
         }
       ],
-      "passportSkillName": "マジックサーキット"
+      "jobListSkillName": "マスタースキル効果アップ20%",
+      "passportSkillDetail": "味方フィールドにマスタースキルの\n一部の効果を20%アップする状態を\n付与",
+      "passportSkillName": "マジックサーキット",
+      "jobListSecretName": "？？？"
     },
     "eventId": 80612,
     "id": 8061215,
