@@ -35225,8 +35225,8 @@
   },
   {
     "script": {
-      "restrictionSlotMessage": "[FFFF00]編成制限\n\n自身の\nグランドキャスター\n以外のグランド\nサーヴァント\n　\n所持サーヴァント\nまたはサポートから\n編成できます。[-]",
-      "organizationSelectionDialogMessage": "自身のグランドキャスター以外の\nグランドサーヴァントを\n所持サーヴァントとサポート(フレンド)の\nどちらから編成するか選択してください。"
+      "organizationSelectionDialogMessage": "自身のグランドキャスター以外の\nグランドサーヴァントを\n所持サーヴァントとサポート(フレンド)の\nどちらから編成するか選択してください。",
+      "restrictionSlotMessage": "[FFFF00]編成制限\n\n自身の\nグランドキャスター\n以外のグランド\nサーヴァント\n　\n所持サーヴァント\nまたはサポートから\n編成できます。[-]"
     },
     "questId": 94151210,
     "phase": 1,
@@ -37746,6 +37746,39 @@
     "questId": 94162304,
     "phase": 4,
     "restrictionId": 94162307,
+    "priority": 0,
+    "frequencyType": 0,
+    "dialogMessage": "",
+    "noticeMessage": "",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 94162310,
+    "phase": 4,
+    "restrictionId": 3000302,
+    "priority": 0,
+    "frequencyType": 0,
+    "dialogMessage": "クエストを開始するためには、\nスターティングメンバーに2騎の\nサーヴァントが必要です。",
+    "noticeMessage": "",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 94162310,
+    "phase": 4,
+    "restrictionId": 94162306,
+    "priority": 0,
+    "frequencyType": 3,
+    "dialogMessage": "宮本伊織を\nスターティングメンバーに設定してください。",
+    "noticeMessage": "宮本伊織をスターティングメンバーに設定してください",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 94162310,
+    "phase": 4,
+    "restrictionId": 94162308,
     "priority": 0,
     "frequencyType": 0,
     "dialogMessage": "",
