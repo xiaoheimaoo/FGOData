@@ -8,7 +8,6 @@
   },
   {
     "script": {
-      "eventName": "CHARA_UP",
       "cameraTargetData": [
         {
           "targetType": 2,
@@ -18,7 +17,8 @@
           "targetNodeName": "en_Head",
           "setVariableName": "Target_Actor"
         }
-      ]
+      ],
+      "eventName": "CHARA_UP"
     },
     "id": 94151200,
     "playOrder": 2,
@@ -63,7 +63,6 @@
   },
   {
     "script": {
-      "eventName": "CHARA_UP",
       "cameraTargetData": [
         {
           "targetType": 2,
@@ -73,7 +72,8 @@
           "targetNodeName": "en_Head",
           "setVariableName": "Target_Actor"
         }
-      ]
+      ],
+      "eventName": "CHARA_UP"
     },
     "id": 94151201,
     "playOrder": 2,
@@ -141,7 +141,6 @@
   },
   {
     "script": {
-      "eventName": "CHARA_UP",
       "cameraTargetData": [
         {
           "targetType": 2,
@@ -151,7 +150,8 @@
           "targetNodeName": "en_Head",
           "setVariableName": "Target_Actor"
         }
-      ]
+      ],
+      "eventName": "CHARA_UP"
     },
     "id": 94151202,
     "playOrder": 2,
@@ -208,7 +208,6 @@
   },
   {
     "script": {
-      "eventName": "CHARA_UP",
       "cameraTargetData": [
         {
           "targetType": 2,
@@ -218,7 +217,8 @@
           "targetNodeName": "en_Head",
           "setVariableName": "Target_Actor"
         }
-      ]
+      ],
+      "eventName": "CHARA_UP"
     },
     "id": 94151203,
     "playOrder": 2,
@@ -485,12 +485,12 @@
   },
   {
     "script": {
-      "aiActId": 94152104,
       "aiScript": {
         "cameraIds": [
           2
         ]
-      }
+      },
+      "aiActId": 94152104
     },
     "id": 94152100,
     "playOrder": 6,
@@ -499,13 +499,13 @@
   },
   {
     "script": {
-      "aiActId": 94152103,
       "aiScript": {
         "motionIds": [
           130,
           136
         ]
-      }
+      },
+      "aiActId": 94152103
     },
     "id": 94152100,
     "playOrder": 7,
@@ -557,12 +557,12 @@
   },
   {
     "script": {
-      "aiActId": 94152104,
       "aiScript": {
         "cameraIds": [
           3
         ]
-      }
+      },
+      "aiActId": 94152104
     },
     "id": 94152101,
     "playOrder": 5,
@@ -571,13 +571,13 @@
   },
   {
     "script": {
-      "aiActId": 94152103,
       "aiScript": {
         "motionIds": [
           131,
           136
         ]
-      }
+      },
+      "aiActId": 94152103
     },
     "id": 94152101,
     "playOrder": 6,
@@ -629,12 +629,12 @@
   },
   {
     "script": {
-      "aiActId": 94152104,
       "aiScript": {
         "cameraIds": [
           4
         ]
-      }
+      },
+      "aiActId": 94152104
     },
     "id": 94152102,
     "playOrder": 5,
@@ -643,13 +643,13 @@
   },
   {
     "script": {
-      "aiActId": 94152103,
       "aiScript": {
         "motionIds": [
           132,
           136
         ]
-      }
+      },
+      "aiActId": 94152103
     },
     "id": 94152102,
     "playOrder": 6,
@@ -701,12 +701,12 @@
   },
   {
     "script": {
-      "aiActId": 94152104,
       "aiScript": {
         "cameraIds": [
           5
         ]
-      }
+      },
+      "aiActId": 94152104
     },
     "id": 94152103,
     "playOrder": 5,
@@ -715,13 +715,13 @@
   },
   {
     "script": {
-      "aiActId": 94152103,
       "aiScript": {
         "motionIds": [
           133,
           136
         ]
-      }
+      },
+      "aiActId": 94152103
     },
     "id": 94152103,
     "playOrder": 6,
@@ -773,12 +773,12 @@
   },
   {
     "script": {
-      "aiActId": 94152104,
       "aiScript": {
         "cameraIds": [
           6
         ]
-      }
+      },
+      "aiActId": 94152104
     },
     "id": 94152104,
     "playOrder": 5,
@@ -787,13 +787,13 @@
   },
   {
     "script": {
-      "aiActId": 94152103,
       "aiScript": {
         "motionIds": [
           134,
           136
         ]
-      }
+      },
+      "aiActId": 94152103
     },
     "id": 94152104,
     "playOrder": 6,
@@ -845,12 +845,12 @@
   },
   {
     "script": {
-      "aiActId": 94152104,
       "aiScript": {
         "cameraIds": [
           7
         ]
-      }
+      },
+      "aiActId": 94152104
     },
     "id": 94152105,
     "playOrder": 5,
@@ -859,13 +859,13 @@
   },
   {
     "script": {
-      "aiActId": 94152103,
       "aiScript": {
         "motionIds": [
           135,
           136
         ]
-      }
+      },
+      "aiActId": 94152103
     },
     "id": 94152105,
     "playOrder": 6,
@@ -2632,8 +2632,8 @@
   },
   {
     "script": {
-      "aiActId": 94153920,
-      "type": 1
+      "type": 1,
+      "aiActId": 94153920
     },
     "id": 94153900,
     "playOrder": 3,
@@ -2661,8 +2661,8 @@
   },
   {
     "script": {
-      "aiActId": 94153921,
-      "type": 1
+      "type": 1,
+      "aiActId": 94153921
     },
     "id": 94153901,
     "playOrder": 3,
@@ -2678,7 +2678,6 @@
   },
   {
     "script": {
-      "eventName": "CHARA_UP",
       "cameraTargetData": [
         {
           "targetType": 2,
@@ -2688,7 +2687,8 @@
           "targetNodeName": "en_Head",
           "setVariableName": "Target_Actor"
         }
-      ]
+      ],
+      "eventName": "CHARA_UP"
     },
     "id": 94154401,
     "playOrder": 2,
@@ -3010,8 +3010,8 @@
   },
   {
     "script": {
-      "aiActId": 94156649,
-      "type": 1
+      "type": 1,
+      "aiActId": 94156649
     },
     "id": 94156605,
     "playOrder": 5,
@@ -3027,8 +3027,8 @@
   },
   {
     "script": {
-      "aiActId": 94156684,
-      "type": 1
+      "type": 1,
+      "aiActId": 94156684
     },
     "id": 94156606,
     "playOrder": 2,
@@ -3064,8 +3064,8 @@
   },
   {
     "script": {
-      "aiActId": 94156675,
-      "type": 1
+      "type": 1,
+      "aiActId": 94156675
     },
     "id": 94156606,
     "playOrder": 6,
@@ -3224,8 +3224,8 @@
   },
   {
     "script": {
-      "aiActId": 94158043,
-      "type": 1
+      "type": 1,
+      "aiActId": 94158043
     },
     "id": 94158002,
     "playOrder": 6,
@@ -3287,8 +3287,8 @@
   },
   {
     "script": {
-      "aiActId": 94158100,
-      "type": 1
+      "type": 1,
+      "aiActId": 94158100
     },
     "id": 94158003,
     "playOrder": 6,
@@ -3348,8 +3348,8 @@
   },
   {
     "script": {
-      "aiActId": 94158076,
-      "type": 1
+      "type": 1,
+      "aiActId": 94158076
     },
     "id": 94158005,
     "playOrder": 2,
@@ -3372,8 +3372,8 @@
   },
   {
     "script": {
-      "aiActId": 94158077,
-      "type": 1
+      "type": 1,
+      "aiActId": 94158077
     },
     "id": 94158006,
     "playOrder": 2,
@@ -3396,8 +3396,8 @@
   },
   {
     "script": {
-      "aiActId": 94158078,
-      "type": 1
+      "type": 1,
+      "aiActId": 94158078
     },
     "id": 94158007,
     "playOrder": 2,
@@ -3471,8 +3471,8 @@
   },
   {
     "script": {
-      "aiActId": 94159022,
-      "type": 1
+      "type": 1,
+      "aiActId": 94159022
     },
     "id": 94159000,
     "playOrder": 1,
@@ -3503,8 +3503,8 @@
   },
   {
     "script": {
-      "aiActId": 1009,
-      "type": 1
+      "type": 1,
+      "aiActId": 1009
     },
     "id": 94159000,
     "playOrder": 4,
@@ -3522,8 +3522,8 @@
   },
   {
     "script": {
-      "aiActId": 94159047,
-      "type": 1
+      "type": 1,
+      "aiActId": 94159047
     },
     "id": 94159001,
     "playOrder": 2,
@@ -3541,8 +3541,8 @@
   },
   {
     "script": {
-      "aiActId": 94159090,
-      "type": 1
+      "type": 1,
+      "aiActId": 94159090
     },
     "id": 94159001,
     "playOrder": 4,
@@ -3551,8 +3551,8 @@
   },
   {
     "script": {
-      "aiActId": 1009,
-      "type": 1
+      "type": 1,
+      "aiActId": 1009
     },
     "id": 94159001,
     "playOrder": 5,
@@ -3714,8 +3714,8 @@
   },
   {
     "script": {
-      "aiActId": 1009,
-      "type": 1
+      "type": 1,
+      "aiActId": 1009
     },
     "id": 94159006,
     "playOrder": 3,
@@ -3838,8 +3838,8 @@
   },
   {
     "script": {
-      "aiActId": 94159524,
-      "type": 1
+      "type": 1,
+      "aiActId": 94159524
     },
     "id": 94159501,
     "playOrder": 5,
@@ -3891,8 +3891,8 @@
   },
   {
     "script": {
-      "aiActId": 94159524,
-      "type": 1
+      "type": 1,
+      "aiActId": 94159524
     },
     "id": 94159502,
     "playOrder": 5,
@@ -3943,8 +3943,8 @@
   },
   {
     "script": {
-      "aiActId": 94159524,
-      "type": 1
+      "type": 1,
+      "aiActId": 94159524
     },
     "id": 94159503,
     "playOrder": 6,
@@ -3974,8 +3974,8 @@
   },
   {
     "script": {
-      "aiActId": 94159525,
-      "type": 1
+      "type": 1,
+      "aiActId": 94159525
     },
     "id": 94159504,
     "playOrder": 3,
@@ -4004,8 +4004,8 @@
   },
   {
     "script": {
-      "aiActId": 94160905,
-      "type": 1
+      "type": 1,
+      "aiActId": 94160905
     },
     "id": 94160900,
     "playOrder": 2,
@@ -4014,8 +4014,8 @@
   },
   {
     "script": {
-      "aiActId": 94160906,
-      "type": 1
+      "type": 1,
+      "aiActId": 94160906
     },
     "id": 94160900,
     "playOrder": 3,
