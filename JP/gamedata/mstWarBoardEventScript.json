@@ -1,11 +1,11 @@
 [
   {
     "script": {
-      "type": "GoalNoFlag",
+      "disp": 1,
       "squareIndexes": [
         1
       ],
-      "disp": 1
+      "type": "GoalNoFlag"
     },
     "id": 94087001,
     "idx": 1,
@@ -32,12 +32,12 @@
   },
   {
     "script": {
-      "zoom": 1.0,
-      "easeType": "easeInOutSine",
+      "moveTime": 0.5,
       "squareIndexes": [
         1
       ],
-      "moveTime": 0.5
+      "easeType": "easeInOutSine",
+      "zoom": 1.0
     },
     "id": 94087002,
     "idx": 2,
@@ -110,12 +110,12 @@
   },
   {
     "script": {
-      "zoom": 1.0,
-      "easeType": "easeInOutSine",
+      "moveTime": 0.5,
       "squareIndexes": [
         1
       ],
-      "moveTime": 0.5
+      "easeType": "easeInOutSine",
+      "zoom": 1.0
     },
     "id": 94087003,
     "idx": 1,
@@ -179,12 +179,12 @@
   },
   {
     "script": {
-      "zoom": 1.0,
-      "easeType": "easeInOutSine",
+      "moveTime": 0.5,
       "squareIndexes": [
         17
       ],
-      "moveTime": 0.5
+      "easeType": "easeInOutSine",
+      "zoom": 1.0
     },
     "id": 94087004,
     "idx": 2,
@@ -232,14 +232,14 @@
   },
   {
     "script": {
-      "zoom": 1.0,
-      "easeType": "easeInOutSine",
+      "moveTime": 0.5,
       "squareIndexes": [
         11,
         15,
         18
       ],
-      "moveTime": 0.5
+      "easeType": "easeInOutSine",
+      "zoom": 1.0
     },
     "id": 94087004,
     "idx": 7,
@@ -317,12 +317,12 @@
   },
   {
     "script": {
-      "zoom": 1.0,
-      "easeType": "easeInOutSine",
+      "moveTime": 0.5,
       "squareIndexes": [
         2
       ],
-      "moveTime": 0.5
+      "easeType": "easeInOutSine",
+      "zoom": 1.0
     },
     "id": 94087004,
     "idx": 15,
@@ -428,12 +428,12 @@
   },
   {
     "script": {
-      "zoom": 1.0,
-      "easeType": "easeInOutSine",
+      "moveTime": 0.5,
       "squareIndexes": [
         1
       ],
-      "moveTime": 0.5
+      "easeType": "easeInOutSine",
+      "zoom": 1.0
     },
     "id": 94087008,
     "idx": 3,
@@ -497,14 +497,14 @@
   },
   {
     "script": {
-      "actionType": [
-        1
-      ],
       "pieceIndex": [
         1
       ],
-      "forceId": 1,
-      "groupId": 0
+      "actionType": [
+        1
+      ],
+      "groupId": 0,
+      "forceId": 1
     },
     "id": 94087012,
     "idx": 1,
@@ -518,8 +518,8 @@
       "pieceIndex": [
         1
       ],
-      "forceId": 1,
-      "groupId": 0
+      "groupId": 0,
+      "forceId": 1
     },
     "id": 94087012,
     "idx": 2,
@@ -535,12 +535,12 @@
   },
   {
     "script": {
-      "zoom": 1.0,
-      "easeType": "easeInOutSine",
+      "moveTime": 0.5,
       "squareIndexes": [
         29
       ],
-      "moveTime": 0.5
+      "easeType": "easeInOutSine",
+      "zoom": 1.0
     },
     "id": 94087013,
     "idx": 2,
@@ -588,12 +588,12 @@
   },
   {
     "script": {
-      "zoom": 1.0,
-      "easeType": "easeInOutSine",
+      "moveTime": 0.5,
       "squareIndexes": [
         1
       ],
-      "moveTime": 0.5
+      "easeType": "easeInOutSine",
+      "zoom": 1.0
     },
     "id": 94087013,
     "idx": 7,
@@ -781,7 +781,6 @@
       "effectIds": [
         3
       ],
-      "skillId": 94087029,
       "actorEffectPieceIndex": [
         [
           1,
@@ -789,6 +788,7 @@
           1
         ]
       ],
+      "skillId": 94087029,
       "skillLv": 1,
       "noMoveLastPieceCamera": 1
     },
@@ -807,13 +807,13 @@
   {
     "script": {
       "zoom": 1.0,
-      "moveTime": 0.5,
       "easeType": "easeInOutSine",
       "pieceIndex": [
         1,
         0,
         1
-      ]
+      ],
+      "moveTime": 0.5
     },
     "id": 94087025,
     "idx": 4,
@@ -821,8 +821,8 @@
   },
   {
     "script": {
-      "type": "Target",
       "disp": 1,
+      "type": "Target",
       "pieceIndex": [
         1,
         0,
@@ -887,7 +887,6 @@
       "effectIds": [
         3
       ],
-      "skillId": 94087029,
       "actorEffectPieceIndex": [
         [
           1,
@@ -895,6 +894,7 @@
           1
         ]
       ],
+      "skillId": 94087029,
       "skillLv": 1,
       "noMoveLastPieceCamera": 1
     },
@@ -913,13 +913,13 @@
   {
     "script": {
       "zoom": 1.0,
-      "moveTime": 0.5,
       "easeType": "easeInOutSine",
       "pieceIndex": [
         1,
         0,
         1
-      ]
+      ],
+      "moveTime": 0.5
     },
     "id": 94087029,
     "idx": 4,
@@ -927,8 +927,8 @@
   },
   {
     "script": {
-      "type": "Target",
       "disp": 1,
+      "type": "Target",
       "pieceIndex": [
         1,
         0,
@@ -990,13 +990,13 @@
   },
   {
     "script": {
-      "zoom": 1.0,
-      "easeType": "easeInOutSine",
+      "moveTime": 0.5,
       "squareIndexes": [
         21,
         22
       ],
-      "moveTime": 0.5
+      "easeType": "easeInOutSine",
+      "zoom": 1.0
     },
     "id": 94087033,
     "idx": 2,
@@ -1046,12 +1046,12 @@
   },
   {
     "script": {
-      "zoom": 1.0,
-      "easeType": "easeInOutSine",
+      "moveTime": 0.5,
       "squareIndexes": [
         12
       ],
-      "moveTime": 0.5
+      "easeType": "easeInOutSine",
+      "zoom": 1.0
     },
     "id": 94087033,
     "idx": 7,
@@ -1059,11 +1059,11 @@
   },
   {
     "script": {
-      "type": "Goal",
+      "disp": 1,
       "squareIndexes": [
         12
       ],
-      "disp": 1
+      "type": "Goal"
     },
     "id": 94087033,
     "idx": 8,
@@ -1176,13 +1176,13 @@
   },
   {
     "script": {
-      "zoom": 1.0,
-      "easeType": "easeInOutSine",
+      "moveTime": 0.5,
       "squareIndexes": [
         21,
         22
       ],
-      "moveTime": 0.5
+      "easeType": "easeInOutSine",
+      "zoom": 1.0
     },
     "id": 94087047,
     "idx": 2,
@@ -1232,12 +1232,12 @@
   },
   {
     "script": {
-      "zoom": 1.0,
-      "easeType": "easeInOutSine",
+      "moveTime": 0.5,
       "squareIndexes": [
         12
       ],
-      "moveTime": 0.5
+      "easeType": "easeInOutSine",
+      "zoom": 1.0
     },
     "id": 94087047,
     "idx": 7,
@@ -1245,11 +1245,11 @@
   },
   {
     "script": {
-      "type": "Goal",
+      "disp": 1,
       "squareIndexes": [
         12
       ],
-      "disp": 1
+      "type": "Goal"
     },
     "id": 94087047,
     "idx": 8,
@@ -1362,19 +1362,19 @@
   },
   {
     "script": {
-      "zoom": 1.0,
-      "moveTime": 0.5,
-      "easeType": "easeInOutSine",
       "pieceIndex2": [
         1,
         0,
         2
       ],
+      "zoom": 1.0,
+      "easeType": "easeInOutSine",
       "pieceIndex": [
         1,
         0,
         1
-      ]
+      ],
+      "moveTime": 0.5
     },
     "id": 94087061,
     "idx": 2,
@@ -1387,10 +1387,10 @@
         2,
         3
       ],
-      "type": "Target",
       "disp": 1,
-      "forceId": 1,
-      "groupId": 0
+      "type": "Target",
+      "groupId": 0,
+      "forceId": 1
     },
     "id": 94087061,
     "idx": 3,
@@ -1418,7 +1418,6 @@
       "effectIds": [
         2
       ],
-      "skillId": 94087031,
       "actorEffectPieceIndex": [
         [
           1,
@@ -1426,6 +1425,7 @@
           1
         ]
       ],
+      "skillId": 94087031,
       "skillLv": 1
     },
     "id": 94087062,
@@ -1459,13 +1459,13 @@
   {
     "script": {
       "zoom": 1.0,
-      "moveTime": 0.5,
       "easeType": "easeInOutSine",
       "pieceIndex": [
         1,
         0,
         10
-      ]
+      ],
+      "moveTime": 0.5
     },
     "id": 94087063,
     "idx": 4,
@@ -1473,8 +1473,8 @@
   },
   {
     "script": {
-      "type": "Target",
       "disp": 1,
+      "type": "Target",
       "pieceIndex": [
         1,
         0,
@@ -1563,7 +1563,6 @@
       "effectIds": [
         2
       ],
-      "skillId": 94087031,
       "actorEffectPieceIndex": [
         [
           1,
@@ -1571,6 +1570,7 @@
           1
         ]
       ],
+      "skillId": 94087031,
       "skillLv": 1
     },
     "id": 94087071,
@@ -1587,19 +1587,19 @@
   },
   {
     "script": {
-      "zoom": 1.0,
-      "moveTime": 0.5,
-      "easeType": "easeInOutSine",
       "pieceIndex2": [
         1,
         0,
         2
       ],
+      "zoom": 1.0,
+      "easeType": "easeInOutSine",
       "pieceIndex": [
         1,
         0,
         1
-      ]
+      ],
+      "moveTime": 0.5
     },
     "id": 94087072,
     "idx": 2,
@@ -1612,10 +1612,10 @@
         2,
         3
       ],
-      "type": "Target",
       "disp": 1,
-      "forceId": 1,
-      "groupId": 0
+      "type": "Target",
+      "groupId": 0,
+      "forceId": 1
     },
     "id": 94087072,
     "idx": 3,
@@ -1643,7 +1643,6 @@
       "effectIds": [
         2
       ],
-      "skillId": 94087031,
       "actorEffectPieceIndex": [
         [
           1,
@@ -1651,6 +1650,7 @@
           1
         ]
       ],
+      "skillId": 94087031,
       "skillLv": 1
     },
     "id": 94087073,
@@ -1684,13 +1684,13 @@
   {
     "script": {
       "zoom": 1.0,
-      "moveTime": 0.5,
       "easeType": "easeInOutSine",
       "pieceIndex": [
         1,
         0,
         12
-      ]
+      ],
+      "moveTime": 0.5
     },
     "id": 94087074,
     "idx": 4,
@@ -1698,8 +1698,8 @@
   },
   {
     "script": {
-      "type": "Target",
       "disp": 1,
+      "type": "Target",
       "pieceIndex": [
         1,
         0,
@@ -1788,7 +1788,6 @@
       "effectIds": [
         2
       ],
-      "skillId": 94087031,
       "actorEffectPieceIndex": [
         [
           1,
@@ -1796,6 +1795,7 @@
           1
         ]
       ],
+      "skillId": 94087031,
       "skillLv": 1
     },
     "id": 94087082,
@@ -1812,14 +1812,14 @@
   },
   {
     "script": {
-      "zoom": 1.0,
-      "easeType": "easeInOutSine",
+      "moveTime": 0.5,
       "squareIndexes": [
         20,
         21,
         37
       ],
-      "moveTime": 0.5
+      "easeType": "easeInOutSine",
+      "zoom": 1.0
     },
     "id": 94087083,
     "idx": 2,
@@ -1871,12 +1871,12 @@
   },
   {
     "script": {
-      "zoom": 1.0,
-      "easeType": "easeInOutSine",
+      "moveTime": 0.5,
       "squareIndexes": [
         5
       ],
-      "moveTime": 0.5
+      "easeType": "easeInOutSine",
+      "zoom": 1.0
     },
     "id": 94087083,
     "idx": 7,
@@ -1924,19 +1924,19 @@
   },
   {
     "script": {
-      "zoom": 1.0,
-      "moveTime": 0.5,
-      "easeType": "easeInOutSine",
       "pieceIndex2": [
         1,
         0,
         2
       ],
+      "zoom": 1.0,
+      "easeType": "easeInOutSine",
       "pieceIndex": [
         1,
         0,
         1
-      ]
+      ],
+      "moveTime": 0.5
     },
     "id": 94087083,
     "idx": 12,
@@ -1948,10 +1948,10 @@
         1,
         2
       ],
-      "type": "Target",
       "disp": 1,
-      "forceId": 1,
-      "groupId": 0
+      "type": "Target",
+      "groupId": 0,
+      "forceId": 1
     },
     "id": 94087083,
     "idx": 13,
@@ -1979,7 +1979,6 @@
       "effectIds": [
         2
       ],
-      "skillId": 94087032,
       "actorEffectPieceIndex": [
         [
           1,
@@ -1987,6 +1986,7 @@
           1
         ]
       ],
+      "skillId": 94087032,
       "skillLv": 1
     },
     "id": 94087084,
@@ -2011,12 +2011,12 @@
   },
   {
     "script": {
-      "zoom": 1.0,
-      "easeType": "easeInOutSine",
+      "moveTime": 0.5,
       "squareIndexes": [
         5
       ],
-      "moveTime": 0.5
+      "easeType": "easeInOutSine",
+      "zoom": 1.0
     },
     "id": 94087086,
     "idx": 1,
@@ -2024,8 +2024,8 @@
   },
   {
     "script": {
-      "squareIndex": 5,
-      "effectId": 2
+      "effectId": 2,
+      "squareIndex": 5
     },
     "id": 94087086,
     "idx": 2,
@@ -2033,9 +2033,9 @@
   },
   {
     "script": {
+      "squareIndex1": 5,
       "squareIndex2": 4,
-      "effectId": 1,
-      "squareIndex1": 5
+      "effectId": 1
     },
     "id": 94087086,
     "idx": 3,
@@ -2043,9 +2043,9 @@
   },
   {
     "script": {
+      "squareIndex1": 5,
       "squareIndex2": 10,
-      "effectId": 1,
-      "squareIndex1": 5
+      "effectId": 1
     },
     "id": 94087086,
     "idx": 4,
@@ -2061,18 +2061,18 @@
   },
   {
     "script": {
-      "actionType": [
-        2,
-        2,
-        2
-      ],
       "pieceIndex": [
         2,
         6,
         7
       ],
-      "forceId": 1,
-      "groupId": 0
+      "actionType": [
+        2,
+        2,
+        2
+      ],
+      "groupId": 0,
+      "forceId": 1
     },
     "id": 94087086,
     "idx": 6,
@@ -2090,8 +2090,8 @@
         6,
         7
       ],
-      "forceId": 1,
-      "groupId": 0
+      "groupId": 0,
+      "forceId": 1
     },
     "id": 94087086,
     "idx": 7,
@@ -2107,8 +2107,8 @@
         6,
         7
       ],
-      "forceId": 1,
-      "groupId": 0
+      "groupId": 0,
+      "forceId": 1
     },
     "id": 94087087,
     "idx": 1,
@@ -2122,8 +2122,8 @@
       "pieceIndex": [
         2
       ],
-      "forceId": 1,
-      "groupId": 0
+      "groupId": 0,
+      "forceId": 1
     },
     "id": 94087088,
     "idx": 1,
@@ -2137,8 +2137,8 @@
       "pieceIndex": [
         2
       ],
-      "forceId": 1,
-      "groupId": 0
+      "groupId": 0,
+      "forceId": 1
     },
     "id": 94087089,
     "idx": 1,
@@ -2202,14 +2202,14 @@
         5
       ],
       "skillId": 94087002,
+      "skillLv": 1,
       "actorEffectPieceIndex": [
         [
           1,
           0,
           2
         ]
-      ],
-      "skillLv": 1
+      ]
     },
     "id": 94087095,
     "idx": 2,
@@ -2289,14 +2289,14 @@
         5
       ],
       "skillId": 94087002,
+      "skillLv": 1,
       "actorEffectPieceIndex": [
         [
           1,
           0,
           2
         ]
-      ],
-      "skillLv": 1
+      ]
     },
     "id": 94087103,
     "idx": 2,
@@ -2328,14 +2328,14 @@
   },
   {
     "script": {
-      "zoom": 1.0,
-      "easeType": "easeInOutSine",
+      "moveTime": 0.5,
       "squareIndexes": [
         20,
         21,
         37
       ],
-      "moveTime": 0.5
+      "easeType": "easeInOutSine",
+      "zoom": 1.0
     },
     "id": 94087106,
     "idx": 2,
@@ -2387,12 +2387,12 @@
   },
   {
     "script": {
-      "zoom": 1.0,
-      "easeType": "easeInOutSine",
+      "moveTime": 0.5,
       "squareIndexes": [
         5
       ],
-      "moveTime": 0.5
+      "easeType": "easeInOutSine",
+      "zoom": 1.0
     },
     "id": 94087106,
     "idx": 7,
@@ -2440,19 +2440,19 @@
   },
   {
     "script": {
-      "zoom": 1.0,
-      "moveTime": 0.5,
-      "easeType": "easeInOutSine",
       "pieceIndex2": [
         1,
         0,
         2
       ],
+      "zoom": 1.0,
+      "easeType": "easeInOutSine",
       "pieceIndex": [
         1,
         0,
         1
-      ]
+      ],
+      "moveTime": 0.5
     },
     "id": 94087106,
     "idx": 12,
@@ -2464,10 +2464,10 @@
         1,
         2
       ],
-      "type": "Target",
       "disp": 1,
-      "forceId": 1,
-      "groupId": 0
+      "type": "Target",
+      "groupId": 0,
+      "forceId": 1
     },
     "id": 94087106,
     "idx": 13,
@@ -2495,7 +2495,6 @@
       "effectIds": [
         2
       ],
-      "skillId": 94087032,
       "actorEffectPieceIndex": [
         [
           1,
@@ -2503,6 +2502,7 @@
           1
         ]
       ],
+      "skillId": 94087032,
       "skillLv": 1
     },
     "id": 94087107,
@@ -2527,12 +2527,12 @@
   },
   {
     "script": {
-      "zoom": 1.0,
-      "easeType": "easeInOutSine",
+      "moveTime": 0.5,
       "squareIndexes": [
         5
       ],
-      "moveTime": 0.5
+      "easeType": "easeInOutSine",
+      "zoom": 1.0
     },
     "id": 94087109,
     "idx": 1,
@@ -2540,8 +2540,8 @@
   },
   {
     "script": {
-      "squareIndex": 5,
-      "effectId": 2
+      "effectId": 2,
+      "squareIndex": 5
     },
     "id": 94087109,
     "idx": 2,
@@ -2549,9 +2549,9 @@
   },
   {
     "script": {
+      "squareIndex1": 5,
       "squareIndex2": 4,
-      "effectId": 1,
-      "squareIndex1": 5
+      "effectId": 1
     },
     "id": 94087109,
     "idx": 3,
@@ -2559,9 +2559,9 @@
   },
   {
     "script": {
+      "squareIndex1": 5,
       "squareIndex2": 10,
-      "effectId": 1,
-      "squareIndex1": 5
+      "effectId": 1
     },
     "id": 94087109,
     "idx": 4,
@@ -2577,18 +2577,18 @@
   },
   {
     "script": {
-      "actionType": [
-        2,
-        2,
-        2
-      ],
       "pieceIndex": [
         2,
         7,
         10
       ],
-      "forceId": 1,
-      "groupId": 0
+      "actionType": [
+        2,
+        2,
+        2
+      ],
+      "groupId": 0,
+      "forceId": 1
     },
     "id": 94087109,
     "idx": 6,
@@ -2606,8 +2606,8 @@
         7,
         10
       ],
-      "forceId": 1,
-      "groupId": 0
+      "groupId": 0,
+      "forceId": 1
     },
     "id": 94087109,
     "idx": 7,
@@ -2623,8 +2623,8 @@
         7,
         10
       ],
-      "forceId": 1,
-      "groupId": 0
+      "groupId": 0,
+      "forceId": 1
     },
     "id": 94087110,
     "idx": 1,
@@ -2638,8 +2638,8 @@
       "pieceIndex": [
         2
       ],
-      "forceId": 1,
-      "groupId": 0
+      "groupId": 0,
+      "forceId": 1
     },
     "id": 94087111,
     "idx": 1,
@@ -2653,8 +2653,8 @@
       "pieceIndex": [
         2
       ],
-      "forceId": 1,
-      "groupId": 0
+      "groupId": 0,
+      "forceId": 1
     },
     "id": 94087112,
     "idx": 1,
@@ -2718,14 +2718,14 @@
         5
       ],
       "skillId": 94087002,
+      "skillLv": 1,
       "actorEffectPieceIndex": [
         [
           1,
           0,
           2
         ]
-      ],
-      "skillLv": 1
+      ]
     },
     "id": 94087118,
     "idx": 2,
@@ -2805,14 +2805,14 @@
         5
       ],
       "skillId": 94087002,
+      "skillLv": 1,
       "actorEffectPieceIndex": [
         [
           1,
           0,
           2
         ]
-      ],
-      "skillLv": 1
+      ]
     },
     "id": 94087126,
     "idx": 2,
@@ -2844,19 +2844,19 @@
   },
   {
     "script": {
-      "zoom": 1.0,
-      "moveTime": 0.5,
-      "easeType": "easeInOutSine",
       "pieceIndex2": [
         1,
         0,
         3
       ],
+      "zoom": 1.0,
+      "easeType": "easeInOutSine",
       "pieceIndex": [
         1,
         0,
         2
-      ]
+      ],
+      "moveTime": 0.5
     },
     "id": 94087129,
     "idx": 2,
@@ -2907,13 +2907,13 @@
   {
     "script": {
       "zoom": 1.0,
-      "moveTime": 0.5,
       "easeType": "easeInOutSine",
       "pieceIndex": [
         1,
         0,
         1
-      ]
+      ],
+      "moveTime": 0.5
     },
     "id": 94087129,
     "idx": 7,
@@ -2921,8 +2921,8 @@
   },
   {
     "script": {
-      "type": "Target",
       "disp": 1,
+      "type": "Target",
       "pieceIndex": [
         1,
         0,
@@ -2997,19 +2997,19 @@
   },
   {
     "script": {
-      "zoom": 1.0,
-      "moveTime": 0.5,
-      "easeType": "easeInOutSine",
       "pieceIndex2": [
         1,
         0,
         3
       ],
+      "zoom": 1.0,
+      "easeType": "easeInOutSine",
       "pieceIndex": [
         1,
         0,
         2
-      ]
+      ],
+      "moveTime": 0.5
     },
     "id": 94087134,
     "idx": 2,
@@ -3060,13 +3060,13 @@
   {
     "script": {
       "zoom": 1.0,
-      "moveTime": 0.5,
       "easeType": "easeInOutSine",
       "pieceIndex": [
         1,
         0,
         1
-      ]
+      ],
+      "moveTime": 0.5
     },
     "id": 94087134,
     "idx": 7,
@@ -3074,8 +3074,8 @@
   },
   {
     "script": {
-      "type": "Target",
       "disp": 1,
+      "type": "Target",
       "pieceIndex": [
         1,
         0,
@@ -3150,12 +3150,12 @@
   },
   {
     "script": {
-      "zoom": 1.0,
-      "easeType": "easeInOutSine",
+      "moveTime": 0.5,
       "squareIndexes": [
         29
       ],
-      "moveTime": 0.5
+      "easeType": "easeInOutSine",
+      "zoom": 1.0
     },
     "id": 94087140,
     "idx": 2,
@@ -3203,13 +3203,13 @@
   },
   {
     "script": {
-      "zoom": 1.0,
-      "easeType": "easeInOutSine",
+      "moveTime": 0.5,
       "squareIndexes": [
         13,
         14
       ],
-      "moveTime": 0.5
+      "easeType": "easeInOutSine",
+      "zoom": 1.0
     },
     "id": 94087140,
     "idx": 7,
@@ -3276,12 +3276,12 @@
   },
   {
     "script": {
-      "zoom": 1.0,
-      "easeType": "easeInOutSine",
+      "moveTime": 0.5,
       "squareIndexes": [
         13
       ],
-      "moveTime": 0.5
+      "easeType": "easeInOutSine",
+      "zoom": 1.0
     },
     "id": 94087141,
     "idx": 1,
@@ -3289,8 +3289,8 @@
   },
   {
     "script": {
-      "squareIndex": 13,
-      "effectId": 2
+      "effectId": 2,
+      "squareIndex": 13
     },
     "id": 94087141,
     "idx": 2,
@@ -3298,9 +3298,9 @@
   },
   {
     "script": {
+      "squareIndex1": 13,
       "squareIndex2": 33,
-      "effectId": 1,
-      "squareIndex1": 13
+      "effectId": 1
     },
     "id": 94087141,
     "idx": 3,
@@ -3308,9 +3308,9 @@
   },
   {
     "script": {
+      "squareIndex1": 13,
       "squareIndex2": 36,
-      "effectId": 1,
-      "squareIndex1": 13
+      "effectId": 1
     },
     "id": 94087141,
     "idx": 4,
@@ -3332,8 +3332,8 @@
       "pieceIndex": [
         7
       ],
-      "forceId": 1,
-      "groupId": 0
+      "groupId": 0,
+      "forceId": 1
     },
     "id": 94087141,
     "idx": 6,
@@ -3341,12 +3341,12 @@
   },
   {
     "script": {
-      "zoom": 1.0,
-      "easeType": "easeInOutSine",
+      "moveTime": 0.5,
       "squareIndexes": [
         14
       ],
-      "moveTime": 0.5
+      "easeType": "easeInOutSine",
+      "zoom": 1.0
     },
     "id": 94087142,
     "idx": 1,
@@ -3354,8 +3354,8 @@
   },
   {
     "script": {
-      "squareIndex": 14,
-      "effectId": 2
+      "effectId": 2,
+      "squareIndex": 14
     },
     "id": 94087142,
     "idx": 2,
@@ -3363,9 +3363,9 @@
   },
   {
     "script": {
+      "squareIndex1": 14,
       "squareIndex2": 27,
-      "effectId": 1,
-      "squareIndex1": 14
+      "effectId": 1
     },
     "id": 94087142,
     "idx": 3,
@@ -3373,9 +3373,9 @@
   },
   {
     "script": {
+      "squareIndex1": 14,
       "squareIndex2": 31,
-      "effectId": 1,
-      "squareIndex1": 14
+      "effectId": 1
     },
     "id": 94087142,
     "idx": 4,
@@ -3397,8 +3397,8 @@
       "pieceIndex": [
         7
       ],
-      "forceId": 1,
-      "groupId": 0
+      "groupId": 0,
+      "forceId": 1
     },
     "id": 94087142,
     "idx": 6,
@@ -3406,12 +3406,12 @@
   },
   {
     "script": {
-      "zoom": 1.0,
-      "easeType": "easeInOutSine",
+      "moveTime": 0.5,
       "squareIndexes": [
         13
       ],
-      "moveTime": 0.5
+      "easeType": "easeInOutSine",
+      "zoom": 1.0
     },
     "id": 94087143,
     "idx": 1,
@@ -3419,8 +3419,8 @@
   },
   {
     "script": {
-      "squareIndex": 13,
-      "effectId": 2
+      "effectId": 2,
+      "squareIndex": 13
     },
     "id": 94087143,
     "idx": 2,
@@ -3428,9 +3428,9 @@
   },
   {
     "script": {
+      "squareIndex1": 13,
       "squareIndex2": 33,
-      "effectId": 1,
-      "squareIndex1": 13
+      "effectId": 1
     },
     "id": 94087143,
     "idx": 3,
@@ -3438,9 +3438,9 @@
   },
   {
     "script": {
+      "squareIndex1": 13,
       "squareIndex2": 36,
-      "effectId": 1,
-      "squareIndex1": 13
+      "effectId": 1
     },
     "id": 94087143,
     "idx": 4,
@@ -3448,12 +3448,12 @@
   },
   {
     "script": {
-      "zoom": 1.0,
-      "easeType": "easeInOutSine",
+      "moveTime": 0.5,
       "squareIndexes": [
         14
       ],
-      "moveTime": 0.5
+      "easeType": "easeInOutSine",
+      "zoom": 1.0
     },
     "id": 94087144,
     "idx": 1,
@@ -3461,8 +3461,8 @@
   },
   {
     "script": {
-      "squareIndex": 14,
-      "effectId": 2
+      "effectId": 2,
+      "squareIndex": 14
     },
     "id": 94087144,
     "idx": 2,
@@ -3470,9 +3470,9 @@
   },
   {
     "script": {
+      "squareIndex1": 14,
       "squareIndex2": 27,
-      "effectId": 1,
-      "squareIndex1": 14
+      "effectId": 1
     },
     "id": 94087144,
     "idx": 3,
@@ -3480,9 +3480,9 @@
   },
   {
     "script": {
+      "squareIndex1": 14,
       "squareIndex2": 31,
-      "effectId": 1,
-      "squareIndex1": 14
+      "effectId": 1
     },
     "id": 94087144,
     "idx": 4,
@@ -3650,13 +3650,13 @@
   {
     "script": {
       "zoom": 1.0,
-      "moveTime": 0.5,
       "easeType": "easeInOutSine",
       "pieceIndex": [
         1,
         0,
         1
-      ]
+      ],
+      "moveTime": 0.5
     },
     "id": 94087155,
     "idx": 6,
@@ -3705,13 +3705,13 @@
   {
     "script": {
       "zoom": 1.0,
-      "moveTime": 0.5,
       "easeType": "easeInOutSine",
       "pieceIndex": [
         1,
         0,
         1
-      ]
+      ],
+      "moveTime": 0.5
     },
     "id": 94087155,
     "idx": 11,
@@ -3719,8 +3719,8 @@
   },
   {
     "script": {
-      "type": "Target",
       "disp": 1,
+      "type": "Target",
       "pieceIndex": [
         1,
         0,
@@ -3817,21 +3817,21 @@
   },
   {
     "script": {
-      "noMoveLastPieceCamera": 1,
-      "skillId": 94087003,
-      "pieceIndexes": [
-        3
-      ],
-      "effectIds": [
-        3
-      ],
       "skillLv": 1,
+      "noMoveLastPieceCamera": 1,
       "actorEffectPieceIndex": [
         [
           1,
           0,
           2
         ]
+      ],
+      "skillId": 94087003,
+      "effectIds": [
+        3
+      ],
+      "pieceIndexes": [
+        3
       ]
     },
     "id": 94087160,
@@ -3856,21 +3856,21 @@
   },
   {
     "script": {
-      "noMoveLastPieceCamera": 1,
-      "skillId": 94087003,
-      "pieceIndexes": [
-        2
-      ],
-      "effectIds": [
-        3
-      ],
       "skillLv": 1,
+      "noMoveLastPieceCamera": 1,
       "actorEffectPieceIndex": [
         [
           1,
           0,
           3
         ]
+      ],
+      "skillId": 94087003,
+      "effectIds": [
+        3
+      ],
+      "pieceIndexes": [
+        2
       ]
     },
     "id": 94087161,
@@ -3887,8 +3887,8 @@
   },
   {
     "script": {
-      "bossIdx": 1,
-      "status": 0
+      "status": 0,
+      "bossIdx": 1
     },
     "id": 94087162,
     "idx": 1,
@@ -3905,11 +3905,11 @@
   {
     "script": {
       "zoom": 1.6,
+      "easeType": "easeInOutSine",
       "pos": [
         0,
         317
       ],
-      "easeType": "easeInOutSine",
       "moveTime": 1.0
     },
     "id": 94087162,
@@ -3918,8 +3918,8 @@
   },
   {
     "script": {
-      "objectName": "Typhon",
-      "animationName": "OmenRight"
+      "animationName": "OmenRight",
+      "objectName": "Typhon"
     },
     "id": 94087162,
     "idx": 4,
@@ -3936,11 +3936,11 @@
   {
     "script": {
       "zoom": 2.0,
+      "easeType": "easeOutQuad",
       "pos": [
         0,
         300
       ],
-      "easeType": "easeOutQuad",
       "moveTime": 0.8
     },
     "id": 94087162,
@@ -3957,8 +3957,8 @@
   },
   {
     "script": {
-      "squareIndexGroup": 94087001,
-      "effectId": 1
+      "effectId": 1,
+      "squareIndexGroup": 94087001
     },
     "id": 94087162,
     "idx": 8,
@@ -3983,11 +3983,11 @@
   {
     "script": {
       "zoom": 2.4,
+      "easeType": "easeInOutSine",
       "pos": [
         0,
         -319
       ],
-      "easeType": "easeInOutSine",
       "moveTime": 1.0
     },
     "id": 94087162,
@@ -4014,8 +4014,8 @@
   },
   {
     "script": {
-      "bossIdx": 1,
-      "status": 1
+      "status": 1,
+      "bossIdx": 1
     },
     "id": 94087163,
     "idx": 1,
@@ -4032,11 +4032,11 @@
   {
     "script": {
       "zoom": 1.6,
+      "easeType": "easeInOutSine",
       "pos": [
         0,
         317
       ],
-      "easeType": "easeInOutSine",
       "moveTime": 1.0
     },
     "id": 94087163,
@@ -4045,8 +4045,8 @@
   },
   {
     "script": {
-      "objectName": "Typhon",
-      "animationName": "OmenLeft"
+      "animationName": "OmenLeft",
+      "objectName": "Typhon"
     },
     "id": 94087163,
     "idx": 4,
@@ -4063,11 +4063,11 @@
   {
     "script": {
       "zoom": 2.0,
+      "easeType": "easeOutQuad",
       "pos": [
         0,
         300
       ],
-      "easeType": "easeOutQuad",
       "moveTime": 0.8
     },
     "id": 94087163,
@@ -4084,8 +4084,8 @@
   },
   {
     "script": {
-      "squareIndexGroup": 94087002,
-      "effectId": 1
+      "effectId": 1,
+      "squareIndexGroup": 94087002
     },
     "id": 94087163,
     "idx": 8,
@@ -4110,11 +4110,11 @@
   {
     "script": {
       "zoom": 2.4,
+      "easeType": "easeInOutSine",
       "pos": [
         0,
         -319
       ],
-      "easeType": "easeInOutSine",
       "moveTime": 1.0
     },
     "id": 94087163,
@@ -4159,11 +4159,11 @@
   {
     "script": {
       "zoom": 2.0,
+      "easeType": "easeInOutSine",
       "pos": [
         0,
         317
       ],
-      "easeType": "easeInOutSine",
       "moveTime": 1.0
     },
     "id": 94087165,
@@ -4197,8 +4197,8 @@
   },
   {
     "script": {
-      "objectName": "Typhon",
-      "animationName": "BreathRight"
+      "animationName": "BreathRight",
+      "objectName": "Typhon"
     },
     "id": 94087165,
     "idx": 5,
@@ -4207,11 +4207,11 @@
   {
     "script": {
       "zoom": 1.9,
+      "easeType": "easeOutQuad",
       "pos": [
         -40,
         380
       ],
-      "easeType": "easeOutQuad",
       "moveTime": 1.0
     },
     "id": 94087165,
@@ -4220,8 +4220,8 @@
   },
   {
     "script": {
-      "squareIndexGroup": 94087001,
-      "effectId": 1
+      "effectId": 1,
+      "squareIndexGroup": 94087001
     },
     "id": 94087165,
     "idx": 7,
@@ -4238,11 +4238,11 @@
   {
     "script": {
       "zoom": 2.0,
+      "easeType": "easeInOutSine",
       "pos": [
         100,
         -15
       ],
-      "easeType": "easeInOutSine",
       "moveTime": 0.3
     },
     "id": 94087165,
@@ -4260,11 +4260,11 @@
   {
     "script": {
       "zoom": 2.3,
+      "easeType": "easeInOutSine",
       "pos": [
         120,
         -250
       ],
-      "easeType": "easeInOutSine",
       "moveTime": 1.0
     },
     "id": 94087165,
@@ -4281,17 +4281,17 @@
   },
   {
     "script": {
+      "noMoveTargetCamera": 1,
+      "skillLv": 1,
       "noMoveLastPieceCamera": 1,
-      "noActorEffect": 1,
       "skillId": 94087018,
-      "pieceIndexes": [
-        1
-      ],
       "effectIds": [
         0
       ],
-      "skillLv": 1,
-      "noMoveTargetCamera": 1
+      "noActorEffect": 1,
+      "pieceIndexes": [
+        1
+      ]
     },
     "id": 94087165,
     "idx": 13,
@@ -4299,12 +4299,12 @@
   },
   {
     "script": {
-      "WarBoardBreakPointDamage": 1,
       "noActorEffect": 1,
-      "skillId": 94087004,
-      "bossProcessType": 1,
       "skillLv": 1,
-      "squareIndexGroup": 94087001
+      "bossProcessType": 1,
+      "squareIndexGroup": 94087001,
+      "skillId": 94087004,
+      "WarBoardBreakPointDamage": 1
     },
     "id": 94087165,
     "idx": 14,
@@ -4312,17 +4312,17 @@
   },
   {
     "script": {
+      "noMoveTargetCamera": 1,
+      "skillLv": 1,
       "noMoveLastPieceCamera": 1,
-      "noActorEffect": 1,
       "skillId": 94087019,
-      "pieceIndexes": [
-        1
-      ],
       "effectIds": [
         0
       ],
-      "skillLv": 1,
-      "noMoveTargetCamera": 1
+      "noActorEffect": 1,
+      "pieceIndexes": [
+        1
+      ]
     },
     "id": 94087165,
     "idx": 15,
@@ -4353,11 +4353,11 @@
   {
     "script": {
       "zoom": 2.0,
+      "easeType": "easeInOutSine",
       "pos": [
         0,
         317
       ],
-      "easeType": "easeInOutSine",
       "moveTime": 1.0
     },
     "id": 94087166,
@@ -4391,8 +4391,8 @@
   },
   {
     "script": {
-      "objectName": "Typhon",
-      "animationName": "BreathLeft"
+      "animationName": "BreathLeft",
+      "objectName": "Typhon"
     },
     "id": 94087166,
     "idx": 5,
@@ -4401,11 +4401,11 @@
   {
     "script": {
       "zoom": 1.9,
+      "easeType": "easeOutQuad",
       "pos": [
         40,
         380
       ],
-      "easeType": "easeOutQuad",
       "moveTime": 1.0
     },
     "id": 94087166,
@@ -4414,8 +4414,8 @@
   },
   {
     "script": {
-      "squareIndexGroup": 94087002,
-      "effectId": 1
+      "effectId": 1,
+      "squareIndexGroup": 94087002
     },
     "id": 94087166,
     "idx": 7,
@@ -4432,11 +4432,11 @@
   {
     "script": {
       "zoom": 2.0,
+      "easeType": "easeInOutSine",
       "pos": [
         -100,
         -15
       ],
-      "easeType": "easeInOutSine",
       "moveTime": 0.3
     },
     "id": 94087166,
@@ -4454,11 +4454,11 @@
   {
     "script": {
       "zoom": 2.3,
+      "easeType": "easeInOutSine",
       "pos": [
         -120,
         -250
       ],
-      "easeType": "easeInOutSine",
       "moveTime": 1.0
     },
     "id": 94087166,
@@ -4475,17 +4475,17 @@
   },
   {
     "script": {
+      "noMoveTargetCamera": 1,
+      "skillLv": 1,
       "noMoveLastPieceCamera": 1,
-      "noActorEffect": 1,
       "skillId": 94087018,
-      "pieceIndexes": [
-        1
-      ],
       "effectIds": [
         0
       ],
-      "skillLv": 1,
-      "noMoveTargetCamera": 1
+      "noActorEffect": 1,
+      "pieceIndexes": [
+        1
+      ]
     },
     "id": 94087166,
     "idx": 13,
@@ -4493,12 +4493,12 @@
   },
   {
     "script": {
-      "WarBoardBreakPointDamage": 1,
       "noActorEffect": 1,
-      "skillId": 94087004,
-      "bossProcessType": 1,
       "skillLv": 1,
-      "squareIndexGroup": 94087002
+      "bossProcessType": 1,
+      "squareIndexGroup": 94087002,
+      "skillId": 94087004,
+      "WarBoardBreakPointDamage": 1
     },
     "id": 94087166,
     "idx": 14,
@@ -4506,17 +4506,17 @@
   },
   {
     "script": {
+      "noMoveTargetCamera": 1,
+      "skillLv": 1,
       "noMoveLastPieceCamera": 1,
-      "noActorEffect": 1,
       "skillId": 94087019,
-      "pieceIndexes": [
-        1
-      ],
       "effectIds": [
         0
       ],
-      "skillLv": 1,
-      "noMoveTargetCamera": 1
+      "noActorEffect": 1,
+      "pieceIndexes": [
+        1
+      ]
     },
     "id": 94087166,
     "idx": 15,
@@ -4546,8 +4546,8 @@
   },
   {
     "script": {
-      "bossIdx": 1,
-      "status": 0
+      "status": 0,
+      "bossIdx": 1
     },
     "id": 94087167,
     "idx": 1,
@@ -4564,11 +4564,11 @@
   {
     "script": {
       "zoom": 1.6,
+      "easeType": "easeInOutSine",
       "pos": [
         0,
         317
       ],
-      "easeType": "easeInOutSine",
       "moveTime": 1.0
     },
     "id": 94087167,
@@ -4577,8 +4577,8 @@
   },
   {
     "script": {
-      "objectName": "Typhon",
-      "animationName": "OmenRight"
+      "animationName": "OmenRight",
+      "objectName": "Typhon"
     },
     "id": 94087167,
     "idx": 4,
@@ -4595,11 +4595,11 @@
   {
     "script": {
       "zoom": 2.0,
+      "easeType": "easeOutQuad",
       "pos": [
         0,
         300
       ],
-      "easeType": "easeOutQuad",
       "moveTime": 0.8
     },
     "id": 94087167,
@@ -4616,8 +4616,8 @@
   },
   {
     "script": {
-      "squareIndexGroup": 94087001,
-      "effectId": 1
+      "effectId": 1,
+      "squareIndexGroup": 94087001
     },
     "id": 94087167,
     "idx": 8,
@@ -4642,11 +4642,11 @@
   {
     "script": {
       "zoom": 2.4,
+      "easeType": "easeInOutSine",
       "pos": [
         0,
         -319
       ],
-      "easeType": "easeInOutSine",
       "moveTime": 1.0
     },
     "id": 94087167,
@@ -4664,8 +4664,8 @@
   },
   {
     "script": {
-      "bossIdx": 1,
-      "status": 1
+      "status": 1,
+      "bossIdx": 1
     },
     "id": 94087168,
     "idx": 1,
@@ -4682,11 +4682,11 @@
   {
     "script": {
       "zoom": 1.6,
+      "easeType": "easeInOutSine",
       "pos": [
         0,
         317
       ],
-      "easeType": "easeInOutSine",
       "moveTime": 1.0
     },
     "id": 94087168,
@@ -4695,8 +4695,8 @@
   },
   {
     "script": {
-      "objectName": "Typhon",
-      "animationName": "OmenLeft"
+      "animationName": "OmenLeft",
+      "objectName": "Typhon"
     },
     "id": 94087168,
     "idx": 4,
@@ -4713,11 +4713,11 @@
   {
     "script": {
       "zoom": 2.0,
+      "easeType": "easeOutQuad",
       "pos": [
         0,
         300
       ],
-      "easeType": "easeOutQuad",
       "moveTime": 0.8
     },
     "id": 94087168,
@@ -4734,8 +4734,8 @@
   },
   {
     "script": {
-      "squareIndexGroup": 94087002,
-      "effectId": 1
+      "effectId": 1,
+      "squareIndexGroup": 94087002
     },
     "id": 94087168,
     "idx": 8,
@@ -4760,11 +4760,11 @@
   {
     "script": {
       "zoom": 2.4,
+      "easeType": "easeInOutSine",
       "pos": [
         0,
         -319
       ],
-      "easeType": "easeInOutSine",
       "moveTime": 1.0
     },
     "id": 94087168,
@@ -4800,11 +4800,11 @@
   {
     "script": {
       "zoom": 2.0,
+      "easeType": "easeInOutSine",
       "pos": [
         0,
         317
       ],
-      "easeType": "easeInOutSine",
       "moveTime": 1.0
     },
     "id": 94087170,
@@ -4830,8 +4830,8 @@
   },
   {
     "script": {
-      "objectName": "Typhon",
-      "animationName": "BreathRight"
+      "animationName": "BreathRight",
+      "objectName": "Typhon"
     },
     "id": 94087170,
     "idx": 4,
@@ -4840,11 +4840,11 @@
   {
     "script": {
       "zoom": 1.9,
+      "easeType": "easeOutQuad",
       "pos": [
         -40,
         380
       ],
-      "easeType": "easeOutQuad",
       "moveTime": 1.0
     },
     "id": 94087170,
@@ -4853,8 +4853,8 @@
   },
   {
     "script": {
-      "squareIndexGroup": 94087001,
-      "effectId": 1
+      "effectId": 1,
+      "squareIndexGroup": 94087001
     },
     "id": 94087170,
     "idx": 6,
@@ -4871,11 +4871,11 @@
   {
     "script": {
       "zoom": 2.0,
+      "easeType": "easeInOutSine",
       "pos": [
         100,
         -15
       ],
-      "easeType": "easeInOutSine",
       "moveTime": 0.3
     },
     "id": 94087170,
@@ -4893,11 +4893,11 @@
   {
     "script": {
       "zoom": 2.3,
+      "easeType": "easeInOutSine",
       "pos": [
         120,
         -250
       ],
-      "easeType": "easeInOutSine",
       "moveTime": 1.0
     },
     "id": 94087170,
@@ -4914,17 +4914,17 @@
   },
   {
     "script": {
+      "noMoveTargetCamera": 1,
+      "skillLv": 1,
       "noMoveLastPieceCamera": 1,
-      "noActorEffect": 1,
       "skillId": 94087018,
-      "pieceIndexes": [
-        1
-      ],
       "effectIds": [
         0
       ],
-      "skillLv": 1,
-      "noMoveTargetCamera": 1
+      "noActorEffect": 1,
+      "pieceIndexes": [
+        1
+      ]
     },
     "id": 94087170,
     "idx": 12,
@@ -4932,12 +4932,12 @@
   },
   {
     "script": {
-      "WarBoardBreakPointDamage": 1,
       "noActorEffect": 1,
-      "skillId": 94087004,
-      "bossProcessType": 1,
       "skillLv": 1,
-      "squareIndexGroup": 94087001
+      "bossProcessType": 1,
+      "squareIndexGroup": 94087001,
+      "skillId": 94087004,
+      "WarBoardBreakPointDamage": 1
     },
     "id": 94087170,
     "idx": 13,
@@ -4945,17 +4945,17 @@
   },
   {
     "script": {
+      "noMoveTargetCamera": 1,
+      "skillLv": 1,
       "noMoveLastPieceCamera": 1,
-      "noActorEffect": 1,
       "skillId": 94087019,
-      "pieceIndexes": [
-        1
-      ],
       "effectIds": [
         0
       ],
-      "skillLv": 1,
-      "noMoveTargetCamera": 1
+      "noActorEffect": 1,
+      "pieceIndexes": [
+        1
+      ]
     },
     "id": 94087170,
     "idx": 14,
@@ -4986,11 +4986,11 @@
   {
     "script": {
       "zoom": 2.0,
+      "easeType": "easeInOutSine",
       "pos": [
         0,
         317
       ],
-      "easeType": "easeInOutSine",
       "moveTime": 1.0
     },
     "id": 94087171,
@@ -5016,8 +5016,8 @@
   },
   {
     "script": {
-      "objectName": "Typhon",
-      "animationName": "BreathLeft"
+      "animationName": "BreathLeft",
+      "objectName": "Typhon"
     },
     "id": 94087171,
     "idx": 4,
@@ -5026,11 +5026,11 @@
   {
     "script": {
       "zoom": 1.9,
+      "easeType": "easeOutQuad",
       "pos": [
         40,
         380
       ],
-      "easeType": "easeOutQuad",
       "moveTime": 1.0
     },
     "id": 94087171,
@@ -5039,8 +5039,8 @@
   },
   {
     "script": {
-      "squareIndexGroup": 94087002,
-      "effectId": 1
+      "effectId": 1,
+      "squareIndexGroup": 94087002
     },
     "id": 94087171,
     "idx": 6,
@@ -5057,11 +5057,11 @@
   {
     "script": {
       "zoom": 2.0,
+      "easeType": "easeInOutSine",
       "pos": [
         -100,
         -15
       ],
-      "easeType": "easeInOutSine",
       "moveTime": 0.3
     },
     "id": 94087171,
@@ -5079,11 +5079,11 @@
   {
     "script": {
       "zoom": 2.3,
+      "easeType": "easeInOutSine",
       "pos": [
         -120,
         -250
       ],
-      "easeType": "easeInOutSine",
       "moveTime": 1.0
     },
     "id": 94087171,
@@ -5100,17 +5100,17 @@
   },
   {
     "script": {
+      "noMoveTargetCamera": 1,
+      "skillLv": 1,
       "noMoveLastPieceCamera": 1,
-      "noActorEffect": 1,
       "skillId": 94087018,
-      "pieceIndexes": [
-        1
-      ],
       "effectIds": [
         0
       ],
-      "skillLv": 1,
-      "noMoveTargetCamera": 1
+      "noActorEffect": 1,
+      "pieceIndexes": [
+        1
+      ]
     },
     "id": 94087171,
     "idx": 12,
@@ -5118,12 +5118,12 @@
   },
   {
     "script": {
-      "WarBoardBreakPointDamage": 1,
       "noActorEffect": 1,
-      "skillId": 94087004,
-      "bossProcessType": 1,
       "skillLv": 1,
-      "squareIndexGroup": 94087002
+      "bossProcessType": 1,
+      "squareIndexGroup": 94087002,
+      "skillId": 94087004,
+      "WarBoardBreakPointDamage": 1
     },
     "id": 94087171,
     "idx": 13,
@@ -5131,17 +5131,17 @@
   },
   {
     "script": {
+      "noMoveTargetCamera": 1,
+      "skillLv": 1,
       "noMoveLastPieceCamera": 1,
-      "noActorEffect": 1,
       "skillId": 94087019,
-      "pieceIndexes": [
-        1
-      ],
       "effectIds": [
         0
       ],
-      "skillLv": 1,
-      "noMoveTargetCamera": 1
+      "noActorEffect": 1,
+      "pieceIndexes": [
+        1
+      ]
     },
     "id": 94087171,
     "idx": 14,
@@ -5203,21 +5203,21 @@
   },
   {
     "script": {
-      "noMoveLastPieceCamera": 1,
-      "skillId": 94087005,
-      "pieceIndexes": [
-        1
-      ],
-      "effectIds": [
-        0
-      ],
       "skillLv": 1,
+      "noMoveLastPieceCamera": 1,
       "actorEffectPieceIndex": [
         [
           1,
           0,
           1
         ]
+      ],
+      "skillId": 94087005,
+      "effectIds": [
+        0
+      ],
+      "pieceIndexes": [
+        1
       ]
     },
     "id": 94087173,
@@ -5226,8 +5226,8 @@
   },
   {
     "script": {
-      "type": "Barrier",
       "disp": 1,
+      "type": "Barrier",
       "pieceIndex": [
         1,
         0,
@@ -5264,16 +5264,16 @@
   },
   {
     "script": {
+      "skillLv": 1,
       "noMoveLastPieceCamera": 1,
-      "noActorEffect": 1,
       "skillId": 94087016,
-      "pieceIndexes": [
-        1
-      ],
       "effectIds": [
         0
       ],
-      "skillLv": 1
+      "noActorEffect": 1,
+      "pieceIndexes": [
+        1
+      ]
     },
     "id": 94087174,
     "idx": 2,
@@ -5281,8 +5281,8 @@
   },
   {
     "script": {
-      "type": "Barrier",
       "disp": 0,
+      "type": "Barrier",
       "pieceIndex": [
         1,
         0,
@@ -5391,13 +5391,13 @@
   {
     "script": {
       "zoom": 1.0,
-      "moveTime": 0.5,
       "easeType": "easeInOutSine",
       "pieceIndex": [
         1,
         0,
         1
-      ]
+      ],
+      "moveTime": 0.5
     },
     "id": 94087178,
     "idx": 6,
@@ -5446,13 +5446,13 @@
   {
     "script": {
       "zoom": 1.0,
-      "moveTime": 0.5,
       "easeType": "easeInOutSine",
       "pieceIndex": [
         1,
         0,
         1
-      ]
+      ],
+      "moveTime": 0.5
     },
     "id": 94087178,
     "idx": 11,
@@ -5460,8 +5460,8 @@
   },
   {
     "script": {
-      "type": "Target",
       "disp": 1,
+      "type": "Target",
       "pieceIndex": [
         1,
         0,
@@ -5558,21 +5558,21 @@
   },
   {
     "script": {
-      "noMoveLastPieceCamera": 1,
-      "skillId": 94087003,
-      "pieceIndexes": [
-        3
-      ],
-      "effectIds": [
-        3
-      ],
       "skillLv": 1,
+      "noMoveLastPieceCamera": 1,
       "actorEffectPieceIndex": [
         [
           1,
           0,
           2
         ]
+      ],
+      "skillId": 94087003,
+      "effectIds": [
+        3
+      ],
+      "pieceIndexes": [
+        3
       ]
     },
     "id": 94087183,
@@ -5597,21 +5597,21 @@
   },
   {
     "script": {
-      "noMoveLastPieceCamera": 1,
-      "skillId": 94087003,
-      "pieceIndexes": [
-        2
-      ],
-      "effectIds": [
-        3
-      ],
       "skillLv": 1,
+      "noMoveLastPieceCamera": 1,
       "actorEffectPieceIndex": [
         [
           1,
           0,
           3
         ]
+      ],
+      "skillId": 94087003,
+      "effectIds": [
+        3
+      ],
+      "pieceIndexes": [
+        2
       ]
     },
     "id": 94087184,
@@ -5628,8 +5628,8 @@
   },
   {
     "script": {
-      "bossIdx": 1,
-      "status": 0
+      "status": 0,
+      "bossIdx": 1
     },
     "id": 94087185,
     "idx": 1,
@@ -5646,11 +5646,11 @@
   {
     "script": {
       "zoom": 1.6,
+      "easeType": "easeInOutSine",
       "pos": [
         0,
         317
       ],
-      "easeType": "easeInOutSine",
       "moveTime": 1.0
     },
     "id": 94087185,
@@ -5659,8 +5659,8 @@
   },
   {
     "script": {
-      "objectName": "Typhon",
-      "animationName": "OmenRight"
+      "animationName": "OmenRight",
+      "objectName": "Typhon"
     },
     "id": 94087185,
     "idx": 4,
@@ -5677,11 +5677,11 @@
   {
     "script": {
       "zoom": 2.0,
+      "easeType": "easeOutQuad",
       "pos": [
         0,
         300
       ],
-      "easeType": "easeOutQuad",
       "moveTime": 0.8
     },
     "id": 94087185,
@@ -5698,8 +5698,8 @@
   },
   {
     "script": {
-      "squareIndexGroup": 94087003,
-      "effectId": 1
+      "effectId": 1,
+      "squareIndexGroup": 94087003
     },
     "id": 94087185,
     "idx": 8,
@@ -5724,11 +5724,11 @@
   {
     "script": {
       "zoom": 2.4,
+      "easeType": "easeInOutSine",
       "pos": [
         0,
         -319
       ],
-      "easeType": "easeInOutSine",
       "moveTime": 1.0
     },
     "id": 94087185,
@@ -5755,8 +5755,8 @@
   },
   {
     "script": {
-      "bossIdx": 1,
-      "status": 1
+      "status": 1,
+      "bossIdx": 1
     },
     "id": 94087186,
     "idx": 1,
@@ -5773,11 +5773,11 @@
   {
     "script": {
       "zoom": 1.6,
+      "easeType": "easeInOutSine",
       "pos": [
         0,
         317
       ],
-      "easeType": "easeInOutSine",
       "moveTime": 1.0
     },
     "id": 94087186,
@@ -5786,8 +5786,8 @@
   },
   {
     "script": {
-      "objectName": "Typhon",
-      "animationName": "OmenLeft"
+      "animationName": "OmenLeft",
+      "objectName": "Typhon"
     },
     "id": 94087186,
     "idx": 4,
@@ -5804,11 +5804,11 @@
   {
     "script": {
       "zoom": 2.0,
+      "easeType": "easeOutQuad",
       "pos": [
         0,
         300
       ],
-      "easeType": "easeOutQuad",
       "moveTime": 0.8
     },
     "id": 94087186,
@@ -5825,8 +5825,8 @@
   },
   {
     "script": {
-      "squareIndexGroup": 94087004,
-      "effectId": 1
+      "effectId": 1,
+      "squareIndexGroup": 94087004
     },
     "id": 94087186,
     "idx": 8,
@@ -5851,11 +5851,11 @@
   {
     "script": {
       "zoom": 2.4,
+      "easeType": "easeInOutSine",
       "pos": [
         0,
         -319
       ],
-      "easeType": "easeInOutSine",
       "moveTime": 1.0
     },
     "id": 94087186,
@@ -5900,11 +5900,11 @@
   {
     "script": {
       "zoom": 2.0,
+      "easeType": "easeInOutSine",
       "pos": [
         0,
         317
       ],
-      "easeType": "easeInOutSine",
       "moveTime": 1.0
     },
     "id": 94087188,
@@ -5938,8 +5938,8 @@
   },
   {
     "script": {
-      "objectName": "Typhon",
-      "animationName": "BreathRight"
+      "animationName": "BreathRight",
+      "objectName": "Typhon"
     },
     "id": 94087188,
     "idx": 5,
@@ -5948,11 +5948,11 @@
   {
     "script": {
       "zoom": 1.9,
+      "easeType": "easeOutQuad",
       "pos": [
         -40,
         380
       ],
-      "easeType": "easeOutQuad",
       "moveTime": 1.0
     },
     "id": 94087188,
@@ -5961,8 +5961,8 @@
   },
   {
     "script": {
-      "squareIndexGroup": 94087003,
-      "effectId": 1
+      "effectId": 1,
+      "squareIndexGroup": 94087003
     },
     "id": 94087188,
     "idx": 7,
@@ -5979,11 +5979,11 @@
   {
     "script": {
       "zoom": 2.0,
+      "easeType": "easeInOutSine",
       "pos": [
         100,
         -15
       ],
-      "easeType": "easeInOutSine",
       "moveTime": 0.3
     },
     "id": 94087188,
@@ -6001,11 +6001,11 @@
   {
     "script": {
       "zoom": 2.3,
+      "easeType": "easeInOutSine",
       "pos": [
         120,
         -250
       ],
-      "easeType": "easeInOutSine",
       "moveTime": 1.0
     },
     "id": 94087188,
@@ -6022,17 +6022,17 @@
   },
   {
     "script": {
+      "noMoveTargetCamera": 1,
+      "skillLv": 1,
       "noMoveLastPieceCamera": 1,
-      "noActorEffect": 1,
       "skillId": 94087018,
-      "pieceIndexes": [
-        1
-      ],
       "effectIds": [
         0
       ],
-      "skillLv": 1,
-      "noMoveTargetCamera": 1
+      "noActorEffect": 1,
+      "pieceIndexes": [
+        1
+      ]
     },
     "id": 94087188,
     "idx": 13,
@@ -6040,12 +6040,12 @@
   },
   {
     "script": {
-      "WarBoardBreakPointDamage": 1,
       "noActorEffect": 1,
-      "skillId": 94087004,
-      "bossProcessType": 1,
       "skillLv": 1,
-      "squareIndexGroup": 94087003
+      "bossProcessType": 1,
+      "squareIndexGroup": 94087003,
+      "skillId": 94087004,
+      "WarBoardBreakPointDamage": 1
     },
     "id": 94087188,
     "idx": 14,
@@ -6053,17 +6053,17 @@
   },
   {
     "script": {
+      "noMoveTargetCamera": 1,
+      "skillLv": 1,
       "noMoveLastPieceCamera": 1,
-      "noActorEffect": 1,
       "skillId": 94087019,
-      "pieceIndexes": [
-        1
-      ],
       "effectIds": [
         0
       ],
-      "skillLv": 1,
-      "noMoveTargetCamera": 1
+      "noActorEffect": 1,
+      "pieceIndexes": [
+        1
+      ]
     },
     "id": 94087188,
     "idx": 15,
@@ -6094,11 +6094,11 @@
   {
     "script": {
       "zoom": 2.0,
+      "easeType": "easeInOutSine",
       "pos": [
         0,
         317
       ],
-      "easeType": "easeInOutSine",
       "moveTime": 1.0
     },
     "id": 94087189,
@@ -6132,8 +6132,8 @@
   },
   {
     "script": {
-      "objectName": "Typhon",
-      "animationName": "BreathLeft"
+      "animationName": "BreathLeft",
+      "objectName": "Typhon"
     },
     "id": 94087189,
     "idx": 5,
@@ -6142,11 +6142,11 @@
   {
     "script": {
       "zoom": 1.9,
+      "easeType": "easeOutQuad",
       "pos": [
         40,
         380
       ],
-      "easeType": "easeOutQuad",
       "moveTime": 1.0
     },
     "id": 94087189,
@@ -6155,8 +6155,8 @@
   },
   {
     "script": {
-      "squareIndexGroup": 94087004,
-      "effectId": 1
+      "effectId": 1,
+      "squareIndexGroup": 94087004
     },
     "id": 94087189,
     "idx": 7,
@@ -6173,11 +6173,11 @@
   {
     "script": {
       "zoom": 2.0,
+      "easeType": "easeInOutSine",
       "pos": [
         -100,
         -15
       ],
-      "easeType": "easeInOutSine",
       "moveTime": 0.3
     },
     "id": 94087189,
@@ -6195,11 +6195,11 @@
   {
     "script": {
       "zoom": 2.3,
+      "easeType": "easeInOutSine",
       "pos": [
         -120,
         -250
       ],
-      "easeType": "easeInOutSine",
       "moveTime": 1.0
     },
     "id": 94087189,
@@ -6216,17 +6216,17 @@
   },
   {
     "script": {
+      "noMoveTargetCamera": 1,
+      "skillLv": 1,
       "noMoveLastPieceCamera": 1,
-      "noActorEffect": 1,
       "skillId": 94087018,
-      "pieceIndexes": [
-        1
-      ],
       "effectIds": [
         0
       ],
-      "skillLv": 1,
-      "noMoveTargetCamera": 1
+      "noActorEffect": 1,
+      "pieceIndexes": [
+        1
+      ]
     },
     "id": 94087189,
     "idx": 13,
@@ -6234,12 +6234,12 @@
   },
   {
     "script": {
-      "WarBoardBreakPointDamage": 1,
       "noActorEffect": 1,
-      "skillId": 94087004,
-      "bossProcessType": 1,
       "skillLv": 1,
-      "squareIndexGroup": 94087004
+      "bossProcessType": 1,
+      "squareIndexGroup": 94087004,
+      "skillId": 94087004,
+      "WarBoardBreakPointDamage": 1
     },
     "id": 94087189,
     "idx": 14,
@@ -6247,17 +6247,17 @@
   },
   {
     "script": {
+      "noMoveTargetCamera": 1,
+      "skillLv": 1,
       "noMoveLastPieceCamera": 1,
-      "noActorEffect": 1,
       "skillId": 94087019,
-      "pieceIndexes": [
-        1
-      ],
       "effectIds": [
         0
       ],
-      "skillLv": 1,
-      "noMoveTargetCamera": 1
+      "noActorEffect": 1,
+      "pieceIndexes": [
+        1
+      ]
     },
     "id": 94087189,
     "idx": 15,
@@ -6287,8 +6287,8 @@
   },
   {
     "script": {
-      "bossIdx": 1,
-      "status": 0
+      "status": 0,
+      "bossIdx": 1
     },
     "id": 94087190,
     "idx": 1,
@@ -6305,11 +6305,11 @@
   {
     "script": {
       "zoom": 1.6,
+      "easeType": "easeInOutSine",
       "pos": [
         0,
         317
       ],
-      "easeType": "easeInOutSine",
       "moveTime": 1.0
     },
     "id": 94087190,
@@ -6318,8 +6318,8 @@
   },
   {
     "script": {
-      "objectName": "Typhon",
-      "animationName": "OmenRight"
+      "animationName": "OmenRight",
+      "objectName": "Typhon"
     },
     "id": 94087190,
     "idx": 4,
@@ -6336,11 +6336,11 @@
   {
     "script": {
       "zoom": 2.0,
+      "easeType": "easeOutQuad",
       "pos": [
         0,
         300
       ],
-      "easeType": "easeOutQuad",
       "moveTime": 0.8
     },
     "id": 94087190,
@@ -6357,8 +6357,8 @@
   },
   {
     "script": {
-      "squareIndexGroup": 94087003,
-      "effectId": 1
+      "effectId": 1,
+      "squareIndexGroup": 94087003
     },
     "id": 94087190,
     "idx": 8,
@@ -6383,11 +6383,11 @@
   {
     "script": {
       "zoom": 2.4,
+      "easeType": "easeInOutSine",
       "pos": [
         0,
         -319
       ],
-      "easeType": "easeInOutSine",
       "moveTime": 1.0
     },
     "id": 94087190,
@@ -6405,8 +6405,8 @@
   },
   {
     "script": {
-      "bossIdx": 1,
-      "status": 1
+      "status": 1,
+      "bossIdx": 1
     },
     "id": 94087191,
     "idx": 1,
@@ -6423,11 +6423,11 @@
   {
     "script": {
       "zoom": 1.6,
+      "easeType": "easeInOutSine",
       "pos": [
         0,
         317
       ],
-      "easeType": "easeInOutSine",
       "moveTime": 1.0
     },
     "id": 94087191,
@@ -6436,8 +6436,8 @@
   },
   {
     "script": {
-      "objectName": "Typhon",
-      "animationName": "OmenLeft"
+      "animationName": "OmenLeft",
+      "objectName": "Typhon"
     },
     "id": 94087191,
     "idx": 4,
@@ -6454,11 +6454,11 @@
   {
     "script": {
       "zoom": 2.0,
+      "easeType": "easeOutQuad",
       "pos": [
         0,
         300
       ],
-      "easeType": "easeOutQuad",
       "moveTime": 0.8
     },
     "id": 94087191,
@@ -6475,8 +6475,8 @@
   },
   {
     "script": {
-      "squareIndexGroup": 94087004,
-      "effectId": 1
+      "effectId": 1,
+      "squareIndexGroup": 94087004
     },
     "id": 94087191,
     "idx": 8,
@@ -6501,11 +6501,11 @@
   {
     "script": {
       "zoom": 2.4,
+      "easeType": "easeInOutSine",
       "pos": [
         0,
         -319
       ],
-      "easeType": "easeInOutSine",
       "moveTime": 1.0
     },
     "id": 94087191,
@@ -6541,11 +6541,11 @@
   {
     "script": {
       "zoom": 2.0,
+      "easeType": "easeInOutSine",
       "pos": [
         0,
         317
       ],
-      "easeType": "easeInOutSine",
       "moveTime": 1.0
     },
     "id": 94087193,
@@ -6571,8 +6571,8 @@
   },
   {
     "script": {
-      "objectName": "Typhon",
-      "animationName": "BreathRight"
+      "animationName": "BreathRight",
+      "objectName": "Typhon"
     },
     "id": 94087193,
     "idx": 4,
@@ -6581,11 +6581,11 @@
   {
     "script": {
       "zoom": 1.9,
+      "easeType": "easeOutQuad",
       "pos": [
         -40,
         380
       ],
-      "easeType": "easeOutQuad",
       "moveTime": 1.0
     },
     "id": 94087193,
@@ -6594,8 +6594,8 @@
   },
   {
     "script": {
-      "squareIndexGroup": 94087003,
-      "effectId": 1
+      "effectId": 1,
+      "squareIndexGroup": 94087003
     },
     "id": 94087193,
     "idx": 6,
@@ -6612,11 +6612,11 @@
   {
     "script": {
       "zoom": 2.0,
+      "easeType": "easeInOutSine",
       "pos": [
         100,
         -15
       ],
-      "easeType": "easeInOutSine",
       "moveTime": 0.3
     },
     "id": 94087193,
@@ -6634,11 +6634,11 @@
   {
     "script": {
       "zoom": 2.3,
+      "easeType": "easeInOutSine",
       "pos": [
         120,
         -250
       ],
-      "easeType": "easeInOutSine",
       "moveTime": 1.0
     },
     "id": 94087193,
@@ -6655,17 +6655,17 @@
   },
   {
     "script": {
+      "noMoveTargetCamera": 1,
+      "skillLv": 1,
       "noMoveLastPieceCamera": 1,
-      "noActorEffect": 1,
       "skillId": 94087018,
-      "pieceIndexes": [
-        1
-      ],
       "effectIds": [
         0
       ],
-      "skillLv": 1,
-      "noMoveTargetCamera": 1
+      "noActorEffect": 1,
+      "pieceIndexes": [
+        1
+      ]
     },
     "id": 94087193,
     "idx": 12,
@@ -6673,12 +6673,12 @@
   },
   {
     "script": {
-      "WarBoardBreakPointDamage": 1,
       "noActorEffect": 1,
-      "skillId": 94087004,
-      "bossProcessType": 1,
       "skillLv": 1,
-      "squareIndexGroup": 94087003
+      "bossProcessType": 1,
+      "squareIndexGroup": 94087003,
+      "skillId": 94087004,
+      "WarBoardBreakPointDamage": 1
     },
     "id": 94087193,
     "idx": 13,
@@ -6686,17 +6686,17 @@
   },
   {
     "script": {
+      "noMoveTargetCamera": 1,
+      "skillLv": 1,
       "noMoveLastPieceCamera": 1,
-      "noActorEffect": 1,
       "skillId": 94087019,
-      "pieceIndexes": [
-        1
-      ],
       "effectIds": [
         0
       ],
-      "skillLv": 1,
-      "noMoveTargetCamera": 1
+      "noActorEffect": 1,
+      "pieceIndexes": [
+        1
+      ]
     },
     "id": 94087193,
     "idx": 14,
@@ -6727,11 +6727,11 @@
   {
     "script": {
       "zoom": 2.0,
+      "easeType": "easeInOutSine",
       "pos": [
         0,
         317
       ],
-      "easeType": "easeInOutSine",
       "moveTime": 1.0
     },
     "id": 94087194,
@@ -6757,8 +6757,8 @@
   },
   {
     "script": {
-      "objectName": "Typhon",
-      "animationName": "BreathLeft"
+      "animationName": "BreathLeft",
+      "objectName": "Typhon"
     },
     "id": 94087194,
     "idx": 4,
@@ -6767,11 +6767,11 @@
   {
     "script": {
       "zoom": 1.9,
+      "easeType": "easeOutQuad",
       "pos": [
         40,
         380
       ],
-      "easeType": "easeOutQuad",
       "moveTime": 1.0
     },
     "id": 94087194,
@@ -6780,8 +6780,8 @@
   },
   {
     "script": {
-      "squareIndexGroup": 94087004,
-      "effectId": 1
+      "effectId": 1,
+      "squareIndexGroup": 94087004
     },
     "id": 94087194,
     "idx": 6,
@@ -6798,11 +6798,11 @@
   {
     "script": {
       "zoom": 2.0,
+      "easeType": "easeInOutSine",
       "pos": [
         -100,
         -15
       ],
-      "easeType": "easeInOutSine",
       "moveTime": 0.3
     },
     "id": 94087194,
@@ -6820,11 +6820,11 @@
   {
     "script": {
       "zoom": 2.3,
+      "easeType": "easeInOutSine",
       "pos": [
         -120,
         -250
       ],
-      "easeType": "easeInOutSine",
       "moveTime": 1.0
     },
     "id": 94087194,
@@ -6841,17 +6841,17 @@
   },
   {
     "script": {
+      "noMoveTargetCamera": 1,
+      "skillLv": 1,
       "noMoveLastPieceCamera": 1,
-      "noActorEffect": 1,
       "skillId": 94087018,
-      "pieceIndexes": [
-        1
-      ],
       "effectIds": [
         0
       ],
-      "skillLv": 1,
-      "noMoveTargetCamera": 1
+      "noActorEffect": 1,
+      "pieceIndexes": [
+        1
+      ]
     },
     "id": 94087194,
     "idx": 12,
@@ -6859,12 +6859,12 @@
   },
   {
     "script": {
-      "WarBoardBreakPointDamage": 1,
       "noActorEffect": 1,
-      "skillId": 94087004,
-      "bossProcessType": 1,
       "skillLv": 1,
-      "squareIndexGroup": 94087004
+      "bossProcessType": 1,
+      "squareIndexGroup": 94087004,
+      "skillId": 94087004,
+      "WarBoardBreakPointDamage": 1
     },
     "id": 94087194,
     "idx": 13,
@@ -6872,17 +6872,17 @@
   },
   {
     "script": {
+      "noMoveTargetCamera": 1,
+      "skillLv": 1,
       "noMoveLastPieceCamera": 1,
-      "noActorEffect": 1,
       "skillId": 94087019,
-      "pieceIndexes": [
-        1
-      ],
       "effectIds": [
         0
       ],
-      "skillLv": 1,
-      "noMoveTargetCamera": 1
+      "noActorEffect": 1,
+      "pieceIndexes": [
+        1
+      ]
     },
     "id": 94087194,
     "idx": 14,
@@ -6944,21 +6944,21 @@
   },
   {
     "script": {
-      "noMoveLastPieceCamera": 1,
-      "skillId": 94087005,
-      "pieceIndexes": [
-        1
-      ],
-      "effectIds": [
-        0
-      ],
       "skillLv": 1,
+      "noMoveLastPieceCamera": 1,
       "actorEffectPieceIndex": [
         [
           1,
           0,
           1
         ]
+      ],
+      "skillId": 94087005,
+      "effectIds": [
+        0
+      ],
+      "pieceIndexes": [
+        1
       ]
     },
     "id": 94087196,
@@ -6967,8 +6967,8 @@
   },
   {
     "script": {
-      "type": "Barrier",
       "disp": 1,
+      "type": "Barrier",
       "pieceIndex": [
         1,
         0,
@@ -7005,16 +7005,16 @@
   },
   {
     "script": {
+      "skillLv": 1,
       "noMoveLastPieceCamera": 1,
-      "noActorEffect": 1,
       "skillId": 94087016,
-      "pieceIndexes": [
-        1
-      ],
       "effectIds": [
         0
       ],
-      "skillLv": 1
+      "noActorEffect": 1,
+      "pieceIndexes": [
+        1
+      ]
     },
     "id": 94087197,
     "idx": 2,
@@ -7022,8 +7022,8 @@
   },
   {
     "script": {
-      "type": "Barrier",
       "disp": 0,
+      "type": "Barrier",
       "pieceIndex": [
         1,
         0,
@@ -7076,11 +7076,11 @@
   },
   {
     "script": {
-      "type": "Goal",
+      "disp": 1,
       "squareIndexes": [
         1
       ],
-      "disp": 1
+      "type": "Goal"
     },
     "id": 94087201,
     "idx": 1,
@@ -7151,11 +7151,11 @@
   },
   {
     "script": {
-      "type": "Goal",
+      "disp": 1,
       "squareIndexes": [
         29
       ],
-      "disp": 1
+      "type": "Goal"
     },
     "id": 94087206,
     "idx": 1,
@@ -7256,8 +7256,8 @@
       "pieceIndex": [
         1
       ],
-      "forceId": 1,
-      "groupId": 0
+      "groupId": 0,
+      "forceId": 1
     },
     "id": 94087215,
     "idx": 1,
@@ -7271,8 +7271,8 @@
       "pieceIndex": [
         1
       ],
-      "forceId": 1,
-      "groupId": 0
+      "groupId": 0,
+      "forceId": 1
     },
     "id": 94087216,
     "idx": 1,
