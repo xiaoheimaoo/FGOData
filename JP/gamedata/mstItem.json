@@ -320,8 +320,8 @@
   {
     "individuality": [],
     "script": {
-      "questUseItemPriority": 80,
-      "maxNum": 9
+      "maxNum": 9,
+      "questUseItemPriority": 80
     },
     "eventId": 0,
     "eventGroupId": 0,
@@ -1207,9 +1207,9 @@
       10844
     ],
     "script": {
-      "battleAppearItemWait": 100,
+      "battleAppearEffectId": 4001008,
       "battleGetEffectId": 4001009,
-      "battleAppearEffectId": 4001008
+      "battleAppearItemWait": 100
     },
     "eventId": 0,
     "eventGroupId": 0,
@@ -42772,8 +42772,8 @@
       10902
     ],
     "script": {
-      "tradePickupTime": 86400,
-      "eventId": 80494
+      "eventId": 80494,
+      "tradePickupTime": 86400
     },
     "eventId": 80494,
     "eventGroupId": 0,
@@ -45563,9 +45563,9 @@
       10955
     ],
     "script": {
+      "playEffect": 1,
       "eventId": 80558,
-      "eventGroupId": 0,
-      "playEffect": 1
+      "eventGroupId": 0
     },
     "eventId": 80558,
     "eventGroupId": 0,
@@ -46387,13 +46387,13 @@
       10976
     ],
     "script": {
+      "effectId": 1,
+      "anotherPayName": "母なるロックオン",
       "skillList": [
         940429,
         940430,
         940431
-      ],
-      "effectId": 1,
-      "anotherPayName": "母なるロックオン"
+      ]
     },
     "eventId": 0,
     "eventGroupId": 0,

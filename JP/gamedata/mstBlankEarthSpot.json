@@ -422,9 +422,9 @@
   {
     "script": {
       "grandClassIconId": 1,
+      "grandFaceId": 12,
       "grandLimitCount": 4,
-      "grandImageId": 101700,
-      "grandFaceId": 12
+      "grandImageId": 101700
     },
     "id": 1050001,
     "warId": 8396,
@@ -441,11 +441,11 @@
   },
   {
     "script": {
-      "grandClassIconId": 7,
-      "grandLimitCount": 0,
       "grandOffsetX": 80,
-      "grandImageId": 109833100,
-      "grandFaceId": 0
+      "grandClassIconId": 7,
+      "grandFaceId": 0,
+      "grandLimitCount": 0,
+      "grandImageId": 109833100
     },
     "id": 1050002,
     "warId": 8398,
@@ -462,11 +462,11 @@
   },
   {
     "script": {
+      "grandLimitCount": 0,
+      "grandBaseOffsetY": 29,
+      "grandImageId": 109833110,
       "grandBaseScale": 0.9,
       "grandFaceId": 0,
-      "grandLimitCount": 0,
-      "grandImageId": 109833110,
-      "grandBaseOffsetY": 29,
       "grandBaseOffsetX": -78,
       "grandClassIconId": 3
     },
@@ -485,10 +485,10 @@
   },
   {
     "script": {
-      "grandFaceId": 0,
       "grandLimitCount": 0,
-      "grandImageId": 109833620,
       "grandBaseOffsetY": 23,
+      "grandImageId": 109833620,
+      "grandFaceId": 0,
       "grandBaseOffsetX": -134,
       "grandClassIconId": 1002
     },
@@ -507,10 +507,10 @@
   },
   {
     "script": {
-      "grandFaceId": 1,
       "grandLimitCount": 0,
-      "grandImageId": 109833620,
       "grandBaseOffsetY": 23,
+      "grandImageId": 109833620,
+      "grandFaceId": 1,
       "grandBaseOffsetX": -134,
       "grandClassIconId": 8
     },
@@ -529,10 +529,10 @@
   },
   {
     "script": {
-      "grandFaceId": 2,
       "grandLimitCount": 0,
-      "grandImageId": 109833620,
       "grandBaseOffsetY": 23,
+      "grandImageId": 109833620,
+      "grandFaceId": 2,
       "grandBaseOffsetX": -134,
       "grandClassIconId": 9
     },
@@ -551,10 +551,10 @@
   },
   {
     "script": {
-      "grandFaceId": 0,
       "grandLimitCount": 0,
-      "grandImageId": 109833880,
       "grandBaseOffsetY": 1,
+      "grandImageId": 109833880,
+      "grandFaceId": 0,
       "grandBaseOffsetX": -91,
       "grandClassIconId": 4
     },
@@ -573,11 +573,11 @@
   },
   {
     "script": {
+      "grandLimitCount": 0,
+      "grandBaseOffsetY": 16,
+      "grandImageId": 109833961,
       "grandBaseScale": 0.9,
       "grandFaceId": 0,
-      "grandLimitCount": 0,
-      "grandImageId": 109833961,
-      "grandBaseOffsetY": 16,
       "grandBaseOffsetX": -68,
       "grandClassIconId": 6
     },
@@ -596,13 +596,13 @@
   },
   {
     "script": {
-      "grandFaceId": 0,
-      "grandOffsetX": 102,
       "grandLimitCount": 0,
-      "grandImageId": 109834450,
       "grandBaseOffsetY": 17,
+      "grandImageId": 109834450,
+      "grandFaceId": 0,
       "grandBaseOffsetX": -135,
-      "grandClassIconId": 2
+      "grandClassIconId": 2,
+      "grandOffsetX": 102
     },
     "id": 1050009,
     "warId": 8406,
@@ -619,13 +619,13 @@
   },
   {
     "script": {
-      "grandFaceId": 0,
-      "grandOffsetX": 45,
       "grandLimitCount": 0,
-      "grandImageId": 109834600,
       "grandBaseOffsetY": -13,
+      "grandImageId": 109834600,
+      "grandFaceId": 0,
       "grandBaseOffsetX": -70,
-      "grandClassIconId": 5
+      "grandClassIconId": 5,
+      "grandOffsetX": 45
     },
     "id": 1050010,
     "warId": 8407,
@@ -642,23 +642,23 @@
   },
   {
     "script": {
-      "grandBaseOffsetX": -20,
-      "grandBaseOffsetY": 4,
-      "lockedGrandBaseScale": 0.9,
-      "grandImageId": 406000,
-      "grandClassIconId": 1002,
-      "grandBaseScale": 0.9,
+      "lockedGrandImageId": 109837480,
       "transitionGrandScoreScene": [
         8,
         9
       ],
-      "lockedGrandLimitCount": 0,
-      "overwriteGrandServantNameId": 80637,
-      "lockedGrandImageId": 109837480,
-      "grandLimitCount": 4,
-      "grandFaceId": 5,
+      "grandOffsetX": 0,
+      "grandImageId": 406000,
       "lockedGrandFaceId": 0,
-      "grandOffsetX": 0
+      "grandFaceId": 5,
+      "lockedGrandLimitCount": 0,
+      "grandLimitCount": 4,
+      "grandBaseScale": 0.9,
+      "overwriteGrandServantNameId": 80637,
+      "grandClassIconId": 1002,
+      "grandBaseOffsetY": 4,
+      "lockedGrandBaseScale": 0.9,
+      "grandBaseOffsetX": -20
     },
     "id": 1050011,
     "warId": 8413,
