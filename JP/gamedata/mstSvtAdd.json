@@ -552,6 +552,12 @@
   },
   {
     "script": {
+      "overwriteGrandGraphImageLimitCount": 0
+    },
+    "svtId": 406000
+  },
+  {
+    "script": {
       "overWriteServantShortName": "アンデルセン"
     },
     "svtId": 500500
@@ -656,19 +662,19 @@
   {
     "script": {
       "overwriteProfileName": "フランソワ（フランチェスカ）・プレラーティ",
-      "overwriteServantRecordName": "プレラーティ",
       "overwriteServantCoinName": "プレラーティ",
-      "commonName": "プレラーティ",
-      "overwriteServantRecordRuby": "プレラーティ"
+      "overwriteServantRecordName": "プレラーティ",
+      "overwriteServantRecordRuby": "プレラーティ",
+      "commonName": "プレラーティ"
     },
     "svtId": 505600
   },
   {
     "script": {
-      "commonName": "プレラーティ",
       "overwriteProfileName": "フランソワ（フランチェスカ）・プレラーティ",
       "overwriteServantRecordName": "プレラーティ",
-      "overwriteServantRecordRuby": "プレラーティ"
+      "overwriteServantRecordRuby": "プレラーティ",
+      "commonName": "プレラーティ"
     },
     "svtId": 505700
   },
@@ -782,10 +788,10 @@
   },
   {
     "script": {
+      "overwriteGrandGraphImageLimitCount": 0,
       "additionExpandImage": [
         3
-      ],
-      "overwriteGrandGraphImageLimitCount": 0
+      ]
     },
     "svtId": 604700
   },
@@ -1183,17 +1189,17 @@
   },
   {
     "script": {
+      "addIdentifyText": "男性",
       "overwriteGrandGraphImageLimitCount": 0,
-      "presentDialogMessageId": 2301200,
-      "addIdentifyText": "男性"
+      "presentDialogMessageId": 2301200
     },
     "svtId": 2300700
   },
   {
     "script": {
+      "addIdentifyText": "女性",
       "overwriteGrandGraphImageLimitCount": 0,
-      "presentDialogMessageId": 2301201,
-      "addIdentifyText": "女性"
+      "presentDialogMessageId": 2301201
     },
     "svtId": 2300800
   },
@@ -1306,8 +1312,8 @@
   },
   {
     "script": {
-      "overwriteGrandGraphImage": "[[3,3,10151706],[4,4,10151706]]",
-      "overwriteGrandGraphImageLimitCount": 1
+      "overwriteGrandGraphImageLimitCount": 1,
+      "overwriteGrandGraphImage": "[[3,3,10151706],[4,4,10151706]]"
     },
     "svtId": 4000100
   },
