@@ -35225,8 +35225,8 @@
   },
   {
     "script": {
-      "restrictionSlotMessage": "[FFFF00]編成制限\n\n自身の\nグランドキャスター\n以外のグランド\nサーヴァント\n　\n所持サーヴァント\nまたはサポートから\n編成できます。[-]",
-      "organizationSelectionDialogMessage": "自身のグランドキャスター以外の\nグランドサーヴァントを\n所持サーヴァントとサポート(フレンド)の\nどちらから編成するか選択してください。"
+      "organizationSelectionDialogMessage": "自身のグランドキャスター以外の\nグランドサーヴァントを\n所持サーヴァントとサポート(フレンド)の\nどちらから編成するか選択してください。",
+      "restrictionSlotMessage": "[FFFF00]編成制限\n\n自身の\nグランドキャスター\n以外のグランド\nサーヴァント\n　\n所持サーヴァント\nまたはサポートから\n編成できます。[-]"
     },
     "questId": 94151210,
     "phase": 1,
@@ -36691,8 +36691,8 @@
   },
   {
     "script": {
-      "organizationSelectionDialogMessage": "グレイ・リリィ(所持)、\nアスカラポス(NPC)から\n1騎を選択してください。",
-      "commonReleaseId": 10158007
+      "commonReleaseId": 10158007,
+      "organizationSelectionDialogMessage": "グレイ・リリィ(所持)、\nアスカラポス(NPC)から\n1騎を選択してください。"
     },
     "questId": 94158019,
     "phase": 2,
@@ -36705,8 +36705,8 @@
   },
   {
     "script": {
-      "organizationSelectionDialogMessage": "グレイ・リリィ(所持)、\nアスカラポス(NPC)から\n1騎を選択してください。",
-      "commonReleaseId": 10158008
+      "commonReleaseId": 10158008,
+      "organizationSelectionDialogMessage": "グレイ・リリィ(所持)、\nアスカラポス(NPC)から\n1騎を選択してください。"
     },
     "questId": 94158019,
     "phase": 2,
@@ -36793,8 +36793,8 @@
   },
   {
     "script": {
-      "organizationSelectionDialogMessage": "グレイ・リリィ(NPC)から\n1騎を選択してください。",
-      "commonReleaseId": 94158014
+      "commonReleaseId": 94158014,
+      "organizationSelectionDialogMessage": "グレイ・リリィ(NPC)から\n1騎を選択してください。"
     },
     "questId": 94158102,
     "phase": 1,
@@ -36833,8 +36833,8 @@
   },
   {
     "script": {
-      "organizationSelectionDialogMessage": "グレイ・リリィ(NPC)から\n1騎を選択してください。",
-      "commonReleaseId": 94158014
+      "commonReleaseId": 94158014,
+      "organizationSelectionDialogMessage": "グレイ・リリィ(NPC)から\n1騎を選択してください。"
     },
     "questId": 94158103,
     "phase": 1,
@@ -36873,8 +36873,8 @@
   },
   {
     "script": {
-      "organizationSelectionDialogMessage": "グレイ・リリィ(NPC)から\n1騎を選択してください。",
-      "commonReleaseId": 94158014
+      "commonReleaseId": 94158014,
+      "organizationSelectionDialogMessage": "グレイ・リリィ(NPC)から\n1騎を選択してください。"
     },
     "questId": 94158104,
     "phase": 1,
@@ -36913,8 +36913,8 @@
   },
   {
     "script": {
-      "organizationSelectionDialogMessage": "グレイ・リリィ(NPC)から\n1騎を選択してください。",
-      "commonReleaseId": 94158014
+      "commonReleaseId": 94158014,
+      "organizationSelectionDialogMessage": "グレイ・リリィ(NPC)から\n1騎を選択してください。"
     },
     "questId": 94158105,
     "phase": 1,
@@ -36953,8 +36953,8 @@
   },
   {
     "script": {
-      "organizationSelectionDialogMessage": "グレイ・リリィ(NPC)から\n1騎を選択してください。",
-      "commonReleaseId": 94158014
+      "commonReleaseId": 94158014,
+      "organizationSelectionDialogMessage": "グレイ・リリィ(NPC)から\n1騎を選択してください。"
     },
     "questId": 94158106,
     "phase": 1,
@@ -36993,8 +36993,8 @@
   },
   {
     "script": {
-      "organizationSelectionDialogMessage": "グレイ・リリィ(NPC)から\n1騎を選択してください。",
-      "commonReleaseId": 94158014
+      "commonReleaseId": 94158014,
+      "organizationSelectionDialogMessage": "グレイ・リリィ(NPC)から\n1騎を選択してください。"
     },
     "questId": 94158107,
     "phase": 1,
@@ -37964,6 +37964,358 @@
   {
     "script": {},
     "questId": 94163701,
+    "phase": 1,
+    "restrictionId": 94163704,
+    "priority": 0,
+    "frequencyType": 1,
+    "dialogMessage": "このクエストでは、\n〔エクストラ〕クラスのみ\n編成できます。",
+    "noticeMessage": "〔エクストラ〕クラスのみ編成可能",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 94163702,
+    "phase": 1,
+    "restrictionId": 94163700,
+    "priority": 0,
+    "frequencyType": 0,
+    "dialogMessage": "クエストを開始するためには、\n1騎のグランドエクストラクラスが\n必要です。",
+    "noticeMessage": "",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 94163702,
+    "phase": 1,
+    "restrictionId": 94163701,
+    "priority": 0,
+    "frequencyType": 0,
+    "dialogMessage": "編成できるグランドサーヴァントが \n複数騎います。 \n\nこのクエストを開始するには \n編成可能なグランドサーヴァントから \n1騎編成してください。",
+    "noticeMessage": "",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 94163702,
+    "phase": 1,
+    "restrictionId": 94163703,
+    "priority": 0,
+    "frequencyType": 0,
+    "dialogMessage": "",
+    "noticeMessage": "",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 94163702,
+    "phase": 1,
+    "restrictionId": 94163704,
+    "priority": 0,
+    "frequencyType": 1,
+    "dialogMessage": "このクエストでは、\n〔エクストラ〕クラスのみ\n編成できます。",
+    "noticeMessage": "〔エクストラ〕クラスのみ編成可能",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 94163703,
+    "phase": 1,
+    "restrictionId": 94163700,
+    "priority": 0,
+    "frequencyType": 0,
+    "dialogMessage": "クエストを開始するためには、\n1騎のグランドエクストラクラスが\n必要です。",
+    "noticeMessage": "",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 94163703,
+    "phase": 1,
+    "restrictionId": 94163701,
+    "priority": 0,
+    "frequencyType": 0,
+    "dialogMessage": "編成できるグランドサーヴァントが \n複数騎います。 \n\nこのクエストを開始するには \n編成可能なグランドサーヴァントから \n1騎編成してください。",
+    "noticeMessage": "",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 94163703,
+    "phase": 1,
+    "restrictionId": 94163703,
+    "priority": 0,
+    "frequencyType": 0,
+    "dialogMessage": "",
+    "noticeMessage": "",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 94163703,
+    "phase": 1,
+    "restrictionId": 94163704,
+    "priority": 0,
+    "frequencyType": 1,
+    "dialogMessage": "このクエストでは、\n〔エクストラ〕クラスのみ\n編成できます。",
+    "noticeMessage": "〔エクストラ〕クラスのみ編成可能",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 94163704,
+    "phase": 1,
+    "restrictionId": 94163700,
+    "priority": 0,
+    "frequencyType": 0,
+    "dialogMessage": "クエストを開始するためには、\n1騎のグランドエクストラクラスが\n必要です。",
+    "noticeMessage": "",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 94163704,
+    "phase": 1,
+    "restrictionId": 94163701,
+    "priority": 0,
+    "frequencyType": 0,
+    "dialogMessage": "編成できるグランドサーヴァントが \n複数騎います。 \n\nこのクエストを開始するには \n編成可能なグランドサーヴァントから \n1騎編成してください。",
+    "noticeMessage": "",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 94163704,
+    "phase": 1,
+    "restrictionId": 94163703,
+    "priority": 0,
+    "frequencyType": 0,
+    "dialogMessage": "",
+    "noticeMessage": "",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 94163704,
+    "phase": 1,
+    "restrictionId": 94163704,
+    "priority": 0,
+    "frequencyType": 1,
+    "dialogMessage": "このクエストでは、\n〔エクストラ〕クラスのみ\n編成できます。",
+    "noticeMessage": "〔エクストラ〕クラスのみ編成可能",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 94163705,
+    "phase": 1,
+    "restrictionId": 94163700,
+    "priority": 0,
+    "frequencyType": 0,
+    "dialogMessage": "クエストを開始するためには、\n1騎のグランドエクストラクラスが\n必要です。",
+    "noticeMessage": "",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 94163705,
+    "phase": 1,
+    "restrictionId": 94163701,
+    "priority": 0,
+    "frequencyType": 0,
+    "dialogMessage": "編成できるグランドサーヴァントが \n複数騎います。 \n\nこのクエストを開始するには \n編成可能なグランドサーヴァントから \n1騎編成してください。",
+    "noticeMessage": "",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 94163705,
+    "phase": 1,
+    "restrictionId": 94163703,
+    "priority": 0,
+    "frequencyType": 0,
+    "dialogMessage": "",
+    "noticeMessage": "",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 94163705,
+    "phase": 1,
+    "restrictionId": 94163704,
+    "priority": 0,
+    "frequencyType": 1,
+    "dialogMessage": "このクエストでは、\n〔エクストラ〕クラスのみ\n編成できます。",
+    "noticeMessage": "〔エクストラ〕クラスのみ編成可能",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 94163706,
+    "phase": 1,
+    "restrictionId": 94163700,
+    "priority": 0,
+    "frequencyType": 0,
+    "dialogMessage": "クエストを開始するためには、\n1騎のグランドエクストラクラスが\n必要です。",
+    "noticeMessage": "",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 94163706,
+    "phase": 1,
+    "restrictionId": 94163701,
+    "priority": 0,
+    "frequencyType": 0,
+    "dialogMessage": "編成できるグランドサーヴァントが \n複数騎います。 \n\nこのクエストを開始するには \n編成可能なグランドサーヴァントから \n1騎編成してください。",
+    "noticeMessage": "",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 94163706,
+    "phase": 1,
+    "restrictionId": 94163703,
+    "priority": 0,
+    "frequencyType": 0,
+    "dialogMessage": "",
+    "noticeMessage": "",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 94163706,
+    "phase": 1,
+    "restrictionId": 94163704,
+    "priority": 0,
+    "frequencyType": 1,
+    "dialogMessage": "このクエストでは、\n〔エクストラ〕クラスのみ\n編成できます。",
+    "noticeMessage": "〔エクストラ〕クラスのみ編成可能",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 94163707,
+    "phase": 1,
+    "restrictionId": 94163700,
+    "priority": 0,
+    "frequencyType": 0,
+    "dialogMessage": "クエストを開始するためには、\n1騎のグランドエクストラクラスが\n必要です。",
+    "noticeMessage": "",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 94163707,
+    "phase": 1,
+    "restrictionId": 94163701,
+    "priority": 0,
+    "frequencyType": 0,
+    "dialogMessage": "編成できるグランドサーヴァントが \n複数騎います。 \n\nこのクエストを開始するには \n編成可能なグランドサーヴァントから \n1騎編成してください。",
+    "noticeMessage": "",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 94163707,
+    "phase": 1,
+    "restrictionId": 94163703,
+    "priority": 0,
+    "frequencyType": 0,
+    "dialogMessage": "",
+    "noticeMessage": "",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 94163707,
+    "phase": 1,
+    "restrictionId": 94163704,
+    "priority": 0,
+    "frequencyType": 1,
+    "dialogMessage": "このクエストでは、\n〔エクストラ〕クラスのみ\n編成できます。",
+    "noticeMessage": "〔エクストラ〕クラスのみ編成可能",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 94163708,
+    "phase": 1,
+    "restrictionId": 94163700,
+    "priority": 0,
+    "frequencyType": 0,
+    "dialogMessage": "クエストを開始するためには、\n1騎のグランドエクストラクラスが\n必要です。",
+    "noticeMessage": "",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 94163708,
+    "phase": 1,
+    "restrictionId": 94163701,
+    "priority": 0,
+    "frequencyType": 0,
+    "dialogMessage": "編成できるグランドサーヴァントが \n複数騎います。 \n\nこのクエストを開始するには \n編成可能なグランドサーヴァントから \n1騎編成してください。",
+    "noticeMessage": "",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 94163708,
+    "phase": 1,
+    "restrictionId": 94163703,
+    "priority": 0,
+    "frequencyType": 0,
+    "dialogMessage": "",
+    "noticeMessage": "",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 94163708,
+    "phase": 1,
+    "restrictionId": 94163704,
+    "priority": 0,
+    "frequencyType": 1,
+    "dialogMessage": "このクエストでは、\n〔エクストラ〕クラスのみ\n編成できます。",
+    "noticeMessage": "〔エクストラ〕クラスのみ編成可能",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 94163710,
+    "phase": 1,
+    "restrictionId": 94163700,
+    "priority": 0,
+    "frequencyType": 0,
+    "dialogMessage": "クエストを開始するためには、\n1騎のグランドエクストラクラスが\n必要です。",
+    "noticeMessage": "",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 94163710,
+    "phase": 1,
+    "restrictionId": 94163701,
+    "priority": 0,
+    "frequencyType": 0,
+    "dialogMessage": "編成できるグランドサーヴァントが \n複数騎います。 \n\nこのクエストを開始するには \n編成可能なグランドサーヴァントから \n1騎編成してください。",
+    "noticeMessage": "",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 94163710,
+    "phase": 1,
+    "restrictionId": 94163703,
+    "priority": 0,
+    "frequencyType": 0,
+    "dialogMessage": "",
+    "noticeMessage": "",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 94163710,
     "phase": 1,
     "restrictionId": 94163704,
     "priority": 0,

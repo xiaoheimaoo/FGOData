@@ -1,10 +1,10 @@
 [
   {
     "script": {
+      "type": "GoalNoFlag",
       "squareIndexes": [
         1
       ],
-      "type": "GoalNoFlag",
       "disp": 1
     },
     "id": 94087001,
@@ -32,12 +32,12 @@
   },
   {
     "script": {
-      "zoom": 1.0,
+      "easeType": "easeInOutSine",
       "squareIndexes": [
         1
       ],
-      "moveTime": 0.5,
-      "easeType": "easeInOutSine"
+      "zoom": 1.0,
+      "moveTime": 0.5
     },
     "id": 94087002,
     "idx": 2,
@@ -45,11 +45,11 @@
   },
   {
     "script": {
-      "disp": 1,
+      "effect": "CommonFocus",
       "squareIndexes": [
         1
       ],
-      "effect": "CommonFocus"
+      "disp": 1
     },
     "id": 94087002,
     "idx": 3,
@@ -65,11 +65,11 @@
   },
   {
     "script": {
-      "disp": 0,
+      "effect": "CommonFocus",
       "squareIndexes": [
         1
       ],
-      "effect": "CommonFocus"
+      "disp": 0
     },
     "id": 94087002,
     "idx": 5,
@@ -85,8 +85,8 @@
   },
   {
     "script": {
-      "overlayEffectPrefabName": "EffectWinCondition",
-      "overlayEffectMessage": "制圧ポイントへのマスターの到達"
+      "overlayEffectMessage": "制圧ポイントへのマスターの到達",
+      "overlayEffectPrefabName": "EffectWinCondition"
     },
     "id": 94087002,
     "idx": 7,
@@ -110,12 +110,12 @@
   },
   {
     "script": {
-      "zoom": 1.0,
+      "easeType": "easeInOutSine",
       "squareIndexes": [
         1
       ],
-      "moveTime": 0.5,
-      "easeType": "easeInOutSine"
+      "zoom": 1.0,
+      "moveTime": 0.5
     },
     "id": 94087003,
     "idx": 1,
@@ -123,11 +123,11 @@
   },
   {
     "script": {
-      "disp": 1,
+      "effect": "CommonFocus",
       "squareIndexes": [
         1
       ],
-      "effect": "CommonFocus"
+      "disp": 1
     },
     "id": 94087003,
     "idx": 2,
@@ -143,11 +143,11 @@
   },
   {
     "script": {
-      "disp": 0,
+      "effect": "CommonFocus",
       "squareIndexes": [
         1
       ],
-      "effect": "CommonFocus"
+      "disp": 0
     },
     "id": 94087003,
     "idx": 4,
@@ -179,12 +179,12 @@
   },
   {
     "script": {
-      "zoom": 1.0,
+      "easeType": "easeInOutSine",
       "squareIndexes": [
         17
       ],
-      "moveTime": 0.5,
-      "easeType": "easeInOutSine"
+      "zoom": 1.0,
+      "moveTime": 0.5
     },
     "id": 94087004,
     "idx": 2,
@@ -192,11 +192,11 @@
   },
   {
     "script": {
-      "disp": 1,
+      "effect": "CommonFocus",
       "squareIndexes": [
         17
       ],
-      "effect": "CommonFocus"
+      "disp": 1
     },
     "id": 94087004,
     "idx": 3,
@@ -212,11 +212,11 @@
   },
   {
     "script": {
-      "disp": 0,
+      "effect": "CommonFocus",
       "squareIndexes": [
         17
       ],
-      "effect": "CommonFocus"
+      "disp": 0
     },
     "id": 94087004,
     "idx": 5,
@@ -232,14 +232,14 @@
   },
   {
     "script": {
-      "zoom": 1.0,
+      "easeType": "easeInOutSine",
       "squareIndexes": [
         11,
         15,
         18
       ],
-      "moveTime": 0.5,
-      "easeType": "easeInOutSine"
+      "zoom": 1.0,
+      "moveTime": 0.5
     },
     "id": 94087004,
     "idx": 7,
@@ -247,13 +247,13 @@
   },
   {
     "script": {
-      "disp": 1,
+      "effect": "CommonFocus",
       "squareIndexes": [
         11,
         15,
         18
       ],
-      "effect": "CommonFocus"
+      "disp": 1
     },
     "id": 94087004,
     "idx": 8,
@@ -269,13 +269,13 @@
   },
   {
     "script": {
-      "disp": 0,
+      "effect": "CommonFocus",
       "squareIndexes": [
         11,
         15,
         18
       ],
-      "effect": "CommonFocus"
+      "disp": 0
     },
     "id": 94087004,
     "idx": 10,
@@ -317,12 +317,12 @@
   },
   {
     "script": {
-      "zoom": 1.0,
+      "easeType": "easeInOutSine",
       "squareIndexes": [
         2
       ],
-      "moveTime": 0.5,
-      "easeType": "easeInOutSine"
+      "zoom": 1.0,
+      "moveTime": 0.5
     },
     "id": 94087004,
     "idx": 15,
@@ -330,11 +330,11 @@
   },
   {
     "script": {
-      "disp": 1,
+      "effect": "CommonFocus",
       "squareIndexes": [
         2
       ],
-      "effect": "CommonFocus"
+      "disp": 1
     },
     "id": 94087004,
     "idx": 16,
@@ -350,11 +350,11 @@
   },
   {
     "script": {
-      "disp": 0,
+      "effect": "CommonFocus",
       "squareIndexes": [
         2
       ],
-      "effect": "CommonFocus"
+      "disp": 0
     },
     "id": 94087004,
     "idx": 18,
@@ -428,12 +428,12 @@
   },
   {
     "script": {
-      "zoom": 1.0,
+      "easeType": "easeInOutSine",
       "squareIndexes": [
         1
       ],
-      "moveTime": 0.5,
-      "easeType": "easeInOutSine"
+      "zoom": 1.0,
+      "moveTime": 0.5
     },
     "id": 94087008,
     "idx": 3,
@@ -441,11 +441,11 @@
   },
   {
     "script": {
-      "disp": 1,
+      "effect": "CommonFocus",
       "squareIndexes": [
         1
       ],
-      "effect": "CommonFocus"
+      "disp": 1
     },
     "id": 94087008,
     "idx": 4,
@@ -461,11 +461,11 @@
   },
   {
     "script": {
-      "disp": 0,
+      "effect": "CommonFocus",
       "squareIndexes": [
         1
       ],
-      "effect": "CommonFocus"
+      "disp": 0
     },
     "id": 94087008,
     "idx": 6,
@@ -497,14 +497,14 @@
   },
   {
     "script": {
-      "groupId": 0,
-      "forceId": 1,
       "pieceIndex": [
         1
       ],
       "actionType": [
         1
-      ]
+      ],
+      "groupId": 0,
+      "forceId": 1
     },
     "id": 94087012,
     "idx": 1,
@@ -512,14 +512,14 @@
   },
   {
     "script": {
-      "groupId": 0,
-      "forceId": 1,
       "pieceIndex": [
         1
       ],
       "aiId": [
         94087006
-      ]
+      ],
+      "groupId": 0,
+      "forceId": 1
     },
     "id": 94087012,
     "idx": 2,
@@ -535,12 +535,12 @@
   },
   {
     "script": {
-      "zoom": 1.0,
+      "easeType": "easeInOutSine",
       "squareIndexes": [
         29
       ],
-      "moveTime": 0.5,
-      "easeType": "easeInOutSine"
+      "zoom": 1.0,
+      "moveTime": 0.5
     },
     "id": 94087013,
     "idx": 2,
@@ -548,11 +548,11 @@
   },
   {
     "script": {
-      "disp": 1,
+      "effect": "CommonFocus",
       "squareIndexes": [
         29
       ],
-      "effect": "CommonFocus"
+      "disp": 1
     },
     "id": 94087013,
     "idx": 3,
@@ -568,11 +568,11 @@
   },
   {
     "script": {
-      "disp": 0,
+      "effect": "CommonFocus",
       "squareIndexes": [
         29
       ],
-      "effect": "CommonFocus"
+      "disp": 0
     },
     "id": 94087013,
     "idx": 5,
@@ -588,12 +588,12 @@
   },
   {
     "script": {
-      "zoom": 1.0,
+      "easeType": "easeInOutSine",
       "squareIndexes": [
         1
       ],
-      "moveTime": 0.5,
-      "easeType": "easeInOutSine"
+      "zoom": 1.0,
+      "moveTime": 0.5
     },
     "id": 94087013,
     "idx": 7,
@@ -601,11 +601,11 @@
   },
   {
     "script": {
-      "disp": 1,
+      "effect": "CommonFocus",
       "squareIndexes": [
         1
       ],
-      "effect": "CommonFocus"
+      "disp": 1
     },
     "id": 94087013,
     "idx": 8,
@@ -621,11 +621,11 @@
   },
   {
     "script": {
-      "disp": 0,
+      "effect": "CommonFocus",
       "squareIndexes": [
         1
       ],
-      "effect": "CommonFocus"
+      "disp": 0
     },
     "id": 94087013,
     "idx": 10,
@@ -641,8 +641,8 @@
   },
   {
     "script": {
-      "overlayEffectPrefabName": "EffectWinCondition",
-      "overlayEffectMessage": "制圧ポイントへのマスターの到達\nまたは 敵の全滅"
+      "overlayEffectMessage": "制圧ポイントへのマスターの到達\nまたは 敵の全滅",
+      "overlayEffectPrefabName": "EffectWinCondition"
     },
     "id": 94087013,
     "idx": 12,
@@ -738,8 +738,8 @@
   },
   {
     "script": {
-      "overlayEffectPrefabName": "CommonMessage",
-      "overlayEffectMessage": "ドレッドノートが怯んでいる！"
+      "overlayEffectMessage": "ドレッドノートが怯んでいる！",
+      "overlayEffectPrefabName": "CommonMessage"
     },
     "id": 94087023,
     "idx": 1,
@@ -747,11 +747,11 @@
   },
   {
     "script": {
+      "skillLv": 1,
       "skillId": 94087028,
       "effectIds": [
         5
       ],
-      "skillLv": 1,
       "pieceIndexes": [
         1
       ]
@@ -785,12 +785,12 @@
           1
         ]
       ],
-      "skillId": 94087029,
+      "skillLv": 1,
       "effectIds": [
         3
       ],
       "noMoveLastPieceCamera": 1,
-      "skillLv": 1
+      "skillId": 94087029
     },
     "id": 94087025,
     "idx": 2,
@@ -811,9 +811,9 @@
         0,
         1
       ],
+      "zoom": 1.0,
       "easeType": "easeInOutSine",
-      "moveTime": 0.5,
-      "zoom": 1.0
+      "moveTime": 0.5
     },
     "id": 94087025,
     "idx": 4,
@@ -826,8 +826,8 @@
         0,
         1
       ],
-      "disp": 1,
-      "type": "Target"
+      "type": "Target",
+      "disp": 1
     },
     "id": 94087025,
     "idx": 5,
@@ -835,8 +835,8 @@
   },
   {
     "script": {
-      "overlayEffectPrefabName": "EffectWinCondition",
-      "overlayEffectMessage": "王の巨人の撃破"
+      "overlayEffectMessage": "王の巨人の撃破",
+      "overlayEffectPrefabName": "EffectWinCondition"
     },
     "id": 94087025,
     "idx": 6,
@@ -891,12 +891,12 @@
           1
         ]
       ],
-      "skillId": 94087029,
+      "skillLv": 1,
       "effectIds": [
         3
       ],
       "noMoveLastPieceCamera": 1,
-      "skillLv": 1
+      "skillId": 94087029
     },
     "id": 94087029,
     "idx": 2,
@@ -917,9 +917,9 @@
         0,
         1
       ],
+      "zoom": 1.0,
       "easeType": "easeInOutSine",
-      "moveTime": 0.5,
-      "zoom": 1.0
+      "moveTime": 0.5
     },
     "id": 94087029,
     "idx": 4,
@@ -932,8 +932,8 @@
         0,
         1
       ],
-      "disp": 1,
-      "type": "Target"
+      "type": "Target",
+      "disp": 1
     },
     "id": 94087029,
     "idx": 5,
@@ -941,8 +941,8 @@
   },
   {
     "script": {
-      "overlayEffectPrefabName": "EffectWinCondition",
-      "overlayEffectMessage": "王の巨人の撃破"
+      "overlayEffectMessage": "王の巨人の撃破",
+      "overlayEffectPrefabName": "EffectWinCondition"
     },
     "id": 94087029,
     "idx": 6,
@@ -990,13 +990,13 @@
   },
   {
     "script": {
-      "zoom": 1.0,
+      "easeType": "easeInOutSine",
       "squareIndexes": [
         21,
         22
       ],
-      "moveTime": 0.5,
-      "easeType": "easeInOutSine"
+      "zoom": 1.0,
+      "moveTime": 0.5
     },
     "id": 94087033,
     "idx": 2,
@@ -1004,12 +1004,12 @@
   },
   {
     "script": {
-      "disp": 1,
+      "effect": "CommonFocus",
       "squareIndexes": [
         21,
         22
       ],
-      "effect": "CommonFocus"
+      "disp": 1
     },
     "id": 94087033,
     "idx": 3,
@@ -1025,12 +1025,12 @@
   },
   {
     "script": {
-      "disp": 0,
+      "effect": "CommonFocus",
       "squareIndexes": [
         21,
         22
       ],
-      "effect": "CommonFocus"
+      "disp": 0
     },
     "id": 94087033,
     "idx": 5,
@@ -1046,12 +1046,12 @@
   },
   {
     "script": {
-      "zoom": 1.0,
+      "easeType": "easeInOutSine",
       "squareIndexes": [
         12
       ],
-      "moveTime": 0.5,
-      "easeType": "easeInOutSine"
+      "zoom": 1.0,
+      "moveTime": 0.5
     },
     "id": 94087033,
     "idx": 7,
@@ -1059,10 +1059,10 @@
   },
   {
     "script": {
+      "type": "Goal",
       "squareIndexes": [
         12
       ],
-      "type": "Goal",
       "disp": 1
     },
     "id": 94087033,
@@ -1071,8 +1071,8 @@
   },
   {
     "script": {
-      "overlayEffectPrefabName": "EffectWinCondition",
-      "overlayEffectMessage": "制圧ポイントへのマスターの到達\nまたは 敵の全滅"
+      "overlayEffectMessage": "制圧ポイントへのマスターの到達\nまたは 敵の全滅",
+      "overlayEffectPrefabName": "EffectWinCondition"
     },
     "id": 94087033,
     "idx": 9,
@@ -1088,11 +1088,11 @@
   },
   {
     "script": {
+      "skillLv": 1,
       "skillId": 94087030,
       "effectIds": [
         3
       ],
-      "skillLv": 1,
       "pieceIndexes": [
         2,
         3
@@ -1176,13 +1176,13 @@
   },
   {
     "script": {
-      "zoom": 1.0,
+      "easeType": "easeInOutSine",
       "squareIndexes": [
         21,
         22
       ],
-      "moveTime": 0.5,
-      "easeType": "easeInOutSine"
+      "zoom": 1.0,
+      "moveTime": 0.5
     },
     "id": 94087047,
     "idx": 2,
@@ -1190,12 +1190,12 @@
   },
   {
     "script": {
-      "disp": 1,
+      "effect": "CommonFocus",
       "squareIndexes": [
         21,
         22
       ],
-      "effect": "CommonFocus"
+      "disp": 1
     },
     "id": 94087047,
     "idx": 3,
@@ -1211,12 +1211,12 @@
   },
   {
     "script": {
-      "disp": 0,
+      "effect": "CommonFocus",
       "squareIndexes": [
         21,
         22
       ],
-      "effect": "CommonFocus"
+      "disp": 0
     },
     "id": 94087047,
     "idx": 5,
@@ -1232,12 +1232,12 @@
   },
   {
     "script": {
-      "zoom": 1.0,
+      "easeType": "easeInOutSine",
       "squareIndexes": [
         12
       ],
-      "moveTime": 0.5,
-      "easeType": "easeInOutSine"
+      "zoom": 1.0,
+      "moveTime": 0.5
     },
     "id": 94087047,
     "idx": 7,
@@ -1245,10 +1245,10 @@
   },
   {
     "script": {
+      "type": "Goal",
       "squareIndexes": [
         12
       ],
-      "type": "Goal",
       "disp": 1
     },
     "id": 94087047,
@@ -1257,8 +1257,8 @@
   },
   {
     "script": {
-      "overlayEffectPrefabName": "EffectWinCondition",
-      "overlayEffectMessage": "制圧ポイントへのマスターの到達\nまたは 敵の全滅"
+      "overlayEffectMessage": "制圧ポイントへのマスターの到達\nまたは 敵の全滅",
+      "overlayEffectPrefabName": "EffectWinCondition"
     },
     "id": 94087047,
     "idx": 9,
@@ -1274,11 +1274,11 @@
   },
   {
     "script": {
+      "skillLv": 1,
       "skillId": 94087030,
       "effectIds": [
         3
       ],
-      "skillLv": 1,
       "pieceIndexes": [
         2,
         9
@@ -1368,13 +1368,13 @@
         1
       ],
       "easeType": "easeInOutSine",
-      "moveTime": 0.5,
       "zoom": 1.0,
       "pieceIndex2": [
         1,
         0,
         2
-      ]
+      ],
+      "moveTime": 0.5
     },
     "id": 94087061,
     "idx": 2,
@@ -1382,9 +1382,9 @@
   },
   {
     "script": {
+      "type": "Target",
       "groupId": 0,
       "forceId": 1,
-      "type": "Target",
       "disp": 1,
       "pieceIndexes": [
         1,
@@ -1398,8 +1398,8 @@
   },
   {
     "script": {
-      "overlayEffectPrefabName": "EffectWinCondition",
-      "overlayEffectMessage": "太公望、闇のコヤンスカヤ、黄飛虎の撃破"
+      "overlayEffectMessage": "太公望、闇のコヤンスカヤ、黄飛虎の撃破",
+      "overlayEffectPrefabName": "EffectWinCondition"
     },
     "id": 94087061,
     "idx": 4,
@@ -1422,11 +1422,11 @@
           1
         ]
       ],
-      "skillId": 94087031,
+      "skillLv": 1,
       "effectIds": [
         2
       ],
-      "skillLv": 1
+      "skillId": 94087031
     },
     "id": 94087062,
     "idx": 1,
@@ -1463,9 +1463,9 @@
         0,
         10
       ],
+      "zoom": 1.0,
       "easeType": "easeInOutSine",
-      "moveTime": 0.5,
-      "zoom": 1.0
+      "moveTime": 0.5
     },
     "id": 94087063,
     "idx": 4,
@@ -1478,8 +1478,8 @@
         0,
         10
       ],
-      "disp": 1,
-      "type": "Target"
+      "type": "Target",
+      "disp": 1
     },
     "id": 94087063,
     "idx": 5,
@@ -1487,8 +1487,8 @@
   },
   {
     "script": {
-      "overlayEffectPrefabName": "EffectWinConditionChange",
-      "overlayEffectMessage": "太公望、闇のコヤンスカヤ、黄飛虎、[FFFF00]哪吒の撃破【変更】[-]"
+      "overlayEffectMessage": "太公望、闇のコヤンスカヤ、黄飛虎、[FFFF00]哪吒の撃破【変更】[-]",
+      "overlayEffectPrefabName": "EffectWinConditionChange"
     },
     "id": 94087063,
     "idx": 6,
@@ -1567,11 +1567,11 @@
           1
         ]
       ],
-      "skillId": 94087031,
+      "skillLv": 1,
       "effectIds": [
         2
       ],
-      "skillLv": 1
+      "skillId": 94087031
     },
     "id": 94087071,
     "idx": 1,
@@ -1593,13 +1593,13 @@
         1
       ],
       "easeType": "easeInOutSine",
-      "moveTime": 0.5,
       "zoom": 1.0,
       "pieceIndex2": [
         1,
         0,
         2
-      ]
+      ],
+      "moveTime": 0.5
     },
     "id": 94087072,
     "idx": 2,
@@ -1607,9 +1607,9 @@
   },
   {
     "script": {
+      "type": "Target",
       "groupId": 0,
       "forceId": 1,
-      "type": "Target",
       "disp": 1,
       "pieceIndexes": [
         1,
@@ -1623,8 +1623,8 @@
   },
   {
     "script": {
-      "overlayEffectPrefabName": "EffectWinCondition",
-      "overlayEffectMessage": "太公望、闇のコヤンスカヤ、黄飛虎の撃破"
+      "overlayEffectMessage": "太公望、闇のコヤンスカヤ、黄飛虎の撃破",
+      "overlayEffectPrefabName": "EffectWinCondition"
     },
     "id": 94087072,
     "idx": 4,
@@ -1647,11 +1647,11 @@
           1
         ]
       ],
-      "skillId": 94087031,
+      "skillLv": 1,
       "effectIds": [
         2
       ],
-      "skillLv": 1
+      "skillId": 94087031
     },
     "id": 94087073,
     "idx": 1,
@@ -1688,9 +1688,9 @@
         0,
         12
       ],
+      "zoom": 1.0,
       "easeType": "easeInOutSine",
-      "moveTime": 0.5,
-      "zoom": 1.0
+      "moveTime": 0.5
     },
     "id": 94087074,
     "idx": 4,
@@ -1703,8 +1703,8 @@
         0,
         12
       ],
-      "disp": 1,
-      "type": "Target"
+      "type": "Target",
+      "disp": 1
     },
     "id": 94087074,
     "idx": 5,
@@ -1712,8 +1712,8 @@
   },
   {
     "script": {
-      "overlayEffectPrefabName": "EffectWinConditionChange",
-      "overlayEffectMessage": "太公望、闇のコヤンスカヤ、黄飛虎、[FFFF00]哪吒の撃破【変更】[-]"
+      "overlayEffectMessage": "太公望、闇のコヤンスカヤ、黄飛虎、[FFFF00]哪吒の撃破【変更】[-]",
+      "overlayEffectPrefabName": "EffectWinConditionChange"
     },
     "id": 94087074,
     "idx": 6,
@@ -1792,11 +1792,11 @@
           1
         ]
       ],
-      "skillId": 94087031,
+      "skillLv": 1,
       "effectIds": [
         2
       ],
-      "skillLv": 1
+      "skillId": 94087031
     },
     "id": 94087082,
     "idx": 1,
@@ -1812,14 +1812,14 @@
   },
   {
     "script": {
-      "zoom": 1.0,
+      "easeType": "easeInOutSine",
       "squareIndexes": [
         20,
         21,
         37
       ],
-      "moveTime": 0.5,
-      "easeType": "easeInOutSine"
+      "zoom": 1.0,
+      "moveTime": 0.5
     },
     "id": 94087083,
     "idx": 2,
@@ -1827,13 +1827,13 @@
   },
   {
     "script": {
-      "disp": 1,
+      "effect": "CommonFocus",
       "squareIndexes": [
         20,
         21,
         37
       ],
-      "effect": "CommonFocus"
+      "disp": 1
     },
     "id": 94087083,
     "idx": 3,
@@ -1849,13 +1849,13 @@
   },
   {
     "script": {
-      "disp": 0,
+      "effect": "CommonFocus",
       "squareIndexes": [
         20,
         21,
         37
       ],
-      "effect": "CommonFocus"
+      "disp": 0
     },
     "id": 94087083,
     "idx": 5,
@@ -1871,12 +1871,12 @@
   },
   {
     "script": {
-      "zoom": 1.0,
+      "easeType": "easeInOutSine",
       "squareIndexes": [
         5
       ],
-      "moveTime": 0.5,
-      "easeType": "easeInOutSine"
+      "zoom": 1.0,
+      "moveTime": 0.5
     },
     "id": 94087083,
     "idx": 7,
@@ -1884,11 +1884,11 @@
   },
   {
     "script": {
-      "disp": 1,
+      "effect": "CommonFocus",
       "squareIndexes": [
         5
       ],
-      "effect": "CommonFocus"
+      "disp": 1
     },
     "id": 94087083,
     "idx": 8,
@@ -1904,11 +1904,11 @@
   },
   {
     "script": {
-      "disp": 0,
+      "effect": "CommonFocus",
       "squareIndexes": [
         5
       ],
-      "effect": "CommonFocus"
+      "disp": 0
     },
     "id": 94087083,
     "idx": 10,
@@ -1930,13 +1930,13 @@
         1
       ],
       "easeType": "easeInOutSine",
-      "moveTime": 0.5,
       "zoom": 1.0,
       "pieceIndex2": [
         1,
         0,
         2
-      ]
+      ],
+      "moveTime": 0.5
     },
     "id": 94087083,
     "idx": 12,
@@ -1944,9 +1944,9 @@
   },
   {
     "script": {
+      "type": "Target",
       "groupId": 0,
       "forceId": 1,
-      "type": "Target",
       "disp": 1,
       "pieceIndexes": [
         1,
@@ -1959,8 +1959,8 @@
   },
   {
     "script": {
-      "overlayEffectPrefabName": "EffectWinCondition",
-      "overlayEffectMessage": "テセウスとアステリオスの撃破"
+      "overlayEffectMessage": "テセウスとアステリオスの撃破",
+      "overlayEffectPrefabName": "EffectWinCondition"
     },
     "id": 94087083,
     "idx": 14,
@@ -1983,11 +1983,11 @@
           1
         ]
       ],
-      "skillId": 94087032,
+      "skillLv": 1,
       "effectIds": [
         2
       ],
-      "skillLv": 1
+      "skillId": 94087032
     },
     "id": 94087084,
     "idx": 1,
@@ -2011,12 +2011,12 @@
   },
   {
     "script": {
-      "zoom": 1.0,
+      "easeType": "easeInOutSine",
       "squareIndexes": [
         5
       ],
-      "moveTime": 0.5,
-      "easeType": "easeInOutSine"
+      "zoom": 1.0,
+      "moveTime": 0.5
     },
     "id": 94087086,
     "idx": 1,
@@ -2024,8 +2024,8 @@
   },
   {
     "script": {
-      "effectId": 2,
-      "squareIndex": 5
+      "squareIndex": 5,
+      "effectId": 2
     },
     "id": 94087086,
     "idx": 2,
@@ -2033,9 +2033,9 @@
   },
   {
     "script": {
+      "squareIndex1": 5,
       "effectId": 1,
-      "squareIndex2": 4,
-      "squareIndex1": 5
+      "squareIndex2": 4
     },
     "id": 94087086,
     "idx": 3,
@@ -2043,9 +2043,9 @@
   },
   {
     "script": {
+      "squareIndex1": 5,
       "effectId": 1,
-      "squareIndex2": 10,
-      "squareIndex1": 5
+      "squareIndex2": 10
     },
     "id": 94087086,
     "idx": 4,
@@ -2061,8 +2061,6 @@
   },
   {
     "script": {
-      "groupId": 0,
-      "forceId": 1,
       "pieceIndex": [
         2,
         6,
@@ -2072,7 +2070,9 @@
         2,
         2,
         2
-      ]
+      ],
+      "groupId": 0,
+      "forceId": 1
     },
     "id": 94087086,
     "idx": 6,
@@ -2080,8 +2080,6 @@
   },
   {
     "script": {
-      "groupId": 0,
-      "forceId": 1,
       "pieceIndex": [
         1,
         6,
@@ -2091,7 +2089,9 @@
         94087003,
         94087004,
         94087004
-      ]
+      ],
+      "groupId": 0,
+      "forceId": 1
     },
     "id": 94087086,
     "idx": 7,
@@ -2099,8 +2099,6 @@
   },
   {
     "script": {
-      "groupId": 0,
-      "forceId": 1,
       "pieceIndex": [
         6,
         7
@@ -2108,7 +2106,9 @@
       "aiId": [
         94087003,
         94087003
-      ]
+      ],
+      "groupId": 0,
+      "forceId": 1
     },
     "id": 94087087,
     "idx": 1,
@@ -2116,14 +2116,14 @@
   },
   {
     "script": {
-      "groupId": 0,
-      "forceId": 1,
       "pieceIndex": [
         2
       ],
       "aiId": [
         94087021
-      ]
+      ],
+      "groupId": 0,
+      "forceId": 1
     },
     "id": 94087088,
     "idx": 1,
@@ -2131,14 +2131,14 @@
   },
   {
     "script": {
-      "groupId": 0,
-      "forceId": 1,
       "pieceIndex": [
         2
       ],
       "aiId": [
         94087001
-      ]
+      ],
+      "groupId": 0,
+      "forceId": 1
     },
     "id": 94087089,
     "idx": 1,
@@ -2194,21 +2194,21 @@
   },
   {
     "script": {
+      "skillLv": 1,
+      "skillId": 94087002,
+      "effectIds": [
+        1,
+        5
+      ],
+      "pieceIndexes": [
+        2
+      ],
       "actorEffectPieceIndex": [
         [
           1,
           0,
           2
         ]
-      ],
-      "skillId": 94087002,
-      "effectIds": [
-        1,
-        5
-      ],
-      "skillLv": 1,
-      "pieceIndexes": [
-        2
       ]
     },
     "id": 94087095,
@@ -2281,21 +2281,21 @@
   },
   {
     "script": {
+      "skillLv": 1,
+      "skillId": 94087002,
+      "effectIds": [
+        1,
+        5
+      ],
+      "pieceIndexes": [
+        2
+      ],
       "actorEffectPieceIndex": [
         [
           1,
           0,
           2
         ]
-      ],
-      "skillId": 94087002,
-      "effectIds": [
-        1,
-        5
-      ],
-      "skillLv": 1,
-      "pieceIndexes": [
-        2
       ]
     },
     "id": 94087103,
@@ -2328,14 +2328,14 @@
   },
   {
     "script": {
-      "zoom": 1.0,
+      "easeType": "easeInOutSine",
       "squareIndexes": [
         20,
         21,
         37
       ],
-      "moveTime": 0.5,
-      "easeType": "easeInOutSine"
+      "zoom": 1.0,
+      "moveTime": 0.5
     },
     "id": 94087106,
     "idx": 2,
@@ -2343,13 +2343,13 @@
   },
   {
     "script": {
-      "disp": 1,
+      "effect": "CommonFocus",
       "squareIndexes": [
         20,
         21,
         37
       ],
-      "effect": "CommonFocus"
+      "disp": 1
     },
     "id": 94087106,
     "idx": 3,
@@ -2365,13 +2365,13 @@
   },
   {
     "script": {
-      "disp": 0,
+      "effect": "CommonFocus",
       "squareIndexes": [
         20,
         21,
         37
       ],
-      "effect": "CommonFocus"
+      "disp": 0
     },
     "id": 94087106,
     "idx": 5,
@@ -2387,12 +2387,12 @@
   },
   {
     "script": {
-      "zoom": 1.0,
+      "easeType": "easeInOutSine",
       "squareIndexes": [
         5
       ],
-      "moveTime": 0.5,
-      "easeType": "easeInOutSine"
+      "zoom": 1.0,
+      "moveTime": 0.5
     },
     "id": 94087106,
     "idx": 7,
@@ -2400,11 +2400,11 @@
   },
   {
     "script": {
-      "disp": 1,
+      "effect": "CommonFocus",
       "squareIndexes": [
         5
       ],
-      "effect": "CommonFocus"
+      "disp": 1
     },
     "id": 94087106,
     "idx": 8,
@@ -2420,11 +2420,11 @@
   },
   {
     "script": {
-      "disp": 0,
+      "effect": "CommonFocus",
       "squareIndexes": [
         5
       ],
-      "effect": "CommonFocus"
+      "disp": 0
     },
     "id": 94087106,
     "idx": 10,
@@ -2446,13 +2446,13 @@
         1
       ],
       "easeType": "easeInOutSine",
-      "moveTime": 0.5,
       "zoom": 1.0,
       "pieceIndex2": [
         1,
         0,
         2
-      ]
+      ],
+      "moveTime": 0.5
     },
     "id": 94087106,
     "idx": 12,
@@ -2460,9 +2460,9 @@
   },
   {
     "script": {
+      "type": "Target",
       "groupId": 0,
       "forceId": 1,
-      "type": "Target",
       "disp": 1,
       "pieceIndexes": [
         1,
@@ -2475,8 +2475,8 @@
   },
   {
     "script": {
-      "overlayEffectPrefabName": "EffectWinCondition",
-      "overlayEffectMessage": "テセウスとアステリオスの撃破"
+      "overlayEffectMessage": "テセウスとアステリオスの撃破",
+      "overlayEffectPrefabName": "EffectWinCondition"
     },
     "id": 94087106,
     "idx": 14,
@@ -2499,11 +2499,11 @@
           1
         ]
       ],
-      "skillId": 94087032,
+      "skillLv": 1,
       "effectIds": [
         2
       ],
-      "skillLv": 1
+      "skillId": 94087032
     },
     "id": 94087107,
     "idx": 1,
@@ -2527,12 +2527,12 @@
   },
   {
     "script": {
-      "zoom": 1.0,
+      "easeType": "easeInOutSine",
       "squareIndexes": [
         5
       ],
-      "moveTime": 0.5,
-      "easeType": "easeInOutSine"
+      "zoom": 1.0,
+      "moveTime": 0.5
     },
     "id": 94087109,
     "idx": 1,
@@ -2540,8 +2540,8 @@
   },
   {
     "script": {
-      "effectId": 2,
-      "squareIndex": 5
+      "squareIndex": 5,
+      "effectId": 2
     },
     "id": 94087109,
     "idx": 2,
@@ -2549,9 +2549,9 @@
   },
   {
     "script": {
+      "squareIndex1": 5,
       "effectId": 1,
-      "squareIndex2": 4,
-      "squareIndex1": 5
+      "squareIndex2": 4
     },
     "id": 94087109,
     "idx": 3,
@@ -2559,9 +2559,9 @@
   },
   {
     "script": {
+      "squareIndex1": 5,
       "effectId": 1,
-      "squareIndex2": 10,
-      "squareIndex1": 5
+      "squareIndex2": 10
     },
     "id": 94087109,
     "idx": 4,
@@ -2577,8 +2577,6 @@
   },
   {
     "script": {
-      "groupId": 0,
-      "forceId": 1,
       "pieceIndex": [
         2,
         7,
@@ -2588,7 +2586,9 @@
         2,
         2,
         2
-      ]
+      ],
+      "groupId": 0,
+      "forceId": 1
     },
     "id": 94087109,
     "idx": 6,
@@ -2596,8 +2596,6 @@
   },
   {
     "script": {
-      "groupId": 0,
-      "forceId": 1,
       "pieceIndex": [
         1,
         7,
@@ -2607,7 +2605,9 @@
         94087003,
         94087004,
         94087004
-      ]
+      ],
+      "groupId": 0,
+      "forceId": 1
     },
     "id": 94087109,
     "idx": 7,
@@ -2615,8 +2615,6 @@
   },
   {
     "script": {
-      "groupId": 0,
-      "forceId": 1,
       "pieceIndex": [
         7,
         10
@@ -2624,7 +2622,9 @@
       "aiId": [
         94087003,
         94087003
-      ]
+      ],
+      "groupId": 0,
+      "forceId": 1
     },
     "id": 94087110,
     "idx": 1,
@@ -2632,14 +2632,14 @@
   },
   {
     "script": {
-      "groupId": 0,
-      "forceId": 1,
       "pieceIndex": [
         2
       ],
       "aiId": [
         94087021
-      ]
+      ],
+      "groupId": 0,
+      "forceId": 1
     },
     "id": 94087111,
     "idx": 1,
@@ -2647,14 +2647,14 @@
   },
   {
     "script": {
-      "groupId": 0,
-      "forceId": 1,
       "pieceIndex": [
         2
       ],
       "aiId": [
         94087001
-      ]
+      ],
+      "groupId": 0,
+      "forceId": 1
     },
     "id": 94087112,
     "idx": 1,
@@ -2710,21 +2710,21 @@
   },
   {
     "script": {
+      "skillLv": 1,
+      "skillId": 94087002,
+      "effectIds": [
+        1,
+        5
+      ],
+      "pieceIndexes": [
+        2
+      ],
       "actorEffectPieceIndex": [
         [
           1,
           0,
           2
         ]
-      ],
-      "skillId": 94087002,
-      "effectIds": [
-        1,
-        5
-      ],
-      "skillLv": 1,
-      "pieceIndexes": [
-        2
       ]
     },
     "id": 94087118,
@@ -2797,21 +2797,21 @@
   },
   {
     "script": {
+      "skillLv": 1,
+      "skillId": 94087002,
+      "effectIds": [
+        1,
+        5
+      ],
+      "pieceIndexes": [
+        2
+      ],
       "actorEffectPieceIndex": [
         [
           1,
           0,
           2
         ]
-      ],
-      "skillId": 94087002,
-      "effectIds": [
-        1,
-        5
-      ],
-      "skillLv": 1,
-      "pieceIndexes": [
-        2
       ]
     },
     "id": 94087126,
@@ -2850,13 +2850,13 @@
         2
       ],
       "easeType": "easeInOutSine",
-      "moveTime": 0.5,
       "zoom": 1.0,
       "pieceIndex2": [
         1,
         0,
         3
-      ]
+      ],
+      "moveTime": 0.5
     },
     "id": 94087129,
     "idx": 2,
@@ -2864,12 +2864,12 @@
   },
   {
     "script": {
-      "disp": 1,
+      "effect": "CommonFocus",
       "squareIndexes": [
         14,
         15
       ],
-      "effect": "CommonFocus"
+      "disp": 1
     },
     "id": 94087129,
     "idx": 3,
@@ -2885,12 +2885,12 @@
   },
   {
     "script": {
-      "disp": 0,
+      "effect": "CommonFocus",
       "squareIndexes": [
         14,
         15
       ],
-      "effect": "CommonFocus"
+      "disp": 0
     },
     "id": 94087129,
     "idx": 5,
@@ -2911,9 +2911,9 @@
         0,
         1
       ],
+      "zoom": 1.0,
       "easeType": "easeInOutSine",
-      "moveTime": 0.5,
-      "zoom": 1.0
+      "moveTime": 0.5
     },
     "id": 94087129,
     "idx": 7,
@@ -2926,8 +2926,8 @@
         0,
         1
       ],
-      "disp": 1,
-      "type": "Target"
+      "type": "Target",
+      "disp": 1
     },
     "id": 94087129,
     "idx": 8,
@@ -2935,8 +2935,8 @@
   },
   {
     "script": {
-      "overlayEffectPrefabName": "EffectWinCondition",
-      "overlayEffectMessage": "アステリオス？のブレイクポイントをふたつ削れ"
+      "overlayEffectMessage": "アステリオス？のブレイクポイントをふたつ削れ",
+      "overlayEffectPrefabName": "EffectWinCondition"
     },
     "id": 94087129,
     "idx": 9,
@@ -2952,12 +2952,12 @@
   },
   {
     "script": {
-      "skillId": 94087033,
+      "skillLv": 1,
       "effectIds": [
         1,
         3
       ],
-      "skillLv": 1
+      "skillId": 94087033
     },
     "id": 94087130,
     "idx": 1,
@@ -3003,13 +3003,13 @@
         2
       ],
       "easeType": "easeInOutSine",
-      "moveTime": 0.5,
       "zoom": 1.0,
       "pieceIndex2": [
         1,
         0,
         3
-      ]
+      ],
+      "moveTime": 0.5
     },
     "id": 94087134,
     "idx": 2,
@@ -3017,12 +3017,12 @@
   },
   {
     "script": {
-      "disp": 1,
+      "effect": "CommonFocus",
       "squareIndexes": [
         14,
         15
       ],
-      "effect": "CommonFocus"
+      "disp": 1
     },
     "id": 94087134,
     "idx": 3,
@@ -3038,12 +3038,12 @@
   },
   {
     "script": {
-      "disp": 0,
+      "effect": "CommonFocus",
       "squareIndexes": [
         14,
         15
       ],
-      "effect": "CommonFocus"
+      "disp": 0
     },
     "id": 94087134,
     "idx": 5,
@@ -3064,9 +3064,9 @@
         0,
         1
       ],
+      "zoom": 1.0,
       "easeType": "easeInOutSine",
-      "moveTime": 0.5,
-      "zoom": 1.0
+      "moveTime": 0.5
     },
     "id": 94087134,
     "idx": 7,
@@ -3079,8 +3079,8 @@
         0,
         1
       ],
-      "disp": 1,
-      "type": "Target"
+      "type": "Target",
+      "disp": 1
     },
     "id": 94087134,
     "idx": 8,
@@ -3088,8 +3088,8 @@
   },
   {
     "script": {
-      "overlayEffectPrefabName": "EffectWinCondition",
-      "overlayEffectMessage": "アステリオス？のブレイクポイントをふたつ削れ"
+      "overlayEffectMessage": "アステリオス？のブレイクポイントをふたつ削れ",
+      "overlayEffectPrefabName": "EffectWinCondition"
     },
     "id": 94087134,
     "idx": 9,
@@ -3105,12 +3105,12 @@
   },
   {
     "script": {
-      "skillId": 94087033,
+      "skillLv": 1,
       "effectIds": [
         1,
         3
       ],
-      "skillLv": 1
+      "skillId": 94087033
     },
     "id": 94087135,
     "idx": 1,
@@ -3150,12 +3150,12 @@
   },
   {
     "script": {
-      "zoom": 1.0,
+      "easeType": "easeInOutSine",
       "squareIndexes": [
         29
       ],
-      "moveTime": 0.5,
-      "easeType": "easeInOutSine"
+      "zoom": 1.0,
+      "moveTime": 0.5
     },
     "id": 94087140,
     "idx": 2,
@@ -3163,11 +3163,11 @@
   },
   {
     "script": {
-      "disp": 1,
+      "effect": "CommonFocus",
       "squareIndexes": [
         29
       ],
-      "effect": "CommonFocus"
+      "disp": 1
     },
     "id": 94087140,
     "idx": 3,
@@ -3183,11 +3183,11 @@
   },
   {
     "script": {
-      "disp": 0,
+      "effect": "CommonFocus",
       "squareIndexes": [
         29
       ],
-      "effect": "CommonFocus"
+      "disp": 0
     },
     "id": 94087140,
     "idx": 5,
@@ -3203,13 +3203,13 @@
   },
   {
     "script": {
-      "zoom": 1.0,
+      "easeType": "easeInOutSine",
       "squareIndexes": [
         13,
         14
       ],
-      "moveTime": 0.5,
-      "easeType": "easeInOutSine"
+      "zoom": 1.0,
+      "moveTime": 0.5
     },
     "id": 94087140,
     "idx": 7,
@@ -3217,12 +3217,12 @@
   },
   {
     "script": {
-      "disp": 1,
+      "effect": "CommonFocus",
       "squareIndexes": [
         13,
         14
       ],
-      "effect": "CommonFocus"
+      "disp": 1
     },
     "id": 94087140,
     "idx": 8,
@@ -3238,12 +3238,12 @@
   },
   {
     "script": {
-      "disp": 0,
+      "effect": "CommonFocus",
       "squareIndexes": [
         13,
         14
       ],
-      "effect": "CommonFocus"
+      "disp": 0
     },
     "id": 94087140,
     "idx": 10,
@@ -3259,8 +3259,8 @@
   },
   {
     "script": {
-      "overlayEffectPrefabName": "EffectWinCondition",
-      "overlayEffectMessage": "制圧ポイントへのマスターの到達"
+      "overlayEffectMessage": "制圧ポイントへのマスターの到達",
+      "overlayEffectPrefabName": "EffectWinCondition"
     },
     "id": 94087140,
     "idx": 12,
@@ -3276,12 +3276,12 @@
   },
   {
     "script": {
-      "zoom": 1.0,
+      "easeType": "easeInOutSine",
       "squareIndexes": [
         13
       ],
-      "moveTime": 0.5,
-      "easeType": "easeInOutSine"
+      "zoom": 1.0,
+      "moveTime": 0.5
     },
     "id": 94087141,
     "idx": 1,
@@ -3289,8 +3289,8 @@
   },
   {
     "script": {
-      "effectId": 2,
-      "squareIndex": 13
+      "squareIndex": 13,
+      "effectId": 2
     },
     "id": 94087141,
     "idx": 2,
@@ -3298,9 +3298,9 @@
   },
   {
     "script": {
+      "squareIndex1": 13,
       "effectId": 1,
-      "squareIndex2": 33,
-      "squareIndex1": 13
+      "squareIndex2": 33
     },
     "id": 94087141,
     "idx": 3,
@@ -3308,9 +3308,9 @@
   },
   {
     "script": {
+      "squareIndex1": 13,
       "effectId": 1,
-      "squareIndex2": 36,
-      "squareIndex1": 13
+      "squareIndex2": 36
     },
     "id": 94087141,
     "idx": 4,
@@ -3326,14 +3326,14 @@
   },
   {
     "script": {
-      "groupId": 0,
-      "forceId": 1,
       "pieceIndex": [
         7
       ],
       "aiId": [
         94087001
-      ]
+      ],
+      "groupId": 0,
+      "forceId": 1
     },
     "id": 94087141,
     "idx": 6,
@@ -3341,12 +3341,12 @@
   },
   {
     "script": {
-      "zoom": 1.0,
+      "easeType": "easeInOutSine",
       "squareIndexes": [
         14
       ],
-      "moveTime": 0.5,
-      "easeType": "easeInOutSine"
+      "zoom": 1.0,
+      "moveTime": 0.5
     },
     "id": 94087142,
     "idx": 1,
@@ -3354,8 +3354,8 @@
   },
   {
     "script": {
-      "effectId": 2,
-      "squareIndex": 14
+      "squareIndex": 14,
+      "effectId": 2
     },
     "id": 94087142,
     "idx": 2,
@@ -3363,9 +3363,9 @@
   },
   {
     "script": {
+      "squareIndex1": 14,
       "effectId": 1,
-      "squareIndex2": 27,
-      "squareIndex1": 14
+      "squareIndex2": 27
     },
     "id": 94087142,
     "idx": 3,
@@ -3373,9 +3373,9 @@
   },
   {
     "script": {
+      "squareIndex1": 14,
       "effectId": 1,
-      "squareIndex2": 31,
-      "squareIndex1": 14
+      "squareIndex2": 31
     },
     "id": 94087142,
     "idx": 4,
@@ -3391,14 +3391,14 @@
   },
   {
     "script": {
-      "groupId": 0,
-      "forceId": 1,
       "pieceIndex": [
         7
       ],
       "aiId": [
         94087001
-      ]
+      ],
+      "groupId": 0,
+      "forceId": 1
     },
     "id": 94087142,
     "idx": 6,
@@ -3406,12 +3406,12 @@
   },
   {
     "script": {
-      "zoom": 1.0,
+      "easeType": "easeInOutSine",
       "squareIndexes": [
         13
       ],
-      "moveTime": 0.5,
-      "easeType": "easeInOutSine"
+      "zoom": 1.0,
+      "moveTime": 0.5
     },
     "id": 94087143,
     "idx": 1,
@@ -3419,8 +3419,8 @@
   },
   {
     "script": {
-      "effectId": 2,
-      "squareIndex": 13
+      "squareIndex": 13,
+      "effectId": 2
     },
     "id": 94087143,
     "idx": 2,
@@ -3428,9 +3428,9 @@
   },
   {
     "script": {
+      "squareIndex1": 13,
       "effectId": 1,
-      "squareIndex2": 33,
-      "squareIndex1": 13
+      "squareIndex2": 33
     },
     "id": 94087143,
     "idx": 3,
@@ -3438,9 +3438,9 @@
   },
   {
     "script": {
+      "squareIndex1": 13,
       "effectId": 1,
-      "squareIndex2": 36,
-      "squareIndex1": 13
+      "squareIndex2": 36
     },
     "id": 94087143,
     "idx": 4,
@@ -3448,12 +3448,12 @@
   },
   {
     "script": {
-      "zoom": 1.0,
+      "easeType": "easeInOutSine",
       "squareIndexes": [
         14
       ],
-      "moveTime": 0.5,
-      "easeType": "easeInOutSine"
+      "zoom": 1.0,
+      "moveTime": 0.5
     },
     "id": 94087144,
     "idx": 1,
@@ -3461,8 +3461,8 @@
   },
   {
     "script": {
-      "effectId": 2,
-      "squareIndex": 14
+      "squareIndex": 14,
+      "effectId": 2
     },
     "id": 94087144,
     "idx": 2,
@@ -3470,9 +3470,9 @@
   },
   {
     "script": {
+      "squareIndex1": 14,
       "effectId": 1,
-      "squareIndex2": 27,
-      "squareIndex1": 14
+      "squareIndex2": 27
     },
     "id": 94087144,
     "idx": 3,
@@ -3480,9 +3480,9 @@
   },
   {
     "script": {
+      "squareIndex1": 14,
       "effectId": 1,
-      "squareIndex2": 31,
-      "squareIndex1": 14
+      "squareIndex2": 31
     },
     "id": 94087144,
     "idx": 4,
@@ -3594,11 +3594,11 @@
   },
   {
     "script": {
+      "skillLv": 1,
       "skillId": 94087035,
       "effectIds": [
         3
       ],
-      "skillLv": 1,
       "pieceIndexes": [
         9,
         10
@@ -3610,11 +3610,11 @@
   },
   {
     "script": {
+      "skillLv": 1,
       "skillId": 94087034,
       "effectIds": [
         4
       ],
-      "skillLv": 1,
       "pieceIndexes": [
         1
       ]
@@ -3654,9 +3654,9 @@
         0,
         1
       ],
+      "zoom": 1.0,
       "easeType": "easeInOutSine",
-      "moveTime": 0.5,
-      "zoom": 1.0
+      "moveTime": 0.5
     },
     "id": 94087155,
     "idx": 6,
@@ -3664,11 +3664,11 @@
   },
   {
     "script": {
-      "disp": 1,
+      "effect": "CommonFocus",
       "squareIndexes": [
         1
       ],
-      "effect": "CommonFocus"
+      "disp": 1
     },
     "id": 94087155,
     "idx": 7,
@@ -3684,11 +3684,11 @@
   },
   {
     "script": {
-      "disp": 0,
+      "effect": "CommonFocus",
       "squareIndexes": [
         1
       ],
-      "effect": "CommonFocus"
+      "disp": 0
     },
     "id": 94087155,
     "idx": 9,
@@ -3709,9 +3709,9 @@
         0,
         1
       ],
+      "zoom": 1.0,
       "easeType": "easeInOutSine",
-      "moveTime": 0.5,
-      "zoom": 1.0
+      "moveTime": 0.5
     },
     "id": 94087155,
     "idx": 11,
@@ -3724,8 +3724,8 @@
         0,
         1
       ],
-      "disp": 1,
-      "type": "Target"
+      "type": "Target",
+      "disp": 1
     },
     "id": 94087155,
     "idx": 12,
@@ -3733,8 +3733,8 @@
   },
   {
     "script": {
-      "overlayEffectPrefabName": "EffectWinCondition",
-      "overlayEffectMessage": "テュフォン・エフェメロスの撃破"
+      "overlayEffectMessage": "テュフォン・エフェメロスの撃破",
+      "overlayEffectPrefabName": "EffectWinCondition"
     },
     "id": 94087155,
     "idx": 13,
@@ -3817,14 +3817,6 @@
   },
   {
     "script": {
-      "pieceIndexes": [
-        3
-      ],
-      "skillId": 94087003,
-      "skillLv": 1,
-      "effectIds": [
-        3
-      ],
       "actorEffectPieceIndex": [
         [
           1,
@@ -3832,7 +3824,15 @@
           2
         ]
       ],
-      "noMoveLastPieceCamera": 1
+      "skillLv": 1,
+      "noMoveLastPieceCamera": 1,
+      "effectIds": [
+        3
+      ],
+      "skillId": 94087003,
+      "pieceIndexes": [
+        3
+      ]
     },
     "id": 94087160,
     "idx": 2,
@@ -3856,14 +3856,6 @@
   },
   {
     "script": {
-      "pieceIndexes": [
-        2
-      ],
-      "skillId": 94087003,
-      "skillLv": 1,
-      "effectIds": [
-        3
-      ],
       "actorEffectPieceIndex": [
         [
           1,
@@ -3871,7 +3863,15 @@
           3
         ]
       ],
-      "noMoveLastPieceCamera": 1
+      "skillLv": 1,
+      "noMoveLastPieceCamera": 1,
+      "effectIds": [
+        3
+      ],
+      "skillId": 94087003,
+      "pieceIndexes": [
+        2
+      ]
     },
     "id": 94087161,
     "idx": 2,
@@ -3904,13 +3904,13 @@
   },
   {
     "script": {
-      "zoom": 1.6,
-      "easeType": "easeInOutSine",
-      "moveTime": 1.0,
       "pos": [
         0,
         317
-      ]
+      ],
+      "moveTime": 1.0,
+      "zoom": 1.6,
+      "easeType": "easeInOutSine"
     },
     "id": 94087162,
     "idx": 3,
@@ -3935,13 +3935,13 @@
   },
   {
     "script": {
-      "zoom": 2.0,
-      "easeType": "easeOutQuad",
-      "moveTime": 0.8,
       "pos": [
         0,
         300
-      ]
+      ],
+      "moveTime": 0.8,
+      "zoom": 2.0,
+      "easeType": "easeOutQuad"
     },
     "id": 94087162,
     "idx": 6,
@@ -3982,13 +3982,13 @@
   },
   {
     "script": {
-      "zoom": 2.4,
-      "easeType": "easeInOutSine",
-      "moveTime": 1.0,
       "pos": [
         0,
         -319
-      ]
+      ],
+      "moveTime": 1.0,
+      "zoom": 2.4,
+      "easeType": "easeInOutSine"
     },
     "id": 94087162,
     "idx": 11,
@@ -3996,8 +3996,8 @@
   },
   {
     "script": {
-      "overlayEffectPrefabName": "CommonMessage",
-      "overlayEffectMessage": "２ターン後にブレス攻撃"
+      "overlayEffectMessage": "２ターン後にブレス攻撃",
+      "overlayEffectPrefabName": "CommonMessage"
     },
     "id": 94087162,
     "idx": 12,
@@ -4031,13 +4031,13 @@
   },
   {
     "script": {
-      "zoom": 1.6,
-      "easeType": "easeInOutSine",
-      "moveTime": 1.0,
       "pos": [
         0,
         317
-      ]
+      ],
+      "moveTime": 1.0,
+      "zoom": 1.6,
+      "easeType": "easeInOutSine"
     },
     "id": 94087163,
     "idx": 3,
@@ -4062,13 +4062,13 @@
   },
   {
     "script": {
-      "zoom": 2.0,
-      "easeType": "easeOutQuad",
-      "moveTime": 0.8,
       "pos": [
         0,
         300
-      ]
+      ],
+      "moveTime": 0.8,
+      "zoom": 2.0,
+      "easeType": "easeOutQuad"
     },
     "id": 94087163,
     "idx": 6,
@@ -4109,13 +4109,13 @@
   },
   {
     "script": {
-      "zoom": 2.4,
-      "easeType": "easeInOutSine",
-      "moveTime": 1.0,
       "pos": [
         0,
         -319
-      ]
+      ],
+      "moveTime": 1.0,
+      "zoom": 2.4,
+      "easeType": "easeInOutSine"
     },
     "id": 94087163,
     "idx": 11,
@@ -4123,8 +4123,8 @@
   },
   {
     "script": {
-      "overlayEffectPrefabName": "CommonMessage",
-      "overlayEffectMessage": "２ターン後にブレス攻撃"
+      "overlayEffectMessage": "２ターン後にブレス攻撃",
+      "overlayEffectPrefabName": "CommonMessage"
     },
     "id": 94087163,
     "idx": 12,
@@ -4149,8 +4149,8 @@
   },
   {
     "script": {
-      "overlayEffectPrefabName": "CommonMessage",
-      "overlayEffectMessage": "１ターン後にブレス攻撃"
+      "overlayEffectMessage": "１ターン後にブレス攻撃",
+      "overlayEffectPrefabName": "CommonMessage"
     },
     "id": 94087164,
     "idx": 2,
@@ -4158,13 +4158,13 @@
   },
   {
     "script": {
-      "zoom": 2.0,
-      "easeType": "easeInOutSine",
-      "moveTime": 1.0,
       "pos": [
         0,
         317
-      ]
+      ],
+      "moveTime": 1.0,
+      "zoom": 2.0,
+      "easeType": "easeInOutSine"
     },
     "id": 94087165,
     "idx": 1,
@@ -4188,8 +4188,8 @@
   },
   {
     "script": {
-      "overlayEffectPrefabName": "CommonHighlightMessage",
-      "overlayEffectMessage": "[#汝、宙を裂く雷霆:ネガ・ケラウノス]"
+      "overlayEffectMessage": "[#汝、宙を裂く雷霆:ネガ・ケラウノス]",
+      "overlayEffectPrefabName": "CommonHighlightMessage"
     },
     "id": 94087165,
     "idx": 4,
@@ -4206,13 +4206,13 @@
   },
   {
     "script": {
-      "zoom": 1.9,
-      "easeType": "easeOutQuad",
-      "moveTime": 1.0,
       "pos": [
         -40,
         380
-      ]
+      ],
+      "moveTime": 1.0,
+      "zoom": 1.9,
+      "easeType": "easeOutQuad"
     },
     "id": 94087165,
     "idx": 6,
@@ -4237,13 +4237,13 @@
   },
   {
     "script": {
-      "zoom": 2.0,
-      "easeType": "easeInOutSine",
-      "moveTime": 0.3,
       "pos": [
         100,
         -15
-      ]
+      ],
+      "moveTime": 0.3,
+      "zoom": 2.0,
+      "easeType": "easeInOutSine"
     },
     "id": 94087165,
     "idx": 9,
@@ -4259,13 +4259,13 @@
   },
   {
     "script": {
-      "zoom": 2.3,
-      "easeType": "easeInOutSine",
-      "moveTime": 1.0,
       "pos": [
         120,
         -250
-      ]
+      ],
+      "moveTime": 1.0,
+      "zoom": 2.3,
+      "easeType": "easeInOutSine"
     },
     "id": 94087165,
     "idx": 11,
@@ -4281,17 +4281,17 @@
   },
   {
     "script": {
-      "pieceIndexes": [
-        1
-      ],
-      "noActorEffect": 1,
-      "skillId": 94087018,
       "skillLv": 1,
+      "noActorEffect": 1,
+      "noMoveLastPieceCamera": 1,
+      "noMoveTargetCamera": 1,
       "effectIds": [
         0
       ],
-      "noMoveLastPieceCamera": 1,
-      "noMoveTargetCamera": 1
+      "skillId": 94087018,
+      "pieceIndexes": [
+        1
+      ]
     },
     "id": 94087165,
     "idx": 13,
@@ -4299,12 +4299,12 @@
   },
   {
     "script": {
-      "skillId": 94087004,
-      "squareIndexGroup": 94087001,
-      "bossProcessType": 1,
+      "skillLv": 1,
       "noActorEffect": 1,
       "WarBoardBreakPointDamage": 1,
-      "skillLv": 1
+      "bossProcessType": 1,
+      "skillId": 94087004,
+      "squareIndexGroup": 94087001
     },
     "id": 94087165,
     "idx": 14,
@@ -4312,17 +4312,17 @@
   },
   {
     "script": {
-      "pieceIndexes": [
-        1
-      ],
-      "noActorEffect": 1,
-      "skillId": 94087019,
       "skillLv": 1,
+      "noActorEffect": 1,
+      "noMoveLastPieceCamera": 1,
+      "noMoveTargetCamera": 1,
       "effectIds": [
         0
       ],
-      "noMoveLastPieceCamera": 1,
-      "noMoveTargetCamera": 1
+      "skillId": 94087019,
+      "pieceIndexes": [
+        1
+      ]
     },
     "id": 94087165,
     "idx": 15,
@@ -4352,13 +4352,13 @@
   },
   {
     "script": {
-      "zoom": 2.0,
-      "easeType": "easeInOutSine",
-      "moveTime": 1.0,
       "pos": [
         0,
         317
-      ]
+      ],
+      "moveTime": 1.0,
+      "zoom": 2.0,
+      "easeType": "easeInOutSine"
     },
     "id": 94087166,
     "idx": 1,
@@ -4382,8 +4382,8 @@
   },
   {
     "script": {
-      "overlayEffectPrefabName": "CommonHighlightMessage",
-      "overlayEffectMessage": "[#汝、宙を裂く雷霆:ネガ・ケラウノス]"
+      "overlayEffectMessage": "[#汝、宙を裂く雷霆:ネガ・ケラウノス]",
+      "overlayEffectPrefabName": "CommonHighlightMessage"
     },
     "id": 94087166,
     "idx": 4,
@@ -4400,13 +4400,13 @@
   },
   {
     "script": {
-      "zoom": 1.9,
-      "easeType": "easeOutQuad",
-      "moveTime": 1.0,
       "pos": [
         40,
         380
-      ]
+      ],
+      "moveTime": 1.0,
+      "zoom": 1.9,
+      "easeType": "easeOutQuad"
     },
     "id": 94087166,
     "idx": 6,
@@ -4431,13 +4431,13 @@
   },
   {
     "script": {
-      "zoom": 2.0,
-      "easeType": "easeInOutSine",
-      "moveTime": 0.3,
       "pos": [
         -100,
         -15
-      ]
+      ],
+      "moveTime": 0.3,
+      "zoom": 2.0,
+      "easeType": "easeInOutSine"
     },
     "id": 94087166,
     "idx": 9,
@@ -4453,13 +4453,13 @@
   },
   {
     "script": {
-      "zoom": 2.3,
-      "easeType": "easeInOutSine",
-      "moveTime": 1.0,
       "pos": [
         -120,
         -250
-      ]
+      ],
+      "moveTime": 1.0,
+      "zoom": 2.3,
+      "easeType": "easeInOutSine"
     },
     "id": 94087166,
     "idx": 11,
@@ -4475,17 +4475,17 @@
   },
   {
     "script": {
-      "pieceIndexes": [
-        1
-      ],
-      "noActorEffect": 1,
-      "skillId": 94087018,
       "skillLv": 1,
+      "noActorEffect": 1,
+      "noMoveLastPieceCamera": 1,
+      "noMoveTargetCamera": 1,
       "effectIds": [
         0
       ],
-      "noMoveLastPieceCamera": 1,
-      "noMoveTargetCamera": 1
+      "skillId": 94087018,
+      "pieceIndexes": [
+        1
+      ]
     },
     "id": 94087166,
     "idx": 13,
@@ -4493,12 +4493,12 @@
   },
   {
     "script": {
-      "skillId": 94087004,
-      "squareIndexGroup": 94087002,
-      "bossProcessType": 1,
+      "skillLv": 1,
       "noActorEffect": 1,
       "WarBoardBreakPointDamage": 1,
-      "skillLv": 1
+      "bossProcessType": 1,
+      "skillId": 94087004,
+      "squareIndexGroup": 94087002
     },
     "id": 94087166,
     "idx": 14,
@@ -4506,17 +4506,17 @@
   },
   {
     "script": {
-      "pieceIndexes": [
-        1
-      ],
-      "noActorEffect": 1,
-      "skillId": 94087019,
       "skillLv": 1,
+      "noActorEffect": 1,
+      "noMoveLastPieceCamera": 1,
+      "noMoveTargetCamera": 1,
       "effectIds": [
         0
       ],
-      "noMoveLastPieceCamera": 1,
-      "noMoveTargetCamera": 1
+      "skillId": 94087019,
+      "pieceIndexes": [
+        1
+      ]
     },
     "id": 94087166,
     "idx": 15,
@@ -4563,13 +4563,13 @@
   },
   {
     "script": {
-      "zoom": 1.6,
-      "easeType": "easeInOutSine",
-      "moveTime": 1.0,
       "pos": [
         0,
         317
-      ]
+      ],
+      "moveTime": 1.0,
+      "zoom": 1.6,
+      "easeType": "easeInOutSine"
     },
     "id": 94087167,
     "idx": 3,
@@ -4594,13 +4594,13 @@
   },
   {
     "script": {
-      "zoom": 2.0,
-      "easeType": "easeOutQuad",
-      "moveTime": 0.8,
       "pos": [
         0,
         300
-      ]
+      ],
+      "moveTime": 0.8,
+      "zoom": 2.0,
+      "easeType": "easeOutQuad"
     },
     "id": 94087167,
     "idx": 6,
@@ -4641,13 +4641,13 @@
   },
   {
     "script": {
-      "zoom": 2.4,
-      "easeType": "easeInOutSine",
-      "moveTime": 1.0,
       "pos": [
         0,
         -319
-      ]
+      ],
+      "moveTime": 1.0,
+      "zoom": 2.4,
+      "easeType": "easeInOutSine"
     },
     "id": 94087167,
     "idx": 11,
@@ -4655,8 +4655,8 @@
   },
   {
     "script": {
-      "overlayEffectPrefabName": "CommonMessage",
-      "overlayEffectMessage": "２ターン後にブレス攻撃"
+      "overlayEffectMessage": "２ターン後にブレス攻撃",
+      "overlayEffectPrefabName": "CommonMessage"
     },
     "id": 94087167,
     "idx": 12,
@@ -4681,13 +4681,13 @@
   },
   {
     "script": {
-      "zoom": 1.6,
-      "easeType": "easeInOutSine",
-      "moveTime": 1.0,
       "pos": [
         0,
         317
-      ]
+      ],
+      "moveTime": 1.0,
+      "zoom": 1.6,
+      "easeType": "easeInOutSine"
     },
     "id": 94087168,
     "idx": 3,
@@ -4712,13 +4712,13 @@
   },
   {
     "script": {
-      "zoom": 2.0,
-      "easeType": "easeOutQuad",
-      "moveTime": 0.8,
       "pos": [
         0,
         300
-      ]
+      ],
+      "moveTime": 0.8,
+      "zoom": 2.0,
+      "easeType": "easeOutQuad"
     },
     "id": 94087168,
     "idx": 6,
@@ -4759,13 +4759,13 @@
   },
   {
     "script": {
-      "zoom": 2.4,
-      "easeType": "easeInOutSine",
-      "moveTime": 1.0,
       "pos": [
         0,
         -319
-      ]
+      ],
+      "moveTime": 1.0,
+      "zoom": 2.4,
+      "easeType": "easeInOutSine"
     },
     "id": 94087168,
     "idx": 11,
@@ -4773,8 +4773,8 @@
   },
   {
     "script": {
-      "overlayEffectPrefabName": "CommonMessage",
-      "overlayEffectMessage": "２ターン後にブレス攻撃"
+      "overlayEffectMessage": "２ターン後にブレス攻撃",
+      "overlayEffectPrefabName": "CommonMessage"
     },
     "id": 94087168,
     "idx": 12,
@@ -4790,8 +4790,8 @@
   },
   {
     "script": {
-      "overlayEffectPrefabName": "CommonMessage",
-      "overlayEffectMessage": "１ターン後にブレス攻撃"
+      "overlayEffectMessage": "１ターン後にブレス攻撃",
+      "overlayEffectPrefabName": "CommonMessage"
     },
     "id": 94087169,
     "idx": 2,
@@ -4799,13 +4799,13 @@
   },
   {
     "script": {
-      "zoom": 2.0,
-      "easeType": "easeInOutSine",
-      "moveTime": 1.0,
       "pos": [
         0,
         317
-      ]
+      ],
+      "moveTime": 1.0,
+      "zoom": 2.0,
+      "easeType": "easeInOutSine"
     },
     "id": 94087170,
     "idx": 1,
@@ -4821,8 +4821,8 @@
   },
   {
     "script": {
-      "overlayEffectPrefabName": "CommonHighlightMessage",
-      "overlayEffectMessage": "[#汝、宙を裂く雷霆:ネガ・ケラウノス]"
+      "overlayEffectMessage": "[#汝、宙を裂く雷霆:ネガ・ケラウノス]",
+      "overlayEffectPrefabName": "CommonHighlightMessage"
     },
     "id": 94087170,
     "idx": 3,
@@ -4839,13 +4839,13 @@
   },
   {
     "script": {
-      "zoom": 1.9,
-      "easeType": "easeOutQuad",
-      "moveTime": 1.0,
       "pos": [
         -40,
         380
-      ]
+      ],
+      "moveTime": 1.0,
+      "zoom": 1.9,
+      "easeType": "easeOutQuad"
     },
     "id": 94087170,
     "idx": 5,
@@ -4870,13 +4870,13 @@
   },
   {
     "script": {
-      "zoom": 2.0,
-      "easeType": "easeInOutSine",
-      "moveTime": 0.3,
       "pos": [
         100,
         -15
-      ]
+      ],
+      "moveTime": 0.3,
+      "zoom": 2.0,
+      "easeType": "easeInOutSine"
     },
     "id": 94087170,
     "idx": 8,
@@ -4892,13 +4892,13 @@
   },
   {
     "script": {
-      "zoom": 2.3,
-      "easeType": "easeInOutSine",
-      "moveTime": 1.0,
       "pos": [
         120,
         -250
-      ]
+      ],
+      "moveTime": 1.0,
+      "zoom": 2.3,
+      "easeType": "easeInOutSine"
     },
     "id": 94087170,
     "idx": 10,
@@ -4914,17 +4914,17 @@
   },
   {
     "script": {
-      "pieceIndexes": [
-        1
-      ],
-      "noActorEffect": 1,
-      "skillId": 94087018,
       "skillLv": 1,
+      "noActorEffect": 1,
+      "noMoveLastPieceCamera": 1,
+      "noMoveTargetCamera": 1,
       "effectIds": [
         0
       ],
-      "noMoveLastPieceCamera": 1,
-      "noMoveTargetCamera": 1
+      "skillId": 94087018,
+      "pieceIndexes": [
+        1
+      ]
     },
     "id": 94087170,
     "idx": 12,
@@ -4932,12 +4932,12 @@
   },
   {
     "script": {
-      "skillId": 94087004,
-      "squareIndexGroup": 94087001,
-      "bossProcessType": 1,
+      "skillLv": 1,
       "noActorEffect": 1,
       "WarBoardBreakPointDamage": 1,
-      "skillLv": 1
+      "bossProcessType": 1,
+      "skillId": 94087004,
+      "squareIndexGroup": 94087001
     },
     "id": 94087170,
     "idx": 13,
@@ -4945,17 +4945,17 @@
   },
   {
     "script": {
-      "pieceIndexes": [
-        1
-      ],
-      "noActorEffect": 1,
-      "skillId": 94087019,
       "skillLv": 1,
+      "noActorEffect": 1,
+      "noMoveLastPieceCamera": 1,
+      "noMoveTargetCamera": 1,
       "effectIds": [
         0
       ],
-      "noMoveLastPieceCamera": 1,
-      "noMoveTargetCamera": 1
+      "skillId": 94087019,
+      "pieceIndexes": [
+        1
+      ]
     },
     "id": 94087170,
     "idx": 14,
@@ -4985,13 +4985,13 @@
   },
   {
     "script": {
-      "zoom": 2.0,
-      "easeType": "easeInOutSine",
-      "moveTime": 1.0,
       "pos": [
         0,
         317
-      ]
+      ],
+      "moveTime": 1.0,
+      "zoom": 2.0,
+      "easeType": "easeInOutSine"
     },
     "id": 94087171,
     "idx": 1,
@@ -5007,8 +5007,8 @@
   },
   {
     "script": {
-      "overlayEffectPrefabName": "CommonHighlightMessage",
-      "overlayEffectMessage": "[#汝、宙を裂く雷霆:ネガ・ケラウノス]"
+      "overlayEffectMessage": "[#汝、宙を裂く雷霆:ネガ・ケラウノス]",
+      "overlayEffectPrefabName": "CommonHighlightMessage"
     },
     "id": 94087171,
     "idx": 3,
@@ -5025,13 +5025,13 @@
   },
   {
     "script": {
-      "zoom": 1.9,
-      "easeType": "easeOutQuad",
-      "moveTime": 1.0,
       "pos": [
         40,
         380
-      ]
+      ],
+      "moveTime": 1.0,
+      "zoom": 1.9,
+      "easeType": "easeOutQuad"
     },
     "id": 94087171,
     "idx": 5,
@@ -5056,13 +5056,13 @@
   },
   {
     "script": {
-      "zoom": 2.0,
-      "easeType": "easeInOutSine",
-      "moveTime": 0.3,
       "pos": [
         -100,
         -15
-      ]
+      ],
+      "moveTime": 0.3,
+      "zoom": 2.0,
+      "easeType": "easeInOutSine"
     },
     "id": 94087171,
     "idx": 8,
@@ -5078,13 +5078,13 @@
   },
   {
     "script": {
-      "zoom": 2.3,
-      "easeType": "easeInOutSine",
-      "moveTime": 1.0,
       "pos": [
         -120,
         -250
-      ]
+      ],
+      "moveTime": 1.0,
+      "zoom": 2.3,
+      "easeType": "easeInOutSine"
     },
     "id": 94087171,
     "idx": 10,
@@ -5100,17 +5100,17 @@
   },
   {
     "script": {
-      "pieceIndexes": [
-        1
-      ],
-      "noActorEffect": 1,
-      "skillId": 94087018,
       "skillLv": 1,
+      "noActorEffect": 1,
+      "noMoveLastPieceCamera": 1,
+      "noMoveTargetCamera": 1,
       "effectIds": [
         0
       ],
-      "noMoveLastPieceCamera": 1,
-      "noMoveTargetCamera": 1
+      "skillId": 94087018,
+      "pieceIndexes": [
+        1
+      ]
     },
     "id": 94087171,
     "idx": 12,
@@ -5118,12 +5118,12 @@
   },
   {
     "script": {
-      "skillId": 94087004,
-      "squareIndexGroup": 94087002,
-      "bossProcessType": 1,
+      "skillLv": 1,
       "noActorEffect": 1,
       "WarBoardBreakPointDamage": 1,
-      "skillLv": 1
+      "bossProcessType": 1,
+      "skillId": 94087004,
+      "squareIndexGroup": 94087002
     },
     "id": 94087171,
     "idx": 13,
@@ -5131,17 +5131,17 @@
   },
   {
     "script": {
-      "pieceIndexes": [
-        1
-      ],
-      "noActorEffect": 1,
-      "skillId": 94087019,
       "skillLv": 1,
+      "noActorEffect": 1,
+      "noMoveLastPieceCamera": 1,
+      "noMoveTargetCamera": 1,
       "effectIds": [
         0
       ],
-      "noMoveLastPieceCamera": 1,
-      "noMoveTargetCamera": 1
+      "skillId": 94087019,
+      "pieceIndexes": [
+        1
+      ]
     },
     "id": 94087171,
     "idx": 14,
@@ -5203,14 +5203,6 @@
   },
   {
     "script": {
-      "pieceIndexes": [
-        1
-      ],
-      "skillId": 94087005,
-      "skillLv": 1,
-      "effectIds": [
-        0
-      ],
       "actorEffectPieceIndex": [
         [
           1,
@@ -5218,7 +5210,15 @@
           1
         ]
       ],
-      "noMoveLastPieceCamera": 1
+      "skillLv": 1,
+      "noMoveLastPieceCamera": 1,
+      "effectIds": [
+        0
+      ],
+      "skillId": 94087005,
+      "pieceIndexes": [
+        1
+      ]
     },
     "id": 94087173,
     "idx": 4,
@@ -5231,8 +5231,8 @@
         0,
         1
       ],
-      "disp": 1,
-      "type": "Barrier"
+      "type": "Barrier",
+      "disp": 1
     },
     "id": 94087173,
     "idx": 5,
@@ -5264,16 +5264,16 @@
   },
   {
     "script": {
-      "pieceIndexes": [
-        1
-      ],
-      "noActorEffect": 1,
-      "skillId": 94087016,
       "skillLv": 1,
+      "noActorEffect": 1,
+      "noMoveLastPieceCamera": 1,
       "effectIds": [
         0
       ],
-      "noMoveLastPieceCamera": 1
+      "skillId": 94087016,
+      "pieceIndexes": [
+        1
+      ]
     },
     "id": 94087174,
     "idx": 2,
@@ -5286,8 +5286,8 @@
         0,
         1
       ],
-      "disp": 0,
-      "type": "Barrier"
+      "type": "Barrier",
+      "disp": 0
     },
     "id": 94087174,
     "idx": 3,
@@ -5335,11 +5335,11 @@
   },
   {
     "script": {
+      "skillLv": 1,
       "skillId": 94087035,
       "effectIds": [
         3
       ],
-      "skillLv": 1,
       "pieceIndexes": [
         9,
         10
@@ -5351,11 +5351,11 @@
   },
   {
     "script": {
+      "skillLv": 1,
       "skillId": 94087034,
       "effectIds": [
         4
       ],
-      "skillLv": 1,
       "pieceIndexes": [
         1
       ]
@@ -5395,9 +5395,9 @@
         0,
         1
       ],
+      "zoom": 1.0,
       "easeType": "easeInOutSine",
-      "moveTime": 0.5,
-      "zoom": 1.0
+      "moveTime": 0.5
     },
     "id": 94087178,
     "idx": 6,
@@ -5405,11 +5405,11 @@
   },
   {
     "script": {
-      "disp": 1,
+      "effect": "CommonFocus",
       "squareIndexes": [
         1
       ],
-      "effect": "CommonFocus"
+      "disp": 1
     },
     "id": 94087178,
     "idx": 7,
@@ -5425,11 +5425,11 @@
   },
   {
     "script": {
-      "disp": 0,
+      "effect": "CommonFocus",
       "squareIndexes": [
         1
       ],
-      "effect": "CommonFocus"
+      "disp": 0
     },
     "id": 94087178,
     "idx": 9,
@@ -5450,9 +5450,9 @@
         0,
         1
       ],
+      "zoom": 1.0,
       "easeType": "easeInOutSine",
-      "moveTime": 0.5,
-      "zoom": 1.0
+      "moveTime": 0.5
     },
     "id": 94087178,
     "idx": 11,
@@ -5465,8 +5465,8 @@
         0,
         1
       ],
-      "disp": 1,
-      "type": "Target"
+      "type": "Target",
+      "disp": 1
     },
     "id": 94087178,
     "idx": 12,
@@ -5474,8 +5474,8 @@
   },
   {
     "script": {
-      "overlayEffectPrefabName": "EffectWinCondition",
-      "overlayEffectMessage": "テュフォン・エフェメロスの撃破"
+      "overlayEffectMessage": "テュフォン・エフェメロスの撃破",
+      "overlayEffectPrefabName": "EffectWinCondition"
     },
     "id": 94087178,
     "idx": 13,
@@ -5558,14 +5558,6 @@
   },
   {
     "script": {
-      "pieceIndexes": [
-        3
-      ],
-      "skillId": 94087003,
-      "skillLv": 1,
-      "effectIds": [
-        3
-      ],
       "actorEffectPieceIndex": [
         [
           1,
@@ -5573,7 +5565,15 @@
           2
         ]
       ],
-      "noMoveLastPieceCamera": 1
+      "skillLv": 1,
+      "noMoveLastPieceCamera": 1,
+      "effectIds": [
+        3
+      ],
+      "skillId": 94087003,
+      "pieceIndexes": [
+        3
+      ]
     },
     "id": 94087183,
     "idx": 2,
@@ -5597,14 +5597,6 @@
   },
   {
     "script": {
-      "pieceIndexes": [
-        2
-      ],
-      "skillId": 94087003,
-      "skillLv": 1,
-      "effectIds": [
-        3
-      ],
       "actorEffectPieceIndex": [
         [
           1,
@@ -5612,7 +5604,15 @@
           3
         ]
       ],
-      "noMoveLastPieceCamera": 1
+      "skillLv": 1,
+      "noMoveLastPieceCamera": 1,
+      "effectIds": [
+        3
+      ],
+      "skillId": 94087003,
+      "pieceIndexes": [
+        2
+      ]
     },
     "id": 94087184,
     "idx": 2,
@@ -5645,13 +5645,13 @@
   },
   {
     "script": {
-      "zoom": 1.6,
-      "easeType": "easeInOutSine",
-      "moveTime": 1.0,
       "pos": [
         0,
         317
-      ]
+      ],
+      "moveTime": 1.0,
+      "zoom": 1.6,
+      "easeType": "easeInOutSine"
     },
     "id": 94087185,
     "idx": 3,
@@ -5676,13 +5676,13 @@
   },
   {
     "script": {
-      "zoom": 2.0,
-      "easeType": "easeOutQuad",
-      "moveTime": 0.8,
       "pos": [
         0,
         300
-      ]
+      ],
+      "moveTime": 0.8,
+      "zoom": 2.0,
+      "easeType": "easeOutQuad"
     },
     "id": 94087185,
     "idx": 6,
@@ -5723,13 +5723,13 @@
   },
   {
     "script": {
-      "zoom": 2.4,
-      "easeType": "easeInOutSine",
-      "moveTime": 1.0,
       "pos": [
         0,
         -319
-      ]
+      ],
+      "moveTime": 1.0,
+      "zoom": 2.4,
+      "easeType": "easeInOutSine"
     },
     "id": 94087185,
     "idx": 11,
@@ -5737,8 +5737,8 @@
   },
   {
     "script": {
-      "overlayEffectPrefabName": "CommonMessage",
-      "overlayEffectMessage": "２ターン後にブレス攻撃"
+      "overlayEffectMessage": "２ターン後にブレス攻撃",
+      "overlayEffectPrefabName": "CommonMessage"
     },
     "id": 94087185,
     "idx": 12,
@@ -5772,13 +5772,13 @@
   },
   {
     "script": {
-      "zoom": 1.6,
-      "easeType": "easeInOutSine",
-      "moveTime": 1.0,
       "pos": [
         0,
         317
-      ]
+      ],
+      "moveTime": 1.0,
+      "zoom": 1.6,
+      "easeType": "easeInOutSine"
     },
     "id": 94087186,
     "idx": 3,
@@ -5803,13 +5803,13 @@
   },
   {
     "script": {
-      "zoom": 2.0,
-      "easeType": "easeOutQuad",
-      "moveTime": 0.8,
       "pos": [
         0,
         300
-      ]
+      ],
+      "moveTime": 0.8,
+      "zoom": 2.0,
+      "easeType": "easeOutQuad"
     },
     "id": 94087186,
     "idx": 6,
@@ -5850,13 +5850,13 @@
   },
   {
     "script": {
-      "zoom": 2.4,
-      "easeType": "easeInOutSine",
-      "moveTime": 1.0,
       "pos": [
         0,
         -319
-      ]
+      ],
+      "moveTime": 1.0,
+      "zoom": 2.4,
+      "easeType": "easeInOutSine"
     },
     "id": 94087186,
     "idx": 11,
@@ -5864,8 +5864,8 @@
   },
   {
     "script": {
-      "overlayEffectPrefabName": "CommonMessage",
-      "overlayEffectMessage": "２ターン後にブレス攻撃"
+      "overlayEffectMessage": "２ターン後にブレス攻撃",
+      "overlayEffectPrefabName": "CommonMessage"
     },
     "id": 94087186,
     "idx": 12,
@@ -5890,8 +5890,8 @@
   },
   {
     "script": {
-      "overlayEffectPrefabName": "CommonMessage",
-      "overlayEffectMessage": "１ターン後にブレス攻撃"
+      "overlayEffectMessage": "１ターン後にブレス攻撃",
+      "overlayEffectPrefabName": "CommonMessage"
     },
     "id": 94087187,
     "idx": 2,
@@ -5899,13 +5899,13 @@
   },
   {
     "script": {
-      "zoom": 2.0,
-      "easeType": "easeInOutSine",
-      "moveTime": 1.0,
       "pos": [
         0,
         317
-      ]
+      ],
+      "moveTime": 1.0,
+      "zoom": 2.0,
+      "easeType": "easeInOutSine"
     },
     "id": 94087188,
     "idx": 1,
@@ -5929,8 +5929,8 @@
   },
   {
     "script": {
-      "overlayEffectPrefabName": "CommonHighlightMessage",
-      "overlayEffectMessage": "[#汝、宙を裂く雷霆:ネガ・ケラウノス]"
+      "overlayEffectMessage": "[#汝、宙を裂く雷霆:ネガ・ケラウノス]",
+      "overlayEffectPrefabName": "CommonHighlightMessage"
     },
     "id": 94087188,
     "idx": 4,
@@ -5947,13 +5947,13 @@
   },
   {
     "script": {
-      "zoom": 1.9,
-      "easeType": "easeOutQuad",
-      "moveTime": 1.0,
       "pos": [
         -40,
         380
-      ]
+      ],
+      "moveTime": 1.0,
+      "zoom": 1.9,
+      "easeType": "easeOutQuad"
     },
     "id": 94087188,
     "idx": 6,
@@ -5978,13 +5978,13 @@
   },
   {
     "script": {
-      "zoom": 2.0,
-      "easeType": "easeInOutSine",
-      "moveTime": 0.3,
       "pos": [
         100,
         -15
-      ]
+      ],
+      "moveTime": 0.3,
+      "zoom": 2.0,
+      "easeType": "easeInOutSine"
     },
     "id": 94087188,
     "idx": 9,
@@ -6000,13 +6000,13 @@
   },
   {
     "script": {
-      "zoom": 2.3,
-      "easeType": "easeInOutSine",
-      "moveTime": 1.0,
       "pos": [
         120,
         -250
-      ]
+      ],
+      "moveTime": 1.0,
+      "zoom": 2.3,
+      "easeType": "easeInOutSine"
     },
     "id": 94087188,
     "idx": 11,
@@ -6022,17 +6022,17 @@
   },
   {
     "script": {
-      "pieceIndexes": [
-        1
-      ],
-      "noActorEffect": 1,
-      "skillId": 94087018,
       "skillLv": 1,
+      "noActorEffect": 1,
+      "noMoveLastPieceCamera": 1,
+      "noMoveTargetCamera": 1,
       "effectIds": [
         0
       ],
-      "noMoveLastPieceCamera": 1,
-      "noMoveTargetCamera": 1
+      "skillId": 94087018,
+      "pieceIndexes": [
+        1
+      ]
     },
     "id": 94087188,
     "idx": 13,
@@ -6040,12 +6040,12 @@
   },
   {
     "script": {
-      "skillId": 94087004,
-      "squareIndexGroup": 94087003,
-      "bossProcessType": 1,
+      "skillLv": 1,
       "noActorEffect": 1,
       "WarBoardBreakPointDamage": 1,
-      "skillLv": 1
+      "bossProcessType": 1,
+      "skillId": 94087004,
+      "squareIndexGroup": 94087003
     },
     "id": 94087188,
     "idx": 14,
@@ -6053,17 +6053,17 @@
   },
   {
     "script": {
-      "pieceIndexes": [
-        1
-      ],
-      "noActorEffect": 1,
-      "skillId": 94087019,
       "skillLv": 1,
+      "noActorEffect": 1,
+      "noMoveLastPieceCamera": 1,
+      "noMoveTargetCamera": 1,
       "effectIds": [
         0
       ],
-      "noMoveLastPieceCamera": 1,
-      "noMoveTargetCamera": 1
+      "skillId": 94087019,
+      "pieceIndexes": [
+        1
+      ]
     },
     "id": 94087188,
     "idx": 15,
@@ -6093,13 +6093,13 @@
   },
   {
     "script": {
-      "zoom": 2.0,
-      "easeType": "easeInOutSine",
-      "moveTime": 1.0,
       "pos": [
         0,
         317
-      ]
+      ],
+      "moveTime": 1.0,
+      "zoom": 2.0,
+      "easeType": "easeInOutSine"
     },
     "id": 94087189,
     "idx": 1,
@@ -6123,8 +6123,8 @@
   },
   {
     "script": {
-      "overlayEffectPrefabName": "CommonHighlightMessage",
-      "overlayEffectMessage": "[#汝、宙を裂く雷霆:ネガ・ケラウノス]"
+      "overlayEffectMessage": "[#汝、宙を裂く雷霆:ネガ・ケラウノス]",
+      "overlayEffectPrefabName": "CommonHighlightMessage"
     },
     "id": 94087189,
     "idx": 4,
@@ -6141,13 +6141,13 @@
   },
   {
     "script": {
-      "zoom": 1.9,
-      "easeType": "easeOutQuad",
-      "moveTime": 1.0,
       "pos": [
         40,
         380
-      ]
+      ],
+      "moveTime": 1.0,
+      "zoom": 1.9,
+      "easeType": "easeOutQuad"
     },
     "id": 94087189,
     "idx": 6,
@@ -6172,13 +6172,13 @@
   },
   {
     "script": {
-      "zoom": 2.0,
-      "easeType": "easeInOutSine",
-      "moveTime": 0.3,
       "pos": [
         -100,
         -15
-      ]
+      ],
+      "moveTime": 0.3,
+      "zoom": 2.0,
+      "easeType": "easeInOutSine"
     },
     "id": 94087189,
     "idx": 9,
@@ -6194,13 +6194,13 @@
   },
   {
     "script": {
-      "zoom": 2.3,
-      "easeType": "easeInOutSine",
-      "moveTime": 1.0,
       "pos": [
         -120,
         -250
-      ]
+      ],
+      "moveTime": 1.0,
+      "zoom": 2.3,
+      "easeType": "easeInOutSine"
     },
     "id": 94087189,
     "idx": 11,
@@ -6216,17 +6216,17 @@
   },
   {
     "script": {
-      "pieceIndexes": [
-        1
-      ],
-      "noActorEffect": 1,
-      "skillId": 94087018,
       "skillLv": 1,
+      "noActorEffect": 1,
+      "noMoveLastPieceCamera": 1,
+      "noMoveTargetCamera": 1,
       "effectIds": [
         0
       ],
-      "noMoveLastPieceCamera": 1,
-      "noMoveTargetCamera": 1
+      "skillId": 94087018,
+      "pieceIndexes": [
+        1
+      ]
     },
     "id": 94087189,
     "idx": 13,
@@ -6234,12 +6234,12 @@
   },
   {
     "script": {
-      "skillId": 94087004,
-      "squareIndexGroup": 94087004,
-      "bossProcessType": 1,
+      "skillLv": 1,
       "noActorEffect": 1,
       "WarBoardBreakPointDamage": 1,
-      "skillLv": 1
+      "bossProcessType": 1,
+      "skillId": 94087004,
+      "squareIndexGroup": 94087004
     },
     "id": 94087189,
     "idx": 14,
@@ -6247,17 +6247,17 @@
   },
   {
     "script": {
-      "pieceIndexes": [
-        1
-      ],
-      "noActorEffect": 1,
-      "skillId": 94087019,
       "skillLv": 1,
+      "noActorEffect": 1,
+      "noMoveLastPieceCamera": 1,
+      "noMoveTargetCamera": 1,
       "effectIds": [
         0
       ],
-      "noMoveLastPieceCamera": 1,
-      "noMoveTargetCamera": 1
+      "skillId": 94087019,
+      "pieceIndexes": [
+        1
+      ]
     },
     "id": 94087189,
     "idx": 15,
@@ -6304,13 +6304,13 @@
   },
   {
     "script": {
-      "zoom": 1.6,
-      "easeType": "easeInOutSine",
-      "moveTime": 1.0,
       "pos": [
         0,
         317
-      ]
+      ],
+      "moveTime": 1.0,
+      "zoom": 1.6,
+      "easeType": "easeInOutSine"
     },
     "id": 94087190,
     "idx": 3,
@@ -6335,13 +6335,13 @@
   },
   {
     "script": {
-      "zoom": 2.0,
-      "easeType": "easeOutQuad",
-      "moveTime": 0.8,
       "pos": [
         0,
         300
-      ]
+      ],
+      "moveTime": 0.8,
+      "zoom": 2.0,
+      "easeType": "easeOutQuad"
     },
     "id": 94087190,
     "idx": 6,
@@ -6382,13 +6382,13 @@
   },
   {
     "script": {
-      "zoom": 2.4,
-      "easeType": "easeInOutSine",
-      "moveTime": 1.0,
       "pos": [
         0,
         -319
-      ]
+      ],
+      "moveTime": 1.0,
+      "zoom": 2.4,
+      "easeType": "easeInOutSine"
     },
     "id": 94087190,
     "idx": 11,
@@ -6396,8 +6396,8 @@
   },
   {
     "script": {
-      "overlayEffectPrefabName": "CommonMessage",
-      "overlayEffectMessage": "２ターン後にブレス攻撃"
+      "overlayEffectMessage": "２ターン後にブレス攻撃",
+      "overlayEffectPrefabName": "CommonMessage"
     },
     "id": 94087190,
     "idx": 12,
@@ -6422,13 +6422,13 @@
   },
   {
     "script": {
-      "zoom": 1.6,
-      "easeType": "easeInOutSine",
-      "moveTime": 1.0,
       "pos": [
         0,
         317
-      ]
+      ],
+      "moveTime": 1.0,
+      "zoom": 1.6,
+      "easeType": "easeInOutSine"
     },
     "id": 94087191,
     "idx": 3,
@@ -6453,13 +6453,13 @@
   },
   {
     "script": {
-      "zoom": 2.0,
-      "easeType": "easeOutQuad",
-      "moveTime": 0.8,
       "pos": [
         0,
         300
-      ]
+      ],
+      "moveTime": 0.8,
+      "zoom": 2.0,
+      "easeType": "easeOutQuad"
     },
     "id": 94087191,
     "idx": 6,
@@ -6500,13 +6500,13 @@
   },
   {
     "script": {
-      "zoom": 2.4,
-      "easeType": "easeInOutSine",
-      "moveTime": 1.0,
       "pos": [
         0,
         -319
-      ]
+      ],
+      "moveTime": 1.0,
+      "zoom": 2.4,
+      "easeType": "easeInOutSine"
     },
     "id": 94087191,
     "idx": 11,
@@ -6514,8 +6514,8 @@
   },
   {
     "script": {
-      "overlayEffectPrefabName": "CommonMessage",
-      "overlayEffectMessage": "２ターン後にブレス攻撃"
+      "overlayEffectMessage": "２ターン後にブレス攻撃",
+      "overlayEffectPrefabName": "CommonMessage"
     },
     "id": 94087191,
     "idx": 12,
@@ -6531,8 +6531,8 @@
   },
   {
     "script": {
-      "overlayEffectPrefabName": "CommonMessage",
-      "overlayEffectMessage": "１ターン後にブレス攻撃"
+      "overlayEffectMessage": "１ターン後にブレス攻撃",
+      "overlayEffectPrefabName": "CommonMessage"
     },
     "id": 94087192,
     "idx": 2,
@@ -6540,13 +6540,13 @@
   },
   {
     "script": {
-      "zoom": 2.0,
-      "easeType": "easeInOutSine",
-      "moveTime": 1.0,
       "pos": [
         0,
         317
-      ]
+      ],
+      "moveTime": 1.0,
+      "zoom": 2.0,
+      "easeType": "easeInOutSine"
     },
     "id": 94087193,
     "idx": 1,
@@ -6562,8 +6562,8 @@
   },
   {
     "script": {
-      "overlayEffectPrefabName": "CommonHighlightMessage",
-      "overlayEffectMessage": "[#汝、宙を裂く雷霆:ネガ・ケラウノス]"
+      "overlayEffectMessage": "[#汝、宙を裂く雷霆:ネガ・ケラウノス]",
+      "overlayEffectPrefabName": "CommonHighlightMessage"
     },
     "id": 94087193,
     "idx": 3,
@@ -6580,13 +6580,13 @@
   },
   {
     "script": {
-      "zoom": 1.9,
-      "easeType": "easeOutQuad",
-      "moveTime": 1.0,
       "pos": [
         -40,
         380
-      ]
+      ],
+      "moveTime": 1.0,
+      "zoom": 1.9,
+      "easeType": "easeOutQuad"
     },
     "id": 94087193,
     "idx": 5,
@@ -6611,13 +6611,13 @@
   },
   {
     "script": {
-      "zoom": 2.0,
-      "easeType": "easeInOutSine",
-      "moveTime": 0.3,
       "pos": [
         100,
         -15
-      ]
+      ],
+      "moveTime": 0.3,
+      "zoom": 2.0,
+      "easeType": "easeInOutSine"
     },
     "id": 94087193,
     "idx": 8,
@@ -6633,13 +6633,13 @@
   },
   {
     "script": {
-      "zoom": 2.3,
-      "easeType": "easeInOutSine",
-      "moveTime": 1.0,
       "pos": [
         120,
         -250
-      ]
+      ],
+      "moveTime": 1.0,
+      "zoom": 2.3,
+      "easeType": "easeInOutSine"
     },
     "id": 94087193,
     "idx": 10,
@@ -6655,17 +6655,17 @@
   },
   {
     "script": {
-      "pieceIndexes": [
-        1
-      ],
-      "noActorEffect": 1,
-      "skillId": 94087018,
       "skillLv": 1,
+      "noActorEffect": 1,
+      "noMoveLastPieceCamera": 1,
+      "noMoveTargetCamera": 1,
       "effectIds": [
         0
       ],
-      "noMoveLastPieceCamera": 1,
-      "noMoveTargetCamera": 1
+      "skillId": 94087018,
+      "pieceIndexes": [
+        1
+      ]
     },
     "id": 94087193,
     "idx": 12,
@@ -6673,12 +6673,12 @@
   },
   {
     "script": {
-      "skillId": 94087004,
-      "squareIndexGroup": 94087003,
-      "bossProcessType": 1,
+      "skillLv": 1,
       "noActorEffect": 1,
       "WarBoardBreakPointDamage": 1,
-      "skillLv": 1
+      "bossProcessType": 1,
+      "skillId": 94087004,
+      "squareIndexGroup": 94087003
     },
     "id": 94087193,
     "idx": 13,
@@ -6686,17 +6686,17 @@
   },
   {
     "script": {
-      "pieceIndexes": [
-        1
-      ],
-      "noActorEffect": 1,
-      "skillId": 94087019,
       "skillLv": 1,
+      "noActorEffect": 1,
+      "noMoveLastPieceCamera": 1,
+      "noMoveTargetCamera": 1,
       "effectIds": [
         0
       ],
-      "noMoveLastPieceCamera": 1,
-      "noMoveTargetCamera": 1
+      "skillId": 94087019,
+      "pieceIndexes": [
+        1
+      ]
     },
     "id": 94087193,
     "idx": 14,
@@ -6726,13 +6726,13 @@
   },
   {
     "script": {
-      "zoom": 2.0,
-      "easeType": "easeInOutSine",
-      "moveTime": 1.0,
       "pos": [
         0,
         317
-      ]
+      ],
+      "moveTime": 1.0,
+      "zoom": 2.0,
+      "easeType": "easeInOutSine"
     },
     "id": 94087194,
     "idx": 1,
@@ -6748,8 +6748,8 @@
   },
   {
     "script": {
-      "overlayEffectPrefabName": "CommonHighlightMessage",
-      "overlayEffectMessage": "[#汝、宙を裂く雷霆:ネガ・ケラウノス]"
+      "overlayEffectMessage": "[#汝、宙を裂く雷霆:ネガ・ケラウノス]",
+      "overlayEffectPrefabName": "CommonHighlightMessage"
     },
     "id": 94087194,
     "idx": 3,
@@ -6766,13 +6766,13 @@
   },
   {
     "script": {
-      "zoom": 1.9,
-      "easeType": "easeOutQuad",
-      "moveTime": 1.0,
       "pos": [
         40,
         380
-      ]
+      ],
+      "moveTime": 1.0,
+      "zoom": 1.9,
+      "easeType": "easeOutQuad"
     },
     "id": 94087194,
     "idx": 5,
@@ -6797,13 +6797,13 @@
   },
   {
     "script": {
-      "zoom": 2.0,
-      "easeType": "easeInOutSine",
-      "moveTime": 0.3,
       "pos": [
         -100,
         -15
-      ]
+      ],
+      "moveTime": 0.3,
+      "zoom": 2.0,
+      "easeType": "easeInOutSine"
     },
     "id": 94087194,
     "idx": 8,
@@ -6819,13 +6819,13 @@
   },
   {
     "script": {
-      "zoom": 2.3,
-      "easeType": "easeInOutSine",
-      "moveTime": 1.0,
       "pos": [
         -120,
         -250
-      ]
+      ],
+      "moveTime": 1.0,
+      "zoom": 2.3,
+      "easeType": "easeInOutSine"
     },
     "id": 94087194,
     "idx": 10,
@@ -6841,17 +6841,17 @@
   },
   {
     "script": {
-      "pieceIndexes": [
-        1
-      ],
-      "noActorEffect": 1,
-      "skillId": 94087018,
       "skillLv": 1,
+      "noActorEffect": 1,
+      "noMoveLastPieceCamera": 1,
+      "noMoveTargetCamera": 1,
       "effectIds": [
         0
       ],
-      "noMoveLastPieceCamera": 1,
-      "noMoveTargetCamera": 1
+      "skillId": 94087018,
+      "pieceIndexes": [
+        1
+      ]
     },
     "id": 94087194,
     "idx": 12,
@@ -6859,12 +6859,12 @@
   },
   {
     "script": {
-      "skillId": 94087004,
-      "squareIndexGroup": 94087004,
-      "bossProcessType": 1,
+      "skillLv": 1,
       "noActorEffect": 1,
       "WarBoardBreakPointDamage": 1,
-      "skillLv": 1
+      "bossProcessType": 1,
+      "skillId": 94087004,
+      "squareIndexGroup": 94087004
     },
     "id": 94087194,
     "idx": 13,
@@ -6872,17 +6872,17 @@
   },
   {
     "script": {
-      "pieceIndexes": [
-        1
-      ],
-      "noActorEffect": 1,
-      "skillId": 94087019,
       "skillLv": 1,
+      "noActorEffect": 1,
+      "noMoveLastPieceCamera": 1,
+      "noMoveTargetCamera": 1,
       "effectIds": [
         0
       ],
-      "noMoveLastPieceCamera": 1,
-      "noMoveTargetCamera": 1
+      "skillId": 94087019,
+      "pieceIndexes": [
+        1
+      ]
     },
     "id": 94087194,
     "idx": 14,
@@ -6944,14 +6944,6 @@
   },
   {
     "script": {
-      "pieceIndexes": [
-        1
-      ],
-      "skillId": 94087005,
-      "skillLv": 1,
-      "effectIds": [
-        0
-      ],
       "actorEffectPieceIndex": [
         [
           1,
@@ -6959,7 +6951,15 @@
           1
         ]
       ],
-      "noMoveLastPieceCamera": 1
+      "skillLv": 1,
+      "noMoveLastPieceCamera": 1,
+      "effectIds": [
+        0
+      ],
+      "skillId": 94087005,
+      "pieceIndexes": [
+        1
+      ]
     },
     "id": 94087196,
     "idx": 4,
@@ -6972,8 +6972,8 @@
         0,
         1
       ],
-      "disp": 1,
-      "type": "Barrier"
+      "type": "Barrier",
+      "disp": 1
     },
     "id": 94087196,
     "idx": 5,
@@ -7005,16 +7005,16 @@
   },
   {
     "script": {
-      "pieceIndexes": [
-        1
-      ],
-      "noActorEffect": 1,
-      "skillId": 94087016,
       "skillLv": 1,
+      "noActorEffect": 1,
+      "noMoveLastPieceCamera": 1,
       "effectIds": [
         0
       ],
-      "noMoveLastPieceCamera": 1
+      "skillId": 94087016,
+      "pieceIndexes": [
+        1
+      ]
     },
     "id": 94087197,
     "idx": 2,
@@ -7027,8 +7027,8 @@
         0,
         1
       ],
-      "disp": 0,
-      "type": "Barrier"
+      "type": "Barrier",
+      "disp": 0
     },
     "id": 94087197,
     "idx": 3,
@@ -7076,10 +7076,10 @@
   },
   {
     "script": {
+      "type": "Goal",
       "squareIndexes": [
         1
       ],
-      "type": "Goal",
       "disp": 1
     },
     "id": 94087201,
@@ -7151,10 +7151,10 @@
   },
   {
     "script": {
+      "type": "Goal",
       "squareIndexes": [
         29
       ],
-      "type": "Goal",
       "disp": 1
     },
     "id": 94087206,
@@ -7250,14 +7250,14 @@
   },
   {
     "script": {
-      "groupId": 0,
-      "forceId": 1,
       "pieceIndex": [
         1
       ],
       "aiId": [
         94087001
-      ]
+      ],
+      "groupId": 0,
+      "forceId": 1
     },
     "id": 94087215,
     "idx": 1,
@@ -7265,14 +7265,14 @@
   },
   {
     "script": {
-      "groupId": 0,
-      "forceId": 1,
       "pieceIndex": [
         1
       ],
       "aiId": [
         94087001
-      ]
+      ],
+      "groupId": 0,
+      "forceId": 1
     },
     "id": 94087216,
     "idx": 1,
