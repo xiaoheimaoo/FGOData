@@ -209,8 +209,12 @@
       ""
     ],
     "script": {
-      "condLabelColor": "0xFFFFFF",
       "dispMaskTreasureDevices": [
+        0,
+        0
+      ],
+      "condLabelColor": "0xFFFFFF",
+      "fixedCardLimitCounts": [
         0,
         0
       ],
@@ -218,10 +222,6 @@
       "enableDispOnBattleConfirmDialog": [
         1,
         1
-      ],
-      "fixedCardLimitCounts": [
-        0,
-        0
       ]
     },
     "svtId": 800100,
@@ -248,8 +248,12 @@
       ""
     ],
     "script": {
-      "condLabelColor": "0xFFFFFF",
       "dispMaskTreasureDevices": [
+        0,
+        0
+      ],
+      "condLabelColor": "0xFFFFFF",
+      "fixedCardLimitCounts": [
         0,
         0
       ],
@@ -257,10 +261,6 @@
       "enableDispOnBattleConfirmDialog": [
         1,
         1
-      ],
-      "fixedCardLimitCounts": [
-        0,
-        0
       ]
     },
     "svtId": 800100,
@@ -368,15 +368,15 @@
       ""
     ],
     "script": {
-      "condIgnoreSealedLimitCount": 1,
+      "dispMaskTreasureDevices": [
+        0,
+        0
+      ],
       "fixedCardLimitCounts": [
         0,
         0
       ],
-      "dispMaskTreasureDevices": [
-        0,
-        0
-      ]
+      "condIgnoreSealedLimitCount": 1
     },
     "svtId": 2300600,
     "num": 1,
