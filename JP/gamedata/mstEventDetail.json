@@ -2383,11 +2383,11 @@
   {
     "tutorialImageIds": [],
     "script": {
-      "battleLineContinueWin": "3",
       "battleLineWin": "5",
+      "battleLineContinueWin": "3",
+      "battleLineResetQuestIds": "[94047813,94047814,94047815,94047816]",
       "battleLineLoseResetQuestIds": "[94047813,94047815]",
-      "useDiceSpotId": "907601",
-      "battleLineResetQuestIds": "[94047813,94047814,94047815,94047816]"
+      "useDiceSpotId": "907601"
     },
     "eventId": 80285,
     "flag": 137506128050,
@@ -3815,8 +3815,8 @@
   {
     "tutorialImageIds": [],
     "script": {
-      "fortificationLvPoint": 10,
-      "fortificationBasePoint": 1000
+      "fortificationBasePoint": 1000,
+      "fortificationLvPoint": 10
     },
     "eventId": 80400,
     "flag": 281475058565266,
@@ -3866,11 +3866,11 @@
   {
     "tutorialImageIds": [],
     "script": {
-      "overwriteRewardCondCommonReleaseId": 10077701,
+      "overwriteShopMessageId": "OVERWRITE_SHOP_MESSAGE",
       "overwriteRewardMessageCommonReleaseId": 10077702,
+      "overwriteRewardCondCommonReleaseId": 10077701,
       "overwriteShopMessageCommonReleaseId": 10077702,
       "overwriteShopCondCommonReleaseId": 10077701,
-      "overwriteShopMessageId": "OVERWRITE_SHOP_MESSAGE",
       "overwriteRewardMessageId": "OVERWRITE_REWARD_MESSAGE"
     },
     "eventId": 80405,
@@ -4248,8 +4248,8 @@
   {
     "tutorialImageIds": [],
     "script": {
-      "maxEventActivityPoint": 999999999,
-      "isEventCircleProgress": 1
+      "isEventCircleProgress": 1,
+      "maxEventActivityPoint": 999999999
     },
     "eventId": 80442,
     "flag": 1125899988713650,
@@ -4398,11 +4398,11 @@
   {
     "tutorialImageIds": [],
     "script": {
-      "overwriteRewardCondCommonReleaseId": 20090901,
+      "overwriteShopMessageId": "OVERWRITE_SHOP_MESSAGE",
       "overwriteRewardMessageCommonReleaseId": 20090902,
+      "overwriteRewardCondCommonReleaseId": 20090901,
       "overwriteShopMessageCommonReleaseId": 20090902,
       "overwriteShopCondCommonReleaseId": 20090901,
-      "overwriteShopMessageId": "OVERWRITE_SHOP_MESSAGE",
       "overwriteRewardMessageId": "OVERWRITE_REWARD_MESSAGE"
     },
     "eventId": 80455,
@@ -4931,11 +4931,11 @@
   {
     "tutorialImageIds": [],
     "script": {
-      "overwriteRewardCondCommonReleaseId": 20138501,
+      "overwriteShopMessageId": "OVERWRITE_SHOP_MESSAGE",
       "overwriteRewardMessageCommonReleaseId": 20138502,
+      "overwriteRewardCondCommonReleaseId": 20138501,
       "overwriteShopMessageCommonReleaseId": 20138502,
       "overwriteShopCondCommonReleaseId": 20138501,
-      "overwriteShopMessageId": "OVERWRITE_SHOP_MESSAGE",
       "overwriteRewardMessageId": "OVERWRITE_REWARD_MESSAGE"
     },
     "eventId": 80506,
@@ -5924,12 +5924,12 @@
   {
     "tutorialImageIds": [],
     "script": {
-      "overwriteRewardCondCommonReleaseId": 20152806,
-      "overwriteRewardMessageCommonReleaseId": 20152807,
-      "overwriteShopMessageCommonReleaseId": 20152807,
-      "overwriteShopCondCommonReleaseId": 20152806,
       "overwriteShopMessageId": "OVERWRITE_SHOP_MESSAGE",
       "isEventFlowerGarden": 1,
+      "overwriteRewardMessageCommonReleaseId": 20152807,
+      "overwriteRewardCondCommonReleaseId": 20152806,
+      "overwriteShopMessageCommonReleaseId": 20152807,
+      "overwriteShopCondCommonReleaseId": 20152806,
       "overwriteRewardMessageId": "OVERWRITE_REWARD_MESSAGE"
     },
     "eventId": 80599,
@@ -5980,12 +5980,12 @@
   {
     "tutorialImageIds": [],
     "script": {
-      "overwriteRewardCondCommonReleaseId": 20153901,
-      "overwriteRewardMessageCommonReleaseId": 20153902,
-      "overwriteShopMessageCommonReleaseId": 20153902,
-      "overwriteShopCondCommonReleaseId": 20153901,
       "overwriteShopMessageId": "OVERWRITE_SHOP_MESSAGE",
+      "overwriteRewardMessageCommonReleaseId": 20153902,
+      "overwriteRewardCondCommonReleaseId": 20153901,
+      "overwriteShopMessageCommonReleaseId": 20153902,
       "isEventItemLinkSvt": 1,
+      "overwriteShopCondCommonReleaseId": 20153901,
       "overwriteRewardMessageId": "OVERWRITE_REWARD_MESSAGE"
     },
     "eventId": 80603,
@@ -6112,9 +6112,9 @@
     "tutorialImageIds": [],
     "script": {
       "adjustPlayVoiceButtonPositionX": 148,
-      "jobQuestGroupCommonReleaseId": 20158017,
+      "adjustHelpButtonPositionX": 210,
       "isEventJob": 1,
-      "adjustHelpButtonPositionX": 210
+      "jobQuestGroupCommonReleaseId": 20158017
     },
     "eventId": 80612,
     "flag": 77676690,
@@ -6132,10 +6132,10 @@
   {
     "tutorialImageIds": [],
     "script": {
+      "isDispCompleteMissionOnEventMap": 1,
       "isHideHelpBtnOnEventReward": [
         1
-      ],
-      "isDispCompleteMissionOnEventMap": 1
+      ]
     },
     "eventId": 80613,
     "flag": 67174562,
@@ -6393,5 +6393,21 @@
     "shopCondQuestPhase": 0,
     "shopCondMessage": "",
     "entryCondMessage": "期間限定イベント\n『冠位名代戦』は\n10月30日 12:59 まで開催します。\n\n期間限定イベントを始めるには、\n『アフタータイムのはじまり』および\n『冠位戴冠戦：Extra』の冠位解放戦\nをクリアしている必要があります。"
+  },
+  {
+    "tutorialImageIds": [],
+    "script": {},
+    "eventId": 80647,
+    "flag": 0,
+    "pointImageId": 0,
+    "rewardButtonImageId": 0,
+    "eventGaugeType": 1,
+    "condQuestId": 0,
+    "condQuestPhase": 0,
+    "condMessage": "",
+    "shopCondQuestId": 0,
+    "shopCondQuestPhase": 0,
+    "shopCondMessage": "",
+    "entryCondMessage": ""
   }
 ]

@@ -534,9 +534,9 @@
   },
   {
     "script": {
-      "afterTransitionParam": "1040501",
+      "timing": 4,
       "groupId": 2,
-      "timing": 4
+      "afterTransitionParam": "1040501"
     },
     "id": 34,
     "priority": 97,
@@ -554,9 +554,9 @@
   },
   {
     "script": {
-      "afterTransitionParam": "404",
+      "timing": 5,
       "groupId": 2,
-      "timing": 5
+      "afterTransitionParam": "404"
     },
     "id": 35,
     "priority": 97,
@@ -679,8 +679,8 @@
   {
     "script": {
       "warId": 8396,
-      "isGrand": 1,
-      "timing": 2
+      "timing": 2,
+      "isGrand": 1
     },
     "id": 42,
     "priority": 25,
@@ -699,8 +699,8 @@
   {
     "script": {
       "warId": 8398,
-      "isGrand": 1,
-      "timing": 2
+      "timing": 2,
+      "isGrand": 1
     },
     "id": 43,
     "priority": 32,
@@ -719,8 +719,8 @@
   {
     "script": {
       "warId": 8399,
-      "isGrand": 1,
-      "timing": 2
+      "timing": 2,
+      "isGrand": 1
     },
     "id": 44,
     "priority": 27,
@@ -739,8 +739,8 @@
   {
     "script": {
       "warId": 8401,
-      "isGrand": 1,
-      "timing": 2
+      "timing": 2,
+      "isGrand": 1
     },
     "id": 45,
     "priority": 33,
@@ -759,9 +759,9 @@
   {
     "script": {
       "warId": 8401,
-      "isGrand": 1,
       "grandPVparentId": 45,
-      "timing": 2
+      "timing": 2,
+      "isGrand": 1
     },
     "id": 46,
     "priority": 33,
@@ -780,8 +780,8 @@
   {
     "script": {
       "warId": 8404,
-      "isGrand": 1,
-      "timing": 2
+      "timing": 2,
+      "isGrand": 1
     },
     "id": 47,
     "priority": 28,
@@ -800,8 +800,8 @@
   {
     "script": {
       "warId": 8405,
-      "isGrand": 1,
-      "timing": 2
+      "timing": 2,
+      "isGrand": 1
     },
     "id": 48,
     "priority": 30,
@@ -820,8 +820,8 @@
   {
     "script": {
       "warId": 8406,
-      "isGrand": 1,
-      "timing": 2
+      "timing": 2,
+      "isGrand": 1
     },
     "id": 49,
     "priority": 26,
@@ -928,8 +928,8 @@
   },
   {
     "script": {
-      "timing": 7,
-      "warId": 407
+      "warId": 407,
+      "timing": 7
     },
     "id": 55,
     "priority": 35,
@@ -1041,8 +1041,8 @@
   {
     "script": {
       "warId": 8413,
-      "isGrand": 1,
-      "timing": 2
+      "timing": 2,
+      "isGrand": 1
     },
     "id": 61,
     "priority": 36,
@@ -1057,5 +1057,26 @@
     "flag": 1,
     "startedAt": 1792746000,
     "endedAt": 1793332799
+  },
+  {
+    "script": {
+      "warId": 8413,
+      "grandPVparentId": 61,
+      "timing": 2,
+      "isGrand": 1
+    },
+    "id": 62,
+    "priority": 36,
+    "name": "冠位拡張戦：タマモアリア PV",
+    "movieName": "intro053",
+    "commonReleaseId": 50163701,
+    "materialCommonReleaseId": 50163702,
+    "materialPosType": 0,
+    "materialPosValue": 0,
+    "eventId": 80647,
+    "moviePlayTime": 43,
+    "flag": 1,
+    "startedAt": 1793332800,
+    "endedAt": 1893423600
   }
 ]
