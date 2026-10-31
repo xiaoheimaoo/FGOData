@@ -2384,10 +2384,10 @@
     "tutorialImageIds": [],
     "script": {
       "useDiceSpotId": "907601",
-      "battleLineLoseResetQuestIds": "[94047813,94047815]",
+      "battleLineContinueWin": "3",
       "battleLineResetQuestIds": "[94047813,94047814,94047815,94047816]",
-      "battleLineWin": "5",
-      "battleLineContinueWin": "3"
+      "battleLineLoseResetQuestIds": "[94047813,94047815]",
+      "battleLineWin": "5"
     },
     "eventId": 80285,
     "flag": 137506128050,
@@ -2837,8 +2837,8 @@
   {
     "tutorialImageIds": [],
     "script": {
-      "FloorRewardPrefabName": "bit_floor_reward3",
-      "ServantFatigueId": 3
+      "ServantFatigueId": 3,
+      "FloorRewardPrefabName": "bit_floor_reward3"
     },
     "eventId": 80318,
     "flag": 70844432,
@@ -3815,8 +3815,8 @@
   {
     "tutorialImageIds": [],
     "script": {
-      "fortificationLvPoint": 10,
-      "fortificationBasePoint": 1000
+      "fortificationBasePoint": 1000,
+      "fortificationLvPoint": 10
     },
     "eventId": 80400,
     "flag": 281475058565266,
@@ -3867,11 +3867,11 @@
     "tutorialImageIds": [],
     "script": {
       "overwriteRewardMessageId": "OVERWRITE_REWARD_MESSAGE",
+      "overwriteRewardCondCommonReleaseId": 10077701,
       "overwriteShopMessageId": "OVERWRITE_SHOP_MESSAGE",
       "overwriteShopCondCommonReleaseId": 10077701,
       "overwriteShopMessageCommonReleaseId": 10077702,
-      "overwriteRewardMessageCommonReleaseId": 10077702,
-      "overwriteRewardCondCommonReleaseId": 10077701
+      "overwriteRewardMessageCommonReleaseId": 10077702
     },
     "eventId": 80405,
     "flag": 67174550,
@@ -4248,8 +4248,8 @@
   {
     "tutorialImageIds": [],
     "script": {
-      "maxEventActivityPoint": 999999999,
-      "isEventCircleProgress": 1
+      "isEventCircleProgress": 1,
+      "maxEventActivityPoint": 999999999
     },
     "eventId": 80442,
     "flag": 1125899988713650,
@@ -4363,8 +4363,8 @@
   {
     "tutorialImageIds": [],
     "script": {
-      "condRaidParticipateCommonReleaseId": 20090003,
-      "condStageCutinCommonReleaseId": 20090004
+      "condStageCutinCommonReleaseId": 20090004,
+      "condRaidParticipateCommonReleaseId": 20090003
     },
     "eventId": 80451,
     "flag": 67193042,
@@ -4399,11 +4399,11 @@
     "tutorialImageIds": [],
     "script": {
       "overwriteRewardMessageId": "OVERWRITE_REWARD_MESSAGE",
+      "overwriteRewardCondCommonReleaseId": 20090901,
       "overwriteShopMessageId": "OVERWRITE_SHOP_MESSAGE",
       "overwriteShopCondCommonReleaseId": 20090901,
       "overwriteShopMessageCommonReleaseId": 20090902,
-      "overwriteRewardMessageCommonReleaseId": 20090902,
-      "overwriteRewardCondCommonReleaseId": 20090901
+      "overwriteRewardMessageCommonReleaseId": 20090902
     },
     "eventId": 80455,
     "flag": 67174550,
@@ -4932,11 +4932,11 @@
     "tutorialImageIds": [],
     "script": {
       "overwriteRewardMessageId": "OVERWRITE_REWARD_MESSAGE",
+      "overwriteRewardCondCommonReleaseId": 20138501,
       "overwriteShopMessageId": "OVERWRITE_SHOP_MESSAGE",
       "overwriteShopCondCommonReleaseId": 20138501,
       "overwriteShopMessageCommonReleaseId": 20138502,
-      "overwriteRewardMessageCommonReleaseId": 20138502,
-      "overwriteRewardCondCommonReleaseId": 20138501
+      "overwriteRewardMessageCommonReleaseId": 20138502
     },
     "eventId": 80506,
     "flag": 67174550,
@@ -5925,12 +5925,12 @@
     "tutorialImageIds": [],
     "script": {
       "overwriteRewardMessageId": "OVERWRITE_REWARD_MESSAGE",
+      "overwriteRewardCondCommonReleaseId": 20152806,
       "overwriteShopMessageId": "OVERWRITE_SHOP_MESSAGE",
       "overwriteShopCondCommonReleaseId": 20152806,
       "isEventFlowerGarden": 1,
       "overwriteShopMessageCommonReleaseId": 20152807,
-      "overwriteRewardMessageCommonReleaseId": 20152807,
-      "overwriteRewardCondCommonReleaseId": 20152806
+      "overwriteRewardMessageCommonReleaseId": 20152807
     },
     "eventId": 80599,
     "flag": 69288082,
@@ -5980,13 +5980,13 @@
   {
     "tutorialImageIds": [],
     "script": {
-      "isEventItemLinkSvt": 1,
       "overwriteRewardMessageId": "OVERWRITE_REWARD_MESSAGE",
+      "overwriteRewardCondCommonReleaseId": 20153901,
       "overwriteShopMessageId": "OVERWRITE_SHOP_MESSAGE",
       "overwriteShopCondCommonReleaseId": 20153901,
+      "isEventItemLinkSvt": 1,
       "overwriteShopMessageCommonReleaseId": 20153902,
-      "overwriteRewardMessageCommonReleaseId": 20153902,
-      "overwriteRewardCondCommonReleaseId": 20153901
+      "overwriteRewardMessageCommonReleaseId": 20153902
     },
     "eventId": 80603,
     "flag": 81870994,
@@ -6113,8 +6113,8 @@
     "script": {
       "isEventJob": 1,
       "jobQuestGroupCommonReleaseId": 20158017,
-      "adjustPlayVoiceButtonPositionX": 148,
-      "adjustHelpButtonPositionX": 210
+      "adjustHelpButtonPositionX": 210,
+      "adjustPlayVoiceButtonPositionX": 148
     },
     "eventId": 80612,
     "flag": 77676690,

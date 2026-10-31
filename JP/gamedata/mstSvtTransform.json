@@ -40,12 +40,25 @@
   },
   {
     "script": {
+      "condSpriteColor": "#4b3d4d",
+      "isNotSkillChange": 1,
+      "condLabelColor": "0xFFFFFF"
+    },
+    "befSvtId": 600700,
+    "befDispLimitCount": 11,
+    "befTitle": "ジキル（アサシン）時",
+    "aftSvtId": 600710,
+    "aftDispLimitCount": 11,
+    "aftTitle": "ハイド（バーサーカー）時"
+  },
+  {
+    "script": {
       "unlockTransformCommonReleaseId": 40152801,
-      "condSpriteColor": "A39AAB",
+      "isNotProfileParameterChange": 1,
+      "isNotSkillChange": 1,
       "condLabelColor": "0xFFFFFF",
       "isNotClassSkillChange": 1,
-      "isNotProfileParameterChange": 1,
-      "isNotSkillChange": 1
+      "condSpriteColor": "A39AAB"
     },
     "befSvtId": 1002000,
     "befDispLimitCount": 1,
@@ -57,11 +70,11 @@
   {
     "script": {
       "unlockTransformCommonReleaseId": 40152801,
-      "condSpriteColor": "A39AAB",
+      "isNotProfileParameterChange": 1,
+      "isNotSkillChange": 1,
       "condLabelColor": "0xFFFFFF",
       "isNotClassSkillChange": 1,
-      "isNotProfileParameterChange": 1,
-      "isNotSkillChange": 1
+      "condSpriteColor": "A39AAB"
     },
     "befSvtId": 1002000,
     "befDispLimitCount": 2,
@@ -73,11 +86,11 @@
   {
     "script": {
       "unlockTransformCommonReleaseId": 40152801,
-      "condSpriteColor": "A39AAB",
+      "isNotProfileParameterChange": 1,
+      "isNotSkillChange": 1,
       "condLabelColor": "0xFFFFFF",
       "isNotClassSkillChange": 1,
-      "isNotProfileParameterChange": 1,
-      "isNotSkillChange": 1
+      "condSpriteColor": "A39AAB"
     },
     "befSvtId": 1002000,
     "befDispLimitCount": 3,
