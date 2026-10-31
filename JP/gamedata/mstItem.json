@@ -1207,9 +1207,9 @@
       10844
     ],
     "script": {
-      "battleGetEffectId": 4001009,
       "battleAppearItemWait": 100,
-      "battleAppearEffectId": 4001008
+      "battleAppearEffectId": 4001008,
+      "battleGetEffectId": 4001009
     },
     "eventId": 0,
     "eventGroupId": 0,
@@ -1261,8 +1261,8 @@
   {
     "individuality": [],
     "script": {
-      "effectId": 1,
-      "itemGetEffectId": 4
+      "itemGetEffectId": 4,
+      "effectId": 1
     },
     "eventId": 0,
     "eventGroupId": 0,
@@ -1288,8 +1288,8 @@
   {
     "individuality": [],
     "script": {
-      "effectId": 1,
-      "itemGetEffectId": 4
+      "itemGetEffectId": 4,
+      "effectId": 1
     },
     "eventId": 0,
     "eventGroupId": 0,
@@ -7104,6 +7104,30 @@
     "dropPriority": 9001,
     "startedAt": 1443625200,
     "endedAt": 1801407599
+  },
+  {
+    "individuality": [],
+    "script": {},
+    "eventId": 0,
+    "eventGroupId": 0,
+    "isPresent": false,
+    "maxNum": 0,
+    "tradePickupTime": 86400,
+    "skillList": [],
+    "id": 10114,
+    "name": "11月交換券(2026)",
+    "detail": "5種類の素材アイテムの中から一つと交換ができます。",
+    "imageId": 10000,
+    "bgImageId": 2,
+    "type": 24,
+    "unit": "",
+    "value": 0,
+    "sellQp": -1,
+    "isSell": false,
+    "priority": 200,
+    "dropPriority": 9001,
+    "startedAt": 1443625200,
+    "endedAt": 1803826799
   },
   {
     "individuality": [],
@@ -30676,8 +30700,8 @@
       10523
     ],
     "script": {
-      "event_item_board_description": "1~6の目が出るごく普通のダイス。",
-      "diceType": 1
+      "diceType": 1,
+      "event_item_board_description": "1~6の目が出るごく普通のダイス。"
     },
     "eventId": 0,
     "eventGroupId": 0,
@@ -30705,8 +30729,8 @@
       10524
     ],
     "script": {
-      "event_item_board_description": "1、2、3の目しか出ない特殊なダイス。",
-      "diceType": 2
+      "diceType": 2,
+      "event_item_board_description": "1、2、3の目しか出ない特殊なダイス。"
     },
     "eventId": 0,
     "eventGroupId": 0,
@@ -30734,8 +30758,8 @@
       10525
     ],
     "script": {
-      "event_item_board_description": "4、5、6の目しか出ない特殊なダイス。",
-      "diceType": 3
+      "diceType": 3,
+      "event_item_board_description": "4、5、6の目しか出ない特殊なダイス。"
     },
     "eventId": 0,
     "eventGroupId": 0,
@@ -30763,8 +30787,8 @@
       10526
     ],
     "script": {
-      "event_item_board_description": "1の目しか出ない貴重なダイス。",
-      "diceType": 4
+      "diceType": 4,
+      "event_item_board_description": "1の目しか出ない貴重なダイス。"
     },
     "eventId": 0,
     "eventGroupId": 0,
@@ -30792,8 +30816,8 @@
       10527
     ],
     "script": {
-      "event_item_board_description": "2の目しか出ない貴重なダイス。",
-      "diceType": 5
+      "diceType": 5,
+      "event_item_board_description": "2の目しか出ない貴重なダイス。"
     },
     "eventId": 0,
     "eventGroupId": 0,
@@ -30821,8 +30845,8 @@
       10528
     ],
     "script": {
-      "event_item_board_description": "3の目しか出ない貴重なダイス。",
-      "diceType": 6
+      "diceType": 6,
+      "event_item_board_description": "3の目しか出ない貴重なダイス。"
     },
     "eventId": 0,
     "eventGroupId": 0,
@@ -42772,8 +42796,8 @@
       10902
     ],
     "script": {
-      "eventId": 80494,
-      "tradePickupTime": 86400
+      "tradePickupTime": 86400,
+      "eventId": 80494
     },
     "eventId": 80494,
     "eventGroupId": 0,
@@ -43565,6 +43589,32 @@
     "dropPriority": 9025,
     "startedAt": 1790780400,
     "endedAt": 1796050799
+  },
+  {
+    "individuality": [],
+    "script": {
+      "questUseItemGroupId": 1
+    },
+    "eventId": 0,
+    "eventGroupId": 0,
+    "isPresent": false,
+    "maxNum": 0,
+    "tradePickupTime": 86400,
+    "skillList": [],
+    "id": 94138226,
+    "name": "星見のティーポット",
+    "detail": "【絆ブーストアイテム】\nクエストクリア時のパーティ全体(控え含む)の\n絆獲得量を2倍にする。\n(絆を獲得できないクエストでは消費されない)\n\n※使用期限 [endedAt]",
+    "imageId": 94065901,
+    "bgImageId": 2,
+    "type": 30,
+    "unit": "",
+    "value": 0,
+    "sellQp": -1,
+    "isSell": false,
+    "priority": 200000026,
+    "dropPriority": 9026,
+    "startedAt": 1793458800,
+    "endedAt": 1798729199
   },
   {
     "individuality": [
@@ -45563,8 +45613,8 @@
       10955
     ],
     "script": {
-      "playEffect": 1,
       "eventGroupId": 0,
+      "playEffect": 1,
       "eventId": 80558
     },
     "eventId": 80558,
@@ -46387,13 +46437,13 @@
       10976
     ],
     "script": {
-      "effectId": 1,
+      "anotherPayName": "母なるロックオン",
       "skillList": [
         940429,
         940430,
         940431
       ],
-      "anotherPayName": "母なるロックオン"
+      "effectId": 1
     },
     "eventId": 0,
     "eventGroupId": 0,
@@ -47965,6 +48015,30 @@
     "dropPriority": 9001,
     "startedAt": 1793350800,
     "endedAt": 1794509999
+  },
+  {
+    "individuality": [],
+    "script": {},
+    "eventId": 0,
+    "eventGroupId": 0,
+    "isPresent": false,
+    "maxNum": 0,
+    "tradePickupTime": 86400,
+    "skillList": [],
+    "id": 94164801,
+    "name": "霊脈石",
+    "detail": "【コンティニューアイテム】\n メインストーリーのバトルにおいて\n パーティ全滅時に使用することで、\n パーティを全員復活させることができる。\n \n ※使用期限 [endedAt]",
+    "imageId": 94054401,
+    "bgImageId": 3,
+    "type": 27,
+    "unit": "",
+    "value": 0,
+    "sellQp": -1,
+    "isSell": false,
+    "priority": 150000008,
+    "dropPriority": 9008,
+    "startedAt": 1793458800,
+    "endedAt": 1798729199
   },
   {
     "individuality": [],

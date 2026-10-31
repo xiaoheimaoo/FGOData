@@ -80729,8 +80729,8 @@
       1
     ],
     "script": {
-      "noCriticalOnAttack": 1,
-      "fixWeakCardId": 21
+      "fixWeakCardId": 21,
+      "noCriticalOnAttack": 1
     },
     "id": 94141914,
     "type": 2,
@@ -80742,8 +80742,8 @@
       1
     ],
     "script": {
-      "noCriticalOnAttack": 1,
-      "fixWeakCardId": 22
+      "fixWeakCardId": 22,
+      "noCriticalOnAttack": 1
     },
     "id": 94141915,
     "type": 2,
@@ -97662,32 +97662,15 @@
     "targetIndividuality": [],
     "skillVals": [],
     "script": {
-      "gimmickAnimTypes": [
-        1,
-        1,
-        1,
-        2,
-        2,
-        2,
-        2,
-        2
-      ],
-      "gimmickStartVoices": [
-        "0_B310",
-        "0_B320",
-        "0_B330",
-        "0_B340",
-        "0_B350"
-      ],
-      "gimmickSkillIds": [
-        960651,
-        960651,
-        960657,
-        960683,
-        960683,
-        960684,
-        960684,
-        960694
+      "gimmickReelIcons": [
+        10,
+        10,
+        17,
+        37,
+        37,
+        38,
+        38,
+        47
       ],
       "gimmickObjName": "gimmick",
       "gimmickResultVoices": [
@@ -97751,6 +97734,17 @@
         }
       ],
       "gimmickSvtId": 2300100,
+      "gimmickFixedReelOrder": 1,
+      "gimmickAnimTypes": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
       "gimmickSkillRates": [
         0,
         0,
@@ -97761,17 +97755,23 @@
         0,
         100
       ],
-      "gimmickReelIcons": [
-        10,
-        10,
-        17,
-        37,
-        37,
-        38,
-        38,
-        47
+      "gimmickSkillIds": [
+        960651,
+        960651,
+        960657,
+        960683,
+        960683,
+        960684,
+        960684,
+        960694
       ],
-      "gimmickFixedReelOrder": 1
+      "gimmickStartVoices": [
+        "0_B310",
+        "0_B320",
+        "0_B330",
+        "0_B340",
+        "0_B350"
+      ]
     },
     "id": 94158065,
     "type": 76,
@@ -97792,6 +97792,61 @@
     "targetIndividuality": [],
     "skillVals": [],
     "script": {
+      "gimmickReelIcons": [
+        50,
+        8,
+        30,
+        34,
+        37,
+        40,
+        46,
+        70
+      ],
+      "gimmickObjName": "gimmick",
+      "gimmickResultVoices": [
+        {
+          "voice": [
+            "0_B510"
+          ]
+        },
+        {
+          "voice": [
+            "0_B510"
+          ]
+        },
+        {
+          "voice": [
+            "0_B510"
+          ]
+        },
+        {
+          "voice": [
+            "0_B510"
+          ]
+        },
+        {
+          "voice": [
+            "0_B510"
+          ]
+        },
+        {
+          "voice": [
+            "0_B510"
+          ]
+        },
+        {
+          "voice": [
+            "0_B510"
+          ]
+        },
+        {
+          "voice": [
+            "0_B510"
+          ]
+        }
+      ],
+      "gimmickSvtId": 2300100,
+      "gimmickFixedReelOrder": 1,
       "gimmickAnimTypes": [
         1,
         1,
@@ -97802,8 +97857,15 @@
         1,
         1
       ],
-      "gimmickStartVoices": [
-        "0_B310"
+      "gimmickSkillRates": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ],
       "gimmickSkillIds": [
         94158149,
@@ -97815,60 +97877,18 @@
         94158149,
         94158149
       ],
-      "gimmickObjName": "gimmick",
-      "gimmickResultVoices": [
-        {
-          "voice": [
-            "0_B510"
-          ]
-        },
-        {
-          "voice": [
-            "0_B510"
-          ]
-        },
-        {
-          "voice": [
-            "0_B510"
-          ]
-        },
-        {
-          "voice": [
-            "0_B510"
-          ]
-        },
-        {
-          "voice": [
-            "0_B510"
-          ]
-        },
-        {
-          "voice": [
-            "0_B510"
-          ]
-        },
-        {
-          "voice": [
-            "0_B510"
-          ]
-        },
-        {
-          "voice": [
-            "0_B510"
-          ]
-        }
-      ],
-      "gimmickSvtId": 2300100,
-      "gimmickSkillRates": [
-        100,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
+      "gimmickStartVoices": [
+        "0_B310"
+      ]
+    },
+    "id": 94158069,
+    "type": 76,
+    "target": 1
+  },
+  {
+    "targetIndividuality": [],
+    "skillVals": [],
+    "script": {
       "gimmickReelIcons": [
         50,
         8,
@@ -97879,16 +97899,51 @@
         46,
         70
       ],
-      "gimmickFixedReelOrder": 1
-    },
-    "id": 94158069,
-    "type": 76,
-    "target": 1
-  },
-  {
-    "targetIndividuality": [],
-    "skillVals": [],
-    "script": {
+      "gimmickObjName": "gimmick",
+      "gimmickResultVoices": [
+        {
+          "voice": [
+            "0_B490"
+          ]
+        },
+        {
+          "voice": [
+            "0_B490"
+          ]
+        },
+        {
+          "voice": [
+            "0_B490"
+          ]
+        },
+        {
+          "voice": [
+            "0_B490"
+          ]
+        },
+        {
+          "voice": [
+            "0_B490"
+          ]
+        },
+        {
+          "voice": [
+            "0_B490"
+          ]
+        },
+        {
+          "voice": [
+            "0_B490"
+          ]
+        },
+        {
+          "voice": [
+            "0_B490"
+          ]
+        }
+      ],
+      "gimmickSvtId": 2300100,
+      "gimmickFixedReelOrder": 1,
       "gimmickAnimTypes": [
         2,
         2,
@@ -97899,8 +97954,15 @@
         2,
         2
       ],
-      "gimmickStartVoices": [
-        "0_B320"
+      "gimmickSkillRates": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ],
       "gimmickSkillIds": [
         94158149,
@@ -97912,60 +97974,18 @@
         94158149,
         94158149
       ],
-      "gimmickObjName": "gimmick",
-      "gimmickResultVoices": [
-        {
-          "voice": [
-            "0_B490"
-          ]
-        },
-        {
-          "voice": [
-            "0_B490"
-          ]
-        },
-        {
-          "voice": [
-            "0_B490"
-          ]
-        },
-        {
-          "voice": [
-            "0_B490"
-          ]
-        },
-        {
-          "voice": [
-            "0_B490"
-          ]
-        },
-        {
-          "voice": [
-            "0_B490"
-          ]
-        },
-        {
-          "voice": [
-            "0_B490"
-          ]
-        },
-        {
-          "voice": [
-            "0_B490"
-          ]
-        }
-      ],
-      "gimmickSvtId": 2300100,
-      "gimmickSkillRates": [
-        100,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
+      "gimmickStartVoices": [
+        "0_B320"
+      ]
+    },
+    "id": 94158070,
+    "type": 76,
+    "target": 1
+  },
+  {
+    "targetIndividuality": [],
+    "skillVals": [],
+    "script": {
       "gimmickReelIcons": [
         50,
         8,
@@ -97976,16 +97996,51 @@
         46,
         70
       ],
-      "gimmickFixedReelOrder": 1
-    },
-    "id": 94158070,
-    "type": 76,
-    "target": 1
-  },
-  {
-    "targetIndividuality": [],
-    "skillVals": [],
-    "script": {
+      "gimmickObjName": "gimmick",
+      "gimmickResultVoices": [
+        {
+          "voice": [
+            "0_B530"
+          ]
+        },
+        {
+          "voice": [
+            "0_B530"
+          ]
+        },
+        {
+          "voice": [
+            "0_B530"
+          ]
+        },
+        {
+          "voice": [
+            "0_B530"
+          ]
+        },
+        {
+          "voice": [
+            "0_B530"
+          ]
+        },
+        {
+          "voice": [
+            "0_B530"
+          ]
+        },
+        {
+          "voice": [
+            "0_B530"
+          ]
+        },
+        {
+          "voice": [
+            "0_B530"
+          ]
+        }
+      ],
+      "gimmickSvtId": 2300100,
+      "gimmickFixedReelOrder": 1,
       "gimmickAnimTypes": [
         3,
         3,
@@ -97996,8 +98051,15 @@
         3,
         3
       ],
-      "gimmickStartVoices": [
-        "0_B330"
+      "gimmickSkillRates": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ],
       "gimmickSkillIds": [
         94158149,
@@ -98009,71 +98071,9 @@
         94158149,
         94158149
       ],
-      "gimmickObjName": "gimmick",
-      "gimmickResultVoices": [
-        {
-          "voice": [
-            "0_B530"
-          ]
-        },
-        {
-          "voice": [
-            "0_B530"
-          ]
-        },
-        {
-          "voice": [
-            "0_B530"
-          ]
-        },
-        {
-          "voice": [
-            "0_B530"
-          ]
-        },
-        {
-          "voice": [
-            "0_B530"
-          ]
-        },
-        {
-          "voice": [
-            "0_B530"
-          ]
-        },
-        {
-          "voice": [
-            "0_B530"
-          ]
-        },
-        {
-          "voice": [
-            "0_B530"
-          ]
-        }
-      ],
-      "gimmickSvtId": 2300100,
-      "gimmickSkillRates": [
-        100,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "gimmickReelIcons": [
-        50,
-        8,
-        30,
-        34,
-        37,
-        40,
-        46,
-        70
-      ],
-      "gimmickFixedReelOrder": 1
+      "gimmickStartVoices": [
+        "0_B330"
+      ]
     },
     "id": 94158071,
     "type": 76,
@@ -98083,6 +98083,61 @@
     "targetIndividuality": [],
     "skillVals": [],
     "script": {
+      "gimmickReelIcons": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "gimmickObjName": "gimmick",
+      "gimmickResultVoices": [
+        {
+          "voice": [
+            "0_B590"
+          ]
+        },
+        {
+          "voice": [
+            "0_B590"
+          ]
+        },
+        {
+          "voice": [
+            "0_B590"
+          ]
+        },
+        {
+          "voice": [
+            "0_B590"
+          ]
+        },
+        {
+          "voice": [
+            "0_B590"
+          ]
+        },
+        {
+          "voice": [
+            "0_B590"
+          ]
+        },
+        {
+          "voice": [
+            "0_B590"
+          ]
+        },
+        {
+          "voice": [
+            "0_B590"
+          ]
+        }
+      ],
+      "gimmickSvtId": 2300100,
+      "gimmickFixedReelOrder": 1,
       "gimmickAnimTypes": [
         4,
         4,
@@ -98093,8 +98148,15 @@
         4,
         4
       ],
-      "gimmickStartVoices": [
-        "0_B350"
+      "gimmickSkillRates": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ],
       "gimmickSkillIds": [
         94158150,
@@ -98106,71 +98168,9 @@
         94158150,
         94158150
       ],
-      "gimmickObjName": "gimmick",
-      "gimmickResultVoices": [
-        {
-          "voice": [
-            "0_B590"
-          ]
-        },
-        {
-          "voice": [
-            "0_B590"
-          ]
-        },
-        {
-          "voice": [
-            "0_B590"
-          ]
-        },
-        {
-          "voice": [
-            "0_B590"
-          ]
-        },
-        {
-          "voice": [
-            "0_B590"
-          ]
-        },
-        {
-          "voice": [
-            "0_B590"
-          ]
-        },
-        {
-          "voice": [
-            "0_B590"
-          ]
-        },
-        {
-          "voice": [
-            "0_B590"
-          ]
-        }
-      ],
-      "gimmickSvtId": 2300100,
-      "gimmickSkillRates": [
-        100,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "gimmickReelIcons": [
-        8,
-        8,
-        8,
-        8,
-        8,
-        8,
-        8,
-        8
-      ],
-      "gimmickFixedReelOrder": 1
+      "gimmickStartVoices": [
+        "0_B350"
+      ]
     },
     "id": 94158072,
     "type": 76,
