@@ -66,6 +66,42 @@
   },
   {
     "targetIds": [
+      "[9182]"
+    ],
+    "condIds": [
+      3001009
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "rects": [],
+        "text": "In each Recollection Quest, if the original quest allowed for Recommended Support, you can use the Recommended Support settings configured for that quest.\n\nIf you want to use Recommended Support settings for a Recollection Quest, please set them up in the original quest first.",
+        "textPos": [
+          0,
+          30
+        ],
+        "dlgFontSize": 26,
+        "title": "Recommended Support",
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": -131,
+    "flagType": 65,
+    "num": 1,
+    "priority": 0,
+    "openType": 18,
+    "condType": 1,
+    "condValue": 1,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
       "[]"
     ],
     "condIds": [
@@ -559,7 +595,13 @@
       "[3000614,2]",
       "[3000618,3]",
       "[3000621,4]",
-      "[3000624,3]"
+      "[3000624,3]",
+      "[3000808,4]",
+      "[3000905,6]",
+      "[3000908,6]",
+      "[3000920,2]",
+      "[3000920,4]",
+      "[3001007,2]"
     ],
     "condIds": [],
     "imageIds": [
@@ -4524,7 +4566,7 @@
   },
   {
     "targetIds": [
-      "[10778]"
+      "[10807]"
     ],
     "condIds": [],
     "imageIds": [
@@ -27623,76 +27665,6 @@
       "[]"
     ],
     "condIds": [
-      3000531
-    ],
-    "imageIds": [],
-    "textJson": [
-      {
-        "text": "\"Lostbelt No.5\" Clear Support Campaign Recollection Quest Unlocked!\n\nNow that you've cleared \"Lostbelt No.5 Atlantis,\" you can now access its \"Recollection Quest\" [FFA500]on the \"Lostbelt No.5 Atlantis\" map[-].\n\nAccess the \"Recollection Quest\" to [FFA500]revisit the most memorable adventures and battles from \"Lostbelt No.5 Atlantis.\"[-]\n\nIf you're confident in your skills and in the mood for a challenge, you can also try your hand at the ultra-high difficulty \"Super Recollection Quest!\"\n\n",
-        "dlgFontSize": 20,
-        "rects": [],
-        "textPos": [
-          0,
-          30
-        ],
-        "ptPos": [
-          0,
-          0
-        ]
-      }
-    ],
-    "script": {},
-    "eventId": 80493,
-    "flagType": 65,
-    "num": 1,
-    "priority": 2,
-    "openType": 2,
-    "condType": 1,
-    "condValue": 0,
-    "condValue2": 0,
-    "condValue3": 0,
-    "flag": 0
-  },
-  {
-    "targetIds": [
-      "[]"
-    ],
-    "condIds": [
-      20136502
-    ],
-    "imageIds": [],
-    "textJson": [
-      {
-        "text": "\"Lostbelt No.5\" Clear Support Campaign Recollection Quest Unlocked!\n\nNow that you've cleared \"Lostbelt No.5 Olympus,\" you can now access its \"Recollection Quest\" [FFA500]on the \"Lostbelt No.5 Olympus\" map[-].\n\nAccess the \"Recollection Quest\" to [FFA500]revisit the most memorable adventures and battles[-] from \"Lostbelt No.5 Olympus.\"\n\nIf you're confident in your skills and in the mood for a challenge, you can also try your hand at the ultra-high difficulty \"Super Recollection Quest!\"\n",
-        "dlgFontSize": 20,
-        "rects": [],
-        "textPos": [
-          0,
-          30
-        ],
-        "ptPos": [
-          0,
-          0
-        ]
-      }
-    ],
-    "script": {},
-    "eventId": 80493,
-    "flagType": 66,
-    "num": 1,
-    "priority": 1,
-    "openType": 2,
-    "condType": 113,
-    "condValue": 0,
-    "condValue2": 0,
-    "condValue3": 0,
-    "flag": 0
-  },
-  {
-    "targetIds": [
-      "[]"
-    ],
-    "condIds": [
       20100705
     ],
     "imageIds": [],
@@ -27754,6 +27726,41 @@
     "priority": 1,
     "openType": 2,
     "condType": 1,
+    "condValue": 0,
+    "condValue2": 0,
+    "condValue3": 0,
+    "flag": 0
+  },
+  {
+    "targetIds": [
+      "[]"
+    ],
+    "condIds": [
+      20138002
+    ],
+    "imageIds": [],
+    "textJson": [
+      {
+        "text": "\"Lostbelt No.6\" Clear Support Campaign Recollection Quest Unlocked!\n\nNow that you've cleared \"Lostbelt No.6 Avalon le Fae,\" you can now access its \"Recollection Quest\" [FFA500]on the \"Lostbelt No.6 Avalon le Fae\" map[-].\n\nAccess the \"Recollection Quest\" to [FFA500]revisit the most memorable adventures and battles[-] from \"Lostbelt No.6 Avalon le Fae.\"\n\nIf you're confident in your skills and in the mood for a challenge, you can also try your hand at the ultra-high difficulty \"Super Recollection Quest!\"\n",
+        "dlgFontSize": 20,
+        "rects": [],
+        "textPos": [
+          0,
+          30
+        ],
+        "ptPos": [
+          0,
+          0
+        ]
+      }
+    ],
+    "script": {},
+    "eventId": 80502,
+    "flagType": 65,
+    "num": 1,
+    "priority": 2,
+    "openType": 2,
+    "condType": 113,
     "condValue": 0,
     "condValue2": 0,
     "condValue3": 0,
