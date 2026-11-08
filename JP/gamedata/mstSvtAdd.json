@@ -293,7 +293,6 @@
   },
   {
     "script": {
-      "overwriteGrandGraphImageLimitCount": 0,
       "overwriteClassImageId": [
         [
           40,
@@ -302,7 +301,8 @@
         [
           41
         ]
-      ]
+      ],
+      "overwriteGrandGraphImageLimitCount": 0
     },
     "svtId": 205500
   },
@@ -419,8 +419,8 @@
   },
   {
     "script": {
-      "overWriteServantShortName": "ビショーネ",
-      "svtProfileLimit": 2
+      "svtProfileLimit": 2,
+      "overWriteServantShortName": "ビショーネ"
     },
     "svtId": 305700
   },
@@ -500,8 +500,8 @@
   },
   {
     "script": {
-      "overwriteGrandGraphImageLimitCount": 0,
-      "presentDialogMessageId": 1
+      "presentDialogMessageId": 1,
+      "overwriteGrandGraphImageLimitCount": 0
     },
     "svtId": 404200
   },
@@ -661,20 +661,20 @@
   },
   {
     "script": {
-      "overwriteServantCoinName": "プレラーティ",
       "overwriteServantRecordName": "プレラーティ",
-      "overwriteServantRecordRuby": "プレラーティ",
+      "commonName": "プレラーティ",
+      "overwriteServantCoinName": "プレラーティ",
       "overwriteProfileName": "フランソワ（フランチェスカ）・プレラーティ",
-      "commonName": "プレラーティ"
+      "overwriteServantRecordRuby": "プレラーティ"
     },
     "svtId": 505600
   },
   {
     "script": {
       "overwriteServantRecordName": "プレラーティ",
-      "overwriteServantRecordRuby": "プレラーティ",
+      "commonName": "プレラーティ",
       "overwriteProfileName": "フランソワ（フランチェスカ）・プレラーティ",
-      "commonName": "プレラーティ"
+      "overwriteServantRecordRuby": "プレラーティ"
     },
     "svtId": 505700
   },
@@ -1189,17 +1189,17 @@
   },
   {
     "script": {
-      "addIdentifyText": "男性",
       "overwriteGrandGraphImageLimitCount": 0,
-      "presentDialogMessageId": 2301200
+      "presentDialogMessageId": 2301200,
+      "addIdentifyText": "男性"
     },
     "svtId": 2300700
   },
   {
     "script": {
-      "addIdentifyText": "女性",
       "overwriteGrandGraphImageLimitCount": 0,
-      "presentDialogMessageId": 2301201
+      "presentDialogMessageId": 2301201,
+      "addIdentifyText": "女性"
     },
     "svtId": 2300800
   },
