@@ -1,8 +1,16 @@
 [
   {
     "script": {
-      "defaultMax": 4,
+      "maxChange": [
+        {
+          "individuality": [
+            2076
+          ],
+          "value": 8
+        }
+      ],
       "maxLimit": 12,
+      "defaultMax": 4,
       "priorityDisplayRules": [
         {
           "type": "SKILL_DIALOG",
@@ -20,14 +28,6 @@
             ]
           ],
           "targetType": 1
-        }
-      ],
-      "maxChange": [
-        {
-          "individuality": [
-            2076
-          ],
-          "value": 8
         }
       ]
     },

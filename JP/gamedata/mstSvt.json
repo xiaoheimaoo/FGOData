@@ -7888,6 +7888,7 @@
       2001,
       405,
       2631,
+      2780,
       2858
     ],
     "classPassive": [
@@ -8119,12 +8120,12 @@
       2
     ],
     "script": {
-      "HideInAnimNode": "en_body",
-      "cameraActionId": 574,
+      "supportLimitCountToDispLimitCount": 1,
       "assumedEffectId": [
         2050001
       ],
-      "supportLimitCountToDispLimitCount": 1
+      "HideInAnimNode": "en_body",
+      "cameraActionId": 574
     },
     "id": 205000,
     "baseSvtId": 205000,
@@ -11787,9 +11788,9 @@
       2
     ],
     "script": {
+      "supportLimitCountToDispLimitCount": 1,
       "HideInAnimNode": "en_body",
-      "cameraActionId": 444,
-      "supportLimitCountToDispLimitCount": 1
+      "cameraActionId": 444
     },
     "id": 304800,
     "baseSvtId": 304800,
@@ -12819,8 +12820,8 @@
     ],
     "script": {
       "isRegistFirstGetTime": 1,
-      "cameraActionId": 687,
-      "supportLimitCountToDispLimitCount": 1
+      "supportLimitCountToDispLimitCount": 1,
+      "cameraActionId": 687
     },
     "id": 306200,
     "baseSvtId": 306200,
@@ -17176,6 +17177,72 @@
     "flag": 0
   },
   {
+    "relateQuestIds": [],
+    "individuality": [
+      5000,
+      406100,
+      103,
+      2,
+      202,
+      300,
+      308,
+      2008,
+      1000,
+      2001,
+      404,
+      2009,
+      2631,
+      2838,
+      2858
+    ],
+    "classPassive": [
+      2732450,
+      34350,
+      20450
+    ],
+    "cardIds": [
+      3,
+      3,
+      1,
+      1,
+      2
+    ],
+    "script": {
+      "cameraActionId": 1037
+    },
+    "id": 406100,
+    "baseSvtId": 406100,
+    "name": "雑賀孫一",
+    "ruby": "サイカマゴイチ",
+    "battleName": "雑賀孫一",
+    "classId": 4,
+    "type": 1,
+    "limitMax": 4,
+    "rewardLv": 80,
+    "friendshipId": 1031,
+    "maxFriendshipRank": 10,
+    "genderType": 2,
+    "attri": 1,
+    "combineSkillId": 406100,
+    "combineLimitId": 406100,
+    "sellQp": 2000,
+    "sellMana": 6,
+    "sellRarePri": 1,
+    "expType": 9,
+    "combineMaterialId": 4,
+    "cost": 12,
+    "battleSize": 3,
+    "hpGaugeY": -250,
+    "starRate": 90,
+    "deathRate": 400,
+    "attackAttri": 3,
+    "illustratorId": 20,
+    "cvId": 215,
+    "collectionNo": 485,
+    "materialStoryPriority": 1000,
+    "flag": 0
+  },
+  {
     "relateQuestIds": [
       91500101,
       94004101,
@@ -21043,6 +21110,9 @@
       2
     ],
     "script": {
+      "assumedEffectId": [
+        5056001
+      ],
       "transformInfo": {
         "saveTransform": 505700,
         "saveTransformDefault": 505600,
@@ -21052,10 +21122,7 @@
         "isNotSkillChange": 1,
         "isNotProfileParameterChange": 1
       },
-      "cameraActionId": 650,
-      "assumedEffectId": [
-        5056001
-      ]
+      "cameraActionId": 650
     },
     "id": 505600,
     "baseSvtId": 505600,
@@ -21124,6 +21191,9 @@
       2
     ],
     "script": {
+      "assumedEffectId": [
+        5056001
+      ],
       "transformInfo": {
         "saveTransform": 505600,
         "saveTransformDefault": 505600,
@@ -21133,10 +21203,7 @@
         "isNotSkillChange": 1,
         "isNotProfileParameterChange": 1
       },
-      "cameraActionId": 651,
-      "assumedEffectId": [
-        5056001
-      ]
+      "cameraActionId": 651
     },
     "id": 505700,
     "baseSvtId": 505700,
@@ -21693,11 +21760,11 @@
       2
     ],
     "script": {
-      "HideInAnimNode": "en_body",
-      "cameraActionId": 556,
       "assumedEffectId": [
         6007001
-      ]
+      ],
+      "HideInAnimNode": "en_body",
+      "cameraActionId": 556
     },
     "id": 600700,
     "baseSvtId": 600700,
@@ -28848,6 +28915,142 @@
     "flag": 0
   },
   {
+    "relateQuestIds": [],
+    "individuality": [
+      5000,
+      705500,
+      106,
+      2,
+      202,
+      301,
+      303,
+      2008,
+      1000,
+      2001,
+      404,
+      2000,
+      2040,
+      2631,
+      2780,
+      2838,
+      2858
+    ],
+    "classPassive": [
+      2719450,
+      2721450,
+      2720650
+    ],
+    "cardIds": [
+      3,
+      1,
+      1,
+      2,
+      2
+    ],
+    "script": {
+      "cameraActionId": 1038
+    },
+    "id": 705500,
+    "baseSvtId": 705500,
+    "name": "松永久秀",
+    "ruby": "マツナガヒサヒデ",
+    "battleName": "松永弾正",
+    "classId": 7,
+    "type": 1,
+    "limitMax": 4,
+    "rewardLv": 80,
+    "friendshipId": 1039,
+    "maxFriendshipRank": 10,
+    "genderType": 2,
+    "attri": 1,
+    "combineSkillId": 705500,
+    "combineLimitId": 705500,
+    "sellQp": 2000,
+    "sellMana": 6,
+    "sellRarePri": 0,
+    "expType": 9,
+    "combineMaterialId": 4,
+    "cost": 12,
+    "battleSize": 3,
+    "hpGaugeY": -250,
+    "starRate": 49,
+    "deathRate": 455,
+    "attackAttri": 3,
+    "illustratorId": 2,
+    "cvId": 285,
+    "collectionNo": 486,
+    "materialStoryPriority": 1000,
+    "flag": 8
+  },
+  {
+    "relateQuestIds": [],
+    "individuality": [
+      5000,
+      705500,
+      106,
+      2,
+      202,
+      301,
+      303,
+      2008,
+      1000,
+      2001,
+      404,
+      2000,
+      2040,
+      2631,
+      2780,
+      2838,
+      2858
+    ],
+    "classPassive": [
+      2719450,
+      2721450,
+      2720650
+    ],
+    "cardIds": [
+      3,
+      1,
+      1,
+      2,
+      2
+    ],
+    "script": {
+      "cameraActionId": 1038
+    },
+    "id": 705501,
+    "baseSvtId": 705500,
+    "name": "松永久秀",
+    "ruby": "マツナガヒサヒデ",
+    "battleName": "松永弾正",
+    "classId": 7,
+    "type": 12,
+    "limitMax": 0,
+    "rewardLv": 80,
+    "friendshipId": 1039,
+    "maxFriendshipRank": 10,
+    "genderType": 2,
+    "attri": 1,
+    "combineSkillId": 0,
+    "combineLimitId": 0,
+    "sellQp": 2000,
+    "sellMana": 6,
+    "sellRarePri": 0,
+    "expType": 9,
+    "combineMaterialId": 4,
+    "cost": 0,
+    "battleSize": 3,
+    "hpGaugeY": -250,
+    "starRate": 49,
+    "deathRate": 455,
+    "attackAttri": 3,
+    "illustratorId": 2,
+    "cvId": 285,
+    "collectionNo": 0,
+    "materialStoryPriority": 1000,
+    "flag": 8
+  },
+  {
     "relateQuestIds": [
       91800101,
       91800102
@@ -28879,8 +29082,6 @@
       2
     ],
     "script": {
-      "SkillRankUp": "[[2476450],[2550,2477450],[133550]]",
-      "cameraActionId": 287,
       "costumeCondInMaxLimitCount": [
         17,
         4000529,
@@ -28892,12 +29093,14 @@
         3000124,
         3
       ],
+      "supportLimitCountToDispLimitCount": 1,
+      "SkillRankUp": "[[2476450],[2550,2477450],[133550]]",
       "lvLimitUpCondMaterial": [
         90,
         3001009,
         1
       ],
-      "supportLimitCountToDispLimitCount": 1
+      "cameraActionId": 287
     },
     "id": 800100,
     "baseSvtId": 800100,
@@ -28960,8 +29163,6 @@
       2
     ],
     "script": {
-      "SkillRankUp": "[[2476450],[2550,2477450],[133550]]",
-      "cameraActionId": 287,
       "costumeCondInMaxLimitCount": [
         17,
         4000529,
@@ -28973,12 +29174,14 @@
         3000124,
         3
       ],
+      "supportLimitCountToDispLimitCount": 1,
+      "SkillRankUp": "[[2476450],[2550,2477450],[133550]]",
       "lvLimitUpCondMaterial": [
         90,
         3001009,
         1
       ],
-      "supportLimitCountToDispLimitCount": 1
+      "cameraActionId": 287
     },
     "id": 800101,
     "baseSvtId": 800101,
@@ -29041,8 +29244,6 @@
       2
     ],
     "script": {
-      "SkillRankUp": "[[2476450],[2550,2477450],[133550]]",
-      "cameraActionId": 287,
       "costumeCondInMaxLimitCount": [
         17,
         4000529,
@@ -29054,12 +29255,14 @@
         3000124,
         3
       ],
+      "supportLimitCountToDispLimitCount": 1,
+      "SkillRankUp": "[[2476450],[2550,2477450],[133550]]",
       "lvLimitUpCondMaterial": [
         90,
         3001009,
         1
       ],
-      "supportLimitCountToDispLimitCount": 1
+      "cameraActionId": 287
     },
     "id": 800102,
     "baseSvtId": 800102,
@@ -30644,8 +30847,8 @@
     ],
     "script": {
       "isRegistFirstGetTime": 1,
-      "cameraActionId": 647,
-      "limitCountUpResultServantLimitCount": 1
+      "limitCountUpResultServantLimitCount": 1,
+      "cameraActionId": 647
     },
     "id": 901900,
     "baseSvtId": 901900,
@@ -31356,9 +31559,9 @@
       2
     ],
     "script": {
+      "battleHeight": 6000,
       "HideInAnimNode": "en_body",
-      "cameraActionId": 330,
-      "battleHeight": 6000
+      "cameraActionId": 330
     },
     "id": 1000900,
     "baseSvtId": 1000900,
@@ -31505,9 +31708,9 @@
       2
     ],
     "script": {
+      "svtBuffTurnExtend": 1,
       "HideInAnimNode": "en_Head",
-      "cameraActionId": 479,
-      "svtBuffTurnExtend": 1
+      "cameraActionId": 479
     },
     "id": 1001100,
     "baseSvtId": 1001100,
@@ -34088,12 +34291,12 @@
       2
     ],
     "script": {
-      "cameraActionId": 1024,
-      "voiceEffect": 1,
       "assumedEffectId": [
         4001031
       ],
-      "battleHeight": 10000
+      "voiceEffect": 1,
+      "battleHeight": 10000,
+      "cameraActionId": 1024
     },
     "id": 1102300,
     "baseSvtId": 1102300,
@@ -34642,6 +34845,13 @@
       2
     ],
     "script": {
+      "assumedEffectId": [
+        23006001
+      ],
+      "tdSeqUnitCond": [
+        40153902,
+        40153901
+      ],
       "battleVoiceSet": {
         "ids": [
           1,
@@ -34652,15 +34862,8 @@
           50
         ]
       },
-      "tdSeqUnitCond": [
-        40153902,
-        40153901
-      ],
       "HideInAnimNode": "en_body",
-      "cameraActionId": 611,
-      "assumedEffectId": [
-        23006001
-      ]
+      "cameraActionId": 611
     },
     "id": 2300600,
     "baseSvtId": 2300600,
@@ -35071,9 +35274,9 @@
       2
     ],
     "script": {
-      "cameraActionId": 1026,
+      "battleHeight": 10000,
       "voiceEffect": 1,
-      "battleHeight": 10000
+      "cameraActionId": 1026
     },
     "id": 2301200,
     "baseSvtId": 2301200,
@@ -37547,6 +37750,75 @@
     "flag": 8
   },
   {
+    "relateQuestIds": [],
+    "individuality": [
+      5000,
+      2801400,
+      120,
+      2,
+      201,
+      2011,
+      2037,
+      302,
+      308,
+      2008,
+      1000,
+      2001,
+      405,
+      2113,
+      2631,
+      2838,
+      2881
+    ],
+    "classPassive": [
+      34550,
+      2712450,
+      2730650,
+      2731350
+    ],
+    "cardIds": [
+      3,
+      1,
+      1,
+      2,
+      2
+    ],
+    "script": {
+      "cameraActionId": 1033
+    },
+    "id": 2801400,
+    "baseSvtId": 2801400,
+    "name": "卑弥呼＆壱与",
+    "ruby": "ヒミコアンドイヨ",
+    "battleName": "卑弥呼＆壱与",
+    "classId": 28,
+    "type": 1,
+    "limitMax": 4,
+    "rewardLv": 90,
+    "friendshipId": 1043,
+    "maxFriendshipRank": 10,
+    "genderType": 2,
+    "attri": 3,
+    "combineSkillId": 2801400,
+    "combineLimitId": 2801400,
+    "sellQp": 5000,
+    "sellMana": 9,
+    "sellRarePri": 5,
+    "expType": 5,
+    "combineMaterialId": 5,
+    "cost": 16,
+    "battleSize": 3,
+    "hpGaugeY": -250,
+    "starRate": 202,
+    "deathRate": 180,
+    "attackAttri": 3,
+    "illustratorId": 135,
+    "cvId": 286,
+    "collectionNo": 484,
+    "materialStoryPriority": 1000,
+    "flag": 0
+  },
+  {
     "relateQuestIds": [
       913300101
     ],
@@ -37716,9 +37988,9 @@
       2
     ],
     "script": {
+      "supportLimitCountToDispLimitCount": 1,
       "HideInAnimNode": "en_body",
-      "cameraActionId": 665,
-      "supportLimitCountToDispLimitCount": 1
+      "cameraActionId": 665
     },
     "id": 4000100,
     "baseSvtId": 4000100,
@@ -99289,6 +99561,138 @@
       3
     ],
     "script": {},
+    "id": 9312640,
+    "baseSvtId": 9312640,
+    "name": "放課後邪馬台国",
+    "ruby": "ほうかごやまたいこく",
+    "battleName": "-",
+    "classId": 1001,
+    "type": 6,
+    "limitMax": 4,
+    "rewardLv": 0,
+    "friendshipId": 1000,
+    "maxFriendshipRank": 0,
+    "genderType": 3,
+    "attri": 2,
+    "combineSkillId": 0,
+    "combineLimitId": 0,
+    "sellQp": 1000,
+    "sellMana": 3,
+    "sellRarePri": 0,
+    "expType": 19,
+    "combineMaterialId": 39,
+    "cost": 9,
+    "battleSize": 2,
+    "hpGaugeY": 0,
+    "starRate": 0,
+    "deathRate": 0,
+    "attackAttri": 1,
+    "illustratorId": 381,
+    "cvId": 0,
+    "collectionNo": 2716,
+    "materialStoryPriority": 1000,
+    "flag": 4
+  },
+  {
+    "relateQuestIds": [],
+    "individuality": [],
+    "classPassive": [],
+    "cardIds": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "script": {},
+    "id": 9312660,
+    "baseSvtId": 9312660,
+    "name": "平蜘蛛くん",
+    "ruby": "ひらぐもくん",
+    "battleName": "-",
+    "classId": 1001,
+    "type": 6,
+    "limitMax": 4,
+    "rewardLv": 0,
+    "friendshipId": 1000,
+    "maxFriendshipRank": 0,
+    "genderType": 3,
+    "attri": 2,
+    "combineSkillId": 0,
+    "combineLimitId": 0,
+    "sellQp": 1000,
+    "sellMana": 3,
+    "sellRarePri": 0,
+    "expType": 19,
+    "combineMaterialId": 39,
+    "cost": 9,
+    "battleSize": 2,
+    "hpGaugeY": 0,
+    "starRate": 0,
+    "deathRate": 0,
+    "attackAttri": 1,
+    "illustratorId": 313,
+    "cvId": 0,
+    "collectionNo": 2718,
+    "materialStoryPriority": 1000,
+    "flag": 4
+  },
+  {
+    "relateQuestIds": [],
+    "individuality": [],
+    "classPassive": [],
+    "cardIds": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "script": {},
+    "id": 9312670,
+    "baseSvtId": 9312670,
+    "name": "ツイン・ヤタガラス",
+    "ruby": "ついん・やたがらす",
+    "battleName": "-",
+    "classId": 1001,
+    "type": 6,
+    "limitMax": 4,
+    "rewardLv": 0,
+    "friendshipId": 1000,
+    "maxFriendshipRank": 0,
+    "genderType": 3,
+    "attri": 2,
+    "combineSkillId": 0,
+    "combineLimitId": 0,
+    "sellQp": 1000,
+    "sellMana": 3,
+    "sellRarePri": 0,
+    "expType": 19,
+    "combineMaterialId": 39,
+    "cost": 9,
+    "battleSize": 2,
+    "hpGaugeY": 0,
+    "starRate": 0,
+    "deathRate": 0,
+    "attackAttri": 1,
+    "illustratorId": 232,
+    "cvId": 0,
+    "collectionNo": 2717,
+    "materialStoryPriority": 1000,
+    "flag": 4
+  },
+  {
+    "relateQuestIds": [],
+    "individuality": [],
+    "classPassive": [],
+    "cardIds": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "script": {},
     "id": 9400010,
     "baseSvtId": 9400010,
     "name": "頑強",
@@ -140259,6 +140663,182 @@
       3
     ],
     "script": {},
+    "id": 9409660,
+    "baseSvtId": 9409660,
+    "name": "泡沫の遭逢",
+    "ruby": "うたかたのそうほう",
+    "battleName": "-",
+    "classId": 1001,
+    "type": 6,
+    "limitMax": 4,
+    "rewardLv": 0,
+    "friendshipId": 1000,
+    "maxFriendshipRank": 0,
+    "genderType": 3,
+    "attri": 2,
+    "combineSkillId": 0,
+    "combineLimitId": 0,
+    "sellQp": 2000,
+    "sellMana": 5,
+    "sellRarePri": 0,
+    "expType": 20,
+    "combineMaterialId": 25,
+    "cost": 12,
+    "battleSize": 2,
+    "hpGaugeY": 0,
+    "starRate": 0,
+    "deathRate": 0,
+    "attackAttri": 1,
+    "illustratorId": 648,
+    "cvId": 0,
+    "collectionNo": 2710,
+    "materialStoryPriority": 1000,
+    "flag": 512
+  },
+  {
+    "relateQuestIds": [],
+    "individuality": [],
+    "classPassive": [],
+    "cardIds": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "script": {},
+    "id": 9409670,
+    "baseSvtId": 9409670,
+    "name": "帰路への旗印",
+    "ruby": "きろへのはたじるし",
+    "battleName": "-",
+    "classId": 1001,
+    "type": 6,
+    "limitMax": 4,
+    "rewardLv": 0,
+    "friendshipId": 1000,
+    "maxFriendshipRank": 0,
+    "genderType": 3,
+    "attri": 2,
+    "combineSkillId": 0,
+    "combineLimitId": 0,
+    "sellQp": 1000,
+    "sellMana": 3,
+    "sellRarePri": 0,
+    "expType": 19,
+    "combineMaterialId": 24,
+    "cost": 9,
+    "battleSize": 2,
+    "hpGaugeY": 0,
+    "starRate": 0,
+    "deathRate": 0,
+    "attackAttri": 1,
+    "illustratorId": 466,
+    "cvId": 0,
+    "collectionNo": 2711,
+    "materialStoryPriority": 1000,
+    "flag": 512
+  },
+  {
+    "relateQuestIds": [],
+    "individuality": [],
+    "classPassive": [],
+    "cardIds": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "script": {},
+    "id": 9409680,
+    "baseSvtId": 9409680,
+    "name": "秘湯の来訪者",
+    "ruby": "ひとうのらいほうしゃ",
+    "battleName": "-",
+    "classId": 1001,
+    "type": 6,
+    "limitMax": 4,
+    "rewardLv": 0,
+    "friendshipId": 1000,
+    "maxFriendshipRank": 0,
+    "genderType": 3,
+    "attri": 2,
+    "combineSkillId": 0,
+    "combineLimitId": 0,
+    "sellQp": 500,
+    "sellMana": 1,
+    "sellRarePri": 0,
+    "expType": 18,
+    "combineMaterialId": 23,
+    "cost": 5,
+    "battleSize": 2,
+    "hpGaugeY": 0,
+    "starRate": 0,
+    "deathRate": 0,
+    "attackAttri": 1,
+    "illustratorId": 649,
+    "cvId": 0,
+    "collectionNo": 2712,
+    "materialStoryPriority": 1000,
+    "flag": 512
+  },
+  {
+    "relateQuestIds": [],
+    "individuality": [],
+    "classPassive": [],
+    "cardIds": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "script": {},
+    "id": 9409690,
+    "baseSvtId": 9409690,
+    "name": "いざ、尋常に川中島！？",
+    "ruby": "いざ、じんじょうにかわなかじま",
+    "battleName": "-",
+    "classId": 1001,
+    "type": 6,
+    "limitMax": 4,
+    "rewardLv": 0,
+    "friendshipId": 1000,
+    "maxFriendshipRank": 0,
+    "genderType": 3,
+    "attri": 2,
+    "combineSkillId": 0,
+    "combineLimitId": 0,
+    "sellQp": 2000,
+    "sellMana": 5,
+    "sellRarePri": 0,
+    "expType": 20,
+    "combineMaterialId": 25,
+    "cost": 12,
+    "battleSize": 2,
+    "hpGaugeY": 0,
+    "starRate": 0,
+    "deathRate": 0,
+    "attackAttri": 1,
+    "illustratorId": 103,
+    "cvId": 0,
+    "collectionNo": 2713,
+    "materialStoryPriority": 1000,
+    "flag": 1024
+  },
+  {
+    "relateQuestIds": [],
+    "individuality": [],
+    "classPassive": [],
+    "cardIds": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "script": {},
     "id": 9501100,
     "baseSvtId": 9501100,
     "name": "英霊結晶・宵闇のフォウくん",
@@ -168547,6 +169127,94 @@
   },
   {
     "relateQuestIds": [],
+    "individuality": [],
+    "classPassive": [],
+    "cardIds": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "script": {},
+    "id": 9809900,
+    "baseSvtId": 9809900,
+    "name": "概念礼装EXPカード：ヤマタイガールズ！",
+    "ruby": "ガイネンレイソウEXPカード：やまたいがーるず！",
+    "battleName": "-",
+    "classId": 1001,
+    "type": 6,
+    "limitMax": 0,
+    "rewardLv": 0,
+    "friendshipId": 1000,
+    "maxFriendshipRank": 0,
+    "genderType": 3,
+    "attri": 2,
+    "combineSkillId": 0,
+    "combineLimitId": 0,
+    "sellQp": 1,
+    "sellMana": 0,
+    "sellRarePri": 0,
+    "expType": 9999,
+    "combineMaterialId": 34,
+    "cost": 9,
+    "battleSize": 2,
+    "hpGaugeY": 0,
+    "starRate": 0,
+    "deathRate": 0,
+    "attackAttri": 1,
+    "illustratorId": 64,
+    "cvId": 0,
+    "collectionNo": 2714,
+    "materialStoryPriority": 1000,
+    "flag": 16
+  },
+  {
+    "relateQuestIds": [],
+    "individuality": [],
+    "classPassive": [],
+    "cardIds": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "script": {},
+    "id": 9809910,
+    "baseSvtId": 9809910,
+    "name": "概念礼装EXPカード：爆・DAN・ジョー！",
+    "ruby": "ガイネンレイソウEXPカード：ばく・だん・じょー！",
+    "battleName": "-",
+    "classId": 1001,
+    "type": 6,
+    "limitMax": 0,
+    "rewardLv": 0,
+    "friendshipId": 1000,
+    "maxFriendshipRank": 0,
+    "genderType": 3,
+    "attri": 2,
+    "combineSkillId": 0,
+    "combineLimitId": 0,
+    "sellQp": 1,
+    "sellMana": 0,
+    "sellRarePri": 0,
+    "expType": 9999,
+    "combineMaterialId": 33,
+    "cost": 5,
+    "battleSize": 2,
+    "hpGaugeY": 0,
+    "starRate": 0,
+    "deathRate": 0,
+    "attackAttri": 1,
+    "illustratorId": 64,
+    "cvId": 0,
+    "collectionNo": 2715,
+    "materialStoryPriority": 1000,
+    "flag": 16
+  },
+  {
+    "relateQuestIds": [],
     "individuality": [
       5000,
       800100,
@@ -190472,9 +191140,9 @@
       2
     ],
     "script": {
+      "battleHeight": 6000,
       "HideInAnimNode": "en_Head",
-      "cameraActionId": 330,
-      "battleHeight": 6000
+      "cameraActionId": 330
     },
     "id": 9941810,
     "baseSvtId": 9941810,
@@ -212355,15 +213023,15 @@
       3
     ],
     "script": {
+      "AddWeakCardIds": [
+        21,
+        22
+      ],
       "AddWeakCardWeights": [
         0,
         0
       ],
-      "cameraActionId": 994,
-      "AddWeakCardIds": [
-        21,
-        22
-      ]
+      "cameraActionId": 994
     },
     "id": 9945620,
     "baseSvtId": 9945620,
@@ -219678,15 +220346,15 @@
       3
     ],
     "script": {
+      "AddWeakCardIds": [
+        21,
+        22
+      ],
       "AddWeakCardWeights": [
         0,
         0
       ],
-      "cameraActionId": 2106,
-      "AddWeakCardIds": [
-        21,
-        22
-      ]
+      "cameraActionId": 2106
     },
     "id": 9946800,
     "baseSvtId": 9946800,
@@ -226322,6 +226990,222 @@
     "relateQuestIds": [],
     "individuality": [
       5000,
+      5010,
+      102,
+      200,
+      2721
+    ],
+    "classPassive": [],
+    "cardIds": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "script": {
+      "battleHeight": 380,
+      "defaultDeadType": 8,
+      "cameraActionId": 2218
+    },
+    "id": 9948080,
+    "baseSvtId": 9948080,
+    "name": "スラノッブ",
+    "ruby": "-",
+    "battleName": "スラノッブ",
+    "classId": 2,
+    "type": 4,
+    "limitMax": 1,
+    "rewardLv": 0,
+    "friendshipId": 1000,
+    "maxFriendshipRank": 0,
+    "genderType": 3,
+    "attri": 2,
+    "combineSkillId": 0,
+    "combineLimitId": 0,
+    "sellQp": 0,
+    "sellMana": 0,
+    "sellRarePri": 0,
+    "expType": 9999,
+    "combineMaterialId": 100,
+    "cost": 0,
+    "battleSize": 2,
+    "hpGaugeY": -250,
+    "starRate": 0,
+    "deathRate": 1000,
+    "attackAttri": 1,
+    "illustratorId": 0,
+    "cvId": 0,
+    "collectionNo": 0,
+    "materialStoryPriority": 1000,
+    "flag": 0
+  },
+  {
+    "relateQuestIds": [],
+    "individuality": [
+      5000,
+      5010,
+      102,
+      200,
+      2721
+    ],
+    "classPassive": [],
+    "cardIds": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "script": {
+      "battleHeight": 380,
+      "defaultDeadType": 8,
+      "cameraActionId": 2218
+    },
+    "id": 9948090,
+    "baseSvtId": 9948090,
+    "name": "ミドスラノッブ",
+    "ruby": "-",
+    "battleName": "ミドスラノッブ",
+    "classId": 2,
+    "type": 4,
+    "limitMax": 1,
+    "rewardLv": 0,
+    "friendshipId": 1000,
+    "maxFriendshipRank": 0,
+    "genderType": 3,
+    "attri": 2,
+    "combineSkillId": 0,
+    "combineLimitId": 0,
+    "sellQp": 0,
+    "sellMana": 0,
+    "sellRarePri": 0,
+    "expType": 9999,
+    "combineMaterialId": 100,
+    "cost": 0,
+    "battleSize": 2,
+    "hpGaugeY": -250,
+    "starRate": 0,
+    "deathRate": 1000,
+    "attackAttri": 1,
+    "illustratorId": 0,
+    "cvId": 0,
+    "collectionNo": 0,
+    "materialStoryPriority": 1000,
+    "flag": 0
+  },
+  {
+    "relateQuestIds": [],
+    "individuality": [
+      5000,
+      5010,
+      102,
+      200,
+      2721
+    ],
+    "classPassive": [],
+    "cardIds": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "script": {
+      "battleHeight": 380,
+      "defaultDeadType": 8,
+      "cameraActionId": 2218
+    },
+    "id": 9948100,
+    "baseSvtId": 9948100,
+    "name": "アカスラノッブ",
+    "ruby": "-",
+    "battleName": "アカスラノッブ",
+    "classId": 2,
+    "type": 4,
+    "limitMax": 1,
+    "rewardLv": 0,
+    "friendshipId": 1000,
+    "maxFriendshipRank": 0,
+    "genderType": 3,
+    "attri": 2,
+    "combineSkillId": 0,
+    "combineLimitId": 0,
+    "sellQp": 0,
+    "sellMana": 0,
+    "sellRarePri": 0,
+    "expType": 9999,
+    "combineMaterialId": 100,
+    "cost": 0,
+    "battleSize": 2,
+    "hpGaugeY": -250,
+    "starRate": 0,
+    "deathRate": 1000,
+    "attackAttri": 1,
+    "illustratorId": 0,
+    "cvId": 0,
+    "collectionNo": 0,
+    "materialStoryPriority": 1000,
+    "flag": 0
+  },
+  {
+    "relateQuestIds": [],
+    "individuality": [
+      5000,
+      5010,
+      102,
+      200,
+      2721
+    ],
+    "classPassive": [],
+    "cardIds": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "script": {
+      "battleHeight": 380,
+      "defaultDeadType": 8,
+      "cameraActionId": 2218
+    },
+    "id": 9948110,
+    "baseSvtId": 9948110,
+    "name": "キンスラノッブ",
+    "ruby": "-",
+    "battleName": "キンスラノッブ",
+    "classId": 2,
+    "type": 4,
+    "limitMax": 1,
+    "rewardLv": 0,
+    "friendshipId": 1000,
+    "maxFriendshipRank": 0,
+    "genderType": 3,
+    "attri": 2,
+    "combineSkillId": 0,
+    "combineLimitId": 0,
+    "sellQp": 0,
+    "sellMana": 0,
+    "sellRarePri": 0,
+    "expType": 9999,
+    "combineMaterialId": 100,
+    "cost": 0,
+    "battleSize": 2,
+    "hpGaugeY": -250,
+    "starRate": 0,
+    "deathRate": 1000,
+    "attackAttri": 1,
+    "illustratorId": 0,
+    "cvId": 0,
+    "collectionNo": 0,
+    "materialStoryPriority": 1000,
+    "flag": 0
+  },
+  {
+    "relateQuestIds": [],
+    "individuality": [
+      5000,
       405900,
       103,
       2,
@@ -226498,11 +227382,11 @@
       2
     ],
     "script": {
-      "HideInAnimNode": "en_body",
-      "cameraActionId": 2222,
       "assumedEffectId": [
         6007001
-      ]
+      ],
+      "HideInAnimNode": "en_body",
+      "cameraActionId": 2222
     },
     "id": 9948180,
     "baseSvtId": 9948180,

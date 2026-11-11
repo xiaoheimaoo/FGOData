@@ -247242,7 +247242,7 @@
       23608
     ],
     "svals": [
-      "[1000,-1,-1,500]"
+      "[1000,-1,-1,500,OnlyMaxFuncGroupId:1]"
     ],
     "script": {},
     "skillId": 940473,
@@ -247297,6 +247297,54 @@
     "lv": 1,
     "chargeTurn": 0,
     "skillDetailId": 940476,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      23629,
+      23630
+    ],
+    "svals": [
+      "[1000,-1,-1,1000]",
+      "[2,500,0,Target:1,EventId:80639]"
+    ],
+    "script": {},
+    "skillId": 940477,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 940477,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      23629,
+      23630
+    ],
+    "svals": [
+      "[1000,-1,-1,500]",
+      "[2,200,0,Target:1,EventId:80639]"
+    ],
+    "script": {},
+    "skillId": 940478,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 940478,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      23628,
+      23630
+    ],
+    "svals": [
+      "[1000,-1,-1,300,OnlyMaxFuncGroupId:1]",
+      "[2,200,0,Target:1,EventId:80639]"
+    ],
+    "script": {},
+    "skillId": 940479,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 940479,
     "priority": 0
   },
   {
@@ -283479,9 +283527,9 @@
       "[]"
     ],
     "script": {
-      "VoiceAssetName": "ChrVoice_7100300",
       "PlayVoiceNo": "0_E010",
-      "PlayVoiceWait": 1
+      "PlayVoiceWait": 1,
+      "VoiceAssetName": "ChrVoice_7100300"
     },
     "skillId": 962107,
     "lv": 1,
@@ -283497,9 +283545,9 @@
       "[]"
     ],
     "script": {
-      "VoiceAssetName": "ChrVoice_7100300",
       "PlayVoiceNo": "0_E020",
-      "PlayVoiceWait": 1
+      "PlayVoiceWait": 1,
+      "VoiceAssetName": "ChrVoice_7100300"
     },
     "skillId": 962108,
     "lv": 1,
@@ -283515,9 +283563,9 @@
       "[]"
     ],
     "script": {
-      "VoiceAssetName": "ChrVoice_7100300",
       "PlayVoiceNo": "0_E030",
-      "PlayVoiceWait": 1
+      "PlayVoiceWait": 1,
+      "VoiceAssetName": "ChrVoice_7100300"
     },
     "skillId": 962109,
     "lv": 1,
@@ -283533,9 +283581,9 @@
       "[]"
     ],
     "script": {
-      "VoiceAssetName": "ChrVoice_7100300",
       "PlayVoiceNo": "0_E040",
-      "PlayVoiceWait": 1
+      "PlayVoiceWait": 1,
+      "VoiceAssetName": "ChrVoice_7100300"
     },
     "skillId": 962110,
     "lv": 1,
@@ -291081,9 +291129,9 @@
       "[5000,ShowState:-1,HideNoEffect:1]"
     ],
     "script": {
-      "VoiceAssetName": "ChrVoice_7100400",
       "PlayVoiceNo": "0_E010",
-      "PlayVoiceWait": 1
+      "PlayVoiceWait": 1,
+      "VoiceAssetName": "ChrVoice_7100400"
     },
     "skillId": 962699,
     "lv": 1,
@@ -291099,9 +291147,9 @@
       "[5000,ShowState:-1,HideNoEffect:1]"
     ],
     "script": {
-      "VoiceAssetName": "ChrVoice_7100400",
       "PlayVoiceNo": "0_E020",
-      "PlayVoiceWait": 1
+      "PlayVoiceWait": 1,
+      "VoiceAssetName": "ChrVoice_7100400"
     },
     "skillId": 962700,
     "lv": 1,
@@ -291117,9 +291165,9 @@
       "[5000,ShowState:-1,HideNoEffect:1]"
     ],
     "script": {
-      "VoiceAssetName": "ChrVoice_7100400",
       "PlayVoiceNo": "0_E030",
-      "PlayVoiceWait": 1
+      "PlayVoiceWait": 1,
+      "VoiceAssetName": "ChrVoice_7100400"
     },
     "skillId": 962701,
     "lv": 1,
@@ -351510,9 +351558,9 @@
       "[]"
     ],
     "script": {
-      "VoiceAssetName": "ChrVoice_7100600",
       "PlayVoiceNo": "0_E010",
       "PlayVoiceWait": 1,
+      "VoiceAssetName": "ChrVoice_7100600",
       "additionalSkillId": 966308
     },
     "skillId": 966455,
@@ -353679,9 +353727,9 @@
       "[]"
     ],
     "script": {
-      "VoiceAssetName": "Servants_9943030",
       "PlayVoiceNo": "0_B510",
-      "PlayVoiceWait": 1
+      "PlayVoiceWait": 1,
+      "VoiceAssetName": "Servants_9943030"
     },
     "skillId": 966521,
     "lv": 1,
@@ -354461,9 +354509,9 @@
       "[]"
     ],
     "script": {
-      "VoiceAssetName": "Servants_9943070",
       "PlayVoiceNo": "0_B510",
-      "PlayVoiceWait": 1
+      "PlayVoiceWait": 1,
+      "VoiceAssetName": "Servants_9943070"
     },
     "skillId": 966569,
     "lv": 1,
@@ -365029,8 +365077,8 @@
       "[5000,-1,-1,150,SetPassiveFrame:1,IgnoreIndividuality:1]"
     ],
     "script": {
-      "additionalSkillActorType": 1,
-      "additionalSkillId": 967200
+      "additionalSkillId": 967200,
+      "additionalSkillActorType": 1
     },
     "skillId": 967171,
     "lv": 1,
@@ -365050,8 +365098,8 @@
       "[5000]"
     ],
     "script": {
-      "additionalSkillActorType": 1,
-      "additionalSkillId": 967173
+      "additionalSkillId": 967173,
+      "additionalSkillActorType": 1
     },
     "skillId": 967172,
     "lv": 1,
@@ -365087,8 +365135,8 @@
       "[5000]"
     ],
     "script": {
-      "additionalSkillActorType": 1,
-      "additionalSkillId": 967175
+      "additionalSkillId": 967175,
+      "additionalSkillActorType": 1
     },
     "skillId": 967174,
     "lv": 1,
@@ -365124,8 +365172,8 @@
       "[5000]"
     ],
     "script": {
-      "additionalSkillActorType": 1,
-      "additionalSkillId": 967177
+      "additionalSkillId": 967177,
+      "additionalSkillActorType": 1
     },
     "skillId": 967176,
     "lv": 1,
@@ -377381,9 +377429,9 @@
       "[]"
     ],
     "script": {
-      "VoiceAssetName": "Servants_9943870",
       "PlayVoiceNo": "0_B530",
-      "PlayVoiceWait": 1
+      "PlayVoiceWait": 1,
+      "VoiceAssetName": "Servants_9943870"
     },
     "skillId": 967899,
     "lv": 1,
@@ -380097,9 +380145,9 @@
       "[5000,-1,-1,6021,ShowState:-1,UnSubState:1,ForceAddState:1]"
     ],
     "script": {
-      "VoiceAssetName": "Servants_9943920",
       "PlayVoiceNo": "0_B880",
-      "PlayVoiceWait": 1
+      "PlayVoiceWait": 1,
+      "VoiceAssetName": "Servants_9943920"
     },
     "skillId": 968054,
     "lv": 1,
@@ -381003,8 +381051,8 @@
       "[5000,500]"
     ],
     "script": {
-      "additionalSkillActorType": 1,
-      "additionalSkillId": 968135
+      "additionalSkillId": 968135,
+      "additionalSkillActorType": 1
     },
     "skillId": 968108,
     "lv": 1,
@@ -381052,8 +381100,8 @@
       "[5000,1000]"
     ],
     "script": {
-      "additionalSkillActorType": 1,
-      "additionalSkillId": 968136
+      "additionalSkillId": 968136,
+      "additionalSkillActorType": 1
     },
     "skillId": 968110,
     "lv": 1,
@@ -381085,8 +381133,8 @@
       "[5000,500]"
     ],
     "script": {
-      "additionalSkillActorType": 1,
-      "additionalSkillId": 968226
+      "additionalSkillId": 968226,
+      "additionalSkillActorType": 1
     },
     "skillId": 968112,
     "lv": 1,
@@ -381118,8 +381166,8 @@
       "[5000,5000]"
     ],
     "script": {
-      "additionalSkillActorType": 1,
-      "additionalSkillId": 968227
+      "additionalSkillId": 968227,
+      "additionalSkillActorType": 1
     },
     "skillId": 968114,
     "lv": 1,
@@ -381493,8 +381541,8 @@
       "[5000,1,CheckDead:1,CheckEnemyFieldSpace:1]"
     ],
     "script": {
-      "additionalSkillActorType": 1,
-      "additionalSkillId": 968145
+      "additionalSkillId": 968145,
+      "additionalSkillActorType": 1
     },
     "skillId": 968136,
     "lv": 1,
@@ -390722,8 +390770,8 @@
       "[5000,1,0,HideMiss:1,HideNoEffect:1,ForceSubState:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 968697
+      "additionalSkillId": 968697,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 968694,
     "lv": 1,
@@ -401615,9 +401663,9 @@
       "[1000,1,-1,9999,ShowState:-1,HideNoEffect:1]"
     ],
     "script": {
+      "additionalSkillLv": 1,
       "additionalSkillActorType": 1,
-      "additionalSkillId": 970039,
-      "additionalSkillLv": 1
+      "additionalSkillId": 970039
     },
     "skillId": 969847,
     "lv": 1,
@@ -403075,9 +403123,9 @@
       "[5000,HideMiss:1,HideNoEffect:1,ForceSubState:1]"
     ],
     "script": {
+      "additionalSkillLv": 1,
       "additionalSkillActorType": 1,
-      "additionalSkillId": 969975,
-      "additionalSkillLv": 1
+      "additionalSkillId": 969975
     },
     "skillId": 969894,
     "lv": 1,
@@ -403699,9 +403747,9 @@
       "[]"
     ],
     "script": {
-      "VoiceAssetName": "ChrVoice_7102400",
       "PlayVoiceNo": "0_E010",
-      "PlayVoiceWait": 1
+      "PlayVoiceWait": 1,
+      "VoiceAssetName": "ChrVoice_7102400"
     },
     "skillId": 969935,
     "lv": 1,
@@ -404199,9 +404247,9 @@
       "[]"
     ],
     "script": {
-      "VoiceAssetName": "ChrVoice_7102400",
       "PlayVoiceNo": "0_E020",
-      "PlayVoiceWait": 1
+      "PlayVoiceWait": 1,
+      "VoiceAssetName": "ChrVoice_7102400"
     },
     "skillId": 969970,
     "lv": 1,
@@ -404217,9 +404265,9 @@
       "[]"
     ],
     "script": {
-      "VoiceAssetName": "ChrVoice_7102400",
       "PlayVoiceNo": "0_E150",
-      "PlayVoiceWait": 1
+      "PlayVoiceWait": 1,
+      "VoiceAssetName": "ChrVoice_7102400"
     },
     "skillId": 969971,
     "lv": 1,
@@ -404235,9 +404283,9 @@
       "[]"
     ],
     "script": {
-      "VoiceAssetName": "ChrVoice_7102400",
       "PlayVoiceNo": "0_E030",
-      "PlayVoiceWait": 1
+      "PlayVoiceWait": 1,
+      "VoiceAssetName": "ChrVoice_7102400"
     },
     "skillId": 969972,
     "lv": 1,
@@ -404253,9 +404301,9 @@
       "[1000,1,-1,9999,ShowState:-1,HideNoEffect:1]"
     ],
     "script": {
+      "additionalSkillLv": 1,
       "additionalSkillActorType": 1,
-      "additionalSkillId": 970040,
-      "additionalSkillLv": 1
+      "additionalSkillId": 970040
     },
     "skillId": 969973,
     "lv": 1,
@@ -405265,9 +405313,9 @@
       "[1000,1,-1,9999,ShowState:-1,HideMiss:1,HideNoEffect:1]"
     ],
     "script": {
+      "additionalSkillLv": 1,
       "additionalSkillActorType": 1,
-      "additionalSkillId": 969974,
-      "additionalSkillLv": 1
+      "additionalSkillId": 969974
     },
     "skillId": 970040,
     "lv": 1,
@@ -406563,9 +406611,9 @@
       "[]"
     ],
     "script": {
-      "VoiceAssetName": "Servants_9944190",
       "PlayVoiceNo": "0_B300",
-      "PlayVoiceWait": 1
+      "PlayVoiceWait": 1,
+      "VoiceAssetName": "Servants_9944190"
     },
     "skillId": 970054,
     "lv": 1,
@@ -406581,9 +406629,9 @@
       "[]"
     ],
     "script": {
-      "VoiceAssetName": "Servants_9944190",
       "PlayVoiceNo": "0_B160",
-      "PlayVoiceWait": 1
+      "PlayVoiceWait": 1,
+      "VoiceAssetName": "Servants_9944190"
     },
     "skillId": 970055,
     "lv": 1,
@@ -406599,9 +406647,9 @@
       "[]"
     ],
     "script": {
-      "VoiceAssetName": "Servants_9944190",
       "PlayVoiceNo": "0_B120",
-      "PlayVoiceWait": 1
+      "PlayVoiceWait": 1,
+      "VoiceAssetName": "Servants_9944190"
     },
     "skillId": 970056,
     "lv": 1,
@@ -408113,9 +408161,9 @@
       "[5000,-1,-1,6039,ShowState:-1,HideNoEffect:1,HideMiss:1,UnSubState:1,ForceAddState:1]"
     ],
     "script": {
+      "additionalSkillLv": 1,
       "additionalSkillActorType": 1,
-      "additionalSkillId": 970153,
-      "additionalSkillLv": 1
+      "additionalSkillId": 970153
     },
     "skillId": 970152,
     "lv": 1,
@@ -408271,9 +408319,9 @@
       "[5000,1,-1,2,ShowState:-1,SetPassiveFrame:1,UnSubState:1,ForceAddState:1]"
     ],
     "script": {
+      "additionalSkillLv": 1,
       "additionalSkillActorType": 1,
-      "additionalSkillId": 970202,
-      "additionalSkillLv": 1
+      "additionalSkillId": 970202
     },
     "skillId": 970162,
     "lv": 1,
@@ -408551,9 +408599,9 @@
       "[]"
     ],
     "script": {
-      "VoiceAssetName": "ChrVoice_7100700",
       "PlayVoiceNo": "0_E010",
-      "PlayVoiceWait": 1
+      "PlayVoiceWait": 1,
+      "VoiceAssetName": "ChrVoice_7100700"
     },
     "skillId": 970179,
     "lv": 1,
@@ -408569,9 +408617,9 @@
       "[]"
     ],
     "script": {
-      "VoiceAssetName": "ChrVoice_7100700",
       "PlayVoiceNo": "0_E020",
-      "PlayVoiceWait": 1
+      "PlayVoiceWait": 1,
+      "VoiceAssetName": "ChrVoice_7100700"
     },
     "skillId": 970180,
     "lv": 1,
@@ -408707,9 +408755,9 @@
       "[1000,HideNoEffect:1,HideMiss:1]"
     ],
     "script": {
+      "additionalSkillLv": 1,
       "additionalSkillActorType": 1,
-      "additionalSkillId": 970227,
-      "additionalSkillLv": 1
+      "additionalSkillId": 970227
     },
     "skillId": 970189,
     "lv": 1,
@@ -408725,9 +408773,9 @@
       "[1000,HideNoEffect:1,HideMiss:1]"
     ],
     "script": {
+      "additionalSkillLv": 1,
       "additionalSkillActorType": 1,
-      "additionalSkillId": 970228,
-      "additionalSkillLv": 1
+      "additionalSkillId": 970228
     },
     "skillId": 970190,
     "lv": 1,
@@ -408743,9 +408791,9 @@
       "[1000,HideNoEffect:1,HideMiss:1]"
     ],
     "script": {
+      "additionalSkillLv": 1,
       "additionalSkillActorType": 1,
-      "additionalSkillId": 970229,
-      "additionalSkillLv": 1
+      "additionalSkillId": 970229
     },
     "skillId": 970191,
     "lv": 1,
@@ -408963,9 +409011,9 @@
       "[5000,-1,-1,6040,ShowState:-1,HideNoEffect:1,HideMiss:1,UnSubState:1,ForceAddState:1]"
     ],
     "script": {
+      "additionalSkillLv": 1,
       "additionalSkillActorType": 1,
-      "additionalSkillId": 970154,
-      "additionalSkillLv": 1
+      "additionalSkillId": 970154
     },
     "skillId": 970205,
     "lv": 1,
@@ -408981,9 +409029,9 @@
       "[5000,-1,-1,6041,ShowState:-1,HideNoEffect:1,HideMiss:1,UnSubState:1,ForceAddState:1]"
     ],
     "script": {
+      "additionalSkillLv": 1,
       "additionalSkillActorType": 1,
-      "additionalSkillId": 970155,
-      "additionalSkillLv": 1
+      "additionalSkillId": 970155
     },
     "skillId": 970206,
     "lv": 1,
@@ -408999,9 +409047,9 @@
       "[5000,-1,-1,6042,ShowState:-1,HideNoEffect:1,HideMiss:1,UnSubState:1,ForceAddState:1]"
     ],
     "script": {
+      "additionalSkillLv": 1,
       "additionalSkillActorType": 1,
-      "additionalSkillId": 970156,
-      "additionalSkillLv": 1
+      "additionalSkillId": 970156
     },
     "skillId": 970207,
     "lv": 1,
@@ -409017,9 +409065,9 @@
       "[5000,-1,-1,6043,ShowState:-1,HideNoEffect:1,HideMiss:1,UnSubState:1,ForceAddState:1]"
     ],
     "script": {
+      "additionalSkillLv": 1,
       "additionalSkillActorType": 1,
-      "additionalSkillId": 970157,
-      "additionalSkillLv": 1
+      "additionalSkillId": 970157
     },
     "skillId": 970208,
     "lv": 1,
@@ -409795,9 +409843,9 @@
       "[]"
     ],
     "script": {
-      "VoiceAssetName": "Servants_9944030",
       "PlayVoiceNo": "0_B300",
-      "PlayVoiceWait": 1
+      "PlayVoiceWait": 1,
+      "VoiceAssetName": "Servants_9944030"
     },
     "skillId": 970243,
     "lv": 1,
@@ -409829,9 +409877,9 @@
       "[]"
     ],
     "script": {
-      "VoiceAssetName": "Servants_9944030",
       "PlayVoiceNo": "0_B310",
-      "PlayVoiceWait": 1
+      "PlayVoiceWait": 1,
+      "VoiceAssetName": "Servants_9944030"
     },
     "skillId": 970245,
     "lv": 1,
@@ -409863,9 +409911,9 @@
       "[]"
     ],
     "script": {
-      "VoiceAssetName": "Servants_9944030",
       "PlayVoiceNo": "0_B320",
-      "PlayVoiceWait": 1
+      "PlayVoiceWait": 1,
+      "VoiceAssetName": "Servants_9944030"
     },
     "skillId": 970247,
     "lv": 1,
@@ -412797,9 +412845,9 @@
       "[]"
     ],
     "script": {
-      "VoiceAssetName": "ChrVoice_7102600",
       "PlayVoiceNo": "0_E010",
-      "PlayVoiceWait": 1
+      "PlayVoiceWait": 1,
+      "VoiceAssetName": "ChrVoice_7102600"
     },
     "skillId": 970368,
     "lv": 1,
@@ -412829,9 +412877,9 @@
       "[]"
     ],
     "script": {
-      "VoiceAssetName": "ChrVoice_7102600",
       "PlayVoiceNo": "0_E020",
-      "PlayVoiceWait": 1
+      "PlayVoiceWait": 1,
+      "VoiceAssetName": "ChrVoice_7102600"
     },
     "skillId": 970370,
     "lv": 1,
@@ -412861,10 +412909,10 @@
       "[]"
     ],
     "script": {
-      "additionalSkillActorType": 1,
-      "VoiceAssetName": "ChrVoice_7102600",
       "PlayVoiceNo": "0_E500",
       "PlayVoiceWait": 1,
+      "VoiceAssetName": "ChrVoice_7102600",
+      "additionalSkillActorType": 1,
       "additionalSkillId": 970342
     },
     "skillId": 970372,
@@ -430623,6 +430671,66 @@
   },
   {
     "funcId": [
+      193,
+      208
+    ],
+    "svals": [
+      "[1000,3,-1,100]",
+      "[1000,3,-1,100]"
+    ],
+    "script": {},
+    "skillId": 970944,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      23651
+    ],
+    "svals": [
+      "[1000,3,-1,970966,Value2:1,IntervalTurn:1]"
+    ],
+    "script": {},
+    "skillId": 970945,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      23515
+    ],
+    "svals": [
+      "[1000,3,-1,970964,Value2:1,IntervalTurn:1]"
+    ],
+    "script": {},
+    "skillId": 970946,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      169,
+      470
+    ],
+    "svals": [
+      "[1000,3,-1,100]",
+      "[1000,1]"
+    ],
+    "script": {},
+    "skillId": 970947,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
       292,
       627,
       460,
@@ -431202,6 +431310,34 @@
     "skillId": 970963,
     "lv": 1,
     "chargeTurn": 1,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      318
+    ],
+    "svals": [
+      "[1000,3,-1,300,ShortenBuffHalfTurnInOpponentTurn:1]"
+    ],
+    "script": {},
+    "skillId": 970964,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      316
+    ],
+    "svals": [
+      "[1000,3,-1,300]"
+    ],
+    "script": {},
+    "skillId": 970966,
+    "lv": 1,
+    "chargeTurn": 0,
     "skillDetailId": 1,
     "priority": 0
   },
@@ -527925,6 +528061,452 @@
   },
   {
     "funcId": [
+      510,
+      5155
+    ],
+    "svals": [
+      "[1000,-1,-1]",
+      "[1000,-1,-1,250]"
+    ],
+    "script": {},
+    "skillId": 995476,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 995476,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      510,
+      5155
+    ],
+    "svals": [
+      "[1000,-1,-1]",
+      "[1000,-1,-1,300]"
+    ],
+    "script": {},
+    "skillId": 995477,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 995477,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      23631
+    ],
+    "svals": [
+      "[11019,1,1,80639]"
+    ],
+    "script": {},
+    "skillId": 995478,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 995478,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      23631
+    ],
+    "svals": [
+      "[11019,1,2,80639]"
+    ],
+    "script": {},
+    "skillId": 995479,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 995479,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      109,
+      118,
+      247,
+      22722
+    ],
+    "svals": [
+      "[1000,-1,-1,30]",
+      "[1000,-1,-1,30]",
+      "[1000,-1,-1,30]",
+      "[1000,-1,1,1]"
+    ],
+    "script": {},
+    "skillId": 995480,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 995480,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      109,
+      118,
+      247,
+      22722
+    ],
+    "svals": [
+      "[1000,-1,-1,50]",
+      "[1000,-1,-1,50]",
+      "[1000,-1,-1,50]",
+      "[1000,-1,1,1]"
+    ],
+    "script": {},
+    "skillId": 995481,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 995481,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      23632
+    ],
+    "svals": [
+      "[11018,1,1,80639]"
+    ],
+    "script": {},
+    "skillId": 995482,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 995482,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      23632
+    ],
+    "svals": [
+      "[11018,1,2,80639]"
+    ],
+    "script": {},
+    "skillId": 995483,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 995483,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      100,
+      199,
+      336
+    ],
+    "svals": [
+      "[1000,-1,-1,30]",
+      "[1000,-1,-1,30]",
+      "[1000,-1,-1,30]"
+    ],
+    "script": {},
+    "skillId": 995484,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 995484,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      100,
+      199,
+      336
+    ],
+    "svals": [
+      "[1000,-1,-1,50]",
+      "[1000,-1,-1,50]",
+      "[1000,-1,-1,50]"
+    ],
+    "script": {},
+    "skillId": 995485,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 995485,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      23633
+    ],
+    "svals": [
+      "[11017,1,1,80639]"
+    ],
+    "script": {},
+    "skillId": 995486,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 995486,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      23633
+    ],
+    "svals": [
+      "[11017,1,2,80639]"
+    ],
+    "script": {},
+    "skillId": 995487,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 995487,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      109,
+      118,
+      9952,
+      460
+    ],
+    "svals": [
+      "[1000,-1,-1,80]",
+      "[1000,-1,-1,80]",
+      "[1000,-1,-1,300]",
+      "[1000,3000]"
+    ],
+    "script": {},
+    "skillId": 995488,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 995488,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      109,
+      118,
+      9952,
+      460
+    ],
+    "svals": [
+      "[1000,-1,-1,100]",
+      "[1000,-1,-1,100]",
+      "[1000,-1,-1,500]",
+      "[1000,5000]"
+    ],
+    "script": {},
+    "skillId": 995489,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 995489,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      23652,
+      23634
+    ],
+    "svals": [
+      "[1000,-1,-1,1000]",
+      "[11020,2,300,80639]"
+    ],
+    "script": {},
+    "skillId": 995490,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 995490,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      23652,
+      23634
+    ],
+    "svals": [
+      "[1000,-1,-1,2000]",
+      "[11020,2,600,80639]"
+    ],
+    "script": {},
+    "skillId": 995491,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 995491,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      3643
+    ],
+    "svals": [
+      "[]"
+    ],
+    "script": {},
+    "skillId": 995492,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 995492,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      3643
+    ],
+    "svals": [
+      "[]"
+    ],
+    "script": {},
+    "skillId": 995493,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 995493,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      836,
+      826,
+      865
+    ],
+    "svals": [
+      "[1000,-1,-1,80,OnField:1]",
+      "[1000,-1,-1,80,OnField:1]",
+      "[1000,-1,-1,100,OnField:1]"
+    ],
+    "script": {},
+    "skillId": 995494,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 995494,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      248,
+      3415
+    ],
+    "svals": [
+      "[1000,-1,-1,300]",
+      "[1000,-1,-1,995526,Value2:1]"
+    ],
+    "script": {},
+    "skillId": 995496,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 995496,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      862,
+      5527
+    ],
+    "svals": [
+      "[1000,-1,-1,100,OnField:1]",
+      "[1000,-1,-1,100,OnField:1]"
+    ],
+    "script": {},
+    "skillId": 995497,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 995497,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      3600,
+      21636
+    ],
+    "svals": [
+      "[1000,-1,-1,995524,Value2:1,ShowState:-1]",
+      "[1000,-1,-1,995523,Value2:1,ShowState:-1]"
+    ],
+    "script": {},
+    "skillId": 995498,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 995498,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      3600,
+      518
+    ],
+    "svals": [
+      "[1000,-1,-1,995525,Value2:1,ShowState:-1]",
+      "[1000,-1,-1,100,ShowState:1]"
+    ],
+    "script": {},
+    "skillId": 995499,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 995499,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      907,
+      199
+    ],
+    "svals": [
+      "[1000,-1,-1,150,ShowState:1]",
+      "[1000,-1,-1,100,ShowState:1]"
+    ],
+    "script": {},
+    "skillId": 995500,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 995500,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      475
+    ],
+    "svals": [
+      "[1000,1]"
+    ],
+    "script": {},
+    "skillId": 995523,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      316
+    ],
+    "svals": [
+      "[1000,3,-1,300]"
+    ],
+    "script": {},
+    "skillId": 995524,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      318
+    ],
+    "svals": [
+      "[1000,3,-1,500]"
+    ],
+    "script": {},
+    "skillId": 995525,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      476
+    ],
+    "svals": [
+      "[1000,20,CheckDead:1]"
+    ],
+    "script": {},
+    "skillId": 995526,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
       116,
       206,
       759
@@ -619369,7 +619951,6 @@
       "[1000,1]"
     ],
     "script": {
-      "STAR_HIGHER": 10,
       "SelectAddInfo": {
         "title": "どの効果を得るか選択してください",
         "btn": [
@@ -619392,7 +619973,8 @@
             ]
           }
         ]
-      }
+      },
+      "STAR_HIGHER": 10
     },
     "skillId": 2435450,
     "lv": 1,
@@ -619420,7 +620002,6 @@
       "[1000,1]"
     ],
     "script": {
-      "STAR_HIGHER": 10,
       "SelectAddInfo": {
         "title": "どの効果を得るか選択してください",
         "btn": [
@@ -619443,7 +620024,8 @@
             ]
           }
         ]
-      }
+      },
+      "STAR_HIGHER": 10
     },
     "skillId": 2435450,
     "lv": 2,
@@ -619471,7 +620053,6 @@
       "[1000,1]"
     ],
     "script": {
-      "STAR_HIGHER": 10,
       "SelectAddInfo": {
         "title": "どの効果を得るか選択してください",
         "btn": [
@@ -619494,7 +620075,8 @@
             ]
           }
         ]
-      }
+      },
+      "STAR_HIGHER": 10
     },
     "skillId": 2435450,
     "lv": 3,
@@ -619522,7 +620104,6 @@
       "[1000,1]"
     ],
     "script": {
-      "STAR_HIGHER": 10,
       "SelectAddInfo": {
         "title": "どの効果を得るか選択してください",
         "btn": [
@@ -619545,7 +620126,8 @@
             ]
           }
         ]
-      }
+      },
+      "STAR_HIGHER": 10
     },
     "skillId": 2435450,
     "lv": 4,
@@ -619573,7 +620155,6 @@
       "[1000,1]"
     ],
     "script": {
-      "STAR_HIGHER": 10,
       "SelectAddInfo": {
         "title": "どの効果を得るか選択してください",
         "btn": [
@@ -619596,7 +620177,8 @@
             ]
           }
         ]
-      }
+      },
+      "STAR_HIGHER": 10
     },
     "skillId": 2435450,
     "lv": 5,
@@ -619624,7 +620206,6 @@
       "[1000,1]"
     ],
     "script": {
-      "STAR_HIGHER": 10,
       "SelectAddInfo": {
         "title": "どの効果を得るか選択してください",
         "btn": [
@@ -619647,7 +620228,8 @@
             ]
           }
         ]
-      }
+      },
+      "STAR_HIGHER": 10
     },
     "skillId": 2435450,
     "lv": 6,
@@ -619675,7 +620257,6 @@
       "[1000,1]"
     ],
     "script": {
-      "STAR_HIGHER": 10,
       "SelectAddInfo": {
         "title": "どの効果を得るか選択してください",
         "btn": [
@@ -619698,7 +620279,8 @@
             ]
           }
         ]
-      }
+      },
+      "STAR_HIGHER": 10
     },
     "skillId": 2435450,
     "lv": 7,
@@ -619726,7 +620308,6 @@
       "[1000,1]"
     ],
     "script": {
-      "STAR_HIGHER": 10,
       "SelectAddInfo": {
         "title": "どの効果を得るか選択してください",
         "btn": [
@@ -619749,7 +620330,8 @@
             ]
           }
         ]
-      }
+      },
+      "STAR_HIGHER": 10
     },
     "skillId": 2435450,
     "lv": 8,
@@ -619777,7 +620359,6 @@
       "[1000,1]"
     ],
     "script": {
-      "STAR_HIGHER": 10,
       "SelectAddInfo": {
         "title": "どの効果を得るか選択してください",
         "btn": [
@@ -619800,7 +620381,8 @@
             ]
           }
         ]
-      }
+      },
+      "STAR_HIGHER": 10
     },
     "skillId": 2435450,
     "lv": 9,
@@ -619828,7 +620410,6 @@
       "[1000,1]"
     ],
     "script": {
-      "STAR_HIGHER": 10,
       "SelectAddInfo": {
         "title": "どの効果を得るか選択してください",
         "btn": [
@@ -619851,7 +620432,8 @@
             ]
           }
         ]
-      }
+      },
+      "STAR_HIGHER": 10
     },
     "skillId": 2435450,
     "lv": 10,
@@ -673971,6 +674553,2434 @@
   },
   {
     "funcId": [
+      109,
+      247
+    ],
+    "svals": [
+      "[1000,-1,-1,50]",
+      "[1000,-1,-1,50]"
+    ],
+    "script": {},
+    "skillId": 2712450,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 2712450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      116,
+      125,
+      152,
+      9929,
+      530
+    ],
+    "svals": [
+      "[1000,3,-1,100]",
+      "[1000,3,-1,100]",
+      "[1000,3,-1,100]",
+      "[1000,1,1]",
+      "[1000,1]"
+    ],
+    "script": {},
+    "skillId": 2713550,
+    "lv": 1,
+    "chargeTurn": 9,
+    "skillDetailId": 2713550,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      116,
+      125,
+      152,
+      9929,
+      530
+    ],
+    "svals": [
+      "[1000,3,-1,110]",
+      "[1000,3,-1,110]",
+      "[1000,3,-1,110]",
+      "[1000,1,1]",
+      "[1000,1]"
+    ],
+    "script": {},
+    "skillId": 2713550,
+    "lv": 2,
+    "chargeTurn": 9,
+    "skillDetailId": 2713550,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      116,
+      125,
+      152,
+      9929,
+      530
+    ],
+    "svals": [
+      "[1000,3,-1,120]",
+      "[1000,3,-1,120]",
+      "[1000,3,-1,120]",
+      "[1000,1,1]",
+      "[1000,1]"
+    ],
+    "script": {},
+    "skillId": 2713550,
+    "lv": 3,
+    "chargeTurn": 9,
+    "skillDetailId": 2713550,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      116,
+      125,
+      152,
+      9929,
+      530
+    ],
+    "svals": [
+      "[1000,3,-1,130]",
+      "[1000,3,-1,130]",
+      "[1000,3,-1,130]",
+      "[1000,1,1]",
+      "[1000,1]"
+    ],
+    "script": {},
+    "skillId": 2713550,
+    "lv": 4,
+    "chargeTurn": 9,
+    "skillDetailId": 2713550,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      116,
+      125,
+      152,
+      9929,
+      530
+    ],
+    "svals": [
+      "[1000,3,-1,140]",
+      "[1000,3,-1,140]",
+      "[1000,3,-1,140]",
+      "[1000,1,1]",
+      "[1000,1]"
+    ],
+    "script": {},
+    "skillId": 2713550,
+    "lv": 5,
+    "chargeTurn": 9,
+    "skillDetailId": 2713550,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      116,
+      125,
+      152,
+      9929,
+      530
+    ],
+    "svals": [
+      "[1000,3,-1,150]",
+      "[1000,3,-1,150]",
+      "[1000,3,-1,150]",
+      "[1000,1,1]",
+      "[1000,1]"
+    ],
+    "script": {},
+    "skillId": 2713550,
+    "lv": 6,
+    "chargeTurn": 8,
+    "skillDetailId": 2713550,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      116,
+      125,
+      152,
+      9929,
+      530
+    ],
+    "svals": [
+      "[1000,3,-1,160]",
+      "[1000,3,-1,160]",
+      "[1000,3,-1,160]",
+      "[1000,1,1]",
+      "[1000,1]"
+    ],
+    "script": {},
+    "skillId": 2713550,
+    "lv": 7,
+    "chargeTurn": 8,
+    "skillDetailId": 2713550,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      116,
+      125,
+      152,
+      9929,
+      530
+    ],
+    "svals": [
+      "[1000,3,-1,170]",
+      "[1000,3,-1,170]",
+      "[1000,3,-1,170]",
+      "[1000,1,1]",
+      "[1000,1]"
+    ],
+    "script": {},
+    "skillId": 2713550,
+    "lv": 8,
+    "chargeTurn": 8,
+    "skillDetailId": 2713550,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      116,
+      125,
+      152,
+      9929,
+      530
+    ],
+    "svals": [
+      "[1000,3,-1,180]",
+      "[1000,3,-1,180]",
+      "[1000,3,-1,180]",
+      "[1000,1,1]",
+      "[1000,1]"
+    ],
+    "script": {},
+    "skillId": 2713550,
+    "lv": 9,
+    "chargeTurn": 8,
+    "skillDetailId": 2713550,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      116,
+      125,
+      152,
+      9929,
+      530
+    ],
+    "svals": [
+      "[1000,3,-1,200]",
+      "[1000,3,-1,200]",
+      "[1000,3,-1,200]",
+      "[1000,1,1]",
+      "[1000,1]"
+    ],
+    "script": {},
+    "skillId": 2713550,
+    "lv": 10,
+    "chargeTurn": 7,
+    "skillDetailId": 2713550,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      254,
+      759,
+      466,
+      472,
+      460,
+      23655,
+      530
+    ],
+    "svals": [
+      "[1000,3,-1,100]",
+      "[1000,3,1,1]",
+      "[1000,1000]",
+      "[1000,1]",
+      "[1000,2000]",
+      "[1000,1,1]",
+      "[1000,1]"
+    ],
+    "script": {},
+    "skillId": 2714450,
+    "lv": 1,
+    "chargeTurn": 9,
+    "skillDetailId": 2714450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      254,
+      759,
+      466,
+      472,
+      460,
+      23655,
+      530
+    ],
+    "svals": [
+      "[1000,3,-1,110]",
+      "[1000,3,1,1]",
+      "[1000,1100]",
+      "[1000,1]",
+      "[1000,2100]",
+      "[1000,1,1]",
+      "[1000,1]"
+    ],
+    "script": {},
+    "skillId": 2714450,
+    "lv": 2,
+    "chargeTurn": 9,
+    "skillDetailId": 2714450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      254,
+      759,
+      466,
+      472,
+      460,
+      23655,
+      530
+    ],
+    "svals": [
+      "[1000,3,-1,120]",
+      "[1000,3,1,1]",
+      "[1000,1200]",
+      "[1000,1]",
+      "[1000,2200]",
+      "[1000,1,1]",
+      "[1000,1]"
+    ],
+    "script": {},
+    "skillId": 2714450,
+    "lv": 3,
+    "chargeTurn": 9,
+    "skillDetailId": 2714450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      254,
+      759,
+      466,
+      472,
+      460,
+      23655,
+      530
+    ],
+    "svals": [
+      "[1000,3,-1,130]",
+      "[1000,3,1,1]",
+      "[1000,1300]",
+      "[1000,1]",
+      "[1000,2300]",
+      "[1000,1,1]",
+      "[1000,1]"
+    ],
+    "script": {},
+    "skillId": 2714450,
+    "lv": 4,
+    "chargeTurn": 9,
+    "skillDetailId": 2714450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      254,
+      759,
+      466,
+      472,
+      460,
+      23655,
+      530
+    ],
+    "svals": [
+      "[1000,3,-1,140]",
+      "[1000,3,1,1]",
+      "[1000,1400]",
+      "[1000,1]",
+      "[1000,2400]",
+      "[1000,1,1]",
+      "[1000,1]"
+    ],
+    "script": {},
+    "skillId": 2714450,
+    "lv": 5,
+    "chargeTurn": 9,
+    "skillDetailId": 2714450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      254,
+      759,
+      466,
+      472,
+      460,
+      23655,
+      530
+    ],
+    "svals": [
+      "[1000,3,-1,150]",
+      "[1000,3,1,1]",
+      "[1000,1500]",
+      "[1000,1]",
+      "[1000,2500]",
+      "[1000,1,1]",
+      "[1000,1]"
+    ],
+    "script": {},
+    "skillId": 2714450,
+    "lv": 6,
+    "chargeTurn": 8,
+    "skillDetailId": 2714450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      254,
+      759,
+      466,
+      472,
+      460,
+      23655,
+      530
+    ],
+    "svals": [
+      "[1000,3,-1,160]",
+      "[1000,3,1,1]",
+      "[1000,1600]",
+      "[1000,1]",
+      "[1000,2600]",
+      "[1000,1,1]",
+      "[1000,1]"
+    ],
+    "script": {},
+    "skillId": 2714450,
+    "lv": 7,
+    "chargeTurn": 8,
+    "skillDetailId": 2714450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      254,
+      759,
+      466,
+      472,
+      460,
+      23655,
+      530
+    ],
+    "svals": [
+      "[1000,3,-1,170]",
+      "[1000,3,1,1]",
+      "[1000,1700]",
+      "[1000,1]",
+      "[1000,2700]",
+      "[1000,1,1]",
+      "[1000,1]"
+    ],
+    "script": {},
+    "skillId": 2714450,
+    "lv": 8,
+    "chargeTurn": 8,
+    "skillDetailId": 2714450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      254,
+      759,
+      466,
+      472,
+      460,
+      23655,
+      530
+    ],
+    "svals": [
+      "[1000,3,-1,180]",
+      "[1000,3,1,1]",
+      "[1000,1800]",
+      "[1000,1]",
+      "[1000,2800]",
+      "[1000,1,1]",
+      "[1000,1]"
+    ],
+    "script": {},
+    "skillId": 2714450,
+    "lv": 9,
+    "chargeTurn": 8,
+    "skillDetailId": 2714450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      254,
+      759,
+      466,
+      472,
+      460,
+      23655,
+      530
+    ],
+    "svals": [
+      "[1000,3,-1,200]",
+      "[1000,3,1,1]",
+      "[1000,2000]",
+      "[1000,1]",
+      "[1000,3000]",
+      "[1000,1,1]",
+      "[1000,1]"
+    ],
+    "script": {},
+    "skillId": 2714450,
+    "lv": 10,
+    "chargeTurn": 7,
+    "skillDetailId": 2714450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      9958,
+      207,
+      1371,
+      221,
+      477,
+      216
+    ],
+    "svals": [
+      "[1000,3,-1,300]",
+      "[1000,3,-1,300]",
+      "[1000,3,-1,4]",
+      "[1000,3,-1,100]",
+      "[1000,12]",
+      "[1000,2,-1,300]"
+    ],
+    "script": {},
+    "skillId": 2715450,
+    "lv": 1,
+    "chargeTurn": 8,
+    "skillDetailId": 2715450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      9958,
+      207,
+      1371,
+      221,
+      477,
+      216
+    ],
+    "svals": [
+      "[1000,3,-1,320]",
+      "[1000,3,-1,320]",
+      "[1000,3,-1,5]",
+      "[1000,3,-1,100]",
+      "[1000,14]",
+      "[1000,2,-1,300]"
+    ],
+    "script": {},
+    "skillId": 2715450,
+    "lv": 2,
+    "chargeTurn": 8,
+    "skillDetailId": 2715450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      9958,
+      207,
+      1371,
+      221,
+      477,
+      216
+    ],
+    "svals": [
+      "[1000,3,-1,340]",
+      "[1000,3,-1,340]",
+      "[1000,3,-1,5]",
+      "[1000,3,-1,100]",
+      "[1000,15]",
+      "[1000,2,-1,300]"
+    ],
+    "script": {},
+    "skillId": 2715450,
+    "lv": 3,
+    "chargeTurn": 8,
+    "skillDetailId": 2715450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      9958,
+      207,
+      1371,
+      221,
+      477,
+      216
+    ],
+    "svals": [
+      "[1000,3,-1,360]",
+      "[1000,3,-1,360]",
+      "[1000,3,-1,6]",
+      "[1000,3,-1,100]",
+      "[1000,16]",
+      "[1000,2,-1,300]"
+    ],
+    "script": {},
+    "skillId": 2715450,
+    "lv": 4,
+    "chargeTurn": 8,
+    "skillDetailId": 2715450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      9958,
+      207,
+      1371,
+      221,
+      477,
+      216
+    ],
+    "svals": [
+      "[1000,3,-1,380]",
+      "[1000,3,-1,380]",
+      "[1000,3,-1,6]",
+      "[1000,3,-1,100]",
+      "[1000,17]",
+      "[1000,2,-1,300]"
+    ],
+    "script": {},
+    "skillId": 2715450,
+    "lv": 5,
+    "chargeTurn": 8,
+    "skillDetailId": 2715450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      9958,
+      207,
+      1371,
+      221,
+      477,
+      216
+    ],
+    "svals": [
+      "[1000,3,-1,400]",
+      "[1000,3,-1,400]",
+      "[1000,3,-1,6]",
+      "[1000,3,-1,100]",
+      "[1000,18]",
+      "[1000,2,-1,300]"
+    ],
+    "script": {},
+    "skillId": 2715450,
+    "lv": 6,
+    "chargeTurn": 7,
+    "skillDetailId": 2715450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      9958,
+      207,
+      1371,
+      221,
+      477,
+      216
+    ],
+    "svals": [
+      "[1000,3,-1,420]",
+      "[1000,3,-1,420]",
+      "[1000,3,-1,7]",
+      "[1000,3,-1,100]",
+      "[1000,20]",
+      "[1000,2,-1,300]"
+    ],
+    "script": {},
+    "skillId": 2715450,
+    "lv": 7,
+    "chargeTurn": 7,
+    "skillDetailId": 2715450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      9958,
+      207,
+      1371,
+      221,
+      477,
+      216
+    ],
+    "svals": [
+      "[1000,3,-1,440]",
+      "[1000,3,-1,440]",
+      "[1000,3,-1,7]",
+      "[1000,3,-1,100]",
+      "[1000,21]",
+      "[1000,2,-1,300]"
+    ],
+    "script": {},
+    "skillId": 2715450,
+    "lv": 8,
+    "chargeTurn": 7,
+    "skillDetailId": 2715450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      9958,
+      207,
+      1371,
+      221,
+      477,
+      216
+    ],
+    "svals": [
+      "[1000,3,-1,460]",
+      "[1000,3,-1,460]",
+      "[1000,3,-1,8]",
+      "[1000,3,-1,100]",
+      "[1000,22]",
+      "[1000,2,-1,300]"
+    ],
+    "script": {},
+    "skillId": 2715450,
+    "lv": 9,
+    "chargeTurn": 7,
+    "skillDetailId": 2715450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      9958,
+      207,
+      1371,
+      221,
+      477,
+      216
+    ],
+    "svals": [
+      "[1000,3,-1,500]",
+      "[1000,3,-1,500]",
+      "[1000,3,-1,8]",
+      "[1000,3,-1,100]",
+      "[1000,24]",
+      "[1000,2,-1,300]"
+    ],
+    "script": {},
+    "skillId": 2715450,
+    "lv": 10,
+    "chargeTurn": 6,
+    "skillDetailId": 2715450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      283,
+      334,
+      215,
+      107,
+      116
+    ],
+    "svals": [
+      "[1000,3,2]",
+      "[1000,3,-1,5]",
+      "[1000,3,-1,100]",
+      "[1000,3,-1,100]",
+      "[1000,3,-1,100]"
+    ],
+    "script": {},
+    "skillId": 2716450,
+    "lv": 1,
+    "chargeTurn": 8,
+    "skillDetailId": 2716450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      283,
+      334,
+      215,
+      107,
+      116
+    ],
+    "svals": [
+      "[1000,3,2]",
+      "[1000,3,-1,6]",
+      "[1000,3,-1,100]",
+      "[1000,3,-1,110]",
+      "[1000,3,-1,110]"
+    ],
+    "script": {},
+    "skillId": 2716450,
+    "lv": 2,
+    "chargeTurn": 8,
+    "skillDetailId": 2716450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      283,
+      334,
+      215,
+      107,
+      116
+    ],
+    "svals": [
+      "[1000,3,2]",
+      "[1000,3,-1,7]",
+      "[1000,3,-1,100]",
+      "[1000,3,-1,120]",
+      "[1000,3,-1,120]"
+    ],
+    "script": {},
+    "skillId": 2716450,
+    "lv": 3,
+    "chargeTurn": 8,
+    "skillDetailId": 2716450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      283,
+      334,
+      215,
+      107,
+      116
+    ],
+    "svals": [
+      "[1000,3,2]",
+      "[1000,3,-1,8]",
+      "[1000,3,-1,100]",
+      "[1000,3,-1,130]",
+      "[1000,3,-1,130]"
+    ],
+    "script": {},
+    "skillId": 2716450,
+    "lv": 4,
+    "chargeTurn": 8,
+    "skillDetailId": 2716450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      283,
+      334,
+      215,
+      107,
+      116
+    ],
+    "svals": [
+      "[1000,3,2]",
+      "[1000,3,-1,9]",
+      "[1000,3,-1,100]",
+      "[1000,3,-1,140]",
+      "[1000,3,-1,140]"
+    ],
+    "script": {},
+    "skillId": 2716450,
+    "lv": 5,
+    "chargeTurn": 8,
+    "skillDetailId": 2716450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      283,
+      334,
+      215,
+      107,
+      116
+    ],
+    "svals": [
+      "[1000,3,2]",
+      "[1000,3,-1,10]",
+      "[1000,3,-1,100]",
+      "[1000,3,-1,150]",
+      "[1000,3,-1,150]"
+    ],
+    "script": {},
+    "skillId": 2716450,
+    "lv": 6,
+    "chargeTurn": 7,
+    "skillDetailId": 2716450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      283,
+      334,
+      215,
+      107,
+      116
+    ],
+    "svals": [
+      "[1000,3,2]",
+      "[1000,3,-1,11]",
+      "[1000,3,-1,100]",
+      "[1000,3,-1,160]",
+      "[1000,3,-1,160]"
+    ],
+    "script": {},
+    "skillId": 2716450,
+    "lv": 7,
+    "chargeTurn": 7,
+    "skillDetailId": 2716450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      283,
+      334,
+      215,
+      107,
+      116
+    ],
+    "svals": [
+      "[1000,3,2]",
+      "[1000,3,-1,12]",
+      "[1000,3,-1,100]",
+      "[1000,3,-1,170]",
+      "[1000,3,-1,170]"
+    ],
+    "script": {},
+    "skillId": 2716450,
+    "lv": 8,
+    "chargeTurn": 7,
+    "skillDetailId": 2716450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      283,
+      334,
+      215,
+      107,
+      116
+    ],
+    "svals": [
+      "[1000,3,2]",
+      "[1000,3,-1,13]",
+      "[1000,3,-1,100]",
+      "[1000,3,-1,180]",
+      "[1000,3,-1,180]"
+    ],
+    "script": {},
+    "skillId": 2716450,
+    "lv": 9,
+    "chargeTurn": 7,
+    "skillDetailId": 2716450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      283,
+      334,
+      215,
+      107,
+      116
+    ],
+    "svals": [
+      "[1000,3,2]",
+      "[1000,3,-1,15]",
+      "[1000,3,-1,100]",
+      "[1000,3,-1,200]",
+      "[1000,3,-1,200]"
+    ],
+    "script": {},
+    "skillId": 2716450,
+    "lv": 10,
+    "chargeTurn": 6,
+    "skillDetailId": 2716450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      101,
+      110,
+      200,
+      476,
+      215
+    ],
+    "svals": [
+      "[1000,3,-1,200]",
+      "[1000,3,-1,200]",
+      "[1000,3,-1,200]",
+      "[1000,10]",
+      "[1000,2,-1,200]"
+    ],
+    "script": {},
+    "skillId": 2717450,
+    "lv": 1,
+    "chargeTurn": 8,
+    "skillDetailId": 2717450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      101,
+      110,
+      200,
+      476,
+      215
+    ],
+    "svals": [
+      "[1000,3,-1,210]",
+      "[1000,3,-1,210]",
+      "[1000,3,-1,210]",
+      "[1000,11]",
+      "[1000,2,-1,200]"
+    ],
+    "script": {},
+    "skillId": 2717450,
+    "lv": 2,
+    "chargeTurn": 8,
+    "skillDetailId": 2717450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      101,
+      110,
+      200,
+      476,
+      215
+    ],
+    "svals": [
+      "[1000,3,-1,220]",
+      "[1000,3,-1,220]",
+      "[1000,3,-1,220]",
+      "[1000,12]",
+      "[1000,2,-1,200]"
+    ],
+    "script": {},
+    "skillId": 2717450,
+    "lv": 3,
+    "chargeTurn": 8,
+    "skillDetailId": 2717450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      101,
+      110,
+      200,
+      476,
+      215
+    ],
+    "svals": [
+      "[1000,3,-1,230]",
+      "[1000,3,-1,230]",
+      "[1000,3,-1,230]",
+      "[1000,13]",
+      "[1000,2,-1,200]"
+    ],
+    "script": {},
+    "skillId": 2717450,
+    "lv": 4,
+    "chargeTurn": 8,
+    "skillDetailId": 2717450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      101,
+      110,
+      200,
+      476,
+      215
+    ],
+    "svals": [
+      "[1000,3,-1,240]",
+      "[1000,3,-1,240]",
+      "[1000,3,-1,240]",
+      "[1000,14]",
+      "[1000,2,-1,200]"
+    ],
+    "script": {},
+    "skillId": 2717450,
+    "lv": 5,
+    "chargeTurn": 8,
+    "skillDetailId": 2717450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      101,
+      110,
+      200,
+      476,
+      215
+    ],
+    "svals": [
+      "[1000,3,-1,250]",
+      "[1000,3,-1,250]",
+      "[1000,3,-1,250]",
+      "[1000,15]",
+      "[1000,2,-1,200]"
+    ],
+    "script": {},
+    "skillId": 2717450,
+    "lv": 6,
+    "chargeTurn": 7,
+    "skillDetailId": 2717450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      101,
+      110,
+      200,
+      476,
+      215
+    ],
+    "svals": [
+      "[1000,3,-1,260]",
+      "[1000,3,-1,260]",
+      "[1000,3,-1,260]",
+      "[1000,16]",
+      "[1000,2,-1,200]"
+    ],
+    "script": {},
+    "skillId": 2717450,
+    "lv": 7,
+    "chargeTurn": 7,
+    "skillDetailId": 2717450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      101,
+      110,
+      200,
+      476,
+      215
+    ],
+    "svals": [
+      "[1000,3,-1,270]",
+      "[1000,3,-1,270]",
+      "[1000,3,-1,270]",
+      "[1000,17]",
+      "[1000,2,-1,200]"
+    ],
+    "script": {},
+    "skillId": 2717450,
+    "lv": 8,
+    "chargeTurn": 7,
+    "skillDetailId": 2717450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      101,
+      110,
+      200,
+      476,
+      215
+    ],
+    "svals": [
+      "[1000,3,-1,280]",
+      "[1000,3,-1,280]",
+      "[1000,3,-1,280]",
+      "[1000,18]",
+      "[1000,2,-1,200]"
+    ],
+    "script": {},
+    "skillId": 2717450,
+    "lv": 9,
+    "chargeTurn": 7,
+    "skillDetailId": 2717450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      101,
+      110,
+      200,
+      476,
+      215
+    ],
+    "svals": [
+      "[1000,3,-1,300]",
+      "[1000,3,-1,300]",
+      "[1000,3,-1,300]",
+      "[1000,20]",
+      "[1000,2,-1,200]"
+    ],
+    "script": {},
+    "skillId": 2717450,
+    "lv": 10,
+    "chargeTurn": 6,
+    "skillDetailId": 2717450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      248,
+      460,
+      470,
+      207,
+      476,
+      215
+    ],
+    "svals": [
+      "[1000,3,-1,200]",
+      "[1000,2000]",
+      "[1000,1]",
+      "[1000,3,-1,300]",
+      "[1000,10]",
+      "[1000,2,-1,200]"
+    ],
+    "script": {},
+    "skillId": 2718350,
+    "lv": 1,
+    "chargeTurn": 8,
+    "skillDetailId": 2718350,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      248,
+      460,
+      470,
+      207,
+      476,
+      215
+    ],
+    "svals": [
+      "[1000,3,-1,210]",
+      "[1000,2100]",
+      "[1000,1]",
+      "[1000,3,-1,320]",
+      "[1000,11]",
+      "[1000,2,-1,200]"
+    ],
+    "script": {},
+    "skillId": 2718350,
+    "lv": 2,
+    "chargeTurn": 8,
+    "skillDetailId": 2718350,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      248,
+      460,
+      470,
+      207,
+      476,
+      215
+    ],
+    "svals": [
+      "[1000,3,-1,220]",
+      "[1000,2200]",
+      "[1000,1]",
+      "[1000,3,-1,340]",
+      "[1000,12]",
+      "[1000,2,-1,200]"
+    ],
+    "script": {},
+    "skillId": 2718350,
+    "lv": 3,
+    "chargeTurn": 8,
+    "skillDetailId": 2718350,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      248,
+      460,
+      470,
+      207,
+      476,
+      215
+    ],
+    "svals": [
+      "[1000,3,-1,230]",
+      "[1000,2300]",
+      "[1000,1]",
+      "[1000,3,-1,360]",
+      "[1000,13]",
+      "[1000,2,-1,200]"
+    ],
+    "script": {},
+    "skillId": 2718350,
+    "lv": 4,
+    "chargeTurn": 8,
+    "skillDetailId": 2718350,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      248,
+      460,
+      470,
+      207,
+      476,
+      215
+    ],
+    "svals": [
+      "[1000,3,-1,240]",
+      "[1000,2400]",
+      "[1000,1]",
+      "[1000,3,-1,380]",
+      "[1000,14]",
+      "[1000,2,-1,200]"
+    ],
+    "script": {},
+    "skillId": 2718350,
+    "lv": 5,
+    "chargeTurn": 8,
+    "skillDetailId": 2718350,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      248,
+      460,
+      470,
+      207,
+      476,
+      215
+    ],
+    "svals": [
+      "[1000,3,-1,250]",
+      "[1000,2500]",
+      "[1000,1]",
+      "[1000,3,-1,400]",
+      "[1000,15]",
+      "[1000,2,-1,200]"
+    ],
+    "script": {},
+    "skillId": 2718350,
+    "lv": 6,
+    "chargeTurn": 7,
+    "skillDetailId": 2718350,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      248,
+      460,
+      470,
+      207,
+      476,
+      215
+    ],
+    "svals": [
+      "[1000,3,-1,260]",
+      "[1000,2600]",
+      "[1000,1]",
+      "[1000,3,-1,420]",
+      "[1000,16]",
+      "[1000,2,-1,200]"
+    ],
+    "script": {},
+    "skillId": 2718350,
+    "lv": 7,
+    "chargeTurn": 7,
+    "skillDetailId": 2718350,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      248,
+      460,
+      470,
+      207,
+      476,
+      215
+    ],
+    "svals": [
+      "[1000,3,-1,270]",
+      "[1000,2700]",
+      "[1000,1]",
+      "[1000,3,-1,440]",
+      "[1000,17]",
+      "[1000,2,-1,200]"
+    ],
+    "script": {},
+    "skillId": 2718350,
+    "lv": 8,
+    "chargeTurn": 7,
+    "skillDetailId": 2718350,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      248,
+      460,
+      470,
+      207,
+      476,
+      215
+    ],
+    "svals": [
+      "[1000,3,-1,280]",
+      "[1000,2800]",
+      "[1000,1]",
+      "[1000,3,-1,460]",
+      "[1000,18]",
+      "[1000,2,-1,200]"
+    ],
+    "script": {},
+    "skillId": 2718350,
+    "lv": 9,
+    "chargeTurn": 7,
+    "skillDetailId": 2718350,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      248,
+      460,
+      470,
+      207,
+      476,
+      215
+    ],
+    "svals": [
+      "[1000,3,-1,300]",
+      "[1000,3000]",
+      "[1000,1]",
+      "[1000,3,-1,500]",
+      "[1000,20]",
+      "[1000,2,-1,200]"
+    ],
+    "script": {},
+    "skillId": 2718350,
+    "lv": 10,
+    "chargeTurn": 6,
+    "skillDetailId": 2718350,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      118,
+      199
+    ],
+    "svals": [
+      "[1000,-1,-1,50]",
+      "[1000,-1,-1,50]"
+    ],
+    "script": {},
+    "skillId": 2719450,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 2719450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      2084
+    ],
+    "svals": [
+      "[1000,-1,-1,200]"
+    ],
+    "script": {},
+    "skillId": 2720650,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 2720650,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      247
+    ],
+    "svals": [
+      "[1000,-1,-1,100]"
+    ],
+    "script": {},
+    "skillId": 2721450,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 2721450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      110,
+      119,
+      248,
+      476,
+      215
+    ],
+    "svals": [
+      "[1000,3,-1,200]",
+      "[1000,3,-1,200]",
+      "[1000,3,-1,200]",
+      "[1000,10]",
+      "[1000,2,-1,200]"
+    ],
+    "script": {},
+    "skillId": 2722450,
+    "lv": 1,
+    "chargeTurn": 8,
+    "skillDetailId": 2722450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      110,
+      119,
+      248,
+      476,
+      215
+    ],
+    "svals": [
+      "[1000,3,-1,210]",
+      "[1000,3,-1,210]",
+      "[1000,3,-1,210]",
+      "[1000,11]",
+      "[1000,2,-1,200]"
+    ],
+    "script": {},
+    "skillId": 2722450,
+    "lv": 2,
+    "chargeTurn": 8,
+    "skillDetailId": 2722450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      110,
+      119,
+      248,
+      476,
+      215
+    ],
+    "svals": [
+      "[1000,3,-1,220]",
+      "[1000,3,-1,220]",
+      "[1000,3,-1,220]",
+      "[1000,12]",
+      "[1000,2,-1,200]"
+    ],
+    "script": {},
+    "skillId": 2722450,
+    "lv": 3,
+    "chargeTurn": 8,
+    "skillDetailId": 2722450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      110,
+      119,
+      248,
+      476,
+      215
+    ],
+    "svals": [
+      "[1000,3,-1,230]",
+      "[1000,3,-1,230]",
+      "[1000,3,-1,230]",
+      "[1000,13]",
+      "[1000,2,-1,200]"
+    ],
+    "script": {},
+    "skillId": 2722450,
+    "lv": 4,
+    "chargeTurn": 8,
+    "skillDetailId": 2722450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      110,
+      119,
+      248,
+      476,
+      215
+    ],
+    "svals": [
+      "[1000,3,-1,240]",
+      "[1000,3,-1,240]",
+      "[1000,3,-1,240]",
+      "[1000,14]",
+      "[1000,2,-1,200]"
+    ],
+    "script": {},
+    "skillId": 2722450,
+    "lv": 5,
+    "chargeTurn": 8,
+    "skillDetailId": 2722450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      110,
+      119,
+      248,
+      476,
+      215
+    ],
+    "svals": [
+      "[1000,3,-1,250]",
+      "[1000,3,-1,250]",
+      "[1000,3,-1,250]",
+      "[1000,15]",
+      "[1000,2,-1,200]"
+    ],
+    "script": {},
+    "skillId": 2722450,
+    "lv": 6,
+    "chargeTurn": 7,
+    "skillDetailId": 2722450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      110,
+      119,
+      248,
+      476,
+      215
+    ],
+    "svals": [
+      "[1000,3,-1,260]",
+      "[1000,3,-1,260]",
+      "[1000,3,-1,260]",
+      "[1000,16]",
+      "[1000,2,-1,200]"
+    ],
+    "script": {},
+    "skillId": 2722450,
+    "lv": 7,
+    "chargeTurn": 7,
+    "skillDetailId": 2722450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      110,
+      119,
+      248,
+      476,
+      215
+    ],
+    "svals": [
+      "[1000,3,-1,270]",
+      "[1000,3,-1,270]",
+      "[1000,3,-1,270]",
+      "[1000,17]",
+      "[1000,2,-1,200]"
+    ],
+    "script": {},
+    "skillId": 2722450,
+    "lv": 8,
+    "chargeTurn": 7,
+    "skillDetailId": 2722450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      110,
+      119,
+      248,
+      476,
+      215
+    ],
+    "svals": [
+      "[1000,3,-1,280]",
+      "[1000,3,-1,280]",
+      "[1000,3,-1,280]",
+      "[1000,18]",
+      "[1000,2,-1,200]"
+    ],
+    "script": {},
+    "skillId": 2722450,
+    "lv": 9,
+    "chargeTurn": 7,
+    "skillDetailId": 2722450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      110,
+      119,
+      248,
+      476,
+      215
+    ],
+    "svals": [
+      "[1000,3,-1,300]",
+      "[1000,3,-1,300]",
+      "[1000,3,-1,300]",
+      "[1000,20]",
+      "[1000,2,-1,200]"
+    ],
+    "script": {},
+    "skillId": 2722450,
+    "lv": 10,
+    "chargeTurn": 6,
+    "skillDetailId": 2722450,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      361,
+      779,
+      197,
+      466,
+      472
+    ],
+    "svals": [
+      "[1000,1,-1]",
+      "[1000,3,1]",
+      "[1000,3,-1,100]",
+      "[1000,1000]",
+      "[1000,1]"
+    ],
+    "script": {},
+    "skillId": 2723350,
+    "lv": 1,
+    "chargeTurn": 8,
+    "skillDetailId": 2723350,
+    "priority": 50
+  },
+  {
+    "funcId": [
+      361,
+      779,
+      197,
+      466,
+      472
+    ],
+    "svals": [
+      "[1000,1,-1]",
+      "[1000,3,1]",
+      "[1000,3,-1,110]",
+      "[1000,1100]",
+      "[1000,1]"
+    ],
+    "script": {},
+    "skillId": 2723350,
+    "lv": 2,
+    "chargeTurn": 8,
+    "skillDetailId": 2723350,
+    "priority": 50
+  },
+  {
+    "funcId": [
+      361,
+      779,
+      197,
+      466,
+      472
+    ],
+    "svals": [
+      "[1000,1,-1]",
+      "[1000,3,1]",
+      "[1000,3,-1,120]",
+      "[1000,1200]",
+      "[1000,1]"
+    ],
+    "script": {},
+    "skillId": 2723350,
+    "lv": 3,
+    "chargeTurn": 8,
+    "skillDetailId": 2723350,
+    "priority": 50
+  },
+  {
+    "funcId": [
+      361,
+      779,
+      197,
+      466,
+      472
+    ],
+    "svals": [
+      "[1000,1,-1]",
+      "[1000,3,1]",
+      "[1000,3,-1,130]",
+      "[1000,1300]",
+      "[1000,1]"
+    ],
+    "script": {},
+    "skillId": 2723350,
+    "lv": 4,
+    "chargeTurn": 8,
+    "skillDetailId": 2723350,
+    "priority": 50
+  },
+  {
+    "funcId": [
+      361,
+      779,
+      197,
+      466,
+      472
+    ],
+    "svals": [
+      "[1000,1,-1]",
+      "[1000,3,1]",
+      "[1000,3,-1,140]",
+      "[1000,1400]",
+      "[1000,1]"
+    ],
+    "script": {},
+    "skillId": 2723350,
+    "lv": 5,
+    "chargeTurn": 8,
+    "skillDetailId": 2723350,
+    "priority": 50
+  },
+  {
+    "funcId": [
+      361,
+      779,
+      197,
+      466,
+      472
+    ],
+    "svals": [
+      "[1000,1,-1]",
+      "[1000,3,1]",
+      "[1000,3,-1,150]",
+      "[1000,1500]",
+      "[1000,1]"
+    ],
+    "script": {},
+    "skillId": 2723350,
+    "lv": 6,
+    "chargeTurn": 7,
+    "skillDetailId": 2723350,
+    "priority": 50
+  },
+  {
+    "funcId": [
+      361,
+      779,
+      197,
+      466,
+      472
+    ],
+    "svals": [
+      "[1000,1,-1]",
+      "[1000,3,1]",
+      "[1000,3,-1,160]",
+      "[1000,1600]",
+      "[1000,1]"
+    ],
+    "script": {},
+    "skillId": 2723350,
+    "lv": 7,
+    "chargeTurn": 7,
+    "skillDetailId": 2723350,
+    "priority": 50
+  },
+  {
+    "funcId": [
+      361,
+      779,
+      197,
+      466,
+      472
+    ],
+    "svals": [
+      "[1000,1,-1]",
+      "[1000,3,1]",
+      "[1000,3,-1,170]",
+      "[1000,1700]",
+      "[1000,1]"
+    ],
+    "script": {},
+    "skillId": 2723350,
+    "lv": 8,
+    "chargeTurn": 7,
+    "skillDetailId": 2723350,
+    "priority": 50
+  },
+  {
+    "funcId": [
+      361,
+      779,
+      197,
+      466,
+      472
+    ],
+    "svals": [
+      "[1000,1,-1]",
+      "[1000,3,1]",
+      "[1000,3,-1,180]",
+      "[1000,1800]",
+      "[1000,1]"
+    ],
+    "script": {},
+    "skillId": 2723350,
+    "lv": 9,
+    "chargeTurn": 7,
+    "skillDetailId": 2723350,
+    "priority": 50
+  },
+  {
+    "funcId": [
+      361,
+      779,
+      197,
+      466,
+      472
+    ],
+    "svals": [
+      "[1000,1,-1]",
+      "[1000,3,1]",
+      "[1000,3,-1,200]",
+      "[1000,2000]",
+      "[1000,1]"
+    ],
+    "script": {},
+    "skillId": 2723350,
+    "lv": 10,
+    "chargeTurn": 6,
+    "skillDetailId": 2723350,
+    "priority": 50
+  },
+  {
+    "funcId": [
+      460,
+      470,
+      461,
+      470,
+      249,
+      9021,
+      152,
+      9021,
+      760,
+      9021,
+      254,
+      9021,
+      206,
+      9021,
+      629,
+      9021,
+      1630,
+      9021
+    ],
+    "svals": [
+      "[1000,3000]",
+      "[1000,1]",
+      "[1000,5000,ActSet:1,ActSetWeight:14]",
+      "[1000,1,ActSet:1]",
+      "[1000,3,1,500,ActSet:1]",
+      "[5000,ActSet:1,UseInFsmActSet:1]",
+      "[1000,3,-1,100,ActSet:2,ActSetWeight:14]",
+      "[5000,ActSet:2,UseInFsmActSet:2]",
+      "[1000,3,1,2,ActSet:3,ActSetWeight:14]",
+      "[5000,ActSet:3,UseInFsmActSet:3]",
+      "[1000,3,-1,100,ActSet:4,ActSetWeight:14]",
+      "[5000,ActSet:4,UseInFsmActSet:4]",
+      "[1000,3,-1,100,ActSet:5,ActSetWeight:14]",
+      "[5000,ActSet:5,UseInFsmActSet:5]",
+      "[1000,3,1,ActSet:6,ActSetWeight:14]",
+      "[5000,ActSet:6,UseInFsmActSet:6]",
+      "[5000,3,-1,200,ActSet:7,ActSetWeight:14]",
+      "[5000,ActSet:7,UseInFsmActSet:7]"
+    ],
+    "script": {},
+    "skillId": 2724350,
+    "lv": 1,
+    "chargeTurn": 8,
+    "skillDetailId": 2724350,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      460,
+      470,
+      461,
+      470,
+      249,
+      9021,
+      152,
+      9021,
+      760,
+      9021,
+      254,
+      9021,
+      206,
+      9021,
+      629,
+      9021,
+      1630,
+      9021
+    ],
+    "svals": [
+      "[1000,3200]",
+      "[1000,1]",
+      "[1000,5500,ActSet:1,ActSetWeight:14]",
+      "[1000,1,ActSet:1]",
+      "[1000,3,1,550,ActSet:1]",
+      "[5000,ActSet:1,UseInFsmActSet:1]",
+      "[1000,3,-1,110,ActSet:2,ActSetWeight:14]",
+      "[5000,ActSet:2,UseInFsmActSet:2]",
+      "[1000,3,1,2,ActSet:3,ActSetWeight:14]",
+      "[5000,ActSet:3,UseInFsmActSet:3]",
+      "[1000,3,-1,110,ActSet:4,ActSetWeight:14]",
+      "[5000,ActSet:4,UseInFsmActSet:4]",
+      "[1000,3,-1,110,ActSet:5,ActSetWeight:14]",
+      "[5000,ActSet:5,UseInFsmActSet:5]",
+      "[1000,3,1,ActSet:6,ActSetWeight:14]",
+      "[5000,ActSet:6,UseInFsmActSet:6]",
+      "[5000,3,-1,200,ActSet:7,ActSetWeight:14]",
+      "[5000,ActSet:7,UseInFsmActSet:7]"
+    ],
+    "script": {},
+    "skillId": 2724350,
+    "lv": 2,
+    "chargeTurn": 8,
+    "skillDetailId": 2724350,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      460,
+      470,
+      461,
+      470,
+      249,
+      9021,
+      152,
+      9021,
+      760,
+      9021,
+      254,
+      9021,
+      206,
+      9021,
+      629,
+      9021,
+      1630,
+      9021
+    ],
+    "svals": [
+      "[1000,3400]",
+      "[1000,1]",
+      "[1000,6000,ActSet:1,ActSetWeight:14]",
+      "[1000,1,ActSet:1]",
+      "[1000,3,1,600,ActSet:1]",
+      "[5000,ActSet:1,UseInFsmActSet:1]",
+      "[1000,3,-1,120,ActSet:2,ActSetWeight:14]",
+      "[5000,ActSet:2,UseInFsmActSet:2]",
+      "[1000,3,1,2,ActSet:3,ActSetWeight:14]",
+      "[5000,ActSet:3,UseInFsmActSet:3]",
+      "[1000,3,-1,120,ActSet:4,ActSetWeight:14]",
+      "[5000,ActSet:4,UseInFsmActSet:4]",
+      "[1000,3,-1,120,ActSet:5,ActSetWeight:14]",
+      "[5000,ActSet:5,UseInFsmActSet:5]",
+      "[1000,3,1,ActSet:6,ActSetWeight:14]",
+      "[5000,ActSet:6,UseInFsmActSet:6]",
+      "[5000,3,-1,200,ActSet:7,ActSetWeight:14]",
+      "[5000,ActSet:7,UseInFsmActSet:7]"
+    ],
+    "script": {},
+    "skillId": 2724350,
+    "lv": 3,
+    "chargeTurn": 8,
+    "skillDetailId": 2724350,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      460,
+      470,
+      461,
+      470,
+      249,
+      9021,
+      152,
+      9021,
+      760,
+      9021,
+      254,
+      9021,
+      206,
+      9021,
+      629,
+      9021,
+      1630,
+      9021
+    ],
+    "svals": [
+      "[1000,3600]",
+      "[1000,1]",
+      "[1000,6500,ActSet:1,ActSetWeight:14]",
+      "[1000,1,ActSet:1]",
+      "[1000,3,1,650,ActSet:1]",
+      "[5000,ActSet:1,UseInFsmActSet:1]",
+      "[1000,3,-1,130,ActSet:2,ActSetWeight:14]",
+      "[5000,ActSet:2,UseInFsmActSet:2]",
+      "[1000,3,1,2,ActSet:3,ActSetWeight:14]",
+      "[5000,ActSet:3,UseInFsmActSet:3]",
+      "[1000,3,-1,130,ActSet:4,ActSetWeight:14]",
+      "[5000,ActSet:4,UseInFsmActSet:4]",
+      "[1000,3,-1,130,ActSet:5,ActSetWeight:14]",
+      "[5000,ActSet:5,UseInFsmActSet:5]",
+      "[1000,3,1,ActSet:6,ActSetWeight:14]",
+      "[5000,ActSet:6,UseInFsmActSet:6]",
+      "[5000,3,-1,200,ActSet:7,ActSetWeight:14]",
+      "[5000,ActSet:7,UseInFsmActSet:7]"
+    ],
+    "script": {},
+    "skillId": 2724350,
+    "lv": 4,
+    "chargeTurn": 8,
+    "skillDetailId": 2724350,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      460,
+      470,
+      461,
+      470,
+      249,
+      9021,
+      152,
+      9021,
+      760,
+      9021,
+      254,
+      9021,
+      206,
+      9021,
+      629,
+      9021,
+      1630,
+      9021
+    ],
+    "svals": [
+      "[1000,3800]",
+      "[1000,1]",
+      "[1000,7000,ActSet:1,ActSetWeight:14]",
+      "[1000,1,ActSet:1]",
+      "[1000,3,1,700,ActSet:1]",
+      "[5000,ActSet:1,UseInFsmActSet:1]",
+      "[1000,3,-1,140,ActSet:2,ActSetWeight:14]",
+      "[5000,ActSet:2,UseInFsmActSet:2]",
+      "[1000,3,1,2,ActSet:3,ActSetWeight:14]",
+      "[5000,ActSet:3,UseInFsmActSet:3]",
+      "[1000,3,-1,140,ActSet:4,ActSetWeight:14]",
+      "[5000,ActSet:4,UseInFsmActSet:4]",
+      "[1000,3,-1,140,ActSet:5,ActSetWeight:14]",
+      "[5000,ActSet:5,UseInFsmActSet:5]",
+      "[1000,3,1,ActSet:6,ActSetWeight:14]",
+      "[5000,ActSet:6,UseInFsmActSet:6]",
+      "[5000,3,-1,200,ActSet:7,ActSetWeight:14]",
+      "[5000,ActSet:7,UseInFsmActSet:7]"
+    ],
+    "script": {},
+    "skillId": 2724350,
+    "lv": 5,
+    "chargeTurn": 8,
+    "skillDetailId": 2724350,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      460,
+      470,
+      461,
+      470,
+      249,
+      9021,
+      152,
+      9021,
+      760,
+      9021,
+      254,
+      9021,
+      206,
+      9021,
+      629,
+      9021,
+      1630,
+      9021
+    ],
+    "svals": [
+      "[1000,4000]",
+      "[1000,1]",
+      "[1000,7500,ActSet:1,ActSetWeight:14]",
+      "[1000,1,ActSet:1]",
+      "[1000,3,1,750,ActSet:1]",
+      "[5000,ActSet:1,UseInFsmActSet:1]",
+      "[1000,3,-1,150,ActSet:2,ActSetWeight:14]",
+      "[5000,ActSet:2,UseInFsmActSet:2]",
+      "[1000,3,1,2,ActSet:3,ActSetWeight:14]",
+      "[5000,ActSet:3,UseInFsmActSet:3]",
+      "[1000,3,-1,150,ActSet:4,ActSetWeight:14]",
+      "[5000,ActSet:4,UseInFsmActSet:4]",
+      "[1000,3,-1,150,ActSet:5,ActSetWeight:14]",
+      "[5000,ActSet:5,UseInFsmActSet:5]",
+      "[1000,3,1,ActSet:6,ActSetWeight:14]",
+      "[5000,ActSet:6,UseInFsmActSet:6]",
+      "[5000,3,-1,200,ActSet:7,ActSetWeight:14]",
+      "[5000,ActSet:7,UseInFsmActSet:7]"
+    ],
+    "script": {},
+    "skillId": 2724350,
+    "lv": 6,
+    "chargeTurn": 7,
+    "skillDetailId": 2724350,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      460,
+      470,
+      461,
+      470,
+      249,
+      9021,
+      152,
+      9021,
+      760,
+      9021,
+      254,
+      9021,
+      206,
+      9021,
+      629,
+      9021,
+      1630,
+      9021
+    ],
+    "svals": [
+      "[1000,4200]",
+      "[1000,1]",
+      "[1000,8000,ActSet:1,ActSetWeight:14]",
+      "[1000,1,ActSet:1]",
+      "[1000,3,1,800,ActSet:1]",
+      "[5000,ActSet:1,UseInFsmActSet:1]",
+      "[1000,3,-1,160,ActSet:2,ActSetWeight:14]",
+      "[5000,ActSet:2,UseInFsmActSet:2]",
+      "[1000,3,1,2,ActSet:3,ActSetWeight:14]",
+      "[5000,ActSet:3,UseInFsmActSet:3]",
+      "[1000,3,-1,160,ActSet:4,ActSetWeight:14]",
+      "[5000,ActSet:4,UseInFsmActSet:4]",
+      "[1000,3,-1,160,ActSet:5,ActSetWeight:14]",
+      "[5000,ActSet:5,UseInFsmActSet:5]",
+      "[1000,3,1,ActSet:6,ActSetWeight:14]",
+      "[5000,ActSet:6,UseInFsmActSet:6]",
+      "[5000,3,-1,200,ActSet:7,ActSetWeight:14]",
+      "[5000,ActSet:7,UseInFsmActSet:7]"
+    ],
+    "script": {},
+    "skillId": 2724350,
+    "lv": 7,
+    "chargeTurn": 7,
+    "skillDetailId": 2724350,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      460,
+      470,
+      461,
+      470,
+      249,
+      9021,
+      152,
+      9021,
+      760,
+      9021,
+      254,
+      9021,
+      206,
+      9021,
+      629,
+      9021,
+      1630,
+      9021
+    ],
+    "svals": [
+      "[1000,4400]",
+      "[1000,1]",
+      "[1000,8500,ActSet:1,ActSetWeight:14]",
+      "[1000,1,ActSet:1]",
+      "[1000,3,1,850,ActSet:1]",
+      "[5000,ActSet:1,UseInFsmActSet:1]",
+      "[1000,3,-1,170,ActSet:2,ActSetWeight:14]",
+      "[5000,ActSet:2,UseInFsmActSet:2]",
+      "[1000,3,1,2,ActSet:3,ActSetWeight:14]",
+      "[5000,ActSet:3,UseInFsmActSet:3]",
+      "[1000,3,-1,170,ActSet:4,ActSetWeight:14]",
+      "[5000,ActSet:4,UseInFsmActSet:4]",
+      "[1000,3,-1,170,ActSet:5,ActSetWeight:14]",
+      "[5000,ActSet:5,UseInFsmActSet:5]",
+      "[1000,3,1,ActSet:6,ActSetWeight:14]",
+      "[5000,ActSet:6,UseInFsmActSet:6]",
+      "[5000,3,-1,200,ActSet:7,ActSetWeight:14]",
+      "[5000,ActSet:7,UseInFsmActSet:7]"
+    ],
+    "script": {},
+    "skillId": 2724350,
+    "lv": 8,
+    "chargeTurn": 7,
+    "skillDetailId": 2724350,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      460,
+      470,
+      461,
+      470,
+      249,
+      9021,
+      152,
+      9021,
+      760,
+      9021,
+      254,
+      9021,
+      206,
+      9021,
+      629,
+      9021,
+      1630,
+      9021
+    ],
+    "svals": [
+      "[1000,4600]",
+      "[1000,1]",
+      "[1000,9000,ActSet:1,ActSetWeight:14]",
+      "[1000,1,ActSet:1]",
+      "[1000,3,1,900,ActSet:1]",
+      "[5000,ActSet:1,UseInFsmActSet:1]",
+      "[1000,3,-1,180,ActSet:2,ActSetWeight:14]",
+      "[5000,ActSet:2,UseInFsmActSet:2]",
+      "[1000,3,1,2,ActSet:3,ActSetWeight:14]",
+      "[5000,ActSet:3,UseInFsmActSet:3]",
+      "[1000,3,-1,180,ActSet:4,ActSetWeight:14]",
+      "[5000,ActSet:4,UseInFsmActSet:4]",
+      "[1000,3,-1,180,ActSet:5,ActSetWeight:14]",
+      "[5000,ActSet:5,UseInFsmActSet:5]",
+      "[1000,3,1,ActSet:6,ActSetWeight:14]",
+      "[5000,ActSet:6,UseInFsmActSet:6]",
+      "[5000,3,-1,200,ActSet:7,ActSetWeight:14]",
+      "[5000,ActSet:7,UseInFsmActSet:7]"
+    ],
+    "script": {},
+    "skillId": 2724350,
+    "lv": 9,
+    "chargeTurn": 7,
+    "skillDetailId": 2724350,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      460,
+      470,
+      461,
+      470,
+      249,
+      9021,
+      152,
+      9021,
+      760,
+      9021,
+      254,
+      9021,
+      206,
+      9021,
+      629,
+      9021,
+      1630,
+      9021
+    ],
+    "svals": [
+      "[1000,5000]",
+      "[1000,1]",
+      "[1000,10000,ActSet:1,ActSetWeight:14]",
+      "[1000,1,ActSet:1]",
+      "[1000,3,1,1000,ActSet:1]",
+      "[5000,ActSet:1,UseInFsmActSet:1]",
+      "[1000,3,-1,200,ActSet:2,ActSetWeight:14]",
+      "[5000,ActSet:2,UseInFsmActSet:2]",
+      "[1000,3,1,2,ActSet:3,ActSetWeight:14]",
+      "[5000,ActSet:3,UseInFsmActSet:3]",
+      "[1000,3,-1,200,ActSet:4,ActSetWeight:14]",
+      "[5000,ActSet:4,UseInFsmActSet:4]",
+      "[1000,3,-1,200,ActSet:5,ActSetWeight:14]",
+      "[5000,ActSet:5,UseInFsmActSet:5]",
+      "[1000,3,1,ActSet:6,ActSetWeight:14]",
+      "[5000,ActSet:6,UseInFsmActSet:6]",
+      "[5000,3,-1,200,ActSet:7,ActSetWeight:14]",
+      "[5000,ActSet:7,UseInFsmActSet:7]"
+    ],
+    "script": {},
+    "skillId": 2724350,
+    "lv": 10,
+    "chargeTurn": 6,
+    "skillDetailId": 2724350,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      627
+    ],
+    "svals": [
+      "[1000,-1,1]"
+    ],
+    "script": {},
+    "skillId": 2730650,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 2730650,
+    "priority": 1000
+  },
+  {
+    "funcId": [
+      199,
+      295,
+      214
+    ],
+    "svals": [
+      "[1000,-1,-1,50]",
+      "[1000,-1,-1,50]",
+      "[1000,-1,-1,100]"
+    ],
+    "script": {},
+    "skillId": 2731350,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 2731350,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      100,
+      247
+    ],
+    "svals": [
+      "[1000,-1,-1,50]",
+      "[1000,-1,-1,50]"
+    ],
+    "script": {},
+    "skillId": 2732450,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 2732450,
+    "priority": 0
+  },
+  {
+    "funcId": [
       30003
     ],
     "svals": [
@@ -688985,9 +691995,9 @@
       "[5000,ShowState:-1]"
     ],
     "script": {
+      "additionalSkillLv": 1,
       "additionalSkillActorType": 1,
-      "additionalSkillId": 94080023,
-      "additionalSkillLv": 1
+      "additionalSkillId": 94080023
     },
     "skillId": 94080046,
     "lv": 1,
@@ -689003,9 +692013,9 @@
       "[5000,ShowState:-1]"
     ],
     "script": {
+      "additionalSkillLv": 1,
       "additionalSkillActorType": 1,
-      "additionalSkillId": 94080025,
-      "additionalSkillLv": 1
+      "additionalSkillId": 94080025
     },
     "skillId": 94080047,
     "lv": 1,
@@ -690723,8 +693733,8 @@
       "[5000,0,1]"
     ],
     "script": {
-      "additionalSkillActorType": 1,
-      "additionalSkillId": 94081462
+      "additionalSkillId": 94081462,
+      "additionalSkillActorType": 1
     },
     "skillId": 94081439,
     "lv": 1,
@@ -690746,8 +693756,8 @@
       "[5000,0,1]"
     ],
     "script": {
-      "additionalSkillActorType": 1,
-      "additionalSkillId": 94081463
+      "additionalSkillId": 94081463,
+      "additionalSkillActorType": 1
     },
     "skillId": 94081440,
     "lv": 1,
@@ -690769,8 +693779,8 @@
       "[5000,0,1]"
     ],
     "script": {
-      "additionalSkillActorType": 1,
-      "additionalSkillId": 94081463
+      "additionalSkillId": 94081463,
+      "additionalSkillActorType": 1
     },
     "skillId": 94081441,
     "lv": 1,
@@ -690792,8 +693802,8 @@
       "[5000,0,1]"
     ],
     "script": {
-      "additionalSkillActorType": 1,
-      "additionalSkillId": 94081463
+      "additionalSkillId": 94081463,
+      "additionalSkillActorType": 1
     },
     "skillId": 94081442,
     "lv": 1,
@@ -690815,8 +693825,8 @@
       "[5000,0,1]"
     ],
     "script": {
-      "additionalSkillActorType": 1,
-      "additionalSkillId": 94081464
+      "additionalSkillId": 94081464,
+      "additionalSkillActorType": 1
     },
     "skillId": 94081443,
     "lv": 1,
@@ -690838,8 +693848,8 @@
       "[5000,0,1]"
     ],
     "script": {
-      "additionalSkillActorType": 1,
-      "additionalSkillId": 94081462
+      "additionalSkillId": 94081462,
+      "additionalSkillActorType": 1
     },
     "skillId": 94081444,
     "lv": 1,
@@ -690861,8 +693871,8 @@
       "[5000,0,1]"
     ],
     "script": {
-      "additionalSkillActorType": 1,
-      "additionalSkillId": 94081462
+      "additionalSkillId": 94081462,
+      "additionalSkillActorType": 1
     },
     "skillId": 94081445,
     "lv": 1,
@@ -691754,8 +694764,8 @@
       "[5000,0,1]"
     ],
     "script": {
-      "additionalSkillActorType": 1,
-      "additionalSkillId": 94081464
+      "additionalSkillId": 94081464,
+      "additionalSkillActorType": 1
     },
     "skillId": 94081497,
     "lv": 1,
@@ -692975,8 +695985,8 @@
       "[5000,-1,-1,ShowState:-1,ForceAddState:1,HideMiss:1,HideNoEffect:1]"
     ],
     "script": {
-      "additionalSkillLv": 1,
-      "additionalSkillId": 94082028
+      "additionalSkillId": 94082028,
+      "additionalSkillLv": 1
     },
     "skillId": 94082024,
     "lv": 1,
@@ -701500,9 +704510,9 @@
       "[1000,1,EffectSummon:1,CheckEnemyFieldSpace:1,ActSet:2,ActSetWeight:50]"
     ],
     "script": {
+      "additionalSkillLv": 1,
       "additionalSkillActorType": 1,
-      "additionalSkillId": 94083450,
-      "additionalSkillLv": 1
+      "additionalSkillId": 94083450
     },
     "skillId": 94083449,
     "lv": 1,
@@ -701538,9 +704548,9 @@
       "[1000,0,EffectSummon:1,CheckEnemyFieldSpace:1,ActSet:2,ActSetWeight:50]"
     ],
     "script": {
+      "additionalSkillLv": 1,
       "additionalSkillActorType": 1,
-      "additionalSkillId": 94083452,
-      "additionalSkillLv": 1
+      "additionalSkillId": 94083452
     },
     "skillId": 94083451,
     "lv": 1,
@@ -704940,8 +707950,8 @@
       "[5000]"
     ],
     "script": {
-      "additionalSkillActorType": 1,
-      "additionalSkillId": 94083866
+      "additionalSkillId": 94083866,
+      "additionalSkillActorType": 1
     },
     "skillId": 94083865,
     "lv": 1,
@@ -705077,8 +708087,8 @@
       "[5000,ShowState:-1,ForceSubState:1,HideMiss:1,HideNoEffect:1,CheckDead:1]"
     ],
     "script": {
-      "additionalSkillActorType": 1,
-      "additionalSkillId": 94084302
+      "additionalSkillId": 94084302,
+      "additionalSkillActorType": 1
     },
     "skillId": 94084301,
     "lv": 1,
@@ -713642,8 +716652,8 @@
       "[1000,-1,-1,6021,ProcPassive:1,ShowState:-1,ForceAddState:1]"
     ],
     "script": {
-      "additionalSkillLv": 1,
-      "additionalSkillId": 94087605
+      "additionalSkillId": 94087605,
+      "additionalSkillLv": 1
     },
     "skillId": 94087604,
     "lv": 1,
@@ -713659,9 +716669,9 @@
       "[1000]"
     ],
     "script": {
+      "additionalSkillLv": 1,
       "additionalSkillActorType": 1,
-      "additionalSkillId": 94087606,
-      "additionalSkillLv": 1
+      "additionalSkillId": 94087606
     },
     "skillId": 94087605,
     "lv": 1,
@@ -719449,8 +722459,8 @@
       "[1000,ForceSubState:1,HideMiss:1,HideNoEffect:1,CheckDead:1]"
     ],
     "script": {
-      "additionalSkillActorType": 1,
-      "additionalSkillId": 94088833
+      "additionalSkillId": 94088833,
+      "additionalSkillActorType": 1
     },
     "skillId": 94088883,
     "lv": 1,
@@ -729676,8 +732686,8 @@
       "[1000,-1,-1,500,SetPassiveFrame:1,UnSubState:1,ForceAddState:1]"
     ],
     "script": {
-      "additionalSkillLv": 1,
-      "additionalSkillId": 94093217
+      "additionalSkillId": 94093217,
+      "additionalSkillLv": 1
     },
     "skillId": 94093201,
     "lv": 1,
@@ -729737,9 +732747,9 @@
       "[1000,-1,-1,9999,ShowState:-1,UnSubState:1,ForceAddState:1]"
     ],
     "script": {
+      "additionalSkillLv": 1,
       "additionalSkillActorType": 1,
-      "additionalSkillId": 94093213,
-      "additionalSkillLv": 1
+      "additionalSkillId": 94093213
     },
     "skillId": 94093205,
     "lv": 1,
@@ -729787,8 +732797,8 @@
       "[1000,-1,-1,1000,SetPassiveFrame:1,UnSubState:1,ForceAddState:1]"
     ],
     "script": {
-      "additionalSkillLv": 1,
-      "additionalSkillId": 94093218
+      "additionalSkillId": 94093218,
+      "additionalSkillLv": 1
     },
     "skillId": 94093208,
     "lv": 1,
@@ -729920,8 +732930,8 @@
       "[1000,-1,-1,1000,SetPassiveFrame:1,UnSubState:1,ForceAddState:1]"
     ],
     "script": {
-      "additionalSkillLv": 1,
-      "additionalSkillId": 94093219
+      "additionalSkillId": 94093219,
+      "additionalSkillLv": 1
     },
     "skillId": 94093215,
     "lv": 1,
@@ -729941,8 +732951,8 @@
       "[1000,-1,-1,1000,SetPassiveFrame:1,UnSubState:1,ForceAddState:1]"
     ],
     "script": {
-      "additionalSkillLv": 1,
-      "additionalSkillId": 94093220
+      "additionalSkillId": 94093220,
+      "additionalSkillLv": 1
     },
     "skillId": 94093216,
     "lv": 1,
@@ -732828,8 +735838,8 @@
       "[5000,1,-1,9999,ShowState:-1,UnSubState:1,ForceAddState:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94094838
+      "additionalSkillId": 94094838,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94094837,
     "lv": 1,
@@ -733663,8 +736673,8 @@
       "[5000,1,-1,0,ShowState:-1,HideMiss:1,HideNoEffect:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94094890
+      "additionalSkillId": 94094890,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94094889,
     "lv": 1,
@@ -733680,8 +736690,8 @@
       "[5000,1,-1,9999,ShowState:-1,HideMiss:1,HideNoEffect:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94095027
+      "additionalSkillId": 94095027,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94094890,
     "lv": 1,
@@ -733725,8 +736735,8 @@
       "[5000,-1,-1,9999,ShowState:-1,UnSubState:1,ForceAddState:1,HideMiss:1,HideNoEffect:1]"
     ],
     "script": {
-      "additionalSkillActorType": 1,
-      "additionalSkillId": 94095009
+      "additionalSkillId": 94095009,
+      "additionalSkillActorType": 1
     },
     "skillId": 94094893,
     "lv": 1,
@@ -735472,8 +738482,8 @@
       "[5000,1,-1,9999,ShowState:-1,HideMiss:1,HideNoEffect:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94095002
+      "additionalSkillId": 94095002,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94095001,
     "lv": 1,
@@ -735503,8 +738513,8 @@
       "[5000,1,-1,9999,ShowState:-1,HideMiss:1,HideNoEffect:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94095004
+      "additionalSkillId": 94095004,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94095003,
     "lv": 1,
@@ -738092,9 +741102,9 @@
       "[1000,5,-1,9999,ShowState:-1,UnSubState:1,ForceAddState:1]"
     ],
     "script": {
+      "additionalSkillLv": 1,
       "additionalSkillActorType": 1,
-      "additionalSkillId": 94095671,
-      "additionalSkillLv": 1
+      "additionalSkillId": 94095671
     },
     "skillId": 94095673,
     "lv": 1,
@@ -738110,9 +741120,9 @@
       "[1000,5,-1,9999,ShowState:-1,UnSubState:1,ForceAddState:1]"
     ],
     "script": {
+      "additionalSkillLv": 1,
       "additionalSkillActorType": 1,
-      "additionalSkillId": 94095671,
-      "additionalSkillLv": 1
+      "additionalSkillId": 94095671
     },
     "skillId": 94095674,
     "lv": 1,
@@ -738128,9 +741138,9 @@
       "[5000,ForceSubState:1,HideNoEffect:1,HideMiss:1]"
     ],
     "script": {
+      "additionalSkillLv": 1,
       "additionalSkillActorType": 1,
-      "additionalSkillId": 94095671,
-      "additionalSkillLv": 1
+      "additionalSkillId": 94095671
     },
     "skillId": 94095675,
     "lv": 1,
@@ -741638,8 +744648,8 @@
       "[5000,5]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94098746
+      "additionalSkillId": 94098746,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94098729,
     "lv": 1,
@@ -741769,8 +744779,8 @@
       "[5000]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94098737
+      "additionalSkillId": 94098737,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94098736,
     "lv": 1,
@@ -741860,8 +744870,8 @@
       "[5000]"
     ],
     "script": {
-      "additionalSkillActorType": 1,
       "additionalSkillLv": 1,
+      "additionalSkillActorType": 1,
       "additionalSkillId": 94098739,
       "additionalSkillInsertCurrentSkillAfter": 1
     },
@@ -741953,8 +744963,8 @@
       "[5000]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94098741
+      "additionalSkillId": 94098741,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94098740,
     "lv": 1,
@@ -742044,8 +745054,8 @@
       "[5000]"
     ],
     "script": {
-      "additionalSkillActorType": 1,
       "additionalSkillLv": 1,
+      "additionalSkillActorType": 1,
       "additionalSkillId": 94098743,
       "additionalSkillInsertCurrentSkillAfter": 1
     },
@@ -742183,8 +745193,8 @@
       "[5000,ShowState:-1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94098765
+      "additionalSkillId": 94098765,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94098746,
     "lv": 1,
@@ -745992,8 +749002,8 @@
       "[1000]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94099755
+      "additionalSkillId": 94099755,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94099667,
     "lv": 1,
@@ -748649,8 +751659,8 @@
       "[5000,1000]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94100824
+      "additionalSkillId": 94100824,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94100751,
     "lv": 1,
@@ -749030,8 +752040,8 @@
       "[5000,-1,-1,9999,ShowState:-1,UnSubState:1,ForceAddState:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94100775
+      "additionalSkillId": 94100775,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94100774,
     "lv": 1,
@@ -749069,8 +752079,8 @@
       "[5000,-1,-1,9999,ShowState:-1,UnSubState:1,ForceAddState:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94100777
+      "additionalSkillId": 94100777,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94100776,
     "lv": 1,
@@ -749970,8 +752980,8 @@
       "[1000]"
     ],
     "script": {
-      "additionalSkillActorType": 1,
       "additionalSkillLv": 1,
+      "additionalSkillActorType": 1,
       "additionalSkillId": 94101345,
       "additionalSkillInsertCurrentSkillAfter": 1
     },
@@ -749989,8 +752999,8 @@
       "[1000]"
     ],
     "script": {
-      "additionalSkillActorType": 1,
       "additionalSkillLv": 1,
+      "additionalSkillActorType": 1,
       "additionalSkillId": 94101346,
       "additionalSkillInsertCurrentSkillAfter": 1
     },
@@ -750198,8 +753208,8 @@
       "[1000,-1,-1,9999,OnField:1,ShowState:-1,ForceAddState:1,UnSubState:1,HideNoEffect:1,HideMiss:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94101222
+      "additionalSkillId": 94101222,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94101221,
     "lv": 1,
@@ -750499,8 +753509,8 @@
       "[1000,-1,-1,9999,OnField:1,ShowState:-1,ForceAddState:1,UnSubState:1,HideNoEffect:1,HideMiss:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94101241
+      "additionalSkillId": 94101241,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94101240,
     "lv": 1,
@@ -750584,8 +753594,8 @@
       "[5000]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94101246
+      "additionalSkillId": 94101246,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94101245,
     "lv": 1,
@@ -750601,8 +753611,8 @@
       "[5000]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94101247
+      "additionalSkillId": 94101247,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94101246,
     "lv": 1,
@@ -750618,8 +753628,8 @@
       "[5000]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94101248
+      "additionalSkillId": 94101248,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94101247,
     "lv": 1,
@@ -750639,8 +753649,8 @@
       "[1000,-1,-1,500,SetPassiveFrame:1,ForceAddState:1,UnSubState:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94101249
+      "additionalSkillId": 94101249,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94101248,
     "lv": 1,
@@ -750858,8 +753868,8 @@
       "[5000]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94101336
+      "additionalSkillId": 94101336,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94101261,
     "lv": 1,
@@ -750875,8 +753885,8 @@
       "[5000]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94101337
+      "additionalSkillId": 94101337,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94101262,
     "lv": 1,
@@ -750892,8 +753902,8 @@
       "[5000]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94101338
+      "additionalSkillId": 94101338,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94101263,
     "lv": 1,
@@ -750909,8 +753919,8 @@
       "[5000]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94101339
+      "additionalSkillId": 94101339,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94101264,
     "lv": 1,
@@ -750926,8 +753936,8 @@
       "[5000]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94101340
+      "additionalSkillId": 94101340,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94101265,
     "lv": 1,
@@ -750943,8 +753953,8 @@
       "[5000]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94101341
+      "additionalSkillId": 94101341,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94101266,
     "lv": 1,
@@ -751286,8 +754296,8 @@
       "[5000,1,ShiftNpcId:94101408]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94101289
+      "additionalSkillId": 94101289,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94101288,
     "lv": 1,
@@ -751623,8 +754633,8 @@
       "[5000,SetPassiveFrame:1,ForceAddState:1,UnSubState:1,HideMiss:1,HideNoEffect:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94101308
+      "additionalSkillId": 94101308,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94101307,
     "lv": 1,
@@ -751672,8 +754682,8 @@
       "[5000,SetPassiveFrame:1,ForceAddState:1,UnSubState:1,HideMiss:1,HideNoEffect:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94101308
+      "additionalSkillId": 94101308,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94101309,
     "lv": 1,
@@ -752489,8 +755499,8 @@
       "[1000,-1,-1,9999,TriggeredFuncPosition:1,DisplayLastFuncInvalidType:1,ShowState:-1,ForceAddState:1,UnSubState:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94101362
+      "additionalSkillId": 94101362,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94101361,
     "lv": 1,
@@ -752548,8 +755558,8 @@
       "[1000,-1,-1,9999,TriggeredFuncPosition:1,DisplayLastFuncInvalidType:1,ShowState:-1,ForceAddState:1,UnSubState:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94101365
+      "additionalSkillId": 94101365,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94101364,
     "lv": 1,
@@ -752983,8 +755993,8 @@
       "[5000,-1,-1,94101615,Value2:1,ShowState:1,SetPassiveFrame:1,UnSubState:1,ForceAddState:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94101613
+      "additionalSkillId": 94101613,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94101612,
     "lv": 1,
@@ -753000,8 +756010,8 @@
       "[5000,117000,0,Priority:200]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94101663
+      "additionalSkillId": 94101663,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94101613,
     "lv": 1,
@@ -753083,8 +756093,8 @@
       "[5000,-1,-1,9999,ShowState:-1,CheckDead:1,UnSubState:1,ForceAddState:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94101619
+      "additionalSkillId": 94101619,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94101618,
     "lv": 1,
@@ -754304,8 +757314,8 @@
       "[5000,3,-1,500,ActSet:3,ShowState:1,SetPassiveFrame:1,UnSubState:1,ForceAddState:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94136126
+      "additionalSkillId": 94136126,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94136122,
     "lv": 1,
@@ -754331,8 +757341,8 @@
       "[5000,3,-1,500,ActSet:3,ShowState:1,SetPassiveFrame:1,UnSubState:1,ForceAddState:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94136129
+      "additionalSkillId": 94136129,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94136123,
     "lv": 1,
@@ -754358,8 +757368,8 @@
       "[5000,3,-1,500,ActSet:3,ShowState:1,SetPassiveFrame:1,UnSubState:1,ForceAddState:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94136131
+      "additionalSkillId": 94136131,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94136124,
     "lv": 1,
@@ -754385,8 +757395,8 @@
       "[5000,3,-1,500,ActSet:3,ShowState:1,SetPassiveFrame:1,UnSubState:1,ForceAddState:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94136133
+      "additionalSkillId": 94136133,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94136125,
     "lv": 1,
@@ -754646,8 +757656,8 @@
       "[5000,5,HideMiss:1,HideNoEffect:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94136142
+      "additionalSkillId": 94136142,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94136141,
     "lv": 1,
@@ -754733,8 +757743,8 @@
       "[5000,-1,1,1000,ShowState:1,SetPassiveFrame:1,UnSubState:1,ForceAddState:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94136149
+      "additionalSkillId": 94136149,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94136146,
     "lv": 1,
@@ -754812,8 +757822,8 @@
       "[5000,-1,-1,ShowState:1,SetPassiveFrame:1,UnSubState:1,ForceAddState:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94136153
+      "additionalSkillId": 94136153,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94136150,
     "lv": 1,
@@ -754901,8 +757911,8 @@
       "[5000,3,ChargeHpMaxBeforeBreakGaugeUp:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94136156
+      "additionalSkillId": 94136156,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94136155,
     "lv": 1,
@@ -754924,8 +757934,8 @@
       "[5000]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94137622
+      "additionalSkillId": 94137622,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94136156,
     "lv": 1,
@@ -755067,8 +758077,8 @@
       "[1000]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94136166
+      "additionalSkillId": 94136166,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94136165,
     "lv": 1,
@@ -755474,8 +758484,8 @@
       "[5000,1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94137640
+      "additionalSkillId": 94137640,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94136190,
     "lv": 1,
@@ -759245,8 +762255,8 @@
       "[1000,1,ShiftNpcId:94137131]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94136858
+      "additionalSkillId": 94136858,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94136828,
     "lv": 1,
@@ -759326,8 +762336,8 @@
       "[1000,1,ShiftNpcId:94137139]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94136859
+      "additionalSkillId": 94136859,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94136833,
     "lv": 1,
@@ -759557,8 +762567,8 @@
       "[5000,0,CheckEnemyFieldSpace:1,EffectSummon:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94136848
+      "additionalSkillId": 94136848,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94136847,
     "lv": 1,
@@ -759586,8 +762596,8 @@
       "[5000,2,HideNoEffect:1,HideMiss:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94136849
+      "additionalSkillId": 94136849,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94136848,
     "lv": 1,
@@ -760045,8 +763055,8 @@
       "[5000,-1,-1,9999,ShowState:-1,UnSubState:1,ForceAddState:1,AddIndividualty:6034,ProcPassive:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94137518
+      "additionalSkillId": 94137518,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94137517,
     "lv": 1,
@@ -760162,8 +763172,8 @@
       "[5000,-1,-1,9999,ShowState:-1,UnSubState:1,ForceAddState:1,AddIndividualty:6039]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94137527
+      "additionalSkillId": 94137527,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94137524,
     "lv": 1,
@@ -760179,8 +763189,8 @@
       "[5000,-1,-1,9999,ShowState:-1,UnSubState:1,ForceAddState:1,AddIndividualty:6040]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94137528
+      "additionalSkillId": 94137528,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94137525,
     "lv": 1,
@@ -760196,8 +763206,8 @@
       "[5000,-1,-1,9999,ShowState:-1,UnSubState:1,ForceAddState:1,AddIndividualty:6041]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94137529
+      "additionalSkillId": 94137529,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94137526,
     "lv": 1,
@@ -760265,8 +763275,8 @@
       "[5000,-1,-1,9999,ShowState:-1,UnSubState:1,ForceAddState:1,AddIndividualty:6036]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94137524
+      "additionalSkillId": 94137524,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94137530,
     "lv": 1,
@@ -760292,8 +763302,8 @@
       "[5000,-1,-1,9999,ShowState:-1,UnSubState:1,ForceAddState:1,AddIndividualty:6036]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94137524
+      "additionalSkillId": 94137524,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94137531,
     "lv": 1,
@@ -760317,8 +763327,8 @@
       "[5000,-1,-1,9999,ShowState:-1,UnSubState:1,ForceAddState:1,AddIndividualty:6036]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94137524
+      "additionalSkillId": 94137524,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94137532,
     "lv": 1,
@@ -760494,9 +763504,9 @@
       "[5000,5]"
     ],
     "script": {
-      "VoiceAssetName": "Servants_2300700",
       "PlayVoiceNo": "0_B2090",
-      "PlayVoiceWait": 1
+      "PlayVoiceWait": 1,
+      "VoiceAssetName": "Servants_2300700"
     },
     "skillId": 94137544,
     "lv": 1,
@@ -760556,9 +763566,9 @@
       "[5000,5]"
     ],
     "script": {
-      "VoiceAssetName": "Servants_2300800",
       "PlayVoiceNo": "0_B480",
-      "PlayVoiceWait": 1
+      "PlayVoiceWait": 1,
+      "VoiceAssetName": "Servants_2300800"
     },
     "skillId": 94137548,
     "lv": 1,
@@ -761080,8 +764090,8 @@
       "[5000,-1,-1,9999,ShowState:-1,UnSubState:1,ForceAddState:1,AddIndividualty:6026,ProcPassive:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94137580
+      "additionalSkillId": 94137580,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94137579,
     "lv": 1,
@@ -761445,8 +764455,8 @@
       "[1000,3,-1,300]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94137624
+      "additionalSkillId": 94137624,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94137601,
     "lv": 1,
@@ -761468,8 +764478,8 @@
       "[1000,3,-1,300]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94137624
+      "additionalSkillId": 94137624,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94137602,
     "lv": 1,
@@ -761497,8 +764507,8 @@
       "[5000,10,-1,300,ShowState:1,SetPassiveFrame:1,UnSubState:1,ForceAddState:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94137624
+      "additionalSkillId": 94137624,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94137604,
     "lv": 1,
@@ -761638,8 +764648,8 @@
       "[5000,-1,-1,2000,ShowState:1,SetPassiveFrame:1,UnSubState:1,ForceAddState:1,ProcPassive:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94137613
+      "additionalSkillId": 94137613,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94137612,
     "lv": 1,
@@ -761733,8 +764743,8 @@
       "[5000,1000,ShowState:-1,HideNoEffect:1,HideMiss:1,ForceAddState:1,ProcPassive:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94137618
+      "additionalSkillId": 94137618,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94137617,
     "lv": 1,
@@ -761918,8 +764928,8 @@
       "[5000,-1,-1,9999,ShowState:-1,UnSubState:1,ForceAddState:1,AddIndividualty:6037]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94137525
+      "additionalSkillId": 94137525,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94137629,
     "lv": 1,
@@ -761945,8 +764955,8 @@
       "[5000,-1,-1,9999,ShowState:-1,UnSubState:1,ForceAddState:1,AddIndividualty:6037]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94137525
+      "additionalSkillId": 94137525,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94137630,
     "lv": 1,
@@ -761970,8 +764980,8 @@
       "[5000,-1,-1,9999,ShowState:-1,UnSubState:1,ForceAddState:1,AddIndividualty:6037]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94137525
+      "additionalSkillId": 94137525,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94137631,
     "lv": 1,
@@ -761991,8 +765001,8 @@
       "[5000,-1,-1,9999,ShowState:-1,UnSubState:1,ForceAddState:1,AddIndividualty:6038]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94137526
+      "additionalSkillId": 94137526,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94137632,
     "lv": 1,
@@ -762018,8 +765028,8 @@
       "[5000,-1,-1,9999,ShowState:-1,UnSubState:1,ForceAddState:1,AddIndividualty:6038]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94137526
+      "additionalSkillId": 94137526,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94137633,
     "lv": 1,
@@ -762043,8 +765053,8 @@
       "[5000,-1,-1,9999,ShowState:-1,UnSubState:1,ForceAddState:1,AddIndividualty:6038]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94137526
+      "additionalSkillId": 94137526,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94137634,
     "lv": 1,
@@ -762216,8 +765226,8 @@
       "[1000]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94137902
+      "additionalSkillId": 94137902,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94137901,
     "lv": 1,
@@ -762233,8 +765243,8 @@
       "[1000]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94137903
+      "additionalSkillId": 94137903,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94137902,
     "lv": 1,
@@ -763368,8 +766378,8 @@
       "[5000]"
     ],
     "script": {
-      "additionalSkillActorType": 1,
       "additionalSkillLv": 1,
+      "additionalSkillActorType": 1,
       "additionalSkillId": 94138613,
       "additionalSkillInsertCurrentSkillAfter": 1
     },
@@ -763415,8 +766425,8 @@
       "[1000,-1,-1,9999,ShowState:-1,ForceSubState:1,HideMiss:1,HideNoEffect:1]"
     ],
     "script": {
-      "additionalSkillActorType": 1,
       "additionalSkillLv": 1,
+      "additionalSkillActorType": 1,
       "additionalSkillId": 94138616,
       "additionalSkillInsertCurrentSkillAfter": 1
     },
@@ -763548,8 +766558,8 @@
       "[5000,ShowState:-1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94138652
+      "additionalSkillId": 94138652,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94138622,
     "lv": 1,
@@ -763641,8 +766651,8 @@
       "[5000,-1,-1,94138645,Value2:1,ShowState:-1,UnSubState:1,ForceAddState:1,HideMiss:1,HideNoEffect:1,ProcPassive:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94138631
+      "additionalSkillId": 94138631,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94138629,
     "lv": 1,
@@ -763698,8 +766708,8 @@
       "[5000,-1,-1,ShowState:-1,HideNoEffect:1,HideMiss:1,ForceAddState:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94138633
+      "additionalSkillId": 94138633,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94138632,
     "lv": 1,
@@ -763923,8 +766933,8 @@
       "[5000,-1,-1,1,CheckDead:1,ShowState:-1,UnSubState:1,ForceAddState:1,HideMiss:1,HideNoEffect:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94138648
+      "additionalSkillId": 94138648,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94138645,
     "lv": 1,
@@ -764044,8 +767054,8 @@
       "[5000,1,ShiftDeckIndex:0]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94138650
+      "additionalSkillId": 94138650,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94138652,
     "lv": 1,
@@ -764901,9 +767911,9 @@
       "[]"
     ],
     "script": {
-      "VoiceAssetName": "Servants_9945870",
       "PlayVoiceNo": "0_B310",
-      "PlayVoiceWait": 1
+      "PlayVoiceWait": 1,
+      "VoiceAssetName": "Servants_9945870"
     },
     "skillId": 94138999,
     "lv": 1,
@@ -765261,8 +768271,8 @@
       "[5000,-1,-1,94139322,Value2:1,ShowState:1,SetPassiveFrame:1,UnSubState:1,ForceAddState:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94139323
+      "additionalSkillId": 94139323,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94139321,
     "lv": 1,
@@ -765468,8 +768478,8 @@
       "[5000,ShowState:-1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94139335
+      "additionalSkillId": 94139335,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94139334,
     "lv": 1,
@@ -765485,8 +768495,8 @@
       "[5000]"
     ],
     "script": {
-      "additionalSkillActorType": 1,
       "additionalSkillLv": 1,
+      "additionalSkillActorType": 1,
       "additionalSkillId": 94139336,
       "additionalSkillInsertCurrentSkillAfter": 1
     },
@@ -765570,8 +768580,8 @@
       "[5000,2,CheckEnemyFieldSpace:1,EffectSummon:1]"
     ],
     "script": {
-      "additionalSkillActorType": 1,
       "additionalSkillLv": 1,
+      "additionalSkillActorType": 1,
       "additionalSkillId": 94139341,
       "additionalSkillInsertCurrentSkillAfter": 1
     },
@@ -765709,8 +768719,8 @@
       "[1000,30]"
     ],
     "script": {
-      "additionalSkillActorType": 1,
       "additionalSkillLv": 1,
+      "additionalSkillActorType": 1,
       "additionalSkillId": 94139379,
       "additionalSkillInsertCurrentSkillAfter": 1
     },
@@ -766170,8 +769180,8 @@
       "[1000,30]"
     ],
     "script": {
-      "additionalSkillActorType": 1,
       "additionalSkillLv": 1,
+      "additionalSkillActorType": 1,
       "additionalSkillId": 94139379,
       "additionalSkillInsertCurrentSkillAfter": 1
     },
@@ -766225,8 +769235,8 @@
       "[1000,30]"
     ],
     "script": {
-      "additionalSkillActorType": 1,
       "additionalSkillLv": 1,
+      "additionalSkillActorType": 1,
       "additionalSkillId": 94139379,
       "additionalSkillInsertCurrentSkillAfter": 1
     },
@@ -769226,8 +772236,8 @@
       "[1000,5,-1,500]"
     ],
     "script": {
-      "additionalSkillActorType": 1,
       "additionalSkillLv": 1,
+      "additionalSkillActorType": 1,
       "additionalSkillId": 94139379,
       "additionalSkillInsertCurrentSkillAfter": 1
     },
@@ -769245,8 +772255,8 @@
       "[1000,1,-1,300]"
     ],
     "script": {
-      "additionalSkillActorType": 1,
       "additionalSkillLv": 1,
+      "additionalSkillActorType": 1,
       "additionalSkillId": 94139379,
       "additionalSkillInsertCurrentSkillAfter": 1
     },
@@ -769266,8 +772276,8 @@
       "[1000,-1,1,94141504,Value2:1,ShowState:-1,UnSubState:1]"
     ],
     "script": {
-      "additionalSkillActorType": 1,
       "additionalSkillLv": 1,
+      "additionalSkillActorType": 1,
       "additionalSkillId": 94139379,
       "additionalSkillInsertCurrentSkillAfter": 1
     },
@@ -769993,8 +773003,8 @@
       "[1000,5,-1,9999,SetPassiveFrame:1,ForceAddState:1,UnSubState:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94141548
+      "additionalSkillId": 94141548,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94141547,
     "lv": 1,
@@ -770010,8 +773020,8 @@
       "[1000,3,-1,9999,SetPassiveFrame:1,ForceAddState:1,UnSubState:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94141549
+      "additionalSkillId": 94141549,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94141548,
     "lv": 1,
@@ -772284,8 +775294,8 @@
       "[5000,-1,-1,94142052,ShowState:-1,Value2:1,HideMiss:1,HideNoEffect:1,CheckDead:1,TriggeredFuncPosition:215]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94142053
+      "additionalSkillId": 94142053,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94141981,
     "lv": 1,
@@ -773449,8 +776459,8 @@
       "[1000,-1,-1,ShowState:1,SetPassiveFrame:1,UnSubState:1,ForceAddState:1,HideMiss:1,HideNoEffect:1,OnField:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94142582
+      "additionalSkillId": 94142582,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94142509,
     "lv": 1,
@@ -774698,8 +777708,8 @@
       "[5000,-1,-1,6035,ShowState:-1,UnSubState:1,ForceAddState:1,HideMiss:1,HideNoEffect:1,ProcPassive:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94142602
+      "additionalSkillId": 94142602,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94142601,
     "lv": 1,
@@ -774785,8 +777795,8 @@
       "[1000,HideMiss:1,HideNoEffect:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94142915
+      "additionalSkillId": 94142915,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94142606,
     "lv": 1,
@@ -774820,8 +777830,8 @@
       "[1000,HideMiss:1,HideNoEffect:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94142916
+      "additionalSkillId": 94142916,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94142608,
     "lv": 1,
@@ -774839,8 +777849,8 @@
       "[2000,10,5,AddIndividualityEx:6038]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94142610
+      "additionalSkillId": 94142610,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94142609,
     "lv": 1,
@@ -775134,8 +778144,8 @@
       "[1000,HideMiss:1,HideNoEffect:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94142626
+      "additionalSkillId": 94142626,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94142625,
     "lv": 1,
@@ -775225,8 +778235,8 @@
       "[5000,2,CheckEnemyFieldSpace:1,ActSet:3,ActSetWeight:33]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94142631
+      "additionalSkillId": 94142631,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94142630,
     "lv": 1,
@@ -775584,8 +778594,8 @@
       "[5000,800151,UseInFsmEffectId:4001017,KeepChangeModelAfterContinue:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94142820
+      "additionalSkillId": 94142820,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94142658,
     "lv": 1,
@@ -775617,8 +778627,8 @@
       "[5000,800151,KeepChangeModelAfterContinue:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94142665
+      "additionalSkillId": 94142665,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94142660,
     "lv": 1,
@@ -776066,8 +779076,8 @@
       "[1000,HideMiss:1,HideNoEffect:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94142687
+      "additionalSkillId": 94142687,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94142686,
     "lv": 1,
@@ -776345,8 +779355,8 @@
       "[5000,0,CheckEnemyFieldSpace:1,EffectSummon:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94142703
+      "additionalSkillId": 94142703,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94142702,
     "lv": 1,
@@ -776388,8 +779398,8 @@
       "[5000,-1,-1,500,SetPassiveFrame:1,ShowState:1,UnSubState:1,ForceAddState:1,HideMiss:1,HideNoEffect:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94142721
+      "additionalSkillId": 94142721,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94142704,
     "lv": 1,
@@ -776435,8 +779445,8 @@
       "[1000,1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94142722
+      "additionalSkillId": 94142722,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94142707,
     "lv": 1,
@@ -776454,8 +779464,8 @@
       "[1000,5]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94142722
+      "additionalSkillId": 94142722,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94142708,
     "lv": 1,
@@ -776499,8 +779509,8 @@
       "[1000,HideMiss:1,HideNoEffect:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94142729
+      "additionalSkillId": 94142729,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94142711,
     "lv": 1,
@@ -776556,8 +779566,8 @@
       "[5000,219,ForceAddState:1,CheckDead:1,BgmFadeTime:3210,PriorityBgm:1100]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94142730
+      "additionalSkillId": 94142730,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94142714,
     "lv": 1,
@@ -776601,8 +779611,8 @@
       "[5000,1,HideMiss:1,HideNoEffect:1,CheckDead:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94142723
+      "additionalSkillId": 94142723,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94142717,
     "lv": 1,
@@ -776632,8 +779642,8 @@
       "[5000,0,HideMiss:1,HideNoEffect:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94142739
+      "additionalSkillId": 94142739,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94142719,
     "lv": 1,
@@ -776649,8 +779659,8 @@
       "[5000]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94142714
+      "additionalSkillId": 94142714,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94142720,
     "lv": 1,
@@ -776666,8 +779676,8 @@
       "[1000,HideMiss:1,HideNoEffect:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94142729
+      "additionalSkillId": 94142729,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94142721,
     "lv": 1,
@@ -776707,8 +779717,8 @@
       "[5000,3,7,SetPassiveFrame:1,ShowState:1,UnSubState:1,ForceAddState:1,HideMiss:1,HideNoEffect:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94142729
+      "additionalSkillId": 94142729,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94142722,
     "lv": 1,
@@ -776966,8 +779976,8 @@
       "[5000,2,HideMiss:1,HideNoEffect:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94142702
+      "additionalSkillId": 94142702,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94142738,
     "lv": 1,
@@ -777179,8 +780189,8 @@
       "[5000,180000,HideMiss:1,HideNoEffect:1,Value2:220000]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94142822
+      "additionalSkillId": 94142822,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94142761,
     "lv": 1,
@@ -777890,8 +780900,8 @@
       "[5000,-1,-1,900,ProcPassive:1,SetPassiveFrame:1,ShowState:1,UnSubState:1,ForceAddState:1,HideMiss:1,HideNoEffect:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94142804
+      "additionalSkillId": 94142804,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94142803,
     "lv": 1,
@@ -778001,8 +781011,8 @@
       "[5000,800151,UseInFsmEffectId:4001017,KeepChangeModelAfterContinue:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94142901
+      "additionalSkillId": 94142901,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94142810,
     "lv": 1,
@@ -778180,8 +781190,8 @@
       "[5000,-1,-1,2958,ShowState:-1,UnSubState:1,ForceAddState:1,HideMiss:1,HideNoEffect:1,ProcPassive:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94142659
+      "additionalSkillId": 94142659,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94142820,
     "lv": 1,
@@ -778239,8 +781249,8 @@
       "[1000,HideMiss:1,HideNoEffect:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94142687
+      "additionalSkillId": 94142687,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94142824,
     "lv": 1,
@@ -778426,8 +781436,8 @@
       "[1000,HideMiss:1,HideNoEffect:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94142918
+      "additionalSkillId": 94142918,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94142839,
     "lv": 1,
@@ -778527,8 +781537,8 @@
       "[1000,HideMiss:1,HideNoEffect:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94142846
+      "additionalSkillId": 94142846,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94142845,
     "lv": 1,
@@ -779622,8 +782632,8 @@
       "[1000,HideMiss:1,HideNoEffect:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94142911
+      "additionalSkillId": 94142911,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94142905,
     "lv": 1,
@@ -779781,8 +782791,8 @@
       "[5000,-1,-1,6021,ShowState:-1,UnSubState:1,ForceAddState:1,HideMiss:1,HideNoEffect:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94142640
+      "additionalSkillId": 94142640,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94142915,
     "lv": 1,
@@ -784492,8 +787502,8 @@
       "[5000,1000,HideMiss:1,HideNoEffect:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94145823
+      "additionalSkillId": 94145823,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94145822,
     "lv": 1,
@@ -784523,8 +787533,8 @@
       "[5000,-1,-1,9999,ForceSubState:1,HideMiss:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94145825
+      "additionalSkillId": 94145825,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94145824,
     "lv": 1,
@@ -784540,8 +787550,8 @@
       "[5000,HideMiss:1,HideNoEffect:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94145826
+      "additionalSkillId": 94145826,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94145825,
     "lv": 1,
@@ -784839,8 +787849,8 @@
       "[5000,-1,-1,9999,ShowState:1,SetPassiveFrame:1,UnSubState:1,ForceAddState:1,HideMiss:1,HideNoEffect:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94145846
+      "additionalSkillId": 94145846,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94145845,
     "lv": 1,
@@ -787307,9 +790317,9 @@
     ],
     "script": {
       "additionalSkillActorType": 1,
+      "EnableTarget": 1,
       "additionalSkillId": 94146803,
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "EnableTarget": 1
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94146845,
     "lv": 1,
@@ -787459,8 +790469,8 @@
       "[5000,94147224,WaitMessageEnd:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94147203
+      "additionalSkillId": 94147203,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94147202,
     "lv": 1,
@@ -788076,8 +791086,8 @@
       "[5000,2,CheckDead:1,HideMiss:1,HideNoEffect:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94147243
+      "additionalSkillId": 94147243,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94147242,
     "lv": 1,
@@ -788097,8 +791107,8 @@
       "[1000,0,CheckEnemyFieldSpace:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94147244
+      "additionalSkillId": 94147244,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94147243,
     "lv": 1,
@@ -788132,8 +791142,8 @@
       "[1000,0]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94147203
+      "additionalSkillId": 94147203,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94147245,
     "lv": 1,
@@ -788611,8 +791621,8 @@
       "[1000,1,ShiftNpcId:94147399]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94147279
+      "additionalSkillId": 94147279,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94147278,
     "lv": 1,
@@ -788724,8 +791734,8 @@
       "[1000,1,ShiftNpcId:94147399]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94147285
+      "additionalSkillId": 94147285,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94147284,
     "lv": 1,
@@ -790617,8 +793627,8 @@
       "[5000]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94147284
+      "additionalSkillId": 94147284,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94147412,
     "lv": 1,
@@ -793998,8 +797008,8 @@
       "[1000,5,-1,1000]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 970666
+      "additionalSkillId": 970666,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94149349,
     "lv": 1,
@@ -794033,8 +797043,8 @@
       "[1000,-1,-1,1,SetPassiveFrame:1,ShowState:1,UnSubState:1,ForceAddState:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 970782
+      "additionalSkillId": 970782,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94149351,
     "lv": 1,
@@ -797320,8 +800330,8 @@
       "[5000,1,-1,ShowState:1,SetPassiveFrame:1,UnSubState:1,ForceAddState:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94150013
+      "additionalSkillId": 94150013,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94150012,
     "lv": 1,
@@ -798461,8 +801471,8 @@
       "[5000,94150005,WaitMessageEnd:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94150217
+      "additionalSkillId": 94150217,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94150216,
     "lv": 1,
@@ -798478,8 +801488,8 @@
       "[5000,1,ShiftDeckIndex:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94150223
+      "additionalSkillId": 94150223,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94150217,
     "lv": 1,
@@ -799353,9 +802363,9 @@
     ],
     "script": {
       "additionalSkillActorType": 1,
+      "EnableTarget": 1,
       "additionalSkillId": 94150806,
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "EnableTarget": 1
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94150811,
     "lv": 1,
@@ -799380,9 +802390,9 @@
     ],
     "script": {
       "additionalSkillActorType": 1,
+      "EnableTarget": 1,
       "additionalSkillId": 94150805,
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "EnableTarget": 1
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94150812,
     "lv": 1,
@@ -799407,9 +802417,9 @@
     ],
     "script": {
       "additionalSkillActorType": 1,
+      "EnableTarget": 1,
       "additionalSkillId": 94150806,
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "EnableTarget": 1
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94150813,
     "lv": 1,
@@ -799434,9 +802444,9 @@
     ],
     "script": {
       "additionalSkillActorType": 1,
+      "EnableTarget": 1,
       "additionalSkillId": 94150807,
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "EnableTarget": 1
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94150814,
     "lv": 1,
@@ -799461,9 +802471,9 @@
     ],
     "script": {
       "additionalSkillActorType": 1,
+      "EnableTarget": 1,
       "additionalSkillId": 94150808,
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "EnableTarget": 1
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94150815,
     "lv": 1,
@@ -799488,9 +802498,9 @@
     ],
     "script": {
       "additionalSkillActorType": 1,
+      "EnableTarget": 1,
       "additionalSkillId": 94150809,
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "EnableTarget": 1
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94150816,
     "lv": 1,
@@ -799509,9 +802519,9 @@
     ],
     "script": {
       "additionalSkillActorType": 1,
+      "EnableTarget": 1,
       "additionalSkillId": 94150824,
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "EnableTarget": 1
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94150817,
     "lv": 1,
@@ -799534,9 +802544,9 @@
     ],
     "script": {
       "additionalSkillActorType": 1,
+      "EnableTarget": 1,
       "additionalSkillId": 94150823,
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "EnableTarget": 1
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94150818,
     "lv": 1,
@@ -799559,9 +802569,9 @@
     ],
     "script": {
       "additionalSkillActorType": 1,
+      "EnableTarget": 1,
       "additionalSkillId": 94150824,
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "EnableTarget": 1
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94150819,
     "lv": 1,
@@ -799584,9 +802594,9 @@
     ],
     "script": {
       "additionalSkillActorType": 1,
+      "EnableTarget": 1,
       "additionalSkillId": 94150825,
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "EnableTarget": 1
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94150820,
     "lv": 1,
@@ -799609,9 +802619,9 @@
     ],
     "script": {
       "additionalSkillActorType": 1,
+      "EnableTarget": 1,
       "additionalSkillId": 94150826,
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "EnableTarget": 1
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94150821,
     "lv": 1,
@@ -799634,9 +802644,9 @@
     ],
     "script": {
       "additionalSkillActorType": 1,
+      "EnableTarget": 1,
       "additionalSkillId": 94150827,
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "EnableTarget": 1
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94150822,
     "lv": 1,
@@ -801158,8 +804168,8 @@
       "[5000,0,CheckEnemyFieldSpace:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94151718
+      "additionalSkillId": 94151718,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94151717,
     "lv": 1,
@@ -801533,8 +804543,8 @@
       "[1000,HideMiss:1,HideNoEffect:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94151740
+      "additionalSkillId": 94151740,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94151739,
     "lv": 1,
@@ -801992,8 +805002,8 @@
       "[5000,-1,-1,SetPassiveFrame:1,ShowState:1,UnSubState:1,ForceAddState:1,HideMiss:1,HideNoEffect:1,ProcPassive:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94142724
+      "additionalSkillId": 94142724,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94151763,
     "lv": 1,
@@ -802163,8 +805173,8 @@
       "[5000,-1,-1,94151774,Value2:1,SetPassiveFrame:1,ShowState:1,HideMiss:1,HideNoEffect:1,UnSubState:1,ForceAddState:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94151775
+      "additionalSkillId": 94151775,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94151772,
     "lv": 1,
@@ -802268,8 +805278,8 @@
       "[5000,-1,-1,94151778,Value2:1,SetPassiveFrame:1,ShowState:1,HideMiss:1,HideNoEffect:1,UnSubState:1,ForceAddState:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94151776
+      "additionalSkillId": 94151776,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94151777,
     "lv": 1,
@@ -802507,8 +805517,8 @@
       "[5000,-1,-1,9000,SetPassiveFrame:1,ShowState:1,HideMiss:1,HideNoEffect:1,UnSubState:1,ForceAddState:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94151790
+      "additionalSkillId": 94151790,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94151789,
     "lv": 1,
@@ -803762,8 +806772,8 @@
       "[1000,-1,-1,9999,SetPassiveFrame:1,ShowState:1,UnSubState:1,ForceAddState:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94153459
+      "additionalSkillId": 94153459,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94152157,
     "lv": 1,
@@ -803877,8 +806887,8 @@
       "[1000,-1,-1,94153411,Value2:1,SetPassiveFrame:1,ShowState:1,HideMiss:1,HideNoEffect:1,UnSubState:1,ForceAddState:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94153454
+      "additionalSkillId": 94153454,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94152164,
     "lv": 1,
@@ -806792,8 +809802,8 @@
       "[1000]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94153052
+      "additionalSkillId": 94153052,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94153051,
     "lv": 1,
@@ -806809,8 +809819,8 @@
       "[5000,1,HideNoEffect:1,HideMiss:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94153053
+      "additionalSkillId": 94153053,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94153052,
     "lv": 1,
@@ -806826,8 +809836,8 @@
       "[5000,28010,1,Priority:1000,CheckDead:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94153054
+      "additionalSkillId": 94153054,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94153053,
     "lv": 1,
@@ -806985,8 +809995,8 @@
       "[1000]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94153062
+      "additionalSkillId": 94153062,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94153061,
     "lv": 1,
@@ -807002,8 +810012,8 @@
       "[5000,1,HideNoEffect:1,HideMiss:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94153063
+      "additionalSkillId": 94153063,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94153062,
     "lv": 1,
@@ -807019,8 +810029,8 @@
       "[5000,ShowState:-1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94153064
+      "additionalSkillId": 94153064,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94153063,
     "lv": 1,
@@ -807036,8 +810046,8 @@
       "[5000,54000,1,Priority:1100,CheckDead:1,Value2:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94153113
+      "additionalSkillId": 94153113,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94153064,
     "lv": 1,
@@ -807055,8 +810065,8 @@
       "[5000,-1,-1,ShowState:-1,UnSubState:1,ForceAddState:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94153101
+      "additionalSkillId": 94153101,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94153065,
     "lv": 1,
@@ -807094,8 +810104,8 @@
       "[5000,28010,1,Priority:1000,CheckDead:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94153054
+      "additionalSkillId": 94153054,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94153067,
     "lv": 1,
@@ -807117,8 +810127,8 @@
       "[1000]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94153054
+      "additionalSkillId": 94153054,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94153068,
     "lv": 1,
@@ -807168,8 +810178,8 @@
       "[5000,ShowState:-1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94153073
+      "additionalSkillId": 94153073,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94153072,
     "lv": 1,
@@ -807185,8 +810195,8 @@
       "[5000,54000,1,Priority:1100,CheckDead:1,Value2:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94153065
+      "additionalSkillId": 94153065,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94153073,
     "lv": 1,
@@ -807274,8 +810284,8 @@
       "[1000]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94153079
+      "additionalSkillId": 94153079,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94153078,
     "lv": 1,
@@ -807291,8 +810301,8 @@
       "[5000,28010,1,Priority:1000,CheckDead:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94153080
+      "additionalSkillId": 94153080,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94153079,
     "lv": 1,
@@ -807586,8 +810596,8 @@
       "[1000]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94153106
+      "additionalSkillId": 94153106,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94153105,
     "lv": 1,
@@ -807603,8 +810613,8 @@
       "[5000,28010,1,Priority:1000,CheckDead:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94153107
+      "additionalSkillId": 94153107,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94153106,
     "lv": 1,
@@ -807644,8 +810654,8 @@
       "[1000]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94153109
+      "additionalSkillId": 94153109,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94153108,
     "lv": 1,
@@ -807661,8 +810671,8 @@
       "[5000,ShowState:-1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94153110
+      "additionalSkillId": 94153110,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94153109,
     "lv": 1,
@@ -807678,8 +810688,8 @@
       "[5000,54000,1,Priority:1100,CheckDead:1,Value2:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94153111
+      "additionalSkillId": 94153111,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94153110,
     "lv": 1,
@@ -807697,8 +810707,8 @@
       "[5000,-1,-1,ShowState:-1,UnSubState:1,ForceAddState:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94153112
+      "additionalSkillId": 94153112,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94153111,
     "lv": 1,
@@ -807728,8 +810738,8 @@
       "[5000,1000]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94153065
+      "additionalSkillId": 94153065,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94153113,
     "lv": 1,
@@ -809967,8 +812977,8 @@
       "[1000,3,-1,200]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94154423
+      "additionalSkillId": 94154423,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94154421,
     "lv": 1,
@@ -809986,8 +812996,8 @@
       "[1000,3,-1,300]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94154423
+      "additionalSkillId": 94154423,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94154422,
     "lv": 1,
@@ -810037,8 +813047,8 @@
       "[5000]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94154426
+      "additionalSkillId": 94154426,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94154425,
     "lv": 1,
@@ -810516,8 +813526,8 @@
       "[5000,2,CheckDead:1,HideMiss:1,HideNoEffect:1]"
     ],
     "script": {
-      "additionalSkillActorType": 1,
-      "additionalSkillId": 94155621
+      "additionalSkillId": 94155621,
+      "additionalSkillActorType": 1
     },
     "skillId": 94155620,
     "lv": 1,
@@ -815747,8 +818757,8 @@
       "[5000,-1,-1,ShowState:1,SetPassiveFrame:1,UnSubState:1,ForceAddState:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94158048
+      "additionalSkillId": 94158048,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94158047,
     "lv": 1,
@@ -817822,8 +820832,8 @@
       "[5000,ForceSubState:1,HideNoEffect:1,HideMiss:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94158327
+      "additionalSkillId": 94158327,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94158326,
     "lv": 1,
@@ -818919,8 +821929,8 @@
       "[5000,6,EnemyCountChangeTime:0]"
     ],
     "script": {
-      "additionalSkillActorType": 1,
-      "additionalSkillId": 94158824
+      "additionalSkillId": 94158824,
+      "additionalSkillActorType": 1
     },
     "skillId": 94158801,
     "lv": 1,
@@ -821422,8 +824432,8 @@
       "[5000,-1,-1,200,ShowState:1,SetPassiveFrame:1,UnSubState:1,ForceAddState:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94159207
+      "additionalSkillId": 94159207,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94159072,
     "lv": 1,
@@ -821543,8 +824553,8 @@
       "[1000,94159003,ContinueDisplayMessage:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94159166
+      "additionalSkillId": 94159166,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94159083,
     "lv": 1,
@@ -821560,8 +824570,8 @@
       "[1000,94159004,ContinueDisplayMessage:1]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94159167
+      "additionalSkillId": 94159167,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94159084,
     "lv": 1,
@@ -824329,8 +827339,8 @@
       "[1000,-1,-1,94160934,Value2:1,ShowState:1,SetPassiveFrame:1,UnSubState:1,ForceAddState:1,ProcPassive:1]"
     ],
     "script": {
-      "additionalSkillActorType": 1,
-      "additionalSkillId": 94160935
+      "additionalSkillId": 94160935,
+      "additionalSkillActorType": 1
     },
     "skillId": 94160933,
     "lv": 1,
@@ -824884,8 +827894,8 @@
       "[1000]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94160967
+      "additionalSkillId": 94160967,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94160966,
     "lv": 1,
@@ -824903,8 +827913,8 @@
       "[1000,OnPositions:1/2/3/4/5/6]"
     ],
     "script": {
-      "additionalSkillInsertCurrentSkillAfter": 1,
-      "additionalSkillId": 94160985
+      "additionalSkillId": 94160985,
+      "additionalSkillInsertCurrentSkillAfter": 1
     },
     "skillId": 94160967,
     "lv": 1,
@@ -825924,8 +828934,8 @@
       "[5000,-1,-1,3000,ShowState:1,SetPassiveFrame:1,UnSubState:1,ForceAddState:1]"
     ],
     "script": {
-      "additionalSkillActorType": 1,
-      "additionalSkillId": 94161704
+      "additionalSkillId": 94161704,
+      "additionalSkillActorType": 1
     },
     "skillId": 94161700,
     "lv": 1,
@@ -828176,6 +831186,194 @@
     "chargeTurn": 0,
     "skillDetailId": 1,
     "priority": 0
+  },
+  {
+    "funcId": [
+      94164000
+    ],
+    "svals": [
+      "[1000,-1,-1,ShowState:1]"
+    ],
+    "script": {},
+    "skillId": 94164000,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 50
+  },
+  {
+    "funcId": [
+      94164002
+    ],
+    "svals": [
+      "[1000,1]"
+    ],
+    "script": {},
+    "skillId": 94164002,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      457,
+      194
+    ],
+    "svals": [
+      "[1000,1000]",
+      "[1000,3,-1,200]"
+    ],
+    "script": {},
+    "skillId": 94164003,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      460,
+      94164005
+    ],
+    "svals": [
+      "[1000,3000]",
+      "[5000,-1,-1,6026,ShowState:-1,UnSubState:1,ForceAddState:1]"
+    ],
+    "script": {},
+    "skillId": 94164004,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      94164003
+    ],
+    "svals": [
+      "[1000,-1,-1,94164006,Value2:1,SetPassiveFrame:1,UnSubState:1,ForceAddState:1]"
+    ],
+    "script": {},
+    "skillId": 94164005,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      169
+    ],
+    "svals": [
+      "[1000,2,1,70]"
+    ],
+    "script": {},
+    "skillId": 94164006,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      94164004
+    ],
+    "svals": [
+      "[1000,-1,-1,9999,ShowState:1]"
+    ],
+    "script": {},
+    "skillId": 94164007,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 220
+  },
+  {
+    "funcId": [
+      94164006
+    ],
+    "svals": [
+      "[5000,1]"
+    ],
+    "script": {},
+    "skillId": 94164008,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      94164007,
+      94164008
+    ],
+    "svals": [
+      "[1000,-1,-1,300,ShowState:1]",
+      "[1000,-1,-1,10,ShowState:1]"
+    ],
+    "script": {},
+    "skillId": 94164009,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 0
+  },
+  {
+    "funcId": [
+      94164010
+    ],
+    "svals": [
+      "[1000,-1,-1,9999,ShowState:1]"
+    ],
+    "script": {},
+    "skillId": 94164143,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 220
+  },
+  {
+    "funcId": [
+      94164012
+    ],
+    "svals": [
+      "[1000,-1,-1,9999,ShowState:1]"
+    ],
+    "script": {},
+    "skillId": 94164144,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 220
+  },
+  {
+    "funcId": [
+      94164009
+    ],
+    "svals": [
+      "[1000,-1,-1,9999,ShowState:1]"
+    ],
+    "script": {},
+    "skillId": 94164145,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 220
+  },
+  {
+    "funcId": [
+      94164011
+    ],
+    "svals": [
+      "[1000,-1,-1,9999,ShowState:1]"
+    ],
+    "script": {},
+    "skillId": 94164165,
+    "lv": 1,
+    "chargeTurn": 0,
+    "skillDetailId": 1,
+    "priority": 220
   },
   {
     "funcId": [

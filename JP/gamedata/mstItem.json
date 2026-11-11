@@ -1207,9 +1207,9 @@
       10844
     ],
     "script": {
-      "battleAppearItemWait": 100,
+      "battleGetEffectId": 4001009,
       "battleAppearEffectId": 4001008,
-      "battleGetEffectId": 4001009
+      "battleAppearItemWait": 100
     },
     "eventId": 0,
     "eventGroupId": 0,
@@ -1261,8 +1261,8 @@
   {
     "individuality": [],
     "script": {
-      "effectId": 1,
-      "itemGetEffectId": 4
+      "itemGetEffectId": 4,
+      "effectId": 1
     },
     "eventId": 0,
     "eventGroupId": 0,
@@ -1288,8 +1288,8 @@
   {
     "individuality": [],
     "script": {
-      "effectId": 1,
-      "itemGetEffectId": 4
+      "itemGetEffectId": 4,
+      "effectId": 1
     },
     "eventId": 0,
     "eventGroupId": 0,
@@ -12418,6 +12418,30 @@
     "maxNum": 0,
     "tradePickupTime": 86400,
     "skillList": [],
+    "id": 40610001,
+    "name": "サーヴァントコイン",
+    "detail": "【サーヴァント強化素材】\nサーヴァントの霊基のカケラ。",
+    "imageId": 406100,
+    "bgImageId": 2,
+    "type": 29,
+    "unit": "",
+    "value": 406100,
+    "sellQp": -1,
+    "isSell": false,
+    "priority": 57,
+    "dropPriority": 1003,
+    "startedAt": 946652400,
+    "endedAt": 1910876400
+  },
+  {
+    "individuality": [],
+    "script": {},
+    "eventId": 0,
+    "eventGroupId": 0,
+    "isPresent": false,
+    "maxNum": 0,
+    "tradePickupTime": 86400,
+    "skillList": [],
     "id": 50010001,
     "name": "サーヴァントコイン",
     "detail": "【サーヴァント強化素材】\nサーヴァントの霊基のカケラ。",
@@ -15978,6 +16002,30 @@
     "type": 29,
     "unit": "",
     "value": 705400,
+    "sellQp": -1,
+    "isSell": false,
+    "priority": 57,
+    "dropPriority": 1003,
+    "startedAt": 946652400,
+    "endedAt": 1910876400
+  },
+  {
+    "individuality": [],
+    "script": {},
+    "eventId": 0,
+    "eventGroupId": 0,
+    "isPresent": false,
+    "maxNum": 0,
+    "tradePickupTime": 86400,
+    "skillList": [],
+    "id": 70550001,
+    "name": "サーヴァントコイン",
+    "detail": "【サーヴァント強化素材】\nサーヴァントの霊基のカケラ。",
+    "imageId": 705500,
+    "bgImageId": 2,
+    "type": 29,
+    "unit": "",
+    "value": 705500,
     "sellQp": -1,
     "isSell": false,
     "priority": 57,
@@ -20386,8 +20434,8 @@
       10138
     ],
     "script": {
-      "eventId": 80050,
-      "eventGroupId": 8005002
+      "eventGroupId": 8005002,
+      "eventId": 80050
     },
     "eventId": 80050,
     "eventGroupId": 8005002,
@@ -20415,8 +20463,8 @@
       10139
     ],
     "script": {
-      "eventId": 80050,
-      "eventGroupId": 8005001
+      "eventGroupId": 8005001,
+      "eventId": 80050
     },
     "eventId": 80050,
     "eventGroupId": 8005001,
@@ -24394,8 +24442,8 @@
       10283
     ],
     "script": {
-      "eventId": 80104,
-      "eventGroupId": 8010405
+      "eventGroupId": 8010405,
+      "eventId": 80104
     },
     "eventId": 80104,
     "eventGroupId": 8010405,
@@ -24423,8 +24471,8 @@
       10284
     ],
     "script": {
-      "eventId": 80104,
-      "eventGroupId": 8010404
+      "eventGroupId": 8010404,
+      "eventId": 80104
     },
     "eventId": 80104,
     "eventGroupId": 8010404,
@@ -25048,8 +25096,8 @@
       10312
     ],
     "script": {
-      "eventId": 80112,
-      "eventGroupId": 8011201
+      "eventGroupId": 8011201,
+      "eventId": 80112
     },
     "eventId": 80112,
     "eventGroupId": 8011201,
@@ -25077,8 +25125,8 @@
       10313
     ],
     "script": {
-      "eventId": 80112,
-      "eventGroupId": 8011202
+      "eventGroupId": 8011202,
+      "eventId": 80112
     },
     "eventId": 80112,
     "eventGroupId": 8011202,
@@ -25106,8 +25154,8 @@
       10314
     ],
     "script": {
-      "eventId": 80112,
-      "eventGroupId": 8011203
+      "eventGroupId": 8011203,
+      "eventId": 80112
     },
     "eventId": 80112,
     "eventGroupId": 8011203,
@@ -28487,8 +28535,8 @@
       10441
     ],
     "script": {
-      "eventId": 80251,
-      "eventGroupId": 8025101
+      "eventGroupId": 8025101,
+      "eventId": 80251
     },
     "eventId": 80251,
     "eventGroupId": 8025101,
@@ -28516,8 +28564,8 @@
       10442
     ],
     "script": {
-      "eventId": 80251,
-      "eventGroupId": 8025102
+      "eventGroupId": 8025102,
+      "eventId": 80251
     },
     "eventId": 80251,
     "eventGroupId": 8025102,
@@ -28545,8 +28593,8 @@
       10443
     ],
     "script": {
-      "eventId": 80251,
-      "eventGroupId": 8025103
+      "eventGroupId": 8025103,
+      "eventId": 80251
     },
     "eventId": 80251,
     "eventGroupId": 8025103,
@@ -34850,8 +34898,8 @@
       10635
     ],
     "script": {
-      "eventId": 80319,
-      "eventGroupId": 8031901
+      "eventGroupId": 8031901,
+      "eventId": 80319
     },
     "eventId": 80319,
     "eventGroupId": 8031901,
@@ -34879,8 +34927,8 @@
       10636
     ],
     "script": {
-      "eventId": 80319,
-      "eventGroupId": 8031903
+      "eventGroupId": 8031903,
+      "eventId": 80319
     },
     "eventId": 80319,
     "eventGroupId": 8031903,
@@ -34908,8 +34956,8 @@
       10637
     ],
     "script": {
-      "eventId": 80319,
-      "eventGroupId": 8031902
+      "eventGroupId": 8031902,
+      "eventId": 80319
     },
     "eventId": 80319,
     "eventGroupId": 8031902,
@@ -35377,8 +35425,8 @@
       10654
     ],
     "script": {
-      "eventId": 80331,
-      "eventGroupId": 0
+      "eventGroupId": 0,
+      "eventId": 80331
     },
     "eventId": 80331,
     "eventGroupId": 0,
@@ -36184,8 +36232,8 @@
       10684
     ],
     "script": {
-      "eventId": 80343,
-      "eventGroupId": 8034301
+      "eventGroupId": 8034301,
+      "eventId": 80343
     },
     "eventId": 80343,
     "eventGroupId": 8034301,
@@ -36213,8 +36261,8 @@
       10685
     ],
     "script": {
-      "eventId": 80343,
-      "eventGroupId": 8034302
+      "eventGroupId": 8034302,
+      "eventId": 80343
     },
     "eventId": 80343,
     "eventGroupId": 8034302,
@@ -36242,8 +36290,8 @@
       10686
     ],
     "script": {
-      "eventId": 80343,
-      "eventGroupId": 8034303
+      "eventGroupId": 8034303,
+      "eventId": 80343
     },
     "eventId": 80343,
     "eventGroupId": 8034303,
@@ -41447,8 +41495,8 @@
       10852
     ],
     "script": {
-      "eventId": 80474,
-      "eventGroupId": 0
+      "eventGroupId": 0,
+      "eventId": 80474
     },
     "eventId": 80474,
     "eventGroupId": 0,
@@ -42358,8 +42406,8 @@
       10885
     ],
     "script": {
-      "eventId": 80485,
-      "eventGroupId": 8048501
+      "eventGroupId": 8048501,
+      "eventId": 80485
     },
     "eventId": 80485,
     "eventGroupId": 8048501,
@@ -42387,8 +42435,8 @@
       10886
     ],
     "script": {
-      "eventId": 80485,
-      "eventGroupId": 8048502
+      "eventGroupId": 8048502,
+      "eventId": 80485
     },
     "eventId": 80485,
     "eventGroupId": 8048502,
@@ -42796,8 +42844,8 @@
       10902
     ],
     "script": {
-      "eventId": 80494,
-      "tradePickupTime": 86400
+      "tradePickupTime": 86400,
+      "eventId": 80494
     },
     "eventId": 80494,
     "eventGroupId": 0,
@@ -44037,8 +44085,8 @@
       10919
     ],
     "script": {
-      "eventId": 80511,
-      "eventGroupId": 8051101
+      "eventGroupId": 8051101,
+      "eventId": 80511
     },
     "eventId": 80511,
     "eventGroupId": 8051101,
@@ -44066,8 +44114,8 @@
       10920
     ],
     "script": {
-      "eventId": 80511,
-      "eventGroupId": 8051102
+      "eventGroupId": 8051102,
+      "eventId": 80511
     },
     "eventId": 80511,
     "eventGroupId": 8051102,
@@ -44095,8 +44143,8 @@
       10921
     ],
     "script": {
-      "eventId": 80511,
-      "eventGroupId": 8051103
+      "eventGroupId": 8051103,
+      "eventId": 80511
     },
     "eventId": 80511,
     "eventGroupId": 8051103,
@@ -44414,8 +44462,8 @@
       10931
     ],
     "script": {
-      "eventId": 80518,
-      "eventGroupId": 8051801
+      "eventGroupId": 8051801,
+      "eventId": 80518
     },
     "eventId": 80518,
     "eventGroupId": 8051801,
@@ -45613,8 +45661,8 @@
       10955
     ],
     "script": {
-      "eventId": 80558,
       "eventGroupId": 0,
+      "eventId": 80558,
       "playEffect": 1
     },
     "eventId": 80558,
@@ -46437,8 +46485,8 @@
       10976
     ],
     "script": {
-      "effectId": 1,
       "anotherPayName": "母なるロックオン",
+      "effectId": 1,
       "skillList": [
         940429,
         940430,
@@ -48039,6 +48087,136 @@
     "dropPriority": 9001,
     "startedAt": 1793350800,
     "endedAt": 1794509999
+  },
+  {
+    "individuality": [
+      11017
+    ],
+    "script": {},
+    "eventId": 0,
+    "eventGroupId": 0,
+    "isPresent": false,
+    "maxNum": 0,
+    "tradePickupTime": 86400,
+    "skillList": [],
+    "id": 94164000,
+    "name": "MISOおでん",
+    "detail": "【イベント収集アイテム】\n『ぐだぐだぷにぷにウォーズ！』\nで手に入れた、GUNMA名物のおでん。\nGUNMAで\"みそおでん\"と言ったら、\n一般的なおでんではなく\nこんにゃくに甘いみそだれをかけたもの。",
+    "imageId": 94164000,
+    "bgImageId": 1,
+    "type": 15,
+    "unit": "",
+    "value": 0,
+    "sellQp": -1,
+    "isSell": false,
+    "priority": 94164000,
+    "dropPriority": 2000,
+    "startedAt": 1794394800,
+    "endedAt": 1796788799
+  },
+  {
+    "individuality": [
+      11018
+    ],
+    "script": {},
+    "eventId": 0,
+    "eventGroupId": 0,
+    "isPresent": false,
+    "maxNum": 0,
+    "tradePickupTime": 86400,
+    "skillList": [],
+    "id": 94164001,
+    "name": "SHIMONITAネギ",
+    "detail": "【イベント収集アイテム】\n『ぐだぐだぷにぷにウォーズ！』\nで手に入れた、GUNMA名物のネギ。\n太くて短い姿が特徴。\nすき焼きや鍋物に最の高。",
+    "imageId": 94164001,
+    "bgImageId": 2,
+    "type": 15,
+    "unit": "",
+    "value": 0,
+    "sellQp": -1,
+    "isSell": false,
+    "priority": 94164001,
+    "dropPriority": 2001,
+    "startedAt": 1794394800,
+    "endedAt": 1796788799
+  },
+  {
+    "individuality": [
+      11019
+    ],
+    "script": {},
+    "eventId": 0,
+    "eventGroupId": 0,
+    "isPresent": false,
+    "maxNum": 0,
+    "tradePickupTime": 86400,
+    "skillList": [],
+    "id": 94164002,
+    "name": "YAKIまんじゅう",
+    "detail": "【イベント収集アイテム】\n『ぐだぐだぷにぷにウォーズ！』\nで手に入れた、GUNMA名物のまんじゅう。\n具の入っていない素まんじゅうに\n甘いみそだれを塗って焼いたもの。\n餡が入っているバージョンもある。\nGUNMAの民のソウルフード。",
+    "imageId": 94164002,
+    "bgImageId": 3,
+    "type": 15,
+    "unit": "",
+    "value": 0,
+    "sellQp": -1,
+    "isSell": false,
+    "priority": 94164002,
+    "dropPriority": 2002,
+    "startedAt": 1794394800,
+    "endedAt": 1796788799
+  },
+  {
+    "individuality": [
+      11020
+    ],
+    "script": {},
+    "eventId": 0,
+    "eventGroupId": 0,
+    "isPresent": false,
+    "maxNum": 0,
+    "tradePickupTime": 86400,
+    "skillList": [],
+    "id": 94164003,
+    "name": "GUNMA温泉ポイント",
+    "detail": "【イベントポイント】\n『ぐだぐだぷにぷにウォーズ！』\nで手に入れた、\nGUNMAの温泉地を巡ることで\n得られるポイント。",
+    "imageId": 94164003,
+    "bgImageId": 2,
+    "type": 14,
+    "unit": "",
+    "value": 0,
+    "sellQp": -1,
+    "isSell": false,
+    "priority": 94164003,
+    "dropPriority": 3003,
+    "startedAt": 1794394800,
+    "endedAt": 1796788799
+  },
+  {
+    "individuality": [
+      11021
+    ],
+    "script": {},
+    "eventId": 0,
+    "eventGroupId": 0,
+    "isPresent": false,
+    "maxNum": 0,
+    "tradePickupTime": 86400,
+    "skillList": [],
+    "id": 94164004,
+    "name": "ヒラグモちゃん",
+    "detail": "【霊基再臨素材】\n『ぐだぐだぷにぷにウォーズ！』\nで手に入れた、弾正ちゃんが\nぶら下げている平蜘蛛。\nバッグっぽくぶら下げているが、\n伝説の古天明平蜘蛛そのものである。",
+    "imageId": 94164004,
+    "bgImageId": 3,
+    "type": 15,
+    "unit": "",
+    "value": 0,
+    "sellQp": -1,
+    "isSell": false,
+    "priority": 94164004,
+    "dropPriority": 2004,
+    "startedAt": 1794394800,
+    "endedAt": 1910876400
   },
   {
     "individuality": [],
@@ -50025,6 +50203,30 @@
     "type": 29,
     "unit": "",
     "value": 2801300,
+    "sellQp": -1,
+    "isSell": false,
+    "priority": 57,
+    "dropPriority": 1003,
+    "startedAt": 946652400,
+    "endedAt": 1910876400
+  },
+  {
+    "individuality": [],
+    "script": {},
+    "eventId": 0,
+    "eventGroupId": 0,
+    "isPresent": false,
+    "maxNum": 0,
+    "tradePickupTime": 86400,
+    "skillList": [],
+    "id": 280140001,
+    "name": "サーヴァントコイン",
+    "detail": "【サーヴァント強化素材】\nサーヴァントの霊基のカケラ。",
+    "imageId": 2801400,
+    "bgImageId": 2,
+    "type": 29,
+    "unit": "",
+    "value": 2801400,
     "sellQp": -1,
     "isSell": false,
     "priority": 57,
