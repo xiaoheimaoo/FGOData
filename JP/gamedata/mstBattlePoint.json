@@ -1,6 +1,27 @@
 [
   {
     "script": {
+      "defaultMax": 4,
+      "maxLimit": 12,
+      "priorityDisplayRules": [
+        {
+          "type": "SKILL_DIALOG",
+          "includedSkillIndividuality": [
+            [
+              10054
+            ]
+          ]
+        },
+        {
+          "type": "SKILL_DIALOG",
+          "includedSkillIndividuality": [
+            [
+              10053
+            ]
+          ],
+          "targetType": 1
+        }
+      ],
       "maxChange": [
         {
           "individuality": [
@@ -8,16 +29,51 @@
           ],
           "value": 8
         }
-      ],
-      "defaultMax": 4,
-      "maxLimit": 12
+      ]
     },
     "id": 705300,
     "name": "まんぷくゲージ",
     "flag": 48
   },
   {
-    "script": {},
+    "script": {
+      "priorityDisplayRules": [
+        {
+          "type": "SKILL_DIALOG",
+          "ownerIndividuality": [
+            [
+              3300200
+            ]
+          ],
+          "targetType": 1
+        },
+        {
+          "type": "MASTER_SKILL_DIALOG",
+          "includedSkillIds": [],
+          "targetIndividuality": [
+            [
+              3300200
+            ]
+          ]
+        },
+        {
+          "type": "COMMAND_SPELL_DIALOG",
+          "targetIndividuality": [
+            [
+              3300200
+            ]
+          ]
+        },
+        {
+          "type": "COMMAND_PHASE",
+          "targetIndividuality": [
+            [
+              3300200
+            ]
+          ]
+        }
+      ]
+    },
     "id": 3300200,
     "name": "マスター好感度",
     "flag": 9
