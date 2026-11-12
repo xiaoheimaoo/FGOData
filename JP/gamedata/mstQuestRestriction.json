@@ -38381,6 +38381,52 @@
   },
   {
     "script": {},
+    "questId": 94164003,
+    "phase": 1,
+    "restrictionId": 94164001,
+    "priority": 0,
+    "frequencyType": 0,
+    "dialogMessage": "クエストを開始するためには、\nスターティングメンバーに\n2騎のサーヴァントが必要です。",
+    "noticeMessage": "",
+    "title": ""
+  },
+  {
+    "script": {},
+    "questId": 94164003,
+    "phase": 1,
+    "restrictionId": 94164002,
+    "priority": 0,
+    "frequencyType": 1,
+    "dialogMessage": "所持している松永久秀を\nスターティングメンバーに設定してください。",
+    "noticeMessage": "",
+    "title": "松永久秀"
+  },
+  {
+    "script": {},
+    "questId": 94164003,
+    "phase": 1,
+    "restrictionId": 94164003,
+    "priority": 0,
+    "frequencyType": 1,
+    "dialogMessage": "沖田総司〔オルタ〕(セイバー)を\nスターティングメンバーに設定してください。",
+    "noticeMessage": "",
+    "title": "沖田総司〔オルタ〕"
+  },
+  {
+    "script": {
+      "overwriteRestrictionErrorDialogConditionName": "松永久秀編成不可"
+    },
+    "questId": 94164004,
+    "phase": 1,
+    "restrictionId": 94164004,
+    "priority": 0,
+    "frequencyType": 1,
+    "dialogMessage": "このクエストでは、\n松永久秀は\n編成できません。",
+    "noticeMessage": "",
+    "title": ""
+  },
+  {
+    "script": {},
     "questId": 94164700,
     "phase": 1,
     "restrictionId": 94158820,
