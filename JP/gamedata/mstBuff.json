@@ -30203,8 +30203,8 @@
     "ckSelfIndv": [],
     "ckOpIndv": [],
     "script": {
-      "defPriority": 2000,
-      "relationId": 115
+      "relationId": 115,
+      "defPriority": 2000
     },
     "id": 2585,
     "buffGroup": 0,
@@ -36592,8 +36592,8 @@
     "ckSelfIndv": [],
     "ckOpIndv": [],
     "script": {
-      "ReleaseText": "睡眠解除",
-      "DamageRelease": 1
+      "DamageRelease": 1,
+      "ReleaseText": "睡眠解除"
     },
     "id": 2935,
     "buffGroup": 503,
@@ -36615,8 +36615,8 @@
     "ckSelfIndv": [],
     "ckOpIndv": [],
     "script": {
-      "ReleaseText": "睡眠解除",
-      "DamageRelease": 1
+      "DamageRelease": 1,
+      "ReleaseText": "睡眠解除"
     },
     "id": 2936,
     "buffGroup": 503,
@@ -50068,8 +50068,8 @@
       9943330
     ],
     "script": {
-      "checkIndvType": 1,
-      "HP_LOWER": 0
+      "HP_LOWER": 0,
+      "checkIndvType": 1
     },
     "id": 3708,
     "buffGroup": 0,
@@ -53436,8 +53436,8 @@
     "ckSelfIndv": [],
     "ckOpIndv": [],
     "script": {
-      "ReleaseText": "睡眠解除",
-      "DamageRelease": 1
+      "DamageRelease": 1,
+      "ReleaseText": "睡眠解除"
     },
     "id": 3891,
     "buffGroup": 503,
@@ -56484,8 +56484,8 @@
     "ckSelfIndv": [],
     "ckOpIndv": [],
     "script": {
-      "defPriority": 2000,
-      "relationId": 135
+      "relationId": 135,
+      "defPriority": 2000
     },
     "id": 4061,
     "buffGroup": 0,
@@ -56842,8 +56842,8 @@
       -6044
     ],
     "script": {
-      "CounterMessage": "フラガラック発動",
-      "checkIndvType": 2
+      "checkIndvType": 2,
+      "CounterMessage": "フラガラック発動"
     },
     "id": 4081,
     "buffGroup": 506,
@@ -80333,9 +80333,9 @@
       -3139
     ],
     "script": {
-      "DisplayPriority": 600,
       "INDIVIDUALITIE": -3086,
-      "checkIndvType": 2
+      "checkIndvType": 2,
+      "DisplayPriority": 600
     },
     "id": 5559,
     "buffGroup": 5559,
@@ -82694,9 +82694,9 @@
       -1000
     ],
     "script": {
-      "IndvAddBuffPassive": 1,
+      "ProgressSelfTurn": 1,
       "checkIndvType": 4,
-      "ProgressSelfTurn": 1
+      "IndvAddBuffPassive": 1
     },
     "id": 5683,
     "buffGroup": 0,
@@ -85601,8 +85601,8 @@
       -6044
     ],
     "script": {
-      "CounterMessage": "カウンター発動",
-      "checkIndvType": 4
+      "checkIndvType": 4,
+      "CounterMessage": "カウンター発動"
     },
     "id": 5824,
     "buffGroup": 506,
@@ -86266,8 +86266,8 @@
       -2981
     ],
     "script": {
-      "IndvAddBuffPassive": 1,
       "checkIndvType": 2,
+      "IndvAddBuffPassive": 1,
       "UnSubStateWhenContinue": 3
     },
     "id": 5863,
@@ -86829,9 +86829,9 @@
       -3139
     ],
     "script": {
-      "DisplayPriority": 600,
       "INDIVIDUALITIE": -3086,
-      "checkIndvType": 2
+      "checkIndvType": 2,
+      "DisplayPriority": 600
     },
     "id": 5892,
     "buffGroup": 5892,
@@ -87118,8 +87118,8 @@
     "ckSelfIndv": [],
     "ckOpIndv": [],
     "script": {
-      "defPriority": 2000,
-      "relationId": 197
+      "relationId": 197,
+      "defPriority": 2000
     },
     "id": 5907,
     "buffGroup": 0,
@@ -87736,8 +87736,8 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "INDIVIDUALITIE_OR": "10002,10003,10004",
-      "individualityCondTargetType": 3
+      "individualityCondTargetType": 3,
+      "INDIVIDUALITIE_OR": "10002,10003,10004"
     },
     "id": 5938,
     "buffGroup": 0,
@@ -90432,8 +90432,8 @@
     "ckSelfIndv": [],
     "ckOpIndv": [],
     "script": {
-      "condGrantorRelativePosition": -1,
-      "relationId": 120
+      "relationId": 120,
+      "condGrantorRelativePosition": -1
     },
     "id": 6088,
     "buffGroup": 0,
@@ -95669,8 +95669,8 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "IndvAddBuffPassive": 1,
-      "checkIndvType": 3
+      "checkIndvType": 3,
+      "IndvAddBuffPassive": 1
     },
     "id": 30228,
     "buffGroup": 0,
@@ -95691,8 +95691,8 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "IndvAddBuffPassive": 1,
-      "checkIndvType": 1
+      "checkIndvType": 1,
+      "IndvAddBuffPassive": 1
     },
     "id": 30229,
     "buffGroup": 0,
@@ -95714,8 +95714,8 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "IndvAddBuffPassive": 1,
-      "checkIndvType": 1
+      "checkIndvType": 1,
+      "IndvAddBuffPassive": 1
     },
     "id": 30230,
     "buffGroup": 0,
@@ -95737,8 +95737,8 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "IndvAddBuffPassive": 1,
-      "checkIndvType": 1
+      "checkIndvType": 1,
+      "IndvAddBuffPassive": 1
     },
     "id": 30231,
     "buffGroup": 0,
@@ -95760,8 +95760,8 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "IndvAddBuffPassive": 1,
-      "checkIndvType": 3
+      "checkIndvType": 3,
+      "IndvAddBuffPassive": 1
     },
     "id": 30232,
     "buffGroup": 0,
@@ -95783,8 +95783,8 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "IndvAddBuffPassive": 1,
-      "checkIndvType": 1
+      "checkIndvType": 1,
+      "IndvAddBuffPassive": 1
     },
     "id": 30233,
     "buffGroup": 0,
@@ -95804,8 +95804,8 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "IndvAddBuffPassive": 1,
-      "checkIndvType": 3
+      "checkIndvType": 3,
+      "IndvAddBuffPassive": 1
     },
     "id": 30234,
     "buffGroup": 0,
@@ -95826,8 +95826,8 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "IndvAddBuffPassive": 1,
-      "checkIndvType": 1
+      "checkIndvType": 1,
+      "IndvAddBuffPassive": 1
     },
     "id": 30235,
     "buffGroup": 0,
@@ -95849,8 +95849,8 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "IndvAddBuffPassive": 1,
-      "checkIndvType": 1
+      "checkIndvType": 1,
+      "IndvAddBuffPassive": 1
     },
     "id": 30236,
     "buffGroup": 0,
@@ -95872,8 +95872,8 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "IndvAddBuffPassive": 1,
-      "checkIndvType": 1
+      "checkIndvType": 1,
+      "IndvAddBuffPassive": 1
     },
     "id": 30237,
     "buffGroup": 0,
@@ -95895,8 +95895,8 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "IndvAddBuffPassive": 1,
-      "checkIndvType": 3
+      "checkIndvType": 3,
+      "IndvAddBuffPassive": 1
     },
     "id": 30238,
     "buffGroup": 0,
@@ -95918,8 +95918,8 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "IndvAddBuffPassive": 1,
-      "checkIndvType": 1
+      "checkIndvType": 1,
+      "IndvAddBuffPassive": 1
     },
     "id": 30239,
     "buffGroup": 0,
@@ -95939,8 +95939,8 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "IndvAddBuffPassive": 1,
-      "checkIndvType": 3
+      "checkIndvType": 3,
+      "IndvAddBuffPassive": 1
     },
     "id": 30240,
     "buffGroup": 0,
@@ -95961,8 +95961,8 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "IndvAddBuffPassive": 1,
-      "checkIndvType": 1
+      "checkIndvType": 1,
+      "IndvAddBuffPassive": 1
     },
     "id": 30241,
     "buffGroup": 0,
@@ -95984,8 +95984,8 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "IndvAddBuffPassive": 1,
-      "checkIndvType": 1
+      "checkIndvType": 1,
+      "IndvAddBuffPassive": 1
     },
     "id": 30242,
     "buffGroup": 0,
@@ -96007,8 +96007,8 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "IndvAddBuffPassive": 1,
-      "checkIndvType": 1
+      "checkIndvType": 1,
+      "IndvAddBuffPassive": 1
     },
     "id": 30243,
     "buffGroup": 0,
@@ -96030,8 +96030,8 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "IndvAddBuffPassive": 1,
-      "checkIndvType": 3
+      "checkIndvType": 3,
+      "IndvAddBuffPassive": 1
     },
     "id": 30244,
     "buffGroup": 0,
@@ -96053,8 +96053,8 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "IndvAddBuffPassive": 1,
-      "checkIndvType": 1
+      "checkIndvType": 1,
+      "IndvAddBuffPassive": 1
     },
     "id": 30245,
     "buffGroup": 0,
@@ -120154,8 +120154,8 @@
     "ckSelfIndv": [],
     "ckOpIndv": [],
     "script": {
-      "INDIVIDUALITIE": 3006,
       "INDIVIDUALITIE_COUNT_ABOVE": 15,
+      "INDIVIDUALITIE": 3006,
       "ExcludeUnSubStateIndiv": 1
     },
     "id": 94094469,
@@ -122743,9 +122743,9 @@
     "ckSelfIndv": [],
     "ckOpIndv": [],
     "script": {
-      "INDIVIDUALITIE": -6026,
       "relationId": 167,
-      "atkPriority": 2000
+      "atkPriority": 2000,
+      "INDIVIDUALITIE": -6026
     },
     "id": 94094938,
     "buffGroup": 0,
@@ -125649,8 +125649,8 @@
       -3060
     ],
     "script": {
-      "IndvAddBuffPassive": 1,
-      "checkIndvType": 2
+      "checkIndvType": 2,
+      "IndvAddBuffPassive": 1
     },
     "id": 94097400,
     "buffGroup": 0,
@@ -125673,8 +125673,8 @@
       -3060
     ],
     "script": {
-      "IndvAddBuffPassive": 1,
-      "checkIndvType": 2
+      "checkIndvType": 2,
+      "IndvAddBuffPassive": 1
     },
     "id": 94097401,
     "buffGroup": 0,
@@ -125702,8 +125702,8 @@
       -3060
     ],
     "script": {
-      "IndvAddBuffPassive": 1,
-      "checkIndvType": 2
+      "checkIndvType": 2,
+      "IndvAddBuffPassive": 1
     },
     "id": 94097402,
     "buffGroup": 0,
@@ -125726,8 +125726,8 @@
       -3060
     ],
     "script": {
-      "IndvAddBuffPassive": 1,
-      "checkIndvType": 2
+      "checkIndvType": 2,
+      "IndvAddBuffPassive": 1
     },
     "id": 94097403,
     "buffGroup": 0,
@@ -125750,8 +125750,8 @@
       -3060
     ],
     "script": {
-      "IndvAddBuffPassive": 1,
-      "checkIndvType": 2
+      "checkIndvType": 2,
+      "IndvAddBuffPassive": 1
     },
     "id": 94097404,
     "buffGroup": 0,
@@ -125779,8 +125779,8 @@
       -3060
     ],
     "script": {
-      "IndvAddBuffPassive": 1,
-      "checkIndvType": 2
+      "checkIndvType": 2,
+      "IndvAddBuffPassive": 1
     },
     "id": 94097405,
     "buffGroup": 0,
@@ -145037,13 +145037,13 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "DisplayPriority": 770,
       "checkIndvType": 3,
       "individualityDisplayOnCard": [
         [
           4003
         ]
-      ]
+      ],
+      "DisplayPriority": 770
     },
     "id": 94141939,
     "buffGroup": 0,
@@ -145072,13 +145072,13 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "DisplayPriority": 780,
       "checkIndvType": 3,
       "individualityDisplayOnCard": [
         [
           4003
         ]
-      ]
+      ],
+      "DisplayPriority": 780
     },
     "id": 94141940,
     "buffGroup": 0,
@@ -145107,13 +145107,13 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "DisplayPriority": 790,
       "checkIndvType": 3,
       "individualityDisplayOnCard": [
         [
           4003
         ]
-      ]
+      ],
+      "DisplayPriority": 790
     },
     "id": 94141941,
     "buffGroup": 0,
@@ -145142,13 +145142,13 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "DisplayPriority": 800,
       "checkIndvType": 3,
       "individualityDisplayOnCard": [
         [
           4003
         ]
-      ]
+      ],
+      "DisplayPriority": 800
     },
     "id": 94141942,
     "buffGroup": 0,
@@ -145177,13 +145177,13 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "DisplayPriority": 810,
       "checkIndvType": 3,
       "individualityDisplayOnCard": [
         [
           4003
         ]
-      ]
+      ],
+      "DisplayPriority": 810
     },
     "id": 94141943,
     "buffGroup": 0,
@@ -145212,13 +145212,13 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "DisplayPriority": 720,
       "checkIndvType": 3,
       "individualityDisplayOnCard": [
         [
           4001
         ]
-      ]
+      ],
+      "DisplayPriority": 720
     },
     "id": 94141944,
     "buffGroup": 0,
@@ -145247,13 +145247,13 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "DisplayPriority": 730,
       "checkIndvType": 3,
       "individualityDisplayOnCard": [
         [
           4001
         ]
-      ]
+      ],
+      "DisplayPriority": 730
     },
     "id": 94141945,
     "buffGroup": 0,
@@ -145282,13 +145282,13 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "DisplayPriority": 740,
       "checkIndvType": 3,
       "individualityDisplayOnCard": [
         [
           4001
         ]
-      ]
+      ],
+      "DisplayPriority": 740
     },
     "id": 94141946,
     "buffGroup": 0,
@@ -145317,13 +145317,13 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "DisplayPriority": 750,
       "checkIndvType": 3,
       "individualityDisplayOnCard": [
         [
           4001
         ]
-      ]
+      ],
+      "DisplayPriority": 750
     },
     "id": 94141947,
     "buffGroup": 0,
@@ -145352,13 +145352,13 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "DisplayPriority": 760,
       "checkIndvType": 3,
       "individualityDisplayOnCard": [
         [
           4001
         ]
-      ]
+      ],
+      "DisplayPriority": 760
     },
     "id": 94141948,
     "buffGroup": 0,
@@ -145387,13 +145387,13 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "DisplayPriority": 670,
       "checkIndvType": 3,
       "individualityDisplayOnCard": [
         [
           4002
         ]
-      ]
+      ],
+      "DisplayPriority": 670
     },
     "id": 94141949,
     "buffGroup": 0,
@@ -145422,13 +145422,13 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "DisplayPriority": 680,
       "checkIndvType": 3,
       "individualityDisplayOnCard": [
         [
           4002
         ]
-      ]
+      ],
+      "DisplayPriority": 680
     },
     "id": 94141950,
     "buffGroup": 0,
@@ -145457,13 +145457,13 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "DisplayPriority": 690,
       "checkIndvType": 3,
       "individualityDisplayOnCard": [
         [
           4002
         ]
-      ]
+      ],
+      "DisplayPriority": 690
     },
     "id": 94141951,
     "buffGroup": 0,
@@ -145492,13 +145492,13 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "DisplayPriority": 700,
       "checkIndvType": 3,
       "individualityDisplayOnCard": [
         [
           4002
         ]
-      ]
+      ],
+      "DisplayPriority": 700
     },
     "id": 94141952,
     "buffGroup": 0,
@@ -145527,13 +145527,13 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "DisplayPriority": 710,
       "checkIndvType": 3,
       "individualityDisplayOnCard": [
         [
           4002
         ]
-      ]
+      ],
+      "DisplayPriority": 710
     },
     "id": 94141953,
     "buffGroup": 0,
@@ -145562,14 +145562,14 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "DisplayPriority": 920,
       "checkIndvType": 3,
       "individualityDisplayOnCard": [
         [
           4003,
           4007
         ]
-      ]
+      ],
+      "DisplayPriority": 920
     },
     "id": 94141954,
     "buffGroup": 0,
@@ -145598,14 +145598,14 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "DisplayPriority": 930,
       "checkIndvType": 3,
       "individualityDisplayOnCard": [
         [
           4003,
           4007
         ]
-      ]
+      ],
+      "DisplayPriority": 930
     },
     "id": 94141955,
     "buffGroup": 0,
@@ -145634,14 +145634,14 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "DisplayPriority": 940,
       "checkIndvType": 3,
       "individualityDisplayOnCard": [
         [
           4003,
           4007
         ]
-      ]
+      ],
+      "DisplayPriority": 940
     },
     "id": 94141956,
     "buffGroup": 0,
@@ -145670,14 +145670,14 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "DisplayPriority": 950,
       "checkIndvType": 3,
       "individualityDisplayOnCard": [
         [
           4003,
           4007
         ]
-      ]
+      ],
+      "DisplayPriority": 950
     },
     "id": 94141957,
     "buffGroup": 0,
@@ -145706,14 +145706,14 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "DisplayPriority": 960,
       "checkIndvType": 3,
       "individualityDisplayOnCard": [
         [
           4003,
           4007
         ]
-      ]
+      ],
+      "DisplayPriority": 960
     },
     "id": 94141958,
     "buffGroup": 0,
@@ -145742,14 +145742,14 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "DisplayPriority": 870,
       "checkIndvType": 3,
       "individualityDisplayOnCard": [
         [
           4001,
           4007
         ]
-      ]
+      ],
+      "DisplayPriority": 870
     },
     "id": 94141959,
     "buffGroup": 0,
@@ -145778,14 +145778,14 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "DisplayPriority": 880,
       "checkIndvType": 3,
       "individualityDisplayOnCard": [
         [
           4001,
           4007
         ]
-      ]
+      ],
+      "DisplayPriority": 880
     },
     "id": 94141960,
     "buffGroup": 0,
@@ -145814,14 +145814,14 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "DisplayPriority": 890,
       "checkIndvType": 3,
       "individualityDisplayOnCard": [
         [
           4001,
           4007
         ]
-      ]
+      ],
+      "DisplayPriority": 890
     },
     "id": 94141961,
     "buffGroup": 0,
@@ -145850,14 +145850,14 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "DisplayPriority": 900,
       "checkIndvType": 3,
       "individualityDisplayOnCard": [
         [
           4001,
           4007
         ]
-      ]
+      ],
+      "DisplayPriority": 900
     },
     "id": 94141962,
     "buffGroup": 0,
@@ -145886,14 +145886,14 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "DisplayPriority": 910,
       "checkIndvType": 3,
       "individualityDisplayOnCard": [
         [
           4001,
           4007
         ]
-      ]
+      ],
+      "DisplayPriority": 910
     },
     "id": 94141963,
     "buffGroup": 0,
@@ -145922,14 +145922,14 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "DisplayPriority": 820,
       "checkIndvType": 3,
       "individualityDisplayOnCard": [
         [
           4002,
           4007
         ]
-      ]
+      ],
+      "DisplayPriority": 820
     },
     "id": 94141964,
     "buffGroup": 0,
@@ -145958,14 +145958,14 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "DisplayPriority": 830,
       "checkIndvType": 3,
       "individualityDisplayOnCard": [
         [
           4002,
           4007
         ]
-      ]
+      ],
+      "DisplayPriority": 830
     },
     "id": 94141965,
     "buffGroup": 0,
@@ -145994,14 +145994,14 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "DisplayPriority": 840,
       "checkIndvType": 3,
       "individualityDisplayOnCard": [
         [
           4002,
           4007
         ]
-      ]
+      ],
+      "DisplayPriority": 840
     },
     "id": 94141966,
     "buffGroup": 0,
@@ -146030,14 +146030,14 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "DisplayPriority": 850,
       "checkIndvType": 3,
       "individualityDisplayOnCard": [
         [
           4002,
           4007
         ]
-      ]
+      ],
+      "DisplayPriority": 850
     },
     "id": 94141967,
     "buffGroup": 0,
@@ -146066,14 +146066,14 @@
     ],
     "ckOpIndv": [],
     "script": {
-      "DisplayPriority": 860,
       "checkIndvType": 3,
       "individualityDisplayOnCard": [
         [
           4002,
           4007
         ]
-      ]
+      ],
+      "DisplayPriority": 860
     },
     "id": 94141968,
     "buffGroup": 0,
@@ -147742,9 +147742,9 @@
     "ckSelfIndv": [],
     "ckOpIndv": [],
     "script": {
-      "DisplayPriority": 990,
       "ExcludeUnSubStateIndiv": 1,
-      "INDIVIDUALITIE_OR": "3019,3059,3104,3111,3112"
+      "INDIVIDUALITIE_OR": "3019,3059,3104,3111,3112",
+      "DisplayPriority": 990
     },
     "id": 94142050,
     "buffGroup": 0,
@@ -147761,9 +147761,9 @@
     "ckSelfIndv": [],
     "ckOpIndv": [],
     "script": {
-      "DisplayPriority": 980,
       "ExcludeUnSubStateIndiv": 1,
-      "INDIVIDUALITIE_OR": 3083
+      "INDIVIDUALITIE_OR": 3083,
+      "DisplayPriority": 980
     },
     "id": 94142051,
     "buffGroup": 0,
@@ -147780,9 +147780,9 @@
     "ckSelfIndv": [],
     "ckOpIndv": [],
     "script": {
-      "DisplayPriority": 970,
       "ExcludeUnSubStateIndiv": 1,
-      "INDIVIDUALITIE_OR": 3084
+      "INDIVIDUALITIE_OR": 3084,
+      "DisplayPriority": 970
     },
     "id": 94142052,
     "buffGroup": 0,
@@ -155038,8 +155038,8 @@
     "ckOpIndv": [],
     "script": {
       "INDIVIDUALITIE": 3007,
-      "ExcludeUnSubStateIndiv": 1,
-      "INDIVIDUALITIE_COUNT_BELOW": 2
+      "INDIVIDUALITIE_COUNT_BELOW": 2,
+      "ExcludeUnSubStateIndiv": 1
     },
     "id": 94146214,
     "buffGroup": 0,
@@ -155061,8 +155061,8 @@
     "ckOpIndv": [],
     "script": {
       "INDIVIDUALITIE": 3006,
-      "ExcludeUnSubStateIndiv": 1,
-      "INDIVIDUALITIE_COUNT_BELOW": 6
+      "INDIVIDUALITIE_COUNT_BELOW": 6,
+      "ExcludeUnSubStateIndiv": 1
     },
     "id": 94146215,
     "buffGroup": 0,
@@ -156180,9 +156180,9 @@
     "ckSelfIndv": [],
     "ckOpIndv": [],
     "script": {
-      "DisplayPriority": 800,
       "ckIndvCountAbove": 2,
-      "ckSelfCountIndividuality": "6039"
+      "ckSelfCountIndividuality": "6039",
+      "DisplayPriority": 800
     },
     "id": 94146806,
     "buffGroup": 0,
@@ -157964,8 +157964,8 @@
     "ckOpIndv": [],
     "script": {
       "INDIVIDUALITIE": 3006,
-      "ExcludeUnSubStateIndiv": 1,
-      "INDIVIDUALITIE_COUNT_ABOVE": 5
+      "INDIVIDUALITIE_COUNT_ABOVE": 5,
+      "ExcludeUnSubStateIndiv": 1
     },
     "id": 94147300,
     "buffGroup": 0,
@@ -166702,8 +166702,8 @@
     "ckSelfIndv": [],
     "ckOpIndv": [],
     "script": {
-      "ReleaseText": "睡眠解除",
-      "DamageRelease": 1
+      "DamageRelease": 1,
+      "ReleaseText": "睡眠解除"
     },
     "id": 94152171,
     "buffGroup": 503,
@@ -167509,9 +167509,9 @@
     "ckSelfIndv": [],
     "ckOpIndv": [],
     "script": {
-      "DisplayPriority": 4000,
       "INDIVIDUALITIE": 3005,
-      "ExcludeUnSubStateIndiv": 1
+      "ExcludeUnSubStateIndiv": 1,
+      "DisplayPriority": 4000
     },
     "id": 94152212,
     "buffGroup": 0,
@@ -168237,8 +168237,8 @@
     "ckSelfIndv": [],
     "ckOpIndv": [],
     "script": {
-      "defPriority": 900,
-      "relationId": 94152801
+      "relationId": 94152801,
+      "defPriority": 900
     },
     "id": 94153010,
     "buffGroup": 0,
@@ -177394,8 +177394,8 @@
       -6044
     ],
     "script": {
-      "CounterMessage": "カウンター発動",
-      "checkIndvType": 4
+      "checkIndvType": 4,
+      "CounterMessage": "カウンター発動"
     },
     "id": 94160900,
     "buffGroup": 506,
@@ -177648,8 +177648,8 @@
     "ckOpIndv": [],
     "script": {
       "INDIVIDUALITIE": 6027,
-      "individualityTargetCount": "<=0",
-      "individualityCondTargetType": 2
+      "individualityCondTargetType": 2,
+      "individualityTargetCount": "<=0"
     },
     "id": 94160916,
     "buffGroup": 700,
@@ -179909,6 +179909,94 @@
     "name": "環境適応",
     "detail": "クラス相性を〔セイバー〕に変更する",
     "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94164041,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "ターン終了時、自身の攻撃力をアップ＆HPが回復する",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94164043,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "青き壁",
+    "detail": "防御力をアップ",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94164044,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "毎ターン発動",
+    "detail": "ターン終了時、自身の攻撃力をアップ＆HPが回復する",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94164045,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、対象の防御力をダウン<1ターンに1回だけ発動>",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94164046,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、自身のHP回復量をアップ＆攻撃力をアップ",
+    "iconId": 365,
     "maxRate": 0,
     "effectId": 0
   },
