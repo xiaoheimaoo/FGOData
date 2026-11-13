@@ -39802,8 +39802,8 @@
     "id": 3103,
     "buffGroup": 0,
     "type": 137,
-    "name": "Bonus Effect with Quick Attack (Remove Curse)",
-    "detail": "Remove 1 Curse when attacking with Quick Card, and increase your ATK if removal is successful",
+    "name": "Bonus Effect with Quick Attack",
+    "detail": "Remove 1 Curse from yourself when attacking with a Quick Card & slightly increase ATK for yourself when removal is successful",
     "iconId": 333,
     "maxRate": 0,
     "effectId": 0
@@ -46489,7 +46489,7 @@
     "id": 3491,
     "buffGroup": 0,
     "type": 149,
-    "name": "Activate when Guts Is Triggered (Increase NP)",
+    "name": "Activate when Guts is Triggered",
     "detail": "Increase NP Gauge for all allies when Guts is activated",
     "iconId": 365,
     "maxRate": 0,
@@ -53707,7 +53707,7 @@
     "id": 3892,
     "buffGroup": 0,
     "type": 149,
-    "name": "Activate when Guts is Triggered (NP Gain)",
+    "name": "Activate when Guts is Triggered",
     "detail": "Increase NP Gauge for yourself when Guts is activated",
     "iconId": 365,
     "maxRate": 0,
@@ -83212,6 +83212,36 @@
     "effectId": 0
   },
   {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5698,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Super Duper Crafter",
+    "detail": "Increase damage dealt during \"Smash! Mystery House Crafters\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5699,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Strength Up",
+    "detail": "Increase damage dealt during \"Smash! Mystery House Crafters\"",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
     "vals": [
       3004,
       3006,
@@ -84165,6 +84195,310 @@
     "detail": "Damage taken, NP generated, and C. Star drop rate from Critical attacks increases",
     "iconId": 573,
     "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [
+      1002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      1002
+    ],
+    "script": {},
+    "id": 5742,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "DEF Up [Undead]",
+    "detail": "Increase DEF against [Undead]",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3110
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3110
+    ],
+    "script": {},
+    "id": 5744,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "DEF Down Immune",
+    "detail": "Immune to DEF Down effect",
+    "iconId": 322,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      3026
+    ],
+    "ckSelfIndv": [
+      3026
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5745,
+    "buffGroup": 0,
+    "type": 27,
+    "name": "Curse Chance Up",
+    "detail": "Increase Curse chance rate",
+    "iconId": 307,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5746,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Activate on Defeat",
+    "detail": "Gain a large amount of C. Stars when defeated",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5747,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "Activate when Guts Is Triggered",
+    "detail": "Gain a large amount of C. Stars when Guts is activated",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5748,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect with Attack",
+    "detail": "Inflict Curse to target when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3083
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      4002
+    ],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 5749,
+    "buffGroup": 0,
+    "type": 3,
+    "name": "C. Star Drop Rate Up: Buster",
+    "detail": "Increase C. Star Drop Rate during Buster attack",
+    "iconId": 321,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5750,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "Critical Hit Rate Up",
+    "detail": "Increase Critical Hit Rate when on a [City] field",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3079,
+      2392
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5751,
+    "buffGroup": 0,
+    "type": 10001,
+    "name": "Field Change [City]",
+    "detail": "Change field to [City]",
+    "iconId": 407,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3014,
+      3045
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "id": 5752,
+    "buffGroup": 500,
+    "type": 32,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3038
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "missText": "Critical MISS"
+    },
+    "id": 5753,
+    "buffGroup": 0,
+    "type": 71,
+    "name": "",
+    "detail": "",
+    "iconId": 523,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5754,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "Activate when Guts Is Triggered",
+    "detail": "Slightly increase NP Gauge for all allies when Guts is activated",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5755,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Activate on Defeat",
+    "detail": "Slightly increase NP Gauge for all allies when defeated",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5756,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Activate on Defeat",
+    "detail": "Increase Critical Hit Rate for a single ally when defeated",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5757,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "Activate when Guts is Triggered",
+    "detail": "When Guts is activated, increase Critical Hit Rate for yourself",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5758,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "Activate on Defeat",
+    "detail": "Increase NP Gauge for all allies when you are defeated",
+    "iconId": 350,
+    "maxRate": 0,
     "effectId": 0
   },
   {
@@ -125316,6 +125650,2789 @@
     "name": "Authority of the Sea God (Ancient)",
     "detail": "During attack, remove 1 DEF Buff of a target",
     "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136601,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6036
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136602,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3033
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136603,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "Spirit Origin Slump",
+    "detail": "Decrease ATK & NP Strength",
+    "iconId": 503,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136604,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "All Roads Lead to Rome",
+    "detail": "Increase ATK",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136605,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Undead Hideout",
+    "detail": "Increase ATK for all allies excluding yourself + Increase DEF for all allies when you are on the field",
+    "iconId": 300,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136606,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "Flame Wall",
+    "detail": "Increase DEF",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136607,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "Amazing Peach Blossom Shangri-La",
+    "detail": "Increase Critical Hit Rate",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136608,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Chain Reaction Body",
+    "detail": "Increase Charge for yourself when attacked",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136609,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Activate when Damaged",
+    "detail": "Inflict Curse to a single enemy when attacked <activates once in 1 turn>",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136610,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "Cutting-Edge Technique (Abnormal Modification)",
+    "detail": "Increase Critical Hit damage & decrease Critical Hit Rate [Demerit]",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      3026
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3026
+    ],
+    "script": {},
+    "id": 94136611,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "When It Rains It Pours",
+    "detail": "Increase damage dealt to [Cursed] enemies",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136613,
+    "buffGroup": 0,
+    "type": 167,
+    "name": "Flame Body",
+    "detail": "Convert damage from Burn into HP recovery",
+    "iconId": 374,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3018,
+      3021,
+      3007
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136614,
+    "buffGroup": 200,
+    "type": 24,
+    "name": "Stealth",
+    "detail": "Reduce ATK damage taken to 0",
+    "iconId": 305,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      3049
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3049
+    ],
+    "script": {},
+    "id": 94136615,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Full Bloom Madness",
+    "detail": "Increase damage dealt to [Fear] enemies",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -6010
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94136616,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Giant Tree",
+    "detail": "Increase resistance against attacks other than from Paul Bunyan (NPC) & immune to Poison, Curse, and Burn",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3061
+    ],
+    "tvals": [
+      3011,
+      3015,
+      3026
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3011,
+      3015,
+      3026
+    ],
+    "script": {},
+    "id": 94136617,
+    "buffGroup": 0,
+    "type": 31,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136618,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect with Attack",
+    "detail": "Inflict Curse to target when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 3015
+    },
+    "id": 94136619,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "DEF Up",
+    "detail": "Increase DEF for yourself when in a Burned state",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3033
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136620,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "Slump",
+    "detail": "Decrease ATK",
+    "iconId": 503,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016,
+      6039
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136621,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Human-Wave Tactic",
+    "detail": "Increase resistance to all attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136623,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Xian Combine!",
+    "detail": "Increase resistance to all attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136624,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "Craftsman's Sketch",
+    "detail": "Increase ATK",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136625,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "Craftsman's Draft",
+    "detail": "Increase DEF",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136626,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "Craftsman's Prototype",
+    "detail": "Increase Critical Hit Rate",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136627,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Crucible of Cyclops",
+    "detail": "Increase resistance to all attacks & immune to all debuffs",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136628,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Crucible of Cyclops",
+    "detail": "Increase resistance to all attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136629,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Crucible of Cyclops",
+    "detail": "Increase DEF for yourself when attacked <activates once in 1 turn>",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136630,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "Craftsman's Authentic Work",
+    "detail": "Increase ATK & DEF & Critical Hit Rate",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136631,
+    "buffGroup": 0,
+    "type": 104,
+    "name": "Guts",
+    "detail": "When HP reaches 0, recover HP and survive",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136632,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Cheer for Bunyan",
+    "detail": "Decrease DEF of target during normal attacks + Increase ATK for Paul Bunyan (NPC)",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6021
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136633,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3026,
+      2729
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136634,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Tutankhamun's Curse",
+    "detail": "???",
+    "iconId": 521,
+    "maxRate": 0,
+    "effectId": 17123
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136635,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Sun God's Power",
+    "detail": "Increase resistance to all attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136636,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Hatred",
+    "detail": "Increase damage dealt to enemies",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136637,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "Solitary/Wandering",
+    "detail": "Increase Critical Hit Rate & decrease Critical Hit damage [Demerit]",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136638,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "Longing/Disappointment",
+    "detail": "Increase DEF",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136639,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Longing/Disappointment",
+    "detail": "Decrease DEF for yourself when attacked",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136640,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Self-Esteem/Self-Harm",
+    "detail": "Remove 1 Buff of target during normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136641,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "God of War's Servant",
+    "detail": "When defeated, increase Charge of [Theo-Tutankhamun] & remove one [Radiance] [Demerit]",
+    "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136642,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Terrifying Thing",
+    "detail": "Inflict Curse to target during normal attacks",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 94136601
+    },
+    "id": 94136643,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "King of the Tomb City",
+    "detail": "Gain class advantage against [Berserker] class",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3020
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136644,
+    "buffGroup": 900,
+    "type": 34,
+    "name": "Benevolent God of the West",
+    "detail": "Unable to use Noble Phantasms",
+    "iconId": 512,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136645,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Benevolent God of the West",
+    "detail": "Decrease HP for all enemies when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136646,
+    "buffGroup": 0,
+    "type": 85,
+    "name": "One with a Righteous Voice",
+    "detail": "Increase NP Gauge & ATK & remove 1 Poison for all allies excluding yourself at the end of turn",
+    "iconId": 343,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136647,
+    "buffGroup": 0,
+    "type": 104,
+    "name": "Survive",
+    "detail": "When HP reaches 0, recover HP and survive",
+    "iconId": 304,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136648,
+    "buffGroup": 0,
+    "type": 167,
+    "name": "Might of Monster",
+    "detail": "Convert damage from Burn into HP recovery",
+    "iconId": 374,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136649,
+    "buffGroup": 0,
+    "type": 89,
+    "name": "Might of King",
+    "detail": "Slightly increase NP Gauge for all allies during normal attacks",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136650,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "Might of Magical Tech",
+    "detail": "Increase Critical Hit damage",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      2000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2000
+    ],
+    "script": {},
+    "id": 94136651,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Might of Mortal",
+    "detail": "Increase damage dealt against [Divine]",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136652,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Might of Labrys",
+    "detail": "Increase damage dealt to enemies",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3014,
+      3045,
+      6021
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136653,
+    "buffGroup": 500,
+    "type": 32,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136654,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Twilight",
+    "detail": "Nullify [Sun God's Power] when you are on the field",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3026,
+      2729
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136655,
+    "buffGroup": 0,
+    "type": 8,
+    "name": "Curse",
+    "detail": "Lose HP at end of each turn",
+    "iconId": 521,
+    "maxRate": 0,
+    "effectId": 17123
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136656,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "Activate when Guts Is Triggered",
+    "detail": "Inflict Curse [Demerit] & apply [Light Shining in the Darkness] to yourself when Guts is activated",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136657,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "All-Consuming Light",
+    "detail": "Increase NP damage",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      6022
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136658,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Radiance",
+    "detail": "Nullify [Twilight] when you are on the field",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136659,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect with Attack",
+    "detail": "Inflict Poison to target when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3046
+    ],
+    "tvals": [],
+    "ckSelfIndv": [
+      3011
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136660,
+    "buffGroup": 0,
+    "type": 126,
+    "name": "Corroding Poison",
+    "detail": "Increase Poison effectiveness",
+    "iconId": 545,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136661,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "Double-Bladed Axe",
+    "detail": "Increase ATK",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      2000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2000
+    ],
+    "script": {},
+    "id": 94136662,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Mortal",
+    "detail": "Increase damage dealt against [Divine]",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136663,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "Durable Material",
+    "detail": "Increase DEF",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3081
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136664,
+    "buffGroup": 0,
+    "type": 6,
+    "name": "King",
+    "detail": "Gain C. Stars at the end of each turn",
+    "iconId": 320,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136665,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "King",
+    "detail": "Increase Critical Hit Rate",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3031
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136666,
+    "buffGroup": 0,
+    "type": 18,
+    "name": "Super Technique",
+    "detail": "Increase Critical Hit damage",
+    "iconId": 324,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136667,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "Protection of the Mighty Bull",
+    "detail": "Increase DEF & negate DEF disadvantage due to Class Affinity",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "relationId": 120
+    },
+    "id": 94136668,
+    "buffGroup": 0,
+    "type": 144,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136669,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Demigod",
+    "detail": "Increase resistance to all attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6021
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -6022
+    },
+    "id": 94136670,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6021
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136671,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -6021
+    },
+    "id": 94136672,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Sun God's Power",
+    "detail": "Increase resistance to all attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136673,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "ATK Up",
+    "detail": "Increase ATK <effect increases gradually each turn>",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3085,
+      3040
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003
+    ],
+    "script": {},
+    "id": 94136674,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "Magical Energy Wall: Quick",
+    "detail": "Decrease damage taken from Quick Cards",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3085,
+      3040
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001
+    ],
+    "script": {},
+    "id": 94136675,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "Magical Energy Wall: Arts",
+    "detail": "Decrease damage taken from Arts Cards",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3085,
+      3040
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {},
+    "id": 94136676,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "Magical Energy Wall: Buster",
+    "detail": "Decrease damage taken from Buster Cards",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4003
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94136677,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Magical Energy Barrier",
+    "detail": "Increase resistance against attacks other than Quick attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4001
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94136678,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Magical Energy Barrier",
+    "detail": "Increase resistance against attacks other than Arts attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4002
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94136679,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Magical Energy Barrier",
+    "detail": "Increase resistance against attacks other than Buster attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94136680,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "Quick Buff Writing (Bronze)",
+    "detail": "Increase Quick Card effectiveness for all allies <including sub-members> when defeating an enemy",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94136681,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "Arts Buff Writing (Bronze)",
+    "detail": "Increase Arts Card effectiveness for all allies <including sub-members> when defeating an enemy",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94136682,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "Buster Buff Writing (Bronze)",
+    "detail": "Increase Buster Card effectiveness for all allies <including sub-members> when defeating an enemy",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3085,
+      3040
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4100
+    ],
+    "script": {},
+    "id": 94136683,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "Magical Energy Wall: Critical",
+    "detail": "Decrease damage taken from Critical attacks",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3085,
+      3040
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94136684,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "Magical Energy Wall: NP",
+    "detail": "Decrease damage taken from Noble Phantasm attacks",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3085,
+      3040
+    ],
+    "tvals": [
+      5000,
+      4004
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4004
+    ],
+    "script": {},
+    "id": 94136685,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "Magical Energy Wall: Extra Attack",
+    "detail": "Decrease damage taken from Extra Attacks",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4100
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94136686,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Magical Energy Barrier",
+    "detail": "Increase resistance against attacks other than Critical attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4007
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94136687,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Magical Energy Barrier",
+    "detail": "Increase resistance against attacks other than Noble Phantasm attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -4004
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4004
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94136688,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Magical Energy Barrier",
+    "detail": "Increase resistance against attacks other than Extra attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94136689,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "Critical Buff Writing (Silver)",
+    "detail": "Increase Critical Strength for all allies <including sub-members> + Gain C. Stars when defeating an enemy",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94136690,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "NP Buff Writing (Silver)",
+    "detail": "Increase NP Strength & slightly increase NP Gauge for all allies <including sub-members> when defeating an enemy",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94136691,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "Extra Attack Buff Writing (Silver)",
+    "detail": "Increase Extra Attack Card effectiveness & ATK Strength for all allies <including sub-members> when defeating an enemy",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -4007,
+      -4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4007,
+      -4001
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94136692,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Magical Energy Barrier",
+    "detail": "Increase resistance against attacks other than Arts and Noble Phantasm attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94136693,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "Arts/NP Buff Writing (Gold)",
+    "detail": "Increase Arts Card effectiveness & NP Strength & slightly increase NP Gauge for all allies <including sub-members> when defeating an enemy",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3030
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136694,
+    "buffGroup": 0,
+    "type": 15,
+    "name": "Xian Combine!",
+    "detail": "Increase NP damage",
+    "iconId": 310,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3026,
+      6026
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136695,
+    "buffGroup": 0,
+    "type": 8,
+    "name": "Sunrise Incantation",
+    "detail": "Lose HP at the end of turn <special Curse that ignores resistance>",
+    "iconId": 521,
+    "maxRate": 0,
+    "effectId": 17123
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      6026
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      6026
+    ],
+    "script": {},
+    "id": 94136696,
+    "buffGroup": 0,
+    "type": 11,
+    "name": "Strength Up (Sunrise Incantation)",
+    "detail": "Increase damage dealt to [Sunrise Incantation] enemies",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [
+      6026
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      6026
+    ],
+    "script": {},
+    "id": 94136697,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "DEF Up (Sunrise Incantation)",
+    "detail": "Increase Defense dealt to [Sunrise Incantation] enemies",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000,
+      4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4003
+    ],
+    "script": {},
+    "id": 94136698,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Sunrise Trial (Quick)",
+    "detail": "Remove 2 [Sunrise Incantation] Buffs from a single enemy when sustaining Quick attacks",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000,
+      4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4001
+    ],
+    "script": {},
+    "id": 94136699,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Sunrise Trial (Arts)",
+    "detail": "Remove 2 [Sunrise Incantation] Buffs from a single enemy when sustaining Arts attacks",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005
+    ],
+    "tvals": [
+      5000,
+      4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4002
+    ],
+    "script": {},
+    "id": 94136700,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Sunrise Trial (Buster)",
+    "detail": "Remove 2 [Sunrise Incantation] Buffs from a single enemy when sustaining Buster attacks",
+    "iconId": 525,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136701,
+    "buffGroup": 0,
+    "type": 204,
+    "name": "Sunrise Trial",
+    "detail": "Remove 3 [Sunrise Incantation] Buffs from yourself before damage during Noble Phantasm attacks",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136702,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Vision of High Noon",
+    "detail": "Inflict [Sunrise Incantation] to target when attacking",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136703,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "Dawn Heart",
+    "detail": "Inflict [Sunrise Incantation] to all enemies when Guts is activated",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3033
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136705,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "\"Hmm, my Spirit Origin is slumping!\"",
+    "detail": "Decrease ATK & NP Strength",
+    "iconId": 503,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3085,
+      3040
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -6010
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94136706,
+    "buffGroup": 0,
+    "type": 23,
+    "name": "",
+    "detail": "",
+    "iconId": 301,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3027
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136708,
+    "buffGroup": 0,
+    "type": 9,
+    "name": "Light Shining in the Darkness",
+    "detail": "Increase ATK",
+    "iconId": 300,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -4007,
+      -4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4007,
+      -4003
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94136709,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Magical Energy Barrier",
+    "detail": "Increase resistance against attacks other than Quick and Noble Phantasm attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94136710,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "Quick/NP Buff Writing (Gold)",
+    "detail": "Increase Quick Card effectiveness & NP Strength & slightly increase NP Gauge for all allies <including sub-members> when defeating an enemy",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136711,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Magical Energy Barrier",
+    "detail": "Increase resistance to all attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94136712,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "Flame Writing (Silver)",
+    "detail": "Inflict Burn to Mystic Stone when defeating an enemy",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -4100,
+      -4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4100,
+      -4002
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94136713,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Magical Energy Barrier",
+    "detail": "Increase resistance against attacks other than Buster and Critical attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94136714,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "Buster/Critical Buff Writing (Gold)",
+    "detail": "Increase Buster Card effectiveness & Critical Strength for all allies <including sub-members> + Gain C. Stars when defeating an enemy",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94136715,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "Curse Writing (Silver)",
+    "detail": "Inflict Curse to Mystic Stone when defeating an enemy",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -4100,
+      -4001
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4100,
+      -4001
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94136716,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Magical Energy Barrier",
+    "detail": "Increase resistance against attacks other than Arts and Critical attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94136717,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "Arts/Critical Buff Writing (Gold)",
+    "detail": "Increase Arts Card effectiveness & Critical Strength for all allies <including sub-members> + Gain C. Stars when defeating an enemy",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -4007,
+      -4002
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4007,
+      -4002
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94136718,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Magical Energy Barrier",
+    "detail": "Increase resistance against attacks other than Buster and Noble Phantasm attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94136719,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "Buster/NP Buff Writing (Gold)",
+    "detail": "Increase Buster Card effectiveness & NP Strength & slightly increase NP Gauge for all allies <including sub-members> when defeating an enemy",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      -4100,
+      -4003
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      -4100,
+      -4003
+    ],
+    "script": {
+      "checkIndvType": 2
+    },
+    "id": 94136720,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "Magical Energy Barrier",
+    "detail": "Increase resistance against attacks other than Quick and Critical attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "UnSubStateWhenContinue": 3
+    },
+    "id": 94136721,
+    "buffGroup": 0,
+    "type": 90,
+    "name": "Quick/Critical Buff Writing (Gold)",
+    "detail": "Increase Quick Card effectiveness & Critical Strength for all allies <including sub-members> + Gain C. Stars when defeating an enemy",
+    "iconId": 342,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      6021
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136722,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "",
+    "detail": "",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3060
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": 6026
+    },
+    "id": 94136723,
+    "buffGroup": 0,
+    "type": 7,
+    "name": "Call of the Dragon",
+    "detail": "Recover HP at the end of turn for yourself <Effect increases based on the number of [Wyvern Flock] on the field>",
+    "iconId": 318,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3060
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "ckSelfCountIndividuality": "6026",
+      "ckIndvCountAbove": 2
+    },
+    "id": 94136724,
+    "buffGroup": 0,
+    "type": 7,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94136725,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "",
+    "detail": "",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136726,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "Bone Armor",
+    "detail": "Increase DEF & resistance against Noble Phantasm Attacks",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136727,
+    "buffGroup": 0,
+    "type": 121,
+    "name": "Ignore DEF (Charge Attack)",
+    "detail": "Ignore DEF Up and deal Charge Attack damage",
+    "iconId": 351,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3059,
+      3006
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136728,
+    "buffGroup": 0,
+    "type": 72,
+    "name": "Ignore Invincible (Charge Attack)",
+    "detail": "Ignore Evade and Invincible and deal Charge Attack damage",
+    "iconId": 329,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3020
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "INDIVIDUALITIE": -3024
+    },
+    "id": 94136729,
+    "buffGroup": 900,
+    "type": 34,
+    "name": "Golden Heart",
+    "detail": "Unable to use Noble Phantasms <effect is nullified while Guts is active>",
+    "iconId": 512,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136730,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Bonus Effect with Attack",
+    "detail": "Increase Critical Hit Rate for yourself when attacking",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136731,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "That Curse (Reenacted by the Originator)",
+    "detail": "Inflict Curse to all enemies when attacked",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3028
+    ],
+    "tvals": [
+      3026
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3026
+    ],
+    "script": {},
+    "id": 94136732,
+    "buffGroup": 0,
+    "type": 110,
+    "name": "That Curse (Reenacted by the Originator)",
+    "detail": "Increase damage dealt to [Cursed] enemies",
+    "iconId": 302,
+    "maxRate": 10000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [
+      3026
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      3026
+    ],
+    "script": {},
+    "id": 94136733,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "That Curse (Reenacted by the Originator)",
+    "detail": "Increase resistance against attacks from [Cursed] enemies",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [
+      4007
+    ],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136734,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "Noble Phantasm Bonus Effect",
+    "detail": "Inflict Disastrous Curse to target when attacking with Noble Phantasm",
+    "iconId": 528,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136735,
+    "buffGroup": 0,
+    "type": 10001,
+    "name": "Temple Trap",
+    "detail": "At the start of the enemy's turn, inflict Debuff to the player's Servants in [Evade], [Invincible], or [Anti-Enforcement] state",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3020
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136736,
+    "buffGroup": 0,
+    "type": 34,
+    "name": "Pharaoh's Majesty",
+    "detail": "Unable to use Noble Phantasms & decrease ATK",
+    "iconId": 512,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3033
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136737,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "",
+    "detail": "",
+    "iconId": 503,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006
+    ],
+    "tvals": [
+      5000
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136738,
+    "buffGroup": 0,
+    "type": 170,
+    "name": "God-King's Protection",
+    "detail": "Increase number of actions",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3016
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136739,
+    "buffGroup": 0,
+    "type": 91,
+    "name": "God-King's Protection",
+    "detail": "Increase resistance to all attacks",
+    "iconId": 334,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3008,
+      3033
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136740,
+    "buffGroup": 0,
+    "type": 10,
+    "name": "Self-Esteem/Self-Harm",
+    "detail": "Decrease ATK",
+    "iconId": 503,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3081
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136741,
+    "buffGroup": 0,
+    "type": 6,
+    "name": "One with a Righteous Voice",
+    "detail": "Gain C. Stars at the end of turn",
+    "iconId": 320,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3024
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {
+      "gutsText": ""
+    },
+    "id": 94136742,
+    "buffGroup": 0,
+    "type": 173,
+    "name": "Sun God's Power",
+    "detail": "Recover HP and survive when HP Gauge gets broken",
+    "iconId": 384,
+    "maxRate": 1000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136743,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "Crucible of Cyclops",
+    "detail": "Increase Defense for yourself when attacked <activates once every 2 turns>",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94136744,
+    "buffGroup": 0,
+    "type": 78,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
     "maxRate": 0,
     "effectId": 0
   }
