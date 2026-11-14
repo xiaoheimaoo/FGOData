@@ -209,12 +209,8 @@
       ""
     ],
     "script": {
-      "condSpriteColor": "0xD4B924",
+      "condLabelColor": "0xFFFFFF",
       "fixedCardLimitCounts": [
-        0,
-        0
-      ],
-      "dispMaskTreasureDevices": [
         0,
         0
       ],
@@ -222,7 +218,11 @@
         1,
         1
       ],
-      "condLabelColor": "0xFFFFFF"
+      "condSpriteColor": "0xD4B924",
+      "dispMaskTreasureDevices": [
+        0,
+        0
+      ]
     },
     "svtId": 800100,
     "num": 1,
@@ -248,12 +248,8 @@
       ""
     ],
     "script": {
-      "condSpriteColor": "0xD4B924",
+      "condLabelColor": "0xFFFFFF",
       "fixedCardLimitCounts": [
-        0,
-        0
-      ],
-      "dispMaskTreasureDevices": [
         0,
         0
       ],
@@ -261,7 +257,11 @@
         1,
         1
       ],
-      "condLabelColor": "0xFFFFFF"
+      "condSpriteColor": "0xD4B924",
+      "dispMaskTreasureDevices": [
+        0,
+        0
+      ]
     },
     "svtId": 800100,
     "num": 1,
@@ -335,13 +335,13 @@
       "スキル3解放と同時に宝具が解放されます。"
     ],
     "script": {
-      "dispMaskTreasureDevices": [
-        0,
-        1
-      ],
       "fixedCardLimitCounts": [
         0,
         0
+      ],
+      "dispMaskTreasureDevices": [
+        0,
+        1
       ]
     },
     "svtId": 2300600,
@@ -369,11 +369,11 @@
     ],
     "script": {
       "condIgnoreSealedLimitCount": 1,
-      "dispMaskTreasureDevices": [
+      "fixedCardLimitCounts": [
         0,
         0
       ],
-      "fixedCardLimitCounts": [
+      "dispMaskTreasureDevices": [
         0,
         0
       ]
