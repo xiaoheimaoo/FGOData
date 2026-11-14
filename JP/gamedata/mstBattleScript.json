@@ -8,6 +8,7 @@
   },
   {
     "script": {
+      "eventName": "CHARA_UP",
       "cameraTargetData": [
         {
           "targetType": 2,
@@ -17,8 +18,7 @@
           "targetNodeName": "en_Head",
           "setVariableName": "Target_Actor"
         }
-      ],
-      "eventName": "CHARA_UP"
+      ]
     },
     "id": 94151200,
     "playOrder": 2,
@@ -63,6 +63,7 @@
   },
   {
     "script": {
+      "eventName": "CHARA_UP",
       "cameraTargetData": [
         {
           "targetType": 2,
@@ -72,8 +73,7 @@
           "targetNodeName": "en_Head",
           "setVariableName": "Target_Actor"
         }
-      ],
-      "eventName": "CHARA_UP"
+      ]
     },
     "id": 94151201,
     "playOrder": 2,
@@ -91,8 +91,8 @@
   },
   {
     "script": {
-      "dispTime": 3060,
-      "messageText": "「攻め時だ。ぞんぶんにやるがいい」"
+      "messageText": "「攻め時だ。ぞんぶんにやるがいい」",
+      "dispTime": 3060
     },
     "id": 94151201,
     "playOrder": 2,
@@ -141,6 +141,7 @@
   },
   {
     "script": {
+      "eventName": "CHARA_UP",
       "cameraTargetData": [
         {
           "targetType": 2,
@@ -150,8 +151,7 @@
           "targetNodeName": "en_Head",
           "setVariableName": "Target_Actor"
         }
-      ],
-      "eventName": "CHARA_UP"
+      ]
     },
     "id": 94151202,
     "playOrder": 2,
@@ -169,8 +169,8 @@
   },
   {
     "script": {
-      "dispTime": 2770,
-      "messageText": "「聖剣、抜刀―――」"
+      "messageText": "「聖剣、抜刀―――」",
+      "dispTime": 2770
     },
     "id": 94151202,
     "playOrder": 2,
@@ -208,6 +208,7 @@
   },
   {
     "script": {
+      "eventName": "CHARA_UP",
       "cameraTargetData": [
         {
           "targetType": 2,
@@ -217,8 +218,7 @@
           "targetNodeName": "en_Head",
           "setVariableName": "Target_Actor"
         }
-      ],
-      "eventName": "CHARA_UP"
+      ]
     },
     "id": 94151203,
     "playOrder": 2,
@@ -236,8 +236,8 @@
   },
   {
     "script": {
-      "dispTime": 3060,
-      "messageText": "「霊基の欠片ぐらいは残してやれ」"
+      "messageText": "「霊基の欠片ぐらいは残してやれ」",
+      "dispTime": 3060
     },
     "id": 94151203,
     "playOrder": 2,
@@ -485,12 +485,12 @@
   },
   {
     "script": {
+      "aiActId": 94152104,
       "aiScript": {
         "cameraIds": [
           2
         ]
-      },
-      "aiActId": 94152104
+      }
     },
     "id": 94152100,
     "playOrder": 6,
@@ -499,13 +499,13 @@
   },
   {
     "script": {
+      "aiActId": 94152103,
       "aiScript": {
         "motionIds": [
           130,
           136
         ]
-      },
-      "aiActId": 94152103
+      }
     },
     "id": 94152100,
     "playOrder": 7,
@@ -557,12 +557,12 @@
   },
   {
     "script": {
+      "aiActId": 94152104,
       "aiScript": {
         "cameraIds": [
           3
         ]
-      },
-      "aiActId": 94152104
+      }
     },
     "id": 94152101,
     "playOrder": 5,
@@ -571,13 +571,13 @@
   },
   {
     "script": {
+      "aiActId": 94152103,
       "aiScript": {
         "motionIds": [
           131,
           136
         ]
-      },
-      "aiActId": 94152103
+      }
     },
     "id": 94152101,
     "playOrder": 6,
@@ -629,12 +629,12 @@
   },
   {
     "script": {
+      "aiActId": 94152104,
       "aiScript": {
         "cameraIds": [
           4
         ]
-      },
-      "aiActId": 94152104
+      }
     },
     "id": 94152102,
     "playOrder": 5,
@@ -643,13 +643,13 @@
   },
   {
     "script": {
+      "aiActId": 94152103,
       "aiScript": {
         "motionIds": [
           132,
           136
         ]
-      },
-      "aiActId": 94152103
+      }
     },
     "id": 94152102,
     "playOrder": 6,
@@ -701,12 +701,12 @@
   },
   {
     "script": {
+      "aiActId": 94152104,
       "aiScript": {
         "cameraIds": [
           5
         ]
-      },
-      "aiActId": 94152104
+      }
     },
     "id": 94152103,
     "playOrder": 5,
@@ -715,13 +715,13 @@
   },
   {
     "script": {
+      "aiActId": 94152103,
       "aiScript": {
         "motionIds": [
           133,
           136
         ]
-      },
-      "aiActId": 94152103
+      }
     },
     "id": 94152103,
     "playOrder": 6,
@@ -773,12 +773,12 @@
   },
   {
     "script": {
+      "aiActId": 94152104,
       "aiScript": {
         "cameraIds": [
           6
         ]
-      },
-      "aiActId": 94152104
+      }
     },
     "id": 94152104,
     "playOrder": 5,
@@ -787,13 +787,13 @@
   },
   {
     "script": {
+      "aiActId": 94152103,
       "aiScript": {
         "motionIds": [
           134,
           136
         ]
-      },
-      "aiActId": 94152103
+      }
     },
     "id": 94152104,
     "playOrder": 6,
@@ -845,12 +845,12 @@
   },
   {
     "script": {
+      "aiActId": 94152104,
       "aiScript": {
         "cameraIds": [
           7
         ]
-      },
-      "aiActId": 94152104
+      }
     },
     "id": 94152105,
     "playOrder": 5,
@@ -859,13 +859,13 @@
   },
   {
     "script": {
+      "aiActId": 94152103,
       "aiScript": {
         "motionIds": [
           135,
           136
         ]
-      },
-      "aiActId": 94152103
+      }
     },
     "id": 94152105,
     "playOrder": 6,
@@ -2622,8 +2622,8 @@
   },
   {
     "script": {
-      "fov": 50,
-      "eventName": "CAMERA_END"
+      "eventName": "CAMERA_END",
+      "fov": 50
     },
     "id": 94153900,
     "playOrder": 2,
@@ -2651,8 +2651,8 @@
   },
   {
     "script": {
-      "fov": 50,
-      "eventName": "CAMERA_END"
+      "eventName": "CAMERA_END",
+      "fov": 50
     },
     "id": 94153901,
     "playOrder": 2,
@@ -2678,6 +2678,7 @@
   },
   {
     "script": {
+      "eventName": "CHARA_UP",
       "cameraTargetData": [
         {
           "targetType": 2,
@@ -2687,8 +2688,7 @@
           "targetNodeName": "en_Head",
           "setVariableName": "Target_Actor"
         }
-      ],
-      "eventName": "CHARA_UP"
+      ]
     },
     "id": 94154401,
     "playOrder": 2,
@@ -2697,8 +2697,8 @@
   },
   {
     "script": {
-      "dispTime": 2000,
-      "messageText": "お母様が連れ去られてしまった…"
+      "messageText": "お母様が連れ去られてしまった…",
+      "dispTime": 2000
     },
     "id": 94154401,
     "playOrder": 3,
@@ -2948,8 +2948,8 @@
   },
   {
     "script": {
-      "dispTime": 2000,
-      "messageText": "「さあ、やり直しましょう」"
+      "messageText": "「さあ、やり直しましょう」",
+      "dispTime": 2000
     },
     "id": 94156602,
     "playOrder": 2,
@@ -3806,8 +3806,8 @@
   },
   {
     "script": {
-      "dispTime": 2000,
-      "messageText": "「もうおなかいっぱいですか…？」"
+      "messageText": "「もうおなかいっぱいですか…？」",
+      "dispTime": 2000
     },
     "id": 94159501,
     "playOrder": 1,
@@ -3859,8 +3859,8 @@
   },
   {
     "script": {
-      "dispTime": 2000,
-      "messageText": "「私が運んだ料理が食べられないっていうの？」"
+      "messageText": "「私が運んだ料理が食べられないっていうの？」",
+      "dispTime": 2000
     },
     "id": 94159502,
     "playOrder": 1,
@@ -3912,8 +3912,8 @@
   },
   {
     "script": {
-      "dispTime": 2000,
-      "messageText": "「もうおなかいっぱいですか…？」"
+      "messageText": "「もうおなかいっぱいですか…？」",
+      "dispTime": 2000
     },
     "id": 94159503,
     "playOrder": 1,
@@ -3922,8 +3922,8 @@
   },
   {
     "script": {
-      "dispTime": 2000,
-      "messageText": "「私が運んだ料理が食べられないっていうの？」"
+      "messageText": "「私が運んだ料理が食べられないっていうの？」",
+      "dispTime": 2000
     },
     "id": 94159503,
     "playOrder": 3,
@@ -3964,8 +3964,8 @@
   },
   {
     "script": {
-      "dispTime": 2000,
-      "messageText": "「やっぱデザートにカツ丼は重たいかー」"
+      "messageText": "「やっぱデザートにカツ丼は重たいかー」",
+      "dispTime": 2000
     },
     "id": 94159504,
     "playOrder": 1,
@@ -3984,8 +3984,8 @@
   },
   {
     "script": {
-      "dispTime": 2000,
-      "messageText": "「おまたせしまちた！　お飲み物をどうぞでち！」"
+      "messageText": "「おまたせしまちた！　お飲み物をどうぞでち！」",
+      "dispTime": 2000
     },
     "id": 94159504,
     "playOrder": 4,
@@ -3994,8 +3994,8 @@
   },
   {
     "script": {
-      "dispTime": 3000,
-      "messageText": "司令塔エネミーを倒した！"
+      "messageText": "司令塔エネミーを倒した！",
+      "dispTime": 3000
     },
     "id": 94160900,
     "playOrder": 1,
@@ -4042,8 +4042,8 @@
   },
   {
     "script": {
-      "dispTime": 3000,
-      "messageText": "ジキルがジャックを引き付け\nバーヴァン・シー？を攻撃できるようになった！"
+      "messageText": "ジキルがジャックを引き付け\nバーヴァン・シー？を攻撃できるようになった！",
+      "dispTime": 3000
     },
     "id": 94160901,
     "playOrder": 3,
@@ -4070,8 +4070,8 @@
   },
   {
     "script": {
-      "dispTime": 3000,
-      "messageText": "渡辺綱がジャックを引き付け\nバーヴァン・シー？を攻撃できるようになった！"
+      "messageText": "渡辺綱がジャックを引き付け\nバーヴァン・シー？を攻撃できるようになった！",
+      "dispTime": 3000
     },
     "id": 94160902,
     "playOrder": 3,
@@ -4098,8 +4098,8 @@
   },
   {
     "script": {
-      "dispTime": 3000,
-      "messageText": "ツタンカーメンがジャックを引き付け\nバーヴァン・シー？を攻撃できるようになった！"
+      "messageText": "ツタンカーメンがジャックを引き付け\nバーヴァン・シー？を攻撃できるようになった！",
+      "dispTime": 3000
     },
     "id": 94160903,
     "playOrder": 3,
@@ -4126,8 +4126,8 @@
   },
   {
     "script": {
-      "dispTime": 3000,
-      "messageText": "ジャックが守っていて\nバーヴァン・シー？を攻撃できない！"
+      "messageText": "ジャックが守っていて\nバーヴァン・シー？を攻撃できない！",
+      "dispTime": 3000
     },
     "id": 94160904,
     "playOrder": 3,
