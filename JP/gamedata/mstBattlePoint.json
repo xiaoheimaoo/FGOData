@@ -1,7 +1,7 @@
 [
   {
     "script": {
-      "defaultMax": 4,
+      "maxLimit": 12,
       "priorityDisplayRules": [
         {
           "type": "SKILL_DIALOG",
@@ -21,6 +21,7 @@
           "targetType": 1
         }
       ],
+      "defaultMax": 4,
       "maxChange": [
         {
           "individuality": [
@@ -28,8 +29,7 @@
           ],
           "value": 8
         }
-      ],
-      "maxLimit": 12
+      ]
     },
     "id": 705300,
     "name": "まんぷくゲージ",
