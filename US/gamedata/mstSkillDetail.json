@@ -1061,8 +1061,8 @@
   },
   {
     "id": 72550,
-    "detail": "Remove Debuffs & increase Debuff Resist for yourself [{0}] (3 turns)",
-    "detailShort": "Remove Debuffs & increase Debuff Resist for yourself [{0}] (3 turns)"
+    "detail": "Remove Debuffs & greatly increase Debuff Resist for yourself [{0}] (3 turns)",
+    "detailShort": "Remove Debuffs & greatly increase Debuff Resist for yourself [{0}] (3 turns)"
   },
   {
     "id": 73650,
@@ -3706,13 +3706,13 @@
   },
   {
     "id": 430450,
-    "detail": "Increase NP Gauge [{0}] & C. Star Drop Rate (3 turns) for one ally",
-    "detailShort": "Increase NP Gauge [{0}] & C. Star Drop Rate (3 turns) for one ally"
+    "detail": "Increase NP Gauge [{0}] & C. Star Drop Rate (3 turns) for a single ally",
+    "detailShort": "Increase NP Gauge [{0}] & C. Star Drop Rate (3 turns) for a single ally"
   },
   {
     "id": 431450,
-    "detail": "Increase NP Strength [{0}] (1 turn) & Critical Strength [{0}] (1 turn) for one ally",
-    "detailShort": "Increase NP Strength [{0}] (1 turn) & Critical Strength [{0}] (1 turn) for one ally"
+    "detail": "Increase NP Strength [{0}] (1 turn) & Critical Strength [{0}] (1 turn) for a single ally",
+    "detailShort": "Increase NP Strength [{0}] (1 turn) & Critical Strength [{0}] (1 turn) for a single ally"
   },
   {
     "id": 432650,
@@ -5301,8 +5301,8 @@
   },
   {
     "id": 712550,
-    "detail": "Apply [Living Flame] state where [Decrease DEF (3 turns) and inflict Burn [{0}] (3 turns) to a single enemy when damaged (3 times, 3 turns)] & increase DEF [{0}] (3 turns) for yourself",
-    "detailShort": "Apply [Living Flame] state where [Decrease DEF (3 turns) and inflict Burn [{0}] (3 turns) to a single enemy when damaged (3 times, 3 turns)] & increase DEF [{0}] (3 turns) for yourself"
+    "detail": "Apply a [Living Flame] state that \"decreases DEF (3 turns) and inflicts Burn [{0}] (3 turns) to a single enemy when damaged\" (3 times, 3 turns) & increase DEF [{0}] (3 turns) for yourself",
+    "detailShort": "Apply a [Living Flame] state that \"decreases DEF (3 turns) and inflicts Burn [{0}] (3 turns) to a single enemy when damaged\" (3 times, 3 turns) & increase DEF [{0}] (3 turns) for yourself"
   },
   {
     "id": 713550,
@@ -24756,8 +24756,8 @@
   },
   {
     "id": 993249,
-    "detail": "Increase Buster Card effectiveness by 10% & Critical Strength by 20% for all allies only if [servantName 105400] is equipped with this Craft Essence when she is on the field or if she has the [Sunlight] trait",
-    "detailShort": "Increase Buster Card effectiveness by 10% & Critical Strength by 20% for all allies only if [servantName 105400] is equipped with this Craft Essence when she is on the field or if she has the [Sunlight] trait"
+    "detail": "Increase Buster Card effectiveness by 10% & Critical Strength by 20% for all allies only if [servantName 105400] is equipped with this Craft Essence when she is on the field, and only if it is a [Sunlight] field",
+    "detailShort": "Increase Buster Card effectiveness by 10% & Critical Strength by 20% for all allies only if [servantName 105400] is equipped with this Craft Essence when she is on the field, and only if it is a [Sunlight] field"
   },
   {
     "id": 993250,
@@ -30320,6 +30320,16 @@
     "detailShort": "Increase Craft Wood, Craft Stone, and Craft Metal amount per drop by 2 [MAX] [Event Only]"
   },
   {
+    "id": 994512,
+    "detail": "Increase Class Bond gained by 4% when completing a quest for [Rider] Servants",
+    "detailShort": "Increase Class Bond gained by 4% when completing a quest for [Rider] Servants"
+  },
+  {
+    "id": 994513,
+    "detail": "Increase Class Bond gained by 20% when completing a quest for [Rider] Servants [MAX]",
+    "detailShort": "Increase Class Bond gained by 20% when completing a quest for [Rider] Servants [MAX]"
+  },
+  {
     "id": 994528,
     "detail": "Increase Buster Card Critical Strength by 30% for all allies only if [servantName 106100] (Saber) is equipped with this Craft Essence when he is on the field",
     "detailShort": "Increase Buster Card Critical Strength by 30% for all allies only if [servantName 106100] (Saber) is equipped with this Craft Essence when he is on the field"
@@ -30573,6 +30583,11 @@
     "id": 2034650,
     "detail": "Increase NP Gauge [{0}] for yourself + Increase NP Gain [{0}] (3 turns) & Critical Resistance [{0}] (3 turns) for all allies",
     "detailShort": "Increase NP Gauge [{0}] for yourself + Increase NP Gain [{0}] (3 turns) & Critical Resistance [{0}] (3 turns) for all allies"
+  },
+  {
+    "id": 2034900,
+    "detail": "Increase NP Gauge [{0}] for yourself + Increase NP Gain [{0}] (3 turns) & Critical Resistance [{0}] (3 turns) & Buff Removal Resistance [{0}] (1 time, 3 turns) [g][o]▲[/o][/g] & NP Charge by 1 level when using NP (1 time, 3 turns) [g][o]▲[/o][/g] for all allies",
+    "detailShort": "Increase NP Gauge [{0}] for yourself + Increase NP Gain [{0}] (3 turns) & Critical Resistance [{0}] (3 turns) & Buff Removal Resistance [{0}] (1 time, 3 turns) [g][o]▲[/o][/g] & NP Charge by 1 level when using NP (1 time, 3 turns) [g][o]▲[/o][/g] for all allies"
   },
   {
     "id": 2035550,
@@ -32593,6 +32608,11 @@
     "id": 2436350,
     "detail": "Increase Max HP [{0}] (3 turns) & NP Gauge [{0}] for yourself + Gain C. Stars [{0}] + Gain C. Stars when on a [City] field",
     "detailShort": "Increase Max HP [{0}] (3 turns) & NP Gauge [{0}] for yourself + Gain C. Stars [{0}] + Gain C. Stars when on a [City] field"
+  },
+  {
+    "id": 2438650,
+    "detail": "Apply Guts [{0}] (1 time, 3 turns) & a state that \"increases NP Gauge [{0}] for all allies when Guts is activated\" (1 time, 3 turns) [g][o]▲[/o][/g] & increase C. Star Gather Rate [{0}] (1 turn) for yourself + Gain C. Stars [{0}]",
+    "detailShort": "Apply Guts [{0}] (1 time, 3 turns) & a state that \"increases NP Gauge [{0}] for all allies when Guts is activated\" (1 time, 3 turns) [g][o]▲[/o][/g] & increase C. Star Gather Rate [{0}] (1 turn) for yourself + Gain C. Stars [{0}]"
   },
   {
     "id": 2452550,

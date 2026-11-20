@@ -84224,6 +84224,30 @@
   {
     "vals": [
       3004,
+      3007,
+      3040,
+      3058
+    ],
+    "tvals": [
+      2004
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      2004
+    ],
+    "script": {},
+    "id": 5743,
+    "buffGroup": 0,
+    "type": 42,
+    "name": "DEF Up [Roman]",
+    "detail": "Increase DEF against [Roman]",
+    "iconId": 301,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
       3061
     ],
     "tvals": [
@@ -84498,6 +84522,40 @@
     "name": "Activate on Defeat",
     "detail": "Increase NP Gauge for all allies when you are defeated",
     "iconId": 350,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5764,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "Activate when Guts is Triggered",
+    "detail": "Increase NP Gauge for all allies when Guts is activated",
+    "iconId": 365,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 5765,
+    "buffGroup": 0,
+    "type": 149,
+    "name": "Activate when Guts is Triggered",
+    "detail": "Increase Charge for all allies when Guts is activated",
+    "iconId": 365,
     "maxRate": 0,
     "effectId": 0
   },
@@ -128433,6 +128491,153 @@
     "name": "",
     "detail": "",
     "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94137900,
+    "buffGroup": 0,
+    "type": 137,
+    "name": "",
+    "detail": "",
+    "iconId": 333,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004,
+      3006,
+      3032
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94137902,
+    "buffGroup": 0,
+    "type": 70,
+    "name": "Critical Hit Rate Up",
+    "detail": "As HP gets lower, Critical Hit Rate increases",
+    "iconId": 327,
+    "maxRate": 5000,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94137903,
+    "buffGroup": 0,
+    "type": 76,
+    "name": "Delayed Effect",
+    "detail": "Apply Invincible for yourself at the end of turn",
+    "iconId": 331,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4007
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4007
+    ],
+    "script": {},
+    "id": 94137904,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [
+      5000,
+      4100
+    ],
+    "ckSelfIndv": [],
+    "ckOpIndv": [
+      4100
+    ],
+    "script": {},
+    "id": 94137905,
+    "buffGroup": 0,
+    "type": 86,
+    "name": "",
+    "detail": "",
+    "iconId": 0,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3004
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94137906,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Rage at the Sea God",
+    "detail": "Change Class to [Berserker]",
+    "iconId": 520,
+    "maxRate": 0,
+    "effectId": 0
+  },
+  {
+    "vals": [
+      3005,
+      3023
+    ],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94137907,
+    "buffGroup": 0,
+    "type": 38,
+    "name": "Target Focused",
+    "detail": "Increase likelihood of being targeted by enemies (treated as debuff)",
+    "iconId": 323,
+    "maxRate": 50000,
+    "effectId": 0
+  },
+  {
+    "vals": [],
+    "tvals": [],
+    "ckSelfIndv": [],
+    "ckOpIndv": [],
+    "script": {},
+    "id": 94137908,
+    "buffGroup": 0,
+    "type": 40,
+    "name": "Apply Trait (Roman)",
+    "detail": "Apply [Roman] trait",
+    "iconId": 360,
     "maxRate": 0,
     "effectId": 0
   }
