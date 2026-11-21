@@ -7499,9 +7499,9 @@
       2
     ],
     "script": {
+      "coinRoomCheck": 1,
       "cameraActionId": 400,
-      "HideInAnimNode": "en_body",
-      "coinRoomCheck": 1
+      "HideInAnimNode": "en_body"
     },
     "id": 204100,
     "baseSvtId": 204100,
@@ -11854,9 +11854,9 @@
       2
     ],
     "script": {
+      "coinRoomCheck": 1,
       "cameraActionId": 467,
-      "HideInAnimNode": "en_body",
-      "coinRoomCheck": 1
+      "HideInAnimNode": "en_body"
     },
     "id": 304900,
     "baseSvtId": 304900,
@@ -12822,8 +12822,8 @@
     ],
     "script": {
       "cameraActionId": 687,
-      "supportLimitCountToDispLimitCount": 1,
-      "isRegistFirstGetTime": 1
+      "isRegistFirstGetTime": 1,
+      "supportLimitCountToDispLimitCount": 1
     },
     "id": 306200,
     "baseSvtId": 306200,
@@ -21114,7 +21114,6 @@
       2
     ],
     "script": {
-      "cameraActionId": 650,
       "transformInfo": {
         "saveTransform": 505700,
         "saveTransformDefault": 505600,
@@ -21124,6 +21123,7 @@
         "isNotSkillChange": 1,
         "isNotProfileParameterChange": 1
       },
+      "cameraActionId": 650,
       "assumedEffectId": [
         5056001
       ]
@@ -21195,7 +21195,6 @@
       2
     ],
     "script": {
-      "cameraActionId": 651,
       "transformInfo": {
         "saveTransform": 505600,
         "saveTransformDefault": 505600,
@@ -21205,6 +21204,7 @@
         "isNotSkillChange": 1,
         "isNotProfileParameterChange": 1
       },
+      "cameraActionId": 651,
       "assumedEffectId": [
         5056001
       ]
@@ -28815,8 +28815,8 @@
       2
     ],
     "script": {
-      "SkillRankUp": "[[2656550,2656575,2656600,2656625,2656650,2656675,2656700],[2655650],[2657650]]",
-      "cameraActionId": 1021
+      "cameraActionId": 1021,
+      "SkillRankUp": "[[2656550,2656575,2656600,2656625,2656650,2656675,2656700],[2655650],[2657650]]"
     },
     "id": 705300,
     "baseSvtId": 705300,
@@ -29087,7 +29087,13 @@
       2
     ],
     "script": {
+      "SkillRankUp": "[[2476450],[2550,2477450],[133550]]",
       "cameraActionId": 287,
+      "lvLimitUpCondMaterial": [
+        90,
+        3001009,
+        1
+      ],
       "costumeCondInMaxLimitCount": [
         17,
         4000529,
@@ -29099,13 +29105,7 @@
         3000124,
         3
       ],
-      "supportLimitCountToDispLimitCount": 1,
-      "SkillRankUp": "[[2476450],[2550,2477450],[133550]]",
-      "lvLimitUpCondMaterial": [
-        90,
-        3001009,
-        1
-      ]
+      "supportLimitCountToDispLimitCount": 1
     },
     "id": 800100,
     "baseSvtId": 800100,
@@ -29168,7 +29168,13 @@
       2
     ],
     "script": {
+      "SkillRankUp": "[[2476450],[2550,2477450],[133550]]",
       "cameraActionId": 287,
+      "lvLimitUpCondMaterial": [
+        90,
+        3001009,
+        1
+      ],
       "costumeCondInMaxLimitCount": [
         17,
         4000529,
@@ -29180,13 +29186,7 @@
         3000124,
         3
       ],
-      "supportLimitCountToDispLimitCount": 1,
-      "SkillRankUp": "[[2476450],[2550,2477450],[133550]]",
-      "lvLimitUpCondMaterial": [
-        90,
-        3001009,
-        1
-      ]
+      "supportLimitCountToDispLimitCount": 1
     },
     "id": 800101,
     "baseSvtId": 800101,
@@ -29249,7 +29249,13 @@
       2
     ],
     "script": {
+      "SkillRankUp": "[[2476450],[2550,2477450],[133550]]",
       "cameraActionId": 287,
+      "lvLimitUpCondMaterial": [
+        90,
+        3001009,
+        1
+      ],
       "costumeCondInMaxLimitCount": [
         17,
         4000529,
@@ -29261,13 +29267,7 @@
         3000124,
         3
       ],
-      "supportLimitCountToDispLimitCount": 1,
-      "SkillRankUp": "[[2476450],[2550,2477450],[133550]]",
-      "lvLimitUpCondMaterial": [
-        90,
-        3001009,
-        1
-      ]
+      "supportLimitCountToDispLimitCount": 1
     },
     "id": 800102,
     "baseSvtId": 800102,
@@ -30851,8 +30851,8 @@
       2
     ],
     "script": {
-      "cameraActionId": 647,
       "limitCountUpResultServantLimitCount": 1,
+      "cameraActionId": 647,
       "isRegistFirstGetTime": 1
     },
     "id": 901900,
@@ -31564,9 +31564,9 @@
       2
     ],
     "script": {
+      "battleHeight": 6000,
       "cameraActionId": 330,
-      "HideInAnimNode": "en_body",
-      "battleHeight": 6000
+      "HideInAnimNode": "en_body"
     },
     "id": 1000900,
     "baseSvtId": 1000900,
@@ -31713,8 +31713,8 @@
       2
     ],
     "script": {
-      "cameraActionId": 479,
       "svtBuffTurnExtend": 1,
+      "cameraActionId": 479,
       "HideInAnimNode": "en_Head"
     },
     "id": 1001100,
@@ -32405,10 +32405,10 @@
       2
     ],
     "script": {
+      "cameraActionId": 696,
       "assumedEffectId": [
         10020001
-      ],
-      "cameraActionId": 696
+      ]
     },
     "id": 1002000,
     "baseSvtId": 1002000,
@@ -32554,10 +32554,10 @@
       2
     ],
     "script": {
+      "cameraActionId": 697,
       "assumedEffectId": [
         10020002
-      ],
-      "cameraActionId": 697
+      ]
     },
     "id": 1002100,
     "baseSvtId": 1002100,
@@ -34296,12 +34296,12 @@
       2
     ],
     "script": {
-      "cameraActionId": 1024,
       "voiceEffect": 1,
-      "battleHeight": 10000,
+      "cameraActionId": 1024,
       "assumedEffectId": [
         4001031
-      ]
+      ],
+      "battleHeight": 10000
     },
     "id": 1102300,
     "baseSvtId": 1102300,
@@ -34711,8 +34711,8 @@
       2
     ],
     "script": {
-      "SkillRankUp": "[[767650],[682450,964647,964648,964648,964648],[768550,964649,964650,964650,964650]]",
-      "cameraActionId": 412
+      "cameraActionId": 412,
+      "SkillRankUp": "[[767650],[682450,964647,964648,964648,964648],[768550,964649,964650,964650,964650]]"
     },
     "id": 2300400,
     "baseSvtId": 2300400,
@@ -34850,11 +34850,6 @@
       2
     ],
     "script": {
-      "cameraActionId": 611,
-      "tdSeqUnitCond": [
-        40153902,
-        40153901
-      ],
       "battleVoiceSet": {
         "ids": [
           1,
@@ -34865,6 +34860,11 @@
           50
         ]
       },
+      "tdSeqUnitCond": [
+        40153902,
+        40153901
+      ],
+      "cameraActionId": 611,
       "HideInAnimNode": "en_body",
       "assumedEffectId": [
         23006001
@@ -34932,8 +34932,8 @@
       2
     ],
     "script": {
-      "cameraActionId": 614,
-      "notSamePartyKey": 2301200
+      "notSamePartyKey": 2301200,
+      "cameraActionId": 614
     },
     "id": 2300700,
     "baseSvtId": 2300700,
@@ -34997,8 +34997,8 @@
       2
     ],
     "script": {
-      "cameraActionId": 615,
-      "notSamePartyKey": 2301200
+      "notSamePartyKey": 2301200,
+      "cameraActionId": 615
     },
     "id": 2300800,
     "baseSvtId": 2300800,
@@ -35279,8 +35279,8 @@
       2
     ],
     "script": {
-      "cameraActionId": 1026,
       "voiceEffect": 1,
+      "cameraActionId": 1026,
       "battleHeight": 10000
     },
     "id": 2301200,
@@ -36411,10 +36411,10 @@
       2
     ],
     "script": {
+      "cameraActionId": 601,
       "assumedEffectId": [
         25014001
-      ],
-      "cameraActionId": 601
+      ]
     },
     "id": 2501400,
     "baseSvtId": 2501400,
@@ -36481,10 +36481,10 @@
       2
     ],
     "script": {
+      "cameraActionId": 602,
       "assumedEffectId": [
         25014001
-      ],
-      "cameraActionId": 602
+      ]
     },
     "id": 2501500,
     "baseSvtId": 2501500,
@@ -191302,9 +191302,9 @@
       2
     ],
     "script": {
+      "battleHeight": 6000,
       "cameraActionId": 330,
-      "HideInAnimNode": "en_Head",
-      "battleHeight": 6000
+      "HideInAnimNode": "en_Head"
     },
     "id": 9941810,
     "baseSvtId": 9941810,
@@ -213186,11 +213186,11 @@
       3
     ],
     "script": {
-      "cameraActionId": 994,
       "AddWeakCardIds": [
         21,
         22
       ],
+      "cameraActionId": 994,
       "AddWeakCardWeights": [
         0,
         0
@@ -215235,8 +215235,8 @@
       2
     ],
     "script": {
-      "cameraActionId": 2021,
-      "svtBuffTurnExtend": 1
+      "svtBuffTurnExtend": 1,
+      "cameraActionId": 2021
     },
     "id": 9945940,
     "baseSvtId": 9945940,
@@ -218236,10 +218236,10 @@
       2
     ],
     "script": {
+      "cameraActionId": 2076,
       "assumedEffectId": [
         4001020
-      ],
-      "cameraActionId": 2076
+      ]
     },
     "id": 9946430,
     "baseSvtId": 9946430,
@@ -220509,11 +220509,11 @@
       3
     ],
     "script": {
-      "cameraActionId": 2106,
       "AddWeakCardIds": [
         21,
         22
       ],
+      "cameraActionId": 2106,
       "AddWeakCardWeights": [
         0,
         0
@@ -225188,10 +225188,10 @@
       2
     ],
     "script": {
+      "cameraActionId": 2200,
       "assumedEffectId": [
         5056001
-      ],
-      "cameraActionId": 2200
+      ]
     },
     "id": 9947720,
     "baseSvtId": 9947720,
@@ -227347,9 +227347,9 @@
       3
     ],
     "script": {
+      "battleHeight": 380,
       "cameraActionId": 2218,
-      "defaultDeadType": 8,
-      "battleHeight": 380
+      "defaultDeadType": 8
     },
     "id": 9948080,
     "baseSvtId": 9948080,
@@ -227401,9 +227401,9 @@
       3
     ],
     "script": {
+      "battleHeight": 380,
       "cameraActionId": 2218,
-      "defaultDeadType": 8,
-      "battleHeight": 380
+      "defaultDeadType": 8
     },
     "id": 9948090,
     "baseSvtId": 9948090,
@@ -227455,9 +227455,9 @@
       3
     ],
     "script": {
+      "battleHeight": 380,
       "cameraActionId": 2218,
-      "defaultDeadType": 8,
-      "battleHeight": 380
+      "defaultDeadType": 8
     },
     "id": 9948100,
     "baseSvtId": 9948100,
@@ -227509,9 +227509,9 @@
       3
     ],
     "script": {
+      "battleHeight": 380,
       "cameraActionId": 2218,
-      "defaultDeadType": 8,
-      "battleHeight": 380
+      "defaultDeadType": 8
     },
     "id": 9948110,
     "baseSvtId": 9948110,
@@ -227565,9 +227565,9 @@
       3
     ],
     "script": {
+      "battleHeight": 3100,
       "cameraActionId": 2219,
-      "defaultDeadType": 8,
-      "battleHeight": 3100
+      "defaultDeadType": 8
     },
     "id": 9948120,
     "baseSvtId": 9948120,
@@ -227621,9 +227621,9 @@
       3
     ],
     "script": {
+      "battleHeight": 3100,
       "cameraActionId": 2219,
-      "defaultDeadType": 8,
-      "battleHeight": 3100
+      "defaultDeadType": 8
     },
     "id": 9948130,
     "baseSvtId": 9948130,
@@ -227677,9 +227677,9 @@
       3
     ],
     "script": {
+      "battleHeight": 3100,
       "cameraActionId": 2219,
-      "defaultDeadType": 8,
-      "battleHeight": 3100
+      "defaultDeadType": 8
     },
     "id": 9948140,
     "baseSvtId": 9948140,
@@ -227733,9 +227733,9 @@
       3
     ],
     "script": {
+      "battleHeight": 3100,
       "cameraActionId": 2219,
-      "defaultDeadType": 8,
-      "battleHeight": 3100
+      "defaultDeadType": 8
     },
     "id": 9948150,
     "baseSvtId": 9948150,
